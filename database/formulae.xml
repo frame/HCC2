@@ -1,0 +1,78 @@
+<formulas>
+	<!-- Temp Data -->
+  <item>
+    <item-name>Focused Azulyte Crystal</item-name>
+    <tier>
+      <tier-name>Focused Crimson Azulyte Crystal</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Processed from unfocused crimson azulyte, this crystal is used in trade skills.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Unfocused Crimson Azulyte Crystal</resource-name>
+          <resource-skill>Crystalshaping</resource-skill>
+          <resource-min amount="5">800</resource-min>
+          <resource-opt amount="2">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Focused Violet Azulyte Crystal</tier-name>
+      <tier-lvl>6</tier-lvl>
+      <tier-desc>Processed from unfocused violet azulyte, this crystal is used in trade skills.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Unfocused Violet Azulyte Crystal</resource-name>
+          <resource-skill>Crystalshaping</resource-skill>
+          <resource-min amount="5">1000</resource-min>
+          <resource-opt amount="2">1325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <!-- Proper data -->
+  <item>
+    <item-name>Fabric Spool</item-name>
+    <tier>
+      <tier-name>Steelsilk Spool</tier-name>
+      <tier-lvl>6</tier-lvl>
+      <tier-desc>Threaded steelsilk wound on a spool, used in trade skills.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Unspun Steelsilk</resource-name>
+          <resource-skill>Spinning</resource-skill>
+          <resource-min amount="5">1200</resource-min>
+          <resource-opt amount="2">1600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gift of Alacrity</item-name>
+    <item-attributes>
+      <item-attribute type="effectDuration">02:00:00</item-attribute>
+    </item-attributes>
+  </item>
+  <item>
+    <item-name>Dark Cyclone</item-name>
+    <tier>
+      <tier-name>Dark Cyclone</tier-name>
+      <tier-allowedtechniques>-1</tier-allowedtechniques>
+    </tier>
+  </item>
+  <item>
+    <item-name>Special Pants</item-name>
+    <tier>
+      <tier-name>Special Pants</tier-name>
+      <tier-allowedtechniques>-1</tier-allowedtechniques>
+    </tier>
+  </item>
+</formulas>

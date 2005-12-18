@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Combust</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Spell</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Combust</tech-name>
+    <tech-icon>icon_technique_02_00_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>spell</tech-keyword>
+          <tech-keyword>primal</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>damage</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>skill_use_magic_flame</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>612</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Combust I</tier-name>
+      <tier-origin>Spell: Combust I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Gives flame spells a 5% chance to do an extra 5-7 unstoppable flame damage.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Weaker Blight Bindings</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Combust II</tier-name>
+      <tier-origin>Spell: Combust II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Gives flame spells a 5% chance to do an extra 10-14 unstoppable flame damage.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Ruxus Skin</component>
+        <component amount="1">Rose Quartz Golem Chip</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Combust III</tier-name>
+      <tier-origin>Spell: Combust III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Gives flame spells a 5% chance to do an extra 15-21 unstoppable flame damage.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Oak Treant Knot</component>
+        <component amount="1">Wraith Master Ectoplasm</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Combust IV</tier-name>
+      <tier-origin>Spell: Combust IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Gives flame spells a 5% chance to do an extra 20-28 unstoppable flame damage.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="2">Flame Ogre Jawbone</component>
+        <component amount="1">Flame Wolf Fang</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Combust V</tier-name>
+      <tier-origin>Spell: Combust V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Gives flame spells a 5% chance to do an extra 28-40 unstoppable flame damage.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Fiery Dire Wolf Fang</component>
+        <component amount="2">Grey Necrofly Wing</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

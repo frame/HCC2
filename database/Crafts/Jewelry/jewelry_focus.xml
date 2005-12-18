@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Jewelry - Focus</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Jewelry</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Focus Bracelet</item-name>
+    <item-icon>icon_formula_j_02_06_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Wrist</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>jewelry_bracelet</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_focus_up</item-keyword>
+      <item-keyword>bodyslot_wrist</item-keyword>
+      <item-keyword>jewelry</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Focus Bracelet</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">55</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (8)</tier-attribute>
+        <tier-attribute type="statBonus">+3 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Garnet</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">80</resource-min>
+          <resource-opt amount="5">180</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">80</resource-min>
+          <resource-opt amount="5">180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silver Focus Bracelet</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">105</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (28)</tier-attribute>
+        <tier-attribute type="statBonus">+6 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Rose Quartz</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">280</resource-min>
+          <resource-opt amount="5">405</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silver Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">280</resource-min>
+          <resource-opt amount="5">405</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gold Focus Bracelet</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">210</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (48)</tier-attribute>
+        <tier-attribute type="statBonus">+9 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Citrine</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">480</resource-min>
+          <resource-opt amount="5">580</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Gold Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">480</resource-min>
+          <resource-opt amount="5">630</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Platinum Focus Bracelet</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">420</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (68)</tier-attribute>
+        <tier-attribute type="statBonus">+12 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Topaz</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">680</resource-min>
+          <resource-opt amount="5">780</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Platinum Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">680</resource-min>
+          <resource-opt amount="5">855</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Focus Bracelet</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">840</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (88)</tier-attribute>
+        <tier-attribute type="statBonus">+15 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Peridot</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">880</resource-min>
+          <resource-opt amount="5">1080</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">880</resource-min>
+          <resource-opt amount="5">1080</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Focus Earring</item-name>
+    <item-icon>icon_formula_j_03_06_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Ear</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>jewelry_earring</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_focus_up</item-keyword>
+      <item-keyword>bodyslot_ear</item-keyword>
+      <item-keyword>jewelry</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Focus Earring</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">44</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (7)</tier-attribute>
+        <tier-attribute type="statBonus">+3 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Garnet</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">70</resource-min>
+          <resource-opt amount="4">170</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">70</resource-min>
+          <resource-opt amount="4">170</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silver Focus Earring</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">84</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (27)</tier-attribute>
+        <tier-attribute type="statBonus">+6 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Rose Quartz</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">270</resource-min>
+          <resource-opt amount="4">395</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silver Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">270</resource-min>
+          <resource-opt amount="4">395</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gold Focus Earring</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">168</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (47)</tier-attribute>
+        <tier-attribute type="statBonus">+9 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Citrine</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">470</resource-min>
+          <resource-opt amount="4">620</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Gold Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">470</resource-min>
+          <resource-opt amount="4">620</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Platinum Focus Earring</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">336</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (67)</tier-attribute>
+        <tier-attribute type="statBonus">+12 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Topaz</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">670</resource-min>
+          <resource-opt amount="4">845</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Platinum Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">670</resource-min>
+          <resource-opt amount="4">845</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Focus Earring</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">672</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (87)</tier-attribute>
+        <tier-attribute type="statBonus">+15 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Peridot</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">870</resource-min>
+          <resource-opt amount="4">1070</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">870</resource-min>
+          <resource-opt amount="4">1070</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Focus Necklace</item-name>
+    <item-icon>icon_formula_j_04_06_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Neck</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>jewelry_necklace</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_focus_up</item-keyword>
+      <item-keyword>bodyslot_neck</item-keyword>
+      <item-keyword>jewelry</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Focus Necklace</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">66</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (9)</tier-attribute>
+        <tier-attribute type="statBonus">+5 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Garnet</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">90</resource-min>
+          <resource-opt amount="6">190</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">90</resource-min>
+          <resource-opt amount="6">190</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silver Focus Necklace</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">126</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (29)</tier-attribute>
+        <tier-attribute type="statBonus">+10 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Rose Quartz</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">290</resource-min>
+          <resource-opt amount="6">415</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silver Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">290</resource-min>
+          <resource-opt amount="6">415</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gold Focus Necklace</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">252</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (49)</tier-attribute>
+        <tier-attribute type="statBonus">+15 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Citrine</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">490</resource-min>
+          <resource-opt amount="6">640</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Gold Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">490</resource-min>
+          <resource-opt amount="6">640</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Platinum Focus Necklace</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">504</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (69)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Topaz</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">690</resource-min>
+          <resource-opt amount="6">865</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Platinum Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">690</resource-min>
+          <resource-opt amount="6">865</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Focus Necklace</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">840</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (89)</tier-attribute>
+        <tier-attribute type="statBonus">+25 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Peridot</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">890</resource-min>
+          <resource-opt amount="6">1090</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">890</resource-min>
+          <resource-opt amount="6">1090</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Focus Ring</item-name>
+    <item-icon>icon_formula_j_01_06_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Finger</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>jewelry_ring</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_focus_up</item-keyword>
+      <item-keyword>bodyslot_finger</item-keyword>
+      <item-keyword>jewelry</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Focus Ring</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">44</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (6)</tier-attribute>
+        <tier-attribute type="statBonus">+3 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Garnet</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">60</resource-min>
+          <resource-opt amount="4">160</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">60</resource-min>
+          <resource-opt amount="4">160</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silver Focus Ring</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">84</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (26)</tier-attribute>
+        <tier-attribute type="statBonus">+6 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Rose Quartz</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">260</resource-min>
+          <resource-opt amount="4">385</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silver Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">260</resource-min>
+          <resource-opt amount="4">385</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gold Focus Ring</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">168</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (46)</tier-attribute>
+        <tier-attribute type="statBonus">+9 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Citrine</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">460</resource-min>
+          <resource-opt amount="4">610</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Gold Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">460</resource-min>
+          <resource-opt amount="4">610</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Platinum Focus Ring</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">336</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (66)</tier-attribute>
+        <tier-attribute type="statBonus">+12 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Topaz</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">660</resource-min>
+          <resource-opt amount="4">835</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Platinum Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">660</resource-min>
+          <resource-opt amount="4">835</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Focus Ring</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">672</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (86)</tier-attribute>
+        <tier-attribute type="statBonus">+15 Focus</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Peridot</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">860</resource-min>
+          <resource-opt amount="4">1060</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">860</resource-min>
+          <resource-opt amount="4">1060</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

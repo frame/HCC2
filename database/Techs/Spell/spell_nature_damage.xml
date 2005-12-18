@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Nature Damage</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Spell</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Nature Damage</tech-name>
+    <tech-icon>icon_technique_02_10_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>spell</tech-keyword>
+          <tech-keyword>primal</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>damage</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>skill_use_magic_nature</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>1229</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Nature Damage I</tier-name>
+      <tier-origin>Spell: Nature Damage I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Modifies the maximum damage output of a nature damage spell by +2.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Weaker Blight Bindings</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Nature Damage II</tier-name>
+      <tier-origin>Spell: Nature Damage II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Modifies the maximum damage output of a nature damage spell by +4.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Leafy Oastic Sac</component>
+        <component amount="1">Frost Pygmy Ear</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Nature Damage III</tier-name>
+      <tier-origin>Spell: Nature Damage III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Modifies the maximum damage output of a nature damage spell by +6.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Desert Wolf Fang</component>
+        <component amount="1">Ice Golem Shard</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Nature Damage IV</tier-name>
+      <tier-origin>Spell: Nature Damage IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Modifies the maximum damage output of a nature damage spell by +8.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="2">Shadow Spider Fang</component>
+        <component amount="1">Winter Werewolf Fang</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Nature Damage V</tier-name>
+      <tier-origin>Spell: Nature Damage V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Modifies the maximum damage output of a nature damage spell by +10.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Bloodsnout Gruok Snout</component>
+        <component amount="2">Fiery Dire Wolf Fang</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

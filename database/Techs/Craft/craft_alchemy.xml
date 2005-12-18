@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Alchemy</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Craft</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Alchemy</tech-name>
+    <tech-icon>icon_technique_03_00_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>armor</tech-keyword>
+          <tech-keyword>jewelry</tech-keyword>
+          <tech-keyword>tool</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>bodyslot_chest</tech-keyword>
+          <tech-keyword>bodyslot_neck</tech-keyword>
+          <tech-keyword>bodyslot_head</tech-keyword>
+          <tech-keyword>bodyslot_ear</tech-keyword>
+          <tech-keyword>bodyslot_waist</tech-keyword>
+          <tech-keyword>bodyslot_wrist</tech-keyword>
+          <tech-keyword>bodyslot_hands</tech-keyword>
+          <tech-keyword>bodyslot_rightpalm</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>187</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Alchemy I</tier-name>
+      <tier-origin>Craft: Alchemy I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 in the Alchemy trade skill.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+4 Alchemy</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Biting Necrofly Wing</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Alchemy II</tier-name>
+      <tier-origin>Craft: Alchemy II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 in the Alchemy trade skill.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+8 Alchemy</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="1">Snow Ogre Jawbone</component>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Silver Golem Fragment</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Alchemy III</tier-name>
+      <tier-origin>Craft: Alchemy III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 in the Alchemy trade skill.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+12 Alchemy</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Citrine Golem Chip</component>
+        <component amount="1">Greater Blight Bindings</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Alchemy IV</tier-name>
+      <tier-origin>Craft: Alchemy IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 in the Alchemy trade skill.</tier-desc>
+      <tier-skilladjust>40</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+16 Alchemy</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="1">Shadow Spider Fang</component>
+        <component amount="2">Hardened Fyakki Chitin</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Alchemy V</tier-name>
+      <tier-origin>Craft: Alchemy V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 in the Alchemy trade skill.</tier-desc>
+      <tier-skilladjust>50</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+20 Alchemy</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Icy Dire Wolf Fang</component>
+        <component amount="2">Purple Tarantula Venom</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

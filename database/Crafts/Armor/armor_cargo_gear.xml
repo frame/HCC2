@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Armor - Cargo Gear</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Armor</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Cargo Belt</item-name>
+    <item-icon>icon_formula_a_09_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Waist</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ENC, GTH, MIN, WVR, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>armor_belt</item-keyword>
+      <item-keyword>armortype_cargo</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>bodyslot_waist</item-keyword>
+      <item-keyword>armor</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Flaxen Cargo Belt</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">56</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (6)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +50</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">60</resource-min>
+          <resource-opt amount="4">160</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Dim Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">60</resource-min>
+          <resource-opt amount="4">160</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Flax Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">60</resource-min>
+          <resource-opt amount="6">160</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Kenaf Cargo Belt</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">114</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (26)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +65</tier-attribute>
+        <tier-attribute type="statBonus">+3 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">260</resource-min>
+          <resource-opt amount="4">385</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">260</resource-min>
+          <resource-opt amount="4">385</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Kenaf Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">260</resource-min>
+          <resource-opt amount="6">385</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cotton Cargo Belt</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">222</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (46)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +80</tier-attribute>
+        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">460</resource-min>
+          <resource-opt amount="4">560</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">460</resource-min>
+          <resource-opt amount="4">560</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cotton Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">460</resource-min>
+          <resource-opt amount="6">560</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silken Cargo Belt</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">444</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (66)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +95</tier-attribute>
+        <tier-attribute type="statBonus">+8 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">660</resource-min>
+          <resource-opt amount="4">760</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">660</resource-min>
+          <resource-opt amount="4">760</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">660</resource-min>
+          <resource-opt amount="6">760</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ironsilk Cargo Belt</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">624</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (86)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +110</tier-attribute>
+        <tier-attribute type="statBonus">+11 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">860</resource-min>
+          <resource-opt amount="4">960</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">860</resource-min>
+          <resource-opt amount="4">960</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Ironsilk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">860</resource-min>
+          <resource-opt amount="6">960</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Cargo Boots</item-name>
+    <item-icon>icon_formula_a_11_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Feet</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ENC, GTH, MIN, WVR, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>armor_boots</item-keyword>
+      <item-keyword>armortype_cargo</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>bodyslot_feet</item-keyword>
+      <item-keyword>armor</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Flaxen Cargo Boots</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">88</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (12)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +50</tier-attribute>
+        <tier-attribute type="statBonus">+1 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="6">120</resource-min>
+          <resource-opt amount="3">220</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">120</resource-min>
+          <resource-opt amount="5">220</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Dim Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">120</resource-min>
+          <resource-opt amount="5">220</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Flax Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="18">120</resource-min>
+          <resource-opt amount="9">220</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Kenaf Cargo Boots</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">177</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (32)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +65</tier-attribute>
+        <tier-attribute type="statBonus">+4 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="6">320</resource-min>
+          <resource-opt amount="3">445</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">320</resource-min>
+          <resource-opt amount="5">445</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">320</resource-min>
+          <resource-opt amount="5">445</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Kenaf Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="18">320</resource-min>
+          <resource-opt amount="9">445</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cotton Cargo Boots</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">345</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (52)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +80</tier-attribute>
+        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="6">520</resource-min>
+          <resource-opt amount="3">670</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">520</resource-min>
+          <resource-opt amount="5">670</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">520</resource-min>
+          <resource-opt amount="5">670</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cotton Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="18">520</resource-min>
+          <resource-opt amount="9">670</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silken Cargo Boots</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">690</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (72)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +95</tier-attribute>
+        <tier-attribute type="statBonus">+9 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="6">720</resource-min>
+          <resource-opt amount="3">895</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">720</resource-min>
+          <resource-opt amount="5">895</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">720</resource-min>
+          <resource-opt amount="5">895</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="18">720</resource-min>
+          <resource-opt amount="9">895</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ironsilk Cargo Boots</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">816</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (92)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +110</tier-attribute>
+        <tier-attribute type="statBonus">+11 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="6">920</resource-min>
+          <resource-opt amount="3">1075</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">920</resource-min>
+          <resource-opt amount="5">1075</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">920</resource-min>
+          <resource-opt amount="5">1025</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Ironsilk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="18">920</resource-min>
+          <resource-opt amount="9">1095</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Cargo Cap</item-name>
+    <item-icon>icon_formula_a_05_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Head</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ENC, GTH, MIN, WVR, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>armor_helm</item-keyword>
+      <item-keyword>armortype_cargo</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>bodyslot_head</item-keyword>
+      <item-keyword>armor</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Flaxen Cargo Cap</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">75</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (10)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +50</tier-attribute>
+        <tier-attribute type="statBonus">+1 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="2">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Dim Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">100</resource-min>
+          <resource-opt amount="4">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Flax Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">100</resource-min>
+          <resource-opt amount="8">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Kenaf Cargo Cap</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">151</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (30)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +65</tier-attribute>
+        <tier-attribute type="statBonus">+4 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="2">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">300</resource-min>
+          <resource-opt amount="4">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Kenaf Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">300</resource-min>
+          <resource-opt amount="8">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cotton Cargo Cap</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">294</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (50)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +80</tier-attribute>
+        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="2">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">500</resource-min>
+          <resource-opt amount="4">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cotton Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">500</resource-min>
+          <resource-opt amount="8">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silken Cargo Cap</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">588</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (70)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +95</tier-attribute>
+        <tier-attribute type="statBonus">+9 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="2">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">700</resource-min>
+          <resource-opt amount="4">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">700</resource-min>
+          <resource-opt amount="8">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ironsilk Cargo Cap</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">768</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (90)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +110</tier-attribute>
+        <tier-attribute type="statBonus">+11 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="2">1075</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">900</resource-min>
+          <resource-opt amount="5">1075</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">900</resource-min>
+          <resource-opt amount="4">1075</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Ironsilk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">900</resource-min>
+          <resource-opt amount="8">1075</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Cargo Leggings</item-name>
+    <item-icon>icon_formula_a_10_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Legs</item-attribute>
+      <item-attribute type="bulk">16</item-attribute>
+      <item-attribute type="reqClass">ENC, GTH, MIN, WVR, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>armor_leggings</item-keyword>
+      <item-keyword>armortype_cargo</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>bodyslot_legs</item-keyword>
+      <item-keyword>armor</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Flaxen Cargo Leggings</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">130</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (16)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +75</tier-attribute>
+        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">160</resource-min>
+          <resource-opt amount="6">260</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">160</resource-min>
+          <resource-opt amount="8">260</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Dim Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">160</resource-min>
+          <resource-opt amount="6">260</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Flax Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="24">160</resource-min>
+          <resource-opt amount="12">260</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Kenaf Cargo Leggings</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">258</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (36)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +100</tier-attribute>
+        <tier-attribute type="statBonus">+4 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">360</resource-min>
+          <resource-opt amount="6">485</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">360</resource-min>
+          <resource-opt amount="8">485</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">360</resource-min>
+          <resource-opt amount="6">485</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Kenaf Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="24">360</resource-min>
+          <resource-opt amount="12">485</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cotton Cargo Leggings</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (56)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +125</tier-attribute>
+        <tier-attribute type="statBonus">+8 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">560</resource-min>
+          <resource-opt amount="6">710</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">560</resource-min>
+          <resource-opt amount="8">710</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">560</resource-min>
+          <resource-opt amount="6">710</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cotton Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="24">560</resource-min>
+          <resource-opt amount="12">710</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silken Cargo Leggings</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1152</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (76)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +150</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">760</resource-min>
+          <resource-opt amount="6">935</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">760</resource-min>
+          <resource-opt amount="8">935</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">760</resource-min>
+          <resource-opt amount="6">935</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="24">760</resource-min>
+          <resource-opt amount="12">935</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ironsilk Cargo Leggings</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1104</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (96)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +175</tier-attribute>
+        <tier-attribute type="statBonus">+12 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">960</resource-min>
+          <resource-opt amount="6">1035</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">960</resource-min>
+          <resource-opt amount="8">1035</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">960</resource-min>
+          <resource-opt amount="6">1035</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Ironsilk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="24">960</resource-min>
+          <resource-opt amount="12">1035</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Cargo Sleeves</item-name>
+    <item-icon>icon_formula_a_25_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Arms</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ENC, GTH, MIN, WVR, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>armor_armguard</item-keyword>
+      <item-keyword>armortype_cargo</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>bodyslot_arms</item-keyword>
+      <item-keyword>armor</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Flaxen Cargo Sleeves</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">100</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (14)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +75</tier-attribute>
+        <tier-attribute type="statBonus">+1 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">140</resource-min>
+          <resource-opt amount="4">240</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">140</resource-min>
+          <resource-opt amount="6">240</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Dim Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">140</resource-min>
+          <resource-opt amount="5">240</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Flax Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="20">140</resource-min>
+          <resource-opt amount="10">240</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Kenaf Cargo Sleeves</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">200</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (34)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +100</tier-attribute>
+        <tier-attribute type="statBonus">+4 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">340</resource-min>
+          <resource-opt amount="4">465</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">340</resource-min>
+          <resource-opt amount="6">465</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">340</resource-min>
+          <resource-opt amount="5">465</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Kenaf Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="20">340</resource-min>
+          <resource-opt amount="10">465</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cotton Cargo Sleeves</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">390</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (54)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +125</tier-attribute>
+        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">540</resource-min>
+          <resource-opt amount="4">690</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">540</resource-min>
+          <resource-opt amount="6">690</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">540</resource-min>
+          <resource-opt amount="5">690</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cotton Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="20">540</resource-min>
+          <resource-opt amount="10">690</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silken Cargo Sleeves</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">780</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (74)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +150</tier-attribute>
+        <tier-attribute type="statBonus">+9 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">740</resource-min>
+          <resource-opt amount="4">915</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">740</resource-min>
+          <resource-opt amount="6">915</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">740</resource-min>
+          <resource-opt amount="5">915</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="20">740</resource-min>
+          <resource-opt amount="10">915</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ironsilk Cargo Sleeves</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">912</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (94)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +175</tier-attribute>
+        <tier-attribute type="statBonus">+11 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">940</resource-min>
+          <resource-opt amount="4">1115</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="12">940</resource-min>
+          <resource-opt amount="6">1115</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">940</resource-min>
+          <resource-opt amount="5">1115</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Ironsilk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="20">940</resource-min>
+          <resource-opt amount="10">1115</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Cargo Tunic</item-name>
+    <item-icon>icon_formula_a_01_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Chest</item-attribute>
+      <item-attribute type="bulk">16</item-attribute>
+      <item-attribute type="reqClass">ENC, GTH, MIN, WVR, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>armor_chestguard</item-keyword>
+      <item-keyword>armortype_cargo</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>bodyslot_chest</item-keyword>
+      <item-keyword>armor</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Flaxen Cargo Tunic</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">150</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (18)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +100</tier-attribute>
+        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">180</resource-min>
+          <resource-opt amount="8">280</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">180</resource-min>
+          <resource-opt amount="8">280</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Dim Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">180</resource-min>
+          <resource-opt amount="7">280</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Flax Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="28">180</resource-min>
+          <resource-opt amount="14">280</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Kenaf Cargo Tunic</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">298</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (38)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +140</tier-attribute>
+        <tier-attribute type="statBonus">+5 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">380</resource-min>
+          <resource-opt amount="8">505</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">380</resource-min>
+          <resource-opt amount="8">505</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">380</resource-min>
+          <resource-opt amount="7">505</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Kenaf Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="28">380</resource-min>
+          <resource-opt amount="14">505</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cotton Cargo Tunic</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">582</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (58)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +180</tier-attribute>
+        <tier-attribute type="statBonus">+9 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">580</resource-min>
+          <resource-opt amount="8">730</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">580</resource-min>
+          <resource-opt amount="8">730</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">580</resource-min>
+          <resource-opt amount="7">730</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cotton Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="28">580</resource-min>
+          <resource-opt amount="14">730</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silken Cargo Tunic</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1164</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (78)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +220</tier-attribute>
+        <tier-attribute type="statBonus">+11 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">780</resource-min>
+          <resource-opt amount="8">955</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">780</resource-min>
+          <resource-opt amount="8">955</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">780</resource-min>
+          <resource-opt amount="7">955</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="28">780</resource-min>
+          <resource-opt amount="14">955</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ironsilk Cargo Tunic</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1296</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (98)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +260</tier-attribute>
+        <tier-attribute type="statBonus">+13 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">980</resource-min>
+          <resource-opt amount="8">1155</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">980</resource-min>
+          <resource-opt amount="8">1155</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">980</resource-min>
+          <resource-opt amount="7">1155</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Ironsilk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="28">980</resource-min>
+          <resource-opt amount="14">1155</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Cargo Wristband</item-name>
+    <item-icon>icon_formula_a_13_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Forearm</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ENC, GTH, MIN, WVR, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>armor_bracer</item-keyword>
+      <item-keyword>armortype_cargo</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>bodyslot_forearm</item-keyword>
+      <item-keyword>armor</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Flaxen Cargo Wristband</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">58</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (8)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +50</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">80</resource-min>
+          <resource-opt amount="4">180</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Dim Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">80</resource-min>
+          <resource-opt amount="4">180</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Flax Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">80</resource-min>
+          <resource-opt amount="7">180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Kenaf Cargo Wristband</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">119</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (28)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +65</tier-attribute>
+        <tier-attribute type="statBonus">+3 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">280</resource-min>
+          <resource-opt amount="4">405</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">280</resource-min>
+          <resource-opt amount="4">405</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Kenaf Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">280</resource-min>
+          <resource-opt amount="7">405</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cotton Cargo Wristband</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">231</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (48)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +80</tier-attribute>
+        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">480</resource-min>
+          <resource-opt amount="4">630</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">480</resource-min>
+          <resource-opt amount="4">630</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cotton Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">480</resource-min>
+          <resource-opt amount="7">630</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silken Cargo Wristband</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">462</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (68)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +95</tier-attribute>
+        <tier-attribute type="statBonus">+8 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">680</resource-min>
+          <resource-opt amount="4">855</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">680</resource-min>
+          <resource-opt amount="4">855</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">680</resource-min>
+          <resource-opt amount="7">855</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ironsilk Cargo Wristband</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Cargo apparel, a brilliant merging of ingenuity and necessity, incorporates a multitude of pockets and storage compartments extending the wearers overall carrying capacity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">672</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (88)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +110</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">880</resource-min>
+          <resource-opt amount="4">1055</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">880</resource-min>
+          <resource-opt amount="4">1055</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Ironsilk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="14">880</resource-min>
+          <resource-opt amount="7">1055</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Invisible Cargo Cap</item-name>
+    <item-icon>icon_formula_a_05_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Head</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ENC, GTH, MIN, WVR, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>armor_helm</item-keyword>
+      <item-keyword>armortype_cargo</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>bodyslot_head</item-keyword>
+      <item-keyword>armor</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Flaxen Invisible Cargo Cap</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">75</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (10)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +50</tier-attribute>
+        <tier-attribute type="statBonus">+1 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="2">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Dim Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">100</resource-min>
+          <resource-opt amount="4">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Flax Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">100</resource-min>
+          <resource-opt amount="8">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Kenaf Invisible Cargo Cap</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">151</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (30)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +65</tier-attribute>
+        <tier-attribute type="statBonus">+4 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="2">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">300</resource-min>
+          <resource-opt amount="4">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Kenaf Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">300</resource-min>
+          <resource-opt amount="8">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cotton Invisible Cargo Cap</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">294</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (50)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +80</tier-attribute>
+        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="2">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">500</resource-min>
+          <resource-opt amount="4">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cotton Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">500</resource-min>
+          <resource-opt amount="8">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silken Invisible Cargo Cap</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">588</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (70)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +95</tier-attribute>
+        <tier-attribute type="statBonus">+9 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="2">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">700</resource-min>
+          <resource-opt amount="4">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">700</resource-min>
+          <resource-opt amount="8">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ironsilk Invisible Cargo Cap</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">768</tier-attribute>
+        <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (90)</tier-attribute>
+        <tier-attribute type="capacityBonus">Capacity +110</tier-attribute>
+        <tier-attribute type="statBonus">+11 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Tinkering Hinge</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="2">1075</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Tinkering Spring</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="10">900</resource-min>
+          <resource-opt amount="5">1075</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="8">900</resource-min>
+          <resource-opt amount="4">1075</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Ironsilk Spool</resource-name>
+          <resource-skill>Tinkering</resource-skill>
+          <resource-min amount="16">900</resource-min>
+          <resource-opt amount="8">1075</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

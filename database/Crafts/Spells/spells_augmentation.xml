@@ -1,0 +1,3719 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Spells - Augmentation</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Spells</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Enhance Armor</item-name>
+    <item-icon>icon_formula_s_04_51_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Enhance Armor I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Mystically enhances the protective qualities of the target's armor.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="effect">Enhance Armor I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+24 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Armor II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Mystically enhances the protective qualities of the target's armor.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="effect">Enhance Armor II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+40 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Armor III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Mystically enhances the protective qualities of the target's armor.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="effect">Enhance Armor III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+72 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Armor IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Mystically enhances the protective qualities of the target's armor.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="effect">Enhance Armor IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+104 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Armor V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Mystically enhances the protective qualities of the target's armor.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="effect">Enhance Armor V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+136 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Enhance Dexterity</item-name>
+    <item-icon>icon_formula_s_04_52_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Enhance Dexterity I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Mystically enhances the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="effect">Enhance Dexterity I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+13 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Dexterity II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Mystically enhances the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="effect">Enhance Dexterity II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+37 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Dexterity III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Mystically enhances the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="effect">Enhance Dexterity III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+61 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Dexterity IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Mystically enhances the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="effect">Enhance Dexterity IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+85 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Dexterity V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Mystically enhances the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="effect">Enhance Dexterity V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+109 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Enhance Focus</item-name>
+    <item-icon>icon_formula_s_04_53_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Enhance Focus I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Mystically enhances the target's focus.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="effect">Enhance Focus I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+13 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Focus II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Mystically enhances the target's focus.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="effect">Enhance Focus II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+37 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Focus III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Mystically enhances the target's focus.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="effect">Enhance Focus III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+61 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Focus IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Mystically enhances the target's focus.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="effect">Enhance Focus IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+85 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Focus V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Mystically enhances the target's focus.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="effect">Enhance Focus V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+109 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Enhance Power</item-name>
+    <item-icon>icon_formula_s_04_55_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Enhance Power I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Mystically enhances the target's power.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="effect">Enhance Power I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+13 Power</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Power II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Mystically enhances the target's power.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="effect">Enhance Power II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+37 Power</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Power III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Mystically enhances the target's power.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="effect">Enhance Power III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+61 Power</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Power IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Mystically enhances the target's power.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="effect">Enhance Power IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+85 Power</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Power V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Mystically enhances the target's power.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="effect">Enhance Power V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+109 Power</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Enhance Strength</item-name>
+    <item-icon>icon_formula_s_04_56_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Enhance Strength I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Mystically enhances the target's strength.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="effect">Enhance Strength I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+13 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Strength II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Mystically enhances the target's strength.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="effect">Enhance Strength II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+37 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Strength III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Mystically enhances the target's strength.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="effect">Enhance Strength III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+61 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Strength IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Mystically enhances the target's strength.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="effect">Enhance Strength IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+85 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Enhance Strength V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Mystically enhances the target's strength.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="effect">Enhance Strength V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+109 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">30:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gift of Alacrity</item-name>
+    <item-icon>icon_formula_s_04_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>gift_slot</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Gift of Alacrity I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A long-term blessing of speed in combat.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effect">Gift of Alacrity I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectDelayMod">Modifies delay by -5 /Ranged only/Attacks only/Spells only</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Alacrity II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A long-term blessing of speed in combat.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effect">Gift of Alacrity II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectDelayMod">Modifies delay by -10 /Ranged only/Attacks only/Spells only</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Alacrity III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A long-term blessing of speed in combat.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effect">Gift of Alacrity III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectDelayMod">Modifies delay by -15 /Ranged only/Attacks only/Spells only</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Alacrity IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A long-term blessing of speed in combat.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effect">Gift of Alacrity IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectDelayMod">Modifies delay by -20 /Ranged only/Attacks only/Spells only</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Alacrity V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A long-term blessing of speed in combat.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effect">Gift of Alacrity V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectDelayMod">Modifies delay by -25 /Ranged only/Attacks only/Spells only</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gift of Armor</item-name>
+    <item-icon>icon_formula_s_04_13_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>gift_slot</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Gift of Armor I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A long-term blessing of physical protection.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effect">Gift of Armor I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+2 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Armor II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A long-term blessing of physical protection.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effect">Gift of Armor II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+11 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Armor III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A long-term blessing of physical protection.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effect">Gift of Armor III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+21 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Armor IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A long-term blessing of physical protection.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effect">Gift of Armor IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+31 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Armor V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A long-term blessing of physical protection.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effect">Gift of Armor V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+41 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gift of Dexterity</item-name>
+    <item-icon>icon_formula_s_04_26_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>gift_slot</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Gift of Dexterity I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A long-term blessing of increased dexterity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effect">Gift of Dexterity I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+8 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Dexterity II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A long-term blessing of increased dexterity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effect">Gift of Dexterity II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+26 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Dexterity III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A long-term blessing of increased dexterity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effect">Gift of Dexterity III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+44 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Dexterity IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A long-term blessing of increased dexterity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effect">Gift of Dexterity IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+62 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Dexterity V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A long-term blessing of increased dexterity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effect">Gift of Dexterity V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+80 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gift of Focus</item-name>
+    <item-icon>icon_formula_s_04_14_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>gift_slot</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Gift of Focus I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A long-term blessing of increased focus.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effect">Gift of Focus I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+8 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Focus II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A long-term blessing of increased focus.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effect">Gift of Focus II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+26 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Focus III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A long-term blessing of increased focus.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effect">Gift of Focus III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+44 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Focus IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A long-term blessing of increased focus.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effect">Gift of Focus IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+62 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Focus V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A long-term blessing of increased focus.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effect">Gift of Focus V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+80 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gift of Power</item-name>
+    <item-icon>icon_formula_s_04_15_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>gift_slot</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Gift of Power I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A long-term blessing of increased power.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effect">Gift of Power I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+8 Power</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Power II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A long-term blessing of increased power.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effect">Gift of Power II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+26 Power</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Power III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A long-term blessing of increased power.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effect">Gift of Power III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+44 Power</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Power IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A long-term blessing of increased power.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effect">Gift of Power IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+62 Power</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Power V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A long-term blessing of increased power.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effect">Gift of Power V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+80 Power</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gift of Speed</item-name>
+    <item-icon>icon_formula_s_04_16_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>gift_slot</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Gift of Speed I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A long-term blessing of faster movement.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effect">Gift of Speed I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+2 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Speed II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A long-term blessing of faster movement.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effect">Gift of Speed II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+4 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Speed III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A long-term blessing of faster movement.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effect">Gift of Speed III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+6 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Speed IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A long-term blessing of faster movement.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effect">Gift of Speed IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+8 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Speed V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A long-term blessing of faster movement.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effect">Gift of Speed V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+10 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gift of Strength</item-name>
+    <item-icon>icon_formula_s_04_17_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>gift_slot</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Gift of Strength I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A long-term blessing of increased strength.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effect">Gift of Strength I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+8 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Strength II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A long-term blessing of increased strength.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effect">Gift of Strength II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+26 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Strength III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A long-term blessing of increased strength.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effect">Gift of Strength III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+44 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Strength IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A long-term blessing of increased strength.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effect">Gift of Strength IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+62 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gift of Strength V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A long-term blessing of increased strength.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effect">Gift of Strength V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+80 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Raise Armor</item-name>
+    <item-icon>icon_formula_s_04_57_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>statmod_armor_up</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Raise Armor I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Raises the protective value of the target's armor.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (20)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+        <tier-attribute type="effect">Raise Armor I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+22 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">20</resource-min>
+          <resource-opt amount="3">120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Armor II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Raises the protective value of the target's armor.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (220)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+        <tier-attribute type="effect">Raise Armor II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+30 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">220</resource-min>
+          <resource-opt amount="3">345</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">220</resource-min>
+          <resource-opt amount="5">345</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Armor III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Raises the protective value of the target's armor.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (420)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+        <tier-attribute type="effect">Raise Armor III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+54 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">420</resource-min>
+          <resource-opt amount="3">570</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">420</resource-min>
+          <resource-opt amount="5">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Armor IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Raises the protective value of the target's armor.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (620)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+        <tier-attribute type="effect">Raise Armor IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+78 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">620</resource-min>
+          <resource-opt amount="3">795</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">620</resource-min>
+          <resource-opt amount="5">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Armor V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Raises the protective value of the target's armor.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (820)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+        <tier-attribute type="effect">Raise Armor V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+102 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">820</resource-min>
+          <resource-opt amount="3">1020</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">820</resource-min>
+          <resource-opt amount="5">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Raise Dexterity</item-name>
+    <item-icon>icon_formula_s_04_58_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>statmod_dexterity_up</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Raise Dexterity I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Raises the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (20)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+        <tier-attribute type="effect">Raise Dexterity I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+6 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">20</resource-min>
+          <resource-opt amount="3">120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Dexterity II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Raises the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (220)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+        <tier-attribute type="effect">Raise Dexterity II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+22 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">220</resource-min>
+          <resource-opt amount="3">345</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">220</resource-min>
+          <resource-opt amount="5">345</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Dexterity III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Raises the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (420)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+        <tier-attribute type="effect">Raise Dexterity III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+38 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">420</resource-min>
+          <resource-opt amount="3">570</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">420</resource-min>
+          <resource-opt amount="5">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Dexterity IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Raises the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (620)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+        <tier-attribute type="effect">Raise Dexterity IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+54 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">620</resource-min>
+          <resource-opt amount="3">795</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">620</resource-min>
+          <resource-opt amount="5">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Dexterity V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Raises the target's dexterity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (820)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+        <tier-attribute type="effect">Raise Dexterity V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+70 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">820</resource-min>
+          <resource-opt amount="3">1020</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">820</resource-min>
+          <resource-opt amount="5">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Raise Focus</item-name>
+    <item-icon>icon_formula_s_04_59_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>statmod_focus_up</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Raise Focus I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Raises the target's focus.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (20)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+        <tier-attribute type="effect">Raise Focus I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+6 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">20</resource-min>
+          <resource-opt amount="3">120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Focus II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Raises the target's focus.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (220)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+        <tier-attribute type="effect">Raise Focus II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+22 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">220</resource-min>
+          <resource-opt amount="3">345</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">220</resource-min>
+          <resource-opt amount="5">345</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Focus III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Raises the target's focus.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (420)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+        <tier-attribute type="effect">Raise Focus III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+38 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">420</resource-min>
+          <resource-opt amount="3">570</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">420</resource-min>
+          <resource-opt amount="5">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Focus IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Raises the target's focus.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (620)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+        <tier-attribute type="effect">Raise Focus IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+54 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">620</resource-min>
+          <resource-opt amount="3">795</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">620</resource-min>
+          <resource-opt amount="5">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Focus V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Raises the target's focus.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (820)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+        <tier-attribute type="effect">Raise Focus V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+70 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">820</resource-min>
+          <resource-opt amount="3">1020</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">820</resource-min>
+          <resource-opt amount="5">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Raise Power</item-name>
+    <item-icon>icon_formula_s_04_61_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>statmod_power_up</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Raise Power I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Raises the character's power.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (20)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+        <tier-attribute type="effect">Raise Power I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+6 Power</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">20</resource-min>
+          <resource-opt amount="3">120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Power II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Raises the character's power.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (220)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+        <tier-attribute type="effect">Raise Power II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+22 Power</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">220</resource-min>
+          <resource-opt amount="3">345</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">220</resource-min>
+          <resource-opt amount="5">345</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Power III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Raises the character's power.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (420)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+        <tier-attribute type="effect">Raise Power III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+38 Power</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">420</resource-min>
+          <resource-opt amount="3">570</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">420</resource-min>
+          <resource-opt amount="5">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Power IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Raises the character's power.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (620)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+        <tier-attribute type="effect">Raise Power IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+54 Power</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">620</resource-min>
+          <resource-opt amount="3">795</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">620</resource-min>
+          <resource-opt amount="5">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Power V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Raises the character's power.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (820)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+        <tier-attribute type="effect">Raise Power V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+70 Power</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">820</resource-min>
+          <resource-opt amount="3">1020</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">820</resource-min>
+          <resource-opt amount="5">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Raise Strength</item-name>
+    <item-icon>icon_formula_s_04_62_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>statmod_strength_up</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Raise Strength I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Raises the character's strength.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (20)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+        <tier-attribute type="effect">Raise Strength I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+6 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">20</resource-min>
+          <resource-opt amount="3">120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Strength II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Raises the character's strength.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (220)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+        <tier-attribute type="effect">Raise Strength II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+22 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">220</resource-min>
+          <resource-opt amount="3">345</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">220</resource-min>
+          <resource-opt amount="5">345</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Strength III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Raises the character's strength.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (420)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+        <tier-attribute type="effect">Raise Strength III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+38 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">420</resource-min>
+          <resource-opt amount="3">570</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">420</resource-min>
+          <resource-opt amount="5">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Strength IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Raises the character's strength.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (620)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+        <tier-attribute type="effect">Raise Strength IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+54 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">620</resource-min>
+          <resource-opt amount="3">795</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">620</resource-min>
+          <resource-opt amount="5">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Raise Strength V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Raises the character's strength.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (820)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+        <tier-attribute type="effect">Raise Strength V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+70 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">820</resource-min>
+          <resource-opt amount="3">1020</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">820</resource-min>
+          <resource-opt amount="5">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Surge of Armor</item-name>
+    <item-icon>icon_formula_s_04_18_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Surge of Armor I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Surges the character's armor statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="effect">Surge of Armor I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+16 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Armor II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Surges the character's armor statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="effect">Surge of Armor II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+48 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Armor III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Surges the character's armor statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="effect">Surge of Armor III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+80 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Armor IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Surges the character's armor statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="effect">Surge of Armor IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+112 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Armor V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Surges the character's armor statistic.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="effect">Surge of Armor V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+144 Armor</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Surge of Dexterity</item-name>
+    <item-icon>icon_formula_s_04_19_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Surge of Dexterity I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Surges the character's dexterity statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="effect">Surge of Dexterity I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+19 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Dexterity II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Surges the character's dexterity statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="effect">Surge of Dexterity II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+43 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Dexterity III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Surges the character's dexterity statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="effect">Surge of Dexterity III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+67 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Dexterity IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Surges the character's dexterity statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="effect">Surge of Dexterity IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+91 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Dexterity V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Surges the character's dexterity statistic.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="effect">Surge of Dexterity V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+115 Dexterity</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Surge of Focus</item-name>
+    <item-icon>icon_formula_s_04_20_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Surge of Focus I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Surges the character's focus statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="effect">Surge of Focus I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+19 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Focus II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Surges the character's focus statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="effect">Surge of Focus II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+43 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Focus III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Surges the character's focus statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="effect">Surge of Focus III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+67 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Focus IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Surges the character's focus statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="effect">Surge of Focus IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+91 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Focus V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Surges the character's focus statistic.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="effect">Surge of Focus V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+115 Focus</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Surge of Power</item-name>
+    <item-icon>icon_formula_s_04_22_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Surge of Power I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Surges the character's power statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="effect">Surge of Power I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+19 Power</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Power II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Surges the character's power statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="effect">Surge of Power II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+43 Power</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Power III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Surges the character's power statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="effect">Surge of Power III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+67 Power</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Power IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Surges the character's power statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="effect">Surge of Power IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+91 Power</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Power V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Surges the character's power statistic.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="effect">Surge of Power V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+115 Power</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Surge of Strength</item-name>
+    <item-icon>icon_formula_s_04_23_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Surge of Strength I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Surges the character's strength statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="effect">Surge of Strength I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+19 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Strength II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Surges the character's strength statistic.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="effect">Surge of Strength II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+43 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Strength III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Surges the character's strength statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="effect">Surge of Strength III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+67 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Strength IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Surges the character's strength statistic.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="effect">Surge of Strength IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+91 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Surge of Strength V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Surges the character's strength statistic.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="effect">Surge of Strength V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+115 Strength</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Swift Feet</item-name>
+    <item-icon>icon_formula_s_04_25_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">0</item-attribute>
+      <item-attribute type="castDelay">30</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_augmentation</item-keyword>
+      <item-keyword>spell</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Swift Feet I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Increases the target's speed</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (10)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effect">Swift Feet I</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+6 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Swift Feet II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Increases the target's speed</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effect">Swift Feet II</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+8 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Swift Feet III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Increases the target's speed</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effect">Swift Feet III</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+10 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Swift Feet IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Increases the target's speed</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effect">Swift Feet IV</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+12 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Swift Feet V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Increases the target's speed</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Augmentation (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effect">Swift Feet V</tier-attribute>
+        <tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+14 Speed</tier-attribute>
+        <tier-attribute type="effectDuration">03:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

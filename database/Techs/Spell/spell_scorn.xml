@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Scorn</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Spell</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Scorn</tech-name>
+    <tech-icon>icon_technique_02_00_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>spell</tech-keyword>
+          <tech-keyword>primal</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>skill_use_magic_spirit</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>damage</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>929</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Scorn I</tier-name>
+      <tier-origin>Spell: Scorn I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Spirit spells with this technique have a 25% chance to lower the target's spirit resistance by 10% for 30 seconds.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Gruok Bristles</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Scorn II</tier-name>
+      <tier-origin>Spell: Scorn II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Spirit spells with this technique have a 25% chance to lower the target's spirit resistance by 15% for 30 seconds.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Lesser Mummy Embalming Dust</component>
+        <component amount="1">Fyakki Stinger Tip</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Scorn III</tier-name>
+      <tier-origin>Spell: Scorn III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Spirit spells with this technique have a 25% chance to lower the target's spirit resistance by 20% for 30 seconds.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Oak Treant Knot</component>
+        <component amount="1">Greater Mummy Scarab</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Scorn IV</tier-name>
+      <tier-origin>Spell: Scorn IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Spirit spells with this technique have a 25% chance to lower the target's spirit resistance by 25% for 30 seconds.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="2">Platinum Golem Fragment</component>
+        <component amount="1">Flame Ogre Jawbone</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Scorn V</tier-name>
+      <tier-origin>Spell: Scorn V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Spirit spells with this technique have a 25% chance to lower the target's spirit resistance by 30% for 30 seconds.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Giant Fire Beetle Mandible</component>
+        <component amount="2">Zombie Ogre Toe</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

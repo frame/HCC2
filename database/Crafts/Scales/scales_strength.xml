@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Scales - Strength</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Scales</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Strength Back Scale</item-name>
+    <item-icon>icon_formula_ds_03_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Back Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="hoardValue">576</item-attribute>
+      <item-attribute type="reqCurrentSchoolLevel">Current School Level (80)</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+      <item-attribute type="statBonus">+50 Strength</item-attribute>
+      <item-attribute type="statBonus">+25 Armor</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_5</item-keyword>
+      <item-keyword>techclass_4</item-keyword>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_back</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_5</item-keyword>
+      <item-keyword>statmod_strength_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Marble Strength Back Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">900</resource-min>
+          <resource-opt amount="12">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Strength Chest Scale</item-name>
+    <item-icon>icon_formula_ds_02_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Chest Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_chest</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_strength_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Sandstone Strength Chest Scale</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">36</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+        <tier-attribute type="statBonus">+10 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+5 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">1</resource-min>
+          <resource-opt amount="12">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Slate Strength Chest Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">200</resource-min>
+          <resource-opt amount="12">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Granite Strength Chest Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">400</resource-min>
+          <resource-opt amount="12">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Obsidian Strength Chest Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">600</resource-min>
+          <resource-opt amount="12">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Marble Strength Chest Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">800</resource-min>
+          <resource-opt amount="12">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Strength Foreleg Scale</item-name>
+    <item-icon>icon_formula_ds_06_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Foreleg Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_foreleg</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_3</item-keyword>
+      <item-keyword>statmod_strength_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Granite Strength Foreleg Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">400</resource-min>
+          <resource-opt amount="12">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Obsidian Strength Foreleg Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">600</resource-min>
+          <resource-opt amount="12">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Marble Strength Foreleg Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">800</resource-min>
+          <resource-opt amount="12">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Strength Head Scale</item-name>
+    <item-icon>icon_formula_ds_01_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Head Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_head</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_2</item-keyword>
+      <item-keyword>statmod_strength_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Slate Strength Head Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">200</resource-min>
+          <resource-opt amount="12">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Granite Strength Head Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">400</resource-min>
+          <resource-opt amount="12">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Obsidian Strength Head Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">600</resource-min>
+          <resource-opt amount="12">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Marble Strength Head Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">800</resource-min>
+          <resource-opt amount="12">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Strength Hindleg Scale</item-name>
+    <item-icon>icon_formula_ds_07_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Hindleg Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_hindleg</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_3</item-keyword>
+      <item-keyword>statmod_strength_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Granite Strength Hindleg Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (50)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">500</resource-min>
+          <resource-opt amount="12">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Obsidian Strength Hindleg Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">700</resource-min>
+          <resource-opt amount="12">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Marble Strength Hindleg Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">900</resource-min>
+          <resource-opt amount="12">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Strength Tail Scale</item-name>
+    <item-icon>icon_formula_ds_04_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Tail Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="hoardValue">576</item-attribute>
+      <item-attribute type="reqCurrentSchoolLevel">Current School Level (80)</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+      <item-attribute type="statBonus">+50 Strength</item-attribute>
+      <item-attribute type="statBonus">+25 Armor</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_5</item-keyword>
+      <item-keyword>techclass_4</item-keyword>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_tail</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_5</item-keyword>
+      <item-keyword>statmod_strength_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Marble Strength Tail Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">900</resource-min>
+          <resource-opt amount="12">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Strength Wing Scale</item-name>
+    <item-icon>icon_formula_ds_05_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Wing Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_wing</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_strength_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Sandstone Strength Wing Scale</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">36</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (10)</tier-attribute>
+        <tier-attribute type="statBonus">+10 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+5 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">100</resource-min>
+          <resource-opt amount="12">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Slate Strength Wing Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">300</resource-min>
+          <resource-opt amount="12">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Granite Strength Wing Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">500</resource-min>
+          <resource-opt amount="12">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Obsidian Strength Wing Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">700</resource-min>
+          <resource-opt amount="12">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Marble Strength Wing Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Strength</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">900</resource-min>
+          <resource-opt amount="12">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

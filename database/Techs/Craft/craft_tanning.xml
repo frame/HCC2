@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Tanning</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Craft</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Tanning</tech-name>
+    <tech-icon>icon_technique_03_00_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>armor</tech-keyword>
+          <tech-keyword>jewelry</tech-keyword>
+          <tech-keyword>tool</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>bodyslot_neck</tech-keyword>
+          <tech-keyword>bodyslot_waist</tech-keyword>
+          <tech-keyword>bodyslot_legs</tech-keyword>
+          <tech-keyword>bodyslot_shoulder</tech-keyword>
+          <tech-keyword>bodyslot_arms</tech-keyword>
+          <tech-keyword>bodyslot_hands</tech-keyword>
+          <tech-keyword>bodyslot_rightpalm</tech-keyword>
+          <tech-keyword>bodyslot_finger</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>600</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Tanning I</tier-name>
+      <tier-origin>Craft: Tanning I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 to the Tanning trade skill.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+4 Tanning</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Cedar Treant Knot</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Tanning II</tier-name>
+      <tier-origin>Craft: Tanning II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 to the Tanning trade skill.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+8 Tanning</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Ruxus Skin</component>
+        <component amount="1">Rose Quartz Golem Chip</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Tanning III</tier-name>
+      <tier-origin>Craft: Tanning III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 to the Tanning trade skill.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+12 Tanning</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Winter Gruok Knuckles</component>
+        <component amount="1">Werewolf Hide</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Tanning IV</tier-name>
+      <tier-origin>Craft: Tanning IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 to the Tanning trade skill.</tier-desc>
+      <tier-skilladjust>40</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+16 Tanning</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="2">Flame Ogre Jawbone</component>
+        <component amount="1">Winter Werewolf Fang</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Tanning V</tier-name>
+      <tier-origin>Craft: Tanning V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 to the Tanning trade skill.</tier-desc>
+      <tier-skilladjust>50</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+20 Tanning</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Giant Ice Beetle Mandible</component>
+        <component amount="2">Zombie Werewolf Skull</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

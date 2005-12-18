@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Dexterity</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Statistic</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Dexterity</tech-name>
+    <tech-icon>icon_technique_01_01_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>armor</tech-keyword>
+          <tech-keyword>weapon</tech-keyword>
+          <tech-keyword>jewelry</tech-keyword>
+          <tech-keyword>tool</tech-keyword>
+          <tech-keyword>dragonscale</tech-keyword>
+          <tech-keyword>container</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>bodyslot_chest</tech-keyword>
+          <tech-keyword>bodyslot_neck</tech-keyword>
+          <tech-keyword>bodyslot_legs</tech-keyword>
+          <tech-keyword>bodyslot_feet</tech-keyword>
+          <tech-keyword>bodyslot_arms</tech-keyword>
+          <tech-keyword>bodyslot_forearm</tech-keyword>
+          <tech-keyword>bodyslot_wrist</tech-keyword>
+          <tech-keyword>bodyslot_rightpalm</tech-keyword>
+          <tech-keyword>bodyslot_leftpalm</tech-keyword>
+          <tech-keyword>dragon_bodyslot_wing</tech-keyword>
+          <tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+          <tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+          <tech-keyword>dragon_bodyslot_chest</tech-keyword>
+          <tech-keyword>dragon_bodyslot_back</tech-keyword>
+          <tech-keyword>dragon_bodyslot_head</tech-keyword>
+          <tech-keyword>dragon_bodyslot_tail</tech-keyword>
+          <tech-keyword>dragon_bodyslot_claw</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>statmod_dexterity_up</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Dexterity I</tier-name>
+      <tier-origin>Statistic: Dexterity I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>This technique effect gives the user the ability to create objects with an additional +5 to the Dexterity statistic.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+5 Dexterity</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Turquoise Golem Chip</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Dexterity II</tier-name>
+      <tier-origin>Statistic: Dexterity II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create objects with an additional +10 to the Dexterity statistic.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+10 Dexterity</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Slate Golem Fragment</component>
+        <component amount="1">Snow Ogre Jawbone</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Dexterity III</tier-name>
+      <tier-origin>Statistic: Dexterity III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create objects with an additional +15 to the Dexterity statistic.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+15 Dexterity</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Mountain Wolf Fang</component>
+        <component amount="1">Green Necrofly Wing</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Dexterity IV</tier-name>
+      <tier-origin>Statistic: Dexterity IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc></tier-desc>
+      <tier-skilladjust>40</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+20 Dexterity</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="2">Fire Beetle Carapace</component>
+        <component amount="1">Jade Golem Chip</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Dexterity V</tier-name>
+      <tier-origin>Statistic: Dexterity V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc></tier-desc>
+      <tier-skilladjust>50</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+25 Dexterity</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Giant Fire Beetle Mandible</component>
+        <component amount="2">Zombie Werewolf Skull</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

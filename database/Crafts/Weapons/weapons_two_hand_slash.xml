@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Weapons - Two Hand Slash</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Weapons</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Bastard Sword</item-name>
+    <item-icon>icon_formula_w_2hs_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">KNOC, RVR, PLDN, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Two Hand Slash</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_bastardsword</item-keyword>
+      <item-keyword>weaponstyle_sword</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_twohandslash</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Bastard Sword</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">45</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">5-7</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">1</resource-min>
+          <resource-opt amount="9">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Bastard Sword</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">81</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">22-34</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">200</resource-min>
+          <resource-opt amount="9">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Bastard Sword</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">162</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">38-61</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">400</resource-min>
+          <resource-opt amount="9">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Bastard Sword</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">324</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="delay">43</tier-attribute>
+        <tier-attribute type="damage">58-86</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">600</resource-min>
+          <resource-opt amount="9">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Bastard Sword</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>The bastard sword, or hand-and-a-half sword, so named due to its being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">648</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="delay">42</tier-attribute>
+        <tier-attribute type="damage">68-111</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">800</resource-min>
+          <resource-opt amount="9">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Battle Axe</item-name>
+    <item-icon>icon_formula_w_2hs_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">BRSK, RVR, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Two Hand Slash</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_battleaxe</item-keyword>
+      <item-keyword>weaponstyle_axe</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_twohandslash</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Battle Axe</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon bronze blades, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">55</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="delay">51</tier-attribute>
+        <tier-attribute type="damage">11-15</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">50</resource-min>
+          <resource-opt amount="11">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Battle Axe</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon iron blades, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">99</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="delay">50</tier-attribute>
+        <tier-attribute type="damage">30-45</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">250</resource-min>
+          <resource-opt amount="11">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Battle Axe</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon steel blades, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">198</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="delay">49</tier-attribute>
+        <tier-attribute type="damage">49-74</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">450</resource-min>
+          <resource-opt amount="11">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Battle Axe</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon cobalt blades, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">396</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="delay">48</tier-attribute>
+        <tier-attribute type="damage">67-101</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">650</resource-min>
+          <resource-opt amount="11">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Battle Axe</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon mithril blades, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">792</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="delay">47</tier-attribute>
+        <tier-attribute type="damage">83-128</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">850</resource-min>
+          <resource-opt amount="11">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Bastard Sword</item-name>
+    <item-icon>icon_formula_w_2hs_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">KNOC, RVR, PLDN, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Two Hand Slash</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_bastardsword</item-keyword>
+      <item-keyword>weaponstyle_sword</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_twohandslash</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Bronze Bastard Sword</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">60</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">13-21</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="24">100</resource-min>
+          <resource-opt amount="12">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Iron Bastard Sword</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">30-47</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="24">300</resource-min>
+          <resource-opt amount="12">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Steel Bastard Sword</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="delay">43</tier-attribute>
+        <tier-attribute type="damage">45-73</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="24">500</resource-min>
+          <resource-opt amount="12">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Cobalt Bastard Sword</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">612</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="delay">42</tier-attribute>
+        <tier-attribute type="damage">60-98</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="34">700</resource-min>
+          <resource-opt amount="17">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Mithril Bastard Sword</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>The bastard sword, or hand and a half sword, so named due to it being larger than a longsword but not quite a greatsword, is a slightly quicker, more agile version of its larger manifestation, the two-handed greatsword.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="delay">41</tier-attribute>
+        <tier-attribute type="damage">74-121</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Battle Axe</item-name>
+    <item-icon>icon_formula_w_2hs_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">BRSK, RVR, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Two Hand Slash</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_battleaxe</item-keyword>
+      <item-keyword>weaponstyle_axe</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_twohandslash</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Bronze Battle Axe</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon bronze blades of exceptional quality, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">70</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (150)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+        <tier-attribute type="delay">50</tier-attribute>
+        <tier-attribute type="damage">20-30</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">150</resource-min>
+          <resource-opt amount="14">250</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Iron Battle Axe</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon iron blades of exceptional quality, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">126</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (350)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+        <tier-attribute type="delay">49</tier-attribute>
+        <tier-attribute type="damage">39-59</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">350</resource-min>
+          <resource-opt amount="14">475</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Steel Battle Axe</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon steel blades of exceptional quality, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">252</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (550)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+        <tier-attribute type="delay">48</tier-attribute>
+        <tier-attribute type="damage">57-87</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">550</resource-min>
+          <resource-opt amount="14">700</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Cobalt Battle Axe</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon cobalt blades of exceptional quality, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">504</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (750)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+        <tier-attribute type="delay">47</tier-attribute>
+        <tier-attribute type="damage">74-114</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">750</resource-min>
+          <resource-opt amount="14">925</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Mithril Battle Axe</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A massive two-handed axe with two crescent moon mithril blades of exceptional quality, designed for devastating sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1008</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (950)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">90-140</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">950</resource-min>
+          <resource-opt amount="14">1150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Large Axe</item-name>
+    <item-icon>icon_formula_w_2hs_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">BRSK, RVR, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Two Hand Slash</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_largeaxe</item-keyword>
+      <item-keyword>weaponstyle_axe</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_twohandslash</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Bronze Large Axe</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled bronze blades of exceptional quality, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">60</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="delay">48</tier-attribute>
+        <tier-attribute type="damage">14-22</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="24">100</resource-min>
+          <resource-opt amount="12">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Iron Large Axe</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled iron blades of exceptional quality, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="delay">47</tier-attribute>
+        <tier-attribute type="damage">32-50</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="24">300</resource-min>
+          <resource-opt amount="12">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Steel Large Axe</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled steel blades of exceptional quality, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">50-77</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="24">500</resource-min>
+          <resource-opt amount="12">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Cobalt Large Axe</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled cobalt blades of exceptional quality, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">66-103</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="24">700</resource-min>
+          <resource-opt amount="12">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Mithril Large Axe</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled mithril blades of exceptional quality, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">81-128</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="24">900</resource-min>
+          <resource-opt amount="12">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Two-Handed Sword</item-name>
+    <item-icon>icon_formula_w_2hs_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">KNOC, RVR, PLDN, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Two Hand Slash</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>weapon_twohandsword</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_sword</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_twohandslash</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Bronze Two-Handed Sword</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>An exceptional sword of colossal size forged from bronze, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">70</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (150)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+        <tier-attribute type="delay">47</tier-attribute>
+        <tier-attribute type="damage">19-28</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">150</resource-min>
+          <resource-opt amount="14">250</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Iron Two-Handed Sword</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>An exceptional sword of colossal size forged from iron, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">126</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (350)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">36-56</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">350</resource-min>
+          <resource-opt amount="14">475</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Steel Two-Handed Sword</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>An exceptional sword of colossal size forged from steel, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">252</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (550)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">53-82</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">550</resource-min>
+          <resource-opt amount="14">700</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Cobalt Two-Handed Sword</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>An exceptional sword of colossal size forged from cobalt, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">504</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (750)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">68-108</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">750</resource-min>
+          <resource-opt amount="14">925</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Mithril Two-Handed Sword</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>An exceptional sword of colossal size forged from mithril, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1008</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (950)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+        <tier-attribute type="delay">43</tier-attribute>
+        <tier-attribute type="damage">83-132</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="28">950</resource-min>
+          <resource-opt amount="14">1150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Large Axe</item-name>
+    <item-icon>icon_formula_w_2hs_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">BRSK, RVR, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Two Hand Slash</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_largeaxe</item-keyword>
+      <item-keyword>weaponstyle_axe</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_twohandslash</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Large Axe</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled bronze blades, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">45</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="delay">49</tier-attribute>
+        <tier-attribute type="damage">5-7</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">1</resource-min>
+          <resource-opt amount="9">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Large Axe</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled iron blades, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">81</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="delay">48</tier-attribute>
+        <tier-attribute type="damage">24-36</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">200</resource-min>
+          <resource-opt amount="9">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Large Axe</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled steel blades, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">162</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="delay">47</tier-attribute>
+        <tier-attribute type="damage">42-64</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">400</resource-min>
+          <resource-opt amount="9">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Large Axe</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled cobalt blades, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">324</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">59-91</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">600</resource-min>
+          <resource-opt amount="9">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Large Axe</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A hefty two-handed axe with two angled mithril blades, designed for destructive sweeping attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">648</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">74-117</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">800</resource-min>
+          <resource-opt amount="9">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Two-Handed Sword</item-name>
+    <item-icon>icon_formula_w_2hs_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">KNOC, RVR, PLDN, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Two Hand Slash</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>weapon_twohandsword</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_sword</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_twohandslash</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Two-Handed Sword</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A sword of colossal size forged from bronze, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">55</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="delay">48</tier-attribute>
+        <tier-attribute type="damage">10-14</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">50</resource-min>
+          <resource-opt amount="11">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Two-Handed Sword</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A sword of colossal size forged from iron, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">99</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="delay">47</tier-attribute>
+        <tier-attribute type="damage">28-43</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">250</resource-min>
+          <resource-opt amount="11">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Two-Handed Sword</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A sword of colossal size forged from steel, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">198</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">45-70</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">450</resource-min>
+          <resource-opt amount="11">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Two-Handed Sword</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A sword of colossal size forged from cobalt, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">396</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">61-96</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">650</resource-min>
+          <resource-opt amount="11">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Two-Handed Sword</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A sword of colossal size, forged from mithril, designed for two-handed swings to inflict severe damage.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">792</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Two Hand Slash (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">77-121</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">850</resource-min>
+          <resource-opt amount="11">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

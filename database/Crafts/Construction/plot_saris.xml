@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset>
+	<formulaset-name>Plot - Saris Structures</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Construction</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Saris House</item-name>
+		<item-icon>Internal_house_saris.png</item-icon>
+		<tier>
+			<tier-name>Saris Tiny Hut</tier-name>
+			<tier-lvl name="Tiny Hut">1</tier-lvl>
+			<tier-desc>A very small saris building</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">3000</tier-attribute>
+				<tier-attribute type="structurestacks">25</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>75</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>75</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>150</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Saris Medium House</tier-name>
+			<tier-lvl name="Medium">1</tier-lvl>
+			<tier-desc>A large Saris-styled house</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">6000</tier-attribute>
+				<tier-attribute type="structurestacks">50</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flax Construction Bolt</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>350</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>250</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>350</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Saris Manor House</tier-name>
+			<tier-lvl name="Manor">1</tier-lvl>
+			<tier-desc>A large Saris-styled house</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">8400</tier-attribute>
+				<tier-attribute type="structurestacks">70</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Elm Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>150</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Granite Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>400</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>35</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="30">250</resource-min>
+					<resource-opt amount="5">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>500</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>325</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>200</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Saris Shop</item-name>
+		<item-icon>Internal_shop_saris.png</item-icon>
+		<tier>
+			<tier-name>Saris Tiny Pawn Shop</tier-name>
+			<tier-lvl name="Pawn Shop">1</tier-lvl>
+			<tier-desc>A very small saris building</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurenpc">Player Structure: Pawn Broker</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>75</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>75</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>150</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Saris General Store</tier-name>
+			<tier-lvl name="General Store">1</tier-lvl>
+			<tier-desc>A mid-sized Saris structure containing consignment and a pawn broker.</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurenpc">Player Structure: Consignment</tier-attribute>
+				<tier-attribute type="structurenpc">Player Structure: Pawn Broker</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>75</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>250</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>250</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>350</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Saris Adventure Center</item-name>
+		<item-icon>Internal_saris_center.png</item-icon>
+		<tier>
+			<tier-name>Saris Adventure Center</tier-name>
+			<tier-lvl name="Standard">1</tier-lvl>
+			<tier-desc>A large Saris structure</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurenpc">Player Adventure Trainer: Monk</tier-attribute>
+				<tier-attribute type="structurenpc">Player Adventure Trainer: Cleric</tier-attribute>
+				<tier-attribute type="structurenpc">Player Adventure Trainer: Mage</tier-attribute>
+				<tier-attribute type="structurenpc">Player Adventure Trainer: Warrior</tier-attribute>
+				<tier-attribute type="structurenpc">Player Adventure Trainer: Scout</tier-attribute>
+				<tier-attribute type="structurenpc">Player Adventure Trainer: Druid</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Construction Sphere</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>100</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Granite Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>400</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>100</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Construction Sphere</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>225</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>250</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Foraging</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Craft</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Foraging</tech-name>
+    <tech-icon>icon_technique_03_00_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>armor</tech-keyword>
+          <tech-keyword>jewelry</tech-keyword>
+          <tech-keyword>tool</tech-keyword>
+          <tech-keyword>container</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>bodyslot_neck</tech-keyword>
+          <tech-keyword>bodyslot_face</tech-keyword>
+          <tech-keyword>bodyslot_ear</tech-keyword>
+          <tech-keyword>bodyslot_waist</tech-keyword>
+          <tech-keyword>bodyslot_feet</tech-keyword>
+          <tech-keyword>bodyslot_hands</tech-keyword>
+          <tech-keyword>bodyslot_rightpalm</tech-keyword>
+          <tech-keyword>bodyslot_leftpalm</tech-keyword>
+          <tech-keyword>bodyslot_finger</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>205</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Foraging I</tier-name>
+      <tier-origin>Craft: Foraging I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 to the Foraging trade skill.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+4 Foraging</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Sandstone Golem Fragment</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Foraging II</tier-name>
+      <tier-origin>Craft: Foraging II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 to the Foraging trade skill.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+8 Foraging</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Ruxus Skin</component>
+        <component amount="1">Rose Quartz Golem Chip</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Foraging III</tier-name>
+      <tier-origin>Craft: Foraging III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 to the Foraging trade skill.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+12 Foraging</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Winter Gruok Knuckles</component>
+        <component amount="1">Myloc Hair</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Foraging IV</tier-name>
+      <tier-origin>Craft: Foraging IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 to the Foraging trade skill.</tier-desc>
+      <tier-skilladjust>40</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+16 Foraging</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="2">Fire Wolf Fang</component>
+        <component amount="1">Mighty Ghost Vapor</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Foraging V</tier-name>
+      <tier-origin>Craft: Foraging V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 to the Foraging trade skill.</tier-desc>
+      <tier-skilladjust>50</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+20 Foraging</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Forest Oastic Sac</component>
+        <component amount="2">Enduring Fyakki Chitin</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

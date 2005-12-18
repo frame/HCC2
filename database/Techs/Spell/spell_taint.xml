@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Taint</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Spell</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Taint</tech-name>
+    <tech-icon>icon_technique_02_00_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>spell</tech-keyword>
+          <tech-keyword>primal</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>skill_use_magic_blight</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>ranged</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>929</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Taint I</tier-name>
+      <tier-origin>Spell: Taint I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Blight spells with this technique have a 25% chance to lower the target's blight resistance by 10% for 30 seconds.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Sandstone Golem Fragment</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Taint II</tier-name>
+      <tier-origin>Spell: Taint II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Blight spells with this technique have a 25% chance to lower the target's blight resistance by 15% for 30 seconds.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Amethyst Golem Chip</component>
+        <component amount="1">Frost Ogre Jawbone</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Taint III</tier-name>
+      <tier-origin>Spell: Taint III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Blight spells with this technique have a 25% chance to lower the target's blight resistance by 20% for 30 seconds.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Kwellen Ice Shard</component>
+        <component amount="1">Redbacked Breeder Spider Eye</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Taint IV</tier-name>
+      <tier-origin>Spell: Taint IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Blight spells with this technique have a 25% chance to lower the target's blight resistance by 25% for 30 seconds.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="2">Flame Ogre Jawbone</component>
+        <component amount="1">Flame Wolf Fang</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Taint V</tier-name>
+      <tier-origin>Spell: Taint V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Blight spells with this technique have a 25% chance to lower the target's blight resistance by 30% for 30 seconds.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Icy Dire Wolf Fang</component>
+        <component amount="2">Kwellen Energy Node</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

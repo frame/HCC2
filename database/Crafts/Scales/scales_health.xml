@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Scales - Health</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Scales</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Health Back Scale</item-name>
+    <item-icon>icon_formula_ds_03_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Back Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="hoardValue">720</item-attribute>
+      <item-attribute type="reqCurrentSchoolLevel">Current School Level (80)</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+      <item-attribute type="statBonus">+50 Health</item-attribute>
+      <item-attribute type="statBonus">+25 Armor</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_5</item-keyword>
+      <item-keyword>techclass_4</item-keyword>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_back</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_5</item-keyword>
+      <item-keyword>statmod_health_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Mithril-Marble Health Back Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">980</resource-min>
+          <resource-opt amount="6">1180</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">980</resource-min>
+          <resource-opt amount="6">1180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Health Chest Scale</item-name>
+    <item-icon>icon_formula_ds_02_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Chest Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_chest</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_health_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze-Sandstone Health Chest Scale</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">48</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+        <tier-attribute type="statBonus">+10 Health</tier-attribute>
+        <tier-attribute type="statBonus">+5 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">80</resource-min>
+          <resource-opt amount="6">180</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">80</resource-min>
+          <resource-opt amount="6">180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron-Slate Health Chest Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Health</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">280</resource-min>
+          <resource-opt amount="6">405</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">280</resource-min>
+          <resource-opt amount="6">405</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel-Granite Health Chest Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Health</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">480</resource-min>
+          <resource-opt amount="6">630</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">480</resource-min>
+          <resource-opt amount="6">630</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt-Obsidian Health Chest Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Health</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">680</resource-min>
+          <resource-opt amount="6">855</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">680</resource-min>
+          <resource-opt amount="6">855</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril-Marble Health Chest Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Health</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">880</resource-min>
+          <resource-opt amount="6">1080</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">880</resource-min>
+          <resource-opt amount="6">1080</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Health Foreleg Scale</item-name>
+    <item-icon>icon_formula_ds_06_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Foreleg Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_foreleg</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_3</item-keyword>
+      <item-keyword>statmod_health_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Steel-Granite Health Foreleg Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Health</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">480</resource-min>
+          <resource-opt amount="6">630</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">480</resource-min>
+          <resource-opt amount="6">630</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt-Obsidian Health Foreleg Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Health</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">680</resource-min>
+          <resource-opt amount="6">855</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">680</resource-min>
+          <resource-opt amount="6">855</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril-Marble Health Foreleg Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Health</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">880</resource-min>
+          <resource-opt amount="6">1080</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">880</resource-min>
+          <resource-opt amount="6">1080</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Health Head Scale</item-name>
+    <item-icon>icon_formula_ds_01_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Head Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_head</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_2</item-keyword>
+      <item-keyword>statmod_health_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Iron-Slate Health Head Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Health</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">280</resource-min>
+          <resource-opt amount="6">405</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">280</resource-min>
+          <resource-opt amount="6">405</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel-Granite Health Head Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Health</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">480</resource-min>
+          <resource-opt amount="6">630</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">480</resource-min>
+          <resource-opt amount="6">630</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt-Obsidian Health Head Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Health</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">680</resource-min>
+          <resource-opt amount="6">855</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">680</resource-min>
+          <resource-opt amount="6">855</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril-Marble Health Head Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Health</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">880</resource-min>
+          <resource-opt amount="6">1080</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">880</resource-min>
+          <resource-opt amount="6">1080</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Health Hindleg Scale</item-name>
+    <item-icon>icon_formula_ds_07_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Hindleg Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_hindleg</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_3</item-keyword>
+      <item-keyword>statmod_health_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Steel-Granite Health Hindleg Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (50)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Health</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">580</resource-min>
+          <resource-opt amount="6">730</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">580</resource-min>
+          <resource-opt amount="6">730</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt-Obsidian Health Hindleg Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Health</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">780</resource-min>
+          <resource-opt amount="6">955</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">780</resource-min>
+          <resource-opt amount="6">955</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril-Marble Health Hindleg Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Health</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">980</resource-min>
+          <resource-opt amount="6">1180</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">980</resource-min>
+          <resource-opt amount="6">1180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Health Tail Scale</item-name>
+    <item-icon>icon_formula_ds_04_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Tail Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="hoardValue">720</item-attribute>
+      <item-attribute type="reqCurrentSchoolLevel">Current School Level (80)</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+      <item-attribute type="statBonus">+50 Health</item-attribute>
+      <item-attribute type="statBonus">+25 Armor</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_5</item-keyword>
+      <item-keyword>techclass_4</item-keyword>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_tail</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_5</item-keyword>
+      <item-keyword>statmod_health_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Mithril-Marble Health Tail Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">980</resource-min>
+          <resource-opt amount="6">1180</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">980</resource-min>
+          <resource-opt amount="6">1180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Health Wing Scale</item-name>
+    <item-icon>icon_formula_ds_05_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Wing Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_wing</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_health_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze-Sandstone Health Wing Scale</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">48</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (10)</tier-attribute>
+        <tier-attribute type="statBonus">+10 Health</tier-attribute>
+        <tier-attribute type="statBonus">+5 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">180</resource-min>
+          <resource-opt amount="6">280</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">180</resource-min>
+          <resource-opt amount="6">280</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron-Slate Health Wing Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Health</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">380</resource-min>
+          <resource-opt amount="6">505</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">380</resource-min>
+          <resource-opt amount="6">505</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel-Granite Health Wing Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Health</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">580</resource-min>
+          <resource-opt amount="6">730</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">580</resource-min>
+          <resource-opt amount="6">730</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt-Obsidian Health Wing Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Health</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">780</resource-min>
+          <resource-opt amount="6">955</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">780</resource-min>
+          <resource-opt amount="6">955</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril-Marble Health Wing Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Health</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">980</resource-min>
+          <resource-opt amount="6">1180</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">980</resource-min>
+          <resource-opt amount="6">1180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

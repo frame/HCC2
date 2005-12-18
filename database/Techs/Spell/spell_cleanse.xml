@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Cleanse</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Spell</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Cleanse</tech-name>
+    <tech-icon>icon_technique_02_02_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>spell</tech-keyword>
+          <tech-keyword>primal</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>heal</tech-keyword>
+          <tech-keyword>buff</tech-keyword>
+          <tech-keyword>heal_over_time</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>skill_use_magic_nature</tech-keyword>
+          <tech-keyword>skill_use_magic_life</tech-keyword>
+          <tech-keyword>skill_use_magic_primal</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>1423</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Cleanse I</tier-name>
+      <tier-origin>Spell: Cleanse I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Life, Nature and Primal spells with this technique applied to them have a 25% chance of dispelling a negative effect on a friend.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="range">0</tier-attribute>
+        <tier-attribute type="delay">50</tier-attribute>
+        <tier-attribute type="description">Attempts to remove hostile effects</tier-attribute>
+        <tier-attribute type="chance">(25% chance)</tier-attribute>
+        <tier-attribute type="maxRemovals">1</tier-attribute>
+        <tier-attribute type="dispelQuality">Automatic</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Weaker Mummy Wrappings</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Cleanse II</tier-name>
+      <tier-origin>Spell: Cleanse II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Life, Nature and Primal spells with this technique applied to them have a 45% chance of dispelling a negative effect on a friend.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="range">0</tier-attribute>
+        <tier-attribute type="delay">50</tier-attribute>
+        <tier-attribute type="description">Attempts to remove hostile effects</tier-attribute>
+        <tier-attribute type="chance">(45% chance)</tier-attribute>
+        <tier-attribute type="maxRemovals">1</tier-attribute>
+        <tier-attribute type="dispelQuality">Automatic</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Lesser Mummy Embalming Dust</component>
+        <component amount="1">Frost Ogre Club Splinter</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Cleanse III</tier-name>
+      <tier-origin>Spell: Cleanse III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Life, Nature and Primal spells with this technique applied to them have a 65% chance of dispelling a negative effect on a friend.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="range">0</tier-attribute>
+        <tier-attribute type="delay">50</tier-attribute>
+        <tier-attribute type="description">Attempts to remove hostile effects</tier-attribute>
+        <tier-attribute type="chance">(65% chance)</tier-attribute>
+        <tier-attribute type="maxRemovals">1</tier-attribute>
+        <tier-attribute type="dispelQuality">Automatic</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Kwellen Ice Shard</component>
+        <component amount="1">Redbacked Breeder Spider Eye</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

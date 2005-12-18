@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Power</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Statistic</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Power</tech-name>
+    <tech-icon>icon_technique_01_04_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>armor</tech-keyword>
+          <tech-keyword>weapon</tech-keyword>
+          <tech-keyword>jewelry</tech-keyword>
+          <tech-keyword>tool</tech-keyword>
+          <tech-keyword>dragonscale</tech-keyword>
+          <tech-keyword>container</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>bodyslot_chest</tech-keyword>
+          <tech-keyword>bodyslot_neck</tech-keyword>
+          <tech-keyword>bodyslot_face</tech-keyword>
+          <tech-keyword>bodyslot_ear</tech-keyword>
+          <tech-keyword>bodyslot_waist</tech-keyword>
+          <tech-keyword>bodyslot_legs</tech-keyword>
+          <tech-keyword>bodyslot_forearm</tech-keyword>
+          <tech-keyword>bodyslot_rightpalm</tech-keyword>
+          <tech-keyword>bodyslot_leftpalm</tech-keyword>
+          <tech-keyword>dragon_bodyslot_wing</tech-keyword>
+          <tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+          <tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+          <tech-keyword>dragon_bodyslot_chest</tech-keyword>
+          <tech-keyword>dragon_bodyslot_back</tech-keyword>
+          <tech-keyword>dragon_bodyslot_head</tech-keyword>
+          <tech-keyword>dragon_bodyslot_tail</tech-keyword>
+          <tech-keyword>dragon_bodyslot_claw</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>statmod_power_up</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Power I</tier-name>
+      <tier-origin>Statistic: Power I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create objects with an additional +5 to the Power statistic.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+5 Power</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Brittle Fyakki Leg</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Power II</tier-name>
+      <tier-origin>Statistic: Power II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create objects with an additional +10 to the Power statistic.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+10 Power</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Brighter Spider Silk</component>
+        <component amount="1">Brown Wolf Fang</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Power III</tier-name>
+      <tier-origin>Statistic: Power III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create objects with an additional +15 to the Power statistic.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+15 Power</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Snow Beetle Carapace</component>
+        <component amount="1">Kwellen Ice Shard</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Power IV</tier-name>
+      <tier-origin>Statistic: Power IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc></tier-desc>
+      <tier-skilladjust>40</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+20 Power</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="1">Fire Pygmy Ear</component>
+        <component amount="2">Winter Werewolf Fang</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Power V</tier-name>
+      <tier-origin>Statistic: Power V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc></tier-desc>
+      <tier-skilladjust>50</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+25 Power</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Dire Wolf Fang</component>
+        <component amount="2">Veteran Abomination Chest Skull</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

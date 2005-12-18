@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Fletching</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Craft</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Fletching</tech-name>
+    <tech-icon>icon_technique_03_00_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>armor</tech-keyword>
+          <tech-keyword>jewelry</tech-keyword>
+          <tech-keyword>tool</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>bodyslot_chest</tech-keyword>
+          <tech-keyword>bodyslot_neck</tech-keyword>
+          <tech-keyword>bodyslot_head</tech-keyword>
+          <tech-keyword>bodyslot_ear</tech-keyword>
+          <tech-keyword>bodyslot_waist</tech-keyword>
+          <tech-keyword>bodyslot_wrist</tech-keyword>
+          <tech-keyword>bodyslot_hands</tech-keyword>
+          <tech-keyword>bodyslot_rightpalm</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>203</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Fletching I</tier-name>
+      <tier-origin>Craft: Fletching I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 to the Fletching trade skill.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+4 Fletching</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Garnet Golem Chip</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Fletching II</tier-name>
+      <tier-origin>Craft: Fletching II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 to the Fletching trade skill.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+8 Fletching</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Lesser Blight Claw</component>
+        <component amount="1">Elm Treant Knot</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Fletching III</tier-name>
+      <tier-origin>Craft: Fletching III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 to the Fletching trade skill.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+12 Fletching</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Werewolf Bone</component>
+        <component amount="1">Oak Treant Knot</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Fletching IV</tier-name>
+      <tier-origin>Craft: Fletching IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 to the Fletching trade skill.</tier-desc>
+      <tier-skilladjust>40</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+16 Fletching</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="1">Maple Treant Knot</component>
+        <component amount="2">Mighty Skeleton Skull</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Fletching V</tier-name>
+      <tier-origin>Craft: Fletching V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 to the Fletching trade skill.</tier-desc>
+      <tier-skilladjust>50</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+20 Fletching</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Yew Treant Knot</component>
+        <component amount="2">Veteran Abomination Chest Skull</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

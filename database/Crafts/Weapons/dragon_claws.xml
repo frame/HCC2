@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Dragon Claws</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Weapons</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Lesser Gem-Tipped Dragon Claws</item-name>
+    <item-icon>icon_formula_w_dng_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Dragon Claw</item-attribute>
+      <item-attribute type="bulk">12</item-attribute>
+      <item-attribute type="reqClass">DRAG</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Tooth and Claw</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>dragon_bodyslot_claw</item-keyword>
+      <item-keyword>primal</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Garnet Tipped Dragon Claw</tier-name>
+      <tier-lvl name="I Garnet">1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">96</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (1)</tier-attribute>
+        <tier-attribute type="delay">31</tier-attribute>
+        <tier-attribute type="damage">3-5</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Garnet</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">1</resource-min>
+          <resource-opt amount="6">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">1</resource-min>
+          <resource-opt amount="12">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Malachite Tipped Dragon Claw</tier-name>
+      <tier-lvl name="I Malachite">1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">96</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (7)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (56)</tier-attribute>
+        <tier-attribute type="delay">31</tier-attribute>
+        <tier-attribute type="damage">6-8</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Malachite</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">1</resource-min>
+          <resource-opt amount="6">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">1</resource-min>
+          <resource-opt amount="12">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Spiked Turquoise Tipped Dragon Claw</tier-name>
+      <tier-lvl name="I Spiked Turquoise">1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">120</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (19)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (152)</tier-attribute>
+        <tier-attribute type="delay">31</tier-attribute>
+        <tier-attribute type="damage">12-17</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Turquoise</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="20">1</resource-min>
+          <resource-opt amount="10">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">1</resource-min>
+          <resource-opt amount="12">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Turquoise Tipped Dragon Claw</tier-name>
+      <tier-lvl name="I Turquoise">1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">96</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (13)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (104)</tier-attribute>
+        <tier-attribute type="delay">31</tier-attribute>
+        <tier-attribute type="damage">9-13</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Turquoise</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">1</resource-min>
+          <resource-opt amount="6">200</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">1</resource-min>
+          <resource-opt amount="12">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Aquamarine Tipped Dragon Claw</tier-name>
+      <tier-lvl name="III Aquamarine">3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (57)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (456)</tier-attribute>
+        <tier-attribute type="delay">29</tier-attribute>
+        <tier-attribute type="damage">29-42</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Aquamarine</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">400</resource-min>
+          <resource-opt amount="6">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">400</resource-min>
+          <resource-opt amount="12">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Citrine Tipped Dragon Claw</tier-name>
+      <tier-lvl name="III Citrine">3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (44)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (352)</tier-attribute>
+        <tier-attribute type="delay">30</tier-attribute>
+        <tier-attribute type="damage">24-34</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Citrine</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">400</resource-min>
+          <resource-opt amount="6">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">400</resource-min>
+          <resource-opt amount="12">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Jasper Tipped Dragon Claw</tier-name>
+      <tier-lvl name="III Jasper">3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (400)</tier-attribute>
+        <tier-attribute type="delay">29</tier-attribute>
+        <tier-attribute type="damage">27-37</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Jasper</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">400</resource-min>
+          <resource-opt amount="6">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">400</resource-min>
+          <resource-opt amount="12">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Emerald Tipped Dragon Claw</tier-name>
+      <tier-lvl name="V Emerald">5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1440</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (94)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (752)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">46-65</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Emerald</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">800</resource-min>
+          <resource-opt amount="6">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">800</resource-min>
+          <resource-opt amount="12">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fire Opal Tipped Dragon Claw</tier-name>
+      <tier-lvl name="V Fire Opal">5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1440</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (704)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">43-61</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Fire Opal</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">800</resource-min>
+          <resource-opt amount="6">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">800</resource-min>
+          <resource-opt amount="12">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Peridot Tipped Dragon Claw</tier-name>
+      <tier-lvl name="V Peridot">5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1440</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (656)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">40-57</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Peridot</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">800</resource-min>
+          <resource-opt amount="6">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">800</resource-min>
+          <resource-opt amount="12">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Spiked Emerald Tipped Dragon Claw</tier-name>
+      <tier-lvl name="V Spiked Emerald">5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">1824</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (100)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (800)</tier-attribute>
+        <tier-attribute type="delay">27</tier-attribute>
+        <tier-attribute type="damage">46-67</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Emerald</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="20">800</resource-min>
+          <resource-opt amount="10">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">800</resource-min>
+          <resource-opt amount="12">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Gem-Tipped Dragon Claws</item-name>
+    <item-icon>icon_formula_w_dng_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Dragon Claw</item-attribute>
+      <item-attribute type="bulk">12</item-attribute>
+      <item-attribute type="reqClass">DRAG</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">slash</item-attribute>
+      <item-attribute type="skill">Tooth and Claw</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>dragon_bodyslot_claw</item-keyword>
+      <item-keyword>primal</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_2</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Amethyst Tipped Dragon Claw</tier-name>
+      <tier-lvl name="II Amethyst">2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (32)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (256)</tier-attribute>
+        <tier-attribute type="delay">30</tier-attribute>
+        <tier-attribute type="damage">18-25</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Amethyst</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">200</resource-min>
+          <resource-opt amount="6">400</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">200</resource-min>
+          <resource-opt amount="12">400</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lapis Lazuli Tipped Dragon Claw</tier-name>
+      <tier-lvl name="II Lapis Lazuli">2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (38)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (304)</tier-attribute>
+        <tier-attribute type="delay">30</tier-attribute>
+        <tier-attribute type="damage">21-30</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Lapis Lazuli</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">200</resource-min>
+          <resource-opt amount="6">400</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">200</resource-min>
+          <resource-opt amount="12">400</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Rose Quartz Tipped Dragon Claw</tier-name>
+      <tier-lvl name="II Rose Quartz">2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (200)</tier-attribute>
+        <tier-attribute type="delay">30</tier-attribute>
+        <tier-attribute type="damage">15-21</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Rose Quartz</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">200</resource-min>
+          <resource-opt amount="6">400</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">200</resource-min>
+          <resource-opt amount="12">400</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Jade Tipped Dragon Claw</tier-name>
+      <tier-lvl name="IV Jade">4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (600)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">37-53</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Jade</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">600</resource-min>
+          <resource-opt amount="6">800</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">600</resource-min>
+          <resource-opt amount="12">800</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Opal Tipped Dragon Claw</tier-name>
+      <tier-lvl name="IV Opal">4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (69)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (552)</tier-attribute>
+        <tier-attribute type="delay">29</tier-attribute>
+        <tier-attribute type="damage">36-50</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Opal</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">600</resource-min>
+          <resource-opt amount="6">800</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">600</resource-min>
+          <resource-opt amount="12">800</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Topaz Tipped Dragon Claw</tier-name>
+      <tier-lvl name="IV Topaz">4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (63)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Tooth and Claw (504)</tier-attribute>
+        <tier-attribute type="delay">29</tier-attribute>
+        <tier-attribute type="damage">32-46</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Topaz</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="12">600</resource-min>
+          <resource-opt amount="6">800</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">600</resource-min>
+          <resource-opt amount="12">800</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

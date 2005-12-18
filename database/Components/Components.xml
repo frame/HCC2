@@ -1,0 +1,5482 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<components>
+	<comp>
+		<comp-name>Adobe Clay Chunk</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A chunk of raw adobe clay, dug from the earth.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Adobe Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+			<gather>
+				<gather-skill>Earthencraft</gather-skill>
+				<gather-tool>Clay Scoop</gather-tool>
+				<gather-rate>High</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Adobe Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Earthenware Clay Chunk</bonus-name>
+						<bonus-amount chance="1.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Amethyst Golem Chip</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Craft: Masonry II Defense: Slash Ward II Defense: Spirit Ward II Spell: Ice Damage II Spell: Ice Snare II Spell: Taint II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>86c</comp-pawnbuy>
+		<comp-pawnsell>2s 150c</comp-pawnsell>
+		<comp-vielosell>3s 225c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Animal Hide</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A piece of hide from one of the native Istarian animals.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<comp-vielosell>37.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Apple</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>300</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Apple</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Aquamarine Golem Chip</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Life III Adventure: Mind III Craft: Enchanting III Craft: Gemworking III Craft: Masonry III Defense: Spirit Resistance III Spell: Heal Increase III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Arbotus Gullet</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Shot IV Adventure: Spirit IV Craft: Essence Shaping IV Craft: Sculpting IV Defense: Energy Resistance IV Defense: Flame Ward IV Defense: Life Ward IV Defense: Nature Resistance IV Spell: Blight Damage IV Spell: Critical Damage IV Spell: Gale IV Spell: Ice Snare IV Statistic: Focus IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Barley</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from a barley plant, this grain can be used in cooking and brewing.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Biting Necrofly Wing</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Unarmed I Craft: Alchemy I Craft: Weaving I Defense: Spirit Resistance I Spell: Burning Damage I Spell: Ice Damage I Statistic: Health I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>26.4c</comp-pawnbuy>
+		<comp-pawnsell>660c</comp-pawnsell>
+		<comp-vielosell>990c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Black Pepper Berry</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Berries that have been plucked from a black pepper plant.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Bright Essence</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Bright Essence</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Cedar Bark</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Cedar Bark</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Cedar Log</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Logging</gather-skill>
+				<gather-tool>Tree Axe</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Cedar Log</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Cobalt Ore</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Mining</gather-skill>
+				<gather-tool>Mining Pick or Mining Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Cobalt Ore</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Bright Blight Core</bonus-name>
+						<bonus-amount chance="0.500">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Copper and Tin Ore</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Mining</gather-skill>
+				<gather-tool>Mining Pick or Mining Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Copper and Tin Ore</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Blighted Iron Ore</bonus-name>
+						<bonus-amount chance="1.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Blighted Silver Ore</bonus-name>
+						<bonus-amount chance="1.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Dim Essence</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Dim Essence</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Blighted Pale Essence</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Elm Bark</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Elm Bark</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Elm Log</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Logging</gather-skill>
+				<gather-tool>Tree Axe</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Elm Log</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Glowing Essence</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Glowing Essence</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Gold Ore</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Mining</gather-skill>
+				<gather-tool>Mining Pick or Mining Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Gold Ore</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Granite Slab</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Granite Slab</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Iron Ore</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Mining</gather-skill>
+				<gather-tool>Mining Pick or Mining Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Iron Ore</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Maple Bark</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Maple Bark</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Maple Log</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Logging</gather-skill>
+				<gather-tool>Tree Axe</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Maple Log</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Bright Blight Core</bonus-name>
+						<bonus-amount chance="0.500">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Nickel Ore</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Mining</gather-skill>
+				<gather-tool>Mining Pick or Mining Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Nickel Ore</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Oak Bark</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Oak Bark</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Oak Log</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Logging</gather-skill>
+				<gather-tool>Tree Axe</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Oak Log</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Obsidian Slab</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Obsidian Slab</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Bright Blight Core</bonus-name>
+						<bonus-amount chance="0.500">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Pale Essence</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Glowing Essence</bonus-name>
+						<bonus-amount chance="1.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Blighted Pale Essence</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Glowing Essence</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Phylactery Fragment</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Blighted Platinum Ore</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Mining</gather-skill>
+				<gather-tool>Mining Pick or Mining Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Platinum Ore</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Bright Blight Core</bonus-name>
+						<bonus-amount chance="0.500">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Cobalt Ore</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Sandstone Slab</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Sandstone Slab</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Blighted Slate Slab</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Silver Ore</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Mining</gather-skill>
+				<gather-tool>Mining Pick or Mining Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Silver Ore</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Slate Slab</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Slate Slab</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Spider Silk</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Defense: Spirit Webbing</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>11.6c</comp-pawnbuy>
+		<comp-pawnsell>290c</comp-pawnsell>
+		<comp-vielosell>435c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Blighted Straw</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Amethyst</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Amethyst</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Aquamarine</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Aquamarine</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Citrine</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Citrine</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Garnet</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Garnet</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Jade</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Jade</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Jasper</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Jasper</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Lapis Lazuli</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Lapis Lazuli</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Malachite</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Malachite</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Opal</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Opal</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Rose Quartz</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Rose Quartz</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Topaz</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Topaz</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Turquoise</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Turquoise</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Unspun Cotton</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>500</min-skill>
+				<max-skill>750</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Unspun Cotton</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Unspun Flax</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>100</min-skill>
+				<max-skill>350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Unspun Flax</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Unspun Kenaf</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>300</min-skill>
+				<max-skill>550</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Unspun Kenaf</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Unspun Silk</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>700</min-skill>
+				<max-skill>950</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Unspun Silk</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Bright Blight Core</bonus-name>
+						<bonus-amount chance="0.500">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blue Necrofly Wing</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Tooth and Claw II Adventure: Two Hand Crush II Craft: Earthencraft II Craft: Enchanting II Defense: Life Ward II Defense: Primal Resistance II Spell: Blight Range II Spell: Fog II Spell: Gale II Spell: Nature Range II Spell: Primal Range II Spell: Romp II Spell: Spirit Damage II Statistic: Health II Statistic: Speed II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>105.6c</comp-pawnbuy>
+		<comp-pawnsell>2s 640c</comp-pawnsell>
+		<comp-vielosell>3s 960c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Bright Essence</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Magic essence that is gathered from a wisp, and later processed into orbs for use in trade skills.  This essence has a bright luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Brighter Spider Silk</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Pierce II Adventure: One Hand Slash II Craft: Cooking II Craft: Spinning II Craft: Tailoring II Craft: Weaving II Defense: Flame Ward II Defense: Nature Resistance II Spell: Critical Damage II Spell: Flame Damage II Spell: Pierce II Statistic: Focus II Statistic: Power II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Brighter Tarantula Silk</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Shot II Ability: Power Strike II Craft: Clothworking II Craft: Essence Structuring II Craft: Jewelcraft II Defense: Pierce Ward II Defense: Primal Ward II Defense: Slash Resistance II Spell: Heal Increase II Spell: Potency II Spell: Shocked II Spell: Spirit Range II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Brittle Fyakki Leg</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Augmentation I Craft: Armorcraft I Craft: Essence Shaping I Spell: Chill I Spell: Ice Range I Statistic: Power I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>26.4c</comp-pawnbuy>
+		<comp-pawnsell>660c</comp-pawnsell>
+		<comp-vielosell>990c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Bronze Golem Fragment</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Shot I Adventure: Mind I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<comp-vielosell>600c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Brown Spider Leg Hair</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Brown Werewolf Hide</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Augmentation III Adventure: Ice III Craft: Cooking III Craft: Jewelcraft III Craft: Leatherworking III Craft: Salvaging III Craft: Tanning III Defense: Parry III Defense: Primal Resistance III Defense: Slash Ward III Kicker: Shock of Fire II Kicker: Shock of Ice II Spell: Freeze III Statistic: Toughening</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Brown Wolf Fang</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Craft: Earthencraft II Craft: Leatherworking II Spell: Energy Range II Spell: Potency II Statistic: Power II Statistic: Strength II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Browngill Fungus Cap</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>A chunk of cap from the Browngill Fungus.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Carrot</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from a carrot patch, this bright orange vegetable can be used in cooking.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Cedar Bark</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>This rough bark was collected from a cedar tree.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Cedar Log</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A log felled from a cedar tree that may be processed into boards for trade skills.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Logging</gather-skill>
+				<gather-tool>Tree Axe</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Cedar Log</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Cedar Sap</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Sticky sap collected from a cedar tree.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Sap Spigot</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Cedar Sap</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Cedar Treant Knot</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Strike I Adventure: Nature I Craft: Fitting I Craft: Tanning I Defense: Blight Resistance I Defense: Nature Ward I Spell: Derange I Spell: Potency I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<comp-vielosell>600c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Citrine Golem Chip</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Nature III Craft: Alchemy III Craft: Jewelcraft III Craft: Scalecraft III Defense: Blight Ward III Defense: Mind Resistance III Spell: Heal Recycle III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>171.6c</comp-pawnbuy>
+		<comp-pawnsell>4s 290c</comp-pawnsell>
+		<comp-vielosell>6s 435c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Cobalt Golem Fragment</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>422.4c</comp-pawnbuy>
+		<comp-pawnsell>10s 560c</comp-pawnsell>
+		<comp-vielosell>15s 840c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Cobalt Ore</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>A chunk of unrefined cobalt.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Copper and Tin Ore</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A chunk of unrefined copper and tin.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Crushing Ogre Club Splinter</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Desert Wolf Fang</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Bow III Adventure: Primal III Craft: Woodworking III Defense: Block III Defense: Nature Resistance III Defense: Primal Resistance III Defense: Spirit Ward III Spell: Heal Increase III Spell: Nature Damage III Spell: Primal Damage III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>132c</comp-pawnbuy>
+		<comp-pawnsell>3s 300c</comp-pawnsell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Dim Essence</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Magic essence that is gathered from a wisp, and later processed into orbs for use in trade skills.  This essence has a dim luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Earthenware Clay Chunk</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>This large chunk of earthenware clay can be used to make most any kind of pottery.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>200</min-skill>
+				<max-skill>450</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Earthenware Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+			<gather>
+				<gather-skill>Earthencraft</gather-skill>
+				<gather-tool>Clay Scoop</gather-tool>
+				<gather-rate>High</gather-rate>
+				<min-skill>200</min-skill>
+				<max-skill>450</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Earthenware Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Terra Cotta Clay Chunk</bonus-name>
+						<bonus-amount chance="1.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Egg</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>This white ovoid object, a chicken by-product, is used in cooking.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Elm Bark</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>This rough bark was collected from an elm tree.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Elm Log</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>A log felled from an elm tree that may be processed into boards for trade skills.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Elm Sap</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Sticky sap collected from an elm tree.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Elm Treant Knot</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Spirit II Craft: Carpentry II Craft: Fletching II Craft: Scalecraft II Craft: Woodworking II Defense: Block II Defense: Crush Resistance II Spell: Accuracy II Spell: Ice Range II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>2s 235c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Essence of Blight</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Found occasionally in blighted resources, this crystallized black sliver seems to emanate blight.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Fire Beetle Carapace</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>The hard shell of a fire beetle.  It may be useful as a .Used in techniques: Ability: Smash IV Craft: Logging IV Craft: Scalecraft IV Defense: Crush Ward IV Defense: Spirit Ward IV Spell: Burning Damage IV Spell: Flame Damage IV Spell: Ice Range IV Statistic: Dexterity IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>488.4c</comp-pawnbuy>
+		<comp-pawnsell>12s 210c</comp-pawnsell>
+		<comp-vielosell>18s 315c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fire Beetle Eye</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fire Beetle Pincer</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fire Ogre Jawbone</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Bow IV Craft: Essence Harvesting IV Craft: Metalworking IV Defense: Flame Ward IV Spell: Blight Range IV Spell: Pierce IV Spell: Shocked IV Statistic: Strength IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>567.6c</comp-pawnbuy>
+		<comp-pawnsell>14s 190c</comp-pawnsell>
+		<comp-vielosell>21s 285c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fire Pygmy Ear</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Crossbow IV Craft: Smelting IV Spell: Chill IV Spell: Junction IV Spell: Spirit Damage IV Statistic: Power IV Statistic: Speed IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fire Wolf Fang</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Dragon Breath IV Craft: Foraging IV Craft: Spinning IV Defense: Nature Ward IV Spell: Cleanse IV Spell: Nature Range IV Spell: Primal Range IV Spell: Romp IV Spell: Spirit Range IV Statistic: Velocity IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>488.4c</comp-pawnbuy>
+		<comp-pawnsell>12s 210c</comp-pawnsell>
+		<comp-vielosell>18s 315c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Flame Beetle Carapace</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>The hard shell of a flame beetle.  It may be useful as a .Used in techniques: Adventure: One Hand Crush IV Adventure: Vital Defiance Defense: Armor IV Craft: Stoneworking IV Craft: Lumbering IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Flame Essence</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Magic essence that is gathered from a wisp, and later processed into orbs for use in trade skills.  This essence is hot as if made from pure flame.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Flame Ogre Jawbone</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Pierce IV Craft: Mining IV Craft: Tanning IV Defense: Block IV Spell: Combust IV Spell: Scorn IV Spell: Taint IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>422.4c</comp-pawnbuy>
+		<comp-pawnsell>10s 560c</comp-pawnsell>
+		<comp-vielosell>15s 840c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Flame Pygmy Ear</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Slash IV Craft: Quarrying IV Craft: Tailoring IV Craft: Transmutation IV Defense: Parry IV Spell: Concentrated IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>488.4c</comp-pawnbuy>
+		<comp-pawnsell>12s 210c</comp-pawnsell>
+		<comp-vielosell>18s 315c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Flame Wolf Fang</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Strike IV Ability: Smash IV Adventure: Tooth and Claw IV Craft: Salvaging IV Craft: Woodworking IV Defense: Blight Resistance IV Defense: Flame Resistance IV Spell: Combust IV Spell: Covalence IV Spell: Energy Range IV Spell: Flame Range IV Spell: Taint IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>422.4c</comp-pawnbuy>
+		<comp-pawnsell>10s 560c</comp-pawnsell>
+		<comp-vielosell>15s 840c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Forest Crawler Leg Hair</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Tooth and Claw I Craft: Lumbering I Craft: Tailoring I Defense: Pierce Resistance I Spell: Blight Damage I Spell: Gale I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fresh Bass</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>No fish cooks better than fresh bass!</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Fresh Bluegill</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>No fish cooks better than fresh bluegill!</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Fresh Minnow</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>No fish cooks better than fresh minnow.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Fresh Trout</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>No fish cooks better than fresh trout!</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Frost Beetle Carapace</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>The hard shell of a frost beetle.  It may be useful as a .Used in techniques: Adventure: Augmentation II Adventure: Ice II Adventure: Unarmed II Craft: Scalecraft II Craft: Sculpting II Defense: Armor II Defense: Blight Resistance II Spell: Accuracy II Spell: Bane II Spell: Flame Range II Spell: Ice Snare II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>86c</comp-pawnbuy>
+		<comp-pawnsell>2s 150c</comp-pawnsell>
+		<comp-vielosell>3s 225c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Frost Ogre Club Splinter</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Mind II Adventure: Nature II Craft: Essence Harvesting II Craft: Stoneworking II Defense: Mind Resistance II Defense: Pierce Resistance II Spell: Cleanse II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>2s 235c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Frost Ogre Club Splinter</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Mind II Adventure: Nature II Craft: Essence Harvesting II Craft: Stoneworking II Defense: Mind Resistance II Defense: Pierce Resistance II Spell: Cleanse II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>2s 235c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Frost Ogre Jawbone</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Blight II Adventure: Flame II Craft: Essence Shaping II Craft: Spellcraft II Defense: Energy Resistance II Spell: Blight Damage II Spell: Freeze II Spell: Ice Damage II Spell: Junction II Spell: Taint II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>2s 235c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Frost Pygmy Ear</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Energy II Adventure: Life II Craft: Gemworking II Craft: Tailoring II Defense: Flame Resistance II Spell: Blight Poison II Spell: Ice Range II Spell: Nature Damage II Spell: Primal Damage II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Frost Pygmy Shrunken Head</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Ability: Smash II Adventure: Bow II Adventure: Dismissal Craft: Lumbering II Craft: Mining II Craft: Transmutation II Craft: Woodworking II Defense: Block II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fyakki Spinneret</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Jointed organ of the Fyakki.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>105.6c</comp-pawnbuy>
+		<comp-pawnsell>2s 640c</comp-pawnsell>
+		<comp-vielosell>3s 960c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fyakki Stinger Tip</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Two Hand Slash II Adventure: Unarmed II Craft: Fitting II Defense: Mind Ward II Defense: Nature Ward II Defense: Spirit Resistance II Spell: Energy Damage II Spell: Fortify II Spell: Freeze II Spell: Numbing II Spell: Scorn II Spell: Shocked II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>105.6c</comp-pawnbuy>
+		<comp-pawnsell>2s 640c</comp-pawnsell>
+		<comp-vielosell>3s 960c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Garnet Golem Chip</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Ability: Smash I Adventure: Primal I Craft: Fletching I Craft: Transmutation I Defense: Crush Resistance I Defense: Pierce Ward I Spell: Energy Damage I Spell: Romp I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ghost Ectoplasm</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Glowing Essence</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Magic essence that is gathered from a wisp, and later processed into orbs for use in trade skills.  This essence has a glowing luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Gold Golem Fragment</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Spirit III Craft: Earthencraft III Craft: Metalworking III Craft: Smelting III Craft: Spellcraft III Defense: Energy Ward III Spell: Ice Range III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>224.4c</comp-pawnbuy>
+		<comp-pawnsell>5s 610c</comp-pawnsell>
+		<comp-vielosell>8s 415c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Gold Ore</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>A chunk of unrefined gold.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Granite Golem Fragment</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Craft: Masonry III Craft: Quarrying III Craft: Stoneworking III Craft: Tailoring III Defense: Crush Resistance III Defense: Flame Ward III Spell: Fortify III Spell: Ice Snare III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>171.6c</comp-pawnbuy>
+		<comp-pawnsell>4s 290c</comp-pawnsell>
+		<comp-vielosell>6s 435c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Granite Slab</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Gathered from granite exposures, this material is processed for construction, and is a conduit of magic.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Grapes</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>300</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Grapes</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Grass Beetle Carapace</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>The hard shell of a grass beetle.  It may be useful as a .Used in techniques: Adventure: Flame II Craft: Essence Shaping II Craft: Logging II Craft: Tinkering II Defense: Crush Resistance II Defense: Life Resistance II Defense: Pierce Resistance II Spell: Bane II Spell: Blight Range II Spell: Nature Range II Spell: Primal Range II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Greater Blight Bindings</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Crush III Adventure: One Hand Pierce III Craft: Alchemy III Defense: Parry III Spell: Concentrated III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Greater Ghost Vapor</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Ectoplasmic remains from an greater ghostUsed in techniques: Adventure: Dragon Breath III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>132c</comp-pawnbuy>
+		<comp-pawnsell>3s 300c</comp-pawnsell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Greater Mummy Scarab</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Augmentation III Adventure: Two Hand Slash III Craft: Enchanting III Craft: Essence Structuring III Defense: Life Resistance III Spell: Blight Poison III Spell: Flame Damage III Spell: Heal Recycle III Spell: Scorn III Statistic: Health III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Greater Skeleton Skull</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Greater Zombie Thighbone</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Life III Craft: Leatherworking III Defense: Blight Resistance III Defense: Life Resistance III Defense: Slash Resistance III Spell: Blight Damage III Spell: Blight Range III Spell: Gale III Spell: Romp III Spell: Shocked III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Green Necrofly Wing</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Slash III Adventure: Tooth and Claw III Craft: Carpentry III Defense: Crush Resistance III Spell: Critical Damage III Statistic: Dexterity III Statistic: Velocity III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Greymane Fang</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Gruok Bristles</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Bow I Adventure: Spirit I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Hardened Fyakki Chitin</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Shot IV Adventure: Two Hand Crush IV Craft: Alchemy IV Defense: Armor IV Defense: Crush Resistance IV Spell: Critical Damage IV Statistic: Focus IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ice Beetle Carapace</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>The hard shell of a ice beetle.  It may be useful as a .Used in techniques: Craft: Tinkering III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>224.4c</comp-pawnbuy>
+		<comp-pawnsell>5s 610c</comp-pawnsell>
+		<comp-vielosell>8s 415c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ice Beetle Eye</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ice Beetle Legs</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ice Beetle Pincer</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ice Golem Shard</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Spirit III Craft: Weaponcraft III Defense: Life Ward III Spell: Ice Snare III Spell: Nature Damage III Spell: Primal Damage III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ice Ogre Jawbone</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Craft: Weaving III Defense: Mind Ward III Defense: Spirit Resistance III Spell: Ice Range III Spell: Nature Range III Spell: Primal Range III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>171.6c</comp-pawnbuy>
+		<comp-pawnsell>4s 290c</comp-pawnsell>
+		<comp-vielosell>6s 435c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ice Pygmy Ear</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Craft: Essence Shaping III Defense: Blight Ward III Defense: Nature Ward III Spell: Ice Damage III Spell: Numbing III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>132c</comp-pawnbuy>
+		<comp-pawnsell>3s 300c</comp-pawnsell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Imbued Armor Splinter</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Ability: Smash III Adventure: Two Hand Slash III Craft: Armorcraft III Craft: Cooking III Defense: Armor III Defense: Flame Resistance III Spell: Energy Damage III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>132c</comp-pawnbuy>
+		<comp-pawnsell>3s 300c</comp-pawnsell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Iron Golem Fragment</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Augmentation II Adventure: Ice II Craft: Armorcraft II Craft: Fitting II Craft: Metalworking II Craft: Sculpting II Craft: Smelting II Craft: Tinkering II Craft: Weaponcraft II Defense: Ice Resistance II Defense: Parry II Spell: Blight Damage II Spell: Burning Damage II Spell: Junction II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>86c</comp-pawnbuy>
+		<comp-pawnsell>2s 150c</comp-pawnsell>
+		<comp-vielosell>3s 225c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Iron Ore</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>A chunk of unrefined iron.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Istarian Fungus Cap</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A chunk of cap from the common Istarian Fungus.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Istarian Skulk Fin</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Jade Golem Chip</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Strike IV Adventure: Energy IV Adventure: Two Hand Slash IV Craft: Armorcraft IV Defense: Energy Resistance IV Defense: Mind Ward IV Spell: Derange IV Statistic: Dexterity IV Statistic: Strength IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>567.6c</comp-pawnbuy>
+		<comp-pawnsell>14s 190c</comp-pawnsell>
+		<comp-vielosell>21s 285c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Jasper Golem Chip</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Craft: Gemworking III Defense: Pierce Ward III Spell: Accuracy III Spell: Gale III Spell: Pierce III Statistic: Strength III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>224.4c</comp-pawnbuy>
+		<comp-pawnsell>5s 610c</comp-pawnsell>
+		<comp-vielosell>8s 415c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Jungle Crawler Leg Hair</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Kwellen Flame Cinder</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Augmentation IV Adventure: Flame IV Craft: Carpentry IV Defense: Flame Resistance IV Defense: Parry IV Defense: Slash Ward IV Spell: Bane IV Spell: Burning Damage IV Spell: Cinder IV Spell: Energy Damage IV Spell: Ice Range IV Spell: Stun IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Kwellen Ice Shard</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Two Hand Crush III Adventure: Unarmed III Craft: Earthencraft III Craft: Essence Harvesting III Defense: Ice Resistance III Spell: Cleanse III Spell: Energy Range III Spell: Freeze III Spell: Ice Damage III Spell: Taint III Statistic: Power III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lapis Lazuli Golem Chip</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Blight II Adventure: Life II Blacksmith: Smelting II Craft: Smelting II Craft: Spellcraft II Craft: Weaving II Defense: Energy Resistance II Defense: Mind Resistance II Spell: Chill II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>105.6c</comp-pawnbuy>
+		<comp-pawnsell>2s 640c</comp-pawnsell>
+		<comp-vielosell>3s 960c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lava Golem Pumice</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Augmentation IV Craft: Clothworking IV Defense: Ice Resistance IV Statistic: Speed IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>567.6c</comp-pawnbuy>
+		<comp-pawnsell>14s 190c</comp-pawnsell>
+		<comp-vielosell>21s 285c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lava Oastic Sac</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Blight IV Adventure: Two Hand Slash IV Craft: Cooking IV Defense: Life Resistance IV Spell: Cleanse IV Spell: Flame Damage IV Spell: Spirit Range IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>422.4c</comp-pawnbuy>
+		<comp-pawnsell>10s 560c</comp-pawnsell>
+		<comp-vielosell>15s 840c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Leafy Oastic Sac</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Energy II Adventure: Mind II Craft: Essence Harvesting II Craft: Logging II Craft: Spinning II Defense: Nature Resistance II Defense: Parry II Defense: Spirit Ward II Spell: Blight Poison II Spell: Cinder II Spell: Nature Damage II Spell: Primal Damage II Statistic: Velocity II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>2s 235c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lesser Blight Claw</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Shot II Craft: Fletching II Defense: Nature Ward II Defense: Pierce Ward II Spell: Fog II Spell: Gale II Spell: Romp II Spell: Spirit Damage II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>60c</comp-pawnbuy>
+		<comp-pawnsell>1s 500c</comp-pawnsell>
+		<comp-vielosell>2s 250c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lesser Ghost Vapor</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Ectoplasmic remains from a lesser ghost</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lesser Mummy Embalming Dust</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Two Hand Crush II Adventure: Two Hand Slash II Craft: Enchanting II Craft: Essence Structuring II Defense: Blight Ward II Defense: Mind Ward II Spell: Cleanse II Spell: Fortify II Spell: Heal Recycle II Spell: Scorn II Spell: Stun II Statistic: Speed II Statistic: Velocity II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>20c</comp-pawnbuy>
+		<comp-pawnsell>500c</comp-pawnsell>
+		<comp-vielosell>750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lesser Skeleton Skull</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lesser Zombie Finger</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>This is the severed finger from a human zombie, with the withered flesh giving off a malodorous scent.  While unpleasant, many view such a finger as proof of a slain zombie of the Undead Hordes.Used in techniques: Ability: Power Strike II Ability: Smash II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Maggot Entrails</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Maggot Hide</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Strips of spongy flesh from the carcass of a maggot that met its untimely demise.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>12</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<comp-vielosell>37.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Malachite Golem Chip</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Animal Damage I Adventure: Crossbow I Craft: Leatherworking I Defense: Flame Resistance I Defense: Slash Ward I Spell: Flame Damage I Spell: Shocked I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<comp-vielosell>600c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Maple Bark</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>This rough bark was collected from a maple tree.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Maple Log</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>A log felled from a maple tree that may be processed into boards for trade skills.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Logging</gather-skill>
+				<gather-tool>Tree Axe</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>600</min-skill>
+				<max-skill>850</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Maple Log</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Maple Sap</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Sticky sap collected from a maple tree.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Sap Spigot</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>600</min-skill>
+				<max-skill>850</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Maple Sap</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Maple Treant Knot</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Bow IV Adventure: Crossbow IV Adventure: Energy IV Adventure: Nature IV Craft: Carpentry IV Craft: Earthencraft IV Craft: Fletching IV Craft: Logging IV Craft: Lumbering IV Craft: Woodworking IV Defense: Mind Resistance IV Spell: Accuracy IV Spell: Derange IV Spell: Flame Range IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>422.4c</comp-pawnbuy>
+		<comp-pawnsell>10s 560c</comp-pawnsell>
+		<comp-vielosell>15s 840c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Medjool Dates</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>300</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Medjool Dates</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Mighty Aegror Pus Packet</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Flame IV Adventure: Tooth and Claw IV Craft: Enchanting IV Craft: Essence Harvesting IV Defense: Block IV Defense: Nature Resistance IV Spell: Blight Damage IV Spell: Blight Poison IV Spell: Fog IV Spell: Heal Increase IV Spell: Ice Snare IV Spell: Numbing IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Mighty Blight Bindings</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Ice IV Adventure: Unarmed IV Craft: Essence Structuring IV Defense: Pierce Resistance IV Spell: Blight Range IV Spell: Fortify IV Spell: Shocked IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Mighty Ghost Vapor</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Life IV Adventure: One Hand Crush IV Craft: Fitting IV Craft: Foraging IV Craft: Transmutation IV Defense: Primal Resistance IV Spell: Freeze IV Spell: Heal Recycle IV Statistic: Health IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Mighty Mummy Wrappings</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Mighty Skeleton Skull</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Mind IV Adventure: One Hand Slash IV Craft: Essence Shaping IV Craft: Fletching IV Craft: Gemworking IV Defense: Slash Resistance IV Defense: Slash Ward IV Spell: Gale IV Statistic: Velocity IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Mighty Zombie Spleen</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Nature IV Adventure: One Hand Pierce IV Craft: Enchanting IV Craft: Jewelcraft IV Defense: Blight Resistance IV Defense: Spirit Resistance IV Defense: Spirit Ward IV Spell: Heal Increase IV Statistic: Health IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Milk</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from a cow, this milk is useful in cooking, and keeping your teeth and bones strong.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Mountain Wolf Fang</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Craft: Logging III Defense: Nature Ward III Defense: Primal Ward III Spell: Bane III Spell: Potency III Statistic: Dexterity III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>171.6c</comp-pawnbuy>
+		<comp-pawnsell>4s 290c</comp-pawnsell>
+		<comp-vielosell>6s 435c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Myloc Hag Foot</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Dragon Breath IV Adventure: Primal IV Craft: Essence Structuring IV Craft: Leatherworking IV Craft: Salvaging IV Defense: Blight Ward IV Spell: Covalence IV Spell: Heal Recycle IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Myloc Hair</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Blight III Adventure: Flame III Adventure: Unarmed III Craft: Essence Structuring III Craft: Foraging III Defense: Mind Resistance III Spell: Bane III Spell: Covalence III Spell: Derange III Spell: Flame Range III Spell: Potency III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Nickel Golem Fragment</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Craft: Fitting III Craft: Metalworking III Craft: Mining III Craft: Tinkering III Craft: Weaponcraft III Defense: Armor III Defense: Crush Ward III Defense: Slash Ward III Spell: Blight Damage III Spell: Junction III Spell: Romp III Statistic: Focus III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>132c</comp-pawnbuy>
+		<comp-pawnsell>3s 300c</comp-pawnsell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Nickel Ore</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>A chunk of unrefined nickel.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Not Used Cankerous Aegror Pus Packet</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Cystic Aegror Pus Packet</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Erupting Aegror Pus Packet</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Fire Blight Bindings</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Flame Blight Bindings</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Grey Werewolf Bone</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Half Giant Mummy Scarab</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Human Ghost Vapor</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Ectoplasmic remains from a human ghost</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>3</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Ice Blight Bindings</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Juvenile Dragon Ghost Vapor</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Lava Blight Bindings</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Saris Mummy Embalming Dust</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>20c</comp-pawnbuy>
+		<comp-pawnsell>500c</comp-pawnsell>
+		<comp-vielosell>750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Saris Zombie Thighbone</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Satyr Mummy Scarab</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Sslik Mummy Embalming Dust</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>20c</comp-pawnbuy>
+		<comp-pawnsell>500c</comp-pawnsell>
+		<comp-vielosell>750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Sslik Zombie Thighbone</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Not Used Waterblight Bindings</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>      </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<comp-vielosell>0c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Oak Bark</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>This rough bark was collected from an oak tree.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Oak Log</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>A log felled from an oak tree that may be processed into boards for trade skills.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Logging</gather-skill>
+				<gather-tool>Tree Axe</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>400</min-skill>
+				<max-skill>650</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Oak Log</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Oak Sap</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Sticky sap collected from an oak tree.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Sap Spigot</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>400</min-skill>
+				<max-skill>650</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Oak Sap</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Oak Treant Knot</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Shot III Craft: Carpentry III Craft: Fletching III Craft: Logging III Craft: Lumbering III Craft: Smelting III Defense: Life Ward III Defense: Pierce Resistance III Defense: Spirit Ward III Spell: Accuracy III Spell: Blight Poison III Spell: Combust III Spell: Scorn III Statistic: Health III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>171.6c</comp-pawnbuy>
+		<comp-pawnsell>4s 290c</comp-pawnsell>
+		<comp-vielosell>6s 435c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Obsidian Golem Fragment</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Craft: Cooking IV Craft: Masonry IV Craft: Quarrying IV Craft: Stoneworking IV Craft: Tinkering IV Defense: Crush Ward IV Spell: Energy Range IV Spell: Ice Damage IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Obsidian Slab</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Gathered from obsidian exposures, this material is processed for construction, and is a conduit of magic.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Opal Golem Chip</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Unarmed IV Craft: Earthencraft IV Craft: Weaving IV Defense: Crush Resistance IV Defense: Ice Ward IV Defense: Pierce Resistance IV Spell: Ice Damage IV Spell: Potency IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>488.4c</comp-pawnbuy>
+		<comp-pawnsell>12s 210c</comp-pawnsell>
+		<comp-vielosell>18s 315c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Pale Essence</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Magic essence that is gathered from a wisp, and later processed into orbs for use in trade skills.  This essence has a pale luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Platinum Golem Fragment</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Blight IV Craft: Armorcraft IV Craft: Fitting IV Craft: Metalworking IV Craft: Mining IV Craft: Sculpting IV Craft: Smelting IV Craft: Tinkering IV Craft: Weaponcraft IV Defense: Energy Ward IV Defense: Life Resistance IV Defense: Primal Ward IV Spell: Romp IV Spell: Scorn IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>488.4c</comp-pawnbuy>
+		<comp-pawnsell>12s 210c</comp-pawnsell>
+		<comp-vielosell>18s 315c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Platinum Ore</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>A chunk of unrefined platinum.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Potato</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from a potato patch, this vegetable can be used in cooking.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Pumpkin</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from a pumpkin patch, this vegetable can be used in cooking.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Pygmybot Gear</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>86c</comp-pawnbuy>
+		<comp-pawnsell>2s 150c</comp-pawnsell>
+		<comp-vielosell>3s 225c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Raw Beef</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Raw meat gathered from a cow that met an untimely end.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Raw Chicken</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Raw meat gathered from a chicken that met an untimely end.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Raw Gruok</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Raw Mutton</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Raw meat gathered from a dead sheep.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Raw Venison</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Raw meat gathered from a dead deer.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Red Necrofly Wing</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Spirit IV Adventure: Two Hand Crush IV Craft: Scalecraft IV Defense: Energy Ward IV Defense: Slash Resistance IV Spell: Concentrated IV Spell: Junction IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Redbacked Breeder Spider Eye</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>171.6c</comp-pawnbuy>
+		<comp-pawnsell>4s 290c</comp-pawnsell>
+		<comp-vielosell>6s 435c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Redbacked Spider Eye</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Ability: Smash III Adventure: Mind III Adventure: Primal III Craft: Clothworking III Craft: Sculpting III Craft: Spinning III Craft: Stoneworking III Craft: Tailoring III Craft: Weaving III Spell: Burning Damage III Spell: Spirit Damage III Statistic: Strength III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>132c</comp-pawnbuy>
+		<comp-pawnsell>3s 300c</comp-pawnsell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Redbacked Tarantula Eye</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Blight III Adventure: Energy III Craft: Fitting III Defense: Nature Resistance III Spell: Fog III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Resistant Fyakki Eye</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Pierce III Adventure: One Hand Slash III Craft: Armorcraft III Defense: Blight Resistance III Spell: Covalence III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Rice</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from a rice plant, this grain can be used in cooking and brewing.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Rose Quartz Golem Chip</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Primal II Adventure: Spirit II Craft: Foraging II Craft: Gemworking II Craft: Jewelcraft II Craft: Tanning II Craft: Weaponcraft II Defense: Life Ward II Defense: Slash Resistance II Spell: Combust II Spell: Flame Damage II Spell: Pierce II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>2s 235c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Roughcap Fungus Cap</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>A chunk of cap from the uncommon Roughcap Fungus.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Ruxus Heart</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>A very large bloody heartUsed in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ruxus Skin</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Nature II Adventure: Primal II Craft: Foraging II Craft: Lumbering II Craft: Metalworking II Craft: Tanning II Craft: Transmutation II Defense: Armor II Defense: Crush Ward II Defense: Life Resistance II Defense: Primal Resistance II Spell: Combust II Spell: Concentrated II Statistic: Strength II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Rye</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A common grain, usually ground and used for both breads and brewing.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Salt Rock</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A white grainy substance, useful for cooking.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Sand</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Found in sand deposits, or ground from sandstone, sand is useful in creating glass products.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Sand Beetle Carapace</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>The hard shell of a sand beetle.  It may be useful as a .Used in techniques: Adventure: Dragon Breath I Adventure: Undead Damage I Craft: Masonry I Defense: Ice Resistance I Defense: Spirit Ward I Spell: Flame Range I Spell: Spirit Damage I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Sand Ogre Jawbone</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Crush I Craft: Essence Harvesting I Craft: Scalecraft I Defense: Life Resistance I Spell: Fog I Spell: Spirit Range I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<comp-vielosell>600c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Sand Pygmy Ear</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Pierce I Craft: Sculpting I Defense: Mind Resistance I Spell: Accuracy I Spell: Fortify I Spell: Stun I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Sand Scarab Carapace</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>The hard shell of a sand scarab.  It may be useful as a .</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>488.4c</comp-pawnbuy>
+		<comp-pawnsell>12s 210c</comp-pawnsell>
+		<comp-vielosell>18s 315c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Sand Scarab Pincer</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>The sharp pincer of a sand scarab.  It may be useful as a .</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Sandstone Golem Fragment</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Slash I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Sandstone Slab</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from sandstone exposures, this material is processed for construction, and is a conduit of magic.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Shadow Spider Fang</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Life IV Craft: Alchemy IV Craft: Clothworking IV Craft: Spinning IV Craft: Tailoring IV Craft: Weaving IV Defense: Life Ward IV Defense: Mind Resistance IV Defense: Primal Ward IV Spell: Nature Damage IV Spell: Primal Damage IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Shadow Spider Venom</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Shadow Tarantula Fang</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Mind IV Craft: Masonry IV Defense: Blight Ward IV Defense: Mind Ward IV Defense: Spirit Resistance IV Spell: Blight Poison IV Spell: Energy Damage IV Spell: Fog IV Spell: Nature Range IV Spell: Primal Range IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Silver Golem Fragment</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Bow II Adventure: Crossbow II Craft: Alchemy II Craft: Mining II Craft: Quarrying II Craft: Salvaging II Defense: Blight Resistance II Spell: Cinder II Spell: Covalence II Spell: Energy Range II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Silver Ore</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>A chunk of unrefined silver.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Slate Golem Fragment</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Dragon Breath II Adventure: One Hand Crush II Craft: Armorcraft II Craft: Cooking II Craft: Masonry II Craft: Quarrying II Craft: Stoneworking II Defense: Blight Ward II Defense: Energy Ward II Spell: Derange II Statistic: Dexterity II Statistic: Toughening</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>2s 235c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Slate Slab</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Gathered from slate exposures, this material is processed for construction, and is a conduit of magic.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Snow Beetle Carapace</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>The hard shell of a snow beetle.  It may be useful as a .Used in techniques: Ability: Power Strike III Craft: Essence Harvesting III Craft: Spinning III Craft: Transmutation III Defense: Pierce Ward III Spell: Blight Range III Spell: Shocked III Statistic: Power III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>132c</comp-pawnbuy>
+		<comp-pawnsell>3s 300c</comp-pawnsell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Snow Ogre Club Splinter</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Snow Ogre Jawbone</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Dragon Breath II Adventure: One Hand Pierce II Craft: Alchemy II Craft: Carpentry II Defense: Crush Ward II Defense: Flame Ward II Defense: Ice Resistance II Spell: Burning Damage II Spell: Critical Damage II Statistic: Dexterity II Statistic: Focus II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>105.6c</comp-pawnbuy>
+		<comp-pawnsell>2s 640c</comp-pawnsell>
+		<comp-vielosell>3s 960c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Snow Pygmy Ear</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Crossbow II Adventure: One Hand Crush II Craft: Clothworking II Defense: Energy Ward II Defense: Ice Ward II Spell: Chill II Spell: Energy Damage II Spell: Numbing II Statistic: Health II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>86c</comp-pawnbuy>
+		<comp-pawnsell>2s 150c</comp-pawnsell>
+		<comp-vielosell>3s 225c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Snow Pygmy Shrunken Head</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>86c</comp-pawnbuy>
+		<comp-pawnsell>2s 150c</comp-pawnsell>
+		<comp-vielosell>3s 225c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Soul Fragment</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A soul fragment is a small portion of the physical manifestation of a departed soul, Gifted or not.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Spiderling Silk</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Spiderling Silk</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>2</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Steel Golem Fragment</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Kicker: Shock of Fire III Kicker: Shock of Ice III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Stonespore Fungus Cap</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>A chunk of cap from the uncommon Stonespore Fungus.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Stoneware Clay Chunk</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Gathered from a stoneware clay deposit, this can be used to make earthenware vessels.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>600</min-skill>
+				<max-skill>900</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Stoneware Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+			<gather>
+				<gather-skill>Earthencraft</gather-skill>
+				<gather-tool>Clay Scoop</gather-tool>
+				<gather-rate>High</gather-rate>
+				<min-skill>600</min-skill>
+				<max-skill>850</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Geostone Clay Chunk</bonus-name>
+						<bonus-amount chance="1.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Stoneware Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tainted Bright Essence</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Magic essence that is gathered from a slain wisp, and later processed into orbs for use in trade skills.  This tainted essence has a bright luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tainted Dim Essence</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Magic essence that is gathered from a slain wisp, and later processed into orbs for use in trade skills.  This tainted essence has a dim luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tainted Glowing Essence</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Magic essence that is gathered from a slain wisp, and later processed into orbs for use in trade skills.  This tainted essence has a glowing luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tainted Pale Essence</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Magic essence that is gathered from a slain wisp, and later processed into orbs for use in trade skills.  This tainted essence has a pale luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Terra Cotta Clay Chunk</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Gathered from a deposit, this is the unprocessed form of terra cotta, used to make earthenware.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>400</min-skill>
+				<max-skill>700</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Terra Cotta Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+			<gather>
+				<gather-skill>Earthencraft</gather-skill>
+				<gather-tool>Clay Scoop</gather-tool>
+				<gather-rate>High</gather-rate>
+				<min-skill>400</min-skill>
+				<max-skill>650</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Stoneware Clay Chunk</bonus-name>
+						<bonus-amount chance="1.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Terra Cotta Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tiny Grass Beetle Carapace</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>The hard shell of a tiny grass beetle.  It may be useful as a .Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Topaz Golem Chip</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Primal IV Craft: Gemworking IV Craft: Jewelcraft IV Craft: Spellcraft IV Craft: Weaponcraft IV Defense: Nature Ward IV Spell: Bane IV Spell: Fortify IV Spell: Numbing IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>422.4c</comp-pawnbuy>
+		<comp-pawnsell>10s 560c</comp-pawnsell>
+		<comp-vielosell>15s 840c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Turquoise Golem Chip</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Two Hand Crush I Craft: Mining I Craft: Tinkering I Defense: Primal Resistance I Spell: Blight Poison I Spell: Heal Increase I Statistic: Dexterity I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>26.4c</comp-pawnbuy>
+		<comp-pawnsell>660c</comp-pawnsell>
+		<comp-vielosell>990c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Tutorial Copper and Tin Ore</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A sample of copper and tin ore for use in smithing.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tutorial Sandstone Slab</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A sample of sandstone for use in spellcraft and in Dragon scalecraft.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tutorial Unspun Flax</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A sample of flax for use with tailoring.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Amethyst</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Mined from an amethyst outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Aquamarine</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Mined from an aquamarine outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Citrine</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Mined from a citrine outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Garnet</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Mined from a garnet outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Jade</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Mined from a jade outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Jasper</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Mined from a jasper outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Lapis Lazuli</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Mined from a lapis lazuli outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Malachite</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Mined from a malachite outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Opal</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Mined from an opal outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Rose Quartz</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Mined from a rose quartz outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Topaz</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Mined from a topaz outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Turquoise</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Mined from a turquoise outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Undead Fragment</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Undead Damage I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>39.6c</comp-pawnbuy>
+		<comp-pawnsell>990c</comp-pawnsell>
+		<comp-vielosell>1s 485c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Unfocused Amber Azulyte Crystal</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Harvested from an amber azulyte outcropping, this crystal can be processed into a more focused version.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Unfocused Cerulean Azulyte Crystal</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Harvested from a cerulean azulyte outcropping, this crystal can be processed into a more focused version.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Unfocused Titian Azulyte Crystal</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Harvested from a titian azulyte outcropping, this crystal can be processed into a more focused version.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Unfocused Viridian Azulyte Crystal</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Harvested from a viridian azulyte outcropping, this crystal can be processed into a more focused version.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Unrefined Sugar Cane</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Acquired from the sugar cane plant, this can be used for cooking.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Unspun Cotton</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Gathered from a cotton plant, this resource is processed for use in textiles.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>4c</comp-pawnbuy>
+		<comp-pawnsell>100c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>400</min-skill>
+				<max-skill>650</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Unspun Cotton</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Unspun Flax</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from a flax plant, this resource is processed for use in textiles.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Unspun Kenaf</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Gathered from a kenaf plant, this resource is processed for use in textiles.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>2c</comp-pawnbuy>
+		<comp-pawnsell>50c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>200</min-skill>
+				<max-skill>450</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Unspun Kenaf</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Unspun Silk</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Gathered from a silk plant or a spider, this resource is processed for use in textiles.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>600</min-skill>
+				<max-skill>850</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Unspun Silk</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Venomous Stalker Leg Hair</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Ice I Craft: Earthencraft I Craft: Smelting I Defense: Armor I Defense: Ice Ward I Spell: Concentrated I Spell: Nature Range I Spell: Primal Range I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Water</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>A resource that can be used in processes such as cooking and alchemy.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>3</comp-bulk>
+		<comp-pawnbuy>0c</comp-pawnbuy>
+		<comp-pawnsell>0c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Bucket</gather-tool>
+				<gather-rate>Very High</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>1200</max-skill>
+				<bonuses>
+				</bonuses>
+			</gather>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Bucket</gather-tool>
+				<gather-rate>Very High</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>1200</max-skill>
+				<bonuses>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Water Golem Droplet</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Two Hand Slash I Craft: Quarrying I Craft: Weaponcraft I Defense: Slash Resistance I Spell: Blight Range I Spell: Heal Recycle I Statistic: Focus I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>26.4c</comp-pawnbuy>
+		<comp-pawnsell>660c</comp-pawnsell>
+		<comp-vielosell>990c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Weaker Blight Bindings</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Very strong rope fibersUsed in techniques: Adventure: Flame I Adventure: Life I Craft: Cooking I Craft: Enchanting I Craft: Metalworking I Craft: Spinning I Defense: Block I Defense: Flame Ward I Defense: Life Ward I Spell: Combust I Spell: Covalence I Spell: Nature Damage I Spell: Numbing I Spell: Primal Damage I Statistic: Velocity I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<comp-vielosell>600c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Weaker Ghost Vapor</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Ectoplasmic remains from a weaker ghost</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Weaker Maggot Mandibles</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Blight I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Weaker Mummy Wrappings</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Energy I Craft: Clothworking I Craft: Logging I Defense: Energy Ward I Spell: Cleanse I Spell: Junction I Statistic: Speed I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Weaker Skeleton Skull</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Weaker Zombie Finger</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Defense: Blight Ward I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Werewolf Bone</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>A long bone, probably a femur, taken from a werewolf.Used in techniques: Adventure: Energy III Adventure: Flame III Adventure: Nature III Craft: Fletching III Craft: Salvaging III Defense: Crush Ward III Defense: Pierce Resistance III Spell: Concentrated III Spell: Fog III Spell: Fortify III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Werewolf Heart</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>The enlarged heart of a werewolf, commonly used by alchemists and researchers.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Werewolf Hide</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Ragged strips of hide, still covered with fur, taken from the back of a werewolf.Used in techniques: Adventure: Augmentation III Adventure: Ice III Craft: Cooking III Craft: Jewelcraft III Craft: Leatherworking III Craft: Salvaging III Craft: Tanning III Defense: Parry III Defense: Primal Resistance III Defense: Slash Ward III Kicker: Shock of Fire II Kicker: Shock of Ice II Spell: Freeze III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Werewolf Sinew</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Long strips of sinew taken from the body of a werewolf.</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Wheat</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Gathered from a wheat plant, this grain can be used in cooking and brewing.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>White Grapes</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>1c</comp-pawnbuy>
+		<comp-pawnsell>25c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Harvest Knife</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1</min-skill>
+				<max-skill>300</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>White Grapes</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Winter Gruok Knuckles</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Shot III Adventure: Bow III Craft: Foraging III Craft: Spellcraft III Craft: Tanning III Defense: Ice Ward III Spell: Chill III Spell: Numbing III Spell: Spirit Range III Statistic: Speed III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>132c</comp-pawnbuy>
+		<comp-pawnsell>3s 300c</comp-pawnsell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Winter Mountain Wolf Fang</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Crossbow III Craft: Lumbering III Craft: Transmutation III Defense: Mind Ward III Defense: Primal Ward III Spell: Cinder III Spell: Nature Range III Spell: Primal Range III Spell: Stun III Statistic: Velocity III</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>224.4c</comp-pawnbuy>
+		<comp-pawnsell>5s 610c</comp-pawnsell>
+		<comp-vielosell>8s 415c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Winter Werewolf Fang</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Ice IV Craft: Leatherworking IV Craft: Spellcraft IV Craft: Tanning IV Defense: Ice Resistance IV Defense: Ice Ward IV Defense: Pierce Ward IV Defense: Primal Resistance IV Spell: Accuracy IV Spell: Chill IV Spell: Freeze IV Spell: Nature Damage IV Spell: Pierce IV Spell: Primal Damage IV Spell: Spirit Damage IV Statistic: Power IV</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>343.2c</comp-pawnbuy>
+		<comp-pawnsell>8s 580c</comp-pawnsell>
+		<comp-vielosell>12s 870c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Winter Werewolf Hide</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>Ragged strips of hide, still covered with fur, taken from the back of a werewolf.Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>422.4c</comp-pawnbuy>
+		<comp-pawnsell>10s 560c</comp-pawnsell>
+		<comp-vielosell>15s 840c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Winter Wolf Fang</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>Used in techniques: Adventure: One Hand Slash II Adventure: Tooth and Claw II Defense: Flame Resistance II Defense: Ice Ward II Spell: Derange II Spell: Flame Range II</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>2s 235c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Wolf Fang</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>This is the incisor that has been ripped out of a wolf or a wolf-like creature.  While normally worthless, some view its possession as bounty for having slain a wolf.Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>6.8c</comp-pawnbuy>
+		<comp-pawnsell>170c</comp-pawnsell>
+		<comp-vielosell>255c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Wood Golem Splinter</comp-name>
+		<comp-tier>2</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>105.6c</comp-pawnbuy>
+		<comp-pawnsell>2s 640c</comp-pawnsell>
+		<comp-vielosell>3s 960c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Wraith Ectoplasm</comp-name>
+		<comp-tier>4</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Wraith Master Ectoplasm</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc>Used in techniques:</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>277.2c</comp-pawnbuy>
+		<comp-pawnsell>6s 930c</comp-pawnsell>
+		<comp-vielosell>10s 395c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Blighted Marble Slab</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>900</min-skill>
+				<max-skill>1150</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Marble Slab</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Shining Blight Core</bonus-name>
+						<bonus-amount chance="0.500">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Shining Essence</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>900</min-skill>
+				<max-skill>1150</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Shining Essence</bonus-name>
+						<bonus-amount chance="3.000">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Emerald</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>900</min-skill>
+				<max-skill>1150</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Emerald</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Fire Opal</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>900</min-skill>
+				<max-skill>1150</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Fire Opal</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Peridot</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>900</min-skill>
+				<max-skill>1150</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Peridot</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blood Fungus Cap</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>A red chunk of cap from the rare Blood Fungus.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Tanning Blade</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blood Fungus Cap</bonus-name>
+						<bonus-amount chance="3.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Bloodsnout Gruok Snout</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Blue Vexator Fringe</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Dire Wolf Fang</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Emerald Golem Chip</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 16.4c</comp-pawnbuy>
+		<comp-pawnsell>25s 410c</comp-pawnsell>
+		<comp-vielosell>38s 115c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Enduring Fyakki Chitin</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Enduring Fyakki Chitin</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fiery Dire Wolf Fang</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fire Opal Golem Chip</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>884.4c</comp-pawnbuy>
+		<comp-pawnsell>22s 110c</comp-pawnsell>
+		<comp-vielosell>33s 165c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fresh Mackrel</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>No fish cooks better than fresh mackrel.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>8c</comp-pawnbuy>
+		<comp-pawnsell>200c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Fishing</gather-skill>
+				<gather-tool>Fishing Pole</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Fresh Halibut</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Fresh Mackrel</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Frost Hellhound Mane</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Geostone Clay Chunk</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>This chunk has been carefully gathered from a geostone outcropping.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1100</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Geostone Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+			<gather>
+				<gather-skill>Earthencraft</gather-skill>
+				<gather-tool>Clay Scoop</gather-tool>
+				<gather-rate>High</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Geostone Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Porcelain Clay Chunk</bonus-name>
+						<bonus-amount chance="1.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Giant Fire Beetle Mandible</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 16.4c</comp-pawnbuy>
+		<comp-pawnsell>25s 410c</comp-pawnsell>
+		<comp-vielosell>38s 115c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Giant Flame Beetle Mandible</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>884.4c</comp-pawnbuy>
+		<comp-pawnsell>22s 110c</comp-pawnsell>
+		<comp-vielosell>33s 165c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Giant Ice Beetle Mandible</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Grey Necrofly Wing</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Icy Dire Wolf Fang</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>884.4c</comp-pawnbuy>
+		<comp-pawnsell>22s 110c</comp-pawnsell>
+		<comp-vielosell>33s 165c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Kwellen Energy Node</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Marble Golem Fragment</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Marble Slab</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Gathered from marble exposures, this material is processed for construction, and is a conduit of magic.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Marble Slab</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Travertine Slab</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Mithril Golem Fragment</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>884.4c</comp-pawnbuy>
+		<comp-pawnsell>22s 110c</comp-pawnsell>
+		<comp-vielosell>33s 165c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Myloc Harridan Brain</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Peridot Golem Chip</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Purple Spider Venom</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Purple Tarantula Venom</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Red Vexator Fringe</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Shining Essence</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Magic essence that is gathered from a wisp, and later processed into orbs for use in trade skills.This essence has a shining luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Radiant Essence</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Shining Essence</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tainted Shining Essence</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Magic essence that is gathered from a slain wisp, and later processed into orbs for use in trade skills.This tainted essence has a shining luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Tainted Radiant Essence</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Tainted Shining Essence</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Emerald</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Mined from an emerald outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Uncut Diamond</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Emerald</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Fire Opal</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Peridot</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Ruby</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Sapphire</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Fire Opal</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Mined from a fire opal outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Uncut Diamond</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Emerald</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Fire Opal</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Peridot</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Ruby</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Sapphire</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Peridot</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Mined from a peridot outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Uncut Diamond</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Emerald</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Fire Opal</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Peridot</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Ruby</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Sapphire</bonus-name>
+						<bonus-amount chance="0.500">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Veteran Abomination Chest Skull</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Veteran Aegror Engorged Pus Packets</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Veteran Blight Bindings</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Veteran Ghost Vapor</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Veteran Skeleton Sternum</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Wind Golem Vapor</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 16.4c</comp-pawnbuy>
+		<comp-pawnsell>25s 410c</comp-pawnsell>
+		<comp-vielosell>38s 115c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Yew Treant Knot</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Zombie Ogre Toe</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>24s 750c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Zombie Werewolf Skull</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>765.6c</comp-pawnbuy>
+		<comp-pawnsell>19s 140c</comp-pawnsell>
+		<comp-vielosell>28s 710c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Adamantium Golem Fragment</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 359.6c</comp-pawnbuy>
+		<comp-pawnsell>33s 990c</comp-pawnsell>
+		<comp-vielosell>50s 985c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Blighted Hellhound Vertebrae</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 359.6c</comp-pawnbuy>
+		<comp-pawnsell>33s 990c</comp-pawnsell>
+		<comp-vielosell>50s 985c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Blighted Radiant Essence</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1100</min-skill>
+				<max-skill>1350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Radiant Essence</bonus-name>
+						<bonus-amount chance="3.000">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Travertine Slab</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1100</min-skill>
+				<max-skill>1350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Travertine Slab</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Diamond</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1100</min-skill>
+				<max-skill>1350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Diamond</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Ruby</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1100</min-skill>
+				<max-skill>1350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Ruby</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Diamond</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Sapphire</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blighted Uncut Sapphire</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>0.2c</comp-pawnbuy>
+		<comp-pawnsell>5c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1100</min-skill>
+				<max-skill>1350</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blighted Uncut Sapphire</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Essence of Blight</bonus-name>
+						<bonus-amount chance="1.000">1</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Diamond</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Ruby</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Diamond Golem Chip</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 544.4c</comp-pawnbuy>
+		<comp-pawnsell>38s 610c</comp-pawnsell>
+		<comp-vielosell>57s 915c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Elite Abomination Phylactery</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Elite Blight Bindings</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Elite Ghost Vapor</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Elite Abomination Phylactery</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Elite Blight Bindings</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Elite Ghost Vapor</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Flame Hellhound Hip</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Fresh Halibut</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>Learn to cook, just for the halibut!</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>4</comp-bulk>
+		<comp-pawnbuy>32c</comp-pawnbuy>
+		<comp-pawnsell>800c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Fishing</gather-skill>
+				<gather-tool>Fishing Pole</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Fresh Halibut</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Green Vexator Fringe</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Hearth Skulk Fin</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Indestructible Fyakki Chitin</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 544.4c</comp-pawnbuy>
+		<comp-pawnsell>38s 610c</comp-pawnsell>
+		<comp-vielosell>57s 915c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Kwellen Blight Aura</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 544.4c</comp-pawnbuy>
+		<comp-pawnsell>38s 610c</comp-pawnsell>
+		<comp-vielosell>57s 915c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Myloc Gorgon Skull</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Porcelain Clay Chunk</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>Gathered from a porcelain clay deposit, this material can be used in such things as cooking.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>8</comp-bulk>
+		<comp-pawnbuy>32c</comp-pawnbuy>
+		<comp-pawnsell>800c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1300</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Porcelain Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+			<gather>
+				<gather-skill>Earthencraft</gather-skill>
+				<gather-tool>Clay Scoop</gather-tool>
+				<gather-rate>High</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Porcelain Clay Chunk</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Purple Necrofly Wing</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 544.4c</comp-pawnbuy>
+		<comp-pawnsell>38s 610c</comp-pawnsell>
+		<comp-vielosell>57s 915c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Purple Vexator Fringe</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 359.6c</comp-pawnbuy>
+		<comp-pawnsell>33s 990c</comp-pawnsell>
+		<comp-vielosell>50s 985c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Radiant Essence</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>Magic essence that is gathered from a wisp, and later processed into orbs for use in trade skills.This essence has a radiant luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>32c</comp-pawnbuy>
+		<comp-pawnsell>800c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Radiant Essence</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Sapphire Golem Chip</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 188c</comp-pawnbuy>
+		<comp-pawnsell>29s 700c</comp-pawnsell>
+		<comp-vielosell>44s 550c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Shadowstem Fungus Cap</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>A chunk of cap from the rare Shadowstem Fungus.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Tanning Blade</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Shadowstem Fungus Cap</bonus-name>
+						<bonus-amount chance="3.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Tainted Radiant Essence</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>Magic essence that is gathered from a slain wisp, and later processed into orbs for use in trade skills.This tainted essence has a radiant luminosity to it.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>32c</comp-pawnbuy>
+		<comp-pawnsell>800c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Essence Harvesting</gather-skill>
+				<gather-tool>Essence Siphon or Essence Harvesting Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Tainted Radiant Essence</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Thornwood Treant Knot</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 188c</comp-pawnbuy>
+		<comp-pawnsell>29s 700c</comp-pawnsell>
+		<comp-vielosell>44s 550c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Travertine Golem Fragment</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
+		<comp-pawnsell>29s 40c</comp-pawnsell>
+		<comp-vielosell>43s 560c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Travertine Slab</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>Gathered from travertine exposures, this material is processed for construction, and is a conduit of magic.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>32c</comp-pawnbuy>
+		<comp-pawnsell>800c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Travertine Slab</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Diamond</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>Mined from a diamond outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>32c</comp-pawnbuy>
+		<comp-pawnsell>800c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Uncut Diamond</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Ruby</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Sapphire</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Ruby</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>Mined from a ruby outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>32c</comp-pawnbuy>
+		<comp-pawnsell>800c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Uncut Diamond</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Ruby</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Sapphire</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Uncut Sapphire</comp-name>
+		<comp-tier>6</comp-tier>
+		<comp-desc>Mined from a sapphire outcropping, this rock can be processed into a valuable gem.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>6</comp-bulk>
+		<comp-pawnbuy>32c</comp-pawnbuy>
+		<comp-pawnsell>800c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Quarrying</gather-skill>
+				<gather-tool>Mining Pick or Quarrying Ability</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>1000</min-skill>
+				<max-skill>1250</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Uncut Diamond</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Ruby</bonus-name>
+						<bonus-amount chance="2.000">5</bonus-amount>
+					</bonus>
+					<bonus>
+						<bonus-name>Uncut Sapphire</bonus-name>
+						<bonus-amount chance="3.000">10</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+</components>

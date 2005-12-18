@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Jewelry - Armor</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Jewelry</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Armor Bracelet</item-name>
+    <item-icon>icon_formula_j_02_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Wrist</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>jewelry_bracelet</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_armor_up</item-keyword>
+      <item-keyword>bodyslot_wrist</item-keyword>
+      <item-keyword>jewelry</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Armor Bracelet</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">55</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (13)</tier-attribute>
+        <tier-attribute type="statBonus">+3 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Turquoise</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">130</resource-min>
+          <resource-opt amount="5">230</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">130</resource-min>
+          <resource-opt amount="5">230</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silver Armor Bracelet</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">105</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (33)</tier-attribute>
+        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Lapis Lazuli</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">330</resource-min>
+          <resource-opt amount="5">455</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silver Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">330</resource-min>
+          <resource-opt amount="5">455</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gold Armor Bracelet</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">210</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (53)</tier-attribute>
+        <tier-attribute type="statBonus">+9 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Aquamarine</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">530</resource-min>
+          <resource-opt amount="5">680</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Gold Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">530</resource-min>
+          <resource-opt amount="5">680</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Platinum Armor Bracelet</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">420</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (73)</tier-attribute>
+        <tier-attribute type="statBonus">+12 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Jade</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">730</resource-min>
+          <resource-opt amount="5">905</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Platinum Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">730</resource-min>
+          <resource-opt amount="5">905</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Armor Bracelet</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">840</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (93)</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Emerald</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">930</resource-min>
+          <resource-opt amount="5">1130</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="10">930</resource-min>
+          <resource-opt amount="5">1130</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Armor Earring</item-name>
+    <item-icon>icon_formula_j_03_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Ear</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>jewelry_earring</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_armor_up</item-keyword>
+      <item-keyword>bodyslot_ear</item-keyword>
+      <item-keyword>jewelry</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Armor Earring</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">44</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (12)</tier-attribute>
+        <tier-attribute type="statBonus">+3 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Turquoise</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">120</resource-min>
+          <resource-opt amount="4">220</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">120</resource-min>
+          <resource-opt amount="4">220</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silver Armor Earring</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">84</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (32)</tier-attribute>
+        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Lapis Lazuli</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">320</resource-min>
+          <resource-opt amount="4">445</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silver Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">320</resource-min>
+          <resource-opt amount="4">445</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gold Armor Earring</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">168</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (52)</tier-attribute>
+        <tier-attribute type="statBonus">+9 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Aquamarine</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">520</resource-min>
+          <resource-opt amount="4">670</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Gold Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">520</resource-min>
+          <resource-opt amount="4">670</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Platinum Armor Earring</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">336</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (72)</tier-attribute>
+        <tier-attribute type="statBonus">+12 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Jade</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">720</resource-min>
+          <resource-opt amount="4">895</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Platinum Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">720</resource-min>
+          <resource-opt amount="4">895</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Armor Earring</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">672</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (92)</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Emerald</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">920</resource-min>
+          <resource-opt amount="4">1120</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">920</resource-min>
+          <resource-opt amount="4">1120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Armor Necklace</item-name>
+    <item-icon>icon_formula_j_04_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Neck</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>jewelry_necklace</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_armor_up</item-keyword>
+      <item-keyword>bodyslot_neck</item-keyword>
+      <item-keyword>jewelry</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Armor Necklace</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">66</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (14)</tier-attribute>
+        <tier-attribute type="statBonus">+5 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Turquoise</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">140</resource-min>
+          <resource-opt amount="6">240</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">140</resource-min>
+          <resource-opt amount="6">240</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silver Armor Necklace</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">126</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (34)</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Lapis Lazuli</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">340</resource-min>
+          <resource-opt amount="6">465</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silver Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">340</resource-min>
+          <resource-opt amount="6">465</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gold Armor Necklace</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">252</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (54)</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Aquamarine</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">540</resource-min>
+          <resource-opt amount="6">690</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Gold Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">540</resource-min>
+          <resource-opt amount="6">690</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Platinum Armor Necklace</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">504</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (74)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Jade</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">740</resource-min>
+          <resource-opt amount="6">915</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Platinum Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">740</resource-min>
+          <resource-opt amount="6">915</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Armor Necklace</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">840</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (94)</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Emerald</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">940</resource-min>
+          <resource-opt amount="6">1140</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="12">940</resource-min>
+          <resource-opt amount="6">1140</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Armor Ring</item-name>
+    <item-icon>icon_formula_j_01_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Finger</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>jewelry_ring</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_armor_up</item-keyword>
+      <item-keyword>bodyslot_finger</item-keyword>
+      <item-keyword>jewelry</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Armor Ring</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">44</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (11)</tier-attribute>
+        <tier-attribute type="statBonus">+3 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Turquoise</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">110</resource-min>
+          <resource-opt amount="4">210</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">110</resource-min>
+          <resource-opt amount="4">210</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Silver Armor Ring</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">84</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (31)</tier-attribute>
+        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Lapis Lazuli</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">310</resource-min>
+          <resource-opt amount="4">435</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Silver Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">310</resource-min>
+          <resource-opt amount="4">435</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Gold Armor Ring</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">168</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (51)</tier-attribute>
+        <tier-attribute type="statBonus">+9 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Aquamarine</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">510</resource-min>
+          <resource-opt amount="4">660</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Gold Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">510</resource-min>
+          <resource-opt amount="4">660</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Platinum Armor Ring</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">336</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (71)</tier-attribute>
+        <tier-attribute type="statBonus">+12 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Jade</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">710</resource-min>
+          <resource-opt amount="4">885</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Platinum Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">710</resource-min>
+          <resource-opt amount="4">885</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Armor Ring</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">672</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (91)</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Emerald</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">910</resource-min>
+          <resource-opt amount="4">1110</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Jewelcraft</resource-skill>
+          <resource-min amount="8">910</resource-min>
+          <resource-opt amount="4">1110</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

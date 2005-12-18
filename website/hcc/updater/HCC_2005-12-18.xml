@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<release>
+	<release-databaserevision>2005-12-18</release-databaserevision>
+	<release-title>First Public Release</release-title>
+	<release-minclientversion>2.24</release-minclientversion>
+	<release-notes>
+		<note author="Matecuss" target="client" type="new">Added About window</note>
+		<note author="Matecuss" target="client" type="new">Check for disk space before performing recache</note>
+		<note author="Matecuss" target="client" type="update">Fixed bug in attribute generating code</note>
+		<note author="Matecuss" target="client" type="update">Fixed bug in clipboard subcomponent reports</note>
+		<note author="Matecuss" target="client" type="fix">Order Items got promoted to highest tier (whilst still retaining old name)</note>
+		<note author="Matecuss" target="client" type="fix">MoveFileEx isn't supported on Windows 98, preventing db from loading</note>
+		<note author="Syd" target="database" type="update">Added Lair Formulas</note>
+		<note author="Syd" target="database" type="update">Updated tech attributes</note>
+		<note author="Arcat" target="database" type="update">Dark Cyclone no longer allows techs</note>
+		<note author="Matecuss" target="database" type="update">Updated attributes for Gift of Alacrity</note>
+	</release-notes>
+</release>

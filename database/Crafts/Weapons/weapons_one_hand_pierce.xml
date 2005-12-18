@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Weapons - One Hand Pierce</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Weapons</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Dagger</item-name>
+    <item-icon>icon_formula_w_1hp_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, BLDM, RNGR, CONJ, SORC, WIZ, SHMN, SPRT, SCT, MAGE, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">One Hand Pierce</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_dagger</item-keyword>
+      <item-keyword>weapon_dagger</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_onehandpierce</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Dagger</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last ditch defense.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">30</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="delay">26</tier-attribute>
+        <tier-attribute type="damage">2-3</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="12">1</resource-min>
+          <resource-opt amount="6">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Dagger</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last ditch defense.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="delay">25</tier-attribute>
+        <tier-attribute type="damage">10-15</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="12">200</resource-min>
+          <resource-opt amount="6">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Dagger</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last ditch defense.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="delay">24</tier-attribute>
+        <tier-attribute type="damage">17-26</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="12">400</resource-min>
+          <resource-opt amount="6">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Dagger</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last ditch defense.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="delay">23</tier-attribute>
+        <tier-attribute type="damage">24-36</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="12">600</resource-min>
+          <resource-opt amount="6">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Dagger</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade, the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last-ditch defense.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="delay">22</tier-attribute>
+        <tier-attribute type="damage">29-46</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="12">800</resource-min>
+          <resource-opt amount="6">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Dirk</item-name>
+    <item-icon>icon_formula_w_1hp_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, BLDM, RNGR, CONJ, WIZ, SHMN, SPRT, SCT, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">One Hand Pierce</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_dagger</item-keyword>
+      <item-keyword>weapon_dirk</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_onehandpierce</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Dirk</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">40</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">5-6</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">50</resource-min>
+          <resource-opt amount="8">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Dirk</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="delay">27</tier-attribute>
+        <tier-attribute type="damage">13-19</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">250</resource-min>
+          <resource-opt amount="8">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Dirk</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="delay">26</tier-attribute>
+        <tier-attribute type="damage">21-31</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">450</resource-min>
+          <resource-opt amount="8">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Dirk</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="delay">25</tier-attribute>
+        <tier-attribute type="damage">28-42</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">650</resource-min>
+          <resource-opt amount="8">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Dirk</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Well-balanced, with a longer, narrower blade than a traditional dagger, the dirk is well-suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="delay">24</tier-attribute>
+        <tier-attribute type="damage">34-52</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">850</resource-min>
+          <resource-opt amount="8">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Dagger</item-name>
+    <item-icon>icon_formula_w_1hp_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, BLDM, RNGR, CONJ, SORC, WIZ, SHMN, SPRT, SCT, MAGE, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">One Hand Pierce</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_dagger</item-keyword>
+      <item-keyword>weapon_dagger</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_onehandpierce</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Bronze Dagger</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last ditch defense.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">45</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="delay">25</tier-attribute>
+        <tier-attribute type="damage">6-9</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">100</resource-min>
+          <resource-opt amount="9">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Iron Dagger</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last ditch defense.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">81</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="delay">24</tier-attribute>
+        <tier-attribute type="damage">13-20</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Steel Dagger</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last ditch defense.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">162</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="delay">23</tier-attribute>
+        <tier-attribute type="damage">20-31</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Cobalt Dagger</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last ditch defense.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">324</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="delay">22</tier-attribute>
+        <tier-attribute type="damage">26-40</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Mithril Dagger</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Having a short, wide and durable blade, the dagger is a typical accompaniment to almost any soldier's arsenal. Utilitarian for a multitude of odd jobs as well as a decent last-ditch defense.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">648</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="delay">21</tier-attribute>
+        <tier-attribute type="damage">31-49</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Dirk</item-name>
+    <item-icon>icon_formula_w_1hp_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">8</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, BLDM, RNGR, CONJ, WIZ, SHMN, SPRT, SCT, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">One Hand Pierce</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_dagger</item-keyword>
+      <item-keyword>weapon_dirk</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_onehandpierce</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Bronze Dirk</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">55</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (150)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+        <tier-attribute type="delay">27</tier-attribute>
+        <tier-attribute type="damage">9-13</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">150</resource-min>
+          <resource-opt amount="11">250</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Iron Dirk</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">99</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (350)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+        <tier-attribute type="delay">26</tier-attribute>
+        <tier-attribute type="damage">17-25</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">350</resource-min>
+          <resource-opt amount="11">475</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Steel Dirk</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">198</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (550)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+        <tier-attribute type="delay">25</tier-attribute>
+        <tier-attribute type="damage">24-36</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">550</resource-min>
+          <resource-opt amount="11">700</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Cobalt Dirk</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">396</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (750)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+        <tier-attribute type="delay">24</tier-attribute>
+        <tier-attribute type="damage">31-46</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">750</resource-min>
+          <resource-opt amount="11">925</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Mithril Dirk</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Well balanced, with a longer, narrower blade than a traditional dagger, the dirk is well suited for devastating thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">792</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (950)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+        <tier-attribute type="delay">23</tier-attribute>
+        <tier-attribute type="damage">36-56</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">950</resource-min>
+          <resource-opt amount="11">1150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Long Spear</item-name>
+    <item-icon>icon_formula_w_1hp_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, SPRM, RNGR, SHMN, SPRT, SCT, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">One Hand Pierce</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_longspear</item-keyword>
+      <item-keyword>weaponstyle_spear</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_onehandpierce</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Bronze Long Spear</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>An exceptional long-shafted barbed spear with a diamond shaped blade forged of bronze, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">65</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (150)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+        <tier-attribute type="delay">30</tier-attribute>
+        <tier-attribute type="damage">10-14</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="26">150</resource-min>
+          <resource-opt amount="13">250</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Iron Long Spear</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>An exceptional long-shafted barbed spear with a diamond shaped blade forged of iron, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">117</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (350)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+        <tier-attribute type="delay">29</tier-attribute>
+        <tier-attribute type="damage">19-27</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="26">350</resource-min>
+          <resource-opt amount="13">475</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Steel Long Spear</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>An exceptional long-shafted barbed spear with a diamond shaped blade forged of steel, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">234</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (550)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">28-39</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="26">550</resource-min>
+          <resource-opt amount="13">700</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Cobalt Long Spear</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>An exceptional long-shafted barbed spear with a diamond shaped blade forged of cobalt, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">468</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (750)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+        <tier-attribute type="delay">27</tier-attribute>
+        <tier-attribute type="damage">35-51</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="26">750</resource-min>
+          <resource-opt amount="13">925</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Mithril Long Spear</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>An exceptional long-shafted barbed spear with a diamond shaped blade forged of mithril, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">936</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (950)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+        <tier-attribute type="delay">26</tier-attribute>
+        <tier-attribute type="damage">42-62</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="26">950</resource-min>
+          <resource-opt amount="13">1150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Short Spear</item-name>
+    <item-icon>icon_formula_w_1hp_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">32</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, SPRM, RNGR, SHMN, SPRT, SCT, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">One Hand Pierce</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_shortspear</item-keyword>
+      <item-keyword>weaponstyle_spear</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_onehandpierce</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Bronze Short Spear</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A compact, single hooked shaft with an exceptional arrow shaped blade forged of bronze, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">55</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">7-10</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">100</resource-min>
+          <resource-opt amount="11">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Iron Short Spear</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A compact, single hooked shaft with an exceptional arrow shaped blade forged of iron, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">99</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="delay">27</tier-attribute>
+        <tier-attribute type="damage">16-22</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">300</resource-min>
+          <resource-opt amount="11">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Steel Short Spear</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A compact, single hooked shaft with an exceptional arrow shaped blade forged of steel, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">198</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="delay">26</tier-attribute>
+        <tier-attribute type="damage">23-34</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">500</resource-min>
+          <resource-opt amount="11">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Cobalt Short Spear</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A compact, single hooked shaft with an exceptional arrow shaped blade forged of cobalt, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">396</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="delay">25</tier-attribute>
+        <tier-attribute type="damage">30-45</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">700</resource-min>
+          <resource-opt amount="11">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Mithril Short Spear</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A compact, single-hooked shaft with an exceptional arrow-shaped blade forged of mithril, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">792</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="delay">24</tier-attribute>
+        <tier-attribute type="damage">36-55</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="22">900</resource-min>
+          <resource-opt amount="11">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Long Spear</item-name>
+    <item-icon>icon_formula_w_1hp_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, SPRM, RNGR, SHMN, SPRT, SCT, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">One Hand Pierce</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_longspear</item-keyword>
+      <item-keyword>weaponstyle_spear</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_onehandpierce</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Long Spear</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A long-shafted barbed spear with a diamond shaped blade forged of bronze, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">50</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="delay">31</tier-attribute>
+        <tier-attribute type="damage">5-7</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="20">50</resource-min>
+          <resource-opt amount="10">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Long Spear</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A long-shafted barbed spear with a diamond shaped blade forged of iron, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="delay">30</tier-attribute>
+        <tier-attribute type="damage">15-21</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="20">250</resource-min>
+          <resource-opt amount="10">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Long Spear</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A long-shafted barbed spear with a diamond shaped blade forged of steel, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="delay">29</tier-attribute>
+        <tier-attribute type="damage">24-34</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="20">450</resource-min>
+          <resource-opt amount="10">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Long Spear</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A long-shafted barbed spear with a diamond shaped blade forged of cobalt, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">32-46</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="20">650</resource-min>
+          <resource-opt amount="10">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Long Spear</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A long-shafted barbed spear with a diamond-shaped blade forged of mithril, designed for vicious perforating attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="delay">27</tier-attribute>
+        <tier-attribute type="damage">40-57</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="20">850</resource-min>
+          <resource-opt amount="10">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Short Spear</item-name>
+    <item-icon>icon_formula_w_1hp_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">32</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, SPRM, RNGR, SHMN, SPRT, SCT, WAR</item-attribute>
+      <item-attribute type="range">Melee</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">One Hand Pierce</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weapon_shortspear</item-keyword>
+      <item-keyword>weaponstyle_spear</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>skill_use_onehandpierce</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Short Spear</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A compact, single hooked shaft with an arrow shaped blade forged of bronze, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">40</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="delay">29</tier-attribute>
+        <tier-attribute type="damage">2-3</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">1</resource-min>
+          <resource-opt amount="8">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Short Spear</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A compact, single hooked shaft with an exceptional arrow shaped blade forged of iron, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="delay">28</tier-attribute>
+        <tier-attribute type="damage">12-16</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">200</resource-min>
+          <resource-opt amount="8">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Short Spear</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A compact, single hooked shaft with an arrow shaped blade forged of steel, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="delay">27</tier-attribute>
+        <tier-attribute type="damage">20-29</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">400</resource-min>
+          <resource-opt amount="8">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Short Spear</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A compact, single hooked shaft with an arrow shaped blade forged of cobalt, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="delay">26</tier-attribute>
+        <tier-attribute type="damage">28-40</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">600</resource-min>
+          <resource-opt amount="8">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Short Spear</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A compact, single-hooked shaft with an arrow-shaped blade forged of mithril, designed for quick thrusting attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">One Hand Pierce (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="delay">25</tier-attribute>
+        <tier-attribute type="damage">34-51</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Weaponcraft</resource-skill>
+          <resource-min amount="16">800</resource-min>
+          <resource-opt amount="8">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

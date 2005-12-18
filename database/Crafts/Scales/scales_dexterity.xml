@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Scales - Dexterity</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Scales</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Dexterity Back Scale</item-name>
+    <item-icon>icon_formula_ds_03_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Back Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="hoardValue">864</item-attribute>
+      <item-attribute type="reqCurrentSchoolLevel">Current School Level (80)</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+      <item-attribute type="statBonus">+50 Dexterity</item-attribute>
+      <item-attribute type="statBonus">+25 Armor</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_5</item-keyword>
+      <item-keyword>techclass_4</item-keyword>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_back</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_5</item-keyword>
+      <item-keyword>statmod_dexterity_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Mithril Dexterity Back Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">920</resource-min>
+          <resource-opt amount="12">1120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Dexterity Chest Scale</item-name>
+    <item-icon>icon_formula_ds_02_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Chest Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_chest</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_dexterity_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Dexterity Chest Scale</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">60</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+        <tier-attribute type="statBonus">+10 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+5 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">20</resource-min>
+          <resource-opt amount="12">120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Dexterity Chest Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">220</resource-min>
+          <resource-opt amount="12">345</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Dexterity Chest Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">420</resource-min>
+          <resource-opt amount="12">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Dexterity Chest Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">620</resource-min>
+          <resource-opt amount="12">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Dexterity Chest Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">820</resource-min>
+          <resource-opt amount="12">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Dexterity Foreleg Scale</item-name>
+    <item-icon>icon_formula_ds_06_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Foreleg Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_foreleg</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_3</item-keyword>
+      <item-keyword>statmod_dexterity_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Steel Dexterity Foreleg Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">420</resource-min>
+          <resource-opt amount="12">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Dexterity Foreleg Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">620</resource-min>
+          <resource-opt amount="12">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Dexterity Foreleg Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">820</resource-min>
+          <resource-opt amount="12">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Dexterity Head Scale</item-name>
+    <item-icon>icon_formula_ds_01_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Head Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_head</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_2</item-keyword>
+      <item-keyword>statmod_dexterity_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Iron Dexterity Head Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">220</resource-min>
+          <resource-opt amount="12">345</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Dexterity Head Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">420</resource-min>
+          <resource-opt amount="12">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Dexterity Head Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">620</resource-min>
+          <resource-opt amount="12">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Dexterity Head Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">820</resource-min>
+          <resource-opt amount="12">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Dexterity Hindleg Scale</item-name>
+    <item-icon>icon_formula_ds_07_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Hindleg Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_hindleg</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_3</item-keyword>
+      <item-keyword>statmod_dexterity_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Steel Dexterity Hindleg Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (50)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">520</resource-min>
+          <resource-opt amount="12">670</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Dexterity Hindleg Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">720</resource-min>
+          <resource-opt amount="12">895</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Dexterity Hindleg Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">920</resource-min>
+          <resource-opt amount="12">1120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Dexterity Tail Scale</item-name>
+    <item-icon>icon_formula_ds_04_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Tail Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="hoardValue">864</item-attribute>
+      <item-attribute type="reqCurrentSchoolLevel">Current School Level (80)</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+      <item-attribute type="statBonus">+50 Dexterity</item-attribute>
+      <item-attribute type="statBonus">+25 Armor</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_5</item-keyword>
+      <item-keyword>techclass_4</item-keyword>
+      <item-keyword>techclass_3</item-keyword>
+      <item-keyword>techclass_2</item-keyword>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_tail</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_5</item-keyword>
+      <item-keyword>statmod_dexterity_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Mithril Dexterity Tail Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">920</resource-min>
+          <resource-opt amount="12">1120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Dexterity Wing Scale</item-name>
+    <item-icon>icon_formula_ds_05_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Wing Scale</item-attribute>
+      <item-attribute type="bulk">20</item-attribute>
+      <item-attribute type="reqRace">Adult Dragon, Hatchling Dragon, Ancient Dragon, Khutit</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dragon_bodyslot_wing</item-keyword>
+      <item-keyword>dragonscale</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>statmod_dexterity_up</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Dexterity Wing Scale</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">60</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (10)</tier-attribute>
+        <tier-attribute type="statBonus">+10 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+5 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">120</resource-min>
+          <resource-opt amount="12">220</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Dexterity Wing Scale</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+        <tier-attribute type="statBonus">+20 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+10 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">320</resource-min>
+          <resource-opt amount="12">445</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Dexterity Wing Scale</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+        <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+15 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">520</resource-min>
+          <resource-opt amount="12">670</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Dexterity Wing Scale</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+        <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+20 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">720</resource-min>
+          <resource-opt amount="12">895</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Dexterity Wing Scale</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+        <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
+        <tier-attribute type="statBonus">+25 Armor</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-min amount="24">920</resource-min>
+          <resource-opt amount="12">1120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

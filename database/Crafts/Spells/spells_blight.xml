@@ -1,0 +1,2051 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Spells - Blight</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Spells</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Blight Ward</item-name>
+    <item-icon>icon_formula_s_07_08_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">30</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Blight Ward I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>The power of blight shields the target, making it more difficult for blight attacks to take effect.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (80)</tier-attribute>
+        <tier-attribute type="effect">Blight Ward I</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+20 Blight Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">80</resource-min>
+          <resource-opt amount="4">180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Blight Ward II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>The power of blight shields the target, making it more difficult for blight attacks to take effect.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (280)</tier-attribute>
+        <tier-attribute type="effect">Blight Ward II</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+70 Blight Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">280</resource-min>
+          <resource-opt amount="4">405</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">280</resource-min>
+          <resource-opt amount="7">405</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Blight Ward III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>The power of blight shields the target, making it more difficult for blight attacks to take effect.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (480)</tier-attribute>
+        <tier-attribute type="effect">Blight Ward III</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+120 Blight Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">480</resource-min>
+          <resource-opt amount="4">630</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">480</resource-min>
+          <resource-opt amount="7">630</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Blight Ward IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>The power of blight shields the target, making it more difficult for blight attacks to take effect.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (680)</tier-attribute>
+        <tier-attribute type="effect">Blight Ward IV</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+170 Blight Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">680</resource-min>
+          <resource-opt amount="4">855</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">680</resource-min>
+          <resource-opt amount="7">855</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Blight Ward V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>The power of blight shields the target, making it more difficult for blight attacks to take effect.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (880)</tier-attribute>
+        <tier-attribute type="effect">Blight Ward V</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+220 Blight Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">880</resource-min>
+          <resource-opt amount="4">1080</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">880</resource-min>
+          <resource-opt amount="7">1080</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Brittle</item-name>
+    <item-icon>icon_formula_s_07_10_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">20</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Brittle I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>The target's bones become brittle and more easily broken by crushing damage.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (50)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Brittle II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>The target's bones become brittle and more easily broken by crushing damage.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (250)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Brittle III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>The target's bones become brittle and more easily broken by crushing damage.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (450)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Brittle IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>The target's bones become brittle and more easily broken by crushing damage.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (650)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Brittle V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>The target's bones become brittle and more easily broken by crushing damage.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (850)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Clumsiness</item-name>
+    <item-icon>icon_formula_s_07_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">50</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Clumsiness I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Curses the target with physical ineptitude, decreasing dexterity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (100)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Clumsiness II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Curses the target with physical ineptitude, decreasing dexterity.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (300)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Clumsiness III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Curses the target with physical ineptitude, decreasing dexterity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (500)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Clumsiness IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Curses the target with physical ineptitude, decreasing dexterity.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (700)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Clumsiness V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Curses the target with physical ineptitude, decreasing dexterity.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (900)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Dispel</item-name>
+    <item-icon>icon_formula_s_07_06_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">30</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>dispell_positive</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Dispel I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Blight corrupts and cancels a beneficial enchantment on the target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (6)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (60)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">60</resource-min>
+          <resource-opt amount="4">160</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Dispel II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Blight corrupts and cancels a beneficial enchantment on the target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (26)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (260)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">260</resource-min>
+          <resource-opt amount="4">385</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">260</resource-min>
+          <resource-opt amount="7">385</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Dispel III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Blight corrupts and cancels a beneficial enchantment on the target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (46)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (460)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">460</resource-min>
+          <resource-opt amount="4">610</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">460</resource-min>
+          <resource-opt amount="7">610</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Dispel IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Blight corrupts and cancels a beneficial enchantment on the target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (66)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (660)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">660</resource-min>
+          <resource-opt amount="4">835</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">660</resource-min>
+          <resource-opt amount="7">835</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Dispel V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Blight corrupts and cancels a beneficial enchantment on the target.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (86)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (860)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">860</resource-min>
+          <resource-opt amount="4">1060</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">860</resource-min>
+          <resource-opt amount="7">1060</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Lessen Armor</item-name>
+    <item-icon>icon_formula_s_07_14_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">50</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Lessen Armor I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Lessens the armor statistic of the target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (50)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Armor II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Lessens the armor statistic of the target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (250)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Armor III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Lessens the armor statistic of the target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (450)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Armor IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Lessens the armor statistic of the target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (650)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Armor V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Lessens the armor statistic of the target.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (850)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Lessen Dexterity</item-name>
+    <item-icon>icon_formula_s_07_15_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">50</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Lessen Dexterity I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Lessens the dexterity statistic of the target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (50)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Dexterity II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Lessens the dexterity statistic of the target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (250)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Dexterity III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Lessens the dexterity statistic of the target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (450)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Dexterity IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Lessens the dexterity statistic of the target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (650)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Dexterity V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Lessens the dexterity statistic of the target.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (850)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Lessen Health</item-name>
+    <item-icon>icon_formula_s_07_17_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">50</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Lessen Health I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Lessens the maximum health value a target can have</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (50)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Health II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Lessens the maximum health value a target can have</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (250)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Health III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Lessens the maximum health value a target can have</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (450)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Health IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Lessens the maximum health value a target can have</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (650)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Health V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Lessens the maximum health value a target can have</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (850)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Lessen Strength</item-name>
+    <item-icon>icon_formula_s_07_19_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">50</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Lessen Strength I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Lessens the maximum strength value a target can have</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (50)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Strength II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Lessens the maximum strength value a target can have</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (250)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Strength III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Lessens the maximum strength value a target can have</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (450)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Strength IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Lessens the maximum strength value a target can have</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (650)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Lessen Strength V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Lessens the maximum strength value a target can have</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (850)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Malady</item-name>
+    <item-icon>icon_formula_s_07_13_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">42</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>overtime</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Malady I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Waves of nausea and dizziness sap the target's strength and dexterity, causing sporadic health loss.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">18</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (150)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">150</resource-min>
+          <resource-opt amount="6">250</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Malady II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Waves of nausea and dizziness sap the target's strength and dexterity, causing sporadic health loss.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (350)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">350</resource-min>
+          <resource-opt amount="6">475</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="22">350</resource-min>
+          <resource-opt amount="11">475</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Malady III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Waves of nausea and dizziness sap the target's strength and dexterity, causing sporadic health loss.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (550)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">550</resource-min>
+          <resource-opt amount="6">700</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="22">550</resource-min>
+          <resource-opt amount="11">700</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Malady IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Waves of nausea and dizziness sap the target's strength and dexterity, causing sporadic health loss.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (750)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">750</resource-min>
+          <resource-opt amount="6">925</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="22">750</resource-min>
+          <resource-opt amount="11">925</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Malady V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Waves of nausea and dizziness sap the target's strength and dexterity, causing sporadic health loss.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (950)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">950</resource-min>
+          <resource-opt amount="6">1150</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="22">950</resource-min>
+          <resource-opt amount="11">1150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Mark</item-name>
+    <item-icon>icon_formula_s_07_11_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">20</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Mark I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Reveals gaps in the target's armor, making the target more vulnerable to piercing attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (50)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mark II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Reveals gaps in the target's armor, making the target more vulnerable to piercing attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (250)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mark III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Reveals gaps in the target's armor, making the target more vulnerable to piercing attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (450)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mark IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Reveals gaps in the target's armor, making the target more vulnerable to piercing attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (650)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mark V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Reveals gaps in the target's armor, making the target more vulnerable to piercing attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (850)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Rust</item-name>
+    <item-icon>icon_formula_s_07_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">20</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>statmod_armor_down</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Rust I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Weakens the target's armor with the power of decay.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (1)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Rust II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Weakens the target's armor with the power of decay.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (200)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Rust III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Weakens the target's armor with the power of decay.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (400)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Rust IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Weakens the target's armor with the power of decay.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (600)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Rust V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Weakens the target's armor with the power of decay.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (800)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Soften</item-name>
+    <item-icon>icon_formula_s_07_12_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">20</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Soften I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Lowers an enemy's defensive capabilities against slash attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (50)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Soften II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Lowers an enemy's defensive capabilities against slash attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (250)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Soften III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Lowers an enemy's defensive capabilities against slash attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (450)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Soften IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Lowers an enemy's defensive capabilities against slash attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (650)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Soften V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Lowers an enemy's defensive capabilities against slash attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (850)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Weakness</item-name>
+    <item-icon>icon_formula_s_07_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">50</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">crush</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Weakness I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Lowers a target's strength statisitc for a short time.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (100)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Weakness II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Lowers a target's strength statisitc for a short time.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (300)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Weakness III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Lowers a target's strength statisitc for a short time.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (500)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Weakness IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Lowers a target's strength statisitc for a short time.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (700)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Weakness V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Lowers a target's strength statisitc for a short time.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (900)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Withered State</item-name>
+    <item-icon>icon_formula_s_07_07_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">35</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damage">0-0</item-attribute>
+      <item-attribute type="damageType">blight</item-attribute>
+      <item-attribute type="skill">Blight</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>mystic</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>overtime</item-keyword>
+      <item-keyword>skill_use_magic_blight</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+      <item-keyword>damage</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Withered State I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>This casues the target to take blight damage over an incremented amount of time.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (20)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">20</resource-min>
+          <resource-opt amount="3">120</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Withered State II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>This casues the target to take blight damage over an incremented amount of time.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (220)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">220</resource-min>
+          <resource-opt amount="3">345</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">220</resource-min>
+          <resource-opt amount="5">345</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Withered State III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>This casues the target to take blight damage over an incremented amount of time.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (420)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">420</resource-min>
+          <resource-opt amount="3">570</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">420</resource-min>
+          <resource-opt amount="5">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Withered State IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>This casues the target to take blight damage over an incremented amount of time.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (620)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">620</resource-min>
+          <resource-opt amount="3">795</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">620</resource-min>
+          <resource-opt amount="5">795</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Withered State V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>This casues the target to take blight damage over an incremented amount of time.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Blight (820)</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">820</resource-min>
+          <resource-opt amount="3">1020</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">820</resource-min>
+          <resource-opt amount="5">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

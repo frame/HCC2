@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+  <techniqueset-name>Flame</techniqueset-name>
+  <techniqueset-categories>
+    <techniqueset-category>Adventure</techniqueset-category>
+  </techniqueset-categories>
+  <tech>
+    <tech-name>Flame</tech-name>
+    <tech-icon>icon_technique_04_00_11.png</tech-icon>
+      <tech-keywords>
+        <tech-keywordset>
+          <tech-keyword>armor</tech-keyword>
+          <tech-keyword>weapon</tech-keyword>
+          <tech-keyword>jewelry</tech-keyword>
+          <tech-keyword>tool</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>bodyslot_chest</tech-keyword>
+          <tech-keyword>bodyslot_back</tech-keyword>
+          <tech-keyword>bodyslot_head</tech-keyword>
+          <tech-keyword>bodyslot_legs</tech-keyword>
+          <tech-keyword>bodyslot_shoulder</tech-keyword>
+          <tech-keyword>bodyslot_arms</tech-keyword>
+          <tech-keyword>bodyslot_hands</tech-keyword>
+          <tech-keyword>bodyslot_rightpalm</tech-keyword>
+          <tech-keyword>bodyslot_leftpalm</tech-keyword>
+          <tech-keyword>bodyslot_finger</tech-keyword>
+        </tech-keywordset>
+        <tech-keywordset>
+          <tech-keyword>techclass_1</tech-keyword>
+        </tech-keywordset>
+      </tech-keywords>
+    <tech-effectkeywords>
+      <tech-effectkeywordset>
+        <tech-effectkeyword>173</tech-effectkeyword>
+      </tech-effectkeywordset>
+    </tech-effectkeywords>
+    <tier>
+      <tier-name>Flame I</tier-name>
+      <tier-origin>Adventure: Flame I</tier-origin>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an additional +5 to the Flame magic skill.</tier-desc>
+      <tier-skilladjust>10</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+5 Flame</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Dim Essence Orb</component>
+        <component amount="1">Weaker Blight Bindings</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Flame II</tier-name>
+      <tier-origin>Adventure: Flame II</tier-origin>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an additional +10 to the Flame magic skill.</tier-desc>
+      <tier-skilladjust>20</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+10 Flame</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Pale Essence Orb</component>
+        <component amount="1">Grass Beetle Carapace</component>
+        <component amount="1">Frost Ogre Jawbone</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Flame III</tier-name>
+      <tier-origin>Adventure: Flame III</tier-origin>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an additional +15 to the Flame magic skill.</tier-desc>
+      <tier-skilladjust>30</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+15 Flame</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Glowing Essence Orb</component>
+        <component amount="1">Werewolf Bone</component>
+        <component amount="1">Myloc Hair</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Flame IV</tier-name>
+      <tier-origin>Adventure: Flame IV</tier-origin>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an additional +20 to the Flame magic skill.</tier-desc>
+      <tier-skilladjust>40</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+20 Flame</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Bright Essence Orb</component>
+        <component amount="1">Kwellen Flame Cinder</component>
+        <component amount="2">Mighty Aegror Pus Packet</component>
+      </components>
+    </tier>
+    <tier>
+      <tier-name>Flame V</tier-name>
+      <tier-origin>Adventure: Flame V</tier-origin>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>This technique gives the user the ability to create certain objects with an additional +25 to the Flame magic skill.</tier-desc>
+      <tier-skilladjust>50</tier-skilladjust>
+      <tier-attributes>
+        <tier-attribute type="statBonus">+25 Flame</tier-attribute>
+      </tier-attributes>
+      <components>
+        <component amount="4">Shining Essence Orb</component>
+        <component amount="2">Fiery Dire Wolf Fang</component>
+        <component amount="2">Enduring Fyakki Chitin</component>
+      </components>
+    </tier>
+  </tech>
+</techniqueset>

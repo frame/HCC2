@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Weapons - Crossbow</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Weapons</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Crossbow</item-name>
+    <item-icon>icon_formula_w_cbow_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">32</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, RNGR, SCT, HLR, WAR</item-attribute>
+      <item-attribute type="range">25</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">Crossbow</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>skill_use_crossbow</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_crossbow</item-keyword>
+      <item-keyword>bodyslot_leftpalm</item-keyword>
+      <item-keyword>weapon_crossbow</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Cedar Crossbow</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted cedar stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">16</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">5-5</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cedar Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="16">1</resource-min>
+          <resource-opt amount="8">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Elm Crossbow</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted elm stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">40</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">24-27</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Elm Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="16">200</resource-min>
+          <resource-opt amount="8">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Oak Crossbow</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted oak stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">42-47</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Oak Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="16">400</resource-min>
+          <resource-opt amount="8">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Maple Crossbow</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted maple stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="delay">43</tier-attribute>
+        <tier-attribute type="damage">59-66</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Maple Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="16">600</resource-min>
+          <resource-opt amount="8">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Yew Crossbow</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted yew stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="delay">42</tier-attribute>
+        <tier-attribute type="damage">75-85</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Yew Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="16">800</resource-min>
+          <resource-opt amount="8">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Crossbow</item-name>
+    <item-icon>icon_formula_w_cbow_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">32</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, RNGR, SCT, HLR, WAR</item-attribute>
+      <item-attribute type="range">25</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">Crossbow</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>skill_use_crossbow</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_crossbow</item-keyword>
+      <item-keyword>bodyslot_leftpalm</item-keyword>
+      <item-keyword>weapon_crossbow</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Cedar Crossbow</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted cedar stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">22</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">14-16</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cedar Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="22">100</resource-min>
+          <resource-opt amount="11">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Elm Crossbow</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted elm stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">55</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">33-36</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Elm Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="22">300</resource-min>
+          <resource-opt amount="11">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Oak Crossbow</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted oak stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">99</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="delay">43</tier-attribute>
+        <tier-attribute type="damage">50-56</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Oak Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="22">500</resource-min>
+          <resource-opt amount="11">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Maple Crossbow</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted maple stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">198</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="delay">42</tier-attribute>
+        <tier-attribute type="damage">67-75</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Maple Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="22">700</resource-min>
+          <resource-opt amount="11">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Yew Crossbow</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted yew stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">396</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="delay">41</tier-attribute>
+        <tier-attribute type="damage">83-93</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Yew Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="22">900</resource-min>
+          <resource-opt amount="11">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Fine Heavy Crossbow</item-name>
+    <item-icon>icon_formula_w_cbow_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="range">25</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">Crossbow</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>skill_use_crossbow</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_crossbow</item-keyword>
+      <item-keyword>weapon_heavycrossbow</item-keyword>
+      <item-keyword>bodyslot_leftpalm</item-keyword>
+      <item-keyword>weapon</item-keyword>
+      <item-keyword>fine</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Fine Cedar Heavy Crossbow</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted cedar stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">26</tier-attribute>
+        <tier-attribute type="reqClass">ELAR, CRSB, RNGR, SCT, HLR, WAR</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (150)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+        <tier-attribute type="delay">47</tier-attribute>
+        <tier-attribute type="damage">20-22</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cedar Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="26">150</resource-min>
+          <resource-opt amount="13">250</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Elm Heavy Crossbow</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted elm stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">65</tier-attribute>
+        <tier-attribute type="reqClass">ELAR, CRSB, RNGR, SCT, HLR, WAR</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (350)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">40-43</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Elm Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="26">350</resource-min>
+          <resource-opt amount="13">475</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Oak Heavy Crossbow</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted oak stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">117</tier-attribute>
+        <tier-attribute type="reqClass">ELAR, CRSB, RNGR, SCT, HLR, WAR</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (550)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">58-63</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Oak Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="26">550</resource-min>
+          <resource-opt amount="13">700</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Maple Heavy Crossbow</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted maple stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">234</tier-attribute>
+        <tier-attribute type="reqClass">ELAR, CRSB, RNGR, SCT, HLR, WAR</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (750)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">75-83</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Maple Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="26">750</resource-min>
+          <resource-opt amount="13">925</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Fine Yew Heavy Crossbow</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted yew stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">468</tier-attribute>
+        <tier-attribute type="reqClass">ELAR, CRSB, RNGR, SCT, HLR, WAR</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (950)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+        <tier-attribute type="delay">43</tier-attribute>
+        <tier-attribute type="damage">92-102</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Yew Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="26">950</resource-min>
+          <resource-opt amount="13">1150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Heavy Crossbow</item-name>
+    <item-icon>icon_formula_w_cbow_02_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">64</item-attribute>
+      <item-attribute type="reqClass">ELAR, CRSB, RNGR, SCT, WAR</item-attribute>
+      <item-attribute type="range">25</item-attribute>
+      <item-attribute type="damageType">pierce</item-attribute>
+      <item-attribute type="skill">Crossbow</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>skill_use_crossbow</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>weaponstyle_crossbow</item-keyword>
+      <item-keyword>weapon_heavycrossbow</item-keyword>
+      <item-keyword>bodyslot_leftpalm</item-keyword>
+      <item-keyword>weapon</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Cedar Heavy Crossbow</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted cedar stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">20</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="delay">48</tier-attribute>
+        <tier-attribute type="damage">11-11</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Cedar Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="20">50</resource-min>
+          <resource-opt amount="10">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Elm Heavy Crossbow</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted elm stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">50</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="delay">47</tier-attribute>
+        <tier-attribute type="damage">30-33</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Elm Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="20">250</resource-min>
+          <resource-opt amount="10">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Oak Heavy Crossbow</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted oak stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="delay">46</tier-attribute>
+        <tier-attribute type="damage">49-54</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Oak Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="20">450</resource-min>
+          <resource-opt amount="10">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Maple Heavy Crossbow</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted maple stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="delay">45</tier-attribute>
+        <tier-attribute type="damage">67-75</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Maple Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="20">650</resource-min>
+          <resource-opt amount="10">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Yew Heavy Crossbow</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A heavier, more powerful version of the standard crossbow made of yew.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Crossbow (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="delay">44</tier-attribute>
+        <tier-attribute type="damage">84-94</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Yew Board</resource-name>
+          <resource-skill>Fletching</resource-skill>
+          <resource-min amount="20">850</resource-min>
+          <resource-opt amount="10">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>

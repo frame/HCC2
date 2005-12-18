@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset>
+	<formulaset-name>Plot - Sslik Structures</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Construction</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Sslik House</item-name>
+		<item-icon>Internal_house_sslik.png</item-icon>
+		<tier>
+			<tier-name>Sslik Tiny Hut</tier-name>
+			<tier-lvl name="Tiny Hut">1</tier-lvl>
+			<tier-desc>A very small sslik building possibly suitable for a single merchant</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">3000</tier-attribute>
+				<tier-attribute type="structurestacks">25</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>150</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sslik Medium House</tier-name>
+			<tier-lvl name="Medium">1</tier-lvl>
+			<tier-desc>A medium-sized Sslik home</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">6000</tier-attribute>
+				<tier-attribute type="structurestacks">50</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>100</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>100</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>300</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>250</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>300</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Sslik Shop</item-name>
+		<item-icon>Internal_shop_sslik.png</item-icon>
+		<tier>
+			<tier-name>Sslik Tiny Pawn Shop</tier-name>
+			<tier-lvl name="Tiny Pawn Shop">1</tier-lvl>
+			<tier-desc>A very small sslik building, which includes a single pawn broker</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurenpc">Player Structure: Pawn Broker</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>150</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sslik Medium Pawn Shop</tier-name>
+			<tier-lvl name="Medium Pawn Shop">1</tier-lvl>
+			<tier-desc>A mid-sized sslik structure containing a pawn broker.</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurenpc">Player Structure: Pawn Broker</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>75</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>300</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>275</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>200</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sslik Medium Consignment Shop</tier-name>
+			<tier-lvl name="Medium Consignment">1</tier-lvl>
+			<tier-desc>A mid-sized sslik structure suitable for a single consignment merchant</tier-desc>
+			<tier-attributes>
+				<tier-attribute type="structurenpc">Player Structure: Consignment</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>125</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>75</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>300</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>350</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>200</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sslik Medium Trade Shop</tier-name>
+			<tier-lvl name="Medium Trade">1</tier-lvl>
+			<tier-desc>A sizeable sslik structure suitable for merchants</tier-desc>
+			<tier-attributes>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>75</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>400</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>250</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>300</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

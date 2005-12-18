@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+  <formulaset-name>Spells - Ice</formulaset-name>
+  <formulaset-categories>
+    <formulaset-category>Spells</formulaset-category>
+  </formulaset-categories>
+  <item>
+    <item-name>Binding Crystals</item-name>
+    <item-icon>icon_formula_s_08_03_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">30</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damageType">ice</item-attribute>
+      <item-attribute type="skill">Ice</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>root</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+      <item-keyword>damage</item-keyword>
+      <item-keyword>arcane</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Binding Crystals I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A large crystal of ice encases the target, making movement impossible while reducing damage from flames.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="damage">10-11</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Binding Crystals II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A large crystal of ice encases the target, making movement impossible while reducing damage from flames.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="damage">50-56</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Binding Crystals III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A large crystal of ice encases the target, making movement impossible while reducing damage from flames.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="damage">89-100</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Binding Crystals IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A large crystal of ice encases the target, making movement impossible while reducing damage from flames.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="damage">127-143</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Binding Crystals V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A large crystal of ice encases the target, making movement impossible while reducing damage from flames.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="damage">164-185</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Freeze</item-name>
+    <item-icon>icon_formula_s_08_08_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">30</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damageType">ice</item-attribute>
+      <item-attribute type="skill">Ice</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+      <item-keyword>damage</item-keyword>
+      <item-keyword>arcane</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Freeze I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Lowers the target's resistance against ice damage.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="damage">14-16</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Freeze II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Lowers the target's resistance against ice damage.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="damage">41-48</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Freeze III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Lowers the target's resistance against ice damage.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="damage">66-79</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Freeze IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Lowers the target's resistance against ice damage.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="damage">91-109</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Freeze V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Lowers the target's resistance against ice damage.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="damage">115-137</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Ice Attack</item-name>
+    <item-icon>icon_formula_s_08_04_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">30</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>skill_use_magic_summoning</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Ice Attack I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Infuses the target's weapon with ice crystals, causing it to deliver additional ice damage with each strike.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (70)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (7)</tier-attribute>
+        <tier-attribute type="effect">Ice Attack I</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effectConvertDamage">Converts damage to ice</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">70</resource-min>
+          <resource-opt amount="4">170</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Attack II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Infuses the target's weapon with ice crystals, causing it to deliver additional ice damage with each strike.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (270)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (27)</tier-attribute>
+        <tier-attribute type="effect">Ice Attack II</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effectConvertDamage">Converts damage to ice</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">270</resource-min>
+          <resource-opt amount="4">395</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">270</resource-min>
+          <resource-opt amount="7">395</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Attack III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Infuses the target's weapon with ice crystals, causing it to deliver additional ice damage with each strike.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (470)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (47)</tier-attribute>
+        <tier-attribute type="effect">Ice Attack III</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effectConvertDamage">Converts damage to ice</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">470</resource-min>
+          <resource-opt amount="4">620</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">470</resource-min>
+          <resource-opt amount="7">570</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Attack IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Infuses the target's weapon with ice crystals, causing it to deliver additional ice damage with each strike.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (670)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (67)</tier-attribute>
+        <tier-attribute type="effect">Ice Attack IV</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effectConvertDamage">Converts damage to ice</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">670</resource-min>
+          <resource-opt amount="4">845</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">670</resource-min>
+          <resource-opt amount="7">770</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Attack V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Infuses the target's weapon with ice crystals, causing it to deliver additional ice damage with each strike.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (870)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (87)</tier-attribute>
+        <tier-attribute type="effect">Ice Attack V</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effectConvertDamage">Converts damage to ice</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">870</resource-min>
+          <resource-opt amount="4">1070</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">870</resource-min>
+          <resource-opt amount="7">1070</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Ice Bolt</item-name>
+    <item-icon>icon_formula_s_08_10_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">50</item-attribute>
+      <item-attribute type="damageType">ice</item-attribute>
+      <item-attribute type="skill">Ice</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>repeatable</item-keyword>
+      <item-keyword>ranged</item-keyword>
+      <item-keyword>damage</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Ice Bolt I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">9</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (1)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="damage">8-11</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">1</resource-min>
+          <resource-opt amount="3">100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Bolt II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">54</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (200)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="damage">25-38</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">200</resource-min>
+          <resource-opt amount="3">325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">200</resource-min>
+          <resource-opt amount="5">325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Bolt III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (400)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="damage">41-64</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">400</resource-min>
+          <resource-opt amount="3">550</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">400</resource-min>
+          <resource-opt amount="5">550</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Bolt IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (600)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="damage">56-89</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">600</resource-min>
+          <resource-opt amount="3">775</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">600</resource-min>
+          <resource-opt amount="5">775</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Bolt V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (800)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="damage">70-112</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">800</resource-min>
+          <resource-opt amount="3">1000</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">800</resource-min>
+          <resource-opt amount="5">1000</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Ice Bomb</item-name>
+    <item-icon>icon_formula_s_08_06_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+      <item-attribute type="range">35</item-attribute>
+      <item-attribute type="castDelay">45</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damageType">ice</item-attribute>
+      <item-attribute type="skill">Ice</item-attribute>
+      <item-attribute type="area">7</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+      <item-keyword>damage</item-keyword>
+      <item-keyword>aoe</item-keyword>
+      <item-keyword>arcane</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Ice Bomb I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Launches an exploding ball of stinging ice at a distant area.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (120)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (12)</tier-attribute>
+        <tier-attribute type="damage">17-20</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">120</resource-min>
+          <resource-opt amount="5">220</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Bomb II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Launches an exploding ball of stinging ice at a distant area.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (320)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (32)</tier-attribute>
+        <tier-attribute type="damage">39-46</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">320</resource-min>
+          <resource-opt amount="5">445</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">320</resource-min>
+          <resource-opt amount="9">445</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Bomb III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Launches an exploding ball of stinging ice at a distant area.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (520)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (52)</tier-attribute>
+        <tier-attribute type="damage">60-72</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">520</resource-min>
+          <resource-opt amount="5">670</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">520</resource-min>
+          <resource-opt amount="9">670</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Bomb IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Launches an exploding ball of stinging ice at a distant area.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (720)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (72)</tier-attribute>
+        <tier-attribute type="damage">82-97</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">720</resource-min>
+          <resource-opt amount="5">895</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">720</resource-min>
+          <resource-opt amount="9">895</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Bomb V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Launches an exploding ball of stinging ice at a distant area.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (920)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (92)</tier-attribute>
+        <tier-attribute type="damage">104-123</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="3">820</resource-min>
+          <resource-opt amount="3">1020</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="10">820</resource-min>
+          <resource-opt amount="5">1020</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Ice Resistance</item-name>
+    <item-icon>icon_formula_s_08_05_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">30</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Ice Resistance I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Acclimates the target's body to low temperatures, reducing damage from ice attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (50)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+        <tier-attribute type="effect">Ice Resistance I</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+8 Ice Resistance</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">50</resource-min>
+          <resource-opt amount="4">150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Resistance II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Acclimates the target's body to low temperatures, reducing damage from ice attacks.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (250)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+        <tier-attribute type="effect">Ice Resistance II</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+38 Ice Resistance</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">250</resource-min>
+          <resource-opt amount="4">375</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">250</resource-min>
+          <resource-opt amount="7">375</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Resistance III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Acclimates the target's body to low temperatures, reducing damage from ice attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (450)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+        <tier-attribute type="effect">Ice Resistance III</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+68 Ice Resistance</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">450</resource-min>
+          <resource-opt amount="4">600</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">450</resource-min>
+          <resource-opt amount="7">600</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Resistance IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Acclimates the target's body to low temperatures, reducing damage from ice attacks.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (650)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+        <tier-attribute type="effect">Ice Resistance IV</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+98 Ice Resistance</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">650</resource-min>
+          <resource-opt amount="4">825</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">650</resource-min>
+          <resource-opt amount="7">825</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Resistance V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Acclimates the target's body to low temperatures, reducing damage from ice attacks.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (850)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+        <tier-attribute type="effect">Ice Resistance V</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+128 Ice Resistance</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">850</resource-min>
+          <resource-opt amount="4">1050</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">850</resource-min>
+          <resource-opt amount="7">1050</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Ice Shackles</item-name>
+    <item-icon>icon_formula_s_08_09_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">27.5</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damageType">ice</item-attribute>
+      <item-attribute type="skill">Ice</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>root</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Ice Shackles I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Encases the victim's feet in ice, rendering them still.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="damage">19-23</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Shackles II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Encases the victim's feet in ice, rendering them still.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="damage">43-52</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Shackles III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Encases the victim's feet in ice, rendering them still.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="damage">66-80</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Shackles IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Encases the victim's feet in ice, rendering them still.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="damage">88-107</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Shackles V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Encases the victim's feet in ice, rendering them still.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="damage">109-133</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Ice Ward</item-name>
+    <item-icon>icon_formula_s_08_07_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">30</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>buff</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Ice Ward  I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Increases the chance that incoming ice attacks will fail entirely.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">12</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (80)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
+        <tier-attribute type="effect">Ice Ward I</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+20 Ice Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">80</resource-min>
+          <resource-opt amount="4">180</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Ward II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Increases the chance that incoming ice attacks will fail entirely.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">72</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (280)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
+        <tier-attribute type="effect">Ice Ward II</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+70 Ice Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">280</resource-min>
+          <resource-opt amount="4">405</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">280</resource-min>
+          <resource-opt amount="7">405</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Ward III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Increases the chance that incoming ice attacks will fail entirely.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">144</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (480)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
+        <tier-attribute type="effect">Ice Ward III</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+120 Ice Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">480</resource-min>
+          <resource-opt amount="4">630</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">480</resource-min>
+          <resource-opt amount="7">630</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Ward IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Increases the chance that incoming ice attacks will fail entirely.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">288</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (680)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
+        <tier-attribute type="effect">Ice Ward IV</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+170 Ice Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">680</resource-min>
+          <resource-opt amount="4">855</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">680</resource-min>
+          <resource-opt amount="7">855</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Ice Ward V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Increases the chance that incoming ice attacks will fail entirely.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">576</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (880)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
+        <tier-attribute type="effect">Ice Ward V</tier-attribute>
+        <tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+        <tier-attribute type="effectStatBonus">+220 Ice Ward</tier-attribute>
+        <tier-attribute type="effectDuration">15:00</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="4">880</resource-min>
+          <resource-opt amount="4">1080</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="14">880</resource-min>
+          <resource-opt amount="7">1080</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Improved Ice Bolt</item-name>
+    <item-icon>icon_formula_s_08_10_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">50</item-attribute>
+      <item-attribute type="damageType">ice</item-attribute>
+      <item-attribute type="skill">Ice</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>repeatable</item-keyword>
+      <item-keyword>ranged</item-keyword>
+      <item-keyword>damage</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Improved Ice Bolt I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">15</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (100)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+        <tier-attribute type="damage">17-24</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">100</resource-min>
+          <resource-opt amount="5">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Improved Ice Bolt II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (300)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+        <tier-attribute type="damage">33-50</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">300</resource-min>
+          <resource-opt amount="5">425</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">300</resource-min>
+          <resource-opt amount="9">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Improved Ice Bolt III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (500)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+        <tier-attribute type="damage">48-76</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">500</resource-min>
+          <resource-opt amount="5">650</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">500</resource-min>
+          <resource-opt amount="9">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Improved Ice Bolt IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (700)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+        <tier-attribute type="damage">62-104</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">700</resource-min>
+          <resource-opt amount="5">875</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">700</resource-min>
+          <resource-opt amount="9">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Improved Ice Bolt V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A powerful spell that delivers a concentrated blast of ice at the intended target.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (900)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+        <tier-attribute type="damage">75-133</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="5">900</resource-min>
+          <resource-opt amount="5">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="18">900</resource-min>
+          <resource-opt amount="9">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
+    <item-name>Stinging Cold</item-name>
+    <item-icon>icon_formula_s_08_01_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Spellbook</item-attribute>
+      <item-attribute type="bulk">1</item-attribute>
+      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+      <item-attribute type="range">30</item-attribute>
+      <item-attribute type="castDelay">40</item-attribute>
+      <item-attribute type="recycle">Repeating</item-attribute>
+      <item-attribute type="damageType">ice</item-attribute>
+      <item-attribute type="skill">Ice</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>tier_1</item-keyword>
+      <item-keyword>nonrepeatable</item-keyword>
+      <item-keyword>debuff</item-keyword>
+      <item-keyword>skill_use_magic_ice</item-keyword>
+      <item-keyword>spell</item-keyword>
+      <item-keyword>ranged</item-keyword>
+      <item-keyword>damage</item-keyword>
+      <item-keyword>arcane</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Stinging Cold I</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc>Leaves an enemy's body chilled and stiff, lowering the evasion skill.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">18</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (150)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+        <tier-attribute type="damage">46-51</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Sandstone Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">150</resource-min>
+          <resource-opt amount="6">250</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Stinging Cold II</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc>Leaves an enemy's body chilled and stiff, lowering the evasion skill.</tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">108</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (350)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+        <tier-attribute type="damage">91-101</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Slate Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">350</resource-min>
+          <resource-opt amount="6">475</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Pale Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="22">350</resource-min>
+          <resource-opt amount="11">475</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Stinging Cold III</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc>Leaves an enemy's body chilled and stiff, lowering the evasion skill.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">216</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (550)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+        <tier-attribute type="damage">135-150</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Granite Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">550</resource-min>
+          <resource-opt amount="6">700</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Glowing Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="22">550</resource-min>
+          <resource-opt amount="11">700</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Stinging Cold IV</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc>Leaves an enemy's body chilled and stiff, lowering the evasion skill.</tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">432</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (750)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+        <tier-attribute type="damage">178-198</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Obsidian Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">750</resource-min>
+          <resource-opt amount="6">925</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Bright Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="22">750</resource-min>
+          <resource-opt amount="11">925</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Stinging Cold V</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>Leaves an enemy's body chilled and stiff, lowering the evasion skill.</tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">864</tier-attribute>
+        <tier-attribute type="reqAdvSkill">Ice (950)</tier-attribute>
+        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+        <tier-attribute type="damage">220-245</tier-attribute>
+      </tier-attributes>
+      <resources>
+        <resource>
+          <resource-name>Marble Spell Shard</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="6">950</resource-min>
+          <resource-opt amount="6">1150</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Spellcraft</resource-skill>
+          <resource-min amount="22">950</resource-min>
+          <resource-opt amount="11">1150</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+</formulaset>
