@@ -7,24 +7,21 @@
   <tech>
     <tech-name>Stun</tech-name>
     <tech-icon>icon_technique_02_00_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>spell</tech-keyword>
-          <tech-keyword>primal</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>damage</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>skill_use_magic_energy</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>spell</tech-keyword>
+        <tech-keyword>primal</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>damage</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>skill_use_magic_energy</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
-        <tech-effectkeyword>929</tech-effectkeyword>
+        <tech-effectkeyword>tech_kicker_augment</tech-effectkeyword>
       </tech-effectkeywordset>
     </tech-effectkeywords>
     <tier>
@@ -33,6 +30,11 @@
       <tier-lvl>1</tier-lvl>
       <tier-desc>Applied to an energy damage spell this technique has a 15% chance of stunning an opponent for 3 seconds.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <components>
         <component amount="4">Dim Essence Orb</component>
         <component amount="1">Sand Pygmy Ear</component>
@@ -44,6 +46,11 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc>Applied to an energy damage spell this technique has a 25% chance of stunning an opponent for 3 seconds.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <components>
         <component amount="4">Pale Essence Orb</component>
         <component amount="1">Lesser Zombie Finger</component>
@@ -56,6 +63,11 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc>Applied to an energy damage spell this technique has a 35% chance of stunning an opponent for 3 seconds.</tier-desc>
       <tier-skilladjust>30</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <components>
         <component amount="4">Glowing Essence Orb</component>
         <component amount="1">Winter Mountain Wolf Fang</component>

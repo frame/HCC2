@@ -15,8 +15,6 @@
       <item-attribute type="healAmount">0-0</item-attribute>
       <item-attribute type="skill">0</item-attribute>
     </item-attributes>
-    <item-keywords>
-    </item-keywords>
     <tier>
       <tier-name>Snowball</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -28,6 +26,8 @@
         <tier-attribute type="effectStatBonus">+8 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Salt Rock</resource-name>
@@ -60,6 +60,8 @@
         <tier-attribute type="effectStatBonus">+12 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Salt Rock</resource-name>
@@ -94,7 +96,6 @@
     </item-attributes>
     <item-keywords>
       <item-keyword>gadget</item-keyword>
-      <item-keyword>tier_1</item-keyword>
     </item-keywords>
     <tier>
       <tier-name>Bronze Sunscope</tier-name>
@@ -107,6 +108,9 @@
         <tier-attribute type="effect">Sunbeam I</tier-attribute>
         <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Gear</resource-name>
@@ -139,6 +143,9 @@
         <tier-attribute type="effect">Sunbeam II</tier-attribute>
         <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Gear</resource-name>
@@ -171,6 +178,9 @@
         <tier-attribute type="effect">Sunbeam III</tier-attribute>
         <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Gear</resource-name>
@@ -203,6 +213,9 @@
         <tier-attribute type="effect">Sunbeam IV</tier-attribute>
         <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Gear</resource-name>
@@ -235,6 +248,9 @@
         <tier-attribute type="effect">Sunbeam V</tier-attribute>
         <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Tinkering Gear</resource-name>
@@ -268,7 +284,6 @@
     <item-keywords>
       <item-keyword>banner</item-keyword>
       <item-keyword>gadget</item-keyword>
-      <item-keyword>tier_1</item-keyword>
     </item-keywords>
     <tier>
       <tier-name>Flaxen Banner</tier-name>
@@ -278,6 +293,9 @@
         <tier-attribute type="hoardValue">70</tier-attribute>
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Flaxen Battle Standard</resource-name>
@@ -301,6 +319,9 @@
         <tier-attribute type="hoardValue">188</tier-attribute>
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Kenaf Battle Standard</resource-name>
@@ -324,6 +345,9 @@
         <tier-attribute type="hoardValue">376</tier-attribute>
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cotton Battle Standard</resource-name>
@@ -347,6 +371,9 @@
         <tier-attribute type="hoardValue">752</tier-attribute>
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Silken Battle Standard</resource-name>
@@ -375,8 +402,6 @@
       <item-attribute type="recycle">Repeating</item-attribute>
       <item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
     </item-attributes>
-    <item-keywords>
-    </item-keywords>
     <tier>
       <tier-name>Simple Egg Fabricator</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -386,6 +411,8 @@
         <tier-attribute type="hoardValue">46</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 1 Recharge Cell</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Gear</resource-name>
@@ -422,6 +449,8 @@
         <tier-attribute type="hoardValue">84</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Gear</resource-name>
@@ -458,6 +487,8 @@
         <tier-attribute type="hoardValue">192</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cell</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Gear</resource-name>
@@ -494,8 +525,6 @@
       <item-attribute type="equipSlot">Left Palm</item-attribute>
       <item-attribute type="bulk">1</item-attribute>
     </item-attributes>
-    <item-keywords>
-    </item-keywords>
     <tier>
       <tier-name>Simple Essence Lamp</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -504,6 +533,8 @@
       <tier-attributes>
         <tier-attribute type="hoardValue">42</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Dim Essence Orb</resource-name>
@@ -527,6 +558,8 @@
       <tier-attributes>
         <tier-attribute type="hoardValue">156</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Glowing Essence Orb</resource-name>
@@ -553,8 +586,6 @@
       <item-attribute type="range">Self Only</item-attribute>
       <item-attribute type="delay">50</item-attribute>
     </item-attributes>
-    <item-keywords>
-    </item-keywords>
     <tier>
       <tier-name>Festival Fireworks (small)</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -562,6 +593,8 @@
       <tier-attributes>
         <tier-attribute type="hoardValue">5</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Salt Rock</resource-name>
@@ -590,6 +623,8 @@
       <tier-attributes>
         <tier-attribute type="hoardValue">10</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Salt Rock</resource-name>
@@ -618,6 +653,8 @@
       <tier-attributes>
         <tier-attribute type="hoardValue">15</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Salt Rock</resource-name>
@@ -646,6 +683,9 @@
       <tier-attributes>
         <tier-attribute type="hoardValue">25</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>gadget</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Salt Rock</resource-name>
@@ -680,8 +720,6 @@
       <item-attribute type="recycle">Repeating</item-attribute>
       <item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
     </item-attributes>
-    <item-keywords>
-    </item-keywords>
     <tier>
       <tier-name>Simple Kenaf Fabricator</tier-name>
       <tier-lvl>2</tier-lvl>
@@ -691,6 +729,8 @@
         <tier-attribute type="hoardValue">105</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Gear</resource-name>
@@ -727,6 +767,8 @@
         <tier-attribute type="hoardValue">210</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cell</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Gear</resource-name>
@@ -763,6 +805,8 @@
         <tier-attribute type="hoardValue">420</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 4 Recharge Cell</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Gear</resource-name>
@@ -803,8 +847,6 @@
       <item-attribute type="recycle">Repeating</item-attribute>
       <item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
     </item-attributes>
-    <item-keywords>
-    </item-keywords>
     <tier>
       <tier-name>Simple Milk Fabricator</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -814,6 +856,8 @@
         <tier-attribute type="hoardValue">52</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 1 Recharge Cell</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Gear</resource-name>
@@ -850,6 +894,8 @@
         <tier-attribute type="hoardValue">96</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Gear</resource-name>
@@ -886,6 +932,8 @@
         <tier-attribute type="hoardValue">192</tier-attribute>
         <tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cells</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Gear</resource-name>
@@ -928,8 +976,6 @@
       <item-attribute type="rechargeConsumes">1 Class 4 Recharge Cell</item-attribute>
       <item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
     </item-attributes>
-    <item-keywords>
-    </item-keywords>
     <tier>
       <tier-name>Simple Silk Fabricator</tier-name>
       <tier-lvl>4</tier-lvl>
@@ -937,6 +983,8 @@
       <tier-allowedtechniques>0</tier-allowedtechniques>
       <tier-attributes>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Gear</resource-name>
@@ -977,8 +1025,6 @@
       <item-attribute type="delay">50</item-attribute>
       <item-attribute type="rechargeConsumes">1 Elm Reed</item-attribute>
     </item-attributes>
-    <item-keywords>
-    </item-keywords>
     <tier>
       <tier-name>Silver Whistle</tier-name>
       <tier-lvl>2</tier-lvl>
@@ -986,6 +1032,8 @@
       <tier-allowedtechniques>0</tier-allowedtechniques>
       <tier-attributes>
       </tier-attributes>
+      <tier-keywords>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Pale Essence Orb</resource-name>

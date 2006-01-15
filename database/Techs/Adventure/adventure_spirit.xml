@@ -7,32 +7,29 @@
   <tech>
     <tech-name>Spirit</tech-name>
     <tech-icon>icon_technique_04_00_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>armor</tech-keyword>
-          <tech-keyword>weapon</tech-keyword>
-          <tech-keyword>jewelry</tech-keyword>
-          <tech-keyword>tool</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>bodyslot_chest</tech-keyword>
-          <tech-keyword>bodyslot_back</tech-keyword>
-          <tech-keyword>bodyslot_head</tech-keyword>
-          <tech-keyword>bodyslot_legs</tech-keyword>
-          <tech-keyword>bodyslot_shoulder</tech-keyword>
-          <tech-keyword>bodyslot_arms</tech-keyword>
-          <tech-keyword>bodyslot_hands</tech-keyword>
-          <tech-keyword>bodyslot_rightpalm</tech-keyword>
-          <tech-keyword>bodyslot_leftpalm</tech-keyword>
-          <tech-keyword>bodyslot_finger</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>armor</tech-keyword>
+        <tech-keyword>weapon</tech-keyword>
+        <tech-keyword>jewelry</tech-keyword>
+        <tech-keyword>tool</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>bodyslot_chest</tech-keyword>
+        <tech-keyword>bodyslot_back</tech-keyword>
+        <tech-keyword>bodyslot_head</tech-keyword>
+        <tech-keyword>bodyslot_legs</tech-keyword>
+        <tech-keyword>bodyslot_shoulder</tech-keyword>
+        <tech-keyword>bodyslot_arms</tech-keyword>
+        <tech-keyword>bodyslot_hands</tech-keyword>
+        <tech-keyword>bodyslot_rightpalm</tech-keyword>
+        <tech-keyword>bodyslot_leftpalm</tech-keyword>
+        <tech-keyword>bodyslot_finger</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
-        <tech-effectkeyword>183</tech-effectkeyword>
+        <tech-effectkeyword>statmod_spiritmagic_up</tech-effectkeyword>
       </tech-effectkeywordset>
     </tech-effectkeywords>
     <tier>
@@ -41,6 +38,11 @@
       <tier-lvl>1</tier-lvl>
       <tier-desc>This technique gives the user an additional +5 to the Spirit magic skill.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+5 Spirit</tier-attribute>
       </tier-attributes>
@@ -55,6 +57,11 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc>This technique gives the user an additional +10 to the Spirit magic skill.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+10 Spirit</tier-attribute>
       </tier-attributes>
@@ -70,6 +77,11 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc>This technique gives the user an additional +15 to the Spirit magic skill.</tier-desc>
       <tier-skilladjust>30</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+15 Spirit</tier-attribute>
       </tier-attributes>
@@ -85,6 +97,11 @@
       <tier-lvl>4</tier-lvl>
       <tier-desc>This technique gives the user an additional +20 to the Spirit magic skill.</tier-desc>
       <tier-skilladjust>40</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_4</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+20 Spirit</tier-attribute>
       </tier-attributes>
@@ -100,6 +117,11 @@
       <tier-lvl>5</tier-lvl>
       <tier-desc>This technique gives the user an additional +25 to the Spirit magic skill.</tier-desc>
       <tier-skilladjust>50</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_5</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+25 Spirit</tier-attribute>
       </tier-attributes>

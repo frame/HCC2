@@ -7,21 +7,18 @@
   <tech>
     <tech-name>Block</tech-name>
     <tech-icon>icon_technique_04_03_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>armor</tech-keyword>
-          <tech-keyword>shield</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>bodyslot_leftpalm</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>armor</tech-keyword>
+        <tech-keyword>shield</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>bodyslot_leftpalm</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
-        <tech-effectkeyword>159</tech-effectkeyword>
+        <tech-effectkeyword>statmod_blockbonus_up</tech-effectkeyword>
       </tech-effectkeywordset>
     </tech-effectkeywords>
     <tier>
@@ -30,6 +27,11 @@
       <tier-lvl>1</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +5 to the Block statistic.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+5 Block Bonus</tier-attribute>
       </tier-attributes>
@@ -44,6 +46,11 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +7 to the Block adventure statistic.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+7 Block Bonus</tier-attribute>
       </tier-attributes>
@@ -59,6 +66,11 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +10 to the Block statistic.</tier-desc>
       <tier-skilladjust>30</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+10 Block Bonus</tier-attribute>
       </tier-attributes>
@@ -74,6 +86,11 @@
       <tier-lvl>4</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +13 to the Block statistic.</tier-desc>
       <tier-skilladjust>40</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_4</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+13 Block Bonus</tier-attribute>
       </tier-attributes>
@@ -89,6 +106,11 @@
       <tier-lvl>5</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +16 to the Block statistic.</tier-desc>
       <tier-skilladjust>50</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_5</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+16 Block Bonus</tier-attribute>
       </tier-attributes>

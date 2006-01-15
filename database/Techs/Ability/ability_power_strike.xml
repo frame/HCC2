@@ -7,25 +7,22 @@
   <tech>
     <tech-name>Power Strike</tech-name>
     <tech-icon>icon_technique_04_00_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>weapon</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>skill_use_onehandpierce</tech-keyword>
-          <tech-keyword>skill_use_onehandcrush</tech-keyword>
-          <tech-keyword>skill_use_onehandslash</tech-keyword>
-          <tech-keyword>skill_use_twohandcrush</tech-keyword>
-          <tech-keyword>skill_use_twohandslash</tech-keyword>
-          <tech-keyword>unarmed</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>weapon</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>skill_use_onehandpierce</tech-keyword>
+        <tech-keyword>skill_use_onehandcrush</tech-keyword>
+        <tech-keyword>skill_use_onehandslash</tech-keyword>
+        <tech-keyword>skill_use_twohandcrush</tech-keyword>
+        <tech-keyword>skill_use_twohandslash</tech-keyword>
+        <tech-keyword>unarmed</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
-        <tech-effectkeyword>1258</tech-effectkeyword>
+        <tech-effectkeyword>abilitymod_powerstrike_up</tech-effectkeyword>
       </tech-effectkeywordset>
     </tech-effectkeywords>
     <tier>
@@ -34,6 +31,11 @@
       <tier-lvl>1</tier-lvl>
       <tier-desc>This technique will allow the user to create weapons that enhance the Power Strike ability while the weapon is equipped.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <components>
         <component amount="4">Dim Essence Orb</component>
         <component amount="1">Cedar Treant Knot</component>
@@ -45,6 +47,11 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc>This technique will allow the user to create weapons that enhance the Power Strike ability while the weapon is equipped.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <components>
         <component amount="4">Pale Essence Orb</component>
         <component amount="1">Lesser Zombie Finger</component>
@@ -57,6 +64,11 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc>This technique will allow the user to create weapons that enhance the Power Strike ability while the weapon is equipped.</tier-desc>
       <tier-skilladjust>30</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <components>
         <component amount="4">Glowing Essence Orb</component>
         <component amount="1">Snow Beetle Carapace</component>
@@ -69,6 +81,11 @@
       <tier-lvl>4</tier-lvl>
       <tier-desc>This technique will allow the user to create weapons that enhance the Power Strike ability while the weapon is equipped.</tier-desc>
       <tier-skilladjust>40</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_4</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <components>
         <component amount="4">Bright Essence Orb</component>
         <component amount="2">Jade Golem Chip</component>
@@ -81,6 +98,11 @@
       <tier-lvl>5</tier-lvl>
       <tier-desc>This technique will allow the user to create weapons that enhance the Power Strike ability while the weapon is equipped.</tier-desc>
       <tier-skilladjust>50</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_5</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <components>
         <component amount="4">Shining Essence Orb</component>
         <component amount="2">Kwellen Energy Node</component>

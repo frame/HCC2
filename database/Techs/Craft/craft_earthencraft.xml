@@ -7,30 +7,27 @@
   <tech>
     <tech-name>Earthencraft</tech-name>
     <tech-icon>icon_technique_03_00_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>armor</tech-keyword>
-          <tech-keyword>jewelry</tech-keyword>
-          <tech-keyword>tool</tech-keyword>
-          <tech-keyword>container</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>bodyslot_neck</tech-keyword>
-          <tech-keyword>bodyslot_waist</tech-keyword>
-          <tech-keyword>bodyslot_legs</tech-keyword>
-          <tech-keyword>bodyslot_shoulder</tech-keyword>
-          <tech-keyword>bodyslot_arms</tech-keyword>
-          <tech-keyword>bodyslot_hands</tech-keyword>
-          <tech-keyword>bodyslot_rightpalm</tech-keyword>
-          <tech-keyword>bodyslot_finger</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>armor</tech-keyword>
+        <tech-keyword>jewelry</tech-keyword>
+        <tech-keyword>tool</tech-keyword>
+        <tech-keyword>container</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>bodyslot_neck</tech-keyword>
+        <tech-keyword>bodyslot_waist</tech-keyword>
+        <tech-keyword>bodyslot_legs</tech-keyword>
+        <tech-keyword>bodyslot_shoulder</tech-keyword>
+        <tech-keyword>bodyslot_arms</tech-keyword>
+        <tech-keyword>bodyslot_hands</tech-keyword>
+        <tech-keyword>bodyslot_rightpalm</tech-keyword>
+        <tech-keyword>bodyslot_finger</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
-        <tech-effectkeyword>435</tech-effectkeyword>
+        <tech-effectkeyword>statmod_earthencraft_up</tech-effectkeyword>
       </tech-effectkeywordset>
     </tech-effectkeywords>
     <tier>
@@ -39,6 +36,11 @@
       <tier-lvl>1</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 in the Earthencraft trade skill.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+4 Earthencraft</tier-attribute>
       </tier-attributes>
@@ -53,6 +55,11 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 in the Earthencraft trade skill.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+8 Earthencraft</tier-attribute>
       </tier-attributes>
@@ -68,6 +75,11 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 in the Earthencraft trade skill.</tier-desc>
       <tier-skilladjust>30</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+12 Earthencraft</tier-attribute>
       </tier-attributes>
@@ -83,6 +95,11 @@
       <tier-lvl>4</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 in the Earthencraft trade skill.</tier-desc>
       <tier-skilladjust>40</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_4</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+16 Earthencraft</tier-attribute>
       </tier-attributes>
@@ -98,6 +115,11 @@
       <tier-lvl>5</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 in the Earthencraft trade skill.</tier-desc>
       <tier-skilladjust>50</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_5</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+20 Earthencraft</tier-attribute>
       </tier-attributes>

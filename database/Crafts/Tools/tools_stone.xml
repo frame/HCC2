@@ -18,7 +18,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_use_tanning</item-keyword>
       <item-keyword>skill_make_sculpting</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_brewing</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -35,6 +34,9 @@
         <tier-attribute type="statCap">Limits Brewing to 250</tier-attribute>
         <tier-attribute type="statCap">Limits Tanning to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Brick</resource-name>
@@ -55,6 +57,10 @@
         <tier-attribute type="statCap">Limits Brewing to 450</tier-attribute>
         <tier-attribute type="statCap">Limits Tanning to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Brick</resource-name>
@@ -75,6 +81,11 @@
         <tier-attribute type="statCap">Limits Brewing to 650</tier-attribute>
         <tier-attribute type="statCap">Limits Tanning to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Brick</resource-name>
@@ -95,6 +106,12 @@
         <tier-attribute type="statCap">Limits Brewing to 850</tier-attribute>
         <tier-attribute type="statCap">Limits Tanning to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Brick</resource-name>
@@ -113,6 +130,13 @@
         <tier-attribute type="hoardValue">480</tier-attribute>
         <tier-attribute type="reqCraftSkill">Brewing[800] or Tanning[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Brick</resource-name>
@@ -136,7 +160,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_sculpting</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_quarrying</item-keyword>
       <item-keyword>skill_use_earthencraft</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
@@ -153,6 +176,9 @@
         <tier-attribute type="reqCraftSkill">Earthencraft[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Earthencraft to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Brick</resource-name>
@@ -172,6 +198,10 @@
         <tier-attribute type="reqCraftSkill">Earthencraft[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Earthencraft to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Brick</resource-name>
@@ -191,6 +221,11 @@
         <tier-attribute type="reqCraftSkill">Earthencraft[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Earthencraft to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Brick</resource-name>
@@ -210,6 +245,12 @@
         <tier-attribute type="reqCraftSkill">Earthencraft[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Earthencraft to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Brick</resource-name>
@@ -228,6 +269,13 @@
         <tier-attribute type="hoardValue">384</tier-attribute>
         <tier-attribute type="reqCraftSkill">Earthencraft[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Brick</resource-name>
@@ -251,7 +299,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_sculpting</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_essenceshaping</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -267,6 +314,9 @@
         <tier-attribute type="reqCraftSkill">Essence Shaping[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Shaping to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Brick</resource-name>
@@ -286,6 +336,10 @@
         <tier-attribute type="reqCraftSkill">Essence Shaping[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Shaping to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Brick</resource-name>
@@ -305,6 +359,11 @@
         <tier-attribute type="reqCraftSkill">Essence Shaping[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Shaping to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Brick</resource-name>
@@ -324,6 +383,12 @@
         <tier-attribute type="reqCraftSkill">Essence Shaping[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Shaping to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Brick</resource-name>
@@ -342,6 +407,13 @@
         <tier-attribute type="hoardValue">288</tier-attribute>
         <tier-attribute type="reqCraftSkill">Essence Shaping[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Brick</resource-name>
@@ -365,7 +437,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_sculpting</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_essenceharvesting</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -381,6 +452,9 @@
         <tier-attribute type="reqCraftSkill">Essence Harvesting[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Harvesting to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Brick</resource-name>
@@ -400,6 +474,10 @@
         <tier-attribute type="reqCraftSkill">Essence Harvesting[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Harvesting to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Brick</resource-name>
@@ -419,6 +497,11 @@
         <tier-attribute type="reqCraftSkill">Essence Harvesting[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Harvesting to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Brick</resource-name>
@@ -438,6 +521,12 @@
         <tier-attribute type="reqCraftSkill">Essence Harvesting[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Harvesting to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Brick</resource-name>
@@ -456,6 +545,13 @@
         <tier-attribute type="hoardValue">288</tier-attribute>
         <tier-attribute type="reqCraftSkill">Essence Harvesting[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Brick</resource-name>
@@ -480,7 +576,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_sculpting</item-keyword>
       <item-keyword>skill_use_essencestructuring</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_stone</item-keyword>
@@ -495,6 +590,9 @@
         <tier-attribute type="reqCraftSkill">Essence Structuring[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Structuring to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Brick</resource-name>
@@ -514,6 +612,10 @@
         <tier-attribute type="reqCraftSkill">Essence Structuring[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Structuring to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Brick</resource-name>
@@ -533,6 +635,11 @@
         <tier-attribute type="reqCraftSkill">Essence Structuring[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Structuring to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Brick</resource-name>
@@ -552,6 +659,12 @@
         <tier-attribute type="reqCraftSkill">Essence Structuring[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Essence Structuring to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Brick</resource-name>
@@ -570,6 +683,13 @@
         <tier-attribute type="hoardValue">576</tier-attribute>
         <tier-attribute type="reqCraftSkill">Essence Structuring[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Brick</resource-name>
@@ -593,7 +713,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_sculpting</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_earthencraft</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -609,6 +728,9 @@
         <tier-attribute type="reqCraftSkill">Earthencraft[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Earthencraft to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Brick</resource-name>
@@ -628,6 +750,10 @@
         <tier-attribute type="reqCraftSkill">Earthencraft[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Earthencraft to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Brick</resource-name>
@@ -647,6 +773,11 @@
         <tier-attribute type="reqCraftSkill">Earthencraft[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Earthencraft to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Brick</resource-name>
@@ -666,6 +797,12 @@
         <tier-attribute type="reqCraftSkill">Earthencraft[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Earthencraft to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Brick</resource-name>
@@ -684,6 +821,13 @@
         <tier-attribute type="hoardValue">480</tier-attribute>
         <tier-attribute type="reqCraftSkill">Earthencraft[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Brick</resource-name>
@@ -708,7 +852,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_sculpting</item-keyword>
       <item-keyword>skill_use_alchemy</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_stone</item-keyword>
@@ -723,6 +866,9 @@
         <tier-attribute type="reqCraftSkill">Alchemy[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Alchemy to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Brick</resource-name>
@@ -742,6 +888,10 @@
         <tier-attribute type="reqCraftSkill">Alchemy[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Alchemy to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Brick</resource-name>
@@ -761,6 +911,11 @@
         <tier-attribute type="reqCraftSkill">Alchemy[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Alchemy to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Brick</resource-name>
@@ -780,6 +935,12 @@
         <tier-attribute type="reqCraftSkill">Alchemy[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Alchemy to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Brick</resource-name>
@@ -798,6 +959,13 @@
         <tier-attribute type="hoardValue">480</tier-attribute>
         <tier-attribute type="reqCraftSkill">Alchemy[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Brick</resource-name>

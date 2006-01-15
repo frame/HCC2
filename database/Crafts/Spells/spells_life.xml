@@ -19,7 +19,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>mystic</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>buff</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
@@ -40,6 +39,9 @@
         <tier-attribute type="effectStatBonus">+20 Health</tier-attribute>
         <tier-attribute type="effectDuration">30:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -63,6 +65,10 @@
         <tier-attribute type="effectStatBonus">+80 Health</tier-attribute>
         <tier-attribute type="effectDuration">30:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -92,6 +98,11 @@
         <tier-attribute type="effectStatBonus">+140 Health</tier-attribute>
         <tier-attribute type="effectDuration">30:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -121,6 +132,12 @@
         <tier-attribute type="effectStatBonus">+200 Health</tier-attribute>
         <tier-attribute type="effectDuration">30:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -150,6 +167,13 @@
         <tier-attribute type="effectStatBonus">+260 Health</tier-attribute>
         <tier-attribute type="effectDuration">30:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -179,9 +203,7 @@
       <item-attribute type="recycle">Repeating</item-attribute>
     </item-attributes>
     <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
       <item-keyword>gift_slot</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -201,6 +223,10 @@
         <tier-attribute type="effectStatBonus">+8 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_1</tier-keyword>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -224,6 +250,11 @@
         <tier-attribute type="effectStatBonus">+59 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>techclass_1</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -253,6 +284,12 @@
         <tier-attribute type="effectStatBonus">+110 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>techclass_1</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -282,6 +319,13 @@
         <tier-attribute type="effectStatBonus">+161 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>techclass_1</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -311,6 +355,9 @@
         <tier-attribute type="effectStatBonus">+212 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -341,7 +388,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>gift_slot</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -363,6 +409,9 @@
         <tier-attribute type="effectStatBonus">+4 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -388,6 +437,10 @@
         <tier-attribute type="effectStatBonus">+30 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -419,6 +472,11 @@
         <tier-attribute type="effectStatBonus">+55 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -450,6 +508,12 @@
         <tier-attribute type="effectStatBonus">+81 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -481,6 +545,13 @@
         <tier-attribute type="effectStatBonus">+106 Health</tier-attribute>
         <tier-attribute type="effectDuration">02:00:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -515,7 +586,6 @@
       <item-keyword>spell_health_line</item-keyword>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>mystic</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -534,6 +604,9 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
         <tier-attribute type="healAmount">15-19</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -554,6 +627,10 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
         <tier-attribute type="healAmount">55-59</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -580,6 +657,11 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
         <tier-attribute type="healAmount">95-99</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -606,6 +688,12 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
         <tier-attribute type="healAmount">135-139</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -632,6 +720,13 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
         <tier-attribute type="healAmount">175-179</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -665,7 +760,6 @@
       <item-keyword>spell_health_line</item-keyword>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>mystic</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -683,6 +777,9 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (12)</tier-attribute>
         <tier-attribute type="healAmount">25-29</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -703,6 +800,10 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (32)</tier-attribute>
         <tier-attribute type="healAmount">65-69</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -729,6 +830,11 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (52)</tier-attribute>
         <tier-attribute type="healAmount">105-109</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -755,6 +861,12 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (72)</tier-attribute>
         <tier-attribute type="healAmount">145-149</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -781,6 +893,13 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (92)</tier-attribute>
         <tier-attribute type="healAmount">185-189</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -812,7 +931,6 @@
     </item-attributes>
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>skill_use_magic_nature</item-keyword>
@@ -831,6 +949,9 @@
         <tier-attribute type="reqAdvSkill">Nature (130) or Life (100)</tier-attribute>
         <tier-attribute type="healAmount">44-48</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -851,6 +972,10 @@
         <tier-attribute type="reqAdvSkill">Nature (330) or Life (300)</tier-attribute>
         <tier-attribute type="healAmount">124-128</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -877,6 +1002,11 @@
         <tier-attribute type="reqAdvSkill">Nature (530) or Life (500)</tier-attribute>
         <tier-attribute type="healAmount">204-208</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -903,6 +1033,12 @@
         <tier-attribute type="reqAdvSkill">Nature (730) or Life (700)</tier-attribute>
         <tier-attribute type="healAmount">284-288</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -929,6 +1065,13 @@
         <tier-attribute type="reqAdvSkill">Nature (930) or Life (900)</tier-attribute>
         <tier-attribute type="healAmount">364-368</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -962,7 +1105,6 @@
       <item-keyword>spell_health_line</item-keyword>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>mystic</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -980,6 +1122,9 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (17)</tier-attribute>
         <tier-attribute type="healAmount">35-39</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -1000,6 +1145,10 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (37)</tier-attribute>
         <tier-attribute type="healAmount">75-79</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -1026,6 +1175,11 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (57)</tier-attribute>
         <tier-attribute type="healAmount">115-119</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -1052,6 +1206,12 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (77)</tier-attribute>
         <tier-attribute type="healAmount">155-159</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -1078,6 +1238,13 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (97)</tier-attribute>
         <tier-attribute type="healAmount">195-199</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -1111,7 +1278,6 @@
       <item-keyword>spell_health_line</item-keyword>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>mystic</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -1129,6 +1295,9 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
         <tier-attribute type="healAmount">5-9</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -1149,6 +1318,10 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
         <tier-attribute type="healAmount">45-49</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -1175,6 +1348,11 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
         <tier-attribute type="healAmount">85-89</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -1201,6 +1379,12 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
         <tier-attribute type="healAmount">125-129</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -1227,6 +1411,13 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
         <tier-attribute type="healAmount">165-169</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -1260,7 +1451,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>mystic</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -1278,6 +1468,9 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (3)</tier-attribute>
         <tier-attribute type="damage">12-14</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -1298,6 +1491,10 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (23)</tier-attribute>
         <tier-attribute type="damage">47-52</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -1324,6 +1521,11 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (43)</tier-attribute>
         <tier-attribute type="damage">82-91</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -1350,6 +1552,12 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (63)</tier-attribute>
         <tier-attribute type="damage">117-130</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -1376,6 +1584,13 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (83)</tier-attribute>
         <tier-attribute type="damage">151-169</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -1409,7 +1624,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>dispell_negative</item-keyword>
       <item-keyword>mystic</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -1427,6 +1641,9 @@
         <tier-attribute type="castDelay">30</tier-attribute>
         <tier-attribute type="dispelQuality">100</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -1448,6 +1665,10 @@
         <tier-attribute type="castDelay">30</tier-attribute>
         <tier-attribute type="dispelQuality">300</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -1475,6 +1696,11 @@
         <tier-attribute type="castDelay">30</tier-attribute>
         <tier-attribute type="dispelQuality">500</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -1502,6 +1728,12 @@
         <tier-attribute type="castDelay">50</tier-attribute>
         <tier-attribute type="dispelQuality">700</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -1529,6 +1761,13 @@
         <tier-attribute type="castDelay">30</tier-attribute>
         <tier-attribute type="dispelQuality">900</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -1559,7 +1798,6 @@
     </item-attributes>
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>buff</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
@@ -1581,6 +1819,9 @@
         <tier-attribute type="effectStatBonus">+13 Health</tier-attribute>
         <tier-attribute type="effectDuration">15:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -1604,6 +1845,10 @@
         <tier-attribute type="effectStatBonus">+53 Health</tier-attribute>
         <tier-attribute type="effectDuration">15:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -1633,6 +1878,11 @@
         <tier-attribute type="effectStatBonus">+93 Health</tier-attribute>
         <tier-attribute type="effectDuration">15:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -1662,6 +1912,12 @@
         <tier-attribute type="effectStatBonus">+133 Health</tier-attribute>
         <tier-attribute type="effectDuration">15:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -1691,6 +1947,13 @@
         <tier-attribute type="effectStatBonus">+173 Health</tier-attribute>
         <tier-attribute type="effectDuration">15:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -1723,7 +1986,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>mystic</item-keyword>
       <item-keyword>resurrect</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>spell</item-keyword>
@@ -1740,6 +2002,9 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
         <tier-attribute type="descriptionResurrect">Restores dead character to 20% of maximum health</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -1760,6 +2025,10 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
         <tier-attribute type="descriptionResurrect">Restores dead character to 40% of maximum health</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -1786,6 +2055,11 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
         <tier-attribute type="descriptionResurrect">Restores dead character to 50% of maximum health</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -1812,6 +2086,12 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
         <tier-attribute type="descriptionResurrect">Restores dead character to 70% of maximum health</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -1838,6 +2118,13 @@
         <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
         <tier-attribute type="descriptionResurrect">Restores dead character to 90% of maximum health</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -1869,7 +2156,6 @@
     </item-attributes>
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
       <item-keyword>skill_use_magic_nature</item-keyword>
@@ -1888,6 +2174,9 @@
         <tier-attribute type="reqAdvSkill">Nature (30) or Life (10)</tier-attribute>
         <tier-attribute type="healAmount">11-15</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -1908,6 +2197,10 @@
         <tier-attribute type="reqAdvSkill">Nature (230) or Life (200)</tier-attribute>
         <tier-attribute type="healAmount">84-88</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -1934,6 +2227,11 @@
         <tier-attribute type="reqAdvSkill">Nature (430) or Life (400)</tier-attribute>
         <tier-attribute type="healAmount">164-168</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -1960,6 +2258,12 @@
         <tier-attribute type="reqAdvSkill">Nature (630) or Life (600)</tier-attribute>
         <tier-attribute type="healAmount">244-248</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -1986,6 +2290,13 @@
         <tier-attribute type="reqAdvSkill">Nature (830) or Life (800)</tier-attribute>
         <tier-attribute type="healAmount">324-328</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>
@@ -2017,7 +2328,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>mystic</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>nonrepeatable</item-keyword>
       <item-keyword>buff</item-keyword>
       <item-keyword>skill_use_magic_life</item-keyword>
@@ -2038,6 +2348,9 @@
         <tier-attribute type="effectStatBonus">+35 Health</tier-attribute>
         <tier-attribute type="effectDuration">03:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Sandstone Spell Shard</resource-name>
@@ -2061,6 +2374,10 @@
         <tier-attribute type="effectStatBonus">+95 Health</tier-attribute>
         <tier-attribute type="effectDuration">03:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Slate Spell Shard</resource-name>
@@ -2090,6 +2407,11 @@
         <tier-attribute type="effectStatBonus">+155 Health</tier-attribute>
         <tier-attribute type="effectDuration">03:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Granite Spell Shard</resource-name>
@@ -2119,6 +2441,12 @@
         <tier-attribute type="effectStatBonus">+215 Health</tier-attribute>
         <tier-attribute type="effectDuration">03:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Obsidian Spell Shard</resource-name>
@@ -2148,6 +2476,13 @@
         <tier-attribute type="effectStatBonus">+275 Health</tier-attribute>
         <tier-attribute type="effectDuration">03:00</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Marble Spell Shard</resource-name>

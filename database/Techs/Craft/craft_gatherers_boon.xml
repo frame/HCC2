@@ -2,35 +2,27 @@
 <techniqueset format="2.1">
   <techniqueset-name>Gatherer's Boon</techniqueset-name>
   <techniqueset-categories>
-    <techniqueset-category>Craft</techniqueset-category>
+    <techniqueset-category>Craft - Boons</techniqueset-category>
   </techniqueset-categories>
   <tech>
     <tech-name>Gatherer's Boon</tech-name>
     <tech-icon>icon_technique_03_41_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>armor</tech-keyword>
-          <tech-keyword>jewelry</tech-keyword>
-          <tech-keyword>container</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>bodyslot_chest</tech-keyword>
-          <tech-keyword>bodyslot_back</tech-keyword>
-          <tech-keyword>bodyslot_neck</tech-keyword>
-          <tech-keyword>bodyslot_head</tech-keyword>
-          <tech-keyword>bodyslot_ear</tech-keyword>
-          <tech-keyword>bodyslot_wrist</tech-keyword>
-          <tech-keyword>bodyslot_hands</tech-keyword>
-          <tech-keyword>bodyslot_leftpalm</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>bodyslot_chest</tech-keyword>
+        <tech-keyword>bodyslot_back</tech-keyword>
+        <tech-keyword>bodyslot_neck</tech-keyword>
+        <tech-keyword>bodyslot_head</tech-keyword>
+        <tech-keyword>bodyslot_ear</tech-keyword>
+        <tech-keyword>bodyslot_wrist</tech-keyword>
+        <tech-keyword>bodyslot_hands</tech-keyword>
+        <tech-keyword>bodyslot_leftpalm</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
-        <tech-effectkeyword>205</tech-effectkeyword>
-        <tech-effectkeyword>592</tech-effectkeyword>
+        <tech-effectkeyword>statmod_foraging_up</tech-effectkeyword>
+        <tech-effectkeyword>statmod_logging_up</tech-effectkeyword>
         <tech-effectkeyword>616</tech-effectkeyword>
       </tech-effectkeywordset>
     </tech-effectkeywords>
@@ -40,6 +32,16 @@
       <tier-lvl name="Boon (I)">1</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with +2 in the Logging, Foraging, and Dowsing craft skills.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>armor</tier-keyword>
+          <tier-keyword>jewelry</tier-keyword>
+          <tier-keyword>container</tier-keyword>
+        </tier-keywordset>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+2 Logging</tier-attribute>
         <tier-attribute type="statBonus">+2 Foraging</tier-attribute>
@@ -56,6 +58,17 @@
       <tier-lvl name="Blessing (III)">3</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with +6 in the Logging, Foraging, and Dowsing craft skills.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>armor</tier-keyword>
+          <tier-keyword>jewelry</tier-keyword>
+          <tier-keyword>tool</tier-keyword>
+          <tier-keyword>container</tier-keyword>
+        </tier-keywordset>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+6 Logging</tier-attribute>
         <tier-attribute type="statBonus">+6 Foraging</tier-attribute>

@@ -13,9 +13,6 @@
       <item-attribute type="preventTeleport">Prevents teleportation</item-attribute>
       <item-attribute type="preventRecall">Prevents recall</item-attribute>
     </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_1</item-keyword>
-    </item-keywords>
     <tier>
       <tier-name>Deluxe Sandstone Cargo Disk</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -27,6 +24,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (15)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 10</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Strut</resource-name>
@@ -77,6 +77,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (35)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 14</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Strut</resource-name>
@@ -127,6 +130,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (55)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 18</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Strut</resource-name>
@@ -177,6 +183,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (75)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 22</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Strut</resource-name>
@@ -227,6 +236,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (95)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 26</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Tinkering Strut</resource-name>
@@ -292,31 +304,31 @@
       <resources>
         <resource>
           <resource-name>Sandstone Brick</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">150</resource-min>
           <resource-opt amount="8">250</resource-opt>
         </resource>
         <resource>
           <resource-name>Turquoise</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">150</resource-min>
           <resource-opt amount="4">250</resource-opt>
         </resource>
         <resource>
           <resource-name>Malachite</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">150</resource-min>
           <resource-opt amount="4">250</resource-opt>
         </resource>
         <resource>
           <resource-name>Garnet</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">150</resource-min>
           <resource-opt amount="4">250</resource-opt>
         </resource>
         <resource>
           <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">150</resource-min>
           <resource-opt amount="8">250</resource-opt>
         </resource>
@@ -335,31 +347,31 @@
       <resources>
         <resource>
           <resource-name>Slate Brick</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">350</resource-min>
           <resource-opt amount="8">475</resource-opt>
         </resource>
         <resource>
           <resource-name>Rose Quartz</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">350</resource-min>
           <resource-opt amount="4">475</resource-opt>
         </resource>
         <resource>
           <resource-name>Lapis Lazuli</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">350</resource-min>
           <resource-opt amount="4">475</resource-opt>
         </resource>
         <resource>
           <resource-name>Amethyst</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">350</resource-min>
           <resource-opt amount="4">475</resource-opt>
         </resource>
         <resource>
           <resource-name>Silver Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">350</resource-min>
           <resource-opt amount="8">475</resource-opt>
         </resource>
@@ -378,31 +390,31 @@
       <resources>
         <resource>
           <resource-name>Granite Brick</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">550</resource-min>
           <resource-opt amount="8">700</resource-opt>
         </resource>
         <resource>
           <resource-name>Jasper</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">550</resource-min>
           <resource-opt amount="4">700</resource-opt>
         </resource>
         <resource>
           <resource-name>Citrine</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">550</resource-min>
           <resource-opt amount="4">700</resource-opt>
         </resource>
         <resource>
           <resource-name>Aquamarine</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">550</resource-min>
           <resource-opt amount="4">700</resource-opt>
         </resource>
         <resource>
           <resource-name>Gold Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">550</resource-min>
           <resource-opt amount="8">700</resource-opt>
         </resource>
@@ -421,31 +433,31 @@
       <resources>
         <resource>
           <resource-name>Obsidian Brick</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">750</resource-min>
           <resource-opt amount="8">925</resource-opt>
         </resource>
         <resource>
           <resource-name>Topaz</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">750</resource-min>
           <resource-opt amount="4">925</resource-opt>
         </resource>
         <resource>
           <resource-name>Opal</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">750</resource-min>
           <resource-opt amount="4">925</resource-opt>
         </resource>
         <resource>
           <resource-name>Jade</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">750</resource-min>
           <resource-opt amount="4">925</resource-opt>
         </resource>
         <resource>
           <resource-name>Platinum Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">750</resource-min>
           <resource-opt amount="8">925</resource-opt>
         </resource>
@@ -464,31 +476,31 @@
       <resources>
         <resource>
           <resource-name>Marble Brick</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">950</resource-min>
           <resource-opt amount="8">1125</resource-opt>
         </resource>
         <resource>
           <resource-name>Peridot</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">950</resource-min>
           <resource-opt amount="4">1125</resource-opt>
         </resource>
         <resource>
           <resource-name>Fire Opal</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">950</resource-min>
           <resource-opt amount="4">1125</resource-opt>
         </resource>
         <resource>
           <resource-name>Emerald</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="8">950</resource-min>
           <resource-opt amount="4">1125</resource-opt>
         </resource>
         <resource>
           <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="16">950</resource-min>
           <resource-opt amount="8">1125</resource-opt>
         </resource>
@@ -504,7 +516,6 @@
     </item-attributes>
     <item-keywords>
       <item-keyword>backpack</item-keyword>
-      <item-keyword>tier_1</item-keyword>
     </item-keywords>
     <tier>
       <tier-name>Flaxen Backpack Pouch</tier-name>
@@ -515,6 +526,9 @@
         <tier-attribute type="bulkCapacity">400</tier-attribute>
         <tier-attribute type="hoardValue">14</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Flax Spool</resource-name>
@@ -533,6 +547,9 @@
         <tier-attribute type="bulkCapacity">800</tier-attribute>
         <tier-attribute type="hoardValue">35</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Kenaf Spool</resource-name>
@@ -551,6 +568,9 @@
         <tier-attribute type="bulkCapacity">1200</tier-attribute>
         <tier-attribute type="hoardValue">63</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cotton Spool</resource-name>
@@ -569,6 +589,9 @@
         <tier-attribute type="bulkCapacity">1600</tier-attribute>
         <tier-attribute type="hoardValue">126</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Silk Spool</resource-name>
@@ -587,6 +610,9 @@
         <tier-attribute type="bulkCapacity">2000</tier-attribute>
         <tier-attribute type="hoardValue">252</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Ironsilk Spool</resource-name>
@@ -609,7 +635,6 @@
       <item-keyword>container_sack</item-keyword>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>container</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_leftpalm</item-keyword>
     </item-keywords>
     <tier>
@@ -623,6 +648,9 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (5)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +150</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cedar Hide Tannin</resource-name>
@@ -649,6 +677,10 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (25)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Elm Hide Tannin</resource-name>
@@ -675,6 +707,11 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (45)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +350</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Oak Hide Tannin</resource-name>
@@ -701,6 +738,12 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (65)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Maple Hide Tannin</resource-name>
@@ -727,6 +770,13 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (85)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +550</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Yew Hide Tannin</resource-name>
@@ -755,7 +805,6 @@
       <item-keyword>container_satchel</item-keyword>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>container</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_leftpalm</item-keyword>
     </item-keywords>
     <tier>
@@ -769,6 +818,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (10)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +200</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cedar Sap</resource-name>
@@ -801,6 +853,10 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (30)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +300</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Elm Sap</resource-name>
@@ -833,6 +889,11 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (50)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +400</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Oak Sap</resource-name>
@@ -865,6 +926,12 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (70)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +500</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Maple Hide Tannin</resource-name>
@@ -891,6 +958,13 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (90)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +600</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Yew Sap</resource-name>
@@ -923,7 +997,6 @@
     </item-attributes>
     <item-keywords>
       <item-keyword>backpack</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_backpack</item-keyword>
     </item-keywords>
     <tier>
@@ -937,6 +1010,9 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (1)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +1400</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cedar Leather Tannin</resource-name>
@@ -963,6 +1039,9 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (20)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +1800</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Elm Leather Tannin</resource-name>
@@ -989,6 +1068,9 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (40)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +2200</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Oak Leather Tannin</resource-name>
@@ -1015,6 +1097,9 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (60)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +2600</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Maple Leather Tannin</resource-name>
@@ -1041,6 +1126,9 @@
         <tier-attribute type="reqAnySchoolLevel">Any School Level (80)</tier-attribute>
         <tier-attribute type="capacityBonus">Capacity +3000</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Yew Leather Tannin</resource-name>
@@ -1066,9 +1154,6 @@
       <item-attribute type="preventTeleport">Prevents teleportation</item-attribute>
       <item-attribute type="preventRecall">Prevents recall</item-attribute>
     </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_1</item-keyword>
-    </item-keywords>
     <tier>
       <tier-name>Standard Sandstone Cargo Disk</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -1080,6 +1165,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (5)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 20</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Hinge</resource-name>
@@ -1124,6 +1212,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (25)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 25</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Hinge</resource-name>
@@ -1168,6 +1259,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (45)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 30</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Hinge</resource-name>
@@ -1212,6 +1306,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (65)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 35</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Hinge</resource-name>
@@ -1256,6 +1353,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (85)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 40</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Tinkering Hinge</resource-name>
@@ -1299,9 +1399,6 @@
       <item-attribute type="preventTeleport">Prevents teleportation</item-attribute>
       <item-attribute type="preventRecall">Prevents recall</item-attribute>
     </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_1</item-keyword>
-    </item-keywords>
     <tier>
       <tier-name>Standish's Sandstone Cargo Disk</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -1312,6 +1409,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (10)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 15</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Strut</resource-name>
@@ -1361,6 +1461,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (30)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 19</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Strut</resource-name>
@@ -1410,6 +1513,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (50)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 24</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Strut</resource-name>
@@ -1459,6 +1565,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (70)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 28</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Strut</resource-name>
@@ -1508,6 +1617,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (90)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 33</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Tinkering Strut</resource-name>
@@ -1560,7 +1672,6 @@
     </item-attributes>
     <item-keywords>
       <item-keyword>cargo_disk_special</item-keyword>
-      <item-keyword>tier_1</item-keyword>
     </item-keywords>
     <tier>
       <tier-name>Standish's Deluxe Sandstone Cargo Disk</tier-name>
@@ -1573,6 +1684,9 @@
         <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (20)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 20</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Strut</resource-name>
@@ -1623,6 +1737,9 @@
         <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (40)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 28</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Strut</resource-name>
@@ -1673,6 +1790,9 @@
         <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (60)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 36</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Strut</resource-name>
@@ -1723,6 +1843,9 @@
         <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (80)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 44</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Strut</resource-name>
@@ -1773,6 +1896,9 @@
         <tier-attribute type="reqCurrentCraftLevel">Current Craft Level (100)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 52</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Tinkering Strut</resource-name>
@@ -1821,9 +1947,6 @@
       <item-attribute type="equipSlot">Cargo Disk</item-attribute>
       <item-attribute type="preventRecall">Prevents recall</item-attribute>
     </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_1</item-keyword>
-    </item-keywords>
     <tier>
       <tier-name>Tarbash's Sandstone Cargo Disk</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -1834,6 +1957,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (20)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 10</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Strut</resource-name>
@@ -1883,6 +2009,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (40)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 14</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Strut</resource-name>
@@ -1932,6 +2061,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (60)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 18</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Strut</resource-name>
@@ -1981,6 +2113,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (80)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 22</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Strut</resource-name>
@@ -2030,6 +2165,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (100)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 26</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Tinkering Strut</resource-name>
@@ -2078,9 +2216,6 @@
       <item-attribute type="equipSlot">Cargo Disk</item-attribute>
       <item-attribute type="preventRecall">Prevents recall</item-attribute>
     </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_1</item-keyword>
-    </item-keywords>
     <tier>
       <tier-name>Tarbash's Compact Sandstone Cargo Disk</tier-name>
       <tier-lvl>1</tier-lvl>
@@ -2091,6 +2226,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (20)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 30</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Tinkering Strut</resource-name>
@@ -2140,6 +2278,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (40)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 35</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Tinkering Strut</resource-name>
@@ -2189,6 +2330,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (60)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 40</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Tinkering Strut</resource-name>
@@ -2238,6 +2382,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (80)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 45</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Tinkering Strut</resource-name>
@@ -2287,6 +2434,9 @@
         <tier-attribute type="reqAnyCraftLevel">Any Craft Level (100)</tier-attribute>
         <tier-attribute type="statCap">Limits Speed to 50</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Tinkering Strut</resource-name>

@@ -7,27 +7,24 @@
   <tech>
     <tech-name>Tooth and Claw</tech-name>
     <tech-icon>icon_technique_04_00_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>dragonscale</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>dragon_bodyslot_wing</tech-keyword>
-          <tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
-          <tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
-          <tech-keyword>dragon_bodyslot_chest</tech-keyword>
-          <tech-keyword>dragon_bodyslot_back</tech-keyword>
-          <tech-keyword>dragon_bodyslot_head</tech-keyword>
-          <tech-keyword>dragon_bodyslot_tail</tech-keyword>
-          <tech-keyword>dragon_bodyslot_claw</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>dragonscale</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>dragon_bodyslot_wing</tech-keyword>
+        <tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+        <tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+        <tech-keyword>dragon_bodyslot_chest</tech-keyword>
+        <tech-keyword>dragon_bodyslot_back</tech-keyword>
+        <tech-keyword>dragon_bodyslot_head</tech-keyword>
+        <tech-keyword>dragon_bodyslot_tail</tech-keyword>
+        <tech-keyword>dragon_bodyslot_claw</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
-        <tech-effectkeyword>545</tech-effectkeyword>
+        <tech-effectkeyword>statmod_toothandclaw_up</tech-effectkeyword>
       </tech-effectkeywordset>
     </tech-effectkeywords>
     <tier>
@@ -36,6 +33,11 @@
       <tier-lvl>1</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +5 to the Tooth and Claw adventure skill.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+5 Tooth and Claw</tier-attribute>
       </tier-attributes>
@@ -50,6 +52,11 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +10 to the Tooth and Claw adventure skill.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+10 Tooth and Claw</tier-attribute>
       </tier-attributes>
@@ -65,6 +72,11 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +15 to the Tooth and Claw adventure skill.</tier-desc>
       <tier-skilladjust>30</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+15 Tooth and Claw</tier-attribute>
       </tier-attributes>
@@ -80,6 +92,11 @@
       <tier-lvl>4</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +20 to the Tooth and Claw adventure skill.</tier-desc>
       <tier-skilladjust>40</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_4</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+20 Tooth and Claw</tier-attribute>
       </tier-attributes>
@@ -95,6 +112,11 @@
       <tier-lvl>5</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an additional +25 to the Tooth and Claw adventure skill.</tier-desc>
       <tier-skilladjust>50</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_5</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+25 Tooth and Claw</tier-attribute>
       </tier-attributes>

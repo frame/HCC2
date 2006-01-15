@@ -7,27 +7,31 @@
   <tech>
     <tech-name>Tempest</tech-name>
     <tech-icon>icon_technique_02_03_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>gadget</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>banner</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>tier_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
-    <tech-effectkeywords>
-      <tech-effectkeywordset>
-      </tech-effectkeywordset>
-    </tech-effectkeywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>gadget</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>banner</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tier>
       <tier-name>Tempest I</tier-name>
       <tier-origin>Banner: Tempest I</tier-origin>
       <tier-lvl>1</tier-lvl>
       <tier-desc></tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>tier_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
+      <tier-attributes>
+        <tier-attribute type="consumes">1 Spiderling Silk</tier-attribute>
+        <tier-attribute type="range">Self Only</tier-attribute>
+        <tier-attribute type="delay">5</tier-attribute>
+        <tier-attribute type="recycle">Repeating</tier-attribute>
+      </tier-attributes>
       <components>
         <component amount="20">Turquoise</component>
         <component amount="3">Dim Essence Orb</component>
@@ -40,6 +44,17 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc></tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>tier_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
+      <tier-attributes>
+        <tier-attribute type="consumes">1 Spiderling Silk</tier-attribute>
+        <tier-attribute type="range">Self Only</tier-attribute>
+        <tier-attribute type="delay">5</tier-attribute>
+        <tier-attribute type="recycle">Repeating</tier-attribute>
+      </tier-attributes>
       <components>
         <component amount="20">Lapis Lazuli</component>
         <component amount="3">Pale Essence Orb</component>
@@ -52,6 +67,17 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc></tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>tier_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
+      <tier-attributes>
+        <tier-attribute type="consumes">1 Energy Bone Splinters</tier-attribute>
+        <tier-attribute type="range">Self Only</tier-attribute>
+        <tier-attribute type="delay">5</tier-attribute>
+        <tier-attribute type="recycle">Repeating</tier-attribute>
+      </tier-attributes>
       <components>
         <component amount="20">Aquamarine</component>
         <component amount="3">Glowing Essence Orb</component>
@@ -64,6 +90,17 @@
       <tier-lvl>4</tier-lvl>
       <tier-desc></tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>tier_4</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
+      <tier-attributes>
+        <tier-attribute type="consumes">1 Energy Bone Splinters</tier-attribute>
+        <tier-attribute type="range">Self Only</tier-attribute>
+        <tier-attribute type="delay">5</tier-attribute>
+        <tier-attribute type="recycle">Repeating</tier-attribute>
+      </tier-attributes>
       <components>
         <component amount="20">Opal</component>
         <component amount="3">Bright Essence Orb</component>

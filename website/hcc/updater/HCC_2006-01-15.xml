@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<release>
+	<release-databaserevision>2006-01-15</release-databaserevision>
+	<release-title>New Year resolution: Cleanup and add some requests</release-title>
+	<release-minclientversion>2.25</release-minclientversion>
+	<release-notes>
+		<note author="Syd" target="database" type="update">Scale Forms now use Scalecraft instead of Dragon Scalecraft</note>
+		<note author="Syd" target="database" type="update">Split Food into Mundane and Mystical</note>
+		<note author="Syd" target="database" type="update">Added Lairshaping IV</note>
+		<note author="Matecuss" target="database" type="update">Duplicate components culled</note>
+		<note author="Arcat" target="database" type="update">Merged Syd's and Matecuss' Databases</note>
+		<note author="Syd" target="database" type="update">Boons are now in a own category (Craft - Boons)</note>
+		<note author="Arcat" target="database" type="update">Added Adventure Skill gains to Statistics</note>
+		<note author="Syd" target="database" type="fix">Updated the Scarab Jewelry</note>
+		<note author="Syd" target="database" type="fix">Updated Sand to use Earthencraft instead of Stoneworking</note>
+		<note author="Matecuss" target="client" type="fix">Correctly handles tier level keywords (such as banners)</note>
+		<note author="Matecuss" target="client" type="fix">First born boon no longer goes into Craft Category</note>
+		<note author="Matecuss" target="client" type="fix">Dyes no longer appliable to 0 tech'd items</note>
+		<note author="Matecuss" target="client" type="fix">Craft skill for tech'd spells is now correct</note>
+		<note author="Arcat" target="installer" type="update">Downgraded Installer compression algorithm (better compatibility)</note>
+	</release-notes>
+	<acknowledgements>Sunuke, tjl, Fourwinds, Rowr and Gotharic</acknowledgements> 
+</release>

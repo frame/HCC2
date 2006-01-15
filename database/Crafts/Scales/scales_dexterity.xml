@@ -37,7 +37,7 @@
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">920</resource-min>
           <resource-opt amount="12">1120</resource-opt>
         </resource>
@@ -57,7 +57,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>dragon_bodyslot_chest</item-keyword>
       <item-keyword>dragonscale</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>statmod_dexterity_up</item-keyword>
     </item-keywords>
     <tier>
@@ -70,10 +69,13 @@
         <tier-attribute type="statBonus">+10 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+5 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">20</resource-min>
           <resource-opt amount="12">120</resource-opt>
         </resource>
@@ -89,10 +91,14 @@
         <tier-attribute type="statBonus">+20 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+10 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">220</resource-min>
           <resource-opt amount="12">345</resource-opt>
         </resource>
@@ -108,10 +114,15 @@
         <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+15 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">420</resource-min>
           <resource-opt amount="12">570</resource-opt>
         </resource>
@@ -127,10 +138,16 @@
         <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+20 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">620</resource-min>
           <resource-opt amount="12">795</resource-opt>
         </resource>
@@ -146,10 +163,17 @@
         <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+25 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">820</resource-min>
           <resource-opt amount="12">1020</resource-opt>
         </resource>
@@ -171,7 +195,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>dragon_bodyslot_foreleg</item-keyword>
       <item-keyword>dragonscale</item-keyword>
-      <item-keyword>tier_3</item-keyword>
       <item-keyword>statmod_dexterity_up</item-keyword>
     </item-keywords>
     <tier>
@@ -184,10 +207,13 @@
         <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+15 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">420</resource-min>
           <resource-opt amount="12">570</resource-opt>
         </resource>
@@ -203,10 +229,14 @@
         <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+20 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">620</resource-min>
           <resource-opt amount="12">795</resource-opt>
         </resource>
@@ -222,10 +252,15 @@
         <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+25 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">820</resource-min>
           <resource-opt amount="12">1020</resource-opt>
         </resource>
@@ -246,7 +281,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>dragon_bodyslot_head</item-keyword>
       <item-keyword>dragonscale</item-keyword>
-      <item-keyword>tier_2</item-keyword>
       <item-keyword>statmod_dexterity_up</item-keyword>
     </item-keywords>
     <tier>
@@ -259,10 +293,13 @@
         <tier-attribute type="statBonus">+20 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+10 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">220</resource-min>
           <resource-opt amount="12">345</resource-opt>
         </resource>
@@ -278,10 +315,14 @@
         <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+15 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">420</resource-min>
           <resource-opt amount="12">570</resource-opt>
         </resource>
@@ -297,10 +338,15 @@
         <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+20 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">620</resource-min>
           <resource-opt amount="12">795</resource-opt>
         </resource>
@@ -316,10 +362,16 @@
         <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+25 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">820</resource-min>
           <resource-opt amount="12">1020</resource-opt>
         </resource>
@@ -341,7 +393,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>dragon_bodyslot_hindleg</item-keyword>
       <item-keyword>dragonscale</item-keyword>
-      <item-keyword>tier_3</item-keyword>
       <item-keyword>statmod_dexterity_up</item-keyword>
     </item-keywords>
     <tier>
@@ -354,10 +405,13 @@
         <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+15 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">520</resource-min>
           <resource-opt amount="12">670</resource-opt>
         </resource>
@@ -373,10 +427,14 @@
         <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+20 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">720</resource-min>
           <resource-opt amount="12">895</resource-opt>
         </resource>
@@ -392,10 +450,15 @@
         <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+25 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">920</resource-min>
           <resource-opt amount="12">1120</resource-opt>
         </resource>
@@ -435,7 +498,7 @@
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">920</resource-min>
           <resource-opt amount="12">1120</resource-opt>
         </resource>
@@ -455,7 +518,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>dragon_bodyslot_wing</item-keyword>
       <item-keyword>dragonscale</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>statmod_dexterity_up</item-keyword>
     </item-keywords>
     <tier>
@@ -468,10 +530,13 @@
         <tier-attribute type="statBonus">+10 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+5 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">120</resource-min>
           <resource-opt amount="12">220</resource-opt>
         </resource>
@@ -487,10 +552,14 @@
         <tier-attribute type="statBonus">+20 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+10 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">320</resource-min>
           <resource-opt amount="12">445</resource-opt>
         </resource>
@@ -506,10 +575,15 @@
         <tier-attribute type="statBonus">+30 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+15 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">520</resource-min>
           <resource-opt amount="12">670</resource-opt>
         </resource>
@@ -525,10 +599,16 @@
         <tier-attribute type="statBonus">+40 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+20 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">720</resource-min>
           <resource-opt amount="12">895</resource-opt>
         </resource>
@@ -544,10 +624,17 @@
         <tier-attribute type="statBonus">+50 Dexterity</tier-attribute>
         <tier-attribute type="statBonus">+25 Armor</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Dragon Scalecraft</resource-skill>
+          <resource-skill>Scalecraft</resource-skill>
           <resource-min amount="24">920</resource-min>
           <resource-opt amount="12">1120</resource-opt>
         </resource>

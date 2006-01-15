@@ -7,38 +7,35 @@
   <tech>
     <tech-name>Blight Resistance</tech-name>
     <tech-icon>icon_technique_06_02_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>armor</tech-keyword>
-          <tech-keyword>shield</tech-keyword>
-          <tech-keyword>jewelry</tech-keyword>
-          <tech-keyword>dragonscale</tech-keyword>
-          <tech-keyword>container</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>bodyslot_chest</tech-keyword>
-          <tech-keyword>bodyslot_back</tech-keyword>
-          <tech-keyword>bodyslot_face</tech-keyword>
-          <tech-keyword>bodyslot_ear</tech-keyword>
-          <tech-keyword>bodyslot_legs</tech-keyword>
-          <tech-keyword>bodyslot_wrist</tech-keyword>
-          <tech-keyword>bodyslot_leftpalm</tech-keyword>
-          <tech-keyword>bodyslot_finger</tech-keyword>
-          <tech-keyword>dragon_bodyslot_wing</tech-keyword>
-          <tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
-          <tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
-          <tech-keyword>dragon_bodyslot_chest</tech-keyword>
-          <tech-keyword>dragon_bodyslot_back</tech-keyword>
-          <tech-keyword>dragon_bodyslot_head</tech-keyword>
-          <tech-keyword>dragon_bodyslot_tail</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>armor</tech-keyword>
+        <tech-keyword>shield</tech-keyword>
+        <tech-keyword>jewelry</tech-keyword>
+        <tech-keyword>dragonscale</tech-keyword>
+        <tech-keyword>container</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>bodyslot_chest</tech-keyword>
+        <tech-keyword>bodyslot_back</tech-keyword>
+        <tech-keyword>bodyslot_face</tech-keyword>
+        <tech-keyword>bodyslot_ear</tech-keyword>
+        <tech-keyword>bodyslot_legs</tech-keyword>
+        <tech-keyword>bodyslot_wrist</tech-keyword>
+        <tech-keyword>bodyslot_leftpalm</tech-keyword>
+        <tech-keyword>bodyslot_finger</tech-keyword>
+        <tech-keyword>dragon_bodyslot_wing</tech-keyword>
+        <tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+        <tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+        <tech-keyword>dragon_bodyslot_chest</tech-keyword>
+        <tech-keyword>dragon_bodyslot_back</tech-keyword>
+        <tech-keyword>dragon_bodyslot_head</tech-keyword>
+        <tech-keyword>dragon_bodyslot_tail</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
-        <tech-effectkeyword>149</tech-effectkeyword>
+        <tech-effectkeyword>statmod_blightresist_up</tech-effectkeyword>
       </tech-effectkeywordset>
     </tech-effectkeywords>
     <tier>
@@ -47,6 +44,11 @@
       <tier-lvl>1</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 Blight Resistance defense.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+8 Blight Resistance</tier-attribute>
       </tier-attributes>
@@ -61,6 +63,11 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 Blight Resistance defense.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+16 Blight Resistance</tier-attribute>
       </tier-attributes>
@@ -76,6 +83,11 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc>This technique gives the user +24 Blight Resistance defense.</tier-desc>
       <tier-skilladjust>30</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+24 Blight Resistance</tier-attribute>
       </tier-attributes>
@@ -91,6 +103,11 @@
       <tier-lvl>4</tier-lvl>
       <tier-desc>This technique gives the user +32 Blight Resistance defense.</tier-desc>
       <tier-skilladjust>40</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_4</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+32 Blight Resistance</tier-attribute>
       </tier-attributes>
@@ -106,6 +123,11 @@
       <tier-lvl>5</tier-lvl>
       <tier-desc>This technique gives the user +40 Blight Resistance defense.</tier-desc>
       <tier-skilladjust>50</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_5</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+40 Blight Resistance</tier-attribute>
       </tier-attributes>

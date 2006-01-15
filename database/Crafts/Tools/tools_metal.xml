@@ -18,7 +18,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
       <item-keyword>skill_use_carpentry</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_metal</item-keyword>
@@ -33,6 +32,9 @@
         <tier-attribute type="reqCraftSkill">Carpentry[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Carpentry to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -52,6 +54,10 @@
         <tier-attribute type="reqCraftSkill">Carpentry[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Carpentry to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -71,6 +77,11 @@
         <tier-attribute type="reqCraftSkill">Carpentry[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Carpentry to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -90,6 +101,12 @@
         <tier-attribute type="reqCraftSkill">Carpentry[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Carpentry to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -108,6 +125,13 @@
         <tier-attribute type="hoardValue">864</tier-attribute>
         <tier-attribute type="reqCraftSkill">Carpentry[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -132,7 +156,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_use_spinning</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_clothworking</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -149,6 +172,9 @@
         <tier-attribute type="statCap">Limits Clothworking to 250</tier-attribute>
         <tier-attribute type="statCap">Limits Spinning to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -169,6 +195,10 @@
         <tier-attribute type="statCap">Limits Clothworking to 450</tier-attribute>
         <tier-attribute type="statCap">Limits Spinning to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Silver Bar</resource-name>
@@ -189,6 +219,11 @@
         <tier-attribute type="statCap">Limits Clothworking to 650</tier-attribute>
         <tier-attribute type="statCap">Limits Spinning to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Gold Bar</resource-name>
@@ -209,6 +244,12 @@
         <tier-attribute type="statCap">Limits Clothworking to 850</tier-attribute>
         <tier-attribute type="statCap">Limits Spinning to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Platinum Bar</resource-name>
@@ -227,6 +268,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Clothworking[800] or Spinning[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -251,7 +299,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
       <item-keyword>skill_use_fitting</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_metal</item-keyword>
@@ -266,6 +313,9 @@
         <tier-attribute type="reqCraftSkill">Fitting[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Fitting to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -285,6 +335,10 @@
         <tier-attribute type="reqCraftSkill">Fitting[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Fitting to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -304,6 +358,11 @@
         <tier-attribute type="reqCraftSkill">Fitting[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Fitting to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -323,6 +382,12 @@
         <tier-attribute type="reqCraftSkill">Fitting[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Fitting to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -341,6 +406,13 @@
         <tier-attribute type="hoardValue">864</tier-attribute>
         <tier-attribute type="reqCraftSkill">Fitting[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -364,7 +436,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_gemworking</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -380,6 +451,9 @@
         <tier-attribute type="reqCraftSkill">Gemworking[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Gemworking to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -399,6 +473,10 @@
         <tier-attribute type="reqCraftSkill">Gemworking[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Gemworking to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Silver Bar</resource-name>
@@ -418,6 +496,11 @@
         <tier-attribute type="reqCraftSkill">Gemworking[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Gemworking to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Gold Bar</resource-name>
@@ -437,6 +520,12 @@
         <tier-attribute type="reqCraftSkill">Gemworking[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Gemworking to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Platinum Bar</resource-name>
@@ -455,6 +544,13 @@
         <tier-attribute type="hoardValue">576</tier-attribute>
         <tier-attribute type="reqCraftSkill">Gemworking[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -478,7 +574,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_foraging</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -494,6 +589,9 @@
         <tier-attribute type="reqCraftSkill">Foraging[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Foraging to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -513,6 +611,10 @@
         <tier-attribute type="reqCraftSkill">Foraging[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Foraging to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -532,6 +634,11 @@
         <tier-attribute type="reqCraftSkill">Foraging[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Foraging to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -551,6 +658,12 @@
         <tier-attribute type="reqCraftSkill">Foraging[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Foraging to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -569,6 +682,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Foraging[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -593,7 +713,6 @@
       <item-keyword>skill_use_ingenuity</item-keyword>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_metal</item-keyword>
@@ -607,6 +726,9 @@
         <tier-attribute type="reqCraftSkill">Ingenuity[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Ingenuity to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -625,6 +747,10 @@
         <tier-attribute type="reqCraftSkill">Ingenuity[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Ingenuity to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -643,6 +769,11 @@
         <tier-attribute type="reqCraftSkill">Ingenuity[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Ingenuity to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -661,6 +792,12 @@
         <tier-attribute type="reqCraftSkill">Ingenuity[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Ingenuity to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -679,6 +816,13 @@
         <tier-attribute type="reqCraftSkill">Ingenuity[800]</tier-attribute>
         <tier-attribute type="statCap">Limits Ingenuity to 1050</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -702,7 +846,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_jewelcraft</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -718,6 +861,9 @@
         <tier-attribute type="reqCraftSkill">Jewelcraft[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Jewelcraft to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -737,6 +883,10 @@
         <tier-attribute type="reqCraftSkill">Jewelcraft[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Jewelcraft to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Silver Bar</resource-name>
@@ -756,6 +906,11 @@
         <tier-attribute type="reqCraftSkill">Jewelcraft[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Jewelcraft to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Gold Bar</resource-name>
@@ -775,6 +930,12 @@
         <tier-attribute type="reqCraftSkill">Jewelcraft[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Jewelcraft to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Platinum Bar</resource-name>
@@ -793,6 +954,13 @@
         <tier-attribute type="hoardValue">576</tier-attribute>
         <tier-attribute type="reqCraftSkill">Jewelcraft[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -817,7 +985,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
       <item-keyword>skill_use_masonry</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_metal</item-keyword>
@@ -832,6 +999,9 @@
         <tier-attribute type="reqCraftSkill">Masonry[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Masonry to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -851,6 +1021,10 @@
         <tier-attribute type="reqCraftSkill">Masonry[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Masonry to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -870,6 +1044,11 @@
         <tier-attribute type="reqCraftSkill">Masonry[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Masonry to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -889,6 +1068,12 @@
         <tier-attribute type="reqCraftSkill">Masonry[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Masonry to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -907,6 +1092,13 @@
         <tier-attribute type="hoardValue">864</tier-attribute>
         <tier-attribute type="reqCraftSkill">Masonry[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -930,7 +1122,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_quarrying</item-keyword>
       <item-keyword>skill_use_mining</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
@@ -948,6 +1139,9 @@
         <tier-attribute type="statCap">Limits Mining to 250</tier-attribute>
         <tier-attribute type="statCap">Limits Quarrying to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -968,6 +1162,10 @@
         <tier-attribute type="statCap">Limits Mining to 450</tier-attribute>
         <tier-attribute type="statCap">Limits Quarrying to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -988,6 +1186,11 @@
         <tier-attribute type="statCap">Limits Mining to 650</tier-attribute>
         <tier-attribute type="statCap">Limits Quarrying to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1008,6 +1211,12 @@
         <tier-attribute type="statCap">Limits Mining to 850</tier-attribute>
         <tier-attribute type="statCap">Limits Quarrying to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1026,6 +1235,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Mining[800] or Quarrying[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1049,7 +1265,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_spellcraft</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -1065,6 +1280,9 @@
         <tier-attribute type="reqCraftSkill">Spellcraft[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Spellcraft to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -1084,6 +1302,10 @@
         <tier-attribute type="reqCraftSkill">Spellcraft[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Spellcraft to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -1103,6 +1325,11 @@
         <tier-attribute type="reqCraftSkill">Spellcraft[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Spellcraft to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1122,6 +1349,12 @@
         <tier-attribute type="reqCraftSkill">Spellcraft[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Spellcraft to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1140,6 +1373,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Spellcraft[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1163,7 +1403,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_salvaging</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -1180,6 +1419,9 @@
         <tier-attribute type="statCap">Limits Salvaging to 250</tier-attribute>
         <tier-attribute type="statBonus">+5 Salvaging</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -1199,6 +1441,10 @@
         <tier-attribute type="statCap">Limits Salvaging to 450</tier-attribute>
         <tier-attribute type="statBonus">+10 Salvaging</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -1218,6 +1464,11 @@
         <tier-attribute type="statCap">Limits Salvaging to 650</tier-attribute>
         <tier-attribute type="statBonus">+15 Salvaging</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1237,6 +1488,12 @@
         <tier-attribute type="statCap">Limits Salvaging to 850</tier-attribute>
         <tier-attribute type="statBonus">+20 Salvaging</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1255,6 +1512,13 @@
         <tier-attribute type="reqCraftSkill">Salvaging[800]</tier-attribute>
         <tier-attribute type="statBonus">+25 Salvaging</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1278,7 +1542,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_foraging</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -1294,6 +1557,9 @@
         <tier-attribute type="reqCraftSkill">Foraging[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Foraging to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -1313,6 +1579,10 @@
         <tier-attribute type="reqCraftSkill">Foraging[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Foraging to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -1332,6 +1602,11 @@
         <tier-attribute type="reqCraftSkill">Foraging[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Foraging to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1351,6 +1626,12 @@
         <tier-attribute type="reqCraftSkill">Foraging[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Foraging to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1369,6 +1650,13 @@
         <tier-attribute type="hoardValue">720</tier-attribute>
         <tier-attribute type="reqCraftSkill">Foraging[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1392,7 +1680,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_tailoring</item-keyword>
       <item-keyword>skill_use_leatherworking</item-keyword>
       <item-keyword>skill_use_clothworking</item-keyword>
@@ -1412,6 +1699,9 @@
         <tier-attribute type="statCap">Limits Leatherworking to 250</tier-attribute>
         <tier-attribute type="statCap">Limits Tailoring to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -1433,6 +1723,10 @@
         <tier-attribute type="statCap">Limits Leatherworking to 450</tier-attribute>
         <tier-attribute type="statCap">Limits Tailoring to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -1454,6 +1748,11 @@
         <tier-attribute type="statCap">Limits Leatherworking to 650</tier-attribute>
         <tier-attribute type="statCap">Limits Tailoring to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1475,6 +1774,12 @@
         <tier-attribute type="statCap">Limits Leatherworking to 850</tier-attribute>
         <tier-attribute type="statCap">Limits Tailoring to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1493,6 +1798,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Clothworking[800] or Leatherworking[800] or Tailoring[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1517,7 +1829,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_use_smelting</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_metal</item-keyword>
@@ -1532,6 +1843,9 @@
         <tier-attribute type="reqCraftSkill">Smelting[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Smelting to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -1551,6 +1865,10 @@
         <tier-attribute type="reqCraftSkill">Smelting[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Smelting to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -1570,6 +1888,11 @@
         <tier-attribute type="reqCraftSkill">Smelting[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Smelting to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1589,6 +1912,12 @@
         <tier-attribute type="reqCraftSkill">Smelting[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Smelting to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1607,6 +1936,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Smelting[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1630,7 +1966,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_weaponcraft</item-keyword>
       <item-keyword>skill_use_metalworking</item-keyword>
       <item-keyword>skill_use_armorcraft</item-keyword>
@@ -1650,6 +1985,9 @@
         <tier-attribute type="statCap">Limits Metalworking to 250</tier-attribute>
         <tier-attribute type="statCap">Limits Weaponcraft to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -1671,6 +2009,10 @@
         <tier-attribute type="statCap">Limits Metalworking to 450</tier-attribute>
         <tier-attribute type="statCap">Limits Weaponcraft to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -1692,6 +2034,11 @@
         <tier-attribute type="statCap">Limits Metalworking to 650</tier-attribute>
         <tier-attribute type="statCap">Limits Weaponcraft to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1713,6 +2060,12 @@
         <tier-attribute type="statCap">Limits Metalworking to 850</tier-attribute>
         <tier-attribute type="statCap">Limits Weaponcraft to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1731,6 +2084,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Armorcraft[800] or Metalworking[800] or Weaponcraft[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1755,7 +2115,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_use_sculpting</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_stoneworking</item-keyword>
       <item-keyword>skill_use_spellcraft</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
@@ -1774,6 +2133,9 @@
         <tier-attribute type="statCap">Limits Stoneworking to 250</tier-attribute>
         <tier-attribute type="statCap">Limits Spellcraft to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -1795,6 +2157,10 @@
         <tier-attribute type="statCap">Limits Stoneworking to 450</tier-attribute>
         <tier-attribute type="statCap">Limits Spellcraft to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -1816,6 +2182,11 @@
         <tier-attribute type="statCap">Limits Stoneworking to 650</tier-attribute>
         <tier-attribute type="statCap">Limits Spellcraft to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1837,6 +2208,12 @@
         <tier-attribute type="statCap">Limits Stoneworking to 850</tier-attribute>
         <tier-attribute type="statCap">Limits Spellcraft to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1855,6 +2232,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Sculpting[800] or Spellcraft[800] or Stoneworking[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1879,7 +2263,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_use_tanning</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_foraging</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -1896,6 +2279,9 @@
         <tier-attribute type="statCap">Limits Foraging to 250</tier-attribute>
         <tier-attribute type="statCap">Limits Tanning to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -1916,6 +2302,10 @@
         <tier-attribute type="statCap">Limits Foraging to 450</tier-attribute>
         <tier-attribute type="statCap">Limits Tanning to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -1936,6 +2326,11 @@
         <tier-attribute type="statCap">Limits Foraging to 650</tier-attribute>
         <tier-attribute type="statCap">Limits Tanning to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -1956,6 +2351,12 @@
         <tier-attribute type="statCap">Limits Foraging to 850</tier-attribute>
         <tier-attribute type="statCap">Limits Tanning to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -1974,6 +2375,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Foraging[800] or Tanning[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -1997,7 +2405,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_tinkering</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -2013,6 +2420,9 @@
         <tier-attribute type="reqCraftSkill">Tinkering[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Tinkering to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -2032,6 +2442,10 @@
         <tier-attribute type="reqCraftSkill">Tinkering[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Tinkering to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -2051,6 +2465,11 @@
         <tier-attribute type="reqCraftSkill">Tinkering[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Tinkering to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -2070,6 +2489,12 @@
         <tier-attribute type="reqCraftSkill">Tinkering[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Tinkering to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -2088,6 +2513,13 @@
         <tier-attribute type="hoardValue">720</tier-attribute>
         <tier-attribute type="reqCraftSkill">Tinkering[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -2111,7 +2543,6 @@
     <item-keywords>
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>skill_use_logging</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
@@ -2127,6 +2558,9 @@
         <tier-attribute type="reqCraftSkill">Logging[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Logging to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -2146,6 +2580,10 @@
         <tier-attribute type="reqCraftSkill">Logging[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Logging to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -2165,6 +2603,11 @@
         <tier-attribute type="reqCraftSkill">Logging[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Logging to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -2184,6 +2627,12 @@
         <tier-attribute type="reqCraftSkill">Logging[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Logging to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -2202,6 +2651,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Logging[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -2226,7 +2682,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
       <item-keyword>skill_use_weaving</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_metal</item-keyword>
@@ -2241,6 +2696,9 @@
         <tier-attribute type="reqCraftSkill">Weaving[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Weaving to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -2260,6 +2718,10 @@
         <tier-attribute type="reqCraftSkill">Weaving[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Weaving to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -2279,6 +2741,11 @@
         <tier-attribute type="reqCraftSkill">Weaving[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Weaving to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -2298,6 +2765,12 @@
         <tier-attribute type="reqCraftSkill">Weaving[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Weaving to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -2316,6 +2789,13 @@
         <tier-attribute type="hoardValue">864</tier-attribute>
         <tier-attribute type="reqCraftSkill">Weaving[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>
@@ -2340,7 +2820,6 @@
       <item-keyword>techclass_1</item-keyword>
       <item-keyword>skill_use_lumbering</item-keyword>
       <item-keyword>skill_make_metalworking</item-keyword>
-      <item-keyword>tier_1</item-keyword>
       <item-keyword>bodyslot_rightpalm</item-keyword>
       <item-keyword>tool</item-keyword>
       <item-keyword>resource_metal</item-keyword>
@@ -2355,6 +2834,9 @@
         <tier-attribute type="reqCraftSkill">Lumbering[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Lumbering to 250</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Bronze Bar</resource-name>
@@ -2374,6 +2856,10 @@
         <tier-attribute type="reqCraftSkill">Lumbering[200]</tier-attribute>
         <tier-attribute type="statCap">Limits Lumbering to 450</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Iron Bar</resource-name>
@@ -2393,6 +2879,11 @@
         <tier-attribute type="reqCraftSkill">Lumbering[400]</tier-attribute>
         <tier-attribute type="statCap">Limits Lumbering to 650</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Steel Bar</resource-name>
@@ -2412,6 +2903,12 @@
         <tier-attribute type="reqCraftSkill">Lumbering[600]</tier-attribute>
         <tier-attribute type="statCap">Limits Lumbering to 850</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Cobalt Bar</resource-name>
@@ -2430,6 +2927,13 @@
         <tier-attribute type="hoardValue">432</tier-attribute>
         <tier-attribute type="reqCraftSkill">Lumbering[800]</tier-attribute>
       </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
       <resources>
         <resource>
           <resource-name>Mithril Bar</resource-name>

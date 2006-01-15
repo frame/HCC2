@@ -7,38 +7,35 @@
   <tech>
     <tech-name>Dexterity</tech-name>
     <tech-icon>icon_technique_01_01_11.png</tech-icon>
-      <tech-keywords>
-        <tech-keywordset>
-          <tech-keyword>armor</tech-keyword>
-          <tech-keyword>weapon</tech-keyword>
-          <tech-keyword>jewelry</tech-keyword>
-          <tech-keyword>tool</tech-keyword>
-          <tech-keyword>dragonscale</tech-keyword>
-          <tech-keyword>container</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>bodyslot_chest</tech-keyword>
-          <tech-keyword>bodyslot_neck</tech-keyword>
-          <tech-keyword>bodyslot_legs</tech-keyword>
-          <tech-keyword>bodyslot_feet</tech-keyword>
-          <tech-keyword>bodyslot_arms</tech-keyword>
-          <tech-keyword>bodyslot_forearm</tech-keyword>
-          <tech-keyword>bodyslot_wrist</tech-keyword>
-          <tech-keyword>bodyslot_rightpalm</tech-keyword>
-          <tech-keyword>bodyslot_leftpalm</tech-keyword>
-          <tech-keyword>dragon_bodyslot_wing</tech-keyword>
-          <tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
-          <tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
-          <tech-keyword>dragon_bodyslot_chest</tech-keyword>
-          <tech-keyword>dragon_bodyslot_back</tech-keyword>
-          <tech-keyword>dragon_bodyslot_head</tech-keyword>
-          <tech-keyword>dragon_bodyslot_tail</tech-keyword>
-          <tech-keyword>dragon_bodyslot_claw</tech-keyword>
-        </tech-keywordset>
-        <tech-keywordset>
-          <tech-keyword>techclass_1</tech-keyword>
-        </tech-keywordset>
-      </tech-keywords>
+    <tech-keywords>
+      <tech-keywordset>
+        <tech-keyword>armor</tech-keyword>
+        <tech-keyword>weapon</tech-keyword>
+        <tech-keyword>jewelry</tech-keyword>
+        <tech-keyword>tool</tech-keyword>
+        <tech-keyword>dragonscale</tech-keyword>
+        <tech-keyword>container</tech-keyword>
+      </tech-keywordset>
+      <tech-keywordset>
+        <tech-keyword>bodyslot_chest</tech-keyword>
+        <tech-keyword>bodyslot_neck</tech-keyword>
+        <tech-keyword>bodyslot_legs</tech-keyword>
+        <tech-keyword>bodyslot_feet</tech-keyword>
+        <tech-keyword>bodyslot_arms</tech-keyword>
+        <tech-keyword>bodyslot_forearm</tech-keyword>
+        <tech-keyword>bodyslot_wrist</tech-keyword>
+        <tech-keyword>bodyslot_rightpalm</tech-keyword>
+        <tech-keyword>bodyslot_leftpalm</tech-keyword>
+        <tech-keyword>dragon_bodyslot_wing</tech-keyword>
+        <tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+        <tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+        <tech-keyword>dragon_bodyslot_chest</tech-keyword>
+        <tech-keyword>dragon_bodyslot_back</tech-keyword>
+        <tech-keyword>dragon_bodyslot_head</tech-keyword>
+        <tech-keyword>dragon_bodyslot_tail</tech-keyword>
+        <tech-keyword>dragon_bodyslot_claw</tech-keyword>
+      </tech-keywordset>
+    </tech-keywords>
     <tech-effectkeywords>
       <tech-effectkeywordset>
         <tech-effectkeyword>statmod_dexterity_up</tech-effectkeyword>
@@ -50,6 +47,11 @@
       <tier-lvl>1</tier-lvl>
       <tier-desc>This technique effect gives the user the ability to create objects with an additional +5 to the Dexterity statistic.</tier-desc>
       <tier-skilladjust>10</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_1</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+5 Dexterity</tier-attribute>
       </tier-attributes>
@@ -64,6 +66,11 @@
       <tier-lvl>2</tier-lvl>
       <tier-desc>This technique gives the user the ability to create objects with an additional +10 to the Dexterity statistic.</tier-desc>
       <tier-skilladjust>20</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_2</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+10 Dexterity</tier-attribute>
       </tier-attributes>
@@ -79,6 +86,11 @@
       <tier-lvl>3</tier-lvl>
       <tier-desc>This technique gives the user the ability to create objects with an additional +15 to the Dexterity statistic.</tier-desc>
       <tier-skilladjust>30</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_3</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+15 Dexterity</tier-attribute>
       </tier-attributes>
@@ -94,6 +106,11 @@
       <tier-lvl>4</tier-lvl>
       <tier-desc></tier-desc>
       <tier-skilladjust>40</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_4</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+20 Dexterity</tier-attribute>
       </tier-attributes>
@@ -109,6 +126,11 @@
       <tier-lvl>5</tier-lvl>
       <tier-desc></tier-desc>
       <tier-skilladjust>50</tier-skilladjust>
+      <tier-keywords>
+        <tier-keywordset>
+          <tier-keyword>techclass_5</tier-keyword>
+        </tier-keywordset>
+      </tier-keywords>
       <tier-attributes>
         <tier-attribute type="statBonus">+25 Dexterity</tier-attribute>
       </tier-attributes>
