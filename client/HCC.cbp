@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HCC" />
+		<Option pch_mode="2" />
+		<Option compiler="msvctk" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="../build/Release/HCC" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:\Program Files (x86)\HCC2" />
+				<Option object_output="../build/Release/Objects" />
+				<Option type="0" />
+				<Option compiler="msvctk" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/O2" />
+					<Add option="/W3" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+					<Add option="/D_AFXDLL" />
+				</Compiler>
+				<Linker>
+					<Add option="/subsystem:windows" />
+					<Add option="/machine:I386" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="../build/Debug/HCC" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:\Program Files (x86)\HCC2" />
+				<Option object_output="../build/Debug/Objects" />
+				<Option type="0" />
+				<Option compiler="msvctk" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/GX" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/Zi" />
+					<Add option="/FD" />
+					<Add option="/GZ" />
+					<Add option="/FR" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+					<Add option="/D_WINDOWS" />
+					<Add option="/D_AFXDLL" />
+					<Add option="/D_MBCS" />
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add option="/subsystem:windows" />
+					<Add option="/machine:I386" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="C:/Program Files/Microsoft Visual C++ Toolkit 2003/include" />
+			<Add directory="C:/Program Files/Microsoft Platform SDK/Include" />
+			<Add directory="C:/Program Files/Microsoft Platform SDK/Include/mfc" />
+			<Add directory="C:/Program Files/Microsoft Platform SDK/Include/crt" />
+			<Add directory="C:/Program Files/Microsoft Platform SDK/Lib/Win9x" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/Program Files/Microsoft Visual C++ Toolkit 2003/include" />
+			<Add directory="C:/Program Files/Microsoft Platform SDK/Include" />
+			<Add directory="C:/Program Files/Microsoft Platform SDK/Include/mfc" />
+		</ResourceCompiler>
+		<Linker>
+			<Add library="gdiplus" />
+			<Add library="wininet" />
+			<Add library="unzip/unzip32.lib" />
+			<Add directory="C:/Program Files/Microsoft Visual C++ Toolkit 2003/lib" />
+			<Add directory="C:/Program Files/Microsoft Platform SDK/Lib" />
+			<Add directory="C:/Program Files/Microsoft Platform SDK/Lib/Win9x" />
+		</Linker>
+		<Unit filename="AppData.cpp" />
+		<Unit filename="AppData.h" />
+		<Unit filename="Bonus.cpp" />
+		<Unit filename="Bonus.h" />
+		<Unit filename="BtnST.cpp" />
+		<Unit filename="BtnST.h" />
+		<Unit filename="Category.cpp" />
+		<Unit filename="Category.h" />
+		<Unit filename="CompBonusInfo.cpp" />
+		<Unit filename="CompBonusInfo.h" />
+		<Unit filename="CompGatherInfo.cpp" />
+		<Unit filename="CompGatherInfo.h" />
+		<Unit filename="Component.cpp" />
+		<Unit filename="Component.h" />
+		<Unit filename="ComponentDialog.cpp" />
+		<Unit filename="ComponentDialog.h" />
+		<Unit filename="Consts.h" />
+		<Unit filename="CrafterSearchDialog.cpp" />
+		<Unit filename="CrafterSearchDialog.h" />
+		<Unit filename="DatabaseRelease.cpp" />
+		<Unit filename="DatabaseRelease.h" />
+		<Unit filename="Effect.cpp" />
+		<Unit filename="Effect.h" />
+		<Unit filename="FileHandler.cpp" />
+		<Unit filename="FileHandler.h" />
+		<Unit filename="FileItem.cpp" />
+		<Unit filename="FileItem.h" />
+		<Unit filename="Formula.cpp" />
+		<Unit filename="Formula.h" />
+		<Unit filename="FormulaSet.cpp" />
+		<Unit filename="FormulaSet.h" />
+		<Unit filename="FormulaTier.cpp" />
+		<Unit filename="FormulaTier.h" />
+		<Unit filename="HCC.cpp" />
+		<Unit filename="HCC.h" />
+		<Unit filename="HCC.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="HCCDlg.cpp" />
+		<Unit filename="HCCDlg.h" />
+		<Unit filename="ImageStore.cpp" />
+		<Unit filename="ImageStore.h" />
+		<Unit filename="InputDialog.cpp" />
+		<Unit filename="InputDialog.h" />
+		<Unit filename="InputListDialog.cpp" />
+		<Unit filename="InputListDialog.h" />
+		<Unit filename="ItemCreation.cpp" />
+		<Unit filename="ItemCreation.h" />
+		<Unit filename="ItemInfo.cpp" />
+		<Unit filename="ItemInfo.h" />
+		<Unit filename="ItemResource.cpp" />
+		<Unit filename="ItemResource.h" />
+		<Unit filename="ItemTech.cpp" />
+		<Unit filename="ItemTech.h" />
+		<Unit filename="KeywordGroup.cpp" />
+		<Unit filename="KeywordGroup.h" />
+		<Unit filename="NewProfileDialog.cpp" />
+		<Unit filename="NewProfileDialog.h" />
+		<Unit filename="ObjectSpace.cpp" />
+		<Unit filename="ObjectSpace.h" />
+		<Unit filename="OptionsDialog.cpp" />
+		<Unit filename="OptionsDialog.h" />
+		<Unit filename="OrderDialog.cpp" />
+		<Unit filename="OrderDialog.h" />
+		<Unit filename="OrderItem.cpp" />
+		<Unit filename="OrderItem.h" />
+		<Unit filename="Profile.cpp" />
+		<Unit filename="Profile.h" />
+		<Unit filename="ProfileDialog.cpp" />
+		<Unit filename="ProfileDialog.h" />
+		<Unit filename="ProfilePage1.cpp" />
+		<Unit filename="ProfilePage1.h" />
+		<Unit filename="ProfilePage2.cpp" />
+		<Unit filename="ProfilePage2.h" />
+		<Unit filename="ProfilePage3.cpp" />
+		<Unit filename="ProfilePage3.h" />
+		<Unit filename="ReadMe.txt" />
+		<Unit filename="RecacheDialog.cpp" />
+		<Unit filename="RecacheDialog.h" />
+		<Unit filename="Regexp.cpp" />
+		<Unit filename="Regexp.h" />
+		<Unit filename="RegistryAccess.cpp" />
+		<Unit filename="RegistryAccess.h" />
+		<Unit filename="ReportDialog.cpp" />
+		<Unit filename="ReportDialog.h" />
+		<Unit filename="Scheme.cpp" />
+		<Unit filename="Scheme.h" />
+		<Unit filename="SchoolWizard.cpp" />
+		<Unit filename="SchoolWizard.h" />
+		<Unit filename="Skill.cpp" />
+		<Unit filename="Skill.h" />
+		<Unit filename="SkillDialog.cpp" />
+		<Unit filename="SkillDialog.h" />
+		<Unit filename="SkillLevelDialog.cpp" />
+		<Unit filename="SkillLevelDialog.h" />
+		<Unit filename="StdAfx.cpp" />
+		<Unit filename="StdAfx.h" />
+		<Unit filename="SubCategory.cpp" />
+		<Unit filename="SubCategory.h" />
+		<Unit filename="Tech.cpp" />
+		<Unit filename="Tech.h" />
+		<Unit filename="TechSet.cpp" />
+		<Unit filename="TechSet.h" />
+		<Unit filename="TechTier.cpp" />
+		<Unit filename="TechTier.h" />
+		<Unit filename="TechniqueSelection.cpp" />
+		<Unit filename="TechniqueSelection.h" />
+		<Unit filename="TreeCtrlX.cpp" />
+		<Unit filename="TreeCtrlX.h" />
+		<Unit filename="UpdateDialog.cpp" />
+		<Unit filename="UpdateDialog.h" />
+		<Unit filename="WindowState.cpp" />
+		<Unit filename="WindowState.h" />
+		<Unit filename="WizardDialog.cpp" />
+		<Unit filename="WizardDialog.h" />
+		<Unit filename="WizardInfo.cpp" />
+		<Unit filename="WizardInfo.h" />
+		<Unit filename="WizardPage1.cpp" />
+		<Unit filename="WizardPage1.h" />
+		<Unit filename="WizardPage2.cpp" />
+		<Unit filename="WizardPage2.h" />
+		<Unit filename="WizardPage3.cpp" />
+		<Unit filename="WizardPage3.h" />
+		<Unit filename="XMLParser.cpp" />
+		<Unit filename="XMLParser.h" />
+		<Unit filename="XMLTag.cpp" />
+		<Unit filename="XMLTag.h" />
+		<Unit filename="XWinVer.cpp" />
+		<Unit filename="XWinVer.h" />
+		<Unit filename="VersionHelpers.h" />
+		<Unit filename="controls.h" />
+		<Unit filename="font.cpp" />
+		<Unit filename="font.h" />
+		<Unit filename="msflexgrid.cpp" />
+		<Unit filename="msflexgrid.h" />
+		<Unit filename="res/HCC.ico" />
+		<Unit filename="res/HCC.rc2" />
+		<Unit filename="res/ToolBar_Comp0.bmp" />
+		<Unit filename="res/ToolBar_Comp1.bmp" />
+		<Unit filename="res/ToolBar_Construction0.bmp" />
+		<Unit filename="res/ToolBar_Construction1.bmp" />
+		<Unit filename="res/ToolBar_Form0.bmp" />
+		<Unit filename="res/ToolBar_Form1.bmp" />
+		<Unit filename="res/ToolBar_Orders0.bmp" />
+		<Unit filename="res/ToolBar_Orders1.bmp" />
+		<Unit filename="res/ToolBar_Profile0.bmp" />
+		<Unit filename="res/ToolBar_Profile1.bmp" />
+		<Unit filename="res/ToolBar_Search0.bmp" />
+		<Unit filename="res/ToolBar_Search1.bmp" />
+		<Unit filename="res/ToolBar_Submit0.bmp" />
+		<Unit filename="res/ToolBar_Submit1.bmp" />
+		<Unit filename="res/ToolBar_Tech0.bmp" />
+		<Unit filename="res/ToolBar_Tech1.bmp" />
+		<Unit filename="res/ToolBar_Updates0.bmp" />
+		<Unit filename="res/ToolBar_Updates1.bmp" />
+		<Unit filename="res/ToolBar_Wizard0.bmp" />
+		<Unit filename="res/ToolBar_Wizard1.bmp" />
+		<Unit filename="res/Toolbar_Report0.bmp" />
+		<Unit filename="res/Toolbar_Report1.bmp" />
+		<Unit filename="res/bitmap2.bmp" />
+		<Unit filename="res/bitmap3.bmp" />
+		<Unit filename="res/icon1.ico" />
+		<Unit filename="res/manifest.xml" />
+		<Unit filename="resource.h" />
+		<Unit filename="rowcursor.cpp" />
+		<Unit filename="rowcursor.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

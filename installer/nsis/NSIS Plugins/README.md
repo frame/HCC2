@@ -1,0 +1,1 @@
+Copy to `C:\Program Files (x86)\NSIS\Plugins`
