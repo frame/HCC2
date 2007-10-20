@@ -1,2162 +1,2153 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Spells - Flame</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Spells</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Burning Sky</item-name>
-    <item-icon>icon_formula_s_01_09_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="hoardValue">120</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="reqAdvSkill">Flame (300)</item-attribute>
-      <item-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">34-41</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-      <item-attribute type="area">12</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_2</item-keyword>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>aoe</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Burning Sky</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Calls down a powerful bolt of flame that hits a target and does damage to nearby enemies.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
+	<formulaset-name>Spells - Flame</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Spells</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Burning Sky</item-name>
+		<item-icon>icon_formula_s_01_09_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="hoardValue">120</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="reqAdvSkill">Flame (300)</item-attribute>
+			<item-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="damage">34-41</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+			<item-attribute type="area">12</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_2</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>aoe</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Burning Sky</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Calls down a powerful bolt of flame that hits a target and does damage to nearby enemies.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">300</resource-min>
-          <resource-opt amount="5">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">300</resource-min>
-          <resource-opt amount="9">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Burning Hands</item-name>
-    <item-icon>icon_formula_s_01_08_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">20</item-attribute>
-      <item-attribute type="castDelay">48</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Burning Hands I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">15</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (130)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (13)</tier-attribute>
-        <tier-attribute type="damage">29-36</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">130</resource-min>
-          <resource-opt amount="5">230</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Burning Hands II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (330)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (33)</tier-attribute>
-        <tier-attribute type="damage">63-78</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">330</resource-min>
-          <resource-opt amount="5">455</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">330</resource-min>
-          <resource-opt amount="9">455</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Burning Hands III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (530)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (53)</tier-attribute>
-        <tier-attribute type="damage">97-120</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">530</resource-min>
-          <resource-opt amount="5">680</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">530</resource-min>
-          <resource-opt amount="9">680</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Burning Hands IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (730)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (73)</tier-attribute>
-        <tier-attribute type="damage">131-162</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">730</resource-min>
-          <resource-opt amount="5">905</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">730</resource-min>
-          <resource-opt amount="9">905</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Burning Hands V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">450</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (930)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (93)</tier-attribute>
-        <tier-attribute type="damage">165-204</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">930</resource-min>
-          <resource-opt amount="5">1030</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">930</resource-min>
-          <resource-opt amount="9">1030</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Fiery Strike</item-name>
-    <item-icon>icon_formula_s_01_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">15</item-attribute>
-      <item-attribute type="castDelay">55</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Fiery Strike I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A large fiery claw attacks the target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (180)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (18)</tier-attribute>
-        <tier-attribute type="damage">47-56</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">180</resource-min>
-          <resource-opt amount="6">280</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Fiery Strike II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A large fiery claw attacks the target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (380)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (38)</tier-attribute>
-        <tier-attribute type="damage">90-107</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">380</resource-min>
-          <resource-opt amount="6">505</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">380</resource-min>
-          <resource-opt amount="11">505</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Fiery Strike III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A large fiery claw attacks the target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (580)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (58)</tier-attribute>
-        <tier-attribute type="damage">133-157</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">580</resource-min>
-          <resource-opt amount="6">730</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">580</resource-min>
-          <resource-opt amount="11">730</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Fiery Strike IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A large fiery claw attacks the target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (780)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (78)</tier-attribute>
-        <tier-attribute type="damage">175-208</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">780</resource-min>
-          <resource-opt amount="6">955</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">780</resource-min>
-          <resource-opt amount="11">955</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Fiery Strike V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A large fiery claw attacks the target.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (980)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (98)</tier-attribute>
-        <tier-attribute type="damage">218-259</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">980</resource-min>
-          <resource-opt amount="6">1180</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">980</resource-min>
-          <resource-opt amount="11">1180</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Flame Attack</item-name>
-    <item-icon>icon_formula_s_01_11_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">30</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>buff</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flame Attack I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (70) or Summoning (50)</tier-attribute>
-        <tier-attribute type="effect">Flame Attack I</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">70</resource-min>
-          <resource-opt amount="4">170</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Attack II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (270) or Summoning (250)</tier-attribute>
-        <tier-attribute type="effect">Flame Attack II</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
-        <tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">270</resource-min>
-          <resource-opt amount="4">395</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">270</resource-min>
-          <resource-opt amount="7">395</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Attack III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (470) or Summoning (450)</tier-attribute>
-        <tier-attribute type="effect">Flame Attack III</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
-        <tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">470</resource-min>
-          <resource-opt amount="4">620</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">470</resource-min>
-          <resource-opt amount="7">620</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Attack IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (670) or Summoning (650)</tier-attribute>
-        <tier-attribute type="effect">Flame Attack IV</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
-        <tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">670</resource-min>
-          <resource-opt amount="4">845</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">670</resource-min>
-          <resource-opt amount="7">845</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Attack V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (870) or Summoning (850)</tier-attribute>
-        <tier-attribute type="effect">Flame Attack V</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
-        <tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">870</resource-min>
-          <resource-opt amount="4">1070</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">870</resource-min>
-          <resource-opt amount="7">1070</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Flame Bolt</item-name>
-    <item-icon>icon_formula_s_01_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">45</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>repeatable</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flame Bolt I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A concentrated bolt of fire.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">9</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="damage">4-7</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">1</resource-min>
-          <resource-opt amount="3">100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Bolt II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A concentrated bolt of fire.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (200)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
-        <tier-attribute type="damage">21-34</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">200</resource-min>
-          <resource-opt amount="3">325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">200</resource-min>
-          <resource-opt amount="5">325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Bolt III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A concentrated bolt of fire.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (400)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
-        <tier-attribute type="damage">37-60</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">400</resource-min>
-          <resource-opt amount="3">550</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">400</resource-min>
-          <resource-opt amount="5">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Bolt IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A concentrated bolt of fire.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (600)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
-        <tier-attribute type="damage">52-85</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">600</resource-min>
-          <resource-opt amount="3">775</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">600</resource-min>
-          <resource-opt amount="5">775</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Bolt V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A concentrated bolt of fire.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (800)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
-        <tier-attribute type="damage">66-108</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">800</resource-min>
-          <resource-opt amount="3">1000</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">800</resource-min>
-          <resource-opt amount="5">1000</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Flame Bomb</item-name>
-    <item-icon>icon_formula_s_01_12_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">35</item-attribute>
-      <item-attribute type="castDelay">45</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-      <item-attribute type="area">7</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>aoe</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flame Bomb I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (120)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (12)</tier-attribute>
-        <tier-attribute type="damage">16-23</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">120</resource-min>
-          <resource-opt amount="5">220</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Bomb II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (320)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (32)</tier-attribute>
-        <tier-attribute type="damage">37-51</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">320</resource-min>
-          <resource-opt amount="5">445</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">320</resource-min>
-          <resource-opt amount="9">445</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Bomb III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (520)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (52)</tier-attribute>
-        <tier-attribute type="damage">57-80</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">520</resource-min>
-          <resource-opt amount="5">670</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">520</resource-min>
-          <resource-opt amount="9">670</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Bomb IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (720)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (72)</tier-attribute>
-        <tier-attribute type="damage">78-108</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">720</resource-min>
-          <resource-opt amount="5">895</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">720</resource-min>
-          <resource-opt amount="9">895</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Bomb V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">720</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (920)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (92)</tier-attribute>
-        <tier-attribute type="damage">98-136</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">920</resource-min>
-          <resource-opt amount="5">1120</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">920</resource-min>
-          <resource-opt amount="9">1120</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Flame Resistance</item-name>
-    <item-icon>icon_formula_s_01_10_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">30</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>buff</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flame Resistance I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (50)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="effect">Flame Resistance I</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+8 Flame Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">50</resource-min>
-          <resource-opt amount="4">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Resistance II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (250)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="effect">Flame Resistance II</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+38 Flame Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">250</resource-min>
-          <resource-opt amount="4">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">250</resource-min>
-          <resource-opt amount="7">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Resistance III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (450)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="effect">Flame Resistance III</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+68 Flame Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">450</resource-min>
-          <resource-opt amount="4">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">450</resource-min>
-          <resource-opt amount="7">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Resistance IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (650)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
-        <tier-attribute type="effect">Flame Resistance IV</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+98 Flame Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">650</resource-min>
-          <resource-opt amount="7">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Resistance V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (850)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="effect">Flame Resistance V</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+128 Flame Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">850</resource-min>
-          <resource-opt amount="4">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">850</resource-min>
-          <resource-opt amount="7">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Flame Ward</item-name>
-    <item-icon>icon_formula_s_01_13_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">30</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>buff</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flame Ward  I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (80)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
-        <tier-attribute type="effect">Flame Ward I</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+20 Flame Ward</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">80</resource-min>
-          <resource-opt amount="4">180</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Ward II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (280)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
-        <tier-attribute type="effect">Flame Ward II</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+70 Flame Ward</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">280</resource-min>
-          <resource-opt amount="4">405</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">280</resource-min>
-          <resource-opt amount="7">405</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Ward III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (480)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
-        <tier-attribute type="effect">Flame Ward III</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+120 Flame Ward</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">480</resource-min>
-          <resource-opt amount="4">630</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">480</resource-min>
-          <resource-opt amount="7">630</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Ward IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (680)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
-        <tier-attribute type="effect">Flame Ward IV</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+170 Flame Ward</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">680</resource-min>
-          <resource-opt amount="4">855</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">680</resource-min>
-          <resource-opt amount="7">855</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Ward V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (880)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
-        <tier-attribute type="effect">Flame Ward V</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+220 Flame Ward</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">880</resource-min>
-          <resource-opt amount="4">1080</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">880</resource-min>
-          <resource-opt amount="7">1080</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Flame Wave</item-name>
-    <item-icon>icon_formula_s_01_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flame Wave I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A wave of flames crashes down upon the target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (50)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="damage">15-20</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">50</resource-min>
-          <resource-opt amount="4">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Wave II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A wave of flames crashes down upon the target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (250)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="damage">43-58</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">250</resource-min>
-          <resource-opt amount="4">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">250</resource-min>
-          <resource-opt amount="7">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Wave III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A wave of flames crashes down upon the target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (450)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="damage">70-95</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">450</resource-min>
-          <resource-opt amount="4">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">450</resource-min>
-          <resource-opt amount="7">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Wave IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A wave of flames crashes down upon the target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (650)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
-        <tier-attribute type="damage">96-131</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">650</resource-min>
-          <resource-opt amount="7">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flame Wave V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A wave of flames crashes down upon the target.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (850)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="damage">122-167</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">850</resource-min>
-          <resource-opt amount="4">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">850</resource-min>
-          <resource-opt amount="7">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Immolate</item-name>
-    <item-icon>icon_formula_s_01_05_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">35</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>overtime</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Immolate I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">9</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (20)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">20</resource-min>
-          <resource-opt amount="3">120</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Immolate II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (220)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">220</resource-min>
-          <resource-opt amount="3">345</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">220</resource-min>
-          <resource-opt amount="5">345</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Immolate III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (420)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">420</resource-min>
-          <resource-opt amount="3">570</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">420</resource-min>
-          <resource-opt amount="5">570</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Immolate IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (620)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">620</resource-min>
-          <resource-opt amount="3">795</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">620</resource-min>
-          <resource-opt amount="5">795</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Immolate V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (820)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">820</resource-min>
-          <resource-opt amount="3">1020</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">820</resource-min>
-          <resource-opt amount="5">1020</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Improved Flame Bolt</item-name>
-    <item-icon>icon_formula_s_01_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">45</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>repeatable</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Improved Flame Bolt I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">15</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (100)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
-        <tier-attribute type="damage">13-20</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="5">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Flame Bolt II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (300)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
-        <tier-attribute type="damage">29-46</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">300</resource-min>
-          <resource-opt amount="5">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">300</resource-min>
-          <resource-opt amount="9">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Flame Bolt III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (500)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
-        <tier-attribute type="damage">44-72</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="5">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">500</resource-min>
-          <resource-opt amount="9">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Flame Bolt IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (700)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
-        <tier-attribute type="damage">58-96</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">700</resource-min>
-          <resource-opt amount="5">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">700</resource-min>
-          <resource-opt amount="9">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Flame Bolt V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">720</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (900)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
-        <tier-attribute type="damage">71-119</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">900</resource-min>
-          <resource-opt amount="5">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">900</resource-min>
-          <resource-opt amount="9">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Improved Flame Wave</item-name>
-    <item-icon>icon_formula_s_01_04_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Improved Flame Wave I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (150)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
-        <tier-attribute type="damage">29-39</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">150</resource-min>
-          <resource-opt amount="6">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Flame Wave II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (350)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
-        <tier-attribute type="damage">56-76</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">350</resource-min>
-          <resource-opt amount="6">475</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">350</resource-min>
-          <resource-opt amount="11">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Flame Wave III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (550)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
-        <tier-attribute type="damage">83-113</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">550</resource-min>
-          <resource-opt amount="6">700</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">550</resource-min>
-          <resource-opt amount="11">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Flame Wave IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (750)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
-        <tier-attribute type="damage">108-148</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">750</resource-min>
-          <resource-opt amount="6">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">750</resource-min>
-          <resource-opt amount="11">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Flame Wave V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (950)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
-        <tier-attribute type="damage">133-183</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">950</resource-min>
-          <resource-opt amount="6">1150</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">950</resource-min>
-          <resource-opt amount="11">1150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Sear</item-name>
-    <item-icon>icon_formula_s_01_07_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">30</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damageType">flame</item-attribute>
-      <item-attribute type="skill">Flame</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>debuff</item-keyword>
-      <item-keyword>skill_use_magic_flame</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Sear I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">9</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (30)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (3)</tier-attribute>
-        <tier-attribute type="damage">7-10</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">30</resource-min>
-          <resource-opt amount="3">130</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Sear II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (230)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (23)</tier-attribute>
-        <tier-attribute type="damage">28-38</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">230</resource-min>
-          <resource-opt amount="3">355</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">230</resource-min>
-          <resource-opt amount="5">355</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Sear III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (430)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (43)</tier-attribute>
-        <tier-attribute type="damage">48-67</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">430</resource-min>
-          <resource-opt amount="3">580</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">430</resource-min>
-          <resource-opt amount="5">580</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Sear IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (630)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (63)</tier-attribute>
-        <tier-attribute type="damage">68-95</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">630</resource-min>
-          <resource-opt amount="3">805</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">630</resource-min>
-          <resource-opt amount="5">805</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Sear V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Flame (830)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (83)</tier-attribute>
-        <tier-attribute type="damage">89-124</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">830</resource-min>
-          <resource-opt amount="3">1030</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">830</resource-min>
-          <resource-opt amount="5">1030</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">300</resource-min>
+					<resource-opt amount="9">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Burning Hands</item-name>
+		<item-icon>icon_formula_s_01_08_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">20</item-attribute>
+			<item-attribute type="castDelay">48</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Burning Hands I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (130)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (13)</tier-attribute>
+				<tier-attribute type="damage">29-36</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">130</resource-min>
+					<resource-opt amount="5">230</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Burning Hands II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (330)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (33)</tier-attribute>
+				<tier-attribute type="damage">63-78</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">330</resource-min>
+					<resource-opt amount="5">455</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">330</resource-min>
+					<resource-opt amount="9">455</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Burning Hands III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (530)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (53)</tier-attribute>
+				<tier-attribute type="damage">97-120</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">530</resource-min>
+					<resource-opt amount="5">680</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">530</resource-min>
+					<resource-opt amount="9">680</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Burning Hands IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (730)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (73)</tier-attribute>
+				<tier-attribute type="damage">131-162</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">730</resource-min>
+					<resource-opt amount="5">905</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">730</resource-min>
+					<resource-opt amount="9">905</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Burning Hands V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Monstrous hands of flame strike a single target.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">450</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (930)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (93)</tier-attribute>
+				<tier-attribute type="damage">165-204</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">930</resource-min>
+					<resource-opt amount="5">1030</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">930</resource-min>
+					<resource-opt amount="9">1030</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fiery Strike</item-name>
+		<item-icon>icon_formula_s_01_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">15</item-attribute>
+			<item-attribute type="castDelay">55</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fiery Strike I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A large fiery claw attacks the target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (180)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (18)</tier-attribute>
+				<tier-attribute type="damage">47-56</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">180</resource-min>
+					<resource-opt amount="6">280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fiery Strike II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A large fiery claw attacks the target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (380)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (38)</tier-attribute>
+				<tier-attribute type="damage">90-107</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">380</resource-min>
+					<resource-opt amount="6">505</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">380</resource-min>
+					<resource-opt amount="11">505</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fiery Strike III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A large fiery claw attacks the target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (580)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (58)</tier-attribute>
+				<tier-attribute type="damage">133-157</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">580</resource-min>
+					<resource-opt amount="6">730</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">580</resource-min>
+					<resource-opt amount="11">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fiery Strike IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A large fiery claw attacks the target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (780)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (78)</tier-attribute>
+				<tier-attribute type="damage">175-208</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">780</resource-min>
+					<resource-opt amount="6">955</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">780</resource-min>
+					<resource-opt amount="11">955</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fiery Strike V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A large fiery claw attacks the target.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (980)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (98)</tier-attribute>
+				<tier-attribute type="damage">218-259</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">980</resource-min>
+					<resource-opt amount="6">1180</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">980</resource-min>
+					<resource-opt amount="11">1180</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flame Attack</item-name>
+		<item-icon>icon_formula_s_01_11_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">30</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>buff</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flame Attack I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (70) or Summoning (50)</tier-attribute>
+				<tier-attribute type="effect">Flame Attack I</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">70</resource-min>
+					<resource-opt amount="4">170</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Attack II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (270) or Summoning (250)</tier-attribute>
+				<tier-attribute type="effect">Flame Attack II</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">270</resource-min>
+					<resource-opt amount="4">395</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">270</resource-min>
+					<resource-opt amount="7">395</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Attack III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (470) or Summoning (450)</tier-attribute>
+				<tier-attribute type="effect">Flame Attack III</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">470</resource-min>
+					<resource-opt amount="4">620</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">470</resource-min>
+					<resource-opt amount="7">620</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Attack IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (670) or Summoning (650)</tier-attribute>
+				<tier-attribute type="effect">Flame Attack IV</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">670</resource-min>
+					<resource-opt amount="4">845</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">670</resource-min>
+					<resource-opt amount="7">845</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Attack V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Infuses the target's weapon with searing flames.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (870) or Summoning (850)</tier-attribute>
+				<tier-attribute type="effect">Flame Attack V</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="effectConvertDamage">Converts damage to flame</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">870</resource-min>
+					<resource-opt amount="4">1070</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">870</resource-min>
+					<resource-opt amount="7">1070</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flame Bolt</item-name>
+		<item-icon>icon_formula_s_01_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">45</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>repeatable</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flame Bolt I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A concentrated bolt of fire.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">9</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="damage">4-7</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="3">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Bolt II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A concentrated bolt of fire.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (200)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="damage">21-34</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">200</resource-min>
+					<resource-opt amount="5">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Bolt III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A concentrated bolt of fire.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (400)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="damage">37-60</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="3">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">400</resource-min>
+					<resource-opt amount="5">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Bolt IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A concentrated bolt of fire.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (600)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="damage">52-85</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="3">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">600</resource-min>
+					<resource-opt amount="5">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Bolt V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A concentrated bolt of fire.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (800)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="damage">66-108</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="3">1000</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">800</resource-min>
+					<resource-opt amount="5">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flame Bomb</item-name>
+		<item-icon>icon_formula_s_01_12_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">35</item-attribute>
+			<item-attribute type="castDelay">45</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+			<item-attribute type="area">7</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>aoe</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flame Bomb I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (120)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (12)</tier-attribute>
+				<tier-attribute type="damage">16-23</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">120</resource-min>
+					<resource-opt amount="5">220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Bomb II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (320)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (32)</tier-attribute>
+				<tier-attribute type="damage">37-51</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">320</resource-min>
+					<resource-opt amount="5">445</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">320</resource-min>
+					<resource-opt amount="9">445</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Bomb III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (520)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (52)</tier-attribute>
+				<tier-attribute type="damage">57-80</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">520</resource-min>
+					<resource-opt amount="5">670</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">520</resource-min>
+					<resource-opt amount="9">670</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Bomb IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (720)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (72)</tier-attribute>
+				<tier-attribute type="damage">78-108</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">720</resource-min>
+					<resource-opt amount="5">895</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">720</resource-min>
+					<resource-opt amount="9">895</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Bomb V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Launches an exploding ball of flames at a distant area.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (920)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (92)</tier-attribute>
+				<tier-attribute type="damage">98-136</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">920</resource-min>
+					<resource-opt amount="5">1120</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">920</resource-min>
+					<resource-opt amount="9">1120</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flame Resistance</item-name>
+		<item-icon>icon_formula_s_01_10_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">30</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>buff</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flame Resistance I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (50)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance I</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">50</resource-min>
+					<resource-opt amount="4">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Resistance II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (250)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance II</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+38 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">250</resource-min>
+					<resource-opt amount="4">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">250</resource-min>
+					<resource-opt amount="7">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Resistance III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (450)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance III</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+68 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">450</resource-min>
+					<resource-opt amount="4">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">450</resource-min>
+					<resource-opt amount="7">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Resistance IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (650)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance IV</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+98 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">650</resource-min>
+					<resource-opt amount="7">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Resistance V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Acclimates the target's body to high temperatures, reducing damage from flame attacks.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (850)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance V</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+128 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">850</resource-min>
+					<resource-opt amount="4">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">850</resource-min>
+					<resource-opt amount="7">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flame Ward</item-name>
+		<item-icon>icon_formula_s_01_13_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">30</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>buff</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flame Ward  I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (80)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
+				<tier-attribute type="effect">Flame Ward I</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+20 Flame Ward</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">80</resource-min>
+					<resource-opt amount="4">180</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Ward II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (280)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
+				<tier-attribute type="effect">Flame Ward II</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+70 Flame Ward</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">280</resource-min>
+					<resource-opt amount="4">405</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">280</resource-min>
+					<resource-opt amount="7">405</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Ward III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (480)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
+				<tier-attribute type="effect">Flame Ward III</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+120 Flame Ward</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">480</resource-min>
+					<resource-opt amount="4">630</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">480</resource-min>
+					<resource-opt amount="7">630</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Ward IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (680)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
+				<tier-attribute type="effect">Flame Ward IV</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+170 Flame Ward</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">680</resource-min>
+					<resource-opt amount="4">855</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">680</resource-min>
+					<resource-opt amount="7">855</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Ward V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Increases the chance that incoming flame attacks will fail entirely.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (880)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
+				<tier-attribute type="effect">Flame Ward V</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+220 Flame Ward</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">880</resource-min>
+					<resource-opt amount="4">1080</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">880</resource-min>
+					<resource-opt amount="7">1080</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flame Wave</item-name>
+		<item-icon>icon_formula_s_01_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flame Wave I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A wave of flames crashes down upon the target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (50)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="damage">15-20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">50</resource-min>
+					<resource-opt amount="4">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Wave II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A wave of flames crashes down upon the target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (250)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="damage">43-58</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">250</resource-min>
+					<resource-opt amount="4">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">250</resource-min>
+					<resource-opt amount="7">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Wave III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A wave of flames crashes down upon the target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (450)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="damage">70-95</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">450</resource-min>
+					<resource-opt amount="4">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">450</resource-min>
+					<resource-opt amount="7">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Wave IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A wave of flames crashes down upon the target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (650)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="damage">96-131</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">650</resource-min>
+					<resource-opt amount="7">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Wave V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A wave of flames crashes down upon the target.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (850)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="damage">122-167</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">850</resource-min>
+					<resource-opt amount="4">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">850</resource-min>
+					<resource-opt amount="7">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Immolate</item-name>
+		<item-icon>icon_formula_s_01_05_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">35</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>overtime</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Immolate I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">9</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (20)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">20</resource-min>
+					<resource-opt amount="3">120</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Immolate II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (220)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">220</resource-min>
+					<resource-opt amount="3">345</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">220</resource-min>
+					<resource-opt amount="5">345</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Immolate III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (420)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">420</resource-min>
+					<resource-opt amount="3">570</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">420</resource-min>
+					<resource-opt amount="5">570</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Immolate IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (620)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">620</resource-min>
+					<resource-opt amount="3">795</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">620</resource-min>
+					<resource-opt amount="5">795</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Immolate V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Envelopes the target in dancing flames, which cause additional burning damage over time.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (820)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">820</resource-min>
+					<resource-opt amount="3">1020</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">820</resource-min>
+					<resource-opt amount="5">1020</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Improved Flame Bolt</item-name>
+		<item-icon>icon_formula_s_01_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">45</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>repeatable</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Improved Flame Bolt I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (100)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="damage">13-20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Flame Bolt II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (300)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="damage">29-46</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">300</resource-min>
+					<resource-opt amount="9">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Flame Bolt III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (500)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="damage">44-72</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="5">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">500</resource-min>
+					<resource-opt amount="9">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Flame Bolt IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (700)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="damage">58-96</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="5">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">700</resource-min>
+					<resource-opt amount="9">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Flame Bolt V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>This is a more powerful version of the previous flame bolt.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (900)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="damage">71-119</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="5">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">900</resource-min>
+					<resource-opt amount="9">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Improved Flame Wave</item-name>
+		<item-icon>icon_formula_s_01_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Improved Flame Wave I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (150)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="damage">29-39</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">150</resource-min>
+					<resource-opt amount="6">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Flame Wave II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (350)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="damage">56-76</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">350</resource-min>
+					<resource-opt amount="6">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">350</resource-min>
+					<resource-opt amount="11">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Flame Wave III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (550)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="damage">83-113</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">550</resource-min>
+					<resource-opt amount="6">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">550</resource-min>
+					<resource-opt amount="11">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Flame Wave IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (750)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="damage">108-148</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">750</resource-min>
+					<resource-opt amount="6">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">750</resource-min>
+					<resource-opt amount="11">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Flame Wave V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>This is a more powerful version of the original flame wave.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (950)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="damage">133-183</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">950</resource-min>
+					<resource-opt amount="6">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">950</resource-min>
+					<resource-opt amount="11">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Sear</item-name>
+		<item-icon>icon_formula_s_01_07_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">30</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="skill">Flame</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>debuff</item-keyword>
+			<item-keyword>skill_use_magic_flame</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Sear I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">9</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (30)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (3)</tier-attribute>
+				<tier-attribute type="damage">7-10</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">30</resource-min>
+					<resource-opt amount="3">130</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sear II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (230)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (23)</tier-attribute>
+				<tier-attribute type="damage">28-38</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">230</resource-min>
+					<resource-opt amount="3">355</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">230</resource-min>
+					<resource-opt amount="5">355</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sear III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (430)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (43)</tier-attribute>
+				<tier-attribute type="damage">48-67</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">430</resource-min>
+					<resource-opt amount="3">580</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">430</resource-min>
+					<resource-opt amount="5">580</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sear IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (630)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (63)</tier-attribute>
+				<tier-attribute type="damage">68-95</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">630</resource-min>
+					<resource-opt amount="3">805</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">630</resource-min>
+					<resource-opt amount="5">805</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sear V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Burns the target and lowers resistance to future flame attacks.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Flame (830)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (83)</tier-attribute>
+				<tier-attribute type="damage">89-124</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">830</resource-min>
+					<resource-opt amount="3">1030</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">830</resource-min>
+					<resource-opt amount="5">1030</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

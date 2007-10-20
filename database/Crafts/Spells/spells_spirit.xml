@@ -1,1734 +1,1730 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Spells - Spirit</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Spells</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Blood Bolt</item-name>
-    <item-icon>icon_formula_s_03_15_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">BLDM</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">40</item-attribute>
-      <item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
-      <item-attribute type="skill">Spirit</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_2</item-keyword>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>repeatable</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Blood Bolt I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>The caster uses some of his life energy to open a direct channel to the target, then sends damaging energy through the channel.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (200)</tier-attribute>
-        <tier-attribute type="damage">25-30</tier-attribute>
-        <tier-attribute type="takeDamage">3-3 spirit (Direct)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">200</resource-min>
-          <resource-opt amount="3">325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">200</resource-min>
-          <resource-opt amount="5">325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blood Bolt II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>The caster uses some of his life energy to open a direct channel to the target, then sends damaging energy through the channel.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (400)</tier-attribute>
-        <tier-attribute type="damage">50-55</tier-attribute>
-        <tier-attribute type="takeDamage">10-10 spirit (Direct)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">400</resource-min>
-          <resource-opt amount="3">550</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">400</resource-min>
-          <resource-opt amount="5">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blood Bolt III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>The caster uses some of his life energy to open a direct channel to the target, then sends damaging energy through the channel.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (600)</tier-attribute>
-        <tier-attribute type="damage">70-80</tier-attribute>
-        <tier-attribute type="takeDamage">15-15 spirit (Direct)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">600</resource-min>
-          <resource-opt amount="3">775</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">600</resource-min>
-          <resource-opt amount="5">775</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blood Bolt IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>The caster uses some of his life energy to open a direct channel to the target, then sends damaging energy through the channel.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (800)</tier-attribute>
-        <tier-attribute type="damage">90-100</tier-attribute>
-        <tier-attribute type="takeDamage">20-20 spirit (Direct)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">800</resource-min>
-          <resource-opt amount="3">1000</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">800</resource-min>
-          <resource-opt amount="5">1000</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ethereal Leech</item-name>
-    <item-icon>icon_formula_s_03_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
-      <item-attribute type="skill">Spirit</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>mystic</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>overtime</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>drain</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Ethereal Leech I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">15</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (100)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="5">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ethereal Leech II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (300)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">300</resource-min>
-          <resource-opt amount="5">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">300</resource-min>
-          <resource-opt amount="9">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ethereal Leech III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (500)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="5">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">500</resource-min>
-          <resource-opt amount="9">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ethereal Leech IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (700)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">700</resource-min>
-          <resource-opt amount="5">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">700</resource-min>
-          <resource-opt amount="9">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ethereal Leech V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">720</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (900)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">900</resource-min>
-          <resource-opt amount="5">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">900</resource-min>
-          <resource-opt amount="9">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ethereal Paroxysm</item-name>
-    <item-icon>icon_formula_s_03_07_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
-      <item-attribute type="skill">Spirit</item-attribute>
-      <item-attribute type="area">5</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>mystic</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>drain</item-keyword>
-      <item-keyword>aoe</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Ethereal Paroxysm I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (150)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">150</resource-min>
-          <resource-opt amount="6">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ethereal Paroxysm II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (350)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">350</resource-min>
-          <resource-opt amount="6">475</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">350</resource-min>
-          <resource-opt amount="11">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ethereal Paroxysm III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (550)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">550</resource-min>
-          <resource-opt amount="6">700</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">550</resource-min>
-          <resource-opt amount="11">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ethereal Paroxysm IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (750)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">750</resource-min>
-          <resource-opt amount="6">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">750</resource-min>
-          <resource-opt amount="11">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ethereal Paroxysm V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (950)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">950</resource-min>
-          <resource-opt amount="6">1150</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">950</resource-min>
-          <resource-opt amount="11">1150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Improved Spirit Bolt</item-name>
-    <item-icon>icon_formula_s_03_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">40</item-attribute>
-      <item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
-      <item-attribute type="skill">Spirit</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>repeatable</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Improved Spirit Bolt I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">15</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (100)</tier-attribute>
-        <tier-attribute type="damage">10-12</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="5">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Spirit Bolt II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (300)</tier-attribute>
-        <tier-attribute type="damage">23-27</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">300</resource-min>
-          <resource-opt amount="5">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">300</resource-min>
-          <resource-opt amount="9">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Spirit Bolt III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (500)</tier-attribute>
-        <tier-attribute type="damage">34-40</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="5">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">500</resource-min>
-          <resource-opt amount="9">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Spirit Bolt IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (700)</tier-attribute>
-        <tier-attribute type="damage">45-53</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">700</resource-min>
-          <resource-opt amount="5">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">700</resource-min>
-          <resource-opt amount="9">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Spirit Bolt V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">720</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (900)</tier-attribute>
-        <tier-attribute type="damage">54-64</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">900</resource-min>
-          <resource-opt amount="5">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">900</resource-min>
-          <resource-opt amount="9">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Improved Theft of Life</item-name>
-    <item-icon>icon_formula_s_03_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">40</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damageType">spirit</item-attribute>
-      <item-attribute type="skill">Spirit</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>mystic</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>drain</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Improved Theft of Life I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (150)</tier-attribute>
-        <tier-attribute type="damage">32-34</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">150</resource-min>
-          <resource-opt amount="6">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Theft of Life II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (350)</tier-attribute>
-        <tier-attribute type="damage">63-67</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">350</resource-min>
-          <resource-opt amount="6">475</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">350</resource-min>
-          <resource-opt amount="11">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Theft of Life III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (550)</tier-attribute>
-        <tier-attribute type="damage">93-99</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">550</resource-min>
-          <resource-opt amount="6">700</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">550</resource-min>
-          <resource-opt amount="11">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Theft of Life IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (750)</tier-attribute>
-        <tier-attribute type="damage">122-130</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">750</resource-min>
-          <resource-opt amount="6">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">750</resource-min>
-          <resource-opt amount="11">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Improved Theft of Life V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (950)</tier-attribute>
-        <tier-attribute type="damage">150-160</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">950</resource-min>
-          <resource-opt amount="6">1150</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">950</resource-min>
-          <resource-opt amount="11">1150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Self-Sacrificium</item-name>
-    <item-icon>icon_formula_s_03_10_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">BLDM, SPRD, STMD, SHMN, SPRT</item-attribute>
-      <item-attribute type="range">35</item-attribute>
-      <item-attribute type="castDelay">35</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="skill">Spirit</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>heal_take_damage</item-keyword>
-      <item-keyword>mystic</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Self-Sacrificium I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">15</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (100)</tier-attribute>
-        <tier-attribute type="healAmount">99-132</tier-attribute>
-        <tier-attribute type="takeDamage">43-57 spirit (Ethereal)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="5">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Self-Sacrificium II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (300)</tier-attribute>
-        <tier-attribute type="healAmount">252-308</tier-attribute>
-        <tier-attribute type="takeDamage">105-140 spirit (Ethereal)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">300</resource-min>
-          <resource-opt amount="5">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">300</resource-min>
-          <resource-opt amount="9">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Self-Sacrificium III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (500)</tier-attribute>
-        <tier-attribute type="healAmount">384-440</tier-attribute>
-        <tier-attribute type="takeDamage">155-206 spirit (Ethereal)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="5">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">500</resource-min>
-          <resource-opt amount="9">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Self-Sacrificium IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (700)</tier-attribute>
-        <tier-attribute type="healAmount">540-660</tier-attribute>
-        <tier-attribute type="takeDamage">225-300 spirit (Ethereal)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">700</resource-min>
-          <resource-opt amount="5">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">700</resource-min>
-          <resource-opt amount="9">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Self-Sacrificium V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">720</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (900)</tier-attribute>
-        <tier-attribute type="healAmount">684-836</tier-attribute>
-        <tier-attribute type="takeDamage">285-380 spirit (Ethereal)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">900</resource-min>
-          <resource-opt amount="5">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">900</resource-min>
-          <resource-opt amount="9">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Soul Shield</item-name>
-    <item-icon>icon_formula_s_03_04_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>mystic</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>buff</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>statmod_etherealarmor_up</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Soul Shield I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Provides armor against ethereal damage.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (150)</tier-attribute>
-        <tier-attribute type="effect">Soul Shield I</tier-attribute>
-        <tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
-        <tier-attribute type="effectStatBonus">+35 Ethereal Armor</tier-attribute>
-        <tier-attribute type="effectDuration">05:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">150</resource-min>
-          <resource-opt amount="6">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Soul Shield II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Provides armor against ethereal damage.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (350)</tier-attribute>
-        <tier-attribute type="effect">Soul Shield II</tier-attribute>
-        <tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
-        <tier-attribute type="effectStatBonus">+70 Ethereal Armor</tier-attribute>
-        <tier-attribute type="effectDuration">05:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">350</resource-min>
-          <resource-opt amount="6">475</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">350</resource-min>
-          <resource-opt amount="11">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Soul Shield III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Provides armor against ethereal damage.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (550)</tier-attribute>
-        <tier-attribute type="effect">Soul Shield III</tier-attribute>
-        <tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
-        <tier-attribute type="effectStatBonus">+105 Ethereal Armor</tier-attribute>
-        <tier-attribute type="effectDuration">05:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">550</resource-min>
-          <resource-opt amount="6">700</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">550</resource-min>
-          <resource-opt amount="11">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Soul Shield IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Provides armor against ethereal damage.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (750)</tier-attribute>
-        <tier-attribute type="effect">Soul Shield IV</tier-attribute>
-        <tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
-        <tier-attribute type="effectStatBonus">+140 Ethereal Armor</tier-attribute>
-        <tier-attribute type="effectDuration">05:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">750</resource-min>
-          <resource-opt amount="6">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">750</resource-min>
-          <resource-opt amount="11">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Soul Shield V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Provides armor against ethereal damage.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (950)</tier-attribute>
-        <tier-attribute type="effect">Soul Shield V</tier-attribute>
-        <tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
-        <tier-attribute type="effectStatBonus">+175 Ethereal Armor</tier-attribute>
-        <tier-attribute type="effectDuration">05:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">950</resource-min>
-          <resource-opt amount="6">1150</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">950</resource-min>
-          <resource-opt amount="11">1150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Spirit Bolt</item-name>
-    <item-icon>icon_formula_s_03_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">40</item-attribute>
-      <item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
-      <item-attribute type="skill">Spirit</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>repeatable</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Spirit Bolt I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This bolt does ethereal damage to a target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">9</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (1)</tier-attribute>
-        <tier-attribute type="damage">3-5</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">1</resource-min>
-          <resource-opt amount="3">100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Spirit Bolt II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This bolt does ethereal damage to a target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (200)</tier-attribute>
-        <tier-attribute type="damage">16-20</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">200</resource-min>
-          <resource-opt amount="3">325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">200</resource-min>
-          <resource-opt amount="5">325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Spirit Bolt III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This bolt does ethereal damage to a target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (400)</tier-attribute>
-        <tier-attribute type="damage">29-35</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">400</resource-min>
-          <resource-opt amount="3">550</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">400</resource-min>
-          <resource-opt amount="5">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Spirit Bolt IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This bolt does ethereal damage to a target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (600)</tier-attribute>
-        <tier-attribute type="damage">40-48</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">600</resource-min>
-          <resource-opt amount="3">775</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">600</resource-min>
-          <resource-opt amount="5">775</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Spirit Bolt V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>This bolt does ethereal damage to a target.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (800)</tier-attribute>
-        <tier-attribute type="damage">50-60</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="3">800</resource-min>
-          <resource-opt amount="3">1000</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="10">800</resource-min>
-          <resource-opt amount="5">1000</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Spirit Resistance</item-name>
-    <item-icon>icon_formula_s_03_08_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">30</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>buff</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Spirit Resistance I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (50)</tier-attribute>
-        <tier-attribute type="effect">Spirit Resistance I</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+8 Spirit Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">50</resource-min>
-          <resource-opt amount="4">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Spirit Resistance II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (250)</tier-attribute>
-        <tier-attribute type="effect">Spirit Resistance II</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+38 Spirit Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">250</resource-min>
-          <resource-opt amount="4">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">250</resource-min>
-          <resource-opt amount="7">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Spirit Resistance III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (450)</tier-attribute>
-        <tier-attribute type="effect">Spirit Resistance III</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+68 Spirit Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">450</resource-min>
-          <resource-opt amount="4">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">450</resource-min>
-          <resource-opt amount="7">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Spirit Resistance IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (650)</tier-attribute>
-        <tier-attribute type="effect">Spirit Resistance IV</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+98 Spirit Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">650</resource-min>
-          <resource-opt amount="7">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Spirit Resistance V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (850)</tier-attribute>
-        <tier-attribute type="effect">Spirit Resistance V</tier-attribute>
-        <tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+128 Spirit Resistance</tier-attribute>
-        <tier-attribute type="effectDuration">15:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">850</resource-min>
-          <resource-opt amount="4">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">850</resource-min>
-          <resource-opt amount="7">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Theft of Life</item-name>
-    <item-icon>icon_formula_s_03_05_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">40</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damageType">spirit</item-attribute>
-      <item-attribute type="skill">Spirit</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>mystic</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>skill_use_magic_spirit</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>damage</item-keyword>
-      <item-keyword>drain</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Theft of Life I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (50)</tier-attribute>
-        <tier-attribute type="damage">16-18</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">50</resource-min>
-          <resource-opt amount="4">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Theft of Life II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (250)</tier-attribute>
-        <tier-attribute type="damage">48-52</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">250</resource-min>
-          <resource-opt amount="4">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">250</resource-min>
-          <resource-opt amount="7">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Theft of Life III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (450)</tier-attribute>
-        <tier-attribute type="damage">78-84</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">450</resource-min>
-          <resource-opt amount="4">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">450</resource-min>
-          <resource-opt amount="7">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Theft of Life IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (650)</tier-attribute>
-        <tier-attribute type="damage">108-116</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">650</resource-min>
-          <resource-opt amount="7">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Theft of Life V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Spirit (850)</tier-attribute>
-        <tier-attribute type="damage">137-147</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">850</resource-min>
-          <resource-opt amount="4">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">850</resource-min>
-          <resource-opt amount="7">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+	<formulaset-name>Spells - Spirit</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Spells</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Blood Bolt</item-name>
+		<item-icon>icon_formula_s_03_15_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">BLDM</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">40</item-attribute>
+			<item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
+			<item-attribute type="skill">Spirit</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_2</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>repeatable</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Blood Bolt I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>The caster uses some of his life energy to open a direct channel to the target, then sends damaging energy through the channel.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (200)</tier-attribute>
+				<tier-attribute type="damage">25-30</tier-attribute>
+				<tier-attribute type="takeDamage">3-3 spirit (Direct)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">200</resource-min>
+					<resource-opt amount="5">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blood Bolt II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>The caster uses some of his life energy to open a direct channel to the target, then sends damaging energy through the channel.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (400)</tier-attribute>
+				<tier-attribute type="damage">50-55</tier-attribute>
+				<tier-attribute type="takeDamage">10-10 spirit (Direct)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="3">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">400</resource-min>
+					<resource-opt amount="5">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blood Bolt III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>The caster uses some of his life energy to open a direct channel to the target, then sends damaging energy through the channel.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (600)</tier-attribute>
+				<tier-attribute type="damage">70-80</tier-attribute>
+				<tier-attribute type="takeDamage">15-15 spirit (Direct)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="3">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">600</resource-min>
+					<resource-opt amount="5">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blood Bolt IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>The caster uses some of his life energy to open a direct channel to the target, then sends damaging energy through the channel.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (800)</tier-attribute>
+				<tier-attribute type="damage">90-100</tier-attribute>
+				<tier-attribute type="takeDamage">20-20 spirit (Direct)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="3">1000</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">800</resource-min>
+					<resource-opt amount="5">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ethereal Leech</item-name>
+		<item-icon>icon_formula_s_03_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
+			<item-attribute type="skill">Spirit</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>mystic</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>overtime</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>drain</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Ethereal Leech I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (100)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Leech II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (300)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">300</resource-min>
+					<resource-opt amount="9">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Leech III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (500)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="5">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">500</resource-min>
+					<resource-opt amount="9">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Leech IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (700)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="5">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">700</resource-min>
+					<resource-opt amount="9">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Leech V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Replenishes the caster's health by drawing life force from another.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (900)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="5">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">900</resource-min>
+					<resource-opt amount="9">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ethereal Paroxysm</item-name>
+		<item-icon>icon_formula_s_03_07_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
+			<item-attribute type="skill">Spirit</item-attribute>
+			<item-attribute type="area">5</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>mystic</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>drain</item-keyword>
+			<item-keyword>aoe</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Ethereal Paroxysm I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (150)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">150</resource-min>
+					<resource-opt amount="6">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Paroxysm II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (350)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">350</resource-min>
+					<resource-opt amount="6">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">350</resource-min>
+					<resource-opt amount="11">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Paroxysm III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (550)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">550</resource-min>
+					<resource-opt amount="6">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">550</resource-min>
+					<resource-opt amount="11">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Paroxysm IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (750)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">750</resource-min>
+					<resource-opt amount="6">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">750</resource-min>
+					<resource-opt amount="11">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Paroxysm V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (950)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">950</resource-min>
+					<resource-opt amount="6">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">950</resource-min>
+					<resource-opt amount="11">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Improved Spirit Bolt</item-name>
+		<item-icon>icon_formula_s_03_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">40</item-attribute>
+			<item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
+			<item-attribute type="skill">Spirit</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>repeatable</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Improved Spirit Bolt I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (100)</tier-attribute>
+				<tier-attribute type="damage">10-12</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Spirit Bolt II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (300)</tier-attribute>
+				<tier-attribute type="damage">23-27</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">300</resource-min>
+					<resource-opt amount="9">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Spirit Bolt III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (500)</tier-attribute>
+				<tier-attribute type="damage">34-40</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="5">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">500</resource-min>
+					<resource-opt amount="9">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Spirit Bolt IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (700)</tier-attribute>
+				<tier-attribute type="damage">45-53</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="5">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">700</resource-min>
+					<resource-opt amount="9">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Spirit Bolt V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Spirit Bolt.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (900)</tier-attribute>
+				<tier-attribute type="damage">54-64</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="5">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">900</resource-min>
+					<resource-opt amount="9">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Improved Theft of Life</item-name>
+		<item-icon>icon_formula_s_03_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">40</item-attribute>
+			<item-attribute type="damageType">spirit</item-attribute>
+			<item-attribute type="skill">Spirit</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>mystic</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>drain</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Improved Theft of Life I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (150)</tier-attribute>
+				<tier-attribute type="damage">32-34</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">150</resource-min>
+					<resource-opt amount="6">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Theft of Life II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (350)</tier-attribute>
+				<tier-attribute type="damage">63-67</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">350</resource-min>
+					<resource-opt amount="6">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">350</resource-min>
+					<resource-opt amount="11">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Theft of Life III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (550)</tier-attribute>
+				<tier-attribute type="damage">93-99</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">550</resource-min>
+					<resource-opt amount="6">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">550</resource-min>
+					<resource-opt amount="11">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Theft of Life IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (750)</tier-attribute>
+				<tier-attribute type="damage">122-130</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">750</resource-min>
+					<resource-opt amount="6">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">750</resource-min>
+					<resource-opt amount="11">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Theft of Life V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>This is a more powerful version of the original Theft of Life.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (950)</tier-attribute>
+				<tier-attribute type="damage">150-160</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">950</resource-min>
+					<resource-opt amount="6">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">950</resource-min>
+					<resource-opt amount="11">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Self-Sacrificium</item-name>
+		<item-icon>icon_formula_s_03_10_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">BLDM, SPRD, STMD, SHMN, SPRT</item-attribute>
+			<item-attribute type="range">35</item-attribute>
+			<item-attribute type="castDelay">35</item-attribute>
+			<item-attribute type="skill">Spirit</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>heal_take_damage</item-keyword>
+			<item-keyword>mystic</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Self-Sacrificium I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (100)</tier-attribute>
+				<tier-attribute type="healAmount">99-132</tier-attribute>
+				<tier-attribute type="takeDamage">43-57 spirit (Ethereal)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Self-Sacrificium II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (300)</tier-attribute>
+				<tier-attribute type="healAmount">252-308</tier-attribute>
+				<tier-attribute type="takeDamage">105-140 spirit (Ethereal)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">300</resource-min>
+					<resource-opt amount="9">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Self-Sacrificium III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (500)</tier-attribute>
+				<tier-attribute type="healAmount">384-440</tier-attribute>
+				<tier-attribute type="takeDamage">155-206 spirit (Ethereal)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="5">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">500</resource-min>
+					<resource-opt amount="9">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Self-Sacrificium IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (700)</tier-attribute>
+				<tier-attribute type="healAmount">540-660</tier-attribute>
+				<tier-attribute type="takeDamage">225-300 spirit (Ethereal)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="5">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">700</resource-min>
+					<resource-opt amount="9">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Self-Sacrificium V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Transfers a portion of the caster's life force into the target, restoring the target's health.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (900)</tier-attribute>
+				<tier-attribute type="healAmount">684-836</tier-attribute>
+				<tier-attribute type="takeDamage">285-380 spirit (Ethereal)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="5">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">900</resource-min>
+					<resource-opt amount="9">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Soul Shield</item-name>
+		<item-icon>icon_formula_s_03_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>mystic</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>buff</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>statmod_etherealarmor_up</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Soul Shield I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Provides armor against ethereal damage.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (150)</tier-attribute>
+				<tier-attribute type="effect">Soul Shield I</tier-attribute>
+				<tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+35 Ethereal Armor</tier-attribute>
+				<tier-attribute type="effectDuration">05:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">150</resource-min>
+					<resource-opt amount="6">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Soul Shield II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Provides armor against ethereal damage.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (350)</tier-attribute>
+				<tier-attribute type="effect">Soul Shield II</tier-attribute>
+				<tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+70 Ethereal Armor</tier-attribute>
+				<tier-attribute type="effectDuration">05:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">350</resource-min>
+					<resource-opt amount="6">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">350</resource-min>
+					<resource-opt amount="11">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Soul Shield III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Provides armor against ethereal damage.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (550)</tier-attribute>
+				<tier-attribute type="effect">Soul Shield III</tier-attribute>
+				<tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+105 Ethereal Armor</tier-attribute>
+				<tier-attribute type="effectDuration">05:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">550</resource-min>
+					<resource-opt amount="6">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">550</resource-min>
+					<resource-opt amount="11">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Soul Shield IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Provides armor against ethereal damage.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (750)</tier-attribute>
+				<tier-attribute type="effect">Soul Shield IV</tier-attribute>
+				<tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+140 Ethereal Armor</tier-attribute>
+				<tier-attribute type="effectDuration">05:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">750</resource-min>
+					<resource-opt amount="6">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">750</resource-min>
+					<resource-opt amount="11">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Soul Shield V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Provides armor against ethereal damage.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (950)</tier-attribute>
+				<tier-attribute type="effect">Soul Shield V</tier-attribute>
+				<tier-attribute type="effectDescription">Increases ethereal armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+175 Ethereal Armor</tier-attribute>
+				<tier-attribute type="effectDuration">05:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">950</resource-min>
+					<resource-opt amount="6">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">950</resource-min>
+					<resource-opt amount="11">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Spirit Bolt</item-name>
+		<item-icon>icon_formula_s_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">40</item-attribute>
+			<item-attribute type="damageType">spirit (Damage is ethereal)</item-attribute>
+			<item-attribute type="skill">Spirit</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>repeatable</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Spirit Bolt I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This bolt does ethereal damage to a target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">9</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (1)</tier-attribute>
+				<tier-attribute type="damage">3-5</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="3">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Bolt II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This bolt does ethereal damage to a target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (200)</tier-attribute>
+				<tier-attribute type="damage">16-20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">200</resource-min>
+					<resource-opt amount="5">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Bolt III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This bolt does ethereal damage to a target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (400)</tier-attribute>
+				<tier-attribute type="damage">29-35</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="3">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">400</resource-min>
+					<resource-opt amount="5">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Bolt IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This bolt does ethereal damage to a target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (600)</tier-attribute>
+				<tier-attribute type="damage">40-48</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="3">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">600</resource-min>
+					<resource-opt amount="5">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Bolt V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>This bolt does ethereal damage to a target.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (800)</tier-attribute>
+				<tier-attribute type="damage">50-60</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="3">1000</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">800</resource-min>
+					<resource-opt amount="5">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Spirit Resistance</item-name>
+		<item-icon>icon_formula_s_03_08_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">30</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>buff</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Spirit Resistance I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (50)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance I</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">50</resource-min>
+					<resource-opt amount="4">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Resistance II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (250)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance II</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+38 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">250</resource-min>
+					<resource-opt amount="4">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">250</resource-min>
+					<resource-opt amount="7">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Resistance III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (450)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance III</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+68 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">450</resource-min>
+					<resource-opt amount="4">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">450</resource-min>
+					<resource-opt amount="7">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Resistance IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (650)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance IV</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+98 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">650</resource-min>
+					<resource-opt amount="7">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Resistance V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Temporarily raises a target's resistance statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (850)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance V</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+128 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectDuration">15:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">850</resource-min>
+					<resource-opt amount="4">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">850</resource-min>
+					<resource-opt amount="7">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Theft of Life</item-name>
+		<item-icon>icon_formula_s_03_05_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">40</item-attribute>
+			<item-attribute type="damageType">spirit</item-attribute>
+			<item-attribute type="skill">Spirit</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>mystic</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>drain</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Theft of Life I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (50)</tier-attribute>
+				<tier-attribute type="damage">16-18</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">50</resource-min>
+					<resource-opt amount="4">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Theft of Life II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (250)</tier-attribute>
+				<tier-attribute type="damage">48-52</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">250</resource-min>
+					<resource-opt amount="4">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">250</resource-min>
+					<resource-opt amount="7">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Theft of Life III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (450)</tier-attribute>
+				<tier-attribute type="damage">78-84</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">450</resource-min>
+					<resource-opt amount="4">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">450</resource-min>
+					<resource-opt amount="7">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Theft of Life IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (650)</tier-attribute>
+				<tier-attribute type="damage">108-116</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">650</resource-min>
+					<resource-opt amount="7">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Theft of Life V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Mystically transfers health from a target to the caster.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (850)</tier-attribute>
+				<tier-attribute type="damage">137-147</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">850</resource-min>
+					<resource-opt amount="4">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">850</resource-min>
+					<resource-opt amount="7">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

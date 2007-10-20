@@ -143,6 +143,148 @@
     </tier>
   </item>
   <item>
+    <item-name>Cooking Knife</item-name>
+    <item-icon>icon_formula_t_26_11.png</item-icon>
+    <item-batchqty>1</item-batchqty>
+    <item-attributes>
+      <item-attribute type="equipSlot">Right Palm</item-attribute>
+      <item-attribute type="bulk">10</item-attribute>
+      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+    </item-attributes>
+    <item-keywords>
+      <item-keyword>techclass_1</item-keyword>
+      <item-keyword>skill_make_metalworking</item-keyword>
+      <item-keyword>skill_use_foraging</item-keyword>
+      <item-keyword>bodyslot_rightpalm</item-keyword>
+      <item-keyword>tool</item-keyword>
+      <item-keyword>resource_metal</item-keyword>
+    </item-keywords>
+    <tier>
+      <tier-name>Bronze Cooking Knife</tier-name>
+      <tier-lvl>1</tier-lvl>
+      <tier-desc> </tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">50</tier-attribute>
+        <tier-attribute type="reqCraftSkill">Cooking[1]</tier-attribute>
+		<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</tier-attribute>
+        <tier-attribute type="statCap">Limits Cooking to 250</tier-attribute>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_1</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Bronze Bar</resource-name>
+          <resource-skill>Metalworking</resource-skill>
+          <resource-min amount="20">100</resource-min>
+          <resource-opt amount="10">200</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Iron Cooking Knife</tier-name>
+      <tier-lvl>2</tier-lvl>
+      <tier-desc></tier-desc>
+      <tier-allowedtechniques>1</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">90</tier-attribute>
+        <tier-attribute type="reqCraftSkill">Cooking[200]</tier-attribute>
+		<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (20)</tier-attribute>
+        <tier-attribute type="statCap">Limits Cooking to 450</tier-attribute>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_2</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Iron Bar</resource-name>
+          <resource-skill>Metalworking</resource-skill>
+          <resource-min amount="20">300</resource-min>
+          <resource-opt amount="10">425</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Steel Cooking Knife</tier-name>
+      <tier-lvl>3</tier-lvl>
+      <tier-desc> </tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">180</tier-attribute>
+        <tier-attribute type="reqCraftSkill">Cooking[400]</tier-attribute>
+		<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (40)</tier-attribute>
+        <tier-attribute type="statCap">Limits Cooking to 650</tier-attribute>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_3</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Steel Bar</resource-name>
+          <resource-skill>Metalworking</resource-skill>
+          <resource-min amount="20">500</resource-min>
+          <resource-opt amount="10">650</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Cobalt Cooking Knife</tier-name>
+      <tier-lvl>4</tier-lvl>
+      <tier-desc> </tier-desc>
+      <tier-allowedtechniques>2</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">360</tier-attribute>
+        <tier-attribute type="reqCraftSkill">Cooking[600]</tier-attribute>
+		<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (60)</tier-attribute>
+        <tier-attribute type="statCap">Limits Cooking to 850</tier-attribute>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_4</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Cobalt Bar</resource-name>
+          <resource-skill>Metalworking</resource-skill>
+          <resource-min amount="20">700</resource-min>
+          <resource-opt amount="10">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+    <tier>
+      <tier-name>Mithril Cooking Knife</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc> </tier-desc>
+      <tier-allowedtechniques>3</tier-allowedtechniques>
+      <tier-attributes>
+        <tier-attribute type="hoardValue">720</tier-attribute>
+        <tier-attribute type="reqCraftSkill">Cooking[800]</tier-attribute>
+		<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (80)</tier-attribute>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>techclass_5</tier-keyword>
+        <tier-keyword>techclass_4</tier-keyword>
+        <tier-keyword>techclass_3</tier-keyword>
+        <tier-keyword>techclass_2</tier-keyword>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Metalworking</resource-skill>
+          <resource-min amount="20">900</resource-min>
+          <resource-opt amount="10">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+  </item>
+  <item>
     <item-name>Fabric Scissors</item-name>
     <item-icon>icon_formula_t_51_11.png</item-icon>
     <item-batchqty>1</item-batchqty>
@@ -1415,7 +1557,6 @@
       <tier-attributes>
         <tier-attribute type="hoardValue">40</tier-attribute>
         <tier-attribute type="reqCraftSkill">Salvaging[1]</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Tinkering[1]</tier-attribute>
         <tier-attribute type="statCap">Limits Salvaging to 250</tier-attribute>
         <tier-attribute type="statBonus">+5 Salvaging</tier-attribute>
       </tier-attributes>

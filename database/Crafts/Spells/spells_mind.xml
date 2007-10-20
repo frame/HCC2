@@ -1,1360 +1,1352 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Spells - Mind</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Spells</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Daunting Mist</item-name>
-    <item-icon>icon_formula_s_09_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">20</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">mind</item-attribute>
-      <item-attribute type="skill">Mind</item-attribute>
-      <item-attribute type="area">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_mind</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>aoe</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Daunting Mist I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (17)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (170)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">170</resource-min>
-          <resource-opt amount="6">270</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Daunting Mist II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (37)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (370)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">370</resource-min>
-          <resource-opt amount="6">495</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">370</resource-min>
-          <resource-opt amount="11">495</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Daunting Mist III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (57)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (570)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">570</resource-min>
-          <resource-opt amount="6">720</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">570</resource-min>
-          <resource-opt amount="11">720</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Daunting Mist IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (77)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (770)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">770</resource-min>
-          <resource-opt amount="6">945</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">770</resource-min>
-          <resource-opt amount="11">945</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Daunting Mist V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (97)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (970)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">970</resource-min>
-          <resource-opt amount="6">1170</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">970</resource-min>
-          <resource-opt amount="11">1170</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Debase</item-name>
-    <item-icon>icon_formula_s_09_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">20</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">mind</item-attribute>
-      <item-attribute type="skill">Mind</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_mind</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>aoe</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Debase I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (150)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">150</resource-min>
-          <resource-opt amount="6">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Debase II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (350)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">350</resource-min>
-          <resource-opt amount="6">475</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">350</resource-min>
-          <resource-opt amount="11">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Debase III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (550)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">550</resource-min>
-          <resource-opt amount="6">700</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">550</resource-min>
-          <resource-opt amount="11">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Debase IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (750)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">750</resource-min>
-          <resource-opt amount="6">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">750</resource-min>
-          <resource-opt amount="11">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Debase V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (950)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="6">950</resource-min>
-          <resource-opt amount="6">1150</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="22">950</resource-min>
-          <resource-opt amount="11">1150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Lessen Focus</item-name>
-    <item-icon>icon_formula_s_07_16_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">mind</item-attribute>
-      <item-attribute type="skill">Mind</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_mind</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>debuff</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Lessen Focus I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Lessens the focus statistic of the target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (50)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">50</resource-min>
-          <resource-opt amount="4">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lessen Focus II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Lessens the focus statistic of the target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (250)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">250</resource-min>
-          <resource-opt amount="4">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">250</resource-min>
-          <resource-opt amount="7">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lessen Focus III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Lessens the focus statistic of the target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (450)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">450</resource-min>
-          <resource-opt amount="4">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">450</resource-min>
-          <resource-opt amount="7">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lessen Focus IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Lessens the focus statistic of the target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (650)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">650</resource-min>
-          <resource-opt amount="7">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lessen Focus V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Lessens the focus statistic of the target.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (850)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">850</resource-min>
-          <resource-opt amount="4">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">850</resource-min>
-          <resource-opt amount="7">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Lessen Power</item-name>
-    <item-icon>icon_formula_s_07_18_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">mind</item-attribute>
-      <item-attribute type="skill">Mind</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_mind</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>debuff</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Lessen Power I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Lessens the maximum power value a target can have</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (50)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">50</resource-min>
-          <resource-opt amount="4">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lessen Power II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Lessens the maximum power value a target can have</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (250)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">250</resource-min>
-          <resource-opt amount="4">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">250</resource-min>
-          <resource-opt amount="7">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lessen Power III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Lessens the maximum power value a target can have</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (450)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">450</resource-min>
-          <resource-opt amount="4">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">450</resource-min>
-          <resource-opt amount="7">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lessen Power IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Lessens the maximum power value a target can have</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (650)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">650</resource-min>
-          <resource-opt amount="7">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lessen Power V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Lessens the maximum power value a target can have</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (850)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">850</resource-min>
-          <resource-opt amount="4">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">850</resource-min>
-          <resource-opt amount="7">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Numbing Haze</item-name>
-    <item-icon>icon_formula_s_09_04_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">20</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">mind</item-attribute>
-      <item-attribute type="skill">Mind</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_mind</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Numbing Haze I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (7)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (70)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">70</resource-min>
-          <resource-opt amount="4">170</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Numbing Haze II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (27)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (270)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">270</resource-min>
-          <resource-opt amount="4">395</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">270</resource-min>
-          <resource-opt amount="7">395</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Numbing Haze III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (47)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (470)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">470</resource-min>
-          <resource-opt amount="4">620</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">470</resource-min>
-          <resource-opt amount="7">620</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Numbing Haze IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (67)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (670)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">670</resource-min>
-          <resource-opt amount="4">845</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">670</resource-min>
-          <resource-opt amount="7">845</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Numbing Haze V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (87)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (870)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">870</resource-min>
-          <resource-opt amount="4">1070</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">870</resource-min>
-          <resource-opt amount="7">1070</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Scatterbrain</item-name>
-    <item-icon>icon_formula_s_07_05_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">mind</item-attribute>
-      <item-attribute type="skill">Mind</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_mind</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>debuff</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Scatterbrain I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Severely hinders the target's ability to focus.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">15</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (100)</tier-attribute>
-        <tier-attribute type="castDelay">20</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="5">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Scatterbrain II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Severely hinders the target's ability to focus.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (300)</tier-attribute>
-        <tier-attribute type="castDelay">20</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">300</resource-min>
-          <resource-opt amount="5">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">300</resource-min>
-          <resource-opt amount="9">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Scatterbrain III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Severely hinders the target's ability to focus.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (500)</tier-attribute>
-        <tier-attribute type="castDelay">50</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="5">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">500</resource-min>
-          <resource-opt amount="9">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Scatterbrain IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Severely hinders the target's ability to focus.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (700)</tier-attribute>
-        <tier-attribute type="castDelay">20</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">700</resource-min>
-          <resource-opt amount="5">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">700</resource-min>
-          <resource-opt amount="9">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Scatterbrain V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Severely hinders the target's ability to focus.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">720</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (900)</tier-attribute>
-        <tier-attribute type="castDelay">20</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">900</resource-min>
-          <resource-opt amount="5">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">900</resource-min>
-          <resource-opt amount="9">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Stupidity</item-name>
-    <item-icon>icon_formula_s_07_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">20</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">mind</item-attribute>
-      <item-attribute type="skill">Mind</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_mind</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>debuff</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Stupidity I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Lowers a target's power attribute.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">15</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (100)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="5">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Stupidity II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Lowers a target's power attribute.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (300)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">300</resource-min>
-          <resource-opt amount="5">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">300</resource-min>
-          <resource-opt amount="9">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Stupidity III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Lowers a target's power attribute.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (500)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="5">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">500</resource-min>
-          <resource-opt amount="9">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Stupidity IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Lowers a target's power attribute.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (700)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">700</resource-min>
-          <resource-opt amount="5">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">700</resource-min>
-          <resource-opt amount="9">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Stupidity V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Lowers a target's power attribute.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">720</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (900)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">900</resource-min>
-          <resource-opt amount="5">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="18">900</resource-min>
-          <resource-opt amount="9">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Warped Perception</item-name>
-    <item-icon>icon_formula_s_09_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Spellbook</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="castDelay">20</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="damage">0-0</item-attribute>
-      <item-attribute type="damageType">mind</item-attribute>
-      <item-attribute type="skill">Mind</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_use_magic_mind</item-keyword>
-      <item-keyword>nonrepeatable</item-keyword>
-      <item-keyword>debuff</item-keyword>
-      <item-keyword>spell</item-keyword>
-      <item-keyword>ranged</item-keyword>
-      <item-keyword>arcane</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Warped Perception I</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Lowers the combat ability of the target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (50)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">50</resource-min>
-          <resource-opt amount="4">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Warped Perception II</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Lowers the combat ability of the target.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (250)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">250</resource-min>
-          <resource-opt amount="4">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">250</resource-min>
-          <resource-opt amount="7">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Warped Perception III</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Lowers the combat ability of the target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (450)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">450</resource-min>
-          <resource-opt amount="4">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">450</resource-min>
-          <resource-opt amount="7">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Warped Perception IV</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Lowers the combat ability of the target.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (650)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">650</resource-min>
-          <resource-opt amount="7">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Warped Perception V</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Lowers the combat ability of the target.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Mind (850)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Spell Shard</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="4">850</resource-min>
-          <resource-opt amount="4">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="14">850</resource-min>
-          <resource-opt amount="7">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+	<formulaset-name>Spells - Mind</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Spells</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Daunting Mist</item-name>
+		<item-icon>icon_formula_s_09_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">20</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">mind</item-attribute>
+			<item-attribute type="skill">Mind</item-attribute>
+			<item-attribute type="area">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_mind</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>aoe</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Daunting Mist I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (17)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (170)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">170</resource-min>
+					<resource-opt amount="6">270</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Daunting Mist II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (37)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (370)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">370</resource-min>
+					<resource-opt amount="6">495</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">370</resource-min>
+					<resource-opt amount="11">495</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Daunting Mist III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (57)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (570)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">570</resource-min>
+					<resource-opt amount="6">720</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">570</resource-min>
+					<resource-opt amount="11">720</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Daunting Mist IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (77)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (770)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">770</resource-min>
+					<resource-opt amount="6">945</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">770</resource-min>
+					<resource-opt amount="11">945</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Daunting Mist V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A soporific mist rises from the ground, slowing movement and reaction times for all enemies in the area.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (97)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (970)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">970</resource-min>
+					<resource-opt amount="6">1170</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">970</resource-min>
+					<resource-opt amount="11">1170</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Debase</item-name>
+		<item-icon>icon_formula_s_09_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">20</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">mind</item-attribute>
+			<item-attribute type="skill">Mind</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_mind</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>aoe</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Debase I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (150)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">150</resource-min>
+					<resource-opt amount="6">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Debase II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (350)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">350</resource-min>
+					<resource-opt amount="6">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">350</resource-min>
+					<resource-opt amount="11">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Debase III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (550)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">550</resource-min>
+					<resource-opt amount="6">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">550</resource-min>
+					<resource-opt amount="11">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Debase IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (750)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">750</resource-min>
+					<resource-opt amount="6">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">750</resource-min>
+					<resource-opt amount="11">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Debase V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Induces a stifling lethargy, slowing the target's movement and reaction times.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (950)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="6">950</resource-min>
+					<resource-opt amount="6">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="22">950</resource-min>
+					<resource-opt amount="11">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Lessen Focus</item-name>
+		<item-icon>icon_formula_s_07_16_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">mind</item-attribute>
+			<item-attribute type="skill">Mind</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_mind</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>debuff</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Lessen Focus I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Lessens the focus statistic of the target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (50)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">50</resource-min>
+					<resource-opt amount="4">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lessen Focus II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Lessens the focus statistic of the target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (250)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">250</resource-min>
+					<resource-opt amount="4">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">250</resource-min>
+					<resource-opt amount="7">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lessen Focus III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Lessens the focus statistic of the target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (450)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">450</resource-min>
+					<resource-opt amount="4">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">450</resource-min>
+					<resource-opt amount="7">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lessen Focus IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Lessens the focus statistic of the target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (650)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">650</resource-min>
+					<resource-opt amount="7">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lessen Focus V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Lessens the focus statistic of the target.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (850)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">850</resource-min>
+					<resource-opt amount="4">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">850</resource-min>
+					<resource-opt amount="7">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Lessen Power</item-name>
+		<item-icon>icon_formula_s_07_18_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">mind</item-attribute>
+			<item-attribute type="skill">Mind</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_mind</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>debuff</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Lessen Power I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Lessens the maximum power value a target can have</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (50)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">50</resource-min>
+					<resource-opt amount="4">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lessen Power II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Lessens the maximum power value a target can have</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (250)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">250</resource-min>
+					<resource-opt amount="4">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">250</resource-min>
+					<resource-opt amount="7">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lessen Power III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Lessens the maximum power value a target can have</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (450)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">450</resource-min>
+					<resource-opt amount="4">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">450</resource-min>
+					<resource-opt amount="7">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lessen Power IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Lessens the maximum power value a target can have</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (650)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">650</resource-min>
+					<resource-opt amount="7">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lessen Power V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Lessens the maximum power value a target can have</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (850)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">850</resource-min>
+					<resource-opt amount="4">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">850</resource-min>
+					<resource-opt amount="7">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Numbing Haze</item-name>
+		<item-icon>icon_formula_s_09_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">20</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">mind</item-attribute>
+			<item-attribute type="skill">Mind</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_mind</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Numbing Haze I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (7)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (70)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">70</resource-min>
+					<resource-opt amount="4">170</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Numbing Haze II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (27)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (270)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">270</resource-min>
+					<resource-opt amount="4">395</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">270</resource-min>
+					<resource-opt amount="7">395</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Numbing Haze III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (47)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (470)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">470</resource-min>
+					<resource-opt amount="4">620</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">470</resource-min>
+					<resource-opt amount="7">620</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Numbing Haze IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (67)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (670)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">670</resource-min>
+					<resource-opt amount="4">845</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">670</resource-min>
+					<resource-opt amount="7">845</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Numbing Haze V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Allures the victim into an easy feeling of numbness, rendering them motionless and inactive until attacked or the effect wears off.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (87)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (870)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">870</resource-min>
+					<resource-opt amount="4">1070</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">870</resource-min>
+					<resource-opt amount="7">1070</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Scatterbrain</item-name>
+		<item-icon>icon_formula_s_07_05_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">mind</item-attribute>
+			<item-attribute type="skill">Mind</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_mind</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>debuff</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Scatterbrain I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Severely hinders the target's ability to focus.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (100)</tier-attribute>
+				<tier-attribute type="castDelay">20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Scatterbrain II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Severely hinders the target's ability to focus.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (300)</tier-attribute>
+				<tier-attribute type="castDelay">20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">300</resource-min>
+					<resource-opt amount="9">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Scatterbrain III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Severely hinders the target's ability to focus.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (500)</tier-attribute>
+				<tier-attribute type="castDelay">50</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="5">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">500</resource-min>
+					<resource-opt amount="9">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Scatterbrain IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Severely hinders the target's ability to focus.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (700)</tier-attribute>
+				<tier-attribute type="castDelay">20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="5">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">700</resource-min>
+					<resource-opt amount="9">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Scatterbrain V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Severely hinders the target's ability to focus.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (900)</tier-attribute>
+				<tier-attribute type="castDelay">20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="5">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">900</resource-min>
+					<resource-opt amount="9">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Stupidity</item-name>
+		<item-icon>icon_formula_s_07_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">20</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">mind</item-attribute>
+			<item-attribute type="skill">Mind</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_mind</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>debuff</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Stupidity I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Lowers a target's power attribute.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (100)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Stupidity II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Lowers a target's power attribute.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (300)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">300</resource-min>
+					<resource-opt amount="9">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Stupidity III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Lowers a target's power attribute.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (500)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="5">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">500</resource-min>
+					<resource-opt amount="9">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Stupidity IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Lowers a target's power attribute.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (700)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="5">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">700</resource-min>
+					<resource-opt amount="9">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Stupidity V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Lowers a target's power attribute.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (900)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="5">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">900</resource-min>
+					<resource-opt amount="9">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Warped Perception</item-name>
+		<item-icon>icon_formula_s_09_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="castDelay">20</item-attribute>
+			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="damageType">mind</item-attribute>
+			<item-attribute type="skill">Mind</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_use_magic_mind</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>debuff</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>arcane</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Warped Perception I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Lowers the combat ability of the target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (50)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">50</resource-min>
+					<resource-opt amount="4">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Warped Perception II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Lowers the combat ability of the target.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (250)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">250</resource-min>
+					<resource-opt amount="4">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">250</resource-min>
+					<resource-opt amount="7">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Warped Perception III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Lowers the combat ability of the target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (450)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">450</resource-min>
+					<resource-opt amount="4">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">450</resource-min>
+					<resource-opt amount="7">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Warped Perception IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Lowers the combat ability of the target.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (650)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">650</resource-min>
+					<resource-opt amount="7">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Warped Perception V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Lowers the combat ability of the target.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Mind (850)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">850</resource-min>
+					<resource-opt amount="4">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">850</resource-min>
+					<resource-opt amount="7">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

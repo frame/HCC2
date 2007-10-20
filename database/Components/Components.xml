@@ -49,17 +49,16 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>86c</comp-pawnbuy>
 		<comp-pawnsell>2s 150c</comp-pawnsell>
-		<comp-vielosell>3s 225c</comp-vielosell>
+		<comp-vielosell>10s 750c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Animal Hide</comp-name>
 		<comp-tier>1</comp-tier>
 		<comp-desc>A piece of hide from one of the native Istarian animals.</comp-desc>
-		<comp-type>Looted</comp-type>
+		<comp-type>Gathered</comp-type>
 		<comp-bulk>10</comp-bulk>
 		<comp-pawnbuy>1c</comp-pawnbuy>
 		<comp-pawnsell>25c</comp-pawnsell>
-		<comp-vielosell>37.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Apple</comp-name>
@@ -93,7 +92,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Arbotus Gullet</comp-name>
@@ -103,7 +102,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Barley</comp-name>
@@ -124,7 +123,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>26.4c</comp-pawnbuy>
 		<comp-pawnsell>660c</comp-pawnsell>
-		<comp-vielosell>990c</comp-vielosell>
+		<comp-vielosell>3s 300c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Black Pepper Berry</comp-name>
@@ -827,7 +826,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>11.6c</comp-pawnbuy>
 		<comp-pawnsell>290c</comp-pawnsell>
-		<comp-vielosell>435c</comp-vielosell>
+		<comp-vielosell>1s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Blighted Straw</comp-name>
@@ -837,7 +836,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Blighted Uncut Amethyst</comp-name>
@@ -1292,6 +1290,53 @@
 		</gather-methods>
 	</comp>
 	<comp>
+		<comp-name>Blood Fungus Cap</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>A red chunk of cap from the rare Blood Fungus.</comp-desc>
+		<comp-type>Gathered</comp-type>
+		<comp-bulk>10</comp-bulk>
+		<comp-pawnbuy>16c</comp-pawnbuy>
+		<comp-pawnsell>400c</comp-pawnsell>
+		<gather-methods>
+			<gather>
+				<gather-skill>Foraging</gather-skill>
+				<gather-tool>Tanning Blade</gather-tool>
+				<gather-rate>Normal</gather-rate>
+				<min-skill>800</min-skill>
+				<max-skill>1050</max-skill>
+				<bonuses>
+					<bonus>
+						<bonus-name>Blood Fungus Cap</bonus-name>
+						<bonus-amount chance="3.000">1</bonus-amount>
+					</bonus>
+				</bonuses>
+			</gather>
+		</gather-methods>
+	</comp>
+	<comp>
+		<comp-name>Blood Skulk Fin</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Used in techniques: Defense: Armor V</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>82s 500c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Bloodsnout Gruok Snout</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Used in techniques: Ability: Power Shot V Craft:
+Weaponcraft V Defense: Nature Resistance V Defense: Pierce Ward V Spell: Gale V
+Spell: Nature Damage V Spell: Primal Damage V Statistic: Focus V Defense: Slash
+Ward V</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>82s 500c</comp-vielosell>
+	</comp>	
+	<comp>
 		<comp-name>Blue Necrofly Wing</comp-name>
 		<comp-tier>2</comp-tier>
 		<comp-desc>Used in techniques: Adventure: Tooth and Claw II Adventure: Two Hand Crush II Craft: Earthencraft II Craft: Enchanting II Defense: Life Ward II Defense: Primal Resistance II Spell: Blight Range II Spell: Fog II Spell: Gale II Spell: Nature Range II Spell: Primal Range II Spell: Romp II Spell: Spirit Damage II Statistic: Health II Statistic: Speed II</comp-desc>
@@ -1299,7 +1344,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>105.6c</comp-pawnbuy>
 		<comp-pawnsell>2s 640c</comp-pawnsell>
-		<comp-vielosell>3s 960c</comp-vielosell>
+		<comp-vielosell>13s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Bright Essence</comp-name>
@@ -1320,7 +1365,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Brighter Tarantula Silk</comp-name>
@@ -1330,7 +1375,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Brittle Fyakki Leg</comp-name>
@@ -1340,7 +1385,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>26.4c</comp-pawnbuy>
 		<comp-pawnsell>660c</comp-pawnsell>
-		<comp-vielosell>990c</comp-vielosell>
+		<comp-vielosell>3s 300c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Bronze Golem Fragment</comp-name>
@@ -1350,17 +1395,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>16c</comp-pawnbuy>
 		<comp-pawnsell>400c</comp-pawnsell>
-		<comp-vielosell>600c</comp-vielosell>
-	</comp>
-	<comp>
-		<comp-name>Brown Spider Leg Hair</comp-name>
-		<comp-tier>1</comp-tier>
-		<comp-desc>    </comp-desc>
-		<comp-type>Looted</comp-type>
-		<comp-bulk>1</comp-bulk>
-		<comp-pawnbuy>6.8c</comp-pawnbuy>
-		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>2s</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Brown Werewolf Hide</comp-name>
@@ -1370,7 +1405,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Brown Wolf Fang</comp-name>
@@ -1380,7 +1415,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Browngill Fungus Cap</comp-name>
@@ -1471,7 +1506,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>16c</comp-pawnbuy>
 		<comp-pawnsell>400c</comp-pawnsell>
-		<comp-vielosell>600c</comp-vielosell>
+		<comp-vielosell>2s</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Citrine Golem Chip</comp-name>
@@ -1481,7 +1516,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>171.6c</comp-pawnbuy>
 		<comp-pawnsell>4s 290c</comp-pawnsell>
-		<comp-vielosell>6s 435c</comp-vielosell>
+		<comp-vielosell>21s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Cobalt Golem Fragment</comp-name>
@@ -1491,7 +1526,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>422.4c</comp-pawnbuy>
 		<comp-pawnsell>10s 560c</comp-pawnsell>
-		<comp-vielosell>15s 840c</comp-vielosell>
+		<comp-vielosell>52s 800c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Cobalt Ore</comp-name>
@@ -1523,7 +1558,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Desert Wolf Fang</comp-name>
@@ -1533,7 +1567,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>132c</comp-pawnbuy>
 		<comp-pawnsell>3s 300c</comp-pawnsell>
-		<comp-vielosell>4s 950c</comp-vielosell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Dim Essence</comp-name>
@@ -1639,7 +1673,17 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>59.6c</comp-pawnbuy>
 		<comp-pawnsell>1s 490c</comp-pawnsell>
-		<comp-vielosell>2s 235c</comp-vielosell>
+		<comp-vielosell>7s 450c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Energy Bone Splinters</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Essence of Blight</comp-name>
@@ -1653,6 +1697,21 @@
 		</gather-methods>
 	</comp>
 	<comp>
+		<comp-name>Fiery Dire Wolf Fang</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Crossbow V Adventure: Dragon
+Breath V Adventure: Flame V Craft: Essence Harvesting V Craft: Leatherworking V
+Craft: Logging V Defense: Blight Ward V Defense: Flame Resistance V Spell:
+Cinder V Spell: Combust V Spell: Flame Range V Spell: Nature Damage V Spell:
+Potency V Spell: Primal Damage V Spell: Spirit Damage V Statistic: Speed V
+</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy></comp-pawnbuy>
+		<comp-pawnsell></comp-pawnsell>
+		<comp-vielosell>95s 700c</comp-vielosell>
+	</comp>
+	<comp>
 		<comp-name>Fire Beetle Carapace</comp-name>
 		<comp-tier>4</comp-tier>
 		<comp-desc>The hard shell of a fire beetle.  It may be useful as a .Used in techniques: Ability: Smash IV Craft: Logging IV Craft: Scalecraft IV Defense: Crush Ward IV Defense: Spirit Ward IV Spell: Burning Damage IV Spell: Flame Damage IV Spell: Ice Range IV Statistic: Dexterity IV</comp-desc>
@@ -1660,7 +1719,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>488.4c</comp-pawnbuy>
 		<comp-pawnsell>12s 210c</comp-pawnsell>
-		<comp-vielosell>18s 315c</comp-vielosell>
+		<comp-vielosell>61s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fire Beetle Eye</comp-name>
@@ -1670,7 +1729,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fire Beetle Pincer</comp-name>
@@ -1680,7 +1738,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fire Ogre Jawbone</comp-name>
@@ -1690,7 +1747,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>567.6c</comp-pawnbuy>
 		<comp-pawnsell>14s 190c</comp-pawnsell>
-		<comp-vielosell>21s 285c</comp-vielosell>
+		<comp-vielosell>70s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fire Pygmy Ear</comp-name>
@@ -1700,7 +1757,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fire Wolf Fang</comp-name>
@@ -1710,7 +1767,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>488.4c</comp-pawnbuy>
 		<comp-pawnsell>12s 210c</comp-pawnsell>
-		<comp-vielosell>18s 315c</comp-vielosell>
+		<comp-vielosell>61s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Flame Beetle Carapace</comp-name>
@@ -1720,7 +1777,17 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Flame Bone Splinters</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Flame Essence</comp-name>
@@ -1741,7 +1808,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>422.4c</comp-pawnbuy>
 		<comp-pawnsell>10s 560c</comp-pawnsell>
-		<comp-vielosell>15s 840c</comp-vielosell>
+		<comp-vielosell>52s 800c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Flame Pygmy Ear</comp-name>
@@ -1751,7 +1818,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>488.4c</comp-pawnbuy>
 		<comp-pawnsell>12s 210c</comp-pawnsell>
-		<comp-vielosell>18s 315c</comp-vielosell>
+		<comp-vielosell>61s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Flame Wolf Fang</comp-name>
@@ -1761,7 +1828,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>422.4c</comp-pawnbuy>
 		<comp-pawnsell>10s 560c</comp-pawnsell>
-		<comp-vielosell>15s 840c</comp-vielosell>
+		<comp-vielosell>52s 800c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Forest Crawler Leg Hair</comp-name>
@@ -1771,7 +1838,17 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Forest Oastic Sac</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Used in techniques: </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy></comp-pawnbuy>
+		<comp-pawnsell></comp-pawnsell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fresh Bass</comp-name>
@@ -1825,7 +1902,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>86c</comp-pawnbuy>
 		<comp-pawnsell>2s 150c</comp-pawnsell>
-		<comp-vielosell>3s 225c</comp-vielosell>
+		<comp-vielosell>10s 750c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Frost Ogre Club Splinter</comp-name>
@@ -1835,7 +1912,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>59.6c</comp-pawnbuy>
 		<comp-pawnsell>1s 490c</comp-pawnsell>
-		<comp-vielosell>2s 235c</comp-vielosell>
+		<comp-vielosell>7s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Frost Ogre Jawbone</comp-name>
@@ -1845,7 +1922,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>59.6c</comp-pawnbuy>
 		<comp-pawnsell>1s 490c</comp-pawnsell>
-		<comp-vielosell>2s 235c</comp-vielosell>
+		<comp-vielosell>7s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Frost Pygmy Ear</comp-name>
@@ -1855,7 +1932,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Frost Pygmy Shrunken Head</comp-name>
@@ -1865,7 +1942,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fyakki Spinneret</comp-name>
@@ -1875,7 +1952,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>105.6c</comp-pawnbuy>
 		<comp-pawnsell>2s 640c</comp-pawnsell>
-		<comp-vielosell>3s 960c</comp-vielosell>
+		<comp-vielosell>13s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fyakki Stinger Tip</comp-name>
@@ -1885,7 +1962,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>105.6c</comp-pawnbuy>
 		<comp-pawnsell>2s 640c</comp-pawnsell>
-		<comp-vielosell>3s 960c</comp-vielosell>
+		<comp-vielosell>13s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Garnet Golem Chip</comp-name>
@@ -1895,7 +1972,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ghost Ectoplasm</comp-name>
@@ -1905,7 +1982,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Glowing Essence</comp-name>
@@ -1926,7 +2002,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>224.4c</comp-pawnbuy>
 		<comp-pawnsell>5s 610c</comp-pawnsell>
-		<comp-vielosell>8s 415c</comp-vielosell>
+		<comp-vielosell>28s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Gold Ore</comp-name>
@@ -1947,7 +2023,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>171.6c</comp-pawnbuy>
 		<comp-pawnsell>4s 290c</comp-pawnsell>
-		<comp-vielosell>6s 435c</comp-vielosell>
+		<comp-vielosell>21s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Granite Slab</comp-name>
@@ -1992,7 +2068,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Greater Blight Bindings</comp-name>
@@ -2002,7 +2078,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Greater Ghost Vapor</comp-name>
@@ -2012,7 +2088,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>132c</comp-pawnbuy>
 		<comp-pawnsell>3s 300c</comp-pawnsell>
-		<comp-vielosell>4s 950c</comp-vielosell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Greater Mummy Scarab</comp-name>
@@ -2022,7 +2098,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Greater Skeleton Skull</comp-name>
@@ -2032,7 +2108,19 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Greater Water Golem Droplet</comp-name>
+		<comp-tier>1</comp-tier>
+		<comp-desc>Used in techniques: Adventure: Two Hand Slash I Craft: Quarrying
+I Craft: Weaponcraft I Defense: Slash Resistance I Spell: Blight Range I Spell:
+Heal Recycle I Statistic: Focus I</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy></comp-pawnbuy>
+		<comp-pawnsell></comp-pawnsell>
+		<comp-vielosell>3s 300c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Greater Zombie Thighbone</comp-name>
@@ -2042,7 +2130,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Green Necrofly Wing</comp-name>
@@ -2052,7 +2140,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Greymane Fang</comp-name>
@@ -2062,7 +2150,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Gruok Bristles</comp-name>
@@ -2072,7 +2159,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Hardened Fyakki Chitin</comp-name>
@@ -2082,7 +2169,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ice Beetle Carapace</comp-name>
@@ -2092,7 +2179,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>224.4c</comp-pawnbuy>
 		<comp-pawnsell>5s 610c</comp-pawnsell>
-		<comp-vielosell>8s 415c</comp-vielosell>
+		<comp-vielosell>28s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ice Beetle Eye</comp-name>
@@ -2102,7 +2189,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ice Beetle Legs</comp-name>
@@ -2112,7 +2198,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ice Beetle Pincer</comp-name>
@@ -2122,7 +2208,16 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Ice Bone Splinters</comp-name>
+		<comp-tier>3</comp-tier>
+		<comp-desc></comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>59.6c</comp-pawnbuy>
+		<comp-pawnsell>1s 490c</comp-pawnsell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ice Golem Shard</comp-name>
@@ -2132,7 +2227,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ice Ogre Jawbone</comp-name>
@@ -2142,7 +2237,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>171.6c</comp-pawnbuy>
 		<comp-pawnsell>4s 290c</comp-pawnsell>
-		<comp-vielosell>6s 435c</comp-vielosell>
+		<comp-vielosell>21s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ice Pygmy Ear</comp-name>
@@ -2152,7 +2247,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>132c</comp-pawnbuy>
 		<comp-pawnsell>3s 300c</comp-pawnsell>
-		<comp-vielosell>4s 950c</comp-vielosell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Imbued Armor Splinter</comp-name>
@@ -2162,7 +2257,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>132c</comp-pawnbuy>
 		<comp-pawnsell>3s 300c</comp-pawnsell>
-		<comp-vielosell>4s 950c</comp-vielosell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Iron Golem Fragment</comp-name>
@@ -2172,7 +2267,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>86c</comp-pawnbuy>
 		<comp-pawnsell>2s 150c</comp-pawnsell>
-		<comp-vielosell>3s 225c</comp-vielosell>
+		<comp-vielosell>10s 750c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Iron Ore</comp-name>
@@ -2204,7 +2299,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Jade Golem Chip</comp-name>
@@ -2214,7 +2309,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>567.6c</comp-pawnbuy>
 		<comp-pawnsell>14s 190c</comp-pawnsell>
-		<comp-vielosell>21s 285c</comp-vielosell>
+		<comp-vielosell>70s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Jasper Golem Chip</comp-name>
@@ -2224,7 +2319,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>224.4c</comp-pawnbuy>
 		<comp-pawnsell>5s 610c</comp-pawnsell>
-		<comp-vielosell>8s 415c</comp-vielosell>
+		<comp-vielosell>28s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Jungle Crawler Leg Hair</comp-name>
@@ -2234,7 +2329,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Kwellen Flame Cinder</comp-name>
@@ -2244,7 +2338,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Kwellen Ice Shard</comp-name>
@@ -2254,7 +2348,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Lapis Lazuli Golem Chip</comp-name>
@@ -2264,7 +2358,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>105.6c</comp-pawnbuy>
 		<comp-pawnsell>2s 640c</comp-pawnsell>
-		<comp-vielosell>3s 960c</comp-vielosell>
+		<comp-vielosell>13s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Lava Golem Pumice</comp-name>
@@ -2274,7 +2368,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>567.6c</comp-pawnbuy>
 		<comp-pawnsell>14s 190c</comp-pawnsell>
-		<comp-vielosell>21s 285c</comp-vielosell>
+		<comp-vielosell>70s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Lava Oastic Sac</comp-name>
@@ -2284,7 +2378,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>422.4c</comp-pawnbuy>
 		<comp-pawnsell>10s 560c</comp-pawnsell>
-		<comp-vielosell>15s 840c</comp-vielosell>
+		<comp-vielosell>52s 800c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Leafy Oastic Sac</comp-name>
@@ -2294,7 +2388,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>59.6c</comp-pawnbuy>
 		<comp-pawnsell>1s 490c</comp-pawnsell>
-		<comp-vielosell>2s 235c</comp-vielosell>
+		<comp-vielosell>7s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Lesser Blight Claw</comp-name>
@@ -2304,7 +2398,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>60c</comp-pawnbuy>
 		<comp-pawnsell>1s 500c</comp-pawnsell>
-		<comp-vielosell>2s 250c</comp-vielosell>
+		<comp-vielosell>7s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Lesser Ghost Vapor</comp-name>
@@ -2314,7 +2408,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Lesser Mummy Embalming Dust</comp-name>
@@ -2324,7 +2418,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>20c</comp-pawnbuy>
 		<comp-pawnsell>500c</comp-pawnsell>
-		<comp-vielosell>750c</comp-vielosell>
+		<comp-vielosell>2s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Lesser Skeleton Skull</comp-name>
@@ -2334,7 +2428,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Lesser Zombie Finger</comp-name>
@@ -2344,7 +2438,17 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Lightning Ogre Jawbone</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy></comp-pawnbuy>
+		<comp-pawnsell></comp-pawnsell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Maggot Entrails</comp-name>
@@ -2354,17 +2458,15 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Maggot Hide</comp-name>
 		<comp-tier>1</comp-tier>
 		<comp-desc>Strips of spongy flesh from the carcass of a maggot that met its untimely demise.</comp-desc>
-		<comp-type>Looted</comp-type>
+		<comp-type>Harvested</comp-type>
 		<comp-bulk>12</comp-bulk>
 		<comp-pawnbuy>1c</comp-pawnbuy>
 		<comp-pawnsell>25c</comp-pawnsell>
-		<comp-vielosell>37.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Malachite Golem Chip</comp-name>
@@ -2374,7 +2476,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>16c</comp-pawnbuy>
 		<comp-pawnsell>400c</comp-pawnsell>
-		<comp-vielosell>600c</comp-vielosell>
+		<comp-vielosell>2s</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Maple Bark</comp-name>
@@ -2477,7 +2579,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Mighty Blight Bindings</comp-name>
@@ -2487,7 +2589,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Mighty Ghost Vapor</comp-name>
@@ -2497,7 +2599,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Mighty Mummy Wrappings</comp-name>
@@ -2507,7 +2609,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Mighty Skeleton Skull</comp-name>
@@ -2517,7 +2619,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Mighty Zombie Spleen</comp-name>
@@ -2527,7 +2629,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Milk</comp-name>
@@ -2548,7 +2650,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>171.6c</comp-pawnbuy>
 		<comp-pawnsell>4s 290c</comp-pawnsell>
-		<comp-vielosell>6s 435c</comp-vielosell>
+		<comp-vielosell>21s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Myloc Hag Foot</comp-name>
@@ -2558,7 +2660,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Myloc Hair</comp-name>
@@ -2568,7 +2670,17 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Nahguk Ogre Jawbone</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>Used in techniques: Craft: Smelting V Craft: Salvaging V</comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>1s 16.4c</comp-pawnbuy>
+		<comp-pawnsell>25s 410c</comp-pawnsell>
+		<comp-vielosell>127s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Nickel Golem Fragment</comp-name>
@@ -2578,7 +2690,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>132c</comp-pawnbuy>
 		<comp-pawnsell>3s 300c</comp-pawnsell>
-		<comp-vielosell>4s 950c</comp-vielosell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Nickel Ore</comp-name>
@@ -2828,7 +2940,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>171.6c</comp-pawnbuy>
 		<comp-pawnsell>4s 290c</comp-pawnsell>
-		<comp-vielosell>6s 435c</comp-vielosell>
+		<comp-vielosell>21s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Obsidian Golem Fragment</comp-name>
@@ -2838,7 +2950,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Obsidian Slab</comp-name>
@@ -2859,7 +2971,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>488.4c</comp-pawnbuy>
 		<comp-pawnsell>12s 210c</comp-pawnsell>
-		<comp-vielosell>18s 315c</comp-vielosell>
+		<comp-vielosell>61s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Pale Essence</comp-name>
@@ -2880,7 +2992,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>488.4c</comp-pawnbuy>
 		<comp-pawnsell>12s 210c</comp-pawnsell>
-		<comp-vielosell>18s 315c</comp-vielosell>
+		<comp-vielosell>61s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Platinum Ore</comp-name>
@@ -2923,57 +3035,51 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>86c</comp-pawnbuy>
 		<comp-pawnsell>2s 150c</comp-pawnsell>
-		<comp-vielosell>3s 225c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Raw Beef</comp-name>
 		<comp-tier>1</comp-tier>
 		<comp-desc>Raw meat gathered from a cow that met an untimely end.</comp-desc>
-		<comp-type>Looted</comp-type>
+		<comp-type>Gathered</comp-type>
 		<comp-bulk>4</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Raw Chicken</comp-name>
 		<comp-tier>1</comp-tier>
 		<comp-desc>Raw meat gathered from a chicken that met an untimely end.</comp-desc>
-		<comp-type>Looted</comp-type>
+		<comp-type>Gathered</comp-type>
 		<comp-bulk>4</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Raw Gruok</comp-name>
 		<comp-tier>1</comp-tier>
 		<comp-desc>    </comp-desc>
-		<comp-type>Looted</comp-type>
+		<comp-type>Gathered</comp-type>
 		<comp-bulk>4</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Raw Mutton</comp-name>
 		<comp-tier>1</comp-tier>
 		<comp-desc>Raw meat gathered from a dead sheep.</comp-desc>
-		<comp-type>Looted</comp-type>
+		<comp-type>Gathered</comp-type>
 		<comp-bulk>4</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Raw Venison</comp-name>
 		<comp-tier>1</comp-tier>
 		<comp-desc>Raw meat gathered from a dead deer.</comp-desc>
-		<comp-type>Looted</comp-type>
+		<comp-type>Gathered</comp-type>
 		<comp-bulk>4</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Red Necrofly Wing</comp-name>
@@ -2983,7 +3089,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Redbacked Spider Breeder Eye</comp-name>
@@ -2993,7 +3099,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>171.6c</comp-pawnbuy>
 		<comp-pawnsell>4s 290c</comp-pawnsell>
-		<comp-vielosell>6s 435c</comp-vielosell>
+		<comp-vielosell>21s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Redbacked Spider Eye</comp-name>
@@ -3003,7 +3109,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>132c</comp-pawnbuy>
 		<comp-pawnsell>3s 300c</comp-pawnsell>
-		<comp-vielosell>4s 950c</comp-vielosell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Redbacked Tarantula Eye</comp-name>
@@ -3013,7 +3119,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Resistant Fyakki Eye</comp-name>
@@ -3023,7 +3129,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Rice</comp-name>
@@ -3044,7 +3150,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>59.6c</comp-pawnbuy>
 		<comp-pawnsell>1s 490c</comp-pawnsell>
-		<comp-vielosell>2s 235c</comp-vielosell>
+		<comp-vielosell>7s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Roughcap Fungus Cap</comp-name>
@@ -3065,7 +3171,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Ruxus Skin</comp-name>
@@ -3075,7 +3181,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Rye</comp-name>
@@ -3118,7 +3224,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Sand Ogre Jawbone</comp-name>
@@ -3128,7 +3234,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>16c</comp-pawnbuy>
 		<comp-pawnsell>400c</comp-pawnsell>
-		<comp-vielosell>600c</comp-vielosell>
+		<comp-vielosell>2s</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Sand Pygmy Ear</comp-name>
@@ -3138,7 +3244,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Sand Scarab Carapace</comp-name>
@@ -3148,7 +3254,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>488.4c</comp-pawnbuy>
 		<comp-pawnsell>12s 210c</comp-pawnsell>
-		<comp-vielosell>18s 315c</comp-vielosell>
+		<comp-vielosell>61s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Sand Scarab Pincer</comp-name>
@@ -3158,7 +3264,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Sandstone Golem Fragment</comp-name>
@@ -3168,7 +3273,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Sandstone Slab</comp-name>
@@ -3189,7 +3294,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Shadow Spider Venom</comp-name>
@@ -3199,7 +3304,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Shadow Tarantula Fang</comp-name>
@@ -3209,7 +3313,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Silver Golem Fragment</comp-name>
@@ -3219,7 +3323,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Silver Ore</comp-name>
@@ -3240,7 +3344,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>59.6c</comp-pawnbuy>
 		<comp-pawnsell>1s 490c</comp-pawnsell>
-		<comp-vielosell>2s 235c</comp-vielosell>
+		<comp-vielosell>7s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Slate Slab</comp-name>
@@ -3261,7 +3365,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>132c</comp-pawnbuy>
 		<comp-pawnsell>3s 300c</comp-pawnsell>
-		<comp-vielosell>4s 950c</comp-vielosell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Snow Ogre Club Splinter</comp-name>
@@ -3271,7 +3375,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
+		<comp-vielosell>4s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Snow Ogre Jawbone</comp-name>
@@ -3281,7 +3385,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>105.6c</comp-pawnbuy>
 		<comp-pawnsell>2s 640c</comp-pawnsell>
-		<comp-vielosell>3s 960c</comp-vielosell>
+		<comp-vielosell>13s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Snow Pygmy Ear</comp-name>
@@ -3291,7 +3395,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>86c</comp-pawnbuy>
 		<comp-pawnsell>2s 150c</comp-pawnsell>
-		<comp-vielosell>3s 225c</comp-vielosell>
+		<comp-vielosell>10s 750c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Snow Pygmy Shrunken Head</comp-name>
@@ -3301,7 +3405,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>86c</comp-pawnbuy>
 		<comp-pawnsell>2s 150c</comp-pawnsell>
-		<comp-vielosell>3s 225c</comp-vielosell>
+		<comp-vielosell>10s 750c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Soul Fragment</comp-name>
@@ -3311,7 +3415,6 @@
 		<comp-bulk>2</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Spiderling Silk</comp-name>
@@ -3321,7 +3424,6 @@
 		<comp-bulk>2</comp-bulk>
 		<comp-pawnbuy>39.6c</comp-pawnbuy>
 		<comp-pawnsell>990c</comp-pawnsell>
-		<comp-vielosell>1s 485c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Steel Golem Fragment</comp-name>
@@ -3331,7 +3433,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Stonespore Fungus Cap</comp-name>
@@ -3386,6 +3488,16 @@
 		</gather-methods>
 	</comp>
 	<comp>
+		<comp-name>Storm Ogre Jawbone</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy></comp-pawnbuy>
+		<comp-pawnsell></comp-pawnsell>
+		<comp-vielosell>110s 550c</comp-vielosell>
+	</comp>
+	<comp>
 		<comp-name>Tainted Bright Essence</comp-name>
 		<comp-tier>4</comp-tier>
 		<comp-desc>Magic essence that is gathered from a slain wisp, and later processed into orbs for use in trade skills.  This tainted essence has a bright luminosity to it.</comp-desc>
@@ -3430,6 +3542,16 @@
 		</gather-methods>
 	</comp>
 	<comp>
+		<comp-name>Tempest Ogre Jawbone</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy></comp-pawnbuy>
+		<comp-pawnsell></comp-pawnsell>
+		<comp-vielosell>127s 50c</comp-vielosell>
+	</comp>
+	<comp>
 		<comp-name>Terra Cotta Clay Chunk</comp-name>
 		<comp-tier>3</comp-tier>
 		<comp-desc>Gathered from a deposit, this is the unprocessed form of terra cotta, used to make earthenware.</comp-desc>
@@ -3471,6 +3593,16 @@
 		</gather-methods>
 	</comp>
 	<comp>
+		<comp-name>Thunder Ogre Jawbone</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc>    </comp-desc>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy></comp-pawnbuy>
+		<comp-pawnsell></comp-pawnsell>
+		<comp-vielosell>82s 500c</comp-vielosell>
+	</comp>
+	<comp>
 		<comp-name>Tiny Grass Beetle Carapace</comp-name>
 		<comp-tier>1</comp-tier>
 		<comp-desc>The hard shell of a tiny grass beetle.  It may be useful as a .Used in techniques:</comp-desc>
@@ -3478,7 +3610,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Topaz Golem Chip</comp-name>
@@ -3488,7 +3619,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>422.4c</comp-pawnbuy>
 		<comp-pawnsell>10s 560c</comp-pawnsell>
-		<comp-vielosell>15s 840c</comp-vielosell>
+		<comp-vielosell>52s 800c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Turquoise Golem Chip</comp-name>
@@ -3498,7 +3629,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>26.4c</comp-pawnbuy>
 		<comp-pawnsell>660c</comp-pawnsell>
-		<comp-vielosell>990c</comp-vielosell>
+		<comp-vielosell>3s 300c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Tutorial Copper and Tin Ore</comp-name>
@@ -3821,7 +3952,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Water</comp-name>
@@ -3860,7 +3991,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>26.4c</comp-pawnbuy>
 		<comp-pawnsell>660c</comp-pawnsell>
-		<comp-vielosell>990c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Weaker Blight Bindings</comp-name>
@@ -3870,7 +4000,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>16c</comp-pawnbuy>
 		<comp-pawnsell>400c</comp-pawnsell>
-		<comp-vielosell>600c</comp-vielosell>
+		<comp-vielosell>2s</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Weaker Ghost Vapor</comp-name>
@@ -3880,7 +4010,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Weaker Maggot Mandibles</comp-name>
@@ -3890,7 +4020,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Weaker Mummy Wrappings</comp-name>
@@ -3900,7 +4030,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Weaker Skeleton Skull</comp-name>
@@ -3910,7 +4040,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Weaker Zombie Finger</comp-name>
@@ -3920,7 +4050,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Werewolf Bone</comp-name>
@@ -3930,7 +4060,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Werewolf Heart</comp-name>
@@ -3940,7 +4070,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Werewolf Hide</comp-name>
@@ -3950,7 +4080,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Werewolf Sinew</comp-name>
@@ -3960,7 +4090,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Wheat</comp-name>
@@ -4005,7 +4135,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>132c</comp-pawnbuy>
 		<comp-pawnsell>3s 300c</comp-pawnsell>
-		<comp-vielosell>4s 950c</comp-vielosell>
+		<comp-vielosell>16s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Winter Mountain Wolf Fang</comp-name>
@@ -4015,7 +4145,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>224.4c</comp-pawnbuy>
 		<comp-pawnsell>5s 610c</comp-pawnsell>
-		<comp-vielosell>8s 415c</comp-vielosell>
+		<comp-vielosell>28s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Winter Werewolf Fang</comp-name>
@@ -4025,7 +4155,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>343.2c</comp-pawnbuy>
 		<comp-pawnsell>8s 580c</comp-pawnsell>
-		<comp-vielosell>12s 870c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Winter Werewolf Hide</comp-name>
@@ -4035,7 +4165,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>422.4c</comp-pawnbuy>
 		<comp-pawnsell>10s 560c</comp-pawnsell>
-		<comp-vielosell>15s 840c</comp-vielosell>
+		<comp-vielosell>42s 900c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Winter Wolf Fang</comp-name>
@@ -4045,7 +4175,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>59.6c</comp-pawnbuy>
 		<comp-pawnsell>1s 490c</comp-pawnsell>
-		<comp-vielosell>2s 235c</comp-vielosell>
+		<comp-vielosell>7s 450c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Wolf Fang</comp-name>
@@ -4055,7 +4185,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>6.8c</comp-pawnbuy>
 		<comp-pawnsell>170c</comp-pawnsell>
-		<comp-vielosell>255c</comp-vielosell>
+		<comp-vielosell>850c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Wood Golem Splinter</comp-name>
@@ -4065,7 +4195,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>105.6c</comp-pawnbuy>
 		<comp-pawnsell>2s 640c</comp-pawnsell>
-		<comp-vielosell>3s 960c</comp-vielosell>
+		<comp-vielosell>13s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Wraith Ectoplasm</comp-name>
@@ -4075,7 +4205,6 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>0.2c</comp-pawnbuy>
 		<comp-pawnsell>5c</comp-pawnsell>
-		<comp-vielosell>7.5c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Wraith Master Ectoplasm</comp-name>
@@ -4085,7 +4214,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>277.2c</comp-pawnbuy>
 		<comp-pawnsell>6s 930c</comp-pawnsell>
-		<comp-vielosell>10s 395c</comp-vielosell>
+		<comp-vielosell>34s 650c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Blighted Marble Slab</comp-name>
@@ -4232,40 +4361,6 @@
 		</gather-methods>
 	</comp>
 	<comp>
-		<comp-name>Blood Fungus Cap</comp-name>
-		<comp-tier>5</comp-tier>
-		<comp-desc>A red chunk of cap from the rare Blood Fungus.</comp-desc>
-		<comp-type>Gathered</comp-type>
-		<comp-bulk>10</comp-bulk>
-		<comp-pawnbuy>16c</comp-pawnbuy>
-		<comp-pawnsell>400c</comp-pawnsell>
-		<gather-methods>
-			<gather>
-				<gather-skill>Foraging</gather-skill>
-				<gather-tool>Tanning Blade</gather-tool>
-				<gather-rate>Normal</gather-rate>
-				<min-skill>800</min-skill>
-				<max-skill>1050</max-skill>
-				<bonuses>
-					<bonus>
-						<bonus-name>Blood Fungus Cap</bonus-name>
-						<bonus-amount chance="3.000">1</bonus-amount>
-					</bonus>
-				</bonuses>
-			</gather>
-		</gather-methods>
-	</comp>
-	<comp>
-		<comp-name>Bloodsnout Gruok Snout</comp-name>
-		<comp-tier>5</comp-tier>
-		<comp-desc/>
-		<comp-type>Looted</comp-type>
-		<comp-bulk>1</comp-bulk>
-		<comp-pawnbuy>660c</comp-pawnbuy>
-		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
-	</comp>
-	<comp>
 		<comp-name>Blue Vexator Fringe</comp-name>
 		<comp-tier>5</comp-tier>
 		<comp-desc/>
@@ -4273,7 +4368,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>765.6c</comp-pawnbuy>
 		<comp-pawnsell>19s 140c</comp-pawnsell>
-		<comp-vielosell>28s 710c</comp-vielosell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Dire Wolf Fang</comp-name>
@@ -4283,7 +4378,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Emerald Golem Chip</comp-name>
@@ -4293,7 +4388,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 16.4c</comp-pawnbuy>
 		<comp-pawnsell>25s 410c</comp-pawnsell>
-		<comp-vielosell>38s 115c</comp-vielosell>
+		<comp-vielosell>127s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Enduring Fyakki Chitin</comp-name>
@@ -4303,7 +4398,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fire Opal Golem Chip</comp-name>
@@ -4313,7 +4408,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>884.4c</comp-pawnbuy>
 		<comp-pawnsell>22s 110c</comp-pawnsell>
-		<comp-vielosell>33s 165c</comp-vielosell>
+		<comp-vielosell>110s 550c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fresh Mackrel</comp-name>
@@ -4351,7 +4446,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>765.6c</comp-pawnbuy>
 		<comp-pawnsell>19s 140c</comp-pawnsell>
-		<comp-vielosell>28s 710c</comp-vielosell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Geostone Clay Chunk</comp-name>
@@ -4402,7 +4497,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 16.4c</comp-pawnbuy>
 		<comp-pawnsell>25s 410c</comp-pawnsell>
-		<comp-vielosell>38s 115c</comp-vielosell>
+		<comp-vielosell>127s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Giant Flame Beetle Mandible</comp-name>
@@ -4412,7 +4507,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>884.4c</comp-pawnbuy>
 		<comp-pawnsell>22s 110c</comp-pawnsell>
-		<comp-vielosell>33s 165c</comp-vielosell>
+		<comp-vielosell>110s 550c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Giant Ice Beetle Mandible</comp-name>
@@ -4422,7 +4517,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>765.6c</comp-pawnbuy>
 		<comp-pawnsell>19s 140c</comp-pawnsell>
-		<comp-vielosell>28s 710c</comp-vielosell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Grey Necrofly Wing</comp-name>
@@ -4432,7 +4527,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Icy Dire Wolf Fang</comp-name>
@@ -4442,7 +4537,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>884.4c</comp-pawnbuy>
 		<comp-pawnsell>22s 110c</comp-pawnsell>
-		<comp-vielosell>33s 165c</comp-vielosell>
+		<comp-vielosell>110s 550c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Kwellen Energy Node</comp-name>
@@ -4452,7 +4547,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Marble Golem Fragment</comp-name>
@@ -4462,7 +4557,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Marble Slab</comp-name>
@@ -4500,7 +4595,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>884.4c</comp-pawnbuy>
 		<comp-pawnsell>22s 110c</comp-pawnsell>
-		<comp-vielosell>33s 165c</comp-vielosell>
+		<comp-vielosell>110s 550c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Myloc Harridan Brain</comp-name>
@@ -4510,7 +4605,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Peridot Golem Chip</comp-name>
@@ -4520,7 +4615,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>765.6c</comp-pawnbuy>
 		<comp-pawnsell>19s 140c</comp-pawnsell>
-		<comp-vielosell>28s 710c</comp-vielosell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Purple Spider Venom</comp-name>
@@ -4530,7 +4625,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Purple Tarantula Venom</comp-name>
@@ -4540,7 +4635,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>765.6c</comp-pawnbuy>
 		<comp-pawnsell>19s 140c</comp-pawnsell>
-		<comp-vielosell>28s 710c</comp-vielosell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Red Vexator Fringe</comp-name>
@@ -4550,7 +4645,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>765.6c</comp-pawnbuy>
 		<comp-pawnsell>19s 140c</comp-pawnsell>
-		<comp-vielosell>28s 710c</comp-vielosell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Shining Essence</comp-name>
@@ -4748,7 +4843,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Veteran Aegror Engorged Pus Packets</comp-name>
@@ -4758,7 +4853,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Veteran Blight Bindings</comp-name>
@@ -4768,7 +4863,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Veteran Ghost Vapor</comp-name>
@@ -4778,7 +4873,27 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Veteran Mummy Wrappings</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc/>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>82s 500c</comp-vielosell>
+	</comp>
+	<comp>
+		<comp-name>Veteran Skeleton Skull</comp-name>
+		<comp-tier>5</comp-tier>
+		<comp-desc/>
+		<comp-type>Looted</comp-type>
+		<comp-bulk>1</comp-bulk>
+		<comp-pawnbuy>660c</comp-pawnbuy>
+		<comp-pawnsell>16s 500c</comp-pawnsell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Veteran Skeleton Sternum</comp-name>
@@ -4788,7 +4903,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Wind Golem Vapor</comp-name>
@@ -4798,7 +4913,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 16.4c</comp-pawnbuy>
 		<comp-pawnsell>25s 410c</comp-pawnsell>
-		<comp-vielosell>38s 115c</comp-vielosell>
+		<comp-vielosell>127s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Yew Treant Knot</comp-name>
@@ -4808,7 +4923,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>765.6c</comp-pawnbuy>
 		<comp-pawnsell>19s 140c</comp-pawnsell>
-		<comp-vielosell>28s 710c</comp-vielosell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Zombie Ogre Toe</comp-name>
@@ -4818,7 +4933,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>660c</comp-pawnbuy>
 		<comp-pawnsell>16s 500c</comp-pawnsell>
-		<comp-vielosell>24s 750c</comp-vielosell>
+		<comp-vielosell>82s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Zombie Werewolf Skull</comp-name>
@@ -4828,7 +4943,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>765.6c</comp-pawnbuy>
 		<comp-pawnsell>19s 140c</comp-pawnsell>
-		<comp-vielosell>28s 710c</comp-vielosell>
+		<comp-vielosell>95s 700c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Adamantium Golem Fragment</comp-name>
@@ -4838,7 +4953,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 359.6c</comp-pawnbuy>
 		<comp-pawnsell>33s 990c</comp-pawnsell>
-		<comp-vielosell>50s 985c</comp-vielosell>
+		<comp-vielosell>169s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Blighted Hellhound Vertebrae</comp-name>
@@ -4848,7 +4963,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 359.6c</comp-pawnbuy>
 		<comp-pawnsell>33s 990c</comp-pawnsell>
-		<comp-vielosell>50s 985c</comp-vielosell>
+		<comp-vielosell>169s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Blighted Radiant Essence</comp-name>
@@ -5014,7 +5129,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 544.4c</comp-pawnbuy>
 		<comp-pawnsell>38s 610c</comp-pawnsell>
-		<comp-vielosell>57s 915c</comp-vielosell>
+		<comp-vielosell>193s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Elite Abomination Phylactery</comp-name>
@@ -5024,7 +5139,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
 		<comp-pawnsell>29s 40c</comp-pawnsell>
-		<comp-vielosell>43s 560c</comp-vielosell>
+		<comp-vielosell>145s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Elite Blight Bindings</comp-name>
@@ -5034,7 +5149,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
 		<comp-pawnsell>29s 40c</comp-pawnsell>
-		<comp-vielosell>43s 560c</comp-vielosell>
+		<comp-vielosell>145s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Elite Ghost Vapor</comp-name>
@@ -5044,7 +5159,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
 		<comp-pawnsell>29s 40c</comp-pawnsell>
-		<comp-vielosell>43s 560c</comp-vielosell>
+		<comp-vielosell>145s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Flame Hellhound Hip</comp-name>
@@ -5054,7 +5169,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
 		<comp-pawnsell>29s 40c</comp-pawnsell>
-		<comp-vielosell>43s 560c</comp-vielosell>
+		<comp-vielosell>145s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Fresh Halibut</comp-name>
@@ -5088,7 +5203,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
 		<comp-pawnsell>29s 40c</comp-pawnsell>
-		<comp-vielosell>43s 560c</comp-vielosell>
+		<comp-vielosell>145s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Hearth Skulk Fin</comp-name>
@@ -5098,7 +5213,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
 		<comp-pawnsell>29s 40c</comp-pawnsell>
-		<comp-vielosell>43s 560c</comp-vielosell>
+		<comp-vielosell>145s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Indestructible Fyakki Chitin</comp-name>
@@ -5108,7 +5223,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 544.4c</comp-pawnbuy>
 		<comp-pawnsell>38s 610c</comp-pawnsell>
-		<comp-vielosell>57s 915c</comp-vielosell>
+		<comp-vielosell>193s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Kwellen Blight Aura</comp-name>
@@ -5118,7 +5233,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 544.4c</comp-pawnbuy>
 		<comp-pawnsell>38s 610c</comp-pawnsell>
-		<comp-vielosell>57s 915c</comp-vielosell>
+		<comp-vielosell>193s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Myloc Gorgon Skull</comp-name>
@@ -5128,7 +5243,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 161.6c</comp-pawnbuy>
 		<comp-pawnsell>29s 40c</comp-pawnsell>
-		<comp-vielosell>43s 560c</comp-vielosell>
+		<comp-vielosell>145s 200c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Porcelain Clay Chunk</comp-name>
@@ -5175,7 +5290,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 544.4c</comp-pawnbuy>
 		<comp-pawnsell>38s 610c</comp-pawnsell>
-		<comp-vielosell>57s 915c</comp-vielosell>
+		<comp-vielosell>193s 50c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Purple Vexator Fringe</comp-name>
@@ -5185,7 +5300,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 359.6c</comp-pawnbuy>
 		<comp-pawnsell>33s 990c</comp-pawnsell>
-		<comp-vielosell>50s 985c</comp-vielosell>
+		<comp-vielosell>169s 950c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Radiant Essence</comp-name>
@@ -5219,7 +5334,7 @@
 		<comp-bulk>1</comp-bulk>
 		<comp-pawnbuy>1s 188c</comp-pawnbuy>
 		<comp-pawnsell>29s 700c</comp-pawnsell>
-		<comp-vielosell>44s 550c</comp-vielosell>
+		<comp-vielosell>148s 500c</comp-vielosell>
 	</comp>
 	<comp>
 		<comp-name>Shadowstem Fungus Cap</comp-name>
