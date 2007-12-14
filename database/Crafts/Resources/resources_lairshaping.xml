@@ -116,6 +116,56 @@
         </resource>
       </resources>
     </tier>
+	<tier>
+      <tier-name>Fervid Excoriation of Earth</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Marble Brick</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">800</resource-min>
+          <resource-opt amount="15">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">800</resource-min>
+          <resource-opt amount="15">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+	  <tier>
+      <tier-name>Volative Excoriation of Earth</tier-name>
+      <tier-lvl>6</tier-lvl>
+      <tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_6</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Travertine Brick</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">1000</resource-min>
+          <resource-opt amount="15">1325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Adamantium Bar</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">1000</resource-min>
+          <resource-opt amount="15">1325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
   </item>
   <item>
     <item-name>Imbued Bar</item-name>
@@ -304,6 +354,56 @@
         </resource>
       </resources>
     </tier>
+	<tier>
+      <tier-name>Imbued Mithril Bar</tier-name>
+      <tier-lvl name="V - Mithril">5</tier-lvl>
+      <tier-desc>Imbued Bars are made from Mithril Bars that are "imbued" with essence, Shining Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">800</resource-min>
+          <resource-opt amount="15">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Mithril Bar</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">800</resource-min>
+          <resource-opt amount="15">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+	<tier>
+      <tier-name>Imbued Adamantium Bar</tier-name>
+      <tier-lvl name="VI - Adamantium">6</tier-lvl>
+      <tier-desc>Imbued Bars are made from Adamantium Bars that are "imbued" with essence, Radiant Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_6</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Radiant Essence Orb</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">1000</resource-min>
+          <resource-opt amount="15">1325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Adamantium Bar</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">1000</resource-min>
+          <resource-opt amount="15">1325</resource-opt>
+        </resource>
+      </resources>
+    </tier>
   </item>
   <item>
     <item-name>Primal Essence</item-name>
@@ -414,6 +514,56 @@
           <resource-skill>Lairshaping</resource-skill>
           <resource-min amount="30">600</resource-min>
           <resource-opt amount="15">875</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+	<tier>
+      <tier-name>Primal Essence of Mergence</tier-name>
+      <tier-lvl>5</tier-lvl>
+      <tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_5</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Focused Crimson Azulyte Crystal</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">800</resource-min>
+          <resource-opt amount="15">1100</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Shining Essence Orb</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">800</resource-min>
+          <resource-opt amount="15">1100</resource-opt>
+        </resource>
+      </resources>
+    </tier>
+	<tier>
+      <tier-name>Primal Essence of Amalgam</tier-name>
+      <tier-lvl>6</tier-lvl>
+      <tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
+      <tier-allowedtechniques>0</tier-allowedtechniques>
+      <tier-attributes>
+      </tier-attributes>
+      <tier-keywords>
+        <tier-keyword>tier_6</tier-keyword>
+      </tier-keywords>
+      <resources>
+        <resource>
+          <resource-name>Focused Violet Azulyte Crystal</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">1000</resource-min>
+          <resource-opt amount="15">1325</resource-opt>
+        </resource>
+        <resource>
+          <resource-name>Radiant Essence Orb</resource-name>
+          <resource-skill>Lairshaping</resource-skill>
+          <resource-min amount="30">1000</resource-min>
+          <resource-opt amount="15">1325</resource-opt>
         </resource>
       </resources>
     </tier>
