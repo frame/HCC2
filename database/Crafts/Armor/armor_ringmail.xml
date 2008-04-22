@@ -1,1871 +1,1871 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Armor - Ringmail</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Armor</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Invisible Ringmail Helm</item-name>
-    <item-icon>icon_formula_a_05_00_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Head</item-attribute>
-      <item-attribute type="bulk">32</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_helm</item-keyword>
-      <item-keyword>bodyslot_head</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Invisible Bronze Ringmail Helm</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">35</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">20</resource-min>
-          <resource-opt amount="7">120</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Iron Ringmail Helm</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">63</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">220</resource-min>
-          <resource-opt amount="7">345</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Steel Ringmail Helm</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">126</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">420</resource-min>
-          <resource-opt amount="7">570</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Cobalt Ringmail Helm</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">252</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">620</resource-min>
-          <resource-opt amount="7">795</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Mithril Ringmail Helm</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">504</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">820</resource-min>
-          <resource-opt amount="7">1020</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Invisible Ringmail Mask</item-name>
-    <item-icon>icon_formula_a_06_00_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Face</item-attribute>
-      <item-attribute type="bulk">16</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_face</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Invisible Bronze Ringmail Mask</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">45</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">60</resource-min>
-          <resource-opt amount="9">160</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Iron Ringmail Mask</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">81</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">260</resource-min>
-          <resource-opt amount="9">385</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Steel Ringmail Mask</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">162</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">460</resource-min>
-          <resource-opt amount="9">610</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Cobalt Ringmail Mask</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">324</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">660</resource-min>
-          <resource-opt amount="9">835</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Mithril Ringmail Mask</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">648</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">860</resource-min>
-          <resource-opt amount="9">1060</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Armguards</item-name>
-    <item-icon>icon_formula_a_25_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Arms</item-attribute>
-      <item-attribute type="bulk">32</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_armguard</item-keyword>
-      <item-keyword>bodyslot_arms</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Armguards</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">45</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">70</resource-min>
-          <resource-opt amount="9">170</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Armguards</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">81</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">270</resource-min>
-          <resource-opt amount="9">395</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Armguards</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">162</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">470</resource-min>
-          <resource-opt amount="9">620</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Armguards</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">324</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">670</resource-min>
-          <resource-opt amount="9">845</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Armguards</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">648</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">870</resource-min>
-          <resource-opt amount="9">1070</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Belt</item-name>
-    <item-icon>icon_formula_a_09_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Waist</item-attribute>
-      <item-attribute type="bulk">32</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_belt</item-keyword>
-      <item-keyword>bodyslot_waist</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Belt</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">30</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">1</resource-min>
-          <resource-opt amount="6">100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Belt</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">200</resource-min>
-          <resource-opt amount="6">325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Belt</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">400</resource-min>
-          <resource-opt amount="6">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Belt</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">600</resource-min>
-          <resource-opt amount="6">775</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Belt</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">800</resource-min>
-          <resource-opt amount="6">1000</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Boots</item-name>
-    <item-icon>icon_formula_a_11_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Feet</item-attribute>
-      <item-attribute type="bulk">32</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_boots</item-keyword>
-      <item-keyword>bodyslot_feet</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Boots</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">40</resource-min>
-          <resource-opt amount="8">140</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Boots</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">240</resource-min>
-          <resource-opt amount="8">365</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Boots</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">440</resource-min>
-          <resource-opt amount="8">590</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Boots</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">640</resource-min>
-          <resource-opt amount="8">815</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Boots</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">840</resource-min>
-          <resource-opt amount="8">1040</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Bracer</item-name>
-    <item-icon>icon_formula_a_13_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Forearm</item-attribute>
-      <item-attribute type="bulk">16</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_bracer</item-keyword>
-      <item-keyword>bodyslot_forearm</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Bracer</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">30</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">10</resource-min>
-          <resource-opt amount="6">110</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Bracer</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">210</resource-min>
-          <resource-opt amount="6">335</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Bracer</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">410</resource-min>
-          <resource-opt amount="6">560</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Bracer</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">610</resource-min>
-          <resource-opt amount="6">785</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Bracer</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="12">810</resource-min>
-          <resource-opt amount="6">1010</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Chestguard</item-name>
-    <item-icon>icon_formula_a_01_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Chest</item-attribute>
-      <item-attribute type="bulk">64</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_chestguard</item-keyword>
-      <item-keyword>bodyslot_chest</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Chestguard</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">60</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">90</resource-min>
-          <resource-opt amount="12">190</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Chestguard</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">290</resource-min>
-          <resource-opt amount="12">415</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Chestguard</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">490</resource-min>
-          <resource-opt amount="12">640</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Chestguard</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">690</resource-min>
-          <resource-opt amount="12">865</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Chestguard</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">890</resource-min>
-          <resource-opt amount="12">1090</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Gauntlets</item-name>
-    <item-icon>icon_formula_a_24_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Hands</item-attribute>
-      <item-attribute type="bulk">16</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_gauntlets</item-keyword>
-      <item-keyword>bodyslot_hands</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Gauntlets</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">50</resource-min>
-          <resource-opt amount="8">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Gauntlets</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">250</resource-min>
-          <resource-opt amount="8">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Gauntlets</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">450</resource-min>
-          <resource-opt amount="8">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Gauntlets</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">650</resource-min>
-          <resource-opt amount="8">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Gauntlets</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="16">850</resource-min>
-          <resource-opt amount="8">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Greaves</item-name>
-    <item-icon>icon_formula_a_10_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Legs</item-attribute>
-      <item-attribute type="bulk">64</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_leggings</item-keyword>
-      <item-keyword>bodyslot_legs</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Greaves</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">55</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="22">80</resource-min>
-          <resource-opt amount="11">180</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Greaves</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">99</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="22">280</resource-min>
-          <resource-opt amount="11">405</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Greaves</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">198</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="22">480</resource-min>
-          <resource-opt amount="11">630</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Greaves</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">396</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="22">680</resource-min>
-          <resource-opt amount="11">855</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Greaves</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">792</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="22">880</resource-min>
-          <resource-opt amount="11">1080</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Helm</item-name>
-    <item-icon>icon_formula_a_05_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Head</item-attribute>
-      <item-attribute type="bulk">32</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_helm</item-keyword>
-      <item-keyword>bodyslot_head</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Helm</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">35</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">20</resource-min>
-          <resource-opt amount="7">120</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Helm</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">63</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">220</resource-min>
-          <resource-opt amount="7">345</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Helm</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">126</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">420</resource-min>
-          <resource-opt amount="7">570</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Helm</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">252</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">620</resource-min>
-          <resource-opt amount="7">795</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Helm</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">504</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">820</resource-min>
-          <resource-opt amount="7">1020</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Mask</item-name>
-    <item-icon>icon_formula_a_06_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Face</item-attribute>
-      <item-attribute type="bulk">16</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_face</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Mask</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">45</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">60</resource-min>
-          <resource-opt amount="9">160</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Mask</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">81</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">260</resource-min>
-          <resource-opt amount="9">385</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Mask</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">162</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">460</resource-min>
-          <resource-opt amount="9">610</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Mask</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">324</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">660</resource-min>
-          <resource-opt amount="9">835</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Mask</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">648</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="18">860</resource-min>
-          <resource-opt amount="9">1060</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Shoulderpad</item-name>
-    <item-icon>icon_formula_a_12_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Shoulder</item-attribute>
-      <item-attribute type="bulk">16</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_shoulderpad</item-keyword>
-      <item-keyword>bodyslot_shoulder</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Shoulderpad</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">35</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">30</resource-min>
-          <resource-opt amount="7">130</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Shoulderpad</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">63</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">230</resource-min>
-          <resource-opt amount="7">355</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Shoulderpad</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">126</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">430</resource-min>
-          <resource-opt amount="7">580</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Shoulderpad</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">252</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">630</resource-min>
-          <resource-opt amount="7">805</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Shoulderpad</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">504</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="14">830</resource-min>
-          <resource-opt amount="7">1030</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ringmail Skilts</item-name>
-    <item-icon>icon_formula_a_10_06_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Legs</item-attribute>
-      <item-attribute type="bulk">64</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_legs</item-keyword>
-      <item-keyword>armorstyle_link</item-keyword>
-      <item-keyword>armortype_ringmail</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Ringmail Skilts</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">60</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+6 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">80</resource-min>
-          <resource-opt amount="12">180</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Ringmail Skilts</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+19 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">280</resource-min>
-          <resource-opt amount="12">405</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Ringmail Skilts</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+36 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">480</resource-min>
-          <resource-opt amount="12">630</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Ringmail Skilts</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+57 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">680</resource-min>
-          <resource-opt amount="12">855</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Ringmail Skilts</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">864</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+82 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Armorcraft</resource-skill>
-          <resource-min amount="24">880</resource-min>
-          <resource-opt amount="12">1080</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+	<formulaset-name>Armor - Ringmail</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Armor</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Invisible Ringmail Helm</item-name>
+		<item-icon>icon_formula_a_05_00_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Head</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_helm</item-keyword>
+			<item-keyword>bodyslot_head</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Invisible Bronze Ringmail Helm</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">20</resource-min>
+					<resource-opt amount="7">120</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Iron Ringmail Helm</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">220</resource-min>
+					<resource-opt amount="7">345</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Steel Ringmail Helm</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">420</resource-min>
+					<resource-opt amount="7">570</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Cobalt Ringmail Helm</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">620</resource-min>
+					<resource-opt amount="7">795</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Mithril Ringmail Helm</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">504</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">820</resource-min>
+					<resource-opt amount="7">1020</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Invisible Ringmail Mask</item-name>
+		<item-icon>icon_formula_a_06_00_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Face</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_face</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Invisible Bronze Ringmail Mask</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">60</resource-min>
+					<resource-opt amount="9">160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Iron Ringmail Mask</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">260</resource-min>
+					<resource-opt amount="9">385</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Steel Ringmail Mask</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">460</resource-min>
+					<resource-opt amount="9">610</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Cobalt Ringmail Mask</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">660</resource-min>
+					<resource-opt amount="9">835</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Mithril Ringmail Mask</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">648</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">860</resource-min>
+					<resource-opt amount="9">1060</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Armguards</item-name>
+		<item-icon>icon_formula_a_25_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Arms</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_armguard</item-keyword>
+			<item-keyword>bodyslot_arms</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Armguards</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">70</resource-min>
+					<resource-opt amount="9">170</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Armguards</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">270</resource-min>
+					<resource-opt amount="9">395</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Armguards</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">470</resource-min>
+					<resource-opt amount="9">620</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Armguards</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">670</resource-min>
+					<resource-opt amount="9">845</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Armguards</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">648</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">870</resource-min>
+					<resource-opt amount="9">1070</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Belt</item-name>
+		<item-icon>icon_formula_a_09_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Waist</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_belt</item-keyword>
+			<item-keyword>bodyslot_waist</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Belt</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">30</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">1</resource-min>
+					<resource-opt amount="6">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Belt</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">200</resource-min>
+					<resource-opt amount="6">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Belt</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">400</resource-min>
+					<resource-opt amount="6">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Belt</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">600</resource-min>
+					<resource-opt amount="6">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Belt</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">800</resource-min>
+					<resource-opt amount="6">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Boots</item-name>
+		<item-icon>icon_formula_a_11_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Feet</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_boots</item-keyword>
+			<item-keyword>bodyslot_feet</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Boots</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">40</resource-min>
+					<resource-opt amount="8">140</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Boots</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">240</resource-min>
+					<resource-opt amount="8">365</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Boots</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">440</resource-min>
+					<resource-opt amount="8">590</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Boots</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">640</resource-min>
+					<resource-opt amount="8">815</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Boots</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">840</resource-min>
+					<resource-opt amount="8">1040</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Bracer</item-name>
+		<item-icon>icon_formula_a_13_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Forearm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_bracer</item-keyword>
+			<item-keyword>bodyslot_forearm</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Bracer</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">30</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">10</resource-min>
+					<resource-opt amount="6">110</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Bracer</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">210</resource-min>
+					<resource-opt amount="6">335</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Bracer</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">410</resource-min>
+					<resource-opt amount="6">560</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Bracer</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">610</resource-min>
+					<resource-opt amount="6">785</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Bracer</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="12">810</resource-min>
+					<resource-opt amount="6">1010</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Chestguard</item-name>
+		<item-icon>icon_formula_a_01_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Chest</item-attribute>
+			<item-attribute type="bulk">64</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_chestguard</item-keyword>
+			<item-keyword>bodyslot_chest</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Chestguard</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">90</resource-min>
+					<resource-opt amount="12">190</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Chestguard</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">290</resource-min>
+					<resource-opt amount="12">415</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Chestguard</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">490</resource-min>
+					<resource-opt amount="12">640</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Chestguard</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">690</resource-min>
+					<resource-opt amount="12">865</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Chestguard</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">890</resource-min>
+					<resource-opt amount="12">1090</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Gauntlets</item-name>
+		<item-icon>icon_formula_a_24_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Hands</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_gauntlets</item-keyword>
+			<item-keyword>bodyslot_hands</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Gauntlets</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">50</resource-min>
+					<resource-opt amount="8">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Gauntlets</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">250</resource-min>
+					<resource-opt amount="8">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Gauntlets</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">450</resource-min>
+					<resource-opt amount="8">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Gauntlets</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">650</resource-min>
+					<resource-opt amount="8">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Gauntlets</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="16">850</resource-min>
+					<resource-opt amount="8">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Greaves</item-name>
+		<item-icon>icon_formula_a_10_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Legs</item-attribute>
+			<item-attribute type="bulk">64</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_leggings</item-keyword>
+			<item-keyword>bodyslot_legs</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Greaves</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">55</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="22">80</resource-min>
+					<resource-opt amount="11">180</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Greaves</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">99</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="22">280</resource-min>
+					<resource-opt amount="11">405</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Greaves</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">198</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="22">480</resource-min>
+					<resource-opt amount="11">630</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Greaves</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">396</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="22">680</resource-min>
+					<resource-opt amount="11">855</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Greaves</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">792</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="22">880</resource-min>
+					<resource-opt amount="11">1080</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Helm</item-name>
+		<item-icon>icon_formula_a_05_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Head</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_helm</item-keyword>
+			<item-keyword>bodyslot_head</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Helm</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">20</resource-min>
+					<resource-opt amount="7">120</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Helm</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">220</resource-min>
+					<resource-opt amount="7">345</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Helm</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">420</resource-min>
+					<resource-opt amount="7">570</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Helm</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">620</resource-min>
+					<resource-opt amount="7">795</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Helm</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">504</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">820</resource-min>
+					<resource-opt amount="7">1020</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Mask</item-name>
+		<item-icon>icon_formula_a_06_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Face</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_face</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Mask</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">60</resource-min>
+					<resource-opt amount="9">160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Mask</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">260</resource-min>
+					<resource-opt amount="9">385</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Mask</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">460</resource-min>
+					<resource-opt amount="9">610</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Mask</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">660</resource-min>
+					<resource-opt amount="9">835</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Mask</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">648</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="18">860</resource-min>
+					<resource-opt amount="9">1060</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Shoulderpad</item-name>
+		<item-icon>icon_formula_a_12_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Shoulder</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_shoulderpad</item-keyword>
+			<item-keyword>bodyslot_shoulder</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Shoulderpad</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">30</resource-min>
+					<resource-opt amount="7">130</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Shoulderpad</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">230</resource-min>
+					<resource-opt amount="7">355</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Shoulderpad</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">430</resource-min>
+					<resource-opt amount="7">580</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Shoulderpad</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">630</resource-min>
+					<resource-opt amount="7">805</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Shoulderpad</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">504</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="14">830</resource-min>
+					<resource-opt amount="7">1030</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ringmail Skilts</item-name>
+		<item-icon>icon_formula_a_10_06_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Legs</item-attribute>
+			<item-attribute type="bulk">64</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_legs</item-keyword>
+			<item-keyword>armorstyle_link</item-keyword>
+			<item-keyword>armortype_ringmail</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Ringmail Skilts</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">80</resource-min>
+					<resource-opt amount="12">180</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Ringmail Skilts</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">280</resource-min>
+					<resource-opt amount="12">405</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Ringmail Skilts</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">480</resource-min>
+					<resource-opt amount="12">630</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Ringmail Skilts</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+57 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">680</resource-min>
+					<resource-opt amount="12">855</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Ringmail Skilts</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Ringmail armor is a collection of large metal rings fastened together by smaller interconnecting pieces. Fairly easy to construct it offers good protection against blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-min amount="24">880</resource-min>
+					<resource-opt amount="12">1080</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

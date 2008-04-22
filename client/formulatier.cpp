@@ -29,6 +29,7 @@ CFormulaTier::~CFormulaTier()
 CFormulaTier::operator =( const CFormulaTier* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -97,13 +98,13 @@ CFormulaTier::WriteToFile(CStdioFile &a_cFile)
 	CItemResource *l_cpItemResource;
 	CEffect *l_cpEffect;
 
-	l_csLine.Format ("%s|%d|%s|%s|%d|%d|%d|%d\n", 
+	l_csLine.Format ("%s|%d|%s|%s|%d|%d|%d|%d\n",
 						  m_csName,
-						  m_iTierLevel, 
-						  m_csTierName, 
-						  m_csDescription, 
-						  m_iAllowedTechniques, 
-						  m_iBatchQty, 
+						  m_iTierLevel,
+						  m_csTierName,
+						  m_csDescription,
+						  m_iAllowedTechniques,
+						  m_iBatchQty,
 						  m_clEffectsList.GetCount(),
 						  m_clResourceList.GetCount());
 	a_cFile.WriteString (l_csLine);
@@ -168,6 +169,6 @@ bool CFormulaTier::ReadFromFile(CStdioFile &a_cFile)
 			}
 		}
 	}
-	
+
 	return (l_bSuccess);
 }

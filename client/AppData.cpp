@@ -98,6 +98,8 @@ bool CAppData::m_bDragWithToolBar = false;
 bool CAppData::m_bVerticalToolBar = true;
 bool CAppData::m_bAutoShrink = true;
 bool CAppData::m_bHighPriority = false;
+bool CAppData::m_bAutoUpdate = false;
+bool CAppData::m_bAutoUpdateQuery = true;
 
 CString CAppData::m_csCurrentTheme = "hcctheme_default.xml";
 CString CAppData::m_csAppBasePath = "";
@@ -136,7 +138,7 @@ CAppData::~CAppData()
 // Window Routines
 //////////////////////////////////////////////////////////////////////
 
-CAppData::SetToolbarState(CButtonST &a_cButton, bool a_bState, int a_iStateOff, int a_iStateOn)
+int CAppData::SetToolbarState(CButtonST &a_cButton, bool a_bState, int a_iStateOff, int a_iStateOn)
 {
 	if (a_bState)
 	{
@@ -165,7 +167,7 @@ int CAppData::ConvertScreenWidthToGrid(int a_iWidth)
    CDC* pDC = m_cpHCCDlg->GetDC ();
    double m_nLogX = (double) pDC->GetDeviceCaps(LOGPIXELSX);
    //int m_nLogY = pDC->GetDeviceCaps(LOGPIXELSY);
- 
+
 	m_cpHCCDlg->ReleaseDC(pDC);
 
 	double l_fWidth = (double) a_iWidth;
@@ -186,7 +188,7 @@ int CAppData::ConvertGridWidthToScreen(int a_iWidth)
    CDC* pDC = m_cpHCCDlg->GetDC ();
    double m_nLogX = (double) pDC->GetDeviceCaps(LOGPIXELSX);
    //int m_nLogY = pDC->GetDeviceCaps(LOGPIXELSY);
- 
+
 	m_cpHCCDlg->ReleaseDC(pDC);
 
 	double l_fWidth = (double) a_iWidth;
@@ -196,7 +198,7 @@ int CAppData::ConvertGridWidthToScreen(int a_iWidth)
 	return (l_iWidth);
 }
 
-CAppData::LoadWindowStates()
+int CAppData::LoadWindowStates()
 {
 	GetMainWindowState ();
 	GetOrderWindowState ();
@@ -207,7 +209,7 @@ CAppData::LoadWindowStates()
 	GetProfileWindowState();
 }
 
-CAppData::SaveWindowStates()
+int CAppData::SaveWindowStates()
 {
 	SetMainWindowState ();
 	SetOrderWindowState ();
@@ -497,6 +499,7 @@ CAppData::GetMainWindowState()
 
 		m_cpHCCDlg->GetWindowRect (l_cRect);
 		m_cpHCCDlg->m_cWindowState.fromString (l_csWindowStr);
+		// FIXME frame
 		m_cpHCCDlg->m_cWindowState.m_iWidth = l_cRect.Width ();
 		m_cpHCCDlg->m_cWindowState.m_iHeight = l_cRect.Height ();
 		m_cpHCCDlg->m_cWindowState.setWnd (*m_cpHCCDlg);
@@ -717,6 +720,8 @@ CAppData::ReadDefaults()
 	l_cRegAccess.LoadKey (l_csBasePath, "DragWithToolbar", m_bDragWithToolBar);
 	l_cRegAccess.LoadKey (l_csBasePath, "VerticalToolbar", m_bVerticalToolBar);
 	l_cRegAccess.LoadKey (l_csBasePath, "AutoShrink", m_bAutoShrink);
+	l_cRegAccess.LoadKey (l_csBasePath, "AutoUpdate", m_bAutoUpdate);
+	l_cRegAccess.LoadKey (l_csBasePath, "AutoUpdateQuery", m_bAutoUpdateQuery);
 	l_cRegAccess.LoadKey (l_csBasePath, "HighPriority", m_bHighPriority);
 
 	if (m_csOrderDir.IsEmpty ())
@@ -783,6 +788,8 @@ CAppData::SaveDefaults()
 	l_cRegAccess.SaveKey (l_csBasePath, "DragWithToolbar", m_bDragWithToolBar);
 	l_cRegAccess.SaveKey (l_csBasePath, "VerticalToolbar", m_bVerticalToolBar);
 	l_cRegAccess.SaveKey (l_csBasePath, "AutoShrink", m_bAutoShrink);
+	l_cRegAccess.SaveKey (l_csBasePath, "AutoUpdate", m_bAutoUpdate);
+	l_cRegAccess.SaveKey (l_csBasePath, "AutoUpdateQuery", m_bAutoUpdateQuery);
 	l_cRegAccess.SaveKey (l_csBasePath, "HighPriority", m_bHighPriority);
 }
 
@@ -852,7 +859,7 @@ bool CAppData::LoadFormulas(CString &a_csPath, CTypedPtrList<CPtrList, CFormulaS
 				}
 			}
 		}
-		
+
 	}
 
 	l_cFileFind.Close ();
@@ -921,7 +928,7 @@ bool CAppData::LoadTechniques(CString &a_csPath)
 				}
 			}
 		}
-		
+
 	}
 
 	l_cFileFind.Close ();
@@ -1298,7 +1305,7 @@ bool CAppData::SaveOrder(CString &a_csFilename)
 		l_cParser.WriteOpenTag ("order");
 		l_cParser.WriteTag ("order-format", "1.0");
 
-		l_cParser.WriteOpenTag ("groups");	
+		l_cParser.WriteOpenTag ("groups");
 		l_cPos = m_cOrderGroups.GetHeadPosition ();
 		while (l_cPos)
 		{
@@ -1335,7 +1342,7 @@ bool CAppData::SaveOrder(CString &a_csFilename)
 			l_cParser.WriteCloseTag ("item");
 		}
 
-		l_cParser.WriteOpenTag ("components");	
+		l_cParser.WriteOpenTag ("components");
 		l_cPos = m_cmComponentMap.GetStartPosition ();
 		while (l_cPos)
 		{
@@ -1471,7 +1478,7 @@ CAppData::WriteCache(CString &a_csPath)
 		CStdioFile l_cFile (l_csConfigFile, CFile::modeCreate|CFile::modeWrite|CFile::typeText);
 
 		l_cFile.WriteString (cAppData_CacheHeader + "\n");
-		l_csLine.Format ("%d|%d|%d|%d\n", m_clFormulaSetList.GetCount (), 
+		l_csLine.Format ("%d|%d|%d|%d\n", m_clFormulaSetList.GetCount (),
 							  m_clTechSetList.GetCount (), m_clComponentList.GetCount (), m_clSchoolWizardList.GetCount ());
 		l_cFile.WriteString (l_csLine);
 
@@ -2009,7 +2016,7 @@ int CAppData::GetTierLevel(CString a_csTier)
 	{
 		return (10);
 	}
-	
+
 	return (0);
 }
 
@@ -2466,7 +2473,7 @@ CAppData::WriteUpdatesForDir(CString &a_csPath, XMLParser &a_cParser, int a_iBas
 			l_csSize.Format ("size=\"%d\"", l_cFileFind.GetLength());
 			a_cParser.WriteAttributeTag ("file", l_csSize, l_cFileFind.GetFilePath().Mid (a_iBasePathLength));
 		}
-		
+
 	}
 
 	l_cFileFind.Close ();
@@ -2489,37 +2496,37 @@ CAppData::LaunchWebLink(CString &a_csPage)
 
 CAppData::CopyToClipboard(CString &a_csStr)
 {
-	char FAR *str; 
-	HGLOBAL hg; 
-	int lenstr = a_csStr.GetLength () + 1; 
-	BOOL success = FALSE; 
+	char FAR *str;
+	HGLOBAL hg;
+	int lenstr = a_csStr.GetLength () + 1;
+	BOOL success = FALSE;
 
-	if (hg = GlobalAlloc(GHND|GMEM_DDESHARE,lenstr)) 
+	if (hg = GlobalAlloc(GHND|GMEM_DDESHARE,lenstr))
 	{
 		str = (char *) GlobalLock(hg);
 		if (str)
-		{ 
+		{
 			sprintf (str, "%s", a_csStr);
-			GlobalUnlock(hg); 
+			GlobalUnlock(hg);
 
-			if (OpenClipboard(m_cpHCCDlg->m_hWnd)) 
-			{ 
+			if (OpenClipboard(m_cpHCCDlg->m_hWnd))
+			{
 				if (EmptyClipboard() )
-				{ 
-					if (SetClipboardData(CF_TEXT,hg)) 
+				{
+					if (SetClipboardData(CF_TEXT,hg))
 					{
-						success = TRUE; 
+						success = TRUE;
 					}
-				} 
+				}
 
-				CloseClipboard(); 
+				CloseClipboard();
 			}
 		}
 	}
 
-	if (!success) 
+	if (!success)
 	{
-		GlobalFree(hg); 
+		GlobalFree(hg);
 	}
 
 }
@@ -2792,7 +2799,7 @@ CAppData::UpdateDisplayedVersion()
 	}
 
 	m_cpHCCDlg->m_cTitleFrame.SetWindowText ("HCC v" + cAppData_Version );
-	
+
 	if (m_csDatabaseRevision.IsEmpty ())
 	{
 		m_cpHCCDlg->m_cDatabaseTitle.SetWindowText ("DB: Default" );

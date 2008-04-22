@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Resources - Spellcraft</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Resources</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Spell Shards</item-name>
-    <item-icon>icon_formula_r_02_05_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">5</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Sandstone Spell Shard</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A blank stone shard carved from sandstone, used in spellcraft.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+	<formulaset-name>Resources - Spellcraft</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Resources</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Spell Shards</item-name>
+		<item-icon>icon_formula_r_02_05_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">5</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Sandstone Spell Shard</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A blank stone shard carved from sandstone, used in spellcraft.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Brick</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Slate Spell Shard</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A blank stone shard carved from slate, used in spellcraft.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Brick</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Slate Spell Shard</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A blank stone shard carved from slate, used in spellcraft.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Brick</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Granite Spell Shard</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A blank stone shard carved from granite, used in spellcraft.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Brick</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Granite Spell Shard</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A blank stone shard carved from granite, used in spellcraft.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Brick</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Obsidian Spell Shard</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A blank stone shard carved from obsidian, used in spellcraft.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Brick</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Obsidian Spell Shard</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A blank stone shard carved from obsidian, used in spellcraft.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Brick</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Marble Spell Shard</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A blank stone shard carved from marble, used in spellcraft.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Brick</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Marble Spell Shard</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A blank stone shard carved from marble, used in spellcraft.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Brick</resource-name>
-          <resource-skill>Spellcraft</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1000</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Brick</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

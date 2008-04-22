@@ -38,6 +38,7 @@ CTechSet::~CTechSet()
 CTechSet::operator =( const CTechSet* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -143,11 +144,11 @@ CTechSet::WriteToFile(CStdioFile &a_cFile)
 	CString l_csLine;
 	CTech *l_cpTech;
 
-	l_csLine.Format ("%s|%s|%s|%d|%d\n", 
-		              m_csName, 
-						  m_csFormat, 
-						  m_csCategory, 
-						  m_iIcon, 
+	l_csLine.Format ("%s|%s|%s|%d|%d\n",
+		              m_csName,
+						  m_csFormat,
+						  m_csCategory,
+						  m_iIcon,
 						  m_clTechList.GetCount());
 	a_cFile.WriteString (l_csLine);
 
@@ -185,6 +186,6 @@ bool CTechSet::ReadFromFile(CStdioFile &a_cFile)
 			}
 		}
 	}
-	
+
 	return (l_bSuccess);
 }

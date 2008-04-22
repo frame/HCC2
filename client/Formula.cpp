@@ -31,6 +31,7 @@ CFormula::~CFormula()
 CFormula::operator =( const CFormula* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -111,7 +112,7 @@ bool CFormula::LoadFormula(CString &a_csCategory, XMLParser &a_cParser, XMLTag &
 	CFormulaTier	*l_cpFormulaTier;
 	CFormulaTier	*l_cpSearchFormulaTier;
 	CEffect		   *l_cpEffect;
-	
+
 	CString l_csFormulaName;
 	CString l_csTierName;
 	int	  l_iTierLvl;
@@ -327,7 +328,7 @@ CFormula::WriteToFile(CStdioFile &a_cFile)
 	CFormulaTier *l_cpFormulaTier;
 	CEffect *l_cpEffect;
 
-	l_csLine.Format ("%s|%d|%d|%s|%s|%s|%d|%d\n", 
+	l_csLine.Format ("%s|%d|%d|%s|%s|%s|%d|%d\n",
 						  m_csName,
 						  m_iBatchQty,
 						  m_iIcon,
@@ -400,7 +401,7 @@ bool CFormula::ReadFromFile(CStdioFile &a_cFile)
 			}
 		}
 	}
-	
+
 	return (l_bSuccess);
 }
 

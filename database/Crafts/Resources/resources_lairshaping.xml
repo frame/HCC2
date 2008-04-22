@@ -1,1787 +1,1787 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Resources - Lairshaping</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Resources</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Excoriation</item-name>
-    <item-icon>icon_formula_r_02_15_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">120</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_stone</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Weak Excoriation of Earth</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Brick</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1</resource-min>
-          <resource-opt amount="15">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1</resource-min>
-          <resource-opt amount="15">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mild Excoriation of Earth</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Brick</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">200</resource-min>
-          <resource-opt amount="15">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">200</resource-min>
-          <resource-opt amount="15">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Strong Excoriation of Earth</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Brick</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">400</resource-min>
-          <resource-opt amount="15">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">400</resource-min>
-          <resource-opt amount="15">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Potent Excoriation of Earth</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Brick</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">600</resource-min>
-          <resource-opt amount="15">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">600</resource-min>
-          <resource-opt amount="15">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-	<tier>
-      <tier-name>Fervid Excoriation of Earth</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Brick</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">800</resource-min>
-          <resource-opt amount="15">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">800</resource-min>
-          <resource-opt amount="15">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-	  <tier>
-      <tier-name>Volative Excoriation of Earth</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Travertine Brick</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1000</resource-min>
-          <resource-opt amount="15">1325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Adamantium Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1000</resource-min>
-          <resource-opt amount="15">1325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Imbued Bar</item-name>
-    <item-icon>icon_formula_r_01_13_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">120</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Imbued Bronze Bar</tier-name>
-      <tier-lvl name="I - Bronze">1</tier-lvl>
-      <tier-desc>Imbued Bars are made from Bronze Bars that are "imbued" with essence, Dim Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1</resource-min>
-          <resource-opt amount="15">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1</resource-min>
-          <resource-opt amount="15">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Imbued Iron Bar</tier-name>
-      <tier-lvl name="II - Iron">2</tier-lvl>
-      <tier-desc>Imbued Bars are made from Iron Bars that are "imbued" with essence, Pale Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">200</resource-min>
-          <resource-opt amount="15">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">200</resource-min>
-          <resource-opt amount="15">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Imbued Silver Bar</tier-name>
-      <tier-lvl name="II - Silver">2</tier-lvl>
-      <tier-desc>Imbued Bars are made from Silver Bars that are "imbued" with essence, Pale Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">200</resource-min>
-          <resource-opt amount="15">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Silver Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">200</resource-min>
-          <resource-opt amount="15">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Imbued Gold Bar</tier-name>
-      <tier-lvl name="III - Gold">3</tier-lvl>
-      <tier-desc>Imbued Bars are made from Gold Bars that are "imbued" with essence, Glowing Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">400</resource-min>
-          <resource-opt amount="15">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Gold Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">400</resource-min>
-          <resource-opt amount="15">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Imbued Steel Bar</tier-name>
-      <tier-lvl name="III - Steel">3</tier-lvl>
-      <tier-desc>Imbued Bars are made from Steel Bars that are "imbued" with essence, Glowing Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">400</resource-min>
-          <resource-opt amount="15">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">400</resource-min>
-          <resource-opt amount="15">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Imbued Cobalt Bar</tier-name>
-      <tier-lvl name="IV - Cobalt">4</tier-lvl>
-      <tier-desc>Imbued Bars are made from Cobalt Bars that are "imbued" with essence, Bright Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">600</resource-min>
-          <resource-opt amount="15">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">600</resource-min>
-          <resource-opt amount="15">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Imbued Platinum Bar</tier-name>
-      <tier-lvl name="IV - Platinum">4</tier-lvl>
-      <tier-desc>Imbued Bars are made from Platinum Bars that are "imbued" with essence, Bright Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">600</resource-min>
-          <resource-opt amount="15">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Platinum Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">600</resource-min>
-          <resource-opt amount="15">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-	<tier>
-      <tier-name>Imbued Mithril Bar</tier-name>
-      <tier-lvl name="V - Mithril">5</tier-lvl>
-      <tier-desc>Imbued Bars are made from Mithril Bars that are "imbued" with essence, Shining Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">800</resource-min>
-          <resource-opt amount="15">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">800</resource-min>
-          <resource-opt amount="15">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-	<tier>
-      <tier-name>Imbued Adamantium Bar</tier-name>
-      <tier-lvl name="VI - Adamantium">6</tier-lvl>
-      <tier-desc>Imbued Bars are made from Adamantium Bars that are "imbued" with essence, Radiant Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Radiant Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1000</resource-min>
-          <resource-opt amount="15">1325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Adamantium Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1000</resource-min>
-          <resource-opt amount="15">1325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Primal Essence</item-name>
-    <item-icon>icon_formula_r_04_18_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">120</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_magic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Primal Essence of Melding</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Focused Viridian Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1</resource-min>
-          <resource-opt amount="15">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1</resource-min>
-          <resource-opt amount="15">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Primal Essence of Fusion</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Focused Cerulean Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">200</resource-min>
-          <resource-opt amount="15">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">200</resource-min>
-          <resource-opt amount="15">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Primal Essence of Combine</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Focused Amber Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">400</resource-min>
-          <resource-opt amount="15">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">400</resource-min>
-          <resource-opt amount="15">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Primal Essence of Unifying</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Focused Titian Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">600</resource-min>
-          <resource-opt amount="15">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">600</resource-min>
-          <resource-opt amount="15">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-	<tier>
-      <tier-name>Primal Essence of Mergence</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Focused Crimson Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">800</resource-min>
-          <resource-opt amount="15">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">800</resource-min>
-          <resource-opt amount="15">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-	<tier>
-      <tier-name>Primal Essence of Amalgam</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Focused Violet Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1000</resource-min>
-          <resource-opt amount="15">1325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Radiant Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="30">1000</resource-min>
-          <resource-opt amount="15">1325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cast Stone</item-name>
-    <item-icon>icon_formula_r_02_13_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_stone</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Sandstone Cast Stone</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Dim Essence</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Sandstone Brick</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Slate Cast Stone</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Pale Essence</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Slate Brick</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Granite Cast Stone</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Glowing Essence</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Granite Brick</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Obsidian Cast Stone</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bright Essence</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Obsidian Brick</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Marble Cast Stone</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Shining Essence</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Marble Brick</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Travertine Cast Stone</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Radiant Essence</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">1000</resource-min>
-          <resource-opt amount="2">1325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Travertine Brick</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">1000</resource-min>
-          <resource-opt amount="2">1325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Crystalline Lattice</item-name>
-    <item-icon>icon_formula_r_06_09_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">120</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resource_azulyte</item-keyword>
-      <item-keyword>resourcetype_processed</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Viridian Crystalline Lattice</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Rough Tri-cut Gem</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">100</resource-min>
-          <resource-opt amount="20">300</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Focused Viridian Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">100</resource-min>
-          <resource-opt amount="20">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cerulean Crystalline Lattice</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Faceted Tri-cut Gem</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">300</resource-min>
-          <resource-opt amount="20">525</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Focused Cerulean Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">300</resource-min>
-          <resource-opt amount="20">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Amber Crystalline Lattice</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Beveled Tri-cut Gem</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">500</resource-min>
-          <resource-opt amount="20">750</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Focused Amber Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">500</resource-min>
-          <resource-opt amount="20">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Titian Crystalline Lattice</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Brilliant Tri-cut Gem</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">700</resource-min>
-          <resource-opt amount="20">975</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Focused Titian Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">700</resource-min>
-          <resource-opt amount="20">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Crimson Crystalline Lattice</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flawless Tri-cut Gem</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">900</resource-min>
-          <resource-opt amount="20">1200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Focused Crimson Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">900</resource-min>
-          <resource-opt amount="20">1200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Violet Crystalline Lattice</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Perfect Tri-cut Gem</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">1100</resource-min>
-          <resource-opt amount="20">1425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Focused Violet Azulyte Crystal</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">1100</resource-min>
-          <resource-opt amount="20">1425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Flowstone</item-name>
-    <item-icon>icon_formula_r_02_14_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">120</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_stone</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Rough Flowstone</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Cast Stone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">100</resource-min>
-          <resource-opt amount="20">300</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">100</resource-min>
-          <resource-opt amount="20">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flawed Flowstone</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Cast Stone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">300</resource-min>
-          <resource-opt amount="20">525</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">300</resource-min>
-          <resource-opt amount="20">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Smooth Flowstone</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Cast Stone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">500</resource-min>
-          <resource-opt amount="20">750</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">500</resource-min>
-          <resource-opt amount="20">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Polished Flowstone</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Cast Stone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">700</resource-min>
-          <resource-opt amount="20">975</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">700</resource-min>
-          <resource-opt amount="20">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flawless Flowstone</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Cast Stone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">900</resource-min>
-          <resource-opt amount="20">1200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">900</resource-min>
-          <resource-opt amount="20">1200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Perfect Flowstone</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Travertine Cast Stone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">1100</resource-min>
-          <resource-opt amount="20">1425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Adamantium Bar</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">1100</resource-min>
-          <resource-opt amount="20">1425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Focused Azulyte Crystal</item-name>
-    <item-icon>icon_formula_r_06_08_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resource_azulyte</item-keyword>
-      <item-keyword>resourcetype_processed</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Focused Viridian Azulyte Crystal</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Processed from unfocused viridian azulyte, this crystal is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unfocused Viridian Azulyte Crystal</resource-name>
-          <resource-skill>Crystalshaping</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Focused Cerulean Azulyte Crystal</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Processed from unfocused cerulean azulyte, this crystal is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unfocused Cerulean Azulyte Crystal</resource-name>
-          <resource-skill>Crystalshaping</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Focused Amber Azulyte Crystal</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Processed from unfocused amber azulyte, this crystal is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unfocused Amber Azulyte Crystal</resource-name>
-          <resource-skill>Crystalshaping</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Focused Titian Azulyte Crystal</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Processed from unfocused titian azulyte, this crystal is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unfocused Titian Azulyte Crystal</resource-name>
-          <resource-skill>Crystalshaping</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Focused Crimson Azulyte Crystal</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Processed from unfocused crimson azulyte, this crystal is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unfocused Crimson Azulyte Crystal</resource-name>
-          <resource-skill>Crystalshaping</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Focused Violet Azulyte Crystal</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>Processed from unfocused violet azulyte, this crystal is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unfocused Violet Azulyte Crystal</resource-name>
-          <resource-skill>Crystalshaping</resource-skill>
-          <resource-min amount="5">1000</resource-min>
-          <resource-opt amount="2">1325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Lodestone</item-name>
-    <item-icon>icon_formula_r_01_12_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Lodestone</tier-name>
-      <tier-lvl name="I - Bronze">1</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Sandstone Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Lodestone</tier-name>
-      <tier-lvl name="II - Iron">2</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silver Lodestone</tier-name>
-      <tier-lvl name="II - Silver">2</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Silver Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Gold Lodestone</tier-name>
-      <tier-lvl name="III - Gold">3</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Gold Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Lodestone</tier-name>
-      <tier-lvl name="III - Steel">3</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Lodestone</tier-name>
-      <tier-lvl name="IV - Cobalt">4</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Platinum Lodestone</tier-name>
-      <tier-lvl name="IV - Platinum">4</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Platinum Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Lodestone</tier-name>
-      <tier-lvl name="V - Mithril">5</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Adamantium Lodestone</tier-name>
-      <tier-lvl name="VI - Adamantium">6</tier-lvl>
-      <tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Travertine Slab</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">1000</resource-min>
-          <resource-opt amount="2">1325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Adamantium Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">1000</resource-min>
-          <resource-opt amount="2">1325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Maelstone</item-name>
-    <item-icon>icon_formula_r_01_14_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">120</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_metal</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Rough Maelstone</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Lodestone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">100</resource-min>
-          <resource-opt amount="20">300</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">100</resource-min>
-          <resource-opt amount="20">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flawed Maelstone</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silver Lodestone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">300</resource-min>
-          <resource-opt amount="20">525</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">300</resource-min>
-          <resource-opt amount="20">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Smooth Maelstone</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Gold Lodestone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">500</resource-min>
-          <resource-opt amount="20">750</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">500</resource-min>
-          <resource-opt amount="20">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Polished Maelstone</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Platinum Lodestone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">700</resource-min>
-          <resource-opt amount="20">975</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">700</resource-min>
-          <resource-opt amount="20">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flawless Maelstone</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Lodestone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">900</resource-min>
-          <resource-opt amount="20">1200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">900</resource-min>
-          <resource-opt amount="20">1200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Perfect Maelstone</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Adamantium Lodestone</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">1100</resource-min>
-          <resource-opt amount="20">1425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Radiant Essence Orb</resource-name>
-          <resource-skill>Lairshaping</resource-skill>
-          <resource-min amount="40">1100</resource-min>
-          <resource-opt amount="20">1425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Tri-Cut Gem</item-name>
-    <item-icon>icon_formula_r_06_06_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_stone</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Rough Tri-cut Gem</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Malachite</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Turquoise</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Garnet</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Faceted Tri-cut Gem</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Lapis Lazuli</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">200</resource-min>
-          <resource-opt amount="1">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Rose Quartz</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">200</resource-min>
-          <resource-opt amount="1">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Amethyst</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">200</resource-min>
-          <resource-opt amount="1">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Beveled Tri-cut Gem</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Aquamarine</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">400</resource-min>
-          <resource-opt amount="1">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Jasper</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">400</resource-min>
-          <resource-opt amount="1">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Citrine</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">400</resource-min>
-          <resource-opt amount="1">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Brilliant Tri-cut Gem</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Topaz</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">600</resource-min>
-          <resource-opt amount="1">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Opal</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">600</resource-min>
-          <resource-opt amount="1">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Jade</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">600</resource-min>
-          <resource-opt amount="1">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Flawless Tri-cut Gem</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Fire Opal</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">800</resource-min>
-          <resource-opt amount="1">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Peridot</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">800</resource-min>
-          <resource-opt amount="1">1100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Emerald</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">800</resource-min>
-          <resource-opt amount="1">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Perfect Tri-cut Gem</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Sapphire</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">1000</resource-min>
-          <resource-opt amount="1">1325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Ruby</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">1000</resource-min>
-          <resource-opt amount="1">1325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Uncut Diamond</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="4">1000</resource-min>
-          <resource-opt amount="1">1325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+	<formulaset-name>Resources - Lairshaping</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Resources</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Excoriation</item-name>
+		<item-icon>icon_formula_r_02_15_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">120</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_stone</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Weak Excoriation of Earth</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Brick</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1</resource-min>
+					<resource-opt amount="15">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1</resource-min>
+					<resource-opt amount="15">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mild Excoriation of Earth</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Brick</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">200</resource-min>
+					<resource-opt amount="15">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">200</resource-min>
+					<resource-opt amount="15">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Strong Excoriation of Earth</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Brick</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">400</resource-min>
+					<resource-opt amount="15">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">400</resource-min>
+					<resource-opt amount="15">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Potent Excoriation of Earth</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Brick</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">600</resource-min>
+					<resource-opt amount="15">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">600</resource-min>
+					<resource-opt amount="15">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fervid Excoriation of Earth</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Brick</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">800</resource-min>
+					<resource-opt amount="15">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">800</resource-min>
+					<resource-opt amount="15">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Volative Excoriation of Earth</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>An excoriation is a layer of stone and metal that is abraded and scored, and then laid down on the floor of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Travertine Brick</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1000</resource-min>
+					<resource-opt amount="15">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adamantium Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1000</resource-min>
+					<resource-opt amount="15">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Imbued Bar</item-name>
+		<item-icon>icon_formula_r_01_13_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">120</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Imbued Bronze Bar</tier-name>
+			<tier-lvl name="I - Bronze">1</tier-lvl>
+			<tier-desc>Imbued Bars are made from Bronze Bars that are "imbued" with essence, Dim Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1</resource-min>
+					<resource-opt amount="15">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1</resource-min>
+					<resource-opt amount="15">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Iron Bar</tier-name>
+			<tier-lvl name="II - Iron">2</tier-lvl>
+			<tier-desc>Imbued Bars are made from Iron Bars that are "imbued" with essence, Pale Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">200</resource-min>
+					<resource-opt amount="15">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">200</resource-min>
+					<resource-opt amount="15">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Silver Bar</tier-name>
+			<tier-lvl name="II - Silver">2</tier-lvl>
+			<tier-desc>Imbued Bars are made from Silver Bars that are "imbued" with essence, Pale Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">200</resource-min>
+					<resource-opt amount="15">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silver Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">200</resource-min>
+					<resource-opt amount="15">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Gold Bar</tier-name>
+			<tier-lvl name="III - Gold">3</tier-lvl>
+			<tier-desc>Imbued Bars are made from Gold Bars that are "imbued" with essence, Glowing Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">400</resource-min>
+					<resource-opt amount="15">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gold Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">400</resource-min>
+					<resource-opt amount="15">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Steel Bar</tier-name>
+			<tier-lvl name="III - Steel">3</tier-lvl>
+			<tier-desc>Imbued Bars are made from Steel Bars that are "imbued" with essence, Glowing Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">400</resource-min>
+					<resource-opt amount="15">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">400</resource-min>
+					<resource-opt amount="15">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Cobalt Bar</tier-name>
+			<tier-lvl name="IV - Cobalt">4</tier-lvl>
+			<tier-desc>Imbued Bars are made from Cobalt Bars that are "imbued" with essence, Bright Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">600</resource-min>
+					<resource-opt amount="15">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">600</resource-min>
+					<resource-opt amount="15">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Platinum Bar</tier-name>
+			<tier-lvl name="IV - Platinum">4</tier-lvl>
+			<tier-desc>Imbued Bars are made from Platinum Bars that are "imbued" with essence, Bright Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">600</resource-min>
+					<resource-opt amount="15">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Platinum Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">600</resource-min>
+					<resource-opt amount="15">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Mithril Bar</tier-name>
+			<tier-lvl name="V - Mithril">5</tier-lvl>
+			<tier-desc>Imbued Bars are made from Mithril Bars that are "imbued" with essence, Shining Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">800</resource-min>
+					<resource-opt amount="15">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">800</resource-min>
+					<resource-opt amount="15">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Adamantium Bar</tier-name>
+			<tier-lvl name="VI - Adamantium">6</tier-lvl>
+			<tier-desc>Imbued Bars are made from Adamantium Bars that are "imbued" with essence, Radiant Essence Orbs in this case.  Imbued Bars are used as a structural piece in lairs, to firm up the floors and ceilings.  And are often one of the more common units.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1000</resource-min>
+					<resource-opt amount="15">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adamantium Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1000</resource-min>
+					<resource-opt amount="15">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Primal Essence</item-name>
+		<item-icon>icon_formula_r_04_18_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">120</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_magic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Primal Essence of Melding</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1</resource-min>
+					<resource-opt amount="15">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1</resource-min>
+					<resource-opt amount="15">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Essence of Fusion</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">200</resource-min>
+					<resource-opt amount="15">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">200</resource-min>
+					<resource-opt amount="15">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Essence of Combine</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">400</resource-min>
+					<resource-opt amount="15">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">400</resource-min>
+					<resource-opt amount="15">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Essence of Unifying</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">600</resource-min>
+					<resource-opt amount="15">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">600</resource-min>
+					<resource-opt amount="15">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Essence of Mergence</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">800</resource-min>
+					<resource-opt amount="15">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">800</resource-min>
+					<resource-opt amount="15">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Essence of Amalgam</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>A stone imbued with the energy of essence.  It is primarily used to reinforce the walls of lairs and is a common unit in construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1000</resource-min>
+					<resource-opt amount="15">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="30">1000</resource-min>
+					<resource-opt amount="15">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cast Stone</item-name>
+		<item-icon>icon_formula_r_02_13_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_stone</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Sandstone Cast Stone</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dim Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Slate Cast Stone</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Granite Cast Stone</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Glowing Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Granite Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Obsidian Cast Stone</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bright Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Obsidian Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Marble Cast Stone</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shining Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Marble Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Travertine Cast Stone</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>A Cast Stone is a shaped block of stone, much like a keystone, but its strength is enhanced through the application of essence.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Travertine Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Crystalline Lattice</item-name>
+		<item-icon>icon_formula_r_06_09_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">120</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resource_azulyte</item-keyword>
+			<item-keyword>resourcetype_processed</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Crystalline Lattice</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rough Tri-cut Gem</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">100</resource-min>
+					<resource-opt amount="20">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">100</resource-min>
+					<resource-opt amount="20">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Crystalline Lattice</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Faceted Tri-cut Gem</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">300</resource-min>
+					<resource-opt amount="20">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">300</resource-min>
+					<resource-opt amount="20">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Crystalline Lattice</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Beveled Tri-cut Gem</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">500</resource-min>
+					<resource-opt amount="20">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">500</resource-min>
+					<resource-opt amount="20">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Crystalline Lattice</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Brilliant Tri-cut Gem</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">700</resource-min>
+					<resource-opt amount="20">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">700</resource-min>
+					<resource-opt amount="20">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Crystalline Lattice</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flawless Tri-cut Gem</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">900</resource-min>
+					<resource-opt amount="20">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">900</resource-min>
+					<resource-opt amount="20">1200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Crystalline Lattice</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>A matrix of azulyte crystal and tri-cut gems, Crystalline Lattices are used as much for decoration as for reinforcing the structural components applied to the walls of the lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Perfect Tri-cut Gem</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">1100</resource-min>
+					<resource-opt amount="20">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">1100</resource-min>
+					<resource-opt amount="20">1425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flowstone</item-name>
+		<item-icon>icon_formula_r_02_14_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">120</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_stone</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Rough Flowstone</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Cast Stone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">100</resource-min>
+					<resource-opt amount="20">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">100</resource-min>
+					<resource-opt amount="20">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flawed Flowstone</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Cast Stone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">300</resource-min>
+					<resource-opt amount="20">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">300</resource-min>
+					<resource-opt amount="20">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Smooth Flowstone</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Cast Stone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">500</resource-min>
+					<resource-opt amount="20">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">500</resource-min>
+					<resource-opt amount="20">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Polished Flowstone</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Cast Stone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">700</resource-min>
+					<resource-opt amount="20">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">700</resource-min>
+					<resource-opt amount="20">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flawless Flowstone</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Cast Stone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">900</resource-min>
+					<resource-opt amount="20">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">900</resource-min>
+					<resource-opt amount="20">1200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Perfect Flowstone</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>Made from a Cast Stone and a metal bar, Flowstones are heavily reinforced blocks that are used as anchor points in the lair to support heavy weights.  They are then placed near junctions and walls to strengthen the structural integrity of the lair.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Travertine Cast Stone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">1100</resource-min>
+					<resource-opt amount="20">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adamantium Bar</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">1100</resource-min>
+					<resource-opt amount="20">1425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Focused Azulyte Crystal</item-name>
+		<item-icon>icon_formula_r_06_08_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resource_azulyte</item-keyword>
+			<item-keyword>resourcetype_processed</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Focused Viridian Azulyte Crystal</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Processed from unfocused viridian azulyte, this crystal is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Focused Cerulean Azulyte Crystal</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Processed from unfocused cerulean azulyte, this crystal is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Focused Amber Azulyte Crystal</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Processed from unfocused amber azulyte, this crystal is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Focused Titian Azulyte Crystal</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Processed from unfocused titian azulyte, this crystal is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Focused Crimson Azulyte Crystal</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Processed from unfocused crimson azulyte, this crystal is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Focused Violet Azulyte Crystal</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>Processed from unfocused violet azulyte, this crystal is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Lodestone</item-name>
+		<item-icon>icon_formula_r_01_12_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Lodestone</tier-name>
+			<tier-lvl name="I - Bronze">1</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Lodestone</tier-name>
+			<tier-lvl name="II - Iron">2</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silver Lodestone</tier-name>
+			<tier-lvl name="II - Silver">2</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silver Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gold Lodestone</tier-name>
+			<tier-lvl name="III - Gold">3</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gold Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Lodestone</tier-name>
+			<tier-lvl name="III - Steel">3</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Lodestone</tier-name>
+			<tier-lvl name="IV - Cobalt">4</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Platinum Lodestone</tier-name>
+			<tier-lvl name="IV - Platinum">4</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Platinum Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Lodestone</tier-name>
+			<tier-lvl name="V - Mithril">5</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Adamantium Lodestone</tier-name>
+			<tier-lvl name="VI - Adamantium">6</tier-lvl>
+			<tier-desc>A lodestone consists of raw stone surrounded by shaped metal.  It forms a strengthened unit that can then be combined into a more complex and resilient form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Travertine Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adamantium Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Maelstone</item-name>
+		<item-icon>icon_formula_r_01_14_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">120</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Rough Maelstone</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Lodestone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">100</resource-min>
+					<resource-opt amount="20">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">100</resource-min>
+					<resource-opt amount="20">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flawed Maelstone</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Lodestone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">300</resource-min>
+					<resource-opt amount="20">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">300</resource-min>
+					<resource-opt amount="20">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Smooth Maelstone</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Gold Lodestone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">500</resource-min>
+					<resource-opt amount="20">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">500</resource-min>
+					<resource-opt amount="20">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Polished Maelstone</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Platinum Lodestone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">700</resource-min>
+					<resource-opt amount="20">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">700</resource-min>
+					<resource-opt amount="20">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flawless Maelstone</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Lodestone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">900</resource-min>
+					<resource-opt amount="20">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">900</resource-min>
+					<resource-opt amount="20">1200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Perfect Maelstone</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>Made from a Lodestone and further imbued by magical essence, Maelstones are a strong construction unit often used to reinforce machines, lava flows, storage units, and other special structures within lairs.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Adamantium Lodestone</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">1100</resource-min>
+					<resource-opt amount="20">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Lairshaping</resource-skill>
+					<resource-min amount="40">1100</resource-min>
+					<resource-opt amount="20">1425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tri-Cut Gem</item-name>
+		<item-icon>icon_formula_r_06_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_stone</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Rough Tri-cut Gem</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Malachite</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Turquoise</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Garnet</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Faceted Tri-cut Gem</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Lapis Lazuli</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Rose Quartz</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Amethyst</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Beveled Tri-cut Gem</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Aquamarine</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Jasper</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Citrine</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Brilliant Tri-cut Gem</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Topaz</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Opal</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Jade</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flawless Tri-cut Gem</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Fire Opal</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Peridot</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Emerald</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Perfect Tri-cut Gem</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>An amalgam of gemstones that are cut and shaped so that they fit together into an intricate interlocking form.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Sapphire</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Ruby</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Diamond</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

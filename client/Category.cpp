@@ -29,6 +29,7 @@ CCategory::~CCategory()
 CCategory::operator =( const CCategory* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -69,6 +70,6 @@ bool CCategory::ReadFromFile(CStdioFile &a_cFile)
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_csDescription);
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_iIcon);
 	}
-	
+
 	return (l_bSuccess);
 }

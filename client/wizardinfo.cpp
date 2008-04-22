@@ -28,6 +28,7 @@ CWizardInfo::~CWizardInfo()
 CWizardInfo::operator =( const CWizardInfo* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -106,7 +107,7 @@ bool CWizardInfo::ReadFromFile(CStdioFile &a_cFile)
 		m_bPriority = (l_csPriority == "Y");
 		m_bOptional = (l_csOptional == "Y");
 	}
-	
+
 	return (l_bSuccess);
 }
 

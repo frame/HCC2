@@ -89,7 +89,7 @@ BOOL CHCCApp::InitInstance()
 		int l_iSize = 512;
 		CString l_csAppPath;
 		CString l_csGamePath;
-	
+
 		GdiplusStartupInput gdiplusStartupInput;
 		ULONG_PTR gdiplusToken;
 		GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
@@ -136,3 +136,4 @@ CHCCApp::SetPriority(int Priority)
 {
 	SetThreadPriority (Priority);
 }
+

@@ -5,6 +5,496 @@
 		<formulaset-category>Construction</formulaset-category>
 	</formulaset-categories>
 	<item>
+		<item-name>Tiered Human Storehouse</item-name>
+		<item-icon>Internal_tier_silo.png</item-icon>
+		<tier>
+			<tier-name>Tier 1 Human Store</tier-name>
+			<tier-lvl name="Tier I">1</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">10000</tier-attribute>
+				<tier-attribute type="structurestacks">4</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flax Construction Tapestries</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flax Construction Bolt</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Construction Source</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Construction Sphere</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tier 2 Human Storehouse</tier-name>
+			<tier-lvl name="Tier II">2</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">16000</tier-attribute>
+				<tier-attribute type="structurestacks">4</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Iron Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="2">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="2">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="2">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Kenaf Construction Tapestries</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="2">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Kenaf Construction Bolt</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Construction Source</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="2">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Construction Sphere</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tier 3 Human Storehouse</tier-name>
+			<tier-lvl name="Tier III">3</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">22000</tier-attribute>
+				<tier-attribute type="structurestacks">4</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Steel Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Granite Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Granite Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cotton Construction Tapestries</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cotton Construction Bolt</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Construction Source</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Construction Sphere</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tier 4 Human Storehouse</tier-name>
+			<tier-lvl name="Tier IV">4</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">28000</tier-attribute>
+				<tier-attribute type="structurestacks">4</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Obsidian Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Obsidian Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silk Construction Tapestries</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silk Construction Bolt</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Construction Source</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Construction Sphere</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tier 5 Human Storehouse</tier-name>
+			<tier-lvl name="Tier V">5</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">34000</tier-attribute>
+				<tier-attribute type="structurestacks">4</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Mithril Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="2">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="2">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Marble Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Marble Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="2">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ironsilk Construction Tapestries</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="2">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ironsilk Construction Bolt</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Construction Source</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="2">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Construction Sphere</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tier 6 Human Storehouse</tier-name>
+			<tier-lvl name="Tier VI">6</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">40000</tier-attribute>
+				<tier-attribute type="structurestacks">4</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Adamantium Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">1100</resource-min>
+					<resource-opt amount="2">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adamantium Construction Sheeting</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Thornwood Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>30</resource-units>
+					<resource-min amount="3">1100</resource-min>
+					<resource-opt amount="2">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Thornwood Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>50</resource-units>
+					<resource-min amount="3">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Travertine Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Travertine Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">1100</resource-min>
+					<resource-opt amount="2">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steelsilk Construction Tapestries</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">1100</resource-min>
+					<resource-opt amount="2">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steelsilk Construction Bolt</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>40</resource-units>
+					<resource-min amount="3">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Construction Source</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">1100</resource-min>
+					<resource-opt amount="2">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Construction Sphere</resource-name>
+					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>20</resource-units>
+					<resource-min amount="3">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
 		<item-name>Human House</item-name>
 		<item-icon>Internal_house_human.png</item-icon>
 		<tier>
@@ -322,7 +812,7 @@
 		<tier>
 			<tier-name>Human Vault Storage</tier-name>
 			<tier-lvl name="Standard">1</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Vault Storage Keeper</tier-attribute>
 			</tier-attributes>
@@ -475,8 +965,8 @@
 		<item-icon>Internal_tier_house.png</item-icon>
 		<tier>
 			<tier-name>Tier 1 Human House</tier-name>
-			<tier-lvl name="Tier 1">1</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier I">1</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">2400</tier-attribute>
 				<tier-attribute type="structurestacks">20</tier-attribute>
@@ -514,8 +1004,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 2 Human House</tier-name>
-			<tier-lvl name="Tier 2">2</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier II">2</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">4800</tier-attribute>
 				<tier-attribute type="structurestacks">40</tier-attribute>
@@ -609,8 +1099,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 3 Human House</tier-name>
-			<tier-lvl name="Tier 3">3</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier III">3</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">7200</tier-attribute>
 				<tier-attribute type="structurestacks">60</tier-attribute>
@@ -732,8 +1222,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 4 Human House</tier-name>
-			<tier-lvl name="Tier 4">4</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier IV">4</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">28800</tier-attribute>
 				<tier-attribute type="structurestacks">240</tier-attribute>
@@ -869,8 +1359,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 5 Human House</tier-name>
-			<tier-lvl name="Tier 5">5</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier V">5</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">12000</tier-attribute>
 				<tier-attribute type="structurestacks">100</tier-attribute>
@@ -1020,8 +1510,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 6 Human House</tier-name>
-			<tier-lvl name="Tier 6">6</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier VI">6</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">14400</tier-attribute>
 				<tier-attribute type="structurestacks">120</tier-attribute>
@@ -1175,8 +1665,8 @@
 		<item-icon>Internal_tier_guildhouse.png</item-icon>
 		<tier>
 			<tier-name>Tier 1 Human Guildhouse</tier-name>
-			<tier-lvl name="Tier 1">1</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier I">1</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">7200</tier-attribute>
 				<tier-attribute type="structurestacks">60</tier-attribute>
@@ -1243,8 +1733,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 2 Human Guildhouse</tier-name>
-			<tier-lvl name="Tier 2">2</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier II">2</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">14400</tier-attribute>
 				<tier-attribute type="structurestacks">120</tier-attribute>
@@ -1381,8 +1871,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 3 Human Guildhouse</tier-name>
-			<tier-lvl name="Tier 3">3</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier III">3</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">21600</tier-attribute>
 				<tier-attribute type="structurestacks">180</tier-attribute>
@@ -1533,8 +2023,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 4 Human Guildhouse</tier-name>
-			<tier-lvl name="Tier 4">4</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier IV">4</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">28800</tier-attribute>
 				<tier-attribute type="structurestacks">240</tier-attribute>
@@ -1685,8 +2175,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 5 Human Guildhouse</tier-name>
-			<tier-lvl name="Tier 5">5</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier V">5</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">36000</tier-attribute>
 				<tier-attribute type="structurestacks">300</tier-attribute>
@@ -1837,8 +2327,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 6 Human Guildhouse</tier-name>
-			<tier-lvl name="Tier 6">6</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier VI">6</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">43200</tier-attribute>
 				<tier-attribute type="structurestacks">360</tier-attribute>
@@ -1993,8 +2483,8 @@
 		<item-icon>Internal_tier_shop.png</item-icon>
 		<tier>
 			<tier-name>Tier 1 Human Consignment Store</tier-name>
-			<tier-lvl name="Tier 1">1</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier I">1</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 1 Consignment</tier-attribute>
 			</tier-attributes>
@@ -2045,8 +2535,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 2 Human Consignment Store</tier-name>
-			<tier-lvl name="Tier 2">2</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier II">2</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 2 Consignment</tier-attribute>
 			</tier-attributes>
@@ -2139,8 +2629,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 3 Human Consignment Store</tier-name>
-			<tier-lvl name="Tier 3">3</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier III">3</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 3 Consignment</tier-attribute>
 			</tier-attributes>
@@ -2261,8 +2751,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 4 Human Consignment Store</tier-name>
-			<tier-lvl name="Tier 4">4</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier IV">4</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 4 Consignment</tier-attribute>
 			</tier-attributes>
@@ -2411,8 +2901,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 5 Human Consignment Store</tier-name>
-			<tier-lvl name="Tier 5">5</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier V">5</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 5 Consignment</tier-attribute>
 			</tier-attributes>
@@ -2561,8 +3051,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 6 Human Consignment Store</tier-name>
-			<tier-lvl name="Tier 6">6</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier VI">6</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 6 Consignment</tier-attribute>
 			</tier-attributes>
@@ -2715,8 +3205,8 @@
 		<item-icon>Internal_tier_shop.png</item-icon>
 		<tier>
 			<tier-name>Tier 1 Human Pawnbroker Store</tier-name>
-			<tier-lvl name="Tier 1">1</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier I">1</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 1 Pawn Broker</tier-attribute>
 			</tier-attributes>
@@ -2767,8 +3257,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 2 Human Pawnbroker Store</tier-name>
-			<tier-lvl name="Tier 2">2</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier II">2</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 2 Pawn Broker</tier-attribute>
 			</tier-attributes>
@@ -2861,8 +3351,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 3 Human Pawnbroker Store</tier-name>
-			<tier-lvl name="Tier 3">3</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier III">3</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 3 Pawn Broker</tier-attribute>
 			</tier-attributes>
@@ -2983,8 +3473,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 4 Human Pawnbroker Store</tier-name>
-			<tier-lvl name="Tier 4">4</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier IV">4</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 4 Pawn Broker</tier-attribute>
 			</tier-attributes>
@@ -3133,8 +3623,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 5 Human Pawnbroker Store</tier-name>
-			<tier-lvl name="Tier 5">5</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier V">5</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 5 Pawn Broker</tier-attribute>
 			</tier-attributes>
@@ -3283,8 +3773,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 6 Human Pawnbroker Store</tier-name>
-			<tier-lvl name="Tier 6">6</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier VI">6</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Tier 6 Pawn Broker</tier-attribute>
 			</tier-attributes>
@@ -3437,8 +3927,8 @@
 		<item-icon>Internal_tier_silo.png</item-icon>
 		<tier>
 			<tier-name>Tier 1 Human Silo</tier-name>
-			<tier-lvl name="Tier 1">1</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier I">1</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">20000</tier-attribute>
 				<tier-attribute type="structurestacks">1</tier-attribute>
@@ -3490,8 +3980,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 2 Human Silo</tier-name>
-			<tier-lvl name="Tier 2">2</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier II">2</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">32000</tier-attribute>
 				<tier-attribute type="structurestacks">1</tier-attribute>
@@ -3585,8 +4075,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 3 Human Silo</tier-name>
-			<tier-lvl name="Tier 3">3</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier III">3</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">44000</tier-attribute>
 				<tier-attribute type="structurestacks">1</tier-attribute>
@@ -3680,8 +4170,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 4 Human Silo</tier-name>
-			<tier-lvl name="Tier 4">4</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier IV">4</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">56000</tier-attribute>
 				<tier-attribute type="structurestacks">1</tier-attribute>
@@ -3775,8 +4265,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 5 Human Silo</tier-name>
-			<tier-lvl name="Tier 5">5</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier V">5</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">68000</tier-attribute>
 				<tier-attribute type="structurestacks">1</tier-attribute>
@@ -3870,8 +4360,8 @@
 		</tier>
 		<tier>
 			<tier-name>Tier 6 Human Silo</tier-name>
-			<tier-lvl name="Tier 6">6</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-lvl name="Tier VI">6</tier-lvl>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">80000</tier-attribute>
 				<tier-attribute type="structurestacks">1</tier-attribute>
@@ -3970,7 +4460,7 @@
 		<tier>
 			<tier-name>Small Human Gambling Den</tier-name>
 			<tier-lvl name="Small">2</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Medium Gambling Den Slot Bot</tier-attribute>
 			</tier-attributes>
@@ -4050,7 +4540,7 @@
 		<tier>
 			<tier-name>Medium Human Gambling Den</tier-name>
 			<tier-lvl name="Medium">4</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Medium Gambling Den Slot Bot</tier-attribute>
 			</tier-attributes>
@@ -4200,7 +4690,7 @@
 		<tier>
 			<tier-name>Large Human Gambling Den</tier-name>
 			<tier-lvl name="Large">6</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Large Gambling Den Slot Bot</tier-attribute>
 			</tier-attributes>
@@ -4354,7 +4844,7 @@
 		<tier>
 			<tier-name>Small Human Tavern</tier-name>
 			<tier-lvl name="Small">2</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Small Tavern Food Consignment</tier-attribute>
 			</tier-attributes>
@@ -4434,7 +4924,7 @@
 		<tier>
 			<tier-name>Medium Human Tavern</tier-name>
 			<tier-lvl name="Medium">4</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Medium Tavern Food Consignment</tier-attribute>
 			</tier-attributes>
@@ -4584,7 +5074,7 @@
 		<tier>
 			<tier-name>Large Human Tavern</tier-name>
 			<tier-lvl name="Large">6</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurenpc">Player Structure: Large Tavern Food Consignment</tier-attribute>
 			</tier-attributes>
@@ -4738,7 +5228,7 @@
 		<tier>
 			<tier-name>Tier 2 Human Library</tier-name>
 			<tier-lvl name="Beginner">2</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">100</tier-attribute>
 				<tier-attribute type="structurestacks">50</tier-attribute>
@@ -4819,7 +5309,7 @@
 		<tier>
 			<tier-name>Tier 4 Human Library</tier-name>
 			<tier-lvl name="Journeyman">4</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">150</tier-attribute>
 				<tier-attribute type="structurestacks">75</tier-attribute>
@@ -4970,7 +5460,7 @@
 		<tier>
 			<tier-name>Tier 6 Human Library</tier-name>
 			<tier-lvl name="Expert">6</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structurebulk">200</tier-attribute>
 				<tier-attribute type="structurestacks">100</tier-attribute>

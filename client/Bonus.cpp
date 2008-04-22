@@ -28,6 +28,7 @@ CBonus::~CBonus()
 CBonus::operator =( const CBonus* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -72,6 +73,6 @@ bool CBonus::ReadFromFile(CStdioFile &a_cFile)
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_csBonusName);
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_iValue);
 	}
-	
+
 	return (l_bSuccess);
 }

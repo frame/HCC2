@@ -1,132 +1,132 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <techniqueset format="2.1">
-  <techniqueset-name>Enchanting</techniqueset-name>
-  <techniqueset-categories>
-    <techniqueset-category>Craft</techniqueset-category>
-  </techniqueset-categories>
-  <tech>
-    <tech-name>Enchanting</tech-name>
-    <tech-icon>icon_technique_03_00_11.png</tech-icon>
-    <tech-keywords>
-      <tech-keywordset>
-        <tech-keyword>armor</tech-keyword>
-        <tech-keyword>jewelry</tech-keyword>
-        <tech-keyword>tool</tech-keyword>
-      </tech-keywordset>
-      <tech-keywordset>
-        <tech-keyword>bodyslot_neck</tech-keyword>
-        <tech-keyword>bodyslot_waist</tech-keyword>
-        <tech-keyword>bodyslot_legs</tech-keyword>
-        <tech-keyword>bodyslot_shoulder</tech-keyword>
-        <tech-keyword>bodyslot_arms</tech-keyword>
-        <tech-keyword>bodyslot_hands</tech-keyword>
-        <tech-keyword>bodyslot_rightpalm</tech-keyword>
-        <tech-keyword>bodyslot_finger</tech-keyword>
-      </tech-keywordset>
-    </tech-keywords>
-    <tech-effectkeywords>
-      <tech-effectkeywordset>
-        <tech-effectkeyword>statmod_enchanting_up</tech-effectkeyword>
-      </tech-effectkeywordset>
-    </tech-effectkeywords>
-    <tier>
-      <tier-name>Enchanting I</tier-name>
-      <tier-origin>Craft: Enchanting I</tier-origin>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 in the Enchanting trade skill.</tier-desc>
-      <tier-skilladjust>10</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_1</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+4 Enchanting</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Dim Essence Orb</component>
-        <component amount="1">Weaker Blight Bindings</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Enchanting II</tier-name>
-      <tier-origin>Craft: Enchanting II</tier-origin>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 in the Enchanting trade skill.</tier-desc>
-      <tier-skilladjust>20</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_2</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+8 Enchanting</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Pale Essence Orb</component>
-        <component amount="1">Lesser Mummy Embalming Dust</component>
-        <component amount="1">Blue Necrofly Wing</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Enchanting III</tier-name>
-      <tier-origin>Craft: Enchanting III</tier-origin>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 in the Enchanting trade skill.</tier-desc>
-      <tier-skilladjust>30</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_3</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+12 Enchanting</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Glowing Essence Orb</component>
-        <component amount="1">Aquamarine Golem Chip</component>
-        <component amount="1">Greater Mummy Scarab</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Enchanting IV</tier-name>
-      <tier-origin>Craft: Enchanting IV</tier-origin>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 in the Enchanting trade skill.</tier-desc>
-      <tier-skilladjust>40</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_4</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+16 Enchanting</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Bright Essence Orb</component>
-        <component amount="1">Mighty Zombie Spleen</component>
-        <component amount="2">Mighty Aegror Pus Packet</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Enchanting V</tier-name>
-      <tier-origin>Craft: Enchanting V</tier-origin>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 in the Enchanting trade skill.</tier-desc>
-      <tier-skilladjust>50</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_5</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+20 Enchanting</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Shining Essence Orb</component>
-        <component amount="2">Purple Spider Venom</component>
-        <component amount="2">Veteran Ghost Vapor</component>
-      </components>
-    </tier>
-  </tech>
+	<techniqueset-name>Enchanting</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Craft</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Enchanting</tech-name>
+		<tech-icon>icon_technique_03_00_11.png</tech-icon>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>armor</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>tool</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>bodyslot_neck</tech-keyword>
+				<tech-keyword>bodyslot_waist</tech-keyword>
+				<tech-keyword>bodyslot_legs</tech-keyword>
+				<tech-keyword>bodyslot_shoulder</tech-keyword>
+				<tech-keyword>bodyslot_arms</tech-keyword>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_rightpalm</tech-keyword>
+				<tech-keyword>bodyslot_finger</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_enchanting_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords>
+		<tier>
+			<tier-name>Enchanting I</tier-name>
+			<tier-origin>Craft: Enchanting I</tier-origin>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 in the Enchanting trade skill.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+4 Enchanting</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Dim Essence Orb</component>
+				<component amount="1">Weaker Blight Bindings</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Enchanting II</tier-name>
+			<tier-origin>Craft: Enchanting II</tier-origin>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 in the Enchanting trade skill.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+8 Enchanting</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Pale Essence Orb</component>
+				<component amount="1">Lesser Mummy Embalming Dust</component>
+				<component amount="1">Blue Necrofly Wing</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Enchanting III</tier-name>
+			<tier-origin>Craft: Enchanting III</tier-origin>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 in the Enchanting trade skill.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+12 Enchanting</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Glowing Essence Orb</component>
+				<component amount="1">Aquamarine Golem Chip</component>
+				<component amount="1">Greater Mummy Scarab</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Enchanting IV</tier-name>
+			<tier-origin>Craft: Enchanting IV</tier-origin>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 in the Enchanting trade skill.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+16 Enchanting</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Bright Essence Orb</component>
+				<component amount="1">Mighty Zombie Spleen</component>
+				<component amount="2">Mighty Aegror Pus Packet</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Enchanting V</tier-name>
+			<tier-origin>Craft: Enchanting V</tier-origin>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 in the Enchanting trade skill.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+20 Enchanting</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Shining Essence Orb</component>
+				<component amount="2">Purple Spider Venom</component>
+				<component amount="2">Veteran Ghost Vapor</component>
+			</components>
+		</tier>
+	</tech>
 </techniqueset>

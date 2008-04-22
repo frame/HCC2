@@ -1,423 +1,423 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Resources - Tinkering</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Resources</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Metal Gears</item-name>
-    <item-icon>icon_formula_r_01_03_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Bronze Tinkering Gear</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Made from bronze, this gear is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+	<formulaset-name>Resources - Tinkering</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Resources</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Metal Gears</item-name>
+		<item-icon>icon_formula_r_01_03_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Bronze Tinkering Gear</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Made from bronze, this gear is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Tinkering Gear</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Made from iron, this gear is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Tinkering Gear</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Made from iron, this gear is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Tinkering Gear</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Made from steel, this gear is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Tinkering Gear</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Made from steel, this gear is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Tinkering Gear</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Made from cobalt, this gear is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Tinkering Gear</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Made from cobalt, this gear is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Tinkering Gear</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Made from mithril, this gear is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Tinkering Gear</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Made from mithril, this gear is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Metal Hinges</item-name>
-    <item-icon>icon_formula_r_01_08_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Bronze Tinkering Hinge</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Made from bronze, this hinge is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Metal Hinges</item-name>
+		<item-icon>icon_formula_r_01_08_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Bronze Tinkering Hinge</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Made from bronze, this hinge is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="2">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Tinkering Hinge</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Made from iron, this hinge is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Tinkering Hinge</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Made from iron, this hinge is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">300</resource-min>
-          <resource-opt amount="2">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Tinkering Hinge</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Made from steel, this hinge is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Tinkering Hinge</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Made from steel, this hinge is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="2">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Tinkering Hinge</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Made from cobalt, this hinge is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Tinkering Hinge</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Made from cobalt, this hinge is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">700</resource-min>
-          <resource-opt amount="2">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Tinkering Hinge</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Made from mithril, this hinge is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Tinkering Hinge</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Made from mithril, this hinge is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">900</resource-min>
-          <resource-opt amount="2">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Metal Springs</item-name>
-    <item-icon>icon_formula_r_01_06_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Bronze Tinkering Spring</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Made from bronze, this spring is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Metal Springs</item-name>
+		<item-icon>icon_formula_r_01_06_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Bronze Tinkering Spring</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Made from bronze, this spring is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">50</resource-min>
-          <resource-opt amount="2">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Tinkering Spring</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Made from iron, this spring is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">50</resource-min>
+					<resource-opt amount="2">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Tinkering Spring</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Made from iron, this spring is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">250</resource-min>
-          <resource-opt amount="2">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Tinkering Spring</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Made from steel, this spring is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">250</resource-min>
+					<resource-opt amount="2">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Tinkering Spring</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Made from steel, this spring is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">450</resource-min>
-          <resource-opt amount="2">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Tinkering Spring</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Made from cobalt, this spring is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">450</resource-min>
+					<resource-opt amount="2">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Tinkering Spring</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Made from cobalt, this spring is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">650</resource-min>
-          <resource-opt amount="2">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Tinkering Spring</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Made from mithril, this spring is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">650</resource-min>
+					<resource-opt amount="2">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Tinkering Spring</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Made from mithril, this spring is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">850</resource-min>
-          <resource-opt amount="2">1125</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Metal Struts</item-name>
-    <item-icon>icon_formula_r_01_09_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">3</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Bronze Tinkering Strut</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Made from bronze, this strut is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">850</resource-min>
+					<resource-opt amount="2">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Metal Struts</item-name>
+		<item-icon>icon_formula_r_01_09_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">3</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Bronze Tinkering Strut</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Made from bronze, this strut is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">150</resource-min>
-          <resource-opt amount="2">350</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Tinkering Strut</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Made from iron, this strut is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">150</resource-min>
+					<resource-opt amount="2">350</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Tinkering Strut</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Made from iron, this strut is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">350</resource-min>
-          <resource-opt amount="2">575</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Tinkering Strut</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Made from steel, this strut is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">350</resource-min>
+					<resource-opt amount="2">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Tinkering Strut</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Made from steel, this strut is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">550</resource-min>
-          <resource-opt amount="2">800</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Tinkering Strut</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Made from cobalt, this strut is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">550</resource-min>
+					<resource-opt amount="2">800</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Tinkering Strut</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Made from cobalt, this strut is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">750</resource-min>
-          <resource-opt amount="2">1025</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Tinkering Strut</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Made from mithril, this strut is used as a component for tinkering.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">750</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Tinkering Strut</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Made from mithril, this strut is used as a component for tinkering.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="5">950</resource-min>
-          <resource-opt amount="2">1225</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="5">950</resource-min>
+					<resource-opt amount="2">1225</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

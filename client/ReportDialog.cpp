@@ -7,6 +7,7 @@
 #include "OrderItem.h"
 #include "AppData.h"
 #include "Scheme.h"
+#include "Regexp.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -92,7 +93,7 @@ CReportDialog::StartUp()
 }
 
 
-void CReportDialog::OnGeneratebutton() 
+void CReportDialog::OnGeneratebutton()
 {
 	if (m_cReportFormat.GetCurSel() == 0)
 	{
@@ -625,22 +626,88 @@ CReportDialog::GenerateBonusFromList(int a_iQty, CTypedPtrList<CPtrList, CEffect
 	CEffect *l_cpEffect;
 	CItemResource *l_cpListItemResource;
 	POSITION l_ListPos;
-	CString l_csBonusName;
+	CString l_csBonusName, l_iBonusValue_tmp;
 	int l_iBonusAmount;
 	POSITION l_EffectPos;
 	bool l_bFound;
-	int l_iOffset;
+	int l_iOffset, l_iOffset_tmp;
 
 	l_EffectPos = a_clEffectsList.GetHeadPosition ();
 	while (l_EffectPos)
 	{
 		l_cpEffect = a_clEffectsList.GetNext (l_EffectPos);
 
-		if (l_cpEffect->m_csType == cXMLAttribute_Bonus) 
+		if (l_cpEffect->m_csType == cXMLAttribute_Bonus)
 		{
 			l_iOffset = l_cpEffect->m_csDescription.Find (' ');
 			l_iBonusAmount = atoi (l_cpEffect->m_csDescription.Left (l_iOffset));
 			l_csBonusName = l_cpEffect->m_csDescription.Mid (l_iOffset + 1);
+			l_bFound = false;
+
+			l_ListPos = a_clResourceList.GetHeadPosition ();
+			while (l_ListPos)
+			{
+				l_cpListItemResource = a_clResourceList.GetNext (l_ListPos);
+				if (l_cpListItemResource->m_csName == l_csBonusName)
+				{
+					l_cpListItemResource->m_iMinAmt += (l_iBonusAmount * a_iQty);
+					l_ListPos = NULL;
+					l_bFound = true;
+				}
+			}
+
+			if (!l_bFound)
+			{
+				l_cpListItemResource = new CItemResource;
+				l_cpListItemResource->m_csName = l_csBonusName;
+				l_cpListItemResource->m_csSkill = "Direct";
+				l_cpListItemResource->m_iMinAmt = (l_iBonusAmount * a_iQty);
+				l_cpListItemResource->m_iMinLvl = 0;
+				l_cpListItemResource->m_iOptLvl = 0;
+				a_clResourceList.AddTail (l_cpListItemResource);
+			}
+		}
+		else if (l_cpEffect->m_csType == cXMLAttribute_Timer)
+		{
+			//RESUMEWORKHERE
+
+			l_iOffset = l_cpEffect->m_csDescription.ReverseFind(' ');
+			CString ;
+			l_iBonusValue_tmp = l_cpEffect->m_csDescription.Mid (l_iOffset);
+
+			//int i_minutes;
+
+			Regexp re("(.*)[\t ]*([0-9]*):([0-9]*):([0-9]*)");
+			if ( re.Match( l_iBonusValue_tmp ) )
+			{
+				l_iBonusAmount = (atoi(re[1]) * 60) + atoi(re[3]);
+
+//				AfxMessageBox (re[3] + " Minutes", MB_ICONINFORMATION); // min
+//				AfxMessageBox (re[1] + " Hours", MB_ICONINFORMATION);
+			}
+			else
+			{
+
+				Regexp re2("(.*)[\t ]*([0-9]*):([0-9]*)");
+				if ( re2.Match( l_iBonusValue_tmp ) )
+				{
+					l_iBonusAmount = (atoi(re2[1]));
+//					AfxMessageBox (re2[1] + "Minutes", MB_ICONINFORMATION);
+				}
+			}
+
+			if (l_cpEffect->m_csDescription.Find("Death Points"))
+			{
+				//AfxMessageBox ("YESDP", MB_ICONINFORMATION);
+				l_csBonusName = "Death Point time reduction";
+			}
+			else
+			{
+				//AfxMessageBox ("NODP", MB_ICONINFORMATION);
+				l_csBonusName = l_cpEffect->m_csDescription.Left (l_iOffset);
+			}
+
+
 			l_bFound = false;
 
 			l_ListPos = a_clResourceList.GetHeadPosition ();
@@ -820,10 +887,40 @@ CReportDialog::GenerateBonusList()
 	SortResources (l_clResourceList, CAppData::m_iShowReportMode);
 
 	l_ListPos = l_clResourceList.GetHeadPosition ();
+
+	int tmp_hours, tmp_minutes;
+	CString tmp_time, c_hours, c_minutes;
+	CString final_time;
+
 	while (l_ListPos)
 	{
 		l_cpListItemResource = l_clResourceList.GetNext (l_ListPos);
-		l_csStr.Format ("%s|%s|%d", l_cpListItemResource->m_csName, l_cpListItemResource->m_csSkill, l_cpListItemResource->m_iMinAmt);
+
+
+
+		if (l_cpListItemResource->m_csName.Find("Death Point") != -1)
+		{
+			tmp_hours = (l_cpListItemResource->m_iMinAmt / 60);
+			tmp_minutes = (l_cpListItemResource->m_iMinAmt % 60);
+
+			c_hours.Format("%d", tmp_hours);
+			if (tmp_hours < 10)
+			{
+				c_hours.Format("0%d", tmp_hours);
+			}
+			c_minutes.Format("%d", tmp_minutes);
+			if (tmp_minutes < 10)
+			{
+				c_minutes.Format("0%d", tmp_minutes);
+			}
+			l_csStr.Format ("%s|%s|%s", l_cpListItemResource->m_csName, l_cpListItemResource->m_csSkill, c_hours + ":" + c_minutes + ":00");
+		}
+		else
+		{
+			l_csStr.Format ("%s|%s|%d", l_cpListItemResource->m_csName, l_cpListItemResource->m_csSkill, l_cpListItemResource->m_iMinAmt);
+		}
+
+
 		m_cReportGrid.AddRow (l_csStr, l_iRowHighlight);
 
 		if (l_iRowHighlight == GRID_REPORT1)
@@ -874,11 +971,11 @@ CReportDialog::AddToResources(CItemResource *a_cpResource, int a_iStyle, int a_i
 
 			if ((a_iBaseQty % l_cpResourceFormula->m_iBatchQty) == 0)
 			{
-				l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty); 
+				l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty);
 			}
 			else
 			{
-				l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty) + 1; 
+				l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty) + 1;
 			}
 
 			l_iBaseQty *= l_iProfileQty;
@@ -931,16 +1028,16 @@ CReportDialog::GenerateDirectReport()
 	this->UnlockWindowUpdate ();
 }
 
-BOOL CReportDialog::OnInitDialog() 
+BOOL CReportDialog::OnInitDialog()
 {
 	CDialog::OnInitDialog();
-	
-   //remove some options from the system menu 
-   CMenu* pSysMenu = GetSystemMenu(FALSE); 
-   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND); 
+
+   //remove some options from the system menu
+   CMenu* pSysMenu = GetSystemMenu(FALSE);
+   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND);
 
 	m_cReportGrid.SetRows (0);
 	m_cReportGrid.SetFormatString ("Item Name|^Batches|^Tech");
@@ -956,7 +1053,7 @@ BOOL CReportDialog::OnInitDialog()
 
 	m_cOS_ReportGrid.InitState		(m_cReportGrid,	 *this, NULL,	NULL,	1.0f, 1.0f);
 	m_cOS_GenerateButton.InitState	(m_cGenerateButton,	*this,  &m_cOS_ReportGrid,	NULL,	0.0f, 0.0f);
-	
+
 	m_cReportType.SetCurSel (CAppData::m_iReportType);
 	m_cReportFormat.SetCurSel (0);
 	UpdateOrderMenu();
@@ -1008,18 +1105,18 @@ void CReportDialog::Resize()
 }
 
 
-void CReportDialog::OnSize(UINT nType, int cx, int cy) 
+void CReportDialog::OnSize(UINT nType, int cx, int cy)
 {
 	CDialog::OnSize(nType, cx, cy);
-	
+
 	if (m_cWindowState.m_bLoaded)
 	{
 		Resize ();
 	}
-	
+
 }
 
-void CReportDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI) 
+void CReportDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 {
 	CDialog::OnGetMinMaxInfo (lpMMI);
 
@@ -1031,27 +1128,27 @@ void CReportDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 }
 
 
-void CReportDialog::OnClose() 
+void CReportDialog::OnClose()
 {
-	CAppData::SetReportWindow (false);	
+	CAppData::SetReportWindow (false);
 	CDialog::OnClose();
 }
 
-void CReportDialog::OnOK() 
+void CReportDialog::OnOK()
 {
 }
 
-void CReportDialog::OnOptionsSnapshotwindow() 
+void CReportDialog::OnOptionsSnapshotwindow()
 {
 	CAppData::SetReportWindowState ();
 }
 
-void CReportDialog::OnOptionsRestorewindow() 
+void CReportDialog::OnOptionsRestorewindow()
 {
 	CAppData::GetReportWindowState ();
 }
 
-void CReportDialog::OnOptionsOrderbyResourcetype() 
+void CReportDialog::OnOptionsOrderbyResourcetype()
 {
 	CAppData::m_iShowReportMode = 0;
 	UpdateOrderMenu();
@@ -1059,7 +1156,7 @@ void CReportDialog::OnOptionsOrderbyResourcetype()
 	GenerateDirectReport ();
 }
 
-void CReportDialog::OnOptionsOrderbyQuantity() 
+void CReportDialog::OnOptionsOrderbyQuantity()
 {
 	CAppData::m_iShowReportMode = 1;
 	UpdateOrderMenu();
@@ -1109,12 +1206,12 @@ CReportDialog::ExportToClipboard()
 		{
 			sscanf (l_csQty, "%d/%d", &l_iCurQty, &l_iTotalQty);
 
-			
-			if (l_iCurQty != l_iTotalQty) 
+
+			if (l_iCurQty != l_iTotalQty)
 			{
 				l_bQuantitiesFull = false;
 			}
-			
+
 			if (l_iCurQty != 0)
 			{
 				l_bQuantitiesEmpty = false;
@@ -1258,7 +1355,7 @@ CReportDialog::ExportToClipboard()
 		l_csOutput.Delete (l_csOutput.GetLength () -4, 4);
 	}
 
-	CAppData::CopyToClipboard (l_csOutput);	
+	CAppData::CopyToClipboard (l_csOutput);
 }
 
 CReportDialog::ExportToHTML(CString a_csFilename)
@@ -1350,7 +1447,7 @@ CReportDialog::ExportToHTML(CString a_csFilename)
 
 		fclose (l_cFilePtr);
 	}
-	
+
 	m_csCmd.Format ("%s", a_csFilename);
 	ShellExecute (this->m_hWnd, "open", m_csCmd, NULL, NULL, SW_SHOWNORMAL );
 }
@@ -1511,12 +1608,12 @@ int CReportDialog::ReportSelection()
 	return (l_iSelected);
 }
 
-void CReportDialog::OnHelpIndex() 
+void CReportDialog::OnHelpIndex()
 {
-	CAppData::LaunchWebLink ((CString) "reportwindow");	
+	CAppData::LaunchWebLink ((CString) "reportwindow");
 }
 
-void CReportDialog::OnOptionsResourcebreakdownShowformularesource() 
+void CReportDialog::OnOptionsResourcebreakdownShowformularesource()
 {
 	CAppData::m_iShowReportResourceMode = 0;
 	UpdateOrderMenu();
@@ -1524,7 +1621,7 @@ void CReportDialog::OnOptionsResourcebreakdownShowformularesource()
 	GenerateDirectReport ();
 }
 
-void CReportDialog::OnOptionsShowsubcomponents() 
+void CReportDialog::OnOptionsShowsubcomponents()
 {
 	CAppData::m_iShowReportResourceMode = 1;
 	UpdateOrderMenu();
@@ -1532,7 +1629,7 @@ void CReportDialog::OnOptionsShowsubcomponents()
 	GenerateDirectReport ();
 }
 
-void CReportDialog::OnOptionsShowbaseresource() 
+void CReportDialog::OnOptionsShowbaseresource()
 {
 	CAppData::m_iShowReportResourceMode = 2;
 	UpdateOrderMenu();
@@ -1585,7 +1682,7 @@ CReportDialog::SortResources(CTypedPtrList<CPtrList,  CItemResource*> &l_clResou
 
 				// Copy Item B to Item A
 				*l_cpItemA = *l_cpItemB;
-				
+
 				// Copy buffer to Item B
 				*l_cpItemB = l_cItem;
 			}
@@ -1646,11 +1743,11 @@ CReportDialog::AddToBaseResources (CItemResource *a_cpItemResource, int a_iBaseQ
 				l_iProfileQty = CAppData::CalculateEfficiency (l_cpItemResource, CAppData::m_cpCurrentProfile, a_iSkillAdjust);
 				if ((a_iBaseQty % l_cpResourceFormula->m_iBatchQty) == 0)
 				{
-					l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty); 
+					l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty);
 				}
 				else
 				{
-					l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty) + 1; 
+					l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty) + 1;
 				}
 
 				l_iBaseQty *= l_iProfileQty;
@@ -1696,11 +1793,11 @@ BEGIN_EVENTSINK_MAP(CReportDialog, CDialog)
 	//}}AFX_EVENTSINK_MAP
 END_EVENTSINK_MAP()
 
-void CReportDialog::OnEnterCellReportgrid() 
+void CReportDialog::OnEnterCellReportgrid()
 {
 }
 
-void CReportDialog::OnLeaveCellReportgrid() 
+void CReportDialog::OnLeaveCellReportgrid()
 {
 	EndEditCell();
 }
@@ -1747,24 +1844,38 @@ CReportDialog::EndEditCell()
 	}
 }
 
-void CReportDialog::OnMouseMoveReportgrid(short Button, short Shift, long x, long y) 
+void CReportDialog::OnMouseMoveReportgrid(short Button, short Shift, long x, long y)
 {
 }
 
-void CReportDialog::OnScrollReportgrid() 
+void CReportDialog::OnScrollReportgrid()
 {
 	EndEditCell();
-	
+
 }
 
-void CReportDialog::OnDeltaposQtyspin(NMHDR* pNMHDR, LRESULT* pResult) 
+void CReportDialog::OnDeltaposQtyspin(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	NM_UPDOWN* pNMUpDown = (NM_UPDOWN*)pNMHDR;
 	CString l_csComponentName;
 	int l_iMin;
 	int l_iMax;
 	bool l_bSubComp;
-	
+
+	//RESUME
+	if (GetKeyState(VK_CONTROL)<0 && GetKeyState(VK_SHIFT)<0)
+	{
+		pNMUpDown->iDelta = pNMUpDown->iDelta * 1000;
+	}
+	else if (GetKeyState(VK_CONTROL)<0)
+	{
+		pNMUpDown->iDelta = pNMUpDown->iDelta * 100;
+	}
+	else if (GetKeyState(VK_SHIFT)<0)
+	{
+		pNMUpDown->iDelta = pNMUpDown->iDelta * 10;
+	}
+
 	if ((m_iReportGridEditRow > 0) && (m_iReportGridEditCol == 2))
 	{
 		if (IsComponent (m_iReportGridEditRow, l_csComponentName, l_iMin, l_iMax, l_bSubComp))
@@ -1790,7 +1901,7 @@ void CReportDialog::OnDeltaposQtyspin(NMHDR* pNMHDR, LRESULT* pResult)
 	*pResult = 0;
 }
 
-void CReportDialog::OnClickReportgrid() 
+void CReportDialog::OnClickReportgrid()
 {
 	StartEditCell ();
 }
@@ -1871,7 +1982,7 @@ bool CReportDialog::IsComponent(int a_iRow, CString &a_csName, int &a_Min, int &
 	return (false);
 }
 
-void CReportDialog::OnMove(int x, int y) 
+void CReportDialog::OnMove(int x, int y)
 {
 	CDialog::OnMove(x, y);
 }
@@ -1880,10 +1991,10 @@ void CReportDialog::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 {
 	CRect l_cRect;
 	this->GetWindowRect (l_cRect);
-	
+
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, NULL, CAppData::m_iStickyStrength);
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, CAppData::m_cpHCCDlg, CAppData::m_iStickyStrength);
-	
+
 	if (CAppData::m_cItemCreationWnd.m_cWindowState.m_bVisible)
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cItemCreationWnd, CAppData::m_iStickyStrength);
@@ -1908,11 +2019,11 @@ void CReportDialog::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cProfileWnd, CAppData::m_iStickyStrength);
 	}
-	
+
 	CDialog::OnWindowPosChanging(lpwndpos);
 }
 
-void CReportDialog::OnWindowAlwaysontop() 
+void CReportDialog::OnWindowAlwaysontop()
 {
 	m_cWindowState.m_bOnTop = !m_cWindowState.m_bOnTop;
 
@@ -1934,14 +2045,14 @@ void CReportDialog::OnWindowAlwaysontop()
 
 }
 
-BOOL CReportDialog::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt) 
+BOOL CReportDialog::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 {
 	int l_iTop = m_cReportGrid.GetTopRow ();
 
 	if ((zDelta > 0) && (l_iTop > 0))
 	{
 		l_iTop--;
-	} 
+	}
 	else if (zDelta < 0)
 	{
 		l_iTop++;
@@ -1950,7 +2061,7 @@ BOOL CReportDialog::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 	if ((zDelta > 0) && (l_iTop > 0))
 	{
 		l_iTop--;
-	} 
+	}
 	else if (zDelta < 0)
 	{
 		l_iTop++;
@@ -1960,21 +2071,21 @@ BOOL CReportDialog::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 	{
 		m_cReportGrid.SetTopRow (l_iTop);
 	}
-	
+
 	return CDialog::OnMouseWheel(nFlags, zDelta, pt);
 }
 
-BOOL CReportDialog::OnHelpInfo(HELPINFO* pHelpInfo) 
+BOOL CReportDialog::OnHelpInfo(HELPINFO* pHelpInfo)
 {
 	return (TRUE);
 }
 
-void CReportDialog::OnSelchangeReporttype() 
+void CReportDialog::OnSelchangeReporttype()
 {
 	CAppData::m_iReportType = m_cReportType.GetCurSel ();
 }
 
-void CReportDialog::OnOptionsBonusesDirectonly() 
+void CReportDialog::OnOptionsBonusesDirectonly()
 {
 	CAppData::m_iShowReportBonusMode = 0;
 	UpdateOrderMenu();
@@ -1982,7 +2093,7 @@ void CReportDialog::OnOptionsBonusesDirectonly()
 	GenerateDirectReport ();
 }
 
-void CReportDialog::OnOptionsBonusesAll() 
+void CReportDialog::OnOptionsBonusesAll()
 {
 	CAppData::m_iShowReportBonusMode = 1;
 	UpdateOrderMenu();

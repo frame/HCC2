@@ -1,4 +1,4 @@
-const CString cAppData_Version				= "2.26";
+const CString cAppData_Version				= "2.28";
 const CString cAppData_CacheHeader			= "HCC2 V1.21 - Do not edit!";
 const CString cAppData_DateFormat			= "%Y-%m-%d";
 const CString cAppData_RegPath				= "Software\\HCC2\\Config";
@@ -22,6 +22,7 @@ const CString cXMLAttribute_TargetDescription		= "targetdescription";
 const CString cXMLAttribute_TargetDuration			= "targetduration";
 const CString cXMLAttribute_TargetEffect				= "targeteffect";
 const CString cXMLAttribute_TargetFrequency			= "targetfrequency";
+const CString cXMLAttribute_Timer					= "timer";
 
 const CString cXMLAttribute_RangeModifier			= "rangemodifier";
 const CString cXMLAttribute_DelayModifier			= "delaymodifier";

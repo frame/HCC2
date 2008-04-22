@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <techniqueset format="2.1">
-  <techniqueset-name>Critical Damage</techniqueset-name>
-  <techniqueset-categories>
-    <techniqueset-category>Spell</techniqueset-category>
-  </techniqueset-categories>
-  <tech>
-    <tech-name>Critical Damage</tech-name>
-    <tech-icon>icon_technique_02_00_11.png</tech-icon>
-    <tech-keywords>
-      <tech-keywordset>
-        <tech-keyword>spell</tech-keyword>
-        <tech-keyword>primal</tech-keyword>
-      </tech-keywordset>
-      <tech-keywordset>
-        <tech-keyword>damage</tech-keyword>
-      </tech-keywordset>
-    </tech-keywords>
-    <tech-effectkeywords>
-      <tech-effectkeywordset>
-        <tech-effectkeyword>tech_kicker_damage</tech-effectkeyword>
-      </tech-effectkeywordset>
-    </tech-effectkeywords>
-    <tier>
-      <tier-name>Critical Damage I</tier-name>
-      <tier-origin>Spell: Critical Damage I</tier-origin>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Spells using this technique will get a 5% chance to hit for 5-7 additional critical damage.</tier-desc>
-      <tier-skilladjust>10</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_1</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <components>
-        <component amount="4">Dim Essence Orb</component>
-        <component amount="1">Bronze Golem Fragment</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Critical Damage II</tier-name>
-      <tier-origin>Spell: Critical Damage II</tier-origin>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Spells using this technique will get a 5% chance to hit for 10-14 additional critical damage.</tier-desc>
-      <tier-skilladjust>20</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_2</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <components>
-        <component amount="4">Pale Essence Orb</component>
-        <component amount="1">Brighter Spider Silk</component>
-        <component amount="1">Snow Ogre Jawbone</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Critical Damage III</tier-name>
-      <tier-origin>Spell: Critical Damage III</tier-origin>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Spells using this technique will get a 5% chance to hit for 15-21 additional critical damage.</tier-desc>
-      <tier-skilladjust>30</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_3</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <components>
-        <component amount="4">Glowing Essence Orb</component>
-        <component amount="1">Ice Beetle Carapace</component>
-        <component amount="1">Green Necrofly Wing</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Critical Damage IV</tier-name>
-      <tier-origin>Spell: Critical Damage IV</tier-origin>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Spells using this technique will get a 5% chance to hit for 20-28 additional critical damage.</tier-desc>
-      <tier-skilladjust>30</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_4</tier-keyword>
-        </tier-keywordset>
-        <tier-keywordset>
-          <tier-keyword>techclass_4</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <components>
-        <component amount="4">Bright Essence Orb</component>
-        <component amount="1">Arbotus Gullet</component>
-        <component amount="2">Hardened Fyakki Chitin</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Critical Damage V</tier-name>
-      <tier-origin>Spell: Critical Damage V</tier-origin>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Spells using this technique will get a 5% chance to hit for 28-40 additional critical damage.</tier-desc>
-      <tier-skilladjust>30</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_4</tier-keyword>
-        </tier-keywordset>
-        <tier-keywordset>
-          <tier-keyword>techclass_5</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <components>
-        <component amount="4">Shining Essence Orb</component>
-        <component amount="2">Marble Golem Fragment</component>
-        <component amount="2">Wind Golem Vapor</component>
-      </components>
-    </tier>
-  </tech>
+	<techniqueset-name>Critical Damage</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Spell</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Critical Damage</tech-name>
+		<tech-icon>icon_technique_02_00_11.png</tech-icon>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>spell</tech-keyword>
+				<tech-keyword>primal</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>damage</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>tech_kicker_damage</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords>
+		<tier>
+			<tier-name>Critical Damage I</tier-name>
+			<tier-origin>Spell: Critical Damage I</tier-origin>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Spells using this technique will get a 5% chance to hit for 5-7 additional critical damage.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<components>
+				<component amount="4">Dim Essence Orb</component>
+				<component amount="1">Bronze Golem Fragment</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Critical Damage II</tier-name>
+			<tier-origin>Spell: Critical Damage II</tier-origin>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Spells using this technique will get a 5% chance to hit for 10-14 additional critical damage.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<components>
+				<component amount="4">Pale Essence Orb</component>
+				<component amount="1">Brighter Spider Silk</component>
+				<component amount="1">Snow Ogre Jawbone</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Critical Damage III</tier-name>
+			<tier-origin>Spell: Critical Damage III</tier-origin>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Spells using this technique will get a 5% chance to hit for 15-21 additional critical damage.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<components>
+				<component amount="4">Glowing Essence Orb</component>
+				<component amount="1">Ice Beetle Carapace</component>
+				<component amount="1">Green Necrofly Wing</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Critical Damage IV</tier-name>
+			<tier-origin>Spell: Critical Damage IV</tier-origin>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Spells using this technique will get a 5% chance to hit for 20-28 additional critical damage.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<components>
+				<component amount="4">Bright Essence Orb</component>
+				<component amount="1">Arbotus Gullet</component>
+				<component amount="2">Hardened Fyakki Chitin</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Critical Damage V</tier-name>
+			<tier-origin>Spell: Critical Damage V</tier-origin>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Spells using this technique will get a 5% chance to hit for 28-40 additional critical damage.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<components>
+				<component amount="4">Shining Essence Orb</component>
+				<component amount="2">Marble Golem Fragment</component>
+				<component amount="2">Wind Golem Vapor</component>
+			</components>
+		</tier>
+	</tech>
 </techniqueset>

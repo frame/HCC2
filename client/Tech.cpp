@@ -35,6 +35,7 @@ CTech::~CTech()
 CTech::operator =( const CTech* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -676,13 +677,13 @@ CTech::WriteToFile(CStdioFile &a_cFile)
 	CEffect *l_cpEffectGroup;
 	CTechTier *l_cpTechTier;
 
-	l_csLine.Format ("%s|%d|%s|%s|%s|%s|%s|%d|%d|%d|%d\n", 
-		              m_csName, 
-						  m_iIcon, 
-						  m_csPrefix, 
-						  m_csSuffix, 
-						  m_csDescription, 
-						  m_csSubDescription, 
+	l_csLine.Format ("%s|%d|%s|%s|%s|%s|%s|%d|%d|%d|%d\n",
+		              m_csName,
+						  m_iIcon,
+						  m_csPrefix,
+						  m_csSuffix,
+						  m_csDescription,
+						  m_csSubDescription,
 						  BoolToStr(m_bTierLevelKeywords),
 						  m_clEffectsList.GetCount(),
 						  m_clKeywordSets.GetCount(),
@@ -788,7 +789,7 @@ bool CTech::ReadFromFile(CStdioFile &a_cFile)
 			}
 		}
 	}
-	
+
 	return (l_bSuccess);
 }
 

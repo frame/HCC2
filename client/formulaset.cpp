@@ -38,6 +38,7 @@ CFormulaSet::~CFormulaSet()
 CFormulaSet::operator =( const CFormulaSet* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -91,7 +92,7 @@ bool CFormulaSet::LoadFormulaSet(CString a_csFilename)
 
 	CFormula			*l_cpFormula;
 	CSubCategory	*l_cpSubCategory;
-	
+
 	CString l_csIconName;
 	CString l_csDescription;
 	CString l_csValue;
@@ -145,10 +146,10 @@ CFormulaSet::WriteToFile(CStdioFile &a_cFile)
 	CString l_csLine;
 	CFormula *l_cpFormula;
 
-	l_csLine.Format ("%s|%s|%s|%d|%d\n", m_csName, 
-		                                  m_csCategory, 
-													 m_csFormat, 
-													 m_iIcon, 
+	l_csLine.Format ("%s|%s|%s|%d|%d\n", m_csName,
+		                                  m_csCategory,
+													 m_csFormat,
+													 m_iIcon,
 													 m_clFormulaList.GetCount());
 	a_cFile.WriteString (l_csLine);
 
@@ -186,6 +187,6 @@ bool CFormulaSet::ReadFromFile(CStdioFile &a_cFile)
 			}
 		}
 	}
-	
+
 	return (l_bSuccess);
 }

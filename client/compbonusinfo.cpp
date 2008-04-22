@@ -28,6 +28,7 @@ CCompBonusInfo::~CCompBonusInfo()
 CCompBonusInfo::operator =( const CCompBonusInfo* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -59,8 +60,8 @@ CCompBonusInfo::WriteToFile(CStdioFile &a_cFile)
 {
 	CString l_csLine;
 
-	l_csLine.Format ("%s|%s|%s\n", 	m_csName, 
-												m_csChance, 
+	l_csLine.Format ("%s|%s|%s\n", 	m_csName,
+												m_csChance,
 												m_csAmount);
 	a_cFile.WriteString (l_csLine);
 }
@@ -77,6 +78,6 @@ bool CCompBonusInfo::ReadFromFile(CStdioFile &a_cFile)
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_csChance);
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_csAmount);
 	}
-	
+
 	return (l_bSuccess);
 }

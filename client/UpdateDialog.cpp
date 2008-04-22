@@ -133,12 +133,12 @@ END_MESSAGE_MAP()
 /////////////////////////////////////////////////////////////////////////////
 // CUpdateDialog message handlers
 
-void CUpdateDialog::OnCreatebutton() 
+void CUpdateDialog::OnCreatebutton()
 {
 
 }
 
-void CUpdateDialog::OnTimer(UINT nIDEvent) 
+void CUpdateDialog::OnTimer(UINT nIDEvent)
 {
 	unsigned long l_iBytesRead;
 	CString l_csStr;
@@ -186,14 +186,14 @@ void CUpdateDialog::OnTimer(UINT nIDEvent)
 			DWORD l_iError = GetLastError ();
 		}
 	}
-	
+
 	CDialog::OnTimer(nIDEvent);
 }
 
-void CUpdateDialog::OnCancelMode() 
+void CUpdateDialog::OnCancelMode()
 {
 	CDialog::OnCancelMode();
-	
+
 	// TODO: Add your message handler code here
 	ClearDownloadList	();
 }
@@ -202,7 +202,7 @@ bool CUpdateDialog::StartConnection()
 {
 	if (InternetAttemptConnect (0) == ERROR_SUCCESS )
 	{
-		m_cInternetHandle = InternetOpen ("HCC2", INTERNET_OPEN_TYPE_PROXY  , NULL, NULL, 0 );
+		m_cInternetHandle = InternetOpen ("HCC/" + cAppData_Version, INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY, NULL, NULL, 0);
 		if (m_cInternetHandle != NULL)
 		{
 			return (TRUE);
@@ -372,17 +372,17 @@ CUpdateDialog::ClearServerList()
 	m_clServerMap.RemoveAll ();
 }
 
-void CUpdateDialog::OnSearchbutton() 
+void CUpdateDialog::OnSearchbutton()
 {
 	m_cArchiveList.DeleteAllItems ();
 	PrepareDownloadForConfig ();
 	ShowRelease ();
 }
 
-BOOL CUpdateDialog::OnInitDialog() 
+BOOL CUpdateDialog::OnInitDialog()
 {
 	CDialog::OnInitDialog();
-	
+
 	StartConnection();
 
 	m_cArchiveList.InsertColumn (0, "Change", LVCFMT_LEFT, 382, -1);
@@ -398,18 +398,18 @@ BOOL CUpdateDialog::OnInitDialog()
 	              // EXCEPTION: OCX Property Pages should return FALSE
 }
 
-void CUpdateDialog::OnOK() 
+void CUpdateDialog::OnOK()
 {
 	EndConnection ();
-	
+
 	CDialog::OnOK();
 }
 
-void CUpdateDialog::OnClose() 
+void CUpdateDialog::OnClose()
 {
 	KillTimer (m_iTimerId);
 	EndConnection ();
-	
+
 	ClearDownloadList();
 	ClearReleaseList();
 	ClearServerList ();
@@ -664,8 +664,8 @@ CUpdateDialog::UpdateReleaseInfo()
 	m_cArchiveList.DeleteAllItems ();
 	m_cArchiveList.DeleteColumn (0);
 	m_cArchiveList.DeleteColumn (0);
-	m_cArchiveList.InsertColumn (0, "Change", LVCFMT_LEFT, 382, -1);
-	m_cArchiveList.InsertColumn (1, "Author", LVCFMT_CENTER, 100 -1);
+	m_cArchiveList.InsertColumn (0, "Change", LVCFMT_LEFT, 370, -1);
+	m_cArchiveList.InsertColumn (1, "Author", LVCFMT_CENTER, 90 -1);
 
 	l_Pos = m_cLatestDatabaseRelease.m_clNoteList.GetHeadPosition ();
 	while (l_Pos)
@@ -702,7 +702,7 @@ CUpdateDialog::UpdateReleaseInfo()
 	}
 }
 
-void CUpdateDialog::OnUpdatebutton() 
+void CUpdateDialog::OnUpdatebutton()
 {
 	CString l_csCurrentServer;
 	CString l_csVersion;
@@ -729,7 +729,7 @@ void CUpdateDialog::OnUpdatebutton()
 				}
 			}
 		}
-		
+
 		if (l_bProceed)
 		{
 			PrepareDownloadForDatabase ();
@@ -795,7 +795,7 @@ CUpdateDialog::DeleteFolder(CString a_csFolder, bool a_bDeleteFolder)
 					//{
 					//	Report ("Warning - Unexpected File '" + l_cFileFind.GetFileName() + "' found. Not deleting");
 					//}
-				}	
+				}
 			}
 
 			l_cFileFind.Close ();
@@ -988,8 +988,8 @@ bool CUpdateDialog::OpenArchive(CString &a_csFile, CString &a_csDest)
 	int l_iArchiveReturnCode;
 
 	// Copy to zip structure
-	strcpy (l_cFileName, LPCTSTR (a_csFile)); 
-	strcpy (l_cDestinationPath, LPCTSTR (a_csDest)); 
+	strcpy (l_cFileName, LPCTSTR (a_csFile));
+	strcpy (l_cDestinationPath, LPCTSTR (a_csDest));
 
 	l_cDCL.ncflag = 0; /* Write to stdout if true */
 	l_cDCL.fQuiet = 0; /* We want all messages.
@@ -1019,7 +1019,7 @@ bool CUpdateDialog::OpenArchive(CString &a_csFile, CString &a_csDest)
 	l_cUserFunctions.ServCallBk = UNZIP32_ServCallBk;
 	l_cUserFunctions.TotalSizeComp = 0;
 	l_cUserFunctions.TotalSize = 0;
-	l_cUserFunctions.CompFactor = 0;     
+	l_cUserFunctions.CompFactor = 0;
 	l_cUserFunctions.NumMembers = 0;
 	l_cUserFunctions.cchComment = 0;
 
@@ -1083,7 +1083,7 @@ CUpdateDialog::MoveFolder(CString a_csSource, CString a_csDest, bool a_bVerbose)
 						Report ("Warning - Unexpected File '" + l_cFileFind.GetFileName() + "' found. This file will be deleted.");
 					}
 				}
-			}	
+			}
 		}
 
 		l_cFileFind.Close ();
@@ -1091,11 +1091,11 @@ CUpdateDialog::MoveFolder(CString a_csSource, CString a_csDest, bool a_bVerbose)
 	}
 }
 
-void CUpdateDialog::OnClosebutton() 
+void CUpdateDialog::OnClosebutton()
 {
 	KillTimer (m_iTimerId);
 	EndConnection ();
-	
+
 	ClearDownloadList();
 	ClearReleaseList();
 	ClearServerList ();
@@ -1113,7 +1113,7 @@ CUpdateDialog::ClearReleaseInfo()
 	m_cVersionComment.SetWindowText ("");
 }
 
-void CUpdateDialog::OnSelchangeServerlist() 
+void CUpdateDialog::OnSelchangeServerlist()
 {
 	ClearReleaseInfo ();
 	m_cUpdateButton.EnableWindow (false);
@@ -1154,12 +1154,12 @@ INTERNET_PORT CUpdateDialog::GetServiceType(CString &a_csURL)
 	return (INTERNET_DEFAULT_HTTP_PORT);
 }
 
-void CUpdateDialog::OnHelpHelpwithupdates() 
+void CUpdateDialog::OnHelpHelpwithupdates()
 {
 	CAppData::LaunchWebLink ((CString) "updatewindow");
 }
 
-BOOL CUpdateDialog::OnHelpInfo(HELPINFO* pHelpInfo) 
+BOOL CUpdateDialog::OnHelpInfo(HELPINFO* pHelpInfo)
 {
 	return (TRUE);
 }

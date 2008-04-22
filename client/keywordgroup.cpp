@@ -28,6 +28,7 @@ CKeywordGroup::~CKeywordGroup()
 CKeywordGroup::operator =( const CKeywordGroup* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -64,7 +65,7 @@ CKeywordGroup::WriteToFile(CStdioFile &a_cFile)
 
 	l_csLine.Format ("%d\n", m_clKeywordList.GetCount ());
 	a_cFile.WriteString (l_csLine);
-	
+
 	l_Pos = m_clKeywordList.GetHeadPosition ();
 	while (l_Pos)
 	{
@@ -83,7 +84,7 @@ bool CKeywordGroup::ReadFromFile(CStdioFile &a_cFile)
 	if (a_cFile.ReadString (l_csLine))
 	{
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, l_iCount);
-		
+
 		if (l_bSuccess)
 		{
 			while (l_iCount--)
@@ -93,7 +94,7 @@ bool CKeywordGroup::ReadFromFile(CStdioFile &a_cFile)
 			}
 		}
 	}
-	
+
 	return (l_bSuccess);
 }
 

@@ -1,2664 +1,2664 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Resources</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Resources</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Algedian Silver Bar</item-name>
-    <item-icon>icon_formula_r_01_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Algedian Silver Bar</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A bar of Algedian silver.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Algedian Silver Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Algedian Slate Rune</item-name>
-    <item-icon>icon_formula_r_02_04_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">5</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Algedian Slate Rune</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A faintly glowing runestone, carved from Algedian slate.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Algedian Slate Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Hide Strip</item-name>
-    <item-icon>icon_formula_r_11_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_1</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Hide Strip</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A processed strip of hide, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Animal Hide</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Fungus Strips</item-name>
-    <item-icon>icon_formula_r_01_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Istarian Fungus Strip</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A processed strip of leather made from Istarian Fungi, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Istarian Fungus Cap</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Browngill Fungus Strip</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A processed strip of leather made from Browngill Fungi, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Browngill Fungus Cap</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">201</resource-min>
-          <resource-opt amount="2">400</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Sand</item-name>
-    <item-icon>icon_formula_r_02_03_11.png</item-icon>
-    <item-batchqty>5</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">4</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_0</item-keyword>
-      <item-keyword>resource_stone</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Sand</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Found in sand deposits, or ground from sandstone, sand is useful in creating glass products.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="2">1</resource-min>
-          <resource-opt amount="1">400</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Corvian Silver Bar</item-name>
-    <item-icon>icon_formula_r_01_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Corvian Silver Bar</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A bar of Corvian silver.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Corvian Silver Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Corvian Slate Rune</item-name>
-    <item-icon>icon_formula_r_02_04_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">5</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Corvian Slate Rune</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A faintly glowing runestone, carved from Corvian slate.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Corvian Slate Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Dabihian Silver Bar</item-name>
-    <item-icon>icon_formula_r_01_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Dabihian Silver Bar</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A bar of Dabihian silver.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Dabihian Silver Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Dabihian Slate Rune</item-name>
-    <item-icon>icon_formula_r_02_04_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">5</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Dabihian Slate Rune</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A faintly glowing runestone, carved from Dabihian slate.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Dabihian Slate Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Elnathian Silver Bar</item-name>
-    <item-icon>icon_formula_r_01_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Elnathian Silver Bar</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A bar of Elnathian silver.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elnathian Silver Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Elnathian Slate Rune</item-name>
-    <item-icon>icon_formula_r_02_04_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">5</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Elnathian Slate Rune</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A faintly glowing runestone, carved from Elnathian slate.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elnathian Slate Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Blighted Cut Gem</item-name>
-    <item-icon>icon_formula_r_06_03b_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Blighted Garnet</tier-name>
-      <tier-lvl name="I Garnet">1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Garnet</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Malachite</tier-name>
-      <tier-lvl name="I Malachite">1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Malachite</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Turquoise</tier-name>
-      <tier-lvl name="I Turquoise">1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Turquoise</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Amethyst</tier-name>
-      <tier-lvl name="II Amethyst">2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Amethyst</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Lapis Lazuli</tier-name>
-      <tier-lvl name="II Lapis Lazuli">2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Lapis Lazuli</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Rose Quartz</tier-name>
-      <tier-lvl name="II Rose Quartz">2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Rose Quartz</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Aquamarine</tier-name>
-      <tier-lvl name="III Aquamarine">3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Aquamarine</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Citrine</tier-name>
-      <tier-lvl name="III Citrine">3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Citrine</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Jasper</tier-name>
-      <tier-lvl name="III Jasper">3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Jasper</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Jade</tier-name>
-      <tier-lvl name="IV Jade">4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Jade</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Opal</tier-name>
-      <tier-lvl name="IV Opal">4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Opal</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Topaz</tier-name>
-      <tier-lvl name="IV Topaz">4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Topaz</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Emerald</tier-name>
-      <tier-lvl name="V Emerald">5</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Emerald</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Fire Opal</tier-name>
-      <tier-lvl name="V Fire Opal">5</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Fire Opal</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Peridot</tier-name>
-      <tier-lvl name="V Peridot">5</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Uncut Peridot</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="8">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Blighted Essence Orb</item-name>
-    <item-icon>icon_formula_r_04_02b_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Blighted Dim Essence Orb</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Filled with a dim essence, this orb looks like it would be useful for magical purposes.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Dim Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="8">1</resource-min>
-          <resource-opt amount="4">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Pale Essence Orb</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Filled with a pale essence, this orb looks like it would be useful for magical purposes.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Pale Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="8">200</resource-min>
-          <resource-opt amount="4">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Glowing Essence Orb</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Filled with a glowing essence, this orb looks like it would be useful for magical purposes.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Glowing Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Bright Essence Orb</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Filled with a bright essence, this orb looks like it would be useful for magical purposes.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Bright Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="8">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Shining Essence Orb</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Filled with a shining essence, this orb looks like it would be useful for magical purposes.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Shining Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="8">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Blighted Fabric Spool</item-name>
-    <item-icon>icon_formula_r_09_03b_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Blighted Flax Spool</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Unspun Flax</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Kenaf Spool</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Unspun Kenaf</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Cotton Spool</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Unspun Cotton</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Silk Spool</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Unspun Silk</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="8">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Ironsilk Spool</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Unspun Ironsilk</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="8">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Blighted Metal Bar</item-name>
-    <item-icon>icon_formula_r_01_02b_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Blighted Bronze Bar</tier-name>
-      <tier-lvl name="I Bronze">1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Copper and Tin Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Iron Bar</tier-name>
-      <tier-lvl name="II Iron">2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Iron Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Silver Bar</tier-name>
-      <tier-lvl name="II Silver">2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Silver Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Gold Bar</tier-name>
-      <tier-lvl name="III Gold">3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Gold Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Steel Bar</tier-name>
-      <tier-lvl name="III Steel">3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Iron Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="1">500</resource-min>
-          <resource-opt amount="1">750</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Blighted Nickel Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="7">500</resource-min>
-          <resource-opt amount="3">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Cobalt Bar</tier-name>
-      <tier-lvl name="IV Cobalt">4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Steel Bar</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="1">700</resource-min>
-          <resource-opt amount="1">975</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Blighted Cobalt Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="7">700</resource-min>
-          <resource-opt amount="3">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Platinum Bar</tier-name>
-      <tier-lvl name="IV Platinum">4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Platinum Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="8">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Mithril Bar</tier-name>
-      <tier-lvl name="V Mithril">5</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Mithril Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="8">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Blighted Stone Brick</item-name>
-    <item-icon>icon_formula_r_02_02b_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Blighted Sandstone Brick</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Sandstone Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Slate Brick</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Slate Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Granite Brick</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Granite Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Obsidian Brick</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Obsidian Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="8">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Marble Brick</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Marble Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="8">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Blighted Wood Board</item-name>
-    <item-icon>icon_formula_r_05_02b_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Blighted Cedar Board</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Cedar Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">300</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Elm Board</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Elm Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Oak Board</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Oak Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Maple Board</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Maple Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="8">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Blighted Yew Board</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-        <tier-keyword>resource_wood</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Yew Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="8">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cut Gem</item-name>
-    <item-icon>icon_formula_r_06_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Garnet</tier-name>
-      <tier-lvl name="I Garnet">1</tier-lvl>
-      <tier-desc>Processed from uncut garnet, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Garnet</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Malachite</tier-name>
-      <tier-lvl name="I Malachite">1</tier-lvl>
-      <tier-desc>Processed from uncut malachite, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Malachite</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Turquoise</tier-name>
-      <tier-lvl name="I Turquoise">1</tier-lvl>
-      <tier-desc>Processed from uncut turquoise, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Turquoise</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Amethyst</tier-name>
-      <tier-lvl name="II Amethyst">2</tier-lvl>
-      <tier-desc>Processed from uncut amethyst, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Amethyst</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Lapis Lazuli</tier-name>
-      <tier-lvl name="II Lapis Lazuli">2</tier-lvl>
-      <tier-desc>Processed from uncut lapis lazuli, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Lapis Lazuli</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Rose Quartz</tier-name>
-      <tier-lvl name="II Rose Quartz">2</tier-lvl>
-      <tier-desc>Processed from uncut rose quartz, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Rose Quartz</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Aquamarine</tier-name>
-      <tier-lvl name="III Aquamarine">3</tier-lvl>
-      <tier-desc>Processed from uncut aquamarine, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Aquamarine</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Citrine</tier-name>
-      <tier-lvl name="III Citrine">3</tier-lvl>
-      <tier-desc>Processed from uncut citrine, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Citrine</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Jasper</tier-name>
-      <tier-lvl name="III Jasper">3</tier-lvl>
-      <tier-desc>Processed from uncut jasper, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Jasper</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Jade</tier-name>
-      <tier-lvl name="IV Jade">4</tier-lvl>
-      <tier-desc>Processed from uncut jade, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Jade</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Opal</tier-name>
-      <tier-lvl name="IV Opal">4</tier-lvl>
-      <tier-desc>Processed from uncut opal, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Opal</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Topaz</tier-name>
-      <tier-lvl name="IV Topaz">4</tier-lvl>
-      <tier-desc>Processed from uncut topaz, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Topaz</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Emerald</tier-name>
-      <tier-lvl name="V Emerald">5</tier-lvl>
-      <tier-desc>Processed from uncut emerald, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Emerald</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Fire Opal</tier-name>
-      <tier-lvl name="V Fire Opal">5</tier-lvl>
-      <tier-desc>Processed from uncut fire opal, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Fire Opal</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Peridot</tier-name>
-      <tier-lvl name="V Peridot">5</tier-lvl>
-      <tier-desc>Processed from uncut peridot, this gemstone is used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Uncut Peridot</resource-name>
-          <resource-skill>Gemworking</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Fabric Spool</item-name>
-    <item-icon>icon_formula_r_09_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Flax Spool</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Threaded flax wound on a spool, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unspun Flax</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Spool</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Threaded kenaf wound on a spool, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unspun Kenaf</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Spool</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Threaded cotton wound on a spool, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unspun Cotton</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silk Spool</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Threaded silk wound on a spool, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unspun Silk</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Spool</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Threaded ironsilk wound on a spool, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Unspun Ironsilk</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Hide Tannin</item-name>
-    <item-icon>icon_formula_r_05_05_11.png</item-icon>
-    <item-batchqty>2</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">5</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Cedar Hide Tannin</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Fermented and boiled cedar bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cedar Bark</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="8">1</resource-min>
-          <resource-opt amount="3">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Hide Tannin</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Fermented and boiled elm bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>resourcetype_processed</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-        <tier-keyword>resource_organic</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Elm Bark</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="8">200</resource-min>
-          <resource-opt amount="3">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Hide Tannin</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Fermented and boiled oak bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Oak Bark</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="8">400</resource-min>
-          <resource-opt amount="3">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Hide Tannin</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Fermented and boiled maple bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Maple Bark</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="8">600</resource-min>
-          <resource-opt amount="3">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Hide Tannin</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Fermented and boiled yew bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-        <tier-keyword>resource_wood</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Yew Bark</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="8">800</resource-min>
-          <resource-opt amount="3">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Kwellen Hide Strip</item-name>
-    <item-icon>icon_formula_r_01_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_5</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Kwellen Hide Strip</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A processed strip of kwellen hide, used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Kwellen Hide</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="6">800</resource-min>
-          <resource-opt amount="2">1025</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Leather Tannin</item-name>
-    <item-icon>icon_formula_r_05_05_11.png</item-icon>
-    <item-batchqty>2</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">5</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Cedar Leather Tannin</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cedar Sap</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="10">100</resource-min>
-          <resource-opt amount="4">300</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="2">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Leather Tannin</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>resourcetype_processed</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-        <tier-keyword>resource_organic</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elm Sap</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="10">300</resource-min>
-          <resource-opt amount="4">525</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">100</resource-min>
-          <resource-opt amount="2">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Leather Tannin</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Oak Sap</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="10">500</resource-min>
-          <resource-opt amount="4">750</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="2">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Leather Tannin</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="2">975</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Maple Sap</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="10">700</resource-min>
-          <resource-opt amount="4">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Leather Tannin</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-        <tier-keyword>resource_wood</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Yew Sap</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="10">900</resource-min>
-          <resource-opt amount="4">1175</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Tanning</resource-skill>
-          <resource-min amount="5">500</resource-min>
-          <resource-opt amount="2">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Tainted Essence Orb</item-name>
-    <item-icon>icon_formula_r_04_12_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Tainted Dim Essence Orb</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>An orb made from the tainted, dim essence collected from a dead wisp.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Tainted Dim Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">50</resource-min>
-          <resource-opt amount="2">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Tainted Pale Essence Orb</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>An orb made from the tainted, pale essence collected from a dead wisp.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Tainted Pale Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">250</resource-min>
-          <resource-opt amount="2">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Tainted Glowing Essence Orb</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>An orb made from the tainted, glowing essence collected from a dead wisp.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Tainted Glowing Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">450</resource-min>
-          <resource-opt amount="2">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Tainted Bright Essence Orb</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>An orb made from the tainted, bright essence collected from a dead wisp.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Tainted Bright Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">650</resource-min>
-          <resource-opt amount="2">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Tainted Shining Essence Orb</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>An orb made from the tainted, shining essence collected from a dead wisp.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Tainted Shining Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">850</resource-min>
-          <resource-opt amount="2">1125</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Blight Core</item-name>
-    <item-icon>icon_formula_r_04_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Dim Blight Core</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Dim Essence Orb</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="20">100</resource-min>
-          <resource-opt amount="10">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Pale Blight Core</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Pale Essence Orb</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="20">300</resource-min>
-          <resource-opt amount="10">525</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Glowing Blight Core</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Glowing Essence Orb</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="20">500</resource-min>
-          <resource-opt amount="10">750</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Bright Blight Core</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Blighted Bright Essence Orb</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="20">700</resource-min>
-          <resource-opt amount="10">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Essence Orb</item-name>
-    <item-icon>icon_formula_r_04_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Dim Essence Orb</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A processed orb of dim essence, used as a magical reagent in item construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Dim Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Pale Essence Orb</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A processed orb of pale essence, used as a magical reagent in item construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Pale Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Glowing Essence Orb</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A processed orb of glowing essence, used as a magical reagent in item construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Glowing Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Bright Essence Orb</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A processed orb of bright essence, used as a magical reagent in item construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bright Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Shining Essence Orb</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A processed orb of shining essence, used as a magical reagent in item construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Shining Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Radiant Essence Orb</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>A processed orb of radiant essence, used as a magical reagent in item construction.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Radiant Essence</resource-name>
-          <resource-skill>Essence Shaping</resource-skill>
-          <resource-min amount="5">1200</resource-min>
-          <resource-opt amount="2">1600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Metal Bar</item-name>
-    <item-icon>icon_formula_r_01_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Bronze Bar</tier-name>
-      <tier-lvl name="I Bronze">1</tier-lvl>
-      <tier-desc>A processed form of copper and tin ore, smelted for use in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Copper and Tin Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Iron Bar</tier-name>
-      <tier-lvl name="II Iron">2</tier-lvl>
-      <tier-desc>A processed form of iron ore, smelted for use in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silver Bar</tier-name>
-      <tier-lvl name="II Silver">2</tier-lvl>
-      <tier-desc>A processed form of silver ore, smelted for use in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silver Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Gold Bar</tier-name>
-      <tier-lvl name="III Gold">3</tier-lvl>
-      <tier-desc>A processed form of gold ore, smelted for use in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Gold Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Steel Bar</tier-name>
-      <tier-lvl name="III Steel">3</tier-lvl>
-      <tier-desc>A processed form of nickel ore and an iron bar, smelted for use in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Nickel Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="4">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="2">400</resource-min>
-          <resource-opt amount="1">520</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cobalt Bar</tier-name>
-      <tier-lvl name="IV Cobalt">4</tier-lvl>
-      <tier-desc>A processed form of cobalt ore and a steel bar, smelted for use in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Nickel Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="2">600</resource-min>
-          <resource-opt amount="1">735</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cobalt Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="4">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Platinum Bar</tier-name>
-      <tier-lvl name="IV Platinum">4</tier-lvl>
-      <tier-desc>A processed form of platinum ore, bars are used for smithing.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Platinum Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Bar</tier-name>
-      <tier-lvl name="V Mithril">5</tier-lvl>
-      <tier-desc>A processed form of mithril ore, smelted for use in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Platinum Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="2">800</resource-min>
-          <resource-opt amount="1">935</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Mithril Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="4">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Adamantium Bar</tier-name>
-      <tier-lvl name="VI Adamantium">6</tier-lvl>
-      <tier-desc>A processed form of adamantium ore and a mithril bar, smelted for use in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="2">1200</resource-min>
-          <resource-opt amount="1">1600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Adamantium Ore</resource-name>
-          <resource-skill>Smelting</resource-skill>
-          <resource-min amount="4">1200</resource-min>
-          <resource-opt amount="2">1600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Stone Brick</item-name>
-    <item-icon>icon_formula_r_02_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Sandstone Brick</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A processed form of sandstone, used in various trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Sandstone Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Slate Brick</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A processed form of slate, used in various trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Slate Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Granite Brick</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A processed form of granite, used in various trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Granite Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Obsidian Brick</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A processed form of obsidian, used in various trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Obsidian Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Marble Brick</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A processed form of marble, used in various trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Marble Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Travertine Brick</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>A processed form of travertine, used in various trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Travertine Slab</resource-name>
-          <resource-skill>Stoneworking</resource-skill>
-          <resource-min amount="5">1200</resource-min>
-          <resource-opt amount="2">1600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Wood Board</item-name>
-    <item-icon>icon_formula_r_05_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Cedar Board</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A processed form of cedar used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cedar Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Board</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A processed form of elm used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>resourcetype_processed</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-        <tier-keyword>resource_wood</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elm Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="5">200</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Board</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A processed form of oak used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Oak Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Board</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A processed form of maple used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Maple Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="5">600</resource-min>
-          <resource-opt amount="2">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Board</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A processed form of yew used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
-        <tier-keyword>resource_wood</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Yew Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="5">800</resource-min>
-          <resource-opt amount="2">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Thornwood Board</tier-name>
-      <tier-lvl>6</tier-lvl>
-      <tier-desc>A processed form of thornwood used in trade skills.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_6</tier-keyword>
-        <tier-keyword>resource_wood</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Thornwood Log</resource-name>
-          <resource-skill>Lumbering</resource-skill>
-          <resource-min amount="5">1200</resource-min>
-          <resource-opt amount="2">1600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Special Fabric Spool</item-name>
-    <item-icon>icon_formula_r_09_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Special Spool</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A very special spool of fabric, used to make some very special pants.  Hooray!</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Unspun Flax</resource-name>
-          <resource-skill>Spinning</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+	<formulaset-name>Resources</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Resources</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Algedian Silver Bar</item-name>
+		<item-icon>icon_formula_r_01_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Algedian Silver Bar</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A bar of Algedian silver.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+      </tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Algedian Silver Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Algedian Slate Rune</item-name>
+		<item-icon>icon_formula_r_02_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">5</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Algedian Slate Rune</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A faintly glowing runestone, carved from Algedian slate.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+      </tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Algedian Slate Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Hide Strip</item-name>
+		<item-icon>icon_formula_r_11_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Hide Strip</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A processed strip of hide, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Animal Hide</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fungus Strips</item-name>
+		<item-icon>icon_formula_r_01_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Istarian Fungus Strip</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A processed strip of leather made from Istarian Fungi, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Istarian Fungus Cap</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Browngill Fungus Strip</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A processed strip of leather made from Browngill Fungi, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Browngill Fungus Cap</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">201</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Sand</item-name>
+		<item-icon>icon_formula_r_02_03_11.png</item-icon>
+		<item-batchqty>5</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">4</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>tier_0</item-keyword>
+			<item-keyword>resource_stone</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Sand</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Found in sand deposits, or ground from sandstone, sand is useful in creating glass products.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="1">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Corvian Silver Bar</item-name>
+		<item-icon>icon_formula_r_01_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Corvian Silver Bar</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A bar of Corvian silver.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+      </tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Corvian Silver Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Corvian Slate Rune</item-name>
+		<item-icon>icon_formula_r_02_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">5</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Corvian Slate Rune</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A faintly glowing runestone, carved from Corvian slate.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+      </tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Corvian Slate Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dabihian Silver Bar</item-name>
+		<item-icon>icon_formula_r_01_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Dabihian Silver Bar</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A bar of Dabihian silver.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+      </tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dabihian Silver Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dabihian Slate Rune</item-name>
+		<item-icon>icon_formula_r_02_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">5</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Dabihian Slate Rune</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A faintly glowing runestone, carved from Dabihian slate.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+      </tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dabihian Slate Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Elnathian Silver Bar</item-name>
+		<item-icon>icon_formula_r_01_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Elnathian Silver Bar</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A bar of Elnathian silver.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+      </tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elnathian Silver Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Elnathian Slate Rune</item-name>
+		<item-icon>icon_formula_r_02_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">5</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Elnathian Slate Rune</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A faintly glowing runestone, carved from Elnathian slate.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+      </tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elnathian Slate Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Cut Gem</item-name>
+		<item-icon>icon_formula_r_06_03b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Blighted Garnet</tier-name>
+			<tier-lvl name="I Garnet">1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Garnet</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Malachite</tier-name>
+			<tier-lvl name="I Malachite">1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Malachite</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Turquoise</tier-name>
+			<tier-lvl name="I Turquoise">1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Turquoise</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Amethyst</tier-name>
+			<tier-lvl name="II Amethyst">2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Amethyst</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Lapis Lazuli</tier-name>
+			<tier-lvl name="II Lapis Lazuli">2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Lapis Lazuli</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Rose Quartz</tier-name>
+			<tier-lvl name="II Rose Quartz">2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Rose Quartz</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Aquamarine</tier-name>
+			<tier-lvl name="III Aquamarine">3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Aquamarine</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Citrine</tier-name>
+			<tier-lvl name="III Citrine">3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Citrine</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Jasper</tier-name>
+			<tier-lvl name="III Jasper">3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Jasper</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Jade</tier-name>
+			<tier-lvl name="IV Jade">4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Jade</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Opal</tier-name>
+			<tier-lvl name="IV Opal">4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Opal</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Topaz</tier-name>
+			<tier-lvl name="IV Topaz">4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Topaz</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Emerald</tier-name>
+			<tier-lvl name="V Emerald">5</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Emerald</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Fire Opal</tier-name>
+			<tier-lvl name="V Fire Opal">5</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Fire Opal</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Peridot</tier-name>
+			<tier-lvl name="V Peridot">5</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Peridot</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Essence Orb</item-name>
+		<item-icon>icon_formula_r_04_02b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Blighted Dim Essence Orb</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Filled with a dim essence, this orb looks like it would be useful for magical purposes.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Dim Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="8">1</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Pale Essence Orb</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Filled with a pale essence, this orb looks like it would be useful for magical purposes.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Pale Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="8">200</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Glowing Essence Orb</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Filled with a glowing essence, this orb looks like it would be useful for magical purposes.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Glowing Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Bright Essence Orb</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Filled with a bright essence, this orb looks like it would be useful for magical purposes.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Bright Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="8">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Shining Essence Orb</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Filled with a shining essence, this orb looks like it would be useful for magical purposes.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Shining Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Fabric Spool</item-name>
+		<item-icon>icon_formula_r_09_03b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Blighted Flax Spool</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Unspun Flax</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Kenaf Spool</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Unspun Kenaf</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Cotton Spool</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Unspun Cotton</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Silk Spool</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Unspun Silk</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="8">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Ironsilk Spool</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Unspun Ironsilk</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Metal Bar</item-name>
+		<item-icon>icon_formula_r_01_02b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Blighted Bronze Bar</tier-name>
+			<tier-lvl name="I Bronze">1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Copper and Tin Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Iron Bar</tier-name>
+			<tier-lvl name="II Iron">2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Iron Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Silver Bar</tier-name>
+			<tier-lvl name="II Silver">2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Silver Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Gold Bar</tier-name>
+			<tier-lvl name="III Gold">3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Gold Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Steel Bar</tier-name>
+			<tier-lvl name="III Steel">3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Iron Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blighted Nickel Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="7">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Cobalt Bar</tier-name>
+			<tier-lvl name="IV Cobalt">4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Steel Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blighted Cobalt Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="7">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Platinum Bar</tier-name>
+			<tier-lvl name="IV Platinum">4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Platinum Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="8">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Mithril Bar</tier-name>
+			<tier-lvl name="V Mithril">5</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Mithril Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Stone Brick</item-name>
+		<item-icon>icon_formula_r_02_02b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Blighted Sandstone Brick</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Sandstone Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Slate Brick</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Slate Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Granite Brick</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Granite Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Obsidian Brick</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Obsidian Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="8">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Marble Brick</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Marble Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Wood Board</item-name>
+		<item-icon>icon_formula_r_05_02b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Blighted Cedar Board</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Cedar Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Elm Board</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Elm Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Oak Board</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Oak Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Maple Board</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Maple Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="8">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Yew Board</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+				<tier-keyword>resource_wood</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Yew Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cut Gem</item-name>
+		<item-icon>icon_formula_r_06_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Garnet</tier-name>
+			<tier-lvl name="I Garnet">1</tier-lvl>
+			<tier-desc>Processed from uncut garnet, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Garnet</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Malachite</tier-name>
+			<tier-lvl name="I Malachite">1</tier-lvl>
+			<tier-desc>Processed from uncut malachite, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Malachite</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Turquoise</tier-name>
+			<tier-lvl name="I Turquoise">1</tier-lvl>
+			<tier-desc>Processed from uncut turquoise, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Turquoise</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amethyst</tier-name>
+			<tier-lvl name="II Amethyst">2</tier-lvl>
+			<tier-desc>Processed from uncut amethyst, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Amethyst</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lapis Lazuli</tier-name>
+			<tier-lvl name="II Lapis Lazuli">2</tier-lvl>
+			<tier-desc>Processed from uncut lapis lazuli, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Lapis Lazuli</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rose Quartz</tier-name>
+			<tier-lvl name="II Rose Quartz">2</tier-lvl>
+			<tier-desc>Processed from uncut rose quartz, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Rose Quartz</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Aquamarine</tier-name>
+			<tier-lvl name="III Aquamarine">3</tier-lvl>
+			<tier-desc>Processed from uncut aquamarine, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Aquamarine</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Citrine</tier-name>
+			<tier-lvl name="III Citrine">3</tier-lvl>
+			<tier-desc>Processed from uncut citrine, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Citrine</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Jasper</tier-name>
+			<tier-lvl name="III Jasper">3</tier-lvl>
+			<tier-desc>Processed from uncut jasper, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Jasper</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Jade</tier-name>
+			<tier-lvl name="IV Jade">4</tier-lvl>
+			<tier-desc>Processed from uncut jade, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Jade</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Opal</tier-name>
+			<tier-lvl name="IV Opal">4</tier-lvl>
+			<tier-desc>Processed from uncut opal, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Opal</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Topaz</tier-name>
+			<tier-lvl name="IV Topaz">4</tier-lvl>
+			<tier-desc>Processed from uncut topaz, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Topaz</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Emerald</tier-name>
+			<tier-lvl name="V Emerald">5</tier-lvl>
+			<tier-desc>Processed from uncut emerald, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Emerald</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fire Opal</tier-name>
+			<tier-lvl name="V Fire Opal">5</tier-lvl>
+			<tier-desc>Processed from uncut fire opal, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Fire Opal</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Peridot</tier-name>
+			<tier-lvl name="V Peridot">5</tier-lvl>
+			<tier-desc>Processed from uncut peridot, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Peridot</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fabric Spool</item-name>
+		<item-icon>icon_formula_r_09_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Flax Spool</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Threaded flax wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unspun Flax</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Spool</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Threaded kenaf wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unspun Kenaf</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Spool</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Threaded cotton wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unspun Cotton</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silk Spool</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Threaded silk wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unspun Silk</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Spool</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Threaded ironsilk wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unspun Ironsilk</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Hide Tannin</item-name>
+		<item-icon>icon_formula_r_05_05_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">5</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Cedar Hide Tannin</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Fermented and boiled cedar bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Bark</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="8">1</resource-min>
+					<resource-opt amount="3">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Hide Tannin</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Fermented and boiled elm bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>resourcetype_processed</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+				<tier-keyword>resource_organic</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Bark</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="8">200</resource-min>
+					<resource-opt amount="3">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Hide Tannin</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Fermented and boiled oak bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Bark</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="8">400</resource-min>
+					<resource-opt amount="3">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Hide Tannin</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Fermented and boiled maple bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Bark</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="8">600</resource-min>
+					<resource-opt amount="3">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Hide Tannin</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Fermented and boiled yew bark, used as a processing agent in leatherworking and tailoring.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+				<tier-keyword>resource_wood</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Bark</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="8">800</resource-min>
+					<resource-opt amount="3">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Kwellen Hide Strip</item-name>
+		<item-icon>icon_formula_r_01_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>tier_5</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Kwellen Hide Strip</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A processed strip of kwellen hide, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Kwellen Hide</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="6">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Leather Tannin</item-name>
+		<item-icon>icon_formula_r_05_05_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">5</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Cedar Leather Tannin</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Sap</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="10">100</resource-min>
+					<resource-opt amount="4">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Leather Tannin</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>resourcetype_processed</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+				<tier-keyword>resource_organic</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Sap</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="10">300</resource-min>
+					<resource-opt amount="4">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Leather Tannin</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Sap</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="10">500</resource-min>
+					<resource-opt amount="4">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Leather Tannin</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Sap</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="10">700</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Leather Tannin</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+				<tier-keyword>resource_wood</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Sap</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="10">900</resource-min>
+					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Tanning</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tainted Essence Orb</item-name>
+		<item-icon>icon_formula_r_04_12_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Tainted Dim Essence Orb</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>An orb made from the tainted, dim essence collected from a dead wisp.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Dim Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">50</resource-min>
+					<resource-opt amount="2">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tainted Pale Essence Orb</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>An orb made from the tainted, pale essence collected from a dead wisp.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Pale Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">250</resource-min>
+					<resource-opt amount="2">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tainted Glowing Essence Orb</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>An orb made from the tainted, glowing essence collected from a dead wisp.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Glowing Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">450</resource-min>
+					<resource-opt amount="2">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tainted Bright Essence Orb</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>An orb made from the tainted, bright essence collected from a dead wisp.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Bright Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">650</resource-min>
+					<resource-opt amount="2">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tainted Shining Essence Orb</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>An orb made from the tainted, shining essence collected from a dead wisp.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Shining Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">850</resource-min>
+					<resource-opt amount="2">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blight Core</item-name>
+		<item-icon>icon_formula_r_04_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Dim Blight Core</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Dim Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="20">100</resource-min>
+					<resource-opt amount="10">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Pale Blight Core</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Pale Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Glowing Blight Core</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Glowing Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="20">500</resource-min>
+					<resource-opt amount="10">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Bright Blight Core</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Bright Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="20">700</resource-min>
+					<resource-opt amount="10">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Essence Orb</item-name>
+		<item-icon>icon_formula_r_04_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Dim Essence Orb</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A processed orb of dim essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dim Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Pale Essence Orb</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A processed orb of pale essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Glowing Essence Orb</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A processed orb of glowing essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Glowing Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Bright Essence Orb</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A processed orb of bright essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bright Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shining Essence Orb</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A processed orb of shining essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shining Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Radiant Essence Orb</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>A processed orb of radiant essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">1200</resource-min>
+					<resource-opt amount="2">1600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Metal Bar</item-name>
+		<item-icon>icon_formula_r_01_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Bronze Bar</tier-name>
+			<tier-lvl name="I Bronze">1</tier-lvl>
+			<tier-desc>A processed form of copper and tin ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Copper and Tin Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Bar</tier-name>
+			<tier-lvl name="II Iron">2</tier-lvl>
+			<tier-desc>A processed form of iron ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silver Bar</tier-name>
+			<tier-lvl name="II Silver">2</tier-lvl>
+			<tier-desc>A processed form of silver ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gold Bar</tier-name>
+			<tier-lvl name="III Gold">3</tier-lvl>
+			<tier-desc>A processed form of gold ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Gold Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Bar</tier-name>
+			<tier-lvl name="III Steel">3</tier-lvl>
+			<tier-desc>A processed form of nickel ore and an iron bar, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Nickel Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="2">400</resource-min>
+					<resource-opt amount="1">520</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Bar</tier-name>
+			<tier-lvl name="IV Cobalt">4</tier-lvl>
+			<tier-desc>A processed form of cobalt ore and a steel bar, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Nickel Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="1">735</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Platinum Bar</tier-name>
+			<tier-lvl name="IV Platinum">4</tier-lvl>
+			<tier-desc>A processed form of platinum ore, bars are used for smithing.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Platinum Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Bar</tier-name>
+			<tier-lvl name="V Mithril">5</tier-lvl>
+			<tier-desc>A processed form of mithril ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Platinum Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">935</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Adamantium Bar</tier-name>
+			<tier-lvl name="VI Adamantium">6</tier-lvl>
+			<tier-desc>A processed form of adamantium ore and a mithril bar, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="2">1200</resource-min>
+					<resource-opt amount="1">1600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adamantium Ore</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="4">1200</resource-min>
+					<resource-opt amount="2">1600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Stone Brick</item-name>
+		<item-icon>icon_formula_r_02_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Sandstone Brick</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A processed form of sandstone, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Slate Brick</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A processed form of slate, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Granite Brick</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A processed form of granite, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Obsidian Brick</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A processed form of obsidian, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Marble Brick</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A processed form of marble, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Travertine Brick</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>A processed form of travertine, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Travertine Slab</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">1200</resource-min>
+					<resource-opt amount="2">1600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Wood Board</item-name>
+		<item-icon>icon_formula_r_05_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Cedar Board</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A processed form of cedar used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Board</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A processed form of elm used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>resourcetype_processed</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+				<tier-keyword>resource_wood</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Board</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A processed form of oak used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Board</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A processed form of maple used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Board</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A processed form of yew used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+				<tier-keyword>resource_wood</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Thornwood Board</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>A processed form of thornwood used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+				<tier-keyword>resource_wood</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Thornwood Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="5">1200</resource-min>
+					<resource-opt amount="2">1600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Special Fabric Spool</item-name>
+		<item-icon>icon_formula_r_09_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Special Spool</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A very special spool of fabric, used to make some very special pants.  Hooray!</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Unspun Flax</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

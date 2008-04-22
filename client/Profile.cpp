@@ -31,6 +31,7 @@ CProfile::~CProfile()
 CProfile::operator =( const CProfile* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -356,7 +357,7 @@ bool CProfile::SaveProfile(CString &a_csFilename)
 		l_cParser.WriteTag ("profile-server", m_csProfileServer);
 		l_cParser.WriteTag ("profile-email", m_csProfileEmail);
 
-		l_cParser.WriteOpenTag ("statistics");	
+		l_cParser.WriteOpenTag ("statistics");
 		l_cPos = m_clStatisticList.GetHeadPosition ();
 		while (l_cPos)
 		{
@@ -366,11 +367,11 @@ bool CProfile::SaveProfile(CString &a_csFilename)
 		}
 		l_cParser.WriteCloseTag ("statistics");
 
-		l_cParser.WriteOpenTag ("adventurelevels");	
+		l_cParser.WriteOpenTag ("adventurelevels");
 		l_cPos = m_clAdventureSchoolList.GetHeadPosition ();
 		while (l_cPos)
 		{
-			l_cParser.WriteOpenTag ("adventure");	
+			l_cParser.WriteOpenTag ("adventure");
 			l_cpSkill = m_clAdventureSchoolList.GetNext (l_cPos);
 			l_cParser.WriteTag ("adventure-name", l_cpSkill->m_csSkillName);
 			l_cParser.WriteTag ("adventure-level", l_cpSkill->m_iSkillValue);
@@ -378,7 +379,7 @@ bool CProfile::SaveProfile(CString &a_csFilename)
 		}
 		l_cParser.WriteCloseTag ("adventurelevels");
 
-		l_cParser.WriteOpenTag ("adventureskills");	
+		l_cParser.WriteOpenTag ("adventureskills");
 		l_cPos = m_clAdventureSkillsList.GetHeadPosition ();
 		while (l_cPos)
 		{
@@ -388,11 +389,11 @@ bool CProfile::SaveProfile(CString &a_csFilename)
 		}
 		l_cParser.WriteCloseTag ("adventureskills");
 
-		l_cParser.WriteOpenTag ("craftlevels");	
+		l_cParser.WriteOpenTag ("craftlevels");
 		l_cPos = m_clCraftSchoolList.GetHeadPosition ();
 		while (l_cPos)
 		{
-			l_cParser.WriteOpenTag ("craft");	
+			l_cParser.WriteOpenTag ("craft");
 			l_cpSkill = m_clCraftSchoolList.GetNext (l_cPos);
 			l_cParser.WriteTag ("craft-name", l_cpSkill->m_csSkillName);
 			l_cParser.WriteTag ("craft-level", l_cpSkill->m_iSkillValue);
@@ -402,7 +403,7 @@ bool CProfile::SaveProfile(CString &a_csFilename)
 		}
 		l_cParser.WriteCloseTag ("craftlevels");
 
-		l_cParser.WriteOpenTag ("craftskills");	
+		l_cParser.WriteOpenTag ("craftskills");
 		l_cPos = m_clCraftSkillsList.GetHeadPosition ();
 		while (l_cPos)
 		{

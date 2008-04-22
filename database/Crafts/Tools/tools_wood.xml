@@ -1,910 +1,922 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Tools - Wood</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Tools</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Alteration Wand</item-name>
-    <item-icon>icon_formula_t_30_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
-      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_make_woodworking</item-keyword>
-      <item-keyword>skill_use_transmutation</item-keyword>
-      <item-keyword>skill_use_enchanting</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>tool</item-keyword>
-      <item-keyword>resource_wood</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Cedar Alteration Wand</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A slender rod of cedar used to magically manipulate and transform resources.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">48</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Enchanting[1] or Transmutation[1]</tier-attribute>
-        <tier-attribute type="statCap">Limits Enchanting to 250</tier-attribute>
-        <tier-attribute type="statCap">Limits Transmutation to 250</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">150</resource-min>
-          <resource-opt amount="4">250</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cedar Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="24">150</resource-min>
-          <resource-opt amount="12">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Alteration Wand</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A slender rod of elm used to magically manipulate and transform resources.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Enchanting[200] or Transmutation[200]</tier-attribute>
-        <tier-attribute type="statCap">Limits Enchanting to 450</tier-attribute>
-        <tier-attribute type="statCap">Limits Transmutation to 450</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">350</resource-min>
-          <resource-opt amount="4">475</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Elm Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="24">350</resource-min>
-          <resource-opt amount="12">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Alteration Wand</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A slender rod of oak used to magically manipulate and transform resources.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">204</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Enchanting[400] or Transmutation[400]</tier-attribute>
-        <tier-attribute type="statCap">Limits Enchanting to 650</tier-attribute>
-        <tier-attribute type="statCap">Limits Transmutation to 650</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">550</resource-min>
-          <resource-opt amount="4">700</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Oak Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="24">550</resource-min>
-          <resource-opt amount="12">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Alteration Wand</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A slender rod of maple used to magically manipulate and transform resources.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">408</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Enchanting[600] or Transmutation[600]</tier-attribute>
-        <tier-attribute type="statCap">Limits Enchanting to 850</tier-attribute>
-        <tier-attribute type="statCap">Limits Transmutation to 850</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">750</resource-min>
-          <resource-opt amount="4">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Maple Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="24">750</resource-min>
-          <resource-opt amount="12">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Alteration Wand</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A slender rod of yew used to magically manipulate and transform resources.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">816</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Enchanting[800] or Transmutation[800]</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">950</resource-min>
-          <resource-opt amount="4">1150</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Yew Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="24">950</resource-min>
-          <resource-opt amount="12">1150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Baking Spatula</item-name>
-    <item-icon>icon_formula_t_60_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
-      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_make_woodworking</item-keyword>
-      <item-keyword>skill_use_cooking</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>tool</item-keyword>
-      <item-keyword>resource_wood</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Cedar Baking Spatula</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A cooking utensil with long handle and a flat, cedar blade that is used as a tool in the preparation of food.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">20</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[1]</tier-attribute>
-        <tier-attribute type="statCap">Limits Cooking to 250</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cedar Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">100</resource-min>
-          <resource-opt amount="10">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Baking Spatula</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A cooking utensil with long handle and a flat, elm blade that is used as a tool in the preparation of food.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">50</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[200]</tier-attribute>
-        <tier-attribute type="statCap">Limits Cooking to 450</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elm Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">300</resource-min>
-          <resource-opt amount="10">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Baking Spatula</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A cooking utensil with long handle and a flat, oak blade that is used as a tool in the preparation of food.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[400]</tier-attribute>
-        <tier-attribute type="statCap">Limits Cooking to 650</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Oak Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">500</resource-min>
-          <resource-opt amount="10">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Baking Spatula</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A cooking utensil with long handle and a flat, maple blade that is used as a tool in the preparation of food.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[600]</tier-attribute>
-        <tier-attribute type="statCap">Limits Cooking to 850</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Maple Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">700</resource-min>
-          <resource-opt amount="10">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Baking Spatula</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A cooking utensil with long handle and a flat, yew blade that is used as a tool in the preparation of food.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[800]</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Yew Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">900</resource-min>
-          <resource-opt amount="10">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Board Plane</item-name>
-    <item-icon>icon_formula_t_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
-      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_make_woodworking</item-keyword>
-      <item-keyword>skill_use_woodworking</item-keyword>
-      <item-keyword>skill_use_fletching</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>tool</item-keyword>
-      <item-keyword>resource_wood</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Cedar Board Plane</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A cedar plane used to level boards for constructing items.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fletching[1] or Woodworking[1]</tier-attribute>
-        <tier-attribute type="statCap">Limits Fletching to 250</tier-attribute>
-        <tier-attribute type="statCap">Limits Woodworking to 250</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cedar Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="12">1</resource-min>
-          <resource-opt amount="6">100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Board Plane</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>An elm plane used to level boards for constructing items.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">30</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fletching[200] or Woodworking[200]</tier-attribute>
-        <tier-attribute type="statCap">Limits Fletching to 450</tier-attribute>
-        <tier-attribute type="statCap">Limits Woodworking to 450</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elm Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="12">200</resource-min>
-          <resource-opt amount="6">325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Board Plane</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>An oak plane used to level boards for constructing items.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fletching[400] or Woodworking[400]</tier-attribute>
-        <tier-attribute type="statCap">Limits Fletching to 650</tier-attribute>
-        <tier-attribute type="statCap">Limits Woodworking to 650</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Oak Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="12">400</resource-min>
-          <resource-opt amount="6">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Board Plane</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A maple plane used to level boards for constructing items.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fletching[600] or Woodworking[600]</tier-attribute>
-        <tier-attribute type="statCap">Limits Fletching to 850</tier-attribute>
-        <tier-attribute type="statCap">Limits Woodworking to 850</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Maple Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="12">600</resource-min>
-          <resource-opt amount="6">775</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Board Plane</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A yew plane used to level boards for constructing items.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fletching[800] or Woodworking[800]</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Yew Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="12">800</resource-min>
-          <resource-opt amount="6">1000</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Bucket</item-name>
-    <item-icon>icon_formula_t_20_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
-      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_make_woodworking</item-keyword>
-      <item-keyword>skill_use_quarrying</item-keyword>
-      <item-keyword>skill_use_foraging</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>tool</item-keyword>
-      <item-keyword>resource_wood</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Cedar Bucket</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A small wooden pail made of cedar boards, used in gathering various resources.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">16</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Foraging[1] or Quarrying[1]</tier-attribute>
-        <tier-attribute type="statCap">Limits Foraging to 250</tier-attribute>
-        <tier-attribute type="statCap">Limits Quarrying to 250</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cedar Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">50</resource-min>
-          <resource-opt amount="8">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Bucket</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A small wooden pail made of elm boards, used in gathering various resources.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Foraging[200] or Quarrying[200]</tier-attribute>
-        <tier-attribute type="statCap">Limits Foraging to 450</tier-attribute>
-        <tier-attribute type="statCap">Limits Quarrying to 450</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elm Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">250</resource-min>
-          <resource-opt amount="8">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Bucket</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A small wooden pail made of oak boards, used in gathering various resources.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Foraging[400] or Quarrying[400]</tier-attribute>
-        <tier-attribute type="statCap">Limits Foraging to 650</tier-attribute>
-        <tier-attribute type="statCap">Limits Quarrying to 650</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Oak Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">450</resource-min>
-          <resource-opt amount="8">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Bucket</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A small wooden pail made of maple boards, used in gathering various resources.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Foraging[600] or Quarrying[600]</tier-attribute>
-        <tier-attribute type="statCap">Limits Foraging to 850</tier-attribute>
-        <tier-attribute type="statCap">Limits Quarrying to 850</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Maple Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">650</resource-min>
-          <resource-opt amount="8">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Bucket</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A small wooden pail made of yew boards, used in gathering various resources.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Foraging[800] or Quarrying[800]</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Yew Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">850</resource-min>
-          <resource-opt amount="8">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Fishing Pole</item-name>
-    <item-icon>icon_formula_t_23_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
-      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_make_woodworking</item-keyword>
-      <item-keyword>skill_use_fishing</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>tool</item-keyword>
-      <item-keyword>resource_wood</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Cedar Fishing Pole</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A rod of cedar wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">24</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fishing[1]</tier-attribute>
-        <tier-attribute type="statCap">Limits Fishing to 250</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Fishing Line</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">50</resource-min>
-          <resource-opt amount="4">150</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cedar Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">50</resource-min>
-          <resource-opt amount="8">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Fishing Pole</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A rod of elm wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">60</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fishing[200]</tier-attribute>
-        <tier-attribute type="statCap">Limits Fishing to 450</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Fishing Line</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">250</resource-min>
-          <resource-opt amount="4">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Elm Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">250</resource-min>
-          <resource-opt amount="8">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Fishing Pole</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A rod of oak wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fishing[400]</tier-attribute>
-        <tier-attribute type="statCap">Limits Fishing to 650</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Fishing Line</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">450</resource-min>
-          <resource-opt amount="4">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Oak Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">450</resource-min>
-          <resource-opt amount="8">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Fishing Pole</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A rod of maple wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fishing[600]</tier-attribute>
-        <tier-attribute type="statCap">Limits Fishing to 850</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Fishing Line</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Maple Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">650</resource-min>
-          <resource-opt amount="8">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Fishing Pole</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A rod of yew used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Fishing[800]</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Fishing Line</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="8">850</resource-min>
-          <resource-opt amount="4">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Yew Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="16">850</resource-min>
-          <resource-opt amount="8">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Mixing Spoon</item-name>
-    <item-icon>icon_formula_t_15_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
-      <item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>skill_make_woodworking</item-keyword>
-      <item-keyword>skill_use_cooking</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>tool</item-keyword>
-      <item-keyword>resource_wood</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Cedar Mixing Spoon</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A small cedar utensil, used in preparing food.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">20</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[1]</tier-attribute>
-        <tier-attribute type="statCap">Limits Cooking to 250</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cedar Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">100</resource-min>
-          <resource-opt amount="10">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Elm Mixing Spoon</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A small elm utensil, used in preparing food.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">50</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[200]</tier-attribute>
-        <tier-attribute type="statCap">Limits Cooking to 450</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elm Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">300</resource-min>
-          <resource-opt amount="10">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Oak Mixing Spoon</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A small oak utensil, used in preparing food.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[400]</tier-attribute>
-        <tier-attribute type="statCap">Limits Cooking to 650</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Oak Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">500</resource-min>
-          <resource-opt amount="10">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Maple Mixing Spoon</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A small maple utensil, used in preparing food.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[600]</tier-attribute>
-        <tier-attribute type="statCap">Limits Cooking to 850</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Maple Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">700</resource-min>
-          <resource-opt amount="10">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Yew Mixing Spoon</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A small yew utensil, used in preparing food.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqCraftSkill">Cooking[800]</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Yew Board</resource-name>
-          <resource-skill>Woodworking</resource-skill>
-          <resource-min amount="20">900</resource-min>
-          <resource-opt amount="10">1100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+	<formulaset-name>Tools - Wood</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Tools</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Alteration Wand</item-name>
+		<item-icon>icon_formula_t_30_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
+			<item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_make_woodworking</item-keyword>
+			<item-keyword>skill_use_transmutation</item-keyword>
+			<item-keyword>skill_use_enchanting</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>tool</item-keyword>
+			<item-keyword>resource_wood</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Alteration Wand</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A slender rod of cedar used to magically manipulate and transform resources.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">48</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Enchanting (1) or Transmutation (1)</tier-attribute>
+				<tier-attribute type="statCap">Limits Enchanting to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Transmutation to 250</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">150</resource-min>
+					<resource-opt amount="4">250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="24">150</resource-min>
+					<resource-opt amount="12">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Alteration Wand</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A slender rod of elm used to magically manipulate and transform resources.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Enchanting (200) or Transmutation (200)</tier-attribute>
+				<tier-attribute type="statCap">Limits Enchanting to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Transmutation to 450</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">350</resource-min>
+					<resource-opt amount="4">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="24">350</resource-min>
+					<resource-opt amount="12">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Alteration Wand</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A slender rod of oak used to magically manipulate and transform resources.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">204</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Enchanting (400) or Transmutation (400)</tier-attribute>
+				<tier-attribute type="statCap">Limits Enchanting to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Transmutation to 650</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">550</resource-min>
+					<resource-opt amount="4">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="24">550</resource-min>
+					<resource-opt amount="12">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Alteration Wand</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A slender rod of maple used to magically manipulate and transform resources.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">408</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Enchanting (600) or Transmutation (600)</tier-attribute>
+				<tier-attribute type="statCap">Limits Enchanting to 850</tier-attribute>
+				<tier-attribute type="statCap">Limits Transmutation to 850</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">750</resource-min>
+					<resource-opt amount="4">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="24">750</resource-min>
+					<resource-opt amount="12">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Alteration Wand</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A slender rod of yew used to magically manipulate and transform resources.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">816</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Enchanting (800) or Transmutation (800)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">950</resource-min>
+					<resource-opt amount="4">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="24">950</resource-min>
+					<resource-opt amount="12">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Baking Spatula</item-name>
+		<item-icon>icon_formula_t_60_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
+			<item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_make_woodworking</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>tool</item-keyword>
+			<item-keyword>resource_wood</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Baking Spatula</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A cooking utensil with long handle and a flat, cedar blade that is used as a tool in the preparation of food.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">20</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (1) or Preparation (1)</tier-attribute>
+				<tier-attribute type="statCap">Limits Cooking to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparation to 250</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">100</resource-min>
+					<resource-opt amount="10">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Baking Spatula</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A cooking utensil with long handle and a flat, elm blade that is used as a tool in the preparation of food.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">50</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (200) or Preparation (200)</tier-attribute>
+				<tier-attribute type="statCap">Limits Cooking to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparation to 450</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Baking Spatula</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A cooking utensil with long handle and a flat, oak blade that is used as a tool in the preparation of food.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (400) or Preparation (400)</tier-attribute>
+				<tier-attribute type="statCap">Limits Cooking to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparation to 650</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">500</resource-min>
+					<resource-opt amount="10">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Baking Spatula</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A cooking utensil with long handle and a flat, maple blade that is used as a tool in the preparation of food.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (600) or Preparation (600)</tier-attribute>
+				<tier-attribute type="statCap">Limits Cooking to 850</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparation to 850</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">700</resource-min>
+					<resource-opt amount="10">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Baking Spatula</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A cooking utensil with long handle and a flat, yew blade that is used as a tool in the preparation of food.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (800) or Preparation (800)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">900</resource-min>
+					<resource-opt amount="10">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Board Plane</item-name>
+		<item-icon>icon_formula_t_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
+			<item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_make_woodworking</item-keyword>
+			<item-keyword>skill_use_woodworking</item-keyword>
+			<item-keyword>skill_use_fletching</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>tool</item-keyword>
+			<item-keyword>resource_wood</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Board Plane</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A cedar plane used to level boards for constructing items.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fletching (1) or Woodworking (1)</tier-attribute>
+				<tier-attribute type="statCap">Limits Fletching to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Woodworking to 250</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="12">1</resource-min>
+					<resource-opt amount="6">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Board Plane</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>An elm plane used to level boards for constructing items.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">30</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fletching (200) or Woodworking (200)</tier-attribute>
+				<tier-attribute type="statCap">Limits Fletching to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Woodworking to 450</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="12">200</resource-min>
+					<resource-opt amount="6">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Board Plane</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>An oak plane used to level boards for constructing items.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fletching (400) or Woodworking (400)</tier-attribute>
+				<tier-attribute type="statCap">Limits Fletching to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Woodworking to 650</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="12">400</resource-min>
+					<resource-opt amount="6">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Board Plane</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A maple plane used to level boards for constructing items.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fletching (600) or Woodworking (600)</tier-attribute>
+				<tier-attribute type="statCap">Limits Fletching to 850</tier-attribute>
+				<tier-attribute type="statCap">Limits Woodworking to 850</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="12">600</resource-min>
+					<resource-opt amount="6">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Board Plane</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A yew plane used to level boards for constructing items.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fletching (800) or Woodworking (800)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="12">800</resource-min>
+					<resource-opt amount="6">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Bucket</item-name>
+		<item-icon>icon_formula_t_20_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
+			<item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_make_woodworking</item-keyword>
+			<item-keyword>skill_use_quarrying</item-keyword>
+			<item-keyword>skill_use_foraging</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>tool</item-keyword>
+			<item-keyword>resource_wood</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Bucket</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A small wooden pail made of cedar boards, used in gathering various resources.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">16</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (1) or Quarrying (1) or Preparing (1)</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparing to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Foraging to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Quarrying to 250</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">50</resource-min>
+					<resource-opt amount="8">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Bucket</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A small wooden pail made of elm boards, used in gathering various resources.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (200) or Quarrying (200) or Preparing (200)</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparing to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Foraging to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Quarrying to 450</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">250</resource-min>
+					<resource-opt amount="8">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Bucket</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A small wooden pail made of oak boards, used in gathering various resources.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (400) or Quarrying (400) or Preparing (400)</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparing to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Foraging to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Quarrying to 650</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">450</resource-min>
+					<resource-opt amount="8">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Bucket</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A small wooden pail made of maple boards, used in gathering various resources.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (600) or Quarrying (600) or Preparing (600)</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparing to 850</tier-attribute>
+				<tier-attribute type="statCap">Limits Foraging to 850</tier-attribute>
+				<tier-attribute type="statCap">Limits Quarrying to 850</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">650</resource-min>
+					<resource-opt amount="8">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Bucket</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A small wooden pail made of yew boards, used in gathering various resources.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (800) or Quarrying (800) or Preparing (800)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">850</resource-min>
+					<resource-opt amount="8">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fishing Pole</item-name>
+		<item-icon>icon_formula_t_23_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
+			<item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_make_woodworking</item-keyword>
+			<item-keyword>skill_use_fishing</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>tool</item-keyword>
+			<item-keyword>resource_wood</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Fishing Pole</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A rod of cedar wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">24</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fishing (1)</tier-attribute>
+				<tier-attribute type="statCap">Limits Fishing to 250</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Fishing Line</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">50</resource-min>
+					<resource-opt amount="4">150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">50</resource-min>
+					<resource-opt amount="8">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Fishing Pole</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A rod of elm wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fishing (200)</tier-attribute>
+				<tier-attribute type="statCap">Limits Fishing to 450</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Fishing Line</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">250</resource-min>
+					<resource-opt amount="4">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">250</resource-min>
+					<resource-opt amount="8">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Fishing Pole</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A rod of oak wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fishing (400)</tier-attribute>
+				<tier-attribute type="statCap">Limits Fishing to 650</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Fishing Line</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">450</resource-min>
+					<resource-opt amount="4">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">450</resource-min>
+					<resource-opt amount="8">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Fishing Pole</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A rod of maple wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fishing (600)</tier-attribute>
+				<tier-attribute type="statCap">Limits Fishing to 850</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Fishing Line</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">650</resource-min>
+					<resource-opt amount="8">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Fishing Pole</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A rod of yew used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Fishing (800)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Fishing Line</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="8">850</resource-min>
+					<resource-opt amount="4">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="16">850</resource-min>
+					<resource-opt amount="8">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Mixing Spoon</item-name>
+		<item-icon>icon_formula_t_15_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</item-attribute>
+			<item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>skill_make_woodworking</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>tool</item-keyword>
+			<item-keyword>resource_wood</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Mixing Spoon</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A small cedar utensil, used in preparing food.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">20</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (1) or Preparation (1)</tier-attribute>
+				<tier-attribute type="statCap">Limits Cooking to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparation to 250</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">100</resource-min>
+					<resource-opt amount="10">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Mixing Spoon</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A small elm utensil, used in preparing food.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">50</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (200) or Preparation (200)</tier-attribute>
+				<tier-attribute type="statCap">Limits Cooking to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparation to 450</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Mixing Spoon</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A small oak utensil, used in preparing food.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (400) or Preparation (400)</tier-attribute>
+				<tier-attribute type="statCap">Limits Cooking to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparation to 650</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">500</resource-min>
+					<resource-opt amount="10">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Mixing Spoon</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A small maple utensil, used in preparing food.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (600) or Preparation (600)</tier-attribute>
+				<tier-attribute type="statCap">Limits Cooking to 850</tier-attribute>
+				<tier-attribute type="statCap">Limits Preparation to 850</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">700</resource-min>
+					<resource-opt amount="10">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Mixing Spoon</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A small yew utensil, used in preparing food.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Cooking (800) or Preparing (800)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Woodworking</resource-skill>
+					<resource-min amount="20">900</resource-min>
+					<resource-opt amount="10">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

@@ -1,1059 +1,1059 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Gadgets</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Gadgets</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Snowball</item-name>
-    <item-icon>icon_formula_default_01_11.png</item-icon>
-    <item-batchqty>2</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="range">30</item-attribute>
-      <item-attribute type="healAmount">0-0</item-attribute>
-      <item-attribute type="skill">0</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Snowball</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="castDelay">15</tier-attribute>
-        <tier-attribute type="effect">Snowball</tier-attribute>
-        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+8 Health</tier-attribute>
-        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
+	<formulaset-name>Gadgets</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Gadgets</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Snowball</item-name>
+		<item-icon>icon_formula_default_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="healAmount">0-0</item-attribute>
+			<item-attribute type="skill">0</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Snowball</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="castDelay">15</tier-attribute>
+				<tier-attribute type="effect">Snowball</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Health</tier-attribute>
+				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Salt Rock</resource-name>
-          <resource-skill>Ingenuity</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Ingenuity</resource-skill>
-          <resource-min amount="6">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Ingenuity</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Packed Snowball</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="castDelay">20</tier-attribute>
-        <tier-attribute type="effect">Packed Snowball</tier-attribute>
-        <tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
-        <tier-attribute type="effectStatBonus">+12 Health</tier-attribute>
-        <tier-attribute type="effectDuration">02:00:00</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Packed Snowball</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="castDelay">20</tier-attribute>
+				<tier-attribute type="effect">Packed Snowball</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+12 Health</tier-attribute>
+				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Salt Rock</resource-name>
-          <resource-skill>Ingenuity</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Ingenuity</resource-skill>
-          <resource-min amount="6">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Ingenuity</resource-skill>
-          <resource-min amount="4">200</resource-min>
-          <resource-opt amount="1">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Sunscope</item-name>
-    <item-icon>icon_formula_gdt_03_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="range">Self Only</item-attribute>
-      <item-attribute type="castDelay">20</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>gadget</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Bronze Sunscope</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class I Recharge Cell.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">78</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 1 Recharge Cell</tier-attribute>
-        <tier-attribute type="effect">Sunbeam I</tier-attribute>
-        <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Sunscope</item-name>
+		<item-icon>icon_formula_gdt_03_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="castDelay">20</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>gadget</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Sunscope</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class I Recharge Cell.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">78</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 1 Recharge Cell</tier-attribute>
+				<tier-attribute type="effect">Sunbeam I</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">125</resource-min>
+					<resource-opt amount="4">225</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="6">125</resource-min>
+					<resource-opt amount="3">225</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="16">125</resource-min>
+					<resource-opt amount="8">225</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silver Sunscope</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class 2 Recharge Cell.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
+				<tier-attribute type="effect">Sunbeam II</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">325</resource-min>
+					<resource-opt amount="4">450</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="6">325</resource-min>
+					<resource-opt amount="3">450</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silver Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="16">325</resource-min>
+					<resource-opt amount="8">450</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gold Sunscope</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class 3 Recharge Cell.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cell</tier-attribute>
+				<tier-attribute type="effect">Sunbeam III</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">525</resource-min>
+					<resource-opt amount="4">675</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="6">525</resource-min>
+					<resource-opt amount="3">675</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gold Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="16">525</resource-min>
+					<resource-opt amount="8">675</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Platinum Sunscope</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class 4 Recharge Cell.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 4 Recharge Cell</tier-attribute>
+				<tier-attribute type="effect">Sunbeam IV</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">725</resource-min>
+					<resource-opt amount="4">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="6">725</resource-min>
+					<resource-opt amount="3">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Platinum Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="16">725</resource-min>
+					<resource-opt amount="8">900</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Sunscope</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class 5 Recharge Cell.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">1020</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 </tier-attribute>
+				<tier-attribute type="effect">Sunbeam V</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">925</resource-min>
+					<resource-opt amount="4">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="6">925</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="16">925</resource-min>
+					<resource-opt amount="8">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Banner</item-name>
+		<item-icon>icon_formula_gdt_banner_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">150</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>banner</item-keyword>
+			<item-keyword>gadget</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Banner</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">70</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flaxen Battle Standard</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Banner</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">188</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Battle Standard</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Banner</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">376</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Battle Standard</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Banner</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">752</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silken Battle Standard</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">800</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Egg Fabricator</item-name>
+		<item-icon>icon_formula_gdt_01_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Simple Egg Fabricator</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This tinkering contraption makes eggs that are suitable for cooking.  This model generates between 1 and 2 eggs per charge spent.  This device uses a Class 1 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">46</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 1 Recharge Cell</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">125</resource-min>
-          <resource-opt amount="4">225</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="6">125</resource-min>
-          <resource-opt amount="3">225</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="16">125</resource-min>
-          <resource-opt amount="8">225</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silver Sunscope</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class 2 Recharge Cell.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
-        <tier-attribute type="effect">Sunbeam II</tier-attribute>
-        <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Bronze Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">100</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Standard Egg Fabricator</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This tinkering contraption makes eggs that are suitable for cooking.  This model generates 3 to 6 eggs per charge spent.  This device uses a Class 2 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">84</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">325</resource-min>
-          <resource-opt amount="4">450</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="6">325</resource-min>
-          <resource-opt amount="3">450</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Silver Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="16">325</resource-min>
-          <resource-opt amount="8">450</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Gold Sunscope</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class 3 Recharge Cell.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cell</tier-attribute>
-        <tier-attribute type="effect">Sunbeam III</tier-attribute>
-        <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Iron Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">300</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Deluxe Egg Fabricator</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This tinkering contraption makes eggs that are suitable for cooking.  This model generates between 5 and 10 eggs per charge spent.  This device uses a Class 3 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">192</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cell</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">525</resource-min>
-          <resource-opt amount="4">675</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="6">525</resource-min>
-          <resource-opt amount="3">675</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Gold Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="16">525</resource-min>
-          <resource-opt amount="8">675</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Platinum Sunscope</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class 4 Recharge Cell.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">576</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 4 Recharge Cell</tier-attribute>
-        <tier-attribute type="effect">Sunbeam IV</tier-attribute>
-        <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Steel Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">500</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Essence Lamp</item-name>
+		<item-icon>icon_formula_gdt_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Left Palm</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Simple Essence Lamp</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A tinkering device that burns a slight amount of essence to generate light.  This version of the lamp is the simple one.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">42</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">725</resource-min>
-          <resource-opt amount="4">900</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="6">725</resource-min>
-          <resource-opt amount="3">900</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Platinum Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="16">725</resource-min>
-          <resource-opt amount="8">900</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Mithril Sunscope</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>A small machine capable of generating an aura of light.  Its charges can be replenished by using a Class 5 Recharge Cell.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">1020</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 </tier-attribute>
-        <tier-attribute type="effect">Sunbeam V</tier-attribute>
-        <tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_5</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">25</resource-min>
+					<resource-opt amount="2">125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="12">25</resource-min>
+					<resource-opt amount="6">125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Standard Essence Lamp</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>A tinkering device that burns a slight amount of essence to generate light.  This version of the lamp is the standard one.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">156</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Mithril Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">925</resource-min>
-          <resource-opt amount="4">1125</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Shining Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="6">925</resource-min>
-          <resource-opt amount="3">1125</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Mithril Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="16">925</resource-min>
-          <resource-opt amount="8">1125</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Banner</item-name>
-    <item-icon>icon_formula_gdt_banner_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">150</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>banner</item-keyword>
-      <item-keyword>gadget</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Banner</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">70</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">425</resource-min>
+					<resource-opt amount="2">575</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="12">425</resource-min>
+					<resource-opt amount="6">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Festival Fireworks</item-name>
+		<item-icon>icon_formula_gdt_firework_01_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Festival Fireworks (small)</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">5</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flaxen Battle Standard</resource-name>
-          <resource-skill>Enchanting</resource-skill>
-          <resource-min amount="1">1</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cedar Banner Staff</resource-name>
-          <resource-skill>Enchanting</resource-skill>
-          <resource-min amount="1">1</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Banner</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">188</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Festival Fireworks (medium)</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">10</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Battle Standard</resource-name>
-          <resource-skill>Enchanting</resource-skill>
-          <resource-min amount="1">200</resource-min>
-          <resource-opt amount="1">400</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Elm Banner Staff</resource-name>
-          <resource-skill>Enchanting</resource-skill>
-          <resource-min amount="1">200</resource-min>
-          <resource-opt amount="1">400</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Banner</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">376</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="1">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Festival Fireworks (large)</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Battle Standard</resource-name>
-          <resource-skill>Enchanting</resource-skill>
-          <resource-min amount="1">400</resource-min>
-          <resource-opt amount="1">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Oak Banner Staff</resource-name>
-          <resource-skill>Enchanting</resource-skill>
-          <resource-min amount="1">400</resource-min>
-          <resource-opt amount="1">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Banner</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">752</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Festival Fireworks (astounding)</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">25</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>gadget</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Kenaf Fabricator</item-name>
+		<item-icon>icon_formula_gdt_01_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Simple Kenaf Fabricator</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This tinkering contraption makes unspun kenaf.  This model generates between 1 and 2 units of unspun kenaf per charge spent.  This device uses a Class 2 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">105</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silken Battle Standard</resource-name>
-          <resource-skill>Enchanting</resource-skill>
-          <resource-min amount="1">600</resource-min>
-          <resource-opt amount="1">800</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Maple Banner Staff</resource-name>
-          <resource-skill>Enchanting</resource-skill>
-          <resource-min amount="1">600</resource-min>
-          <resource-opt amount="1">800</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Egg Fabricator</item-name>
-    <item-icon>icon_formula_gdt_01_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="range">Self Only</item-attribute>
-      <item-attribute type="delay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Simple Egg Fabricator</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This tinkering contraption makes eggs that are suitable for cooking.  This model generates between 1 and 2 eggs per charge spent.  This device uses a Class 1 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">46</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 1 Recharge Cell</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">230</resource-min>
+					<resource-opt amount="4">355</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">230</resource-min>
+					<resource-opt amount="2">355</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="10">230</resource-min>
+					<resource-opt amount="5">355</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Unspun Kenaf</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">430</resource-min>
+					<resource-opt amount="1">805</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Standard Kenaf Fabricator</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This tinkering contraption makes unspun kenaf.  This model generates between 3 and 6 units of unspun kenaf per charge spent.  This device uses a Class 3 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">210</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cell</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">100</resource-min>
-          <resource-opt amount="1">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">100</resource-min>
-          <resource-opt amount="4">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Egg</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">500</resource-min>
-          <resource-opt amount="1">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Standard Egg Fabricator</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This tinkering contraption makes eggs that are suitable for cooking.  This model generates 3 to 6 eggs per charge spent.  This device uses a Class 2 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">84</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">430</resource-min>
+					<resource-opt amount="4">580</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">430</resource-min>
+					<resource-opt amount="2">580</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="10">430</resource-min>
+					<resource-opt amount="5">580</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Unspun Kenaf</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">430</resource-min>
+					<resource-opt amount="1">805</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Deluxe Kenaf Fabricator</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This tinkering contraption makes unspun kenaf.  This model generates between 5 and 10 units of unspun kenaf per charge spent.  This device uses a Class 4 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">420</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 4 Recharge Cell</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">300</resource-min>
-          <resource-opt amount="1">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">300</resource-min>
-          <resource-opt amount="4">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Egg</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">500</resource-min>
-          <resource-opt amount="1">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Deluxe Egg Fabricator</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This tinkering contraption makes eggs that are suitable for cooking.  This model generates between 5 and 10 eggs per charge spent.  This device uses a Class 3 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">192</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cell</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">630</resource-min>
+					<resource-opt amount="4">805</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">630</resource-min>
+					<resource-opt amount="2">805</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="10">630</resource-min>
+					<resource-opt amount="5">805</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Unspun Kenaf</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">430</resource-min>
+					<resource-opt amount="1">805</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Milk Fabricator</item-name>
+		<item-icon>icon_formula_gdt_01_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Simple Milk Fabricator</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This tinkering contraption makes milk that is suitable for cooking.  This model generates between 1 and 2 units of milk per charge spent.  This device uses a Class 1 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">52</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 1 Recharge Cell</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">500</resource-min>
-          <resource-opt amount="2">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">500</resource-min>
-          <resource-opt amount="4">650</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Egg</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">500</resource-min>
-          <resource-opt amount="1">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Essence Lamp</item-name>
-    <item-icon>icon_formula_gdt_03_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Left Palm</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Simple Essence Lamp</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A tinkering device that burns a slight amount of essence to generate light.  This version of the lamp is the simple one.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">42</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">1</resource-min>
+					<resource-opt amount="4">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">1</resource-min>
+					<resource-opt amount="4">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Standard Milk Fabricator</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This tinkering contraption makes milk that is suitable for cooking.  This model generates between 3 and 6 units of milk per charge spent.  This device uses Class 2 Cells to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">96</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">25</resource-min>
-          <resource-opt amount="2">125</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="12">25</resource-min>
-          <resource-opt amount="6">125</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Standard Essence Lamp</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>A tinkering device that burns a slight amount of essence to generate light.  This version of the lamp is the standard one.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">156</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">200</resource-min>
+					<resource-opt amount="4">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">200</resource-min>
+					<resource-opt amount="4">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Deluxe Milk Fabricator</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This tinkering contraption makes milk that is suitable for cooking.  This model generates between 5 and 10 units of milk per charge spent.  This device uses a Class 3 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">192</tier-attribute>
+				<tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cells</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">425</resource-min>
-          <resource-opt amount="2">575</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="12">425</resource-min>
-          <resource-opt amount="6">575</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Festival Fireworks</item-name>
-    <item-icon>icon_formula_gdt_firework_01_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-      <item-attribute type="range">Self Only</item-attribute>
-      <item-attribute type="delay">50</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Festival Fireworks (small)</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">5</tier-attribute>
+			<resources>
+				<resource>
+					<resource-name>Steel Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">400</resource-min>
+					<resource-opt amount="4">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">400</resource-min>
+					<resource-opt amount="4">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Silk Fabricator</item-name>
+		<item-icon>icon_formula_gdt_01_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="hoardValue">456</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="rechargeConsumes">1 Class 4 Recharge Cell</item-attribute>
+			<item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Simple Silk Fabricator</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This tinkering contraption makes unspun silk.  This model generates between 1 and 2 units of unspun silk per charge spent.  This device uses a Class 4 Recharge Cell to recharge when depleted.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Salt Rock</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="1">775</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="2">100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="1">100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Festival Fireworks (medium)</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">10</tier-attribute>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Tinkering Gear</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">650</resource-min>
+					<resource-opt amount="4">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">650</resource-min>
+					<resource-opt amount="2">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="12">650</resource-min>
+					<resource-opt amount="6">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Unspun Silk</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="1">650</resource-min>
+					<resource-opt amount="1">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Silver Whistle</item-name>
+		<item-icon>icon_formula_gdt_01_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">6</item-attribute>
+			<item-attribute type="hoardValue">90</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="rechargeConsumes">1 Elm Reed</item-attribute>
+		</item-attributes>
+		<tier>
+			<tier-name>Silver Whistle</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>A magical whistle that, when blown, increases the user's accuracy against animals of all kinds.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
+			<tier-keywords>
       </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Salt Rock</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="1">775</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="4">200</resource-min>
-          <resource-opt amount="2">325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="4">200</resource-min>
-          <resource-opt amount="1">325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Festival Fireworks (large)</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">15</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Salt Rock</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="1">775</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="4">400</resource-min>
-          <resource-opt amount="2">550</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="4">400</resource-min>
-          <resource-opt amount="1">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Festival Fireworks (astounding)</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">25</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>gadget</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Salt Rock</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="5">400</resource-min>
-          <resource-opt amount="1">775</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="4">600</resource-min>
-          <resource-opt amount="2">775</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Alchemy</resource-skill>
-          <resource-min amount="4">600</resource-min>
-          <resource-opt amount="1">775</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Kenaf Fabricator</item-name>
-    <item-icon>icon_formula_gdt_01_04_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="range">Self Only</item-attribute>
-      <item-attribute type="delay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Simple Kenaf Fabricator</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This tinkering contraption makes unspun kenaf.  This model generates between 1 and 2 units of unspun kenaf per charge spent.  This device uses a Class 2 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">105</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">230</resource-min>
-          <resource-opt amount="4">355</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">230</resource-min>
-          <resource-opt amount="2">355</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="10">230</resource-min>
-          <resource-opt amount="5">355</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Unspun Kenaf</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">430</resource-min>
-          <resource-opt amount="1">805</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Standard Kenaf Fabricator</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This tinkering contraption makes unspun kenaf.  This model generates between 3 and 6 units of unspun kenaf per charge spent.  This device uses a Class 3 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">210</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cell</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">430</resource-min>
-          <resource-opt amount="4">580</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">430</resource-min>
-          <resource-opt amount="2">580</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="10">430</resource-min>
-          <resource-opt amount="5">580</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Unspun Kenaf</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">430</resource-min>
-          <resource-opt amount="1">805</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Deluxe Kenaf Fabricator</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This tinkering contraption makes unspun kenaf.  This model generates between 5 and 10 units of unspun kenaf per charge spent.  This device uses a Class 4 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">420</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 4 Recharge Cell</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">630</resource-min>
-          <resource-opt amount="4">805</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">630</resource-min>
-          <resource-opt amount="2">805</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="10">630</resource-min>
-          <resource-opt amount="5">805</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Unspun Kenaf</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">430</resource-min>
-          <resource-opt amount="1">805</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Milk Fabricator</item-name>
-    <item-icon>icon_formula_gdt_01_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="range">Self Only</item-attribute>
-      <item-attribute type="delay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Simple Milk Fabricator</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This tinkering contraption makes milk that is suitable for cooking.  This model generates between 1 and 2 units of milk per charge spent.  This device uses a Class 1 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">52</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 1 Recharge Cell</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Bronze Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">1</resource-min>
-          <resource-opt amount="4">100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Dim Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">1</resource-min>
-          <resource-opt amount="2">100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bronze Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">1</resource-min>
-          <resource-opt amount="4">100</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">400</resource-min>
-          <resource-opt amount="1">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Standard Milk Fabricator</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This tinkering contraption makes milk that is suitable for cooking.  This model generates between 3 and 6 units of milk per charge spent.  This device uses Class 2 Cells to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">96</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 2 Recharge Cell</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Iron Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">200</resource-min>
-          <resource-opt amount="4">325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">200</resource-min>
-          <resource-opt amount="2">325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">200</resource-min>
-          <resource-opt amount="4">325</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">400</resource-min>
-          <resource-opt amount="1">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Deluxe Milk Fabricator</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This tinkering contraption makes milk that is suitable for cooking.  This model generates between 5 and 10 units of milk per charge spent.  This device uses a Class 3 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">192</tier-attribute>
-        <tier-attribute type="rechargeConsumes">1 Class 3 Recharge Cells</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Steel Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">400</resource-min>
-          <resource-opt amount="4">550</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Glowing Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">400</resource-min>
-          <resource-opt amount="2">550</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Steel Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">400</resource-min>
-          <resource-opt amount="4">550</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">400</resource-min>
-          <resource-opt amount="1">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Silk Fabricator</item-name>
-    <item-icon>icon_formula_gdt_01_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">10</item-attribute>
-      <item-attribute type="hoardValue">456</item-attribute>
-      <item-attribute type="range">Self Only</item-attribute>
-      <item-attribute type="delay">50</item-attribute>
-      <item-attribute type="recycle">Repeating</item-attribute>
-      <item-attribute type="rechargeConsumes">1 Class 4 Recharge Cell</item-attribute>
-      <item-attribute type="rechargeReduce">Reduces max charges by 1</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Simple Silk Fabricator</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This tinkering contraption makes unspun silk.  This model generates between 1 and 2 units of unspun silk per charge spent.  This device uses a Class 4 Recharge Cell to recharge when depleted.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cobalt Tinkering Gear</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">650</resource-min>
-          <resource-opt amount="4">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Bright Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">650</resource-min>
-          <resource-opt amount="2">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Cobalt Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="12">650</resource-min>
-          <resource-opt amount="6">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Unspun Silk</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="1">650</resource-min>
-          <resource-opt amount="1">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Silver Whistle</item-name>
-    <item-icon>icon_formula_gdt_01_03_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">6</item-attribute>
-      <item-attribute type="hoardValue">90</item-attribute>
-      <item-attribute type="range">Self Only</item-attribute>
-      <item-attribute type="delay">50</item-attribute>
-      <item-attribute type="rechargeConsumes">1 Elm Reed</item-attribute>
-    </item-attributes>
-    <tier>
-      <tier-name>Silver Whistle</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>A magical whistle that, when blown, increases the user's accuracy against animals of all kinds.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
-      </tier-attributes>
-      <tier-keywords>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Pale Essence Orb</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="6">250</resource-min>
-          <resource-opt amount="3">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Iron Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="4">300</resource-min>
-          <resource-opt amount="2">425</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Silver Bar</resource-name>
-          <resource-skill>Tinkering</resource-skill>
-          <resource-min amount="8">350</resource-min>
-          <resource-opt amount="4">500</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="6">250</resource-min>
+					<resource-opt amount="3">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silver Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-min amount="8">350</resource-min>
+					<resource-opt amount="4">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

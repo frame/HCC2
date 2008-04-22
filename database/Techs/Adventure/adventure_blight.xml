@@ -1,135 +1,135 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <techniqueset format="2.1">
-  <techniqueset-name>Blight</techniqueset-name>
-  <techniqueset-categories>
-    <techniqueset-category>Adventure</techniqueset-category>
-  </techniqueset-categories>
-  <tech>
-    <tech-name>Blight</tech-name>
-    <tech-icon>icon_technique_04_02_11.png</tech-icon>
-    <tech-keywords>
-      <tech-keywordset>
-        <tech-keyword>armor</tech-keyword>
-        <tech-keyword>weapon</tech-keyword>
-        <tech-keyword>jewelry</tech-keyword>
-        <tech-keyword>tool</tech-keyword>
-      </tech-keywordset>
-      <tech-keywordset>
-        <tech-keyword>bodyslot_chest</tech-keyword>
-        <tech-keyword>bodyslot_back</tech-keyword>
-        <tech-keyword>bodyslot_head</tech-keyword>
-        <tech-keyword>bodyslot_legs</tech-keyword>
-        <tech-keyword>bodyslot_shoulder</tech-keyword>
-        <tech-keyword>bodyslot_arms</tech-keyword>
-        <tech-keyword>bodyslot_hands</tech-keyword>
-        <tech-keyword>bodyslot_rightpalm</tech-keyword>
-        <tech-keyword>bodyslot_leftpalm</tech-keyword>
-        <tech-keyword>bodyslot_finger</tech-keyword>
-      </tech-keywordset>
-    </tech-keywords>
-    <tech-effectkeywords>
-      <tech-effectkeywordset>
-        <tech-effectkeyword>statmod_blightmagic_up</tech-effectkeyword>
-      </tech-effectkeywordset>
-    </tech-effectkeywords>
-    <tier>
-      <tier-name>Blight I</tier-name>
-      <tier-origin>Adventure: Blight I</tier-origin>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an additional +5 to the Blight magic skill.</tier-desc>
-      <tier-skilladjust>10</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_1</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+5 Blight</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Dim Essence Orb</component>
-        <component amount="1">Weaker Maggot Mandibles</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Blight II</tier-name>
-      <tier-origin>Adventure: Blight II</tier-origin>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an additional +10 to the Blight magic skill.</tier-desc>
-      <tier-skilladjust>20</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_2</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+10 Blight</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Pale Essence Orb</component>
-        <component amount="1">Lapis Lazuli Golem Chip</component>
-        <component amount="1">Frost Ogre Jawbone</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Blight III</tier-name>
-      <tier-origin>Adventure: Blight III</tier-origin>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an additional +15 to the Blight magic skill.</tier-desc>
-      <tier-skilladjust>30</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_3</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+15 Blight</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Glowing Essence Orb</component>
-        <component amount="1">Redbacked Tarantula Eye</component>
-        <component amount="1">Desert Wolf Fang</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Blight IV</tier-name>
-      <tier-origin>Adventure: Blight IV</tier-origin>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an additional +20 to the Blight magic skill.</tier-desc>
-      <tier-skilladjust>40</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_4</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+20 Blight</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Bright Essence Orb</component>
-        <component amount="1">Platinum Golem Fragment</component>
-        <component amount="2">Lava Oastic Sac</component>
-      </components>
-    </tier>
-    <tier>
-      <tier-name>Blight V</tier-name>
-      <tier-origin>Adventure: Blight V</tier-origin>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>This technique gives the user the ability to create certain objects with an additional +25 to the Blight magic skill.</tier-desc>
-      <tier-skilladjust>50</tier-skilladjust>
-      <tier-keywords>
-        <tier-keywordset>
-          <tier-keyword>techclass_5</tier-keyword>
-        </tier-keywordset>
-      </tier-keywords>
-      <tier-attributes>
-        <tier-attribute type="statBonus">+25 Blight</tier-attribute>
-      </tier-attributes>
-      <components>
-        <component amount="4">Shining Essence Orb</component>
-        <component amount="2">Veteran Skeleton Sternum</component>
-        <component amount="2">Veteran Blight Bindings</component>
-      </components>
-    </tier>
-  </tech>
+	<techniqueset-name>Blight</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Blight</tech-name>
+		<tech-icon>icon_technique_04_02_11.png</tech-icon>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>armor</tech-keyword>
+				<tech-keyword>weapon</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>tool</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_legs</tech-keyword>
+				<tech-keyword>bodyslot_shoulder</tech-keyword>
+				<tech-keyword>bodyslot_arms</tech-keyword>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_rightpalm</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+				<tech-keyword>bodyslot_finger</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_blightmagic_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords>
+		<tier>
+			<tier-name>Blight I</tier-name>
+			<tier-origin>Adventure: Blight I</tier-origin>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +5 to the Blight magic skill.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+5 Blight</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Dim Essence Orb</component>
+				<component amount="1">Weaker Maggot Mandibles</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Blight II</tier-name>
+			<tier-origin>Adventure: Blight II</tier-origin>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +10 to the Blight magic skill.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+10 Blight</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Pale Essence Orb</component>
+				<component amount="1">Lapis Lazuli Golem Chip</component>
+				<component amount="1">Frost Ogre Jawbone</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Blight III</tier-name>
+			<tier-origin>Adventure: Blight III</tier-origin>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +15 to the Blight magic skill.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+15 Blight</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Glowing Essence Orb</component>
+				<component amount="1">Redbacked Tarantula Eye</component>
+				<component amount="1">Desert Wolf Fang</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Blight IV</tier-name>
+			<tier-origin>Adventure: Blight IV</tier-origin>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +20 to the Blight magic skill.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+20 Blight</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Bright Essence Orb</component>
+				<component amount="1">Platinum Golem Fragment</component>
+				<component amount="2">Lava Oastic Sac</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Blight V</tier-name>
+			<tier-origin>Adventure: Blight V</tier-origin>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +25 to the Blight magic skill.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+25 Blight</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="4">Shining Essence Orb</component>
+				<component amount="2">Veteran Skeleton Sternum</component>
+				<component amount="2">Veteran Blight Bindings</component>
+			</components>
+		</tier>
+	</tech>
 </techniqueset>

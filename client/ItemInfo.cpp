@@ -28,6 +28,7 @@ CItemInfo::~CItemInfo()
 CItemInfo::operator =( const CItemInfo* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -72,6 +73,6 @@ bool CItemInfo::ReadFromFile(CStdioFile &a_cFile)
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_csInfoName);
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_csInfoValue);
 	}
-	
+
 	return (l_bSuccess);
 }

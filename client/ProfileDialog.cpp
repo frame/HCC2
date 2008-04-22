@@ -74,40 +74,40 @@ CProfileDialog::Initialise()
 	m_cProfileTree.SetBkColor (CScheme::GetColour ("TREE_BACKCOLOUR"));
 }
 
-void CProfileDialog::OnClose() 
+void CProfileDialog::OnClose()
 {
 	CAppData::SetProfileWindow (false);
-	
+
 	CDialog::OnClose();
 }
 
-void CProfileDialog::OnOK() 
+void CProfileDialog::OnOK()
 {
 }
 
-void CProfileDialog::OnSize(UINT nType, int cx, int cy) 
+void CProfileDialog::OnSize(UINT nType, int cx, int cy)
 {
 	CDialog::OnSize(nType, cx, cy);
-	
+
 }
 
-void CProfileDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI) 
+void CProfileDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 {
 	CDialog::OnGetMinMaxInfo (lpMMI);
 
 }
 
-BOOL CProfileDialog::OnInitDialog() 
+BOOL CProfileDialog::OnInitDialog()
 {
 	CDialog::OnInitDialog();
 
-   //remove some options from the system menu 
-   CMenu* pSysMenu = GetSystemMenu(FALSE); 
-   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_SIZE,MF_BYCOMMAND); 
+   //remove some options from the system menu
+   CMenu* pSysMenu = GetSystemMenu(FALSE);
+   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_SIZE,MF_BYCOMMAND);
 
 	m_cProfilePage1.Construct (IDD_PROFILE1DIALOG,0);
 	m_cProfilePage2.Construct (IDD_PROFILE2DIALOG,0);
@@ -118,12 +118,12 @@ BOOL CProfileDialog::OnInitDialog()
 	//m_ProfileSheet.AddPage (&m_cProfilePage3);
 	m_ProfileSheet.Create (this, WS_CHILD | WS_VISIBLE, WS_EX_CONTROLPARENT);
 	m_ProfileSheet.SetWindowPos(NULL, 192, 0, 259, 470, SWP_NOZORDER);
-	
+
 	m_cProfilePage1.m_cStatistcsList.InsertColumn (0, "Statistic", LVCFMT_LEFT, 150, -1);
 	m_cProfilePage1.m_cStatistcsList.InsertColumn (1, "Amount", LVCFMT_RIGHT, 68, -1);
 
 	Initialise ();
-	
+
 	DrawProfileTree();
 
 	CMenu *l_pMenu;
@@ -175,15 +175,15 @@ CProfileDialog::DrawProfileTree()
 			if (l_cpProfile->m_csProfileType == cAppData_Profile_Defaults)
 			{
 				l_cCurrentItem = m_cProfileTree.InsertItem (l_csProfileName, 0, 0, l_cDefaultTreeItem, TVI_LAST);
-			} 
+			}
 			else if (l_cpProfile->m_csProfileType == cAppData_Profile_Local)
 			{
 				l_cCurrentItem = m_cProfileTree.InsertItem (l_csProfileName, 0, 0, l_cLocalTreeItem, TVI_LAST);
-			} 
+			}
 			//else if (l_cpProfile->m_csProfileType == cAppData_Profile_Server)
 			//{
 			//	l_cCurrentItem = m_cProfileTree.InsertItem (l_csProfileName, 0, 0, l_cRemoteTreeItem, TVI_LAST);
-			//} 
+			//}
 
 			if (l_cpProfile == CAppData::m_cpCurrentProfile)
 			{
@@ -203,7 +203,7 @@ CProfileDialog::DrawProfileTree()
 }
 
 
-void CProfileDialog::OnSelchangedProfiletree(NMHDR* pNMHDR, LRESULT* pResult) 
+void CProfileDialog::OnSelchangedProfiletree(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	NM_TREEVIEW* pNMTreeView = (NM_TREEVIEW*)pNMHDR;
 	// TODO: Add your control notification handler code here
@@ -241,7 +241,7 @@ void CProfileDialog::OnSelchangedProfiletree(NMHDR* pNMHDR, LRESULT* pResult)
 			m_cDeleteButton.EnableWindow (CAppData::m_csCurrentProfileType != cAppData_Profile_Defaults);
 		}
 	}
-	
+
 	*pResult = 0;
 }
 
@@ -317,19 +317,19 @@ CProfileDialog::SelectProfile(CString &a_csProfileName)
 }
 
 
-void CProfileDialog::OnWindowSnapshotwindow() 
+void CProfileDialog::OnWindowSnapshotwindow()
 {
 	CAppData::SetProfileWindowState ();
 }
 
-void CProfileDialog::OnWindowRestorewindow() 
+void CProfileDialog::OnWindowRestorewindow()
 {
 	CAppData::GetProfileWindowState ();
 }
 
-void CProfileDialog::OnHelpIndex() 
+void CProfileDialog::OnHelpIndex()
 {
-	CAppData::LaunchWebLink ((CString) "profilewindow");	
+	CAppData::LaunchWebLink ((CString) "profilewindow");
 }
 
 CString CProfileDialog::GetProfileName(CString &a_csProfileText)
@@ -338,24 +338,24 @@ CString CProfileDialog::GetProfileName(CString &a_csProfileText)
 	{
 		return (a_csProfileText.Left (a_csProfileText.GetLength () - 1));
 	}
-	
+
 	return (a_csProfileText);
 }
 
-void CProfileDialog::OnUpdate() 
+void CProfileDialog::OnUpdate()
 {
 	CAppData::SaveProfiles (false);
 	DrawProfileTree ();
 }
 
-void CProfileDialog::OnNewbutton() 
+void CProfileDialog::OnNewbutton()
 {
 	CNewProfileDialog l_cNewProfileDialog(this);
 
 	if (CAppData::m_cpTemplateProfile)
 	{
 		l_cNewProfileDialog.m_csName = "";
-		l_cNewProfileDialog.m_csServer = "Unity";
+		l_cNewProfileDialog.m_csServer = "Blight";
 		GetWindowRect (l_cNewProfileDialog.m_cRect);
 		this->EnableWindow (false);
 		if (l_cNewProfileDialog.DoModal () == IDOK)
@@ -376,11 +376,11 @@ void CProfileDialog::OnNewbutton()
 	}
 	else
 	{
-		AfxMessageBox ("Error - No Default Template Found", MB_ICONEXCLAMATION ); 
+		AfxMessageBox ("Error - No Default Template Found", MB_ICONEXCLAMATION );
 	}
 }
 
-void CProfileDialog::OnCopybutton() 
+void CProfileDialog::OnCopybutton()
 {
 	CNewProfileDialog l_cNewProfileDialog(this);
 
@@ -408,7 +408,7 @@ void CProfileDialog::OnCopybutton()
 	}
 }
 
-void CProfileDialog::OnDeletebutton() 
+void CProfileDialog::OnDeletebutton()
 {
 	CString l_csFilePath = "";
 	CProfile *l_cpProfile = NULL;
@@ -458,12 +458,12 @@ void CProfileDialog::OnDeletebutton()
 		}
 		else
 		{
-			AfxMessageBox ("Error - Cannot delete Default Templates, these are required by the application!", MB_ICONEXCLAMATION ); 
+			AfxMessageBox ("Error - Cannot delete Default Templates, these are required by the application!", MB_ICONEXCLAMATION );
 		}
-	}	
+	}
 }
 
-void CProfileDialog::OnMove(int x, int y) 
+void CProfileDialog::OnMove(int x, int y)
 {
 	CDialog::OnMove(x, y);
 }
@@ -472,10 +472,10 @@ void CProfileDialog::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 {
 	CRect l_cRect;
 	this->GetWindowRect (l_cRect);
-	
+
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, NULL, CAppData::m_iStickyStrength);
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, CAppData::m_cpHCCDlg, CAppData::m_iStickyStrength);
-	
+
 	if (CAppData::m_cItemCreationWnd.m_cWindowState.m_bVisible)
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cItemCreationWnd, CAppData::m_iStickyStrength);
@@ -504,7 +504,7 @@ void CProfileDialog::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 	CDialog::OnWindowPosChanging(lpwndpos);
 }
 
-void CProfileDialog::OnWindowAlwaysontop() 
+void CProfileDialog::OnWindowAlwaysontop()
 {
 	m_cWindowState.m_bOnTop = !m_cWindowState.m_bOnTop;
 
@@ -526,7 +526,7 @@ void CProfileDialog::OnWindowAlwaysontop()
 
 }
 
-BOOL CProfileDialog::OnHelpInfo(HELPINFO* pHelpInfo) 
+BOOL CProfileDialog::OnHelpInfo(HELPINFO* pHelpInfo)
 {
 	return (TRUE);
 }

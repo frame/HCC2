@@ -1,637 +1,637 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Hand Wraps</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Weapons</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Cloth Hand Wraps</item-name>
-    <item-icon>icon_formula_default_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">12</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">Melee</item-attribute>
-      <item-attribute type="damageType">crush</item-attribute>
-      <item-attribute type="skill">Unarmed</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>weapon_handwrap</item-keyword>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>weapon</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Hand Wraps</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">16</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (10)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-        <tier-attribute type="delay">26</tier-attribute>
-        <tier-attribute type="damage">3-4</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">50</resource-min>
-          <resource-opt amount="8">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Hand Wraps</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (200)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
-        <tier-attribute type="delay">25</tier-attribute>
-        <tier-attribute type="damage">13-20</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">250</resource-min>
-          <resource-opt amount="8">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Hand Wraps</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (400)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
-        <tier-attribute type="delay">24</tier-attribute>
-        <tier-attribute type="damage">23-35</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">450</resource-min>
-          <resource-opt amount="8">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Hand Wraps</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (600)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
-        <tier-attribute type="delay">23</tier-attribute>
-        <tier-attribute type="damage">32-49</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">650</resource-min>
-          <resource-opt amount="8">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Hand Wraps</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (800)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
-        <tier-attribute type="delay">22</tier-attribute>
-        <tier-attribute type="damage">40-62</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">850</resource-min>
-          <resource-opt amount="8">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Hide Hand Wraps</item-name>
-    <item-icon>icon_formula_default_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">12</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">Melee</item-attribute>
-      <item-attribute type="damageType">crush</item-attribute>
-      <item-attribute type="skill">Unarmed</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>weapon_handwrap</item-keyword>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>weapon</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Rough Hide Hand Wraps</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">16</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (100)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
-        <tier-attribute type="delay">26</tier-attribute>
-        <tier-attribute type="damage">8-12</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">50</resource-min>
-          <resource-opt amount="8">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Tanned Hide Hand Wraps</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (300)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
-        <tier-attribute type="delay">25</tier-attribute>
-        <tier-attribute type="damage">19-28</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elm Hide Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">250</resource-min>
-          <resource-opt amount="3">375</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">250</resource-min>
-          <resource-opt amount="8">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Hardened Hide Hand Wraps</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (500)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
-        <tier-attribute type="delay">24</tier-attribute>
-        <tier-attribute type="damage">28-43</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Oak Hide Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">450</resource-min>
-          <resource-opt amount="3">600</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">450</resource-min>
-          <resource-opt amount="8">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Reinforced Hide Hand Wraps</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (700)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
-        <tier-attribute type="delay">23</tier-attribute>
-        <tier-attribute type="damage">37-57</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Maple Hide Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">650</resource-min>
-          <resource-opt amount="3">825</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">650</resource-min>
-          <resource-opt amount="8">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Essence Hide Hand Wraps</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (900)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
-        <tier-attribute type="delay">22</tier-attribute>
-        <tier-attribute type="damage">44-70</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Yew Hide Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">850</resource-min>
-          <resource-opt amount="3">1050</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">850</resource-min>
-          <resource-opt amount="8">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Leather Hand Wraps</item-name>
-    <item-icon>icon_formula_default_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">12</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">Melee</item-attribute>
-      <item-attribute type="damageType">crush</item-attribute>
-      <item-attribute type="skill">Unarmed</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>weapon_handwrap</item-keyword>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>weapon</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Rough Leather Hand Wraps</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">16</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (150)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
-        <tier-attribute type="delay">26</tier-attribute>
-        <tier-attribute type="damage">11-16</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cedar Leather Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">150</resource-min>
-          <resource-opt amount="3">250</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">150</resource-min>
-          <resource-opt amount="11">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Tanned Leather Hand Wraps</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (350)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
-        <tier-attribute type="delay">25</tier-attribute>
-        <tier-attribute type="damage">22-32</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Elm Leather Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">350</resource-min>
-          <resource-opt amount="3">475</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">350</resource-min>
-          <resource-opt amount="11">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Hardened Leather Hand Wraps</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (550)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
-        <tier-attribute type="delay">24</tier-attribute>
-        <tier-attribute type="damage">31-47</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Oak Leather Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">550</resource-min>
-          <resource-opt amount="3">700</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">550</resource-min>
-          <resource-opt amount="11">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Reinforced Leather Hand Wraps</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (750)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
-        <tier-attribute type="delay">23</tier-attribute>
-        <tier-attribute type="damage">39-61</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Maple Leather Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">750</resource-min>
-          <resource-opt amount="3">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">750</resource-min>
-          <resource-opt amount="11">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Essence Leather Hand Wraps</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (950)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
-        <tier-attribute type="delay">21</tier-attribute>
-        <tier-attribute type="damage">46-74</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Yew Leather Tannin</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="6">950</resource-min>
-          <resource-opt amount="3">1150</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Hide Strip</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">950</resource-min>
-          <resource-opt amount="11">1150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Padded Hand Wraps</item-name>
-    <item-icon>icon_formula_default_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Right Palm</item-attribute>
-      <item-attribute type="bulk">12</item-attribute>
-      <item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-      <item-attribute type="range">Melee</item-attribute>
-      <item-attribute type="damageType">crush</item-attribute>
-      <item-attribute type="skill">Unarmed</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>weapon_handwrap</item-keyword>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_rightpalm</item-keyword>
-      <item-keyword>weapon</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Padded Hand Wraps</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">16</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (50)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
-        <tier-attribute type="delay">26</tier-attribute>
-        <tier-attribute type="damage">5-8</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">150</resource-min>
-          <resource-opt amount="11">250</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Padded Hand Wraps</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (250)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
-        <tier-attribute type="delay">25</tier-attribute>
-        <tier-attribute type="damage">16-24</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">350</resource-min>
-          <resource-opt amount="8">475</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Padded Hand Wraps</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (450)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
-        <tier-attribute type="delay">24</tier-attribute>
-        <tier-attribute type="damage">26-39</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">550</resource-min>
-          <resource-opt amount="11">700</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Padded Hand Wraps</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (600)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
-        <tier-attribute type="delay">23</tier-attribute>
-        <tier-attribute type="damage">34-53</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">750</resource-min>
-          <resource-opt amount="11">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Padded Hand Wraps</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Unarmed (850)</tier-attribute>
-        <tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
-        <tier-attribute type="delay">22</tier-attribute>
-        <tier-attribute type="damage">42-66</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">950</resource-min>
-          <resource-opt amount="11">1150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+	<formulaset-name>Hand Wraps</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Weapons</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Cloth Hand Wraps</item-name>
+		<item-icon>icon_formula_default_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">12</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">Unarmed</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>weapon_handwrap</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Hand Wraps</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">16</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (10)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="delay">26</tier-attribute>
+				<tier-attribute type="damage">3-4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">50</resource-min>
+					<resource-opt amount="8">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Hand Wraps</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (200)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="delay">25</tier-attribute>
+				<tier-attribute type="damage">13-20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">250</resource-min>
+					<resource-opt amount="8">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Hand Wraps</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (400)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="delay">24</tier-attribute>
+				<tier-attribute type="damage">23-35</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">450</resource-min>
+					<resource-opt amount="8">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Hand Wraps</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (600)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="delay">23</tier-attribute>
+				<tier-attribute type="damage">32-49</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">650</resource-min>
+					<resource-opt amount="8">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Hand Wraps</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (800)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="delay">22</tier-attribute>
+				<tier-attribute type="damage">40-62</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">850</resource-min>
+					<resource-opt amount="8">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Hide Hand Wraps</item-name>
+		<item-icon>icon_formula_default_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">12</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">Unarmed</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>weapon_handwrap</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Rough Hide Hand Wraps</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">16</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (100)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="delay">26</tier-attribute>
+				<tier-attribute type="damage">8-12</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">50</resource-min>
+					<resource-opt amount="8">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tanned Hide Hand Wraps</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (300)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="delay">25</tier-attribute>
+				<tier-attribute type="damage">19-28</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Hide Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">250</resource-min>
+					<resource-opt amount="3">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">250</resource-min>
+					<resource-opt amount="8">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Hardened Hide Hand Wraps</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (500)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="delay">24</tier-attribute>
+				<tier-attribute type="damage">28-43</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Hide Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">450</resource-min>
+					<resource-opt amount="3">600</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">450</resource-min>
+					<resource-opt amount="8">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Reinforced Hide Hand Wraps</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (700)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="delay">23</tier-attribute>
+				<tier-attribute type="damage">37-57</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Hide Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">650</resource-min>
+					<resource-opt amount="3">825</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">650</resource-min>
+					<resource-opt amount="8">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Essence Hide Hand Wraps</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (900)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="delay">22</tier-attribute>
+				<tier-attribute type="damage">44-70</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Hide Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">850</resource-min>
+					<resource-opt amount="3">1050</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">850</resource-min>
+					<resource-opt amount="8">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Leather Hand Wraps</item-name>
+		<item-icon>icon_formula_default_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">12</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">Unarmed</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>weapon_handwrap</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Rough Leather Hand Wraps</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">16</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (150)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="delay">26</tier-attribute>
+				<tier-attribute type="damage">11-16</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Leather Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">150</resource-min>
+					<resource-opt amount="3">250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">150</resource-min>
+					<resource-opt amount="11">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tanned Leather Hand Wraps</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (350)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="delay">25</tier-attribute>
+				<tier-attribute type="damage">22-32</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Leather Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">350</resource-min>
+					<resource-opt amount="3">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">350</resource-min>
+					<resource-opt amount="11">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Hardened Leather Hand Wraps</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (550)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="delay">24</tier-attribute>
+				<tier-attribute type="damage">31-47</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Leather Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">550</resource-min>
+					<resource-opt amount="3">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">550</resource-min>
+					<resource-opt amount="11">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Reinforced Leather Hand Wraps</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (750)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="delay">23</tier-attribute>
+				<tier-attribute type="damage">39-61</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Leather Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">750</resource-min>
+					<resource-opt amount="3">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">750</resource-min>
+					<resource-opt amount="11">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Essence Leather Hand Wraps</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (950)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="delay">21</tier-attribute>
+				<tier-attribute type="damage">46-74</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Leather Tannin</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="6">950</resource-min>
+					<resource-opt amount="3">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Hide Strip</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">950</resource-min>
+					<resource-opt amount="11">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Padded Hand Wraps</item-name>
+		<item-icon>icon_formula_default_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">12</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">Unarmed</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>weapon_handwrap</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Padded Hand Wraps</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">16</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (50)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="delay">26</tier-attribute>
+				<tier-attribute type="damage">5-8</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">150</resource-min>
+					<resource-opt amount="11">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Padded Hand Wraps</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (250)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="delay">25</tier-attribute>
+				<tier-attribute type="damage">16-24</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">350</resource-min>
+					<resource-opt amount="8">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Padded Hand Wraps</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (450)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="delay">24</tier-attribute>
+				<tier-attribute type="damage">26-39</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">550</resource-min>
+					<resource-opt amount="11">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Padded Hand Wraps</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (600)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="delay">23</tier-attribute>
+				<tier-attribute type="damage">34-53</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">750</resource-min>
+					<resource-opt amount="11">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Padded Hand Wraps</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Unarmed (850)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="delay">22</tier-attribute>
+				<tier-attribute type="damage">42-66</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">950</resource-min>
+					<resource-opt amount="11">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

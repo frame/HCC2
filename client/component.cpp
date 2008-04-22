@@ -29,6 +29,7 @@ CComponent::~CComponent()
 CComponent::operator =( const CComponent* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -74,13 +75,13 @@ CComponent::WriteToFile(CStdioFile &a_cFile)
 	CCompGatherInfo *l_cpCompGatherInfo;
 	CString l_csLine;
 
-	l_csLine.Format ("%s|%s|%s|%d|%d|%s|%s|%s|%d|%d\n", 	m_csComponentName, 
-																		m_csDescription, 
-																		m_csType, 
+	l_csLine.Format ("%s|%s|%s|%d|%d|%s|%s|%s|%d|%d\n", 	m_csComponentName,
+																		m_csDescription,
+																		m_csType,
 																		m_iTier,
 																		m_iBulk,
-																		m_csPawnBuyPrice, 
-																		m_csPawnSellPrice, 
+																		m_csPawnBuyPrice,
+																		m_csPawnSellPrice,
 																		m_csVieloSellPrice,
 																		m_clCompGatherInfoList.GetCount(),
 																		m_csLocations.GetCount());
@@ -139,6 +140,6 @@ bool CComponent::ReadFromFile(CStdioFile &a_cFile)
 			}
 		}
 	}
-	
+
 	return (l_bSuccess);
 }

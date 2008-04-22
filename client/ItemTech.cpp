@@ -29,6 +29,7 @@ CItemTech::~CItemTech()
 CItemTech::operator =( const CItemTech& pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 

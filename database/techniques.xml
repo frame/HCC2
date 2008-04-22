@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <techniques>
-	<!-- Arcat, 2006-01-15 17:12: summoning, storm, shield, magic defense and evasion are no techs per se - so left out from this file. see skill.xml from latest tulga feed-->
-	<!-- Test Data -->
+	<!--
+		Notice: All entries in this file are OVERRIDES ment for last minute changes, hotfixes and changes across multiple techniques.
+		
+		On the long run this file should get incorporated into the main files!
+		
+		
+		Arcat, 2006-01-15 17:12:
+		summoning, storm, shield, magic defense and evasion are no techs per se.
+		So they are left out from this file. See skill.xml from latest XML feed
+	-->
 	<tech>
 		<tech-name>Tempest</tech-name>
 		<tier>
@@ -1520,7 +1528,6 @@
 			</tier-attributes>
 		</tier>
 	</tech>
-	<!-- Proper data -->
 	<tech>
 		<tech-name>Gatherer's Boon</tech-name>
 		<tier>
@@ -3000,6 +3007,17 @@
 			<tech-attribute type="schoolbonus">Miner - 11 per Level</tech-attribute>
 			<tech-attribute type="schoolbonus">Outfitter - 7 per Level</tech-attribute>
 			<tech-attribute type="schoolbonus">Weaponsmith - 8 per Level</tech-attribute>
+		</tech-attributes>
+	</tech>
+	<tech>
+		<tech-name>Preparing</tech-name>
+		<tech-subdesc>Improves the Preparing skill by a set amount per tier.</tech-subdesc>
+		<tech-attributes>
+			<tech-attribute type="percentagestatbonus">40% Power</tech-attribute>
+			<tech-attribute type="percentagestatbonus">40% Dexterity</tech-attribute>
+			<tech-attribute type="percentagestatbonus">20% Strength</tech-attribute>
+			<tech-attribute type="schoolbonus">Confectioner - 8 per Level</tech-attribute>
+			<tech-attribute type="schoolbonus">Gatherer - 10 per Level</tech-attribute>
 		</tech-attributes>
 	</tech>
 	<tech>

@@ -1,708 +1,708 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Resources - Food</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Resources</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Butter</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Butter</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+	<formulaset-name>Resources - Food</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Resources</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Butter</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Butter</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="6">1</resource-min>
-          <resource-opt amount="3">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Sweet Milk</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Sweet Milk</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="3">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Sweet Milk</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Sweet Milk</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Sugar</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="6">1</resource-min>
-          <resource-opt amount="3">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Raisins</item-name>
-    <item-icon>icon_formula_r_03_02_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Raisins</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="3">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Raisins</item-name>
+		<item-icon>icon_formula_r_03_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Raisins</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Grapes</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Adobe Cooking Sheet</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="5">1</resource-min>
-          <resource-opt amount="2">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Dough</item-name>
-    <item-icon>icon_formula_r_12_03_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Wheat Dough</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A basic cooking material, used for substance in breads, pies, and the like.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Grapes</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adobe Cooking Sheet</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dough</item-name>
+		<item-icon>icon_formula_r_12_03_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Wheat Dough</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A basic cooking material, used for substance in breads, pies, and the like.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Flour</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">50</resource-min>
-          <resource-opt amount="4">250</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="3">450</resource-min>
-          <resource-opt amount="3">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Egg</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="2">450</resource-min>
-          <resource-opt amount="2">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Rice Dough</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Flour</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">50</resource-min>
+					<resource-opt amount="4">250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="3">450</resource-min>
+					<resource-opt amount="3">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="2">450</resource-min>
+					<resource-opt amount="2">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rice Dough</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Milled Rice</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">250</resource-min>
-          <resource-opt amount="4">475</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="3">450</resource-min>
-          <resource-opt amount="3">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Egg</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="2">450</resource-min>
-          <resource-opt amount="2">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Barley Dough</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Milled Rice</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">250</resource-min>
+					<resource-opt amount="4">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="3">450</resource-min>
+					<resource-opt amount="3">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="2">450</resource-min>
+					<resource-opt amount="2">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Barley Dough</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Malt</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">450</resource-min>
-          <resource-opt amount="4">700</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="3">450</resource-min>
-          <resource-opt amount="3">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Egg</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="2">450</resource-min>
-          <resource-opt amount="2">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Rye Dough</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Malt</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">450</resource-min>
+					<resource-opt amount="4">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="3">450</resource-min>
+					<resource-opt amount="3">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="2">450</resource-min>
+					<resource-opt amount="2">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rye Dough</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Milled Rye</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">650</resource-min>
-          <resource-opt amount="4">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Milk</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="3">450</resource-min>
-          <resource-opt amount="3">925</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Egg</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="2">450</resource-min>
-          <resource-opt amount="2">925</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Fish Oils</item-name>
-    <item-icon>icon_formula_r_12_11_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Minnow Fish Oil</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Milled Rye</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">650</resource-min>
+					<resource-opt amount="4">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="3">450</resource-min>
+					<resource-opt amount="3">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="2">450</resource-min>
+					<resource-opt amount="2">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fish Oils</item-name>
+		<item-icon>icon_formula_r_12_11_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Minnow Fish Oil</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="3">450</resource-min>
-          <resource-opt amount="3">850</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Fresh Minnow</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="14">150</resource-min>
-          <resource-opt amount="7">350</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Bluegill Fish Oil</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="3">450</resource-min>
+					<resource-opt amount="3">850</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Fresh Minnow</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="14">150</resource-min>
+					<resource-opt amount="7">350</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Bluegill Fish Oil</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Fresh Bluegill</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="14">350</resource-min>
-          <resource-opt amount="7">575</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Bass Fish Oil</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Bluegill</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="14">350</resource-min>
+					<resource-opt amount="7">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Bass Fish Oil</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Fresh Bass</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="14">550</resource-min>
-          <resource-opt amount="7">800</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="3">450</resource-min>
-          <resource-opt amount="3">850</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Trout Fish Oil</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Bass</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="14">550</resource-min>
+					<resource-opt amount="7">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="3">450</resource-min>
+					<resource-opt amount="3">850</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trout Fish Oil</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Fresh Trout</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="14">750</resource-min>
-          <resource-opt amount="7">1025</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="3">450</resource-min>
-          <resource-opt amount="3">850</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Flour</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">3</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flour</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ground from wheat, this powder is useful for cooking.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Trout</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="14">750</resource-min>
+					<resource-opt amount="7">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="3">450</resource-min>
+					<resource-opt amount="3">850</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flour</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">3</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flour</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ground from wheat, this powder is useful for cooking.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Wheat</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">1</resource-min>
-          <resource-opt amount="4">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ground Salt</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Ground Salt</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Ground from rock salt, this spice is used to enchance cooking.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Wheat</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">1</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ground Salt</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Ground Salt</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Ground from rock salt, this spice is used to enchance cooking.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Salt Rock</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">1</resource-min>
-          <resource-opt amount="4">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Pumpkin Seeds</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">1</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Pumpkin Seeds</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">1</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Pumpkin Seeds</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Pumpkin Seeds</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Pumpkin</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">200</resource-min>
-          <resource-opt amount="4">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Sugar</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Sugar</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Processed from sugar cane, this resource is used in cooking as a sweetener.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Pumpkin</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">200</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Sugar</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Sugar</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Processed from sugar cane, this resource is used in cooking as a sweetener.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Unrefined Sugar Cane</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">1</resource-min>
-          <resource-opt amount="4">200</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Ground Pepper</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Ground Pepper</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Ground from pepper berries, this spice is used to enchance cooking.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Unrefined Sugar Cane</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">1</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ground Pepper</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Ground Pepper</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Ground from pepper berries, this spice is used to enchance cooking.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Black Pepper Berry</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">200</resource-min>
-          <resource-opt amount="4">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Milled Rice</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">4</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_2</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Milled Rice</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Black Pepper Berry</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">200</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Milled Rice</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">4</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_2</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Milled Rice</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Rice</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">200</resource-min>
-          <resource-opt amount="4">425</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Malt</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">4</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Malt</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Steeped barley that has germinated is quite useful for brewing and distilling.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Rice</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">200</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Malt</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">4</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Malt</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Steeped barley that has germinated is quite useful for brewing and distilling.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Barley</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">400</resource-min>
-          <resource-opt amount="4">650</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Milled Rye</item-name>
-    <item-icon>icon_formula_r_12_24_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">4</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_2</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Milled Rye</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Barley</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">400</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Milled Rye</item-name>
+		<item-icon>icon_formula_r_12_24_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">4</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_2</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Milled Rye</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Rye</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="8">600</resource-min>
-          <resource-opt amount="4">875</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Vinegars</item-name>
-    <item-icon>icon_formula_r_12_11_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">2</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>resourcetype_processed</item-keyword>
-      <item-keyword>tier_1</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Vinegar</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A bottle containing vinegar, used for cooking and brewing.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Rye</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="8">600</resource-min>
+					<resource-opt amount="4">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Vinegars</item-name>
+		<item-icon>icon_formula_r_12_11_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Vinegar</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A bottle containing vinegar, used for cooking and brewing.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Potato</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="12">100</resource-min>
-          <resource-opt amount="6">300</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="3">500</resource-min>
-          <resource-opt amount="3">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Rice Vinegar</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Potato</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="12">100</resource-min>
+					<resource-opt amount="6">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rice Vinegar</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Milled Rice</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="12">300</resource-min>
-          <resource-opt amount="6">525</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="3">500</resource-min>
-          <resource-opt amount="3">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Malt Vinegar</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Milled Rice</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="12">300</resource-min>
+					<resource-opt amount="6">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Malt Vinegar</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Malt</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="12">500</resource-min>
-          <resource-opt amount="6">750</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="3">500</resource-min>
-          <resource-opt amount="3">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Balsamic Vinegar</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Malt</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="12">500</resource-min>
+					<resource-opt amount="6">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Balsamic Vinegar</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>White Grapes</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="12">700</resource-min>
-          <resource-opt amount="6">975</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Brewing</resource-skill>
-          <resource-min amount="3">500</resource-min>
-          <resource-opt amount="3">975</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Spirit Oil</item-name>
-    <item-icon>icon_formula_f_09_01_11.png</item-icon>
-    <item-batchqty>3</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">All</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>tier_1</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Spirit Oil</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>A thin, glittering oil distilled from Soul Shards and Essence of Blight.  It is said to contain a tiny fraction of pure life energy.</tier-desc>
-      <tier-allowedtechniques>0</tier-allowedtechniques>
-      <tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>White Grapes</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="12">700</resource-min>
+					<resource-opt amount="6">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Brewing</resource-skill>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Spirit Oil</item-name>
+		<item-icon>icon_formula_f_09_01_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Spirit Oil</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>A thin, glittering oil distilled from Soul Shards and Essence of Blight.  It is said to contain a tiny fraction of pure life energy.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
       </tier-attributes>
-      <resources>
-        <resource>
-          <resource-name>Essence of Blight</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="3">100</resource-min>
-          <resource-opt amount="1">300</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Soul Fragment</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="3">100</resource-min>
-          <resource-opt amount="2">300</resource-opt>
-        </resource>
-        <resource>
-          <resource-name>Water</resource-name>
-          <resource-skill>Cooking</resource-skill>
-          <resource-min amount="3">100</resource-min>
-          <resource-opt amount="3">400</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+			<resources>
+				<resource>
+					<resource-name>Essence of Blight</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Soul Fragment</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="3">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

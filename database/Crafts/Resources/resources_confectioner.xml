@@ -1,0 +1,2727 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+	<formulaset-name>Resources - Confectioner</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Resources</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Candies</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_purchased</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Caramel</tier-name>
+			<tier-lvl levelName="Caramel">1</tier-lvl>
+			<tier-description/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Vanilla</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Chocolate</tier-name>
+			<tier-lvl levelName="Chocolate">1</tier-lvl>
+			<tier-description/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes> 
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cocoa Nibs</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dairy Products</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Beaten Eggs</tier-name>
+			<tier-lvl levelName="Beaten Eggs">1</tier-lvl>
+			<tier-description/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Butter</tier-name>
+			<tier-lvl levelName="Butter">1</tier-lvl>
+			<tier-description/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Buttermilk</tier-name>
+			<tier-lvl levelName="Buttermilk">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lemon Juice</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cheese</tier-name>
+			<tier-lvl levelName="Cheese">1</tier-lvl>
+			<tier-description/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cream Cheese</tier-name>
+			<tier-lvl levelName="Cream Cheese">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Hard Cooked Eggs</tier-name>
+			<tier-lvl levelName="Hard Cooked Eggs">1</tier-lvl>
+			<tier-description/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Heavy Cream</tier-name>
+			<tier-lvl levelName="Heavy Cream">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cream</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mayonnaise</tier-name>
+			<tier-lvl levelName="Mayonnaise">1</tier-lvl>
+			<tier-description/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Olive Oil</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sweet Condensed Milk</tier-name>
+			<tier-lvl levelName="Sweet Condensed Milk">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Doughs</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Barley Dough</tier-name>
+			<tier-lvl levelName="Barley Dough">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">2</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Barley Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Noodles</tier-name>
+			<tier-lvl levelName="Noodles">1</tier-lvl>
+			<tier-desc>Made from processed dough, this is an edible treat that can enhance any recipe.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Pie Crust</tier-name>
+			<tier-lvl levelName="Pie Crust">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rice Dough</tier-name>
+			<tier-lvl levelName="Rice Dough">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">2</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Milled Rice</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rye Dough</tier-name>
+			<tier-lvl levelName="Rye Dough">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">2</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rye Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Wheat Dough</tier-name>
+			<tier-lvl levelName="Wheat Dough">1</tier-lvl>
+			<tier-desc>A basic cooking material, used for substance in breads, pies, and the like.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flours</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Barley Flour</tier-name>
+			<tier-lvl levelName="Barley Flour">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Barley</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Corn Flour</tier-name>
+			<tier-lvl levelName="Corn Flour">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Corn</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Malt</tier-name>
+			<tier-lvl levelName="Malt">1</tier-lvl>
+			<tier-desc>Steeped barley that has germinated is quite useful for brewing and distilling.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Barley</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Milled Rice</tier-name>
+			<tier-lvl levelName="Milled Rice">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rice</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Quinoa Flour</tier-name>
+			<tier-lvl levelName="Quinoa Flour">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Quinoa</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rye Flour</tier-name>
+			<tier-lvl levelName="Rye Flour">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rye</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steamed Rice</tier-name>
+			<tier-lvl levelName="Steamed Rice">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rice</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Wheat Flour</tier-name>
+			<tier-lvl levelName="Wheat Flour">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gravies and Syrups</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Beef Gravy</tier-name>
+			<tier-lvl levelName="Beef Gravy">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Trimmed Beef Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Chicken Gravy</tier-name>
+			<tier-lvl levelName="Chicken Gravy">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Trimmed Chicken Breast</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Syrup</tier-name>
+			<tier-lvl levelName="Maple Syrup">4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Sap</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mutton Gravy</tier-name>
+			<tier-lvl levelName="Mutton Gravy">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Trimmed Mutton Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Venison Gravy</tier-name>
+			<tier-lvl levelName="Venison Gravy">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Trimmed Venison Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Herbs and Spices</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>tier_0</item-keyword>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Ground Cumin</tier-name>
+			<tier-lvl levelName="Ground Cumin">1</tier-lvl>
+			<tier-description/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cumin Seeds</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ground Pepper</tier-name>
+			<tier-lvl levelName="Ground Pepper">1</tier-lvl>
+			<tier-description>Ground from pepper berries, this spice is used to enchance cooking.</tier-description>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Black Pepper Berry</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ground Salt</tier-name>
+			<tier-lvl levelName="Ground Salt">1</tier-lvl>
+			<tier-description>Ground from rock salt, this spice is used to enchance cooking.</tier-description>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Marinades</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Marinated Beef</tier-name>
+			<tier-lvl levelName="Marinated Beef">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Trimmed Beef Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Balsamic Vinegar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Pepper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Marinated Chicken</tier-name>
+			<tier-lvl levelName="Marinated Chicken">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Trimmed Chicken Breast</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Garlic Powder</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Balsamic Vinegar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Marinated Mutton</tier-name>
+			<tier-lvl levelName="Marinated Mutton">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Trimmed Mutton Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lemon Juice</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Pepper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Marinated Squirrel</tier-name>
+			<tier-lvl levelName="Marinated Squirrel">4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dressed Squirrel</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lemon Zest</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Pepper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Marinated Venison</tier-name>
+			<tier-lvl levelName="Marinated Venison">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Trimmed Venison Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Garlic Powder</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Minnow Oil</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Oils and Sauces</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Hot Sauce</tier-name>
+			<tier-lvl levelName="Hot Sauce">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>resourcetype_processed</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Diced Hot Peppers</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Pepper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Minnow Oil</tier-name>
+			<tier-lvl levelName="Minnow Oil">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>resourcetype_processed</tier-keyword>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Minnow</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tomato Basil Sauce</tier-name>
+			<tier-lvl levelName="Tomato Basil Sauce">3</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>resourcetype_processed</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rubbed Basil</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Tomato</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Vanilla</tier-name>
+			<tier-lvl levelName="Vanilla">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">1</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>resourcetype_purchased</tier-keyword>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Vanilla Bean</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Prepared Fish</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bass Fillet</tier-name>
+			<tier-lvl levelName="Bass Fillet">3</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Bass</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Bluegill Fillet</tier-name>
+			<tier-lvl levelName="Bluegill Fillet">2</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Bluegill</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Halibut Fillet</tier-name>
+			<tier-lvl levelName="Halibut Fillet">6</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Halibut</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1225</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mackerel Fillet</tier-name>
+			<tier-lvl levelName="Mackerel Fillet">5</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Mackerel</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Minnow Fillet</tier-name>
+			<tier-lvl levelName="Minnow Fillet">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Minnow</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Red Snapper Fillet</tier-name>
+			<tier-lvl levelName="Red Snapper Fillet">5</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Red Snapper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Swordfish Steak</tier-name>
+			<tier-lvl levelName="Swordfish Steak">6</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Swordfish</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1100</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trout Fillet</tier-name>
+			<tier-lvl levelName="Trout Fillet">4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fresh Trout</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Prepared Fruits</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Crushed Grapes</tier-name>
+			<tier-lvl levelName="Crushed Grapes">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Grapes</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crushed White Grapes</tier-name>
+			<tier-lvl levelName="Crushed White Grapes">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Grapes</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lemon Juice</tier-name>
+			<tier-lvl levelName="Lemon Juice">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lemon</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lemon Zest</tier-name>
+			<tier-lvl levelName="Lemon Zest">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lemon</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mashed Blackberries</tier-name>
+			<tier-lvl levelName="Mashed Blackberries">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blackberry</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mashed Blueberries</tier-name>
+			<tier-lvl levelName="Mashed Blueberries">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blueberry</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mashed Cranberries</tier-name>
+			<tier-lvl levelName="Mashed Cranberries">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cranberry</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mashed Juniper Berries</tier-name>
+			<tier-lvl levelName="Mashed Juniper Berries">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Juniper Berry</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mashed Raspberries</tier-name>
+			<tier-lvl levelName="Mashed Raspberries">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Raspberry</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Pitted Dates</tier-name>
+			<tier-lvl levelName="Pitted Dates">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Medjool Dates</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Apple</tier-name>
+			<tier-lvl levelName="Sliced Apple">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Apple</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Apricots</tier-name>
+			<tier-lvl levelName="Sliced Apricots">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Apricot</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Bananas</tier-name>
+			<tier-lvl levelName="Sliced Bananas">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Banana</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Pears</tier-name>
+			<tier-lvl levelName="Sliced Pears">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pear</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Strawberries</tier-name>
+			<tier-lvl levelName="Sliced Strawberries">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Strawberry</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Tomatoes</tier-name>
+			<tier-lvl levelName="Sliced Tomatoes">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tomato</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Vanilla Bean</tier-name>
+			<tier-lvl levelName="Sliced Vanilla Bean">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Vanilla Bean</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Raisins</tier-name>
+			<tier-lvl levelName="Raisins">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">1</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Grapes</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Prepared Liquids</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Balsamic Vinegar</tier-name>
+			<tier-lvl levelName="Balsamic Vinegar">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Crushed White Grapes</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Beef Stock</tier-name>
+			<tier-lvl levelName="Beef Stock">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Raw Beef</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Chicken Stock</tier-name>
+			<tier-lvl levelName="Chicken Stock">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Raw Chicken</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Malt Vinegar</tier-name>
+			<tier-lvl levelName="Malt Vinegar">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Malt</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Red Wine</tier-name>
+			<tier-lvl levelName="Red Wine">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Crushed Grapes</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rice Vinegar</tier-name>
+			<tier-lvl levelName="Rice Vinegar">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Milled Rice</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Vinegar</tier-name>
+			<tier-lvl levelName="Vinegar">1</tier-lvl>
+			<tier-desc>A bottle containing vinegar, used for cooking and brewing.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Potatoes</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">1</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>White Wine</tier-name>
+			<tier-lvl levelName="White Wine">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Crushed White Grapes</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Prepared Meats</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dressed Squirrel</tier-name>
+			<tier-lvl levelName="Dressed Squirrel">4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Squirrel</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ground Beef</tier-name>
+			<tier-lvl levelName="Ground Beef">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Trimmed Beef Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Pepper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sausage</tier-name>
+			<tier-lvl levelName="Sausage">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Trimmed Gruok Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Trimmed Beef Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Smoked Gruok</tier-name>
+			<tier-lvl levelName="Smoked Gruok">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Trimmed Gruok Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spicy Sausage</tier-name>
+			<tier-lvl levelName="Spicy Sausage">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Trimmed Gruok Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Trimmed Beef Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chili Pepper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trimmed Arbotus Flank</tier-name>
+			<tier-lvl levelName="Trimmed Arbotus Flank">4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Arbotus Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trimmed Beef Flank</tier-name>
+			<tier-lvl levelName="Trimmed Beef Flank">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Raw Beef</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trimmed Chicken Breast</tier-name>
+			<tier-lvl levelName="Trimmed Chicken Breast">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Raw Chicken</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trimmed Gruok Flank</tier-name>
+			<tier-lvl levelName="Trimmed Gruok Flank">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Raw Gruok</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trimmed Mutton Flank</tier-name>
+			<tier-lvl levelName="Trimmed Mutton Flank">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Raw Mutton</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trimmed Ruxus Flank</tier-name>
+			<tier-lvl levelName="Trimmed Ruxus Flank">2</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ruxus Flank</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Trimmed Venison Flank</tier-name>
+			<tier-lvl levelName="Trimmed Venison Flank">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Raw Venison</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Prepared Mushrooms</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cleaned Blood Caps</tier-name>
+			<tier-lvl levelName="Cleaned Blood Caps">5</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blood Fungus Cap</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cleaned Browngill Caps</tier-name>
+			<tier-lvl levelName="Cleaned Browngill Caps">2</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Browngill Fungus Cap</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cleaned Istarian Caps</tier-name>
+			<tier-lvl levelName="Cleaned Istarian Caps">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Istarian Fungus Cap</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cleaned Roughcap Caps</tier-name>
+			<tier-lvl levelName="Cleaned Roughcap Caps">3</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Roughcap Fungus Cap</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cleaned Shadowstem Caps</tier-name>
+			<tier-lvl levelName="Cleaned Shadowstem Caps">6</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shadowstem Fungus Cap</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1225</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cleaned Stonespore Caps</tier-name>
+			<tier-lvl levelName="Cleaned Stonespore Caps">4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Stonespore Fungus Cap</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Prepared Seafood</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">4</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cleaned Urchin</tier-name>
+			<tier-lvl levelName="Cleaned Urchin">6</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Urchin</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1100</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>De-inked Squid</tier-name>
+			<tier-lvl levelName="De-inked Squid">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Squid</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Prepared Shrimp</tier-name>
+			<tier-lvl levelName="Prepared Shrimp">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shrimp</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shelled Crab</tier-name>
+			<tier-lvl levelName="Shelled Crab">5</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Crab</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shelled Lobster</tier-name>
+			<tier-lvl levelName="Shelled Lobster">4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lobster</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shucked Clam</tier-name>
+			<tier-lvl levelName="Shucked Clam">2</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Clam</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Eel</tier-name>
+			<tier-lvl levelName="Sliced Eel">3</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Eel</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Prepared Vegetables</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Chopped Lettuce</tier-name>
+			<tier-lvl levelName="Chopped Lettuce">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lettuce</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Chopped Onion</tier-name>
+			<tier-lvl levelName="Chopped Onion">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Onion</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Diced Hot Peppers</tier-name>
+			<tier-lvl levelName="Diced Hot Peppers">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Chili Pepper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Husked Corn</tier-name>
+			<tier-lvl levelName="Husked Corn">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Corn</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mashed Pumpkin</tier-name>
+			<tier-lvl levelName="Mashed Pumpkin">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pumpkin</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Pumpkin Seeds</tier-name>
+			<tier-lvl levelName="Pumpkin Seeds">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">1</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pumpkin</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shucked Peas</tier-name>
+			<tier-lvl levelName="Shucked Peas">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Peas</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Carrots</tier-name>
+			<tier-lvl levelName="Sliced Carrots">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Carrot</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Green Peppers</tier-name>
+			<tier-lvl levelName="Sliced Green Peppers">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Green Pepper</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sliced Potatoes</tier-name>
+			<tier-lvl levelName="Sliced Potatoes">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_0</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Potato</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

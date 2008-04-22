@@ -28,6 +28,7 @@ CCompGatherInfo::~CCompGatherInfo()
 CCompGatherInfo::operator =( const CCompGatherInfo* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -73,9 +74,9 @@ CCompGatherInfo::WriteToFile(CStdioFile &a_cFile)
 	CString l_csLine;
 	CCompBonusInfo *l_cpCompBonusInfo;
 
-	l_csLine.Format ("%s|%s|%s|%s|%s|%d\n", 	m_csTool, 
-															m_csSkill, 
-															m_csRate, 
+	l_csLine.Format ("%s|%s|%s|%s|%s|%d\n", 	m_csTool,
+															m_csSkill,
+															m_csRate,
 															m_csMinLvl,
 															m_csOptLvl,
 															m_clCompBonusInfoList.GetCount());
@@ -117,6 +118,6 @@ bool CCompGatherInfo::ReadFromFile(CStdioFile &a_cFile)
 			}
 		}
 	}
-	
+
 	return (l_bSuccess);
 }

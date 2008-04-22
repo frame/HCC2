@@ -28,6 +28,7 @@ CItemResource::~CItemResource()
 CItemResource::operator =( const CItemResource* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -106,6 +107,6 @@ bool CItemResource::ReadFromFile(CStdioFile &a_cFile)
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_iOptAmt);
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_iUnits);
 	}
-	
+
 	return (l_bSuccess);
 }

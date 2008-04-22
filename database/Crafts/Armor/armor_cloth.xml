@@ -1,1883 +1,1883 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulaset format="2.1">
-  <formulaset-name>Armor - Cloth</formulaset-name>
-  <formulaset-categories>
-    <formulaset-category>Armor</formulaset-category>
-  </formulaset-categories>
-  <item>
-    <item-name>Cloth Belt</item-name>
-    <item-icon>icon_formula_a_09_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Waist</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_belt</item-keyword>
-      <item-keyword>bodyslot_waist</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Belt</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">1</resource-min>
-          <resource-opt amount="6">100</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Belt</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">30</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">200</resource-min>
-          <resource-opt amount="6">325</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Belt</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">400</resource-min>
-          <resource-opt amount="6">550</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Belt</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">600</resource-min>
-          <resource-opt amount="6">775</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Belt</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">800</resource-min>
-          <resource-opt amount="6">1000</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Boots</item-name>
-    <item-icon>icon_formula_a_11_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Feet</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_boots</item-keyword>
-      <item-keyword>bodyslot_feet</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Boots</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">16</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">40</resource-min>
-          <resource-opt amount="8">140</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Boots</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">240</resource-min>
-          <resource-opt amount="8">365</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Boots</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">440</resource-min>
-          <resource-opt amount="8">590</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Boots</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">640</resource-min>
-          <resource-opt amount="8">815</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Boots</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">840</resource-min>
-          <resource-opt amount="8">1040</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Cap</item-name>
-    <item-icon>icon_formula_a_05_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Head</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_helm</item-keyword>
-      <item-keyword>bodyslot_head</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Cap</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">14</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">20</resource-min>
-          <resource-opt amount="7">120</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Cap</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">35</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">220</resource-min>
-          <resource-opt amount="7">345</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Cap</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">63</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">420</resource-min>
-          <resource-opt amount="7">570</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Cap</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">126</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">620</resource-min>
-          <resource-opt amount="7">795</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Cap</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">252</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">820</resource-min>
-          <resource-opt amount="7">1020</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Cape</item-name>
-    <item-icon>icon_formula_a_03_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Back</item-attribute>
-      <item-attribute type="bulk">16</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_cape</item-keyword>
-      <item-keyword>bodyslot_head</item-keyword>
-      <item-keyword>bodyslot_back</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Cape</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">20</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="20">75</resource-min>
-          <resource-opt amount="10">175</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Cape</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">50</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="20">275</resource-min>
-          <resource-opt amount="10">400</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Cape</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">90</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="20">475</resource-min>
-          <resource-opt amount="10">625</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Cape</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">180</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="20">675</resource-min>
-          <resource-opt amount="10">850</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Cape</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">360</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="20">875</resource-min>
-          <resource-opt amount="10">1075</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Gloves</item-name>
-    <item-icon>icon_formula_a_24_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Hands</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_gauntlets</item-keyword>
-      <item-keyword>bodyslot_hands</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Gloves</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">16</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">50</resource-min>
-          <resource-opt amount="8">150</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Gloves</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">40</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">250</resource-min>
-          <resource-opt amount="8">375</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Gloves</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">450</resource-min>
-          <resource-opt amount="8">600</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Gloves</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">650</resource-min>
-          <resource-opt amount="8">825</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Gloves</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">850</resource-min>
-          <resource-opt amount="8">1050</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Leggings</item-name>
-    <item-icon>icon_formula_a_10_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Legs</item-attribute>
-      <item-attribute type="bulk">16</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_leggings</item-keyword>
-      <item-keyword>bodyslot_legs</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Leggings</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">22</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-        <tier-keyword>armortype_cloth</tier-keyword>
-        <tier-keyword>armorstyle_fabric</tier-keyword>
-        <tier-keyword>resource_organic</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">80</resource-min>
-          <resource-opt amount="11">180</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Leggings</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">55</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-        <tier-keyword>armortype_cloth</tier-keyword>
-        <tier-keyword>armorstyle_fabric</tier-keyword>
-        <tier-keyword>resource_organic</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">280</resource-min>
-          <resource-opt amount="11">405</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Leggings</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">99</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-        <tier-keyword>armortype_cloth</tier-keyword>
-        <tier-keyword>armorstyle_fabric</tier-keyword>
-        <tier-keyword>resource_organic</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">480</resource-min>
-          <resource-opt amount="11">630</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Leggings</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">198</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>armortype_cargo</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">680</resource-min>
-          <resource-opt amount="11">855</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Leggings</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">396</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-        <tier-keyword>armortype_cloth</tier-keyword>
-        <tier-keyword>armorstyle_fabric</tier-keyword>
-        <tier-keyword>resource_organic</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="22">880</resource-min>
-          <resource-opt amount="11">1080</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Mask</item-name>
-    <item-icon>icon_formula_a_06_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Face</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_face</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Mask</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">60</resource-min>
-          <resource-opt amount="9">160</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Mask</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">45</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">260</resource-min>
-          <resource-opt amount="9">385</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Mask</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">72</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">460</resource-min>
-          <resource-opt amount="8">610</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Mask</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">144</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">660</resource-min>
-          <resource-opt amount="8">835</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Mask</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">288</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="16">860</resource-min>
-          <resource-opt amount="8">1060</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Shoulderpad</item-name>
-    <item-icon>icon_formula_a_12_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Shoulder</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_shoulderpad</item-keyword>
-      <item-keyword>bodyslot_shoulder</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Shoulderpad</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">14</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">30</resource-min>
-          <resource-opt amount="7">130</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Shoulderpad</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">35</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">230</resource-min>
-          <resource-opt amount="7">355</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Shoulderpad</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">63</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">430</resource-min>
-          <resource-opt amount="7">580</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Shoulderpad</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">126</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">630</resource-min>
-          <resource-opt amount="7">805</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Shoulderpad</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">252</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">830</resource-min>
-          <resource-opt amount="7">1030</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Sleeves</item-name>
-    <item-icon>icon_formula_a_25_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Arms</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_armguard</item-keyword>
-      <item-keyword>bodyslot_arms</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Sleeves</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">70</resource-min>
-          <resource-opt amount="9">170</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Sleeves</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">45</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">270</resource-min>
-          <resource-opt amount="9">395</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Sleeves</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">81</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">470</resource-min>
-          <resource-opt amount="9">620</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Sleeves</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">162</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">670</resource-min>
-          <resource-opt amount="9">845</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Sleeves</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">324</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">870</resource-min>
-          <resource-opt amount="9">1070</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Tunic</item-name>
-    <item-icon>icon_formula_a_01_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Chest</item-attribute>
-      <item-attribute type="bulk">16</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_chestguard</item-keyword>
-      <item-keyword>bodyslot_chest</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Tunic</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">24</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="24">90</resource-min>
-          <resource-opt amount="12">190</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Tunic</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">60</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="24">290</resource-min>
-          <resource-opt amount="12">415</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Tunic</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="24">490</resource-min>
-          <resource-opt amount="12">640</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Tunic</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="24">690</resource-min>
-          <resource-opt amount="12">865</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Tunic</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">432</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="24">890</resource-min>
-          <resource-opt amount="12">1090</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Cloth Wristband</item-name>
-    <item-icon>icon_formula_a_13_01_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Forearm</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_bracer</item-keyword>
-      <item-keyword>bodyslot_forearm</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Flaxen Cloth Wristband</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">12</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">10</resource-min>
-          <resource-opt amount="6">110</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Kenaf Cloth Wristband</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">30</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">210</resource-min>
-          <resource-opt amount="6">335</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Cotton Cloth Wristband</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">54</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">410</resource-min>
-          <resource-opt amount="6">560</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Silken Cloth Wristband</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">108</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">610</resource-min>
-          <resource-opt amount="6">785</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Ironsilk Cloth Wristband</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">216</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="12">810</resource-min>
-          <resource-opt amount="6">1010</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Invisible Cloth Cap</item-name>
-    <item-icon>icon_formula_a_05_00_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Head</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>armor_helm</item-keyword>
-      <item-keyword>bodyslot_head</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Invisible Flaxen Cloth Cap</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">14</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">20</resource-min>
-          <resource-opt amount="7">120</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Kenaf Cloth Cap</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">35</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">220</resource-min>
-          <resource-opt amount="7">345</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Cotton Cloth Cap</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">63</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">420</resource-min>
-          <resource-opt amount="7">570</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Silken Cloth Cap</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">126</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">620</resource-min>
-          <resource-opt amount="7">795</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Ironsilk Cloth Cap</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">252</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="14">820</resource-min>
-          <resource-opt amount="7">1020</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
-  <item>
-    <item-name>Invisible Cloth Mask</item-name>
-    <item-icon>icon_formula_a_06_00_11.png</item-icon>
-    <item-batchqty>1</item-batchqty>
-    <item-attributes>
-      <item-attribute type="equipSlot">Face</item-attribute>
-      <item-attribute type="bulk">8</item-attribute>
-      <item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-    </item-attributes>
-    <item-keywords>
-      <item-keyword>techclass_1</item-keyword>
-      <item-keyword>bodyslot_face</item-keyword>
-      <item-keyword>armortype_cloth</item-keyword>
-      <item-keyword>armorstyle_fabric</item-keyword>
-      <item-keyword>resource_organic</item-keyword>
-      <item-keyword>armor</item-keyword>
-    </item-keywords>
-    <tier>
-      <tier-name>Invisible Flaxen Cloth Mask</tier-name>
-      <tier-lvl>1</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">18</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
-        <tier-attribute type="statBonus">+2 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>tier_1</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Flax Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">60</resource-min>
-          <resource-opt amount="9">160</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Kenaf Cloth Mask</tier-name>
-      <tier-lvl>2</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>1</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">45</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
-        <tier-attribute type="statBonus">+7 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_2</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Kenaf Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">260</resource-min>
-          <resource-opt amount="9">385</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Cotton Cloth Mask</tier-name>
-      <tier-lvl>3</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">81</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
-        <tier-attribute type="statBonus">+16 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_3</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Cotton Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">460</resource-min>
-          <resource-opt amount="9">610</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Silken Cloth Mask</tier-name>
-      <tier-lvl>4</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>2</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">162</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
-        <tier-attribute type="statBonus">+29 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_4</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Silk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">660</resource-min>
-          <resource-opt amount="9">835</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-    <tier>
-      <tier-name>Invisible Ironsilk Cloth Mask</tier-name>
-      <tier-lvl>5</tier-lvl>
-      <tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
-      <tier-allowedtechniques>3</tier-allowedtechniques>
-      <tier-attributes>
-        <tier-attribute type="hoardValue">324</tier-attribute>
-        <tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
-        <tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
-        <tier-attribute type="statBonus">+46 Armor</tier-attribute>
-      </tier-attributes>
-      <tier-keywords>
-        <tier-keyword>techclass_5</tier-keyword>
-        <tier-keyword>techclass_4</tier-keyword>
-        <tier-keyword>techclass_3</tier-keyword>
-        <tier-keyword>techclass_2</tier-keyword>
-        <tier-keyword>tier_5</tier-keyword>
-      </tier-keywords>
-      <resources>
-        <resource>
-          <resource-name>Ironsilk Spool</resource-name>
-          <resource-skill>Tailoring</resource-skill>
-          <resource-min amount="18">860</resource-min>
-          <resource-opt amount="9">1060</resource-opt>
-        </resource>
-      </resources>
-    </tier>
-  </item>
+	<formulaset-name>Armor - Cloth</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Armor</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Cloth Belt</item-name>
+		<item-icon>icon_formula_a_09_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Waist</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_belt</item-keyword>
+			<item-keyword>bodyslot_waist</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Belt</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">1</resource-min>
+					<resource-opt amount="6">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Belt</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">30</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">200</resource-min>
+					<resource-opt amount="6">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Belt</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">400</resource-min>
+					<resource-opt amount="6">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Belt</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">600</resource-min>
+					<resource-opt amount="6">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Belt</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">800</resource-min>
+					<resource-opt amount="6">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Boots</item-name>
+		<item-icon>icon_formula_a_11_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Feet</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_boots</item-keyword>
+			<item-keyword>bodyslot_feet</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Boots</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">16</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">40</resource-min>
+					<resource-opt amount="8">140</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Boots</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">240</resource-min>
+					<resource-opt amount="8">365</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Boots</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">440</resource-min>
+					<resource-opt amount="8">590</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Boots</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">640</resource-min>
+					<resource-opt amount="8">815</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Boots</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">840</resource-min>
+					<resource-opt amount="8">1040</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Cap</item-name>
+		<item-icon>icon_formula_a_05_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Head</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_helm</item-keyword>
+			<item-keyword>bodyslot_head</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Cap</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">14</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">20</resource-min>
+					<resource-opt amount="7">120</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Cap</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">220</resource-min>
+					<resource-opt amount="7">345</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Cap</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">420</resource-min>
+					<resource-opt amount="7">570</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Cap</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">620</resource-min>
+					<resource-opt amount="7">795</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Cap</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">820</resource-min>
+					<resource-opt amount="7">1020</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Cape</item-name>
+		<item-icon>icon_formula_a_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Back</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_cape</item-keyword>
+			<item-keyword>bodyslot_head</item-keyword>
+			<item-keyword>bodyslot_back</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Cape</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">20</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="20">75</resource-min>
+					<resource-opt amount="10">175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Cape</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">50</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="20">275</resource-min>
+					<resource-opt amount="10">400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Cape</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="20">475</resource-min>
+					<resource-opt amount="10">625</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Cape</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="20">675</resource-min>
+					<resource-opt amount="10">850</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Cape</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="20">875</resource-min>
+					<resource-opt amount="10">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Gloves</item-name>
+		<item-icon>icon_formula_a_24_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Hands</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_gauntlets</item-keyword>
+			<item-keyword>bodyslot_hands</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Gloves</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">16</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">50</resource-min>
+					<resource-opt amount="8">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Gloves</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">250</resource-min>
+					<resource-opt amount="8">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Gloves</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">450</resource-min>
+					<resource-opt amount="8">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Gloves</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">650</resource-min>
+					<resource-opt amount="8">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Gloves</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">850</resource-min>
+					<resource-opt amount="8">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Leggings</item-name>
+		<item-icon>icon_formula_a_10_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Legs</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_leggings</item-keyword>
+			<item-keyword>bodyslot_legs</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Leggings</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">22</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+				<tier-keyword>armortype_cloth</tier-keyword>
+				<tier-keyword>armorstyle_fabric</tier-keyword>
+				<tier-keyword>resource_organic</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">80</resource-min>
+					<resource-opt amount="11">180</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Leggings</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">55</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+				<tier-keyword>armortype_cloth</tier-keyword>
+				<tier-keyword>armorstyle_fabric</tier-keyword>
+				<tier-keyword>resource_organic</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">280</resource-min>
+					<resource-opt amount="11">405</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Leggings</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">99</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+				<tier-keyword>armortype_cloth</tier-keyword>
+				<tier-keyword>armorstyle_fabric</tier-keyword>
+				<tier-keyword>resource_organic</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">480</resource-min>
+					<resource-opt amount="11">630</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Leggings</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">198</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>armortype_cargo</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">680</resource-min>
+					<resource-opt amount="11">855</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Leggings</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">396</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+				<tier-keyword>armortype_cloth</tier-keyword>
+				<tier-keyword>armorstyle_fabric</tier-keyword>
+				<tier-keyword>resource_organic</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="22">880</resource-min>
+					<resource-opt amount="11">1080</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Mask</item-name>
+		<item-icon>icon_formula_a_06_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Face</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_face</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Mask</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">60</resource-min>
+					<resource-opt amount="9">160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Mask</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">260</resource-min>
+					<resource-opt amount="9">385</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Mask</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">460</resource-min>
+					<resource-opt amount="8">610</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Mask</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">660</resource-min>
+					<resource-opt amount="8">835</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Mask</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="16">860</resource-min>
+					<resource-opt amount="8">1060</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Shoulderpad</item-name>
+		<item-icon>icon_formula_a_12_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Shoulder</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_shoulderpad</item-keyword>
+			<item-keyword>bodyslot_shoulder</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Shoulderpad</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">14</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">30</resource-min>
+					<resource-opt amount="7">130</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Shoulderpad</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">230</resource-min>
+					<resource-opt amount="7">355</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Shoulderpad</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">430</resource-min>
+					<resource-opt amount="7">580</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Shoulderpad</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">630</resource-min>
+					<resource-opt amount="7">805</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Shoulderpad</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">830</resource-min>
+					<resource-opt amount="7">1030</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Sleeves</item-name>
+		<item-icon>icon_formula_a_25_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Arms</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_armguard</item-keyword>
+			<item-keyword>bodyslot_arms</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Sleeves</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">70</resource-min>
+					<resource-opt amount="9">170</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Sleeves</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">270</resource-min>
+					<resource-opt amount="9">395</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Sleeves</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">470</resource-min>
+					<resource-opt amount="9">620</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Sleeves</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">670</resource-min>
+					<resource-opt amount="9">845</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Sleeves</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">870</resource-min>
+					<resource-opt amount="9">1070</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Tunic</item-name>
+		<item-icon>icon_formula_a_01_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Chest</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_chestguard</item-keyword>
+			<item-keyword>bodyslot_chest</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Tunic</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">24</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="24">90</resource-min>
+					<resource-opt amount="12">190</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Tunic</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="24">290</resource-min>
+					<resource-opt amount="12">415</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Tunic</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="24">490</resource-min>
+					<resource-opt amount="12">640</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Tunic</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="24">690</resource-min>
+					<resource-opt amount="12">865</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Tunic</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="24">890</resource-min>
+					<resource-opt amount="12">1090</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cloth Wristband</item-name>
+		<item-icon>icon_formula_a_13_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Forearm</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_bracer</item-keyword>
+			<item-keyword>bodyslot_forearm</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Cloth Wristband</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">12</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">10</resource-min>
+					<resource-opt amount="6">110</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Cloth Wristband</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">30</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">210</resource-min>
+					<resource-opt amount="6">335</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Cloth Wristband</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">410</resource-min>
+					<resource-opt amount="6">560</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Cloth Wristband</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">610</resource-min>
+					<resource-opt amount="6">785</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Cloth Wristband</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="12">810</resource-min>
+					<resource-opt amount="6">1010</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Invisible Cloth Cap</item-name>
+		<item-icon>icon_formula_a_05_00_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Head</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>armor_helm</item-keyword>
+			<item-keyword>bodyslot_head</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Invisible Flaxen Cloth Cap</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">14</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">20</resource-min>
+					<resource-opt amount="7">120</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Kenaf Cloth Cap</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">220</resource-min>
+					<resource-opt amount="7">345</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Cotton Cloth Cap</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">420</resource-min>
+					<resource-opt amount="7">570</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Silken Cloth Cap</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">620</resource-min>
+					<resource-opt amount="7">795</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Ironsilk Cloth Cap</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="14">820</resource-min>
+					<resource-opt amount="7">1020</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Invisible Cloth Mask</item-name>
+		<item-icon>icon_formula_a_06_00_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Face</item-attribute>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="reqClass">ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, WVR, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>bodyslot_face</item-keyword>
+			<item-keyword>armortype_cloth</item-keyword>
+			<item-keyword>armorstyle_fabric</item-keyword>
+			<item-keyword>resource_organic</item-keyword>
+			<item-keyword>armor</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Invisible Flaxen Cloth Mask</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+				<tier-attribute type="statBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">60</resource-min>
+					<resource-opt amount="9">160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Kenaf Cloth Mask</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (21)</tier-attribute>
+				<tier-attribute type="statBonus">+7 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">260</resource-min>
+					<resource-opt amount="9">385</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Cotton Cloth Mask</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (41)</tier-attribute>
+				<tier-attribute type="statBonus">+16 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">460</resource-min>
+					<resource-opt amount="9">610</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Silken Cloth Mask</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (61)</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">660</resource-min>
+					<resource-opt amount="9">835</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Invisible Ironsilk Cloth Mask</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Cloth armors are basically slightly improved daily wear. Added reinforcement at key points helps fend off the occasional light blow but would not stand up to an extended assault.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (81)</tier-attribute>
+				<tier-attribute type="statBonus">+46 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Tailoring</resource-skill>
+					<resource-min amount="18">860</resource-min>
+					<resource-opt amount="9">1060</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

@@ -28,6 +28,7 @@ CEffect::~CEffect()
 CEffect::operator =( const CEffect* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 
@@ -70,7 +71,7 @@ bool CEffect::ReadFromFile(CStdioFile &a_cFile)
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_csType);
 		l_bSuccess = l_bSuccess && ReadToken (l_csLine, l_iTokenOffset, m_csDescription);
 	}
-	
+
 	return (l_bSuccess);
 }
 
@@ -81,23 +82,23 @@ CEffect::TranslateEffectType()
 	static int l_iValue3;
 
 /*
-hoardCost            
-                
-               
-               
-                 
-               
-           
-                
-healAmount           
-healPercentage       
-          
-descriptionResurrect 
-          
-    
-        
-     
-       
+hoardCost
+
+
+
+
+
+
+
+healAmount
+healPercentage
+
+descriptionResurrect
+
+
+
+
+
 */
 	m_csType.MakeLower ();
 
@@ -245,6 +246,12 @@ descriptionResurrect
 		m_csDescription = "Dispel Quality: " + m_csDescription;
 	}
 
+	else if (m_csType == "dpreduction")
+	{
+		m_csType = cXMLAttribute_Timer;
+		m_csDescription = m_csDescription;
+	}
+
 	else if ((m_csType == "chance") ||
 		      (m_csType == "statmultiplier") ||
 		      (m_csType == "statbonusvariable") ||
@@ -255,6 +262,7 @@ descriptionResurrect
 		      (m_csType == "preventrecall") ||
 		      (m_csType == "rechargereduce") ||
 		      (m_csType == "dpreductionreqlvl") ||
+		      (m_csType == "dpreductionminlvl") ||
 		      (m_csType == "dispelquality") ||
 		      (m_csType == "description") ||
 		      (m_csType == "convertdamage") ||
@@ -262,8 +270,7 @@ descriptionResurrect
 		      (m_csType == "frequency") ||
 		      (m_csType == "delaymod") ||
 		      (m_csType == "recyclemod") ||
-		      (m_csType == "descriptionresurrect") ||
-				(m_csType == "dpreduction"))
+		      (m_csType == "descriptionresurrect"))
 	{
 		m_csType = cXMLAttribute_Effect;
 	}
@@ -318,6 +325,7 @@ descriptionResurrect
 				(m_csType == "effectdescriptionresurrect") ||
 				(m_csType == "effectdpreduction") ||
 				(m_csType == "effectdpreductionreqlvl") ||
+				(m_csType == "effectdpreductionminlvl") ||
 				(m_csType == "effectconvertdamage") ||
 				(m_csType == "effectrechargeconsumes") ||
 				(m_csType == "effectrechargereduce") ||
@@ -382,7 +390,9 @@ descriptionResurrect
 
 	else
 	{
-		m_csDescription = "? " + m_csType + ":" + m_csDescription + " ?";
+		//FIXME frame
+		//m_csDescription = "? " + m_csType + ":" + m_csDescription + " ?";
+		m_csDescription = m_csDescription;
 		m_csType = cXMLAttribute_Effect;
 	}
 }

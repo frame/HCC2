@@ -36,7 +36,7 @@
 #include "Category.h"
 #include "SubCategory.h"
 
-class CAppData  
+class CAppData
 {
 public:
 	static  ApplyCurrentTheme(bool l_bRefresh = true);
@@ -69,7 +69,7 @@ public:
 	static  AddEffectType (CTypedPtrList<CPtrList, CEffect*> &a_clEffectsList,
 								 CStringList &a_csEffectTypeList,
 								 CString a_csEffectName,
-								 CMSFlexGrid &a_cFlexGrid, 
+								 CMSFlexGrid &a_cFlexGrid,
 								 int	 a_iStyle,
 								 CEdit *a_cSizingBox,
 								 CString a_csPrefix,
@@ -254,6 +254,8 @@ public:
 	static bool m_bVerticalToolBar;
 	static bool m_bAutoShrink;
 	static bool m_bHighPriority;
+	static bool m_bAutoUpdate;
+	static bool m_bAutoUpdateQuery;
 
 	static bool m_bProfilesChanged;
 

@@ -13,6 +13,8 @@
 #include "WizardPage3.h"
 #include "WizardDialog.h"
 #include "Scheme.h"
+#include "XWinVer.h"
+#include "Regexp.h"
 
 using namespace Gdiplus;
 
@@ -145,7 +147,7 @@ BEGIN_MESSAGE_MAP(CHCCDlg, CDialog)
 	ON_COMMAND(ID_SETTINGS_PROFILEWINDOW_SNAPSHOTWINDOW, OnSettingsProfilewindowSnapshotwindow)
 	ON_COMMAND(ID_SETTINGS_PROFILEWINDOW_RESTOREDEFAULTS, OnSettingsProfilewindowRestoredefaults)
 	ON_WM_SHOWWINDOW()
-	ON_MESSAGE(WM_HOTKEY, OnHotKey) 
+	ON_MESSAGE(WM_HOTKEY, OnHotKey)
 	ON_COMMAND(ID_VIEW_FORMULAWINDOW, OnViewFormulawindow)
 	ON_COMMAND(ID_VIEW_TECHNIQUEWINDOW, OnViewTechniquewindow)
 	ON_COMMAND(ID_VIEW_COMPONENTWINDOW, OnViewComponentwindow)
@@ -177,6 +179,8 @@ BEGIN_MESSAGE_MAP(CHCCDlg, CDialog)
 	ON_COMMAND(ID_OPTIONS_ORIENTATION_HORIZONTAL, OnOptionsOrientationHorizontal)
 	ON_COMMAND(ID_OPTIONS_ORIENTATION_VERTICAL, OnOptionsOrientationVertical)
 	ON_COMMAND(ID_HELP_ABOUT, OnHelpAbout)
+	ON_WM_ACTIVATE()
+	ON_COMMAND(ID_SEARCH_BYNAME, OnSearchByname)
 	//}}AFX_MSG_MAP
 END_MESSAGE_MAP()
 
@@ -185,8 +189,8 @@ END_MESSAGE_MAP()
 
 UINT tbButtons[6] = { ID_VIEW_ITEMS, ID_VIEW_TECHNIQUES};
 
-LRESULT  CHCCDlg::OnHotKey(WPARAM wp, LPARAM) 
-{    
+LRESULT  CHCCDlg::OnHotKey(WPARAM wp, LPARAM)
+{
    if (wp == m_nHotKeyID_Forms)
 	{
       OnViewFormulawindow ();
@@ -223,8 +227,109 @@ LRESULT  CHCCDlg::OnHotKey(WPARAM wp, LPARAM)
 		BringWindowToTop( );
 	}
 
-   return 0; 
+   return 0;
 }
+
+void CHCCDlg::OnActivate(UINT nState, CWnd* pWndOther, BOOL bMinimized)
+{
+	//http://www.functionx.com/visualc/Lesson02.htm
+	CDialog::OnActivate(nState, pWndOther, bMinimized);
+
+	switch( nState )
+	{
+		case WA_ACTIVE:
+			CAppData::RestoreApp();
+			break;
+	}
+}
+
+
+HINTERNET    hInternetSession = NULL;
+HINTERNET    hURL = NULL;
+
+typedef struct
+{
+    HWND        hWindow;     // window handle
+
+    HINTERNET   hResource;   // HINTERNET handle created by InternetOpenUrl
+
+} REQUEST_CONTEXT;
+
+REQUEST_CONTEXT    request_context;
+
+void __stdcall InternetCallbackFunction(HINTERNET hInternet, DWORD dwContext, DWORD dwInternetStatus, LPVOID lpvStatusInformation, DWORD dwStatusInformationLength)
+{
+    REQUEST_CONTEXT* cpContext;
+    INTERNET_ASYNC_RESULT* res;
+
+    cpContext = (REQUEST_CONTEXT*)dwContext;
+
+    // what has this callback function been told has happened?
+
+    switch (dwInternetStatus)
+    {
+        case INTERNET_STATUS_HANDLE_CREATED:
+            // get the handle now that it has been created so it can be freed up later
+
+            res = (INTERNET_ASYNC_RESULT*)lpvStatusInformation;
+            hURL = (HINTERNET)(res->dwResult);
+
+            break;
+
+        case INTERNET_STATUS_REQUEST_COMPLETE:
+
+			char buffer[10*1024];
+			DWORD dwBytesRead = 0;
+			BOOL bRead = InternetReadFile(hURL,buffer,sizeof(buffer),&dwBytesRead);
+
+			//AfxMessageBox (UpdateResult.Remove("\n") + "-", MB_ICONINFORMATION);
+			//AfxMessageBox (CAppData::m_csDatabaseRevision + "-", MB_ICONINFORMATION);
+
+			Regexp re_updatecheck("<update_check>([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])</update_check>");
+			if ( re_updatecheck.Match( buffer ) )
+			{
+				//AfxMessageBox (re_updatecheck[1], MB_ICONINFORMATION); // min
+				if (re_updatecheck[1] != CAppData::m_csDatabaseRevision)
+				{
+					AfxMessageBox ("A new update for HCC is available! Bwaaa-ak!!\n\nPlease click on \"Live Update\" to start the download.", MB_ICONINFORMATION);
+				}
+			}
+
+            InternetCloseHandle(hURL);
+            InternetSetStatusCallback(hInternetSession, NULL);
+            InternetCloseHandle(hInternetSession);
+
+            hURL = NULL;
+            hInternetSession = NULL;
+
+            break;
+    }
+}
+
+CString CHCCDlg::ReadConfigFile()
+{
+	bool l_bResult = false;
+	XMLParser l_cParser;
+	XMLTag l_cRootTag ("#ROOT#");
+	XMLTag l_cConfigTag ("config");
+
+	CString updateURL = "http://hcc.reclamation.dk/update_check/";
+	l_cParser.OpenFile (CAppData::m_csAppBasePath + cFile_App_Config);
+
+	if (l_cConfigTag.GetNextTag (l_cParser, l_cRootTag))
+	{
+		l_cConfigTag.GetTagValue (l_cParser, (CString) "update_check", updateURL );
+	}
+
+	return updateURL;
+}
+
+
+void CHCCDlg::OnSearchByname()
+{
+	CAppData::m_cItemCreationWnd.OnSearchByname();
+}
+
 
 BOOL CHCCDlg::OnInitDialog()
 {
@@ -259,11 +364,11 @@ BOOL CHCCDlg::OnInitDialog()
 		}
 	}*/
 
-    CMenu* pSysMenu = GetSystemMenu(FALSE); 
-     //remove some options from the system menu 
-     pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND); 
-     pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND); 
-     pSysMenu->RemoveMenu(SC_SIZE,MF_BYCOMMAND); 
+    CMenu* pSysMenu = GetSystemMenu(FALSE);
+     //remove some options from the system menu
+     pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND);
+     pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND);
+     pSysMenu->RemoveMenu(SC_SIZE,MF_BYCOMMAND);
 
 	// Set the icon for this dialog.  The framework does this automatically
 	//  when the application's main window is not a dialog
@@ -274,10 +379,10 @@ BOOL CHCCDlg::OnInitDialog()
 
 	ghDlg = m_hWnd;
 
-	//Create a hot key for the application 
-	m_nHotKeyID_Orders = GlobalAddAtom("ID_HK_ORDERS"); 
-	m_nHotKeyID_Forms = GlobalAddAtom("ID_HK_FORMS"); 
-	m_nHotKeyID_Techs = GlobalAddAtom("ID_HK_TECHS"); 
+	//Create a hot key for the application
+	m_nHotKeyID_Orders = GlobalAddAtom("ID_HK_ORDERS");
+	m_nHotKeyID_Forms = GlobalAddAtom("ID_HK_FORMS");
+	m_nHotKeyID_Techs = GlobalAddAtom("ID_HK_TECHS");
 	m_nHotKeyID_Comps = GlobalAddAtom("ID_HK_COMPS");
 	m_nHotKeyID_Reports = GlobalAddAtom("ID_HK_REPORTS");
 	m_nHotKeyID_Updates = GlobalAddAtom("ID_HK_UPDATES");
@@ -287,16 +392,16 @@ BOOL CHCCDlg::OnInitDialog()
 
 	if (CAppData::m_bGlobalHotkeys)
 	{
-		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Orders,   MOD_SHIFT|MOD_CONTROL, VK_F1); 
-		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Reports,  MOD_SHIFT|MOD_CONTROL, VK_F2); 
-		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Forms,    MOD_SHIFT|MOD_CONTROL, VK_F3); 
-		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Techs,    MOD_SHIFT|MOD_CONTROL, VK_F4); 
-		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Comps,    MOD_SHIFT|MOD_CONTROL, VK_F5); 
-		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Profiles, MOD_SHIFT|MOD_CONTROL, VK_F6); 
-		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Updates,  MOD_SHIFT|MOD_CONTROL, VK_F7); 
-		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_App,		 MOD_SHIFT|MOD_CONTROL, 0x41); 
+		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Orders,   MOD_SHIFT|MOD_CONTROL, VK_F1);
+		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Reports,  MOD_SHIFT|MOD_CONTROL, VK_F2);
+		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Forms,    MOD_SHIFT|MOD_CONTROL, VK_F3);
+		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Techs,    MOD_SHIFT|MOD_CONTROL, VK_F4);
+		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Comps,    MOD_SHIFT|MOD_CONTROL, VK_F5);
+		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Profiles, MOD_SHIFT|MOD_CONTROL, VK_F6);
+		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_Updates,  MOD_SHIFT|MOD_CONTROL, VK_F7);
+		RegisterHotKey(GetSafeHwnd(), m_nHotKeyID_App,		 MOD_SHIFT|MOD_CONTROL, 0x41);
 	}
- 
+
 	CAppData::UpdateDisplayedVersion ();
 
 	CAppData::LoadWindowStates ();
@@ -311,7 +416,7 @@ BOOL CHCCDlg::OnInitDialog()
 	CAppData::SetToolbarState (m_cUpdateButton, false, IDB_TOOLBARUPDATES0, IDB_TOOLBARUPDATES1);
 	//CAppData::SetToolbarState (m_cCrafterSearch, false, IDB_TOOLBARSEARCH0, IDB_TOOLBARSEARCH1);
 	//CAppData::SetToolbarState (m_cSubmitOrder, false, IDB_TOOLBARSUBMIT0, IDB_TOOLBARSUBMIT1);
-	
+
 	//StickButtonBelow (m_cWizardButton, m_cOrderButton);
 	StickButtonBelow (m_cOrderButton, m_cReportButton);
 
@@ -347,12 +452,58 @@ BOOL CHCCDlg::OnInitDialog()
 		CAppData::SetMenuItem(l_pMenu, ID_WINDOW_ALWAYSONTOP, m_cWindowState.m_bOnTop);
 	}
 
+	if (WinVersion.IsVista())
+	{
+		l_pMenu->ModifyMenu(2,MF_BYPOSITION|MF_STRING, 2, "?");
+		//this->ModifyStyle(WS_MINIMIZEBOX, WS_POPUP);
+	}
+
+	//this->ModifyStyle(WS_SYSMENU, WS_CAPTION | WS_POPUP | WS_MINIMIZEBOX);
+	//this->ModifyStyle(WS_MINIMIZEBOX, WS_POPUP);
+	//ShowWindow(SW_MAXIMIZE);
+
+
 	this->GetWindowRect (m_cOrigWnd);
 	this->GetClientRect (m_cOrigClientWnd);
 	ArrangeToolBar();
 
 	UpdateToolBarMenu();
 
+	ShowWindow(SW_SHOW);
+
+	if (CAppData::m_bAutoUpdateQuery)
+	{
+		int nResult = AfxMessageBox ("Would you like HCC to check automatically if there is a more recent version available?\n\nYou can change this setting in the configuration screen.", MB_ICONQUESTION|MB_YESNOCANCEL);
+
+		if (nResult == IDYES)
+		{
+			CAppData::m_bAutoUpdate = true;
+			CAppData::m_bAutoUpdateQuery = false;
+		}
+		else if (nResult == IDNO)
+		{
+			CAppData::m_bAutoUpdate = false;
+			CAppData::m_bAutoUpdateQuery = false;
+		}
+		else
+		{
+			CAppData::m_bAutoUpdate = false;
+			CAppData::m_bAutoUpdateQuery = true;
+		}
+	}
+
+
+	if (CAppData::m_bAutoUpdate)
+	{
+		;
+		hInternetSession = InternetOpen("HCC/" + cAppData_Version, INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, INTERNET_FLAG_ASYNC);
+		if (hInternetSession != NULL)
+        {
+            InternetSetStatusCallback(hInternetSession, (INTERNET_STATUS_CALLBACK)InternetCallbackFunction);
+            hURL = InternetOpenUrl(hInternetSession, CHCCDlg::ReadConfigFile() + "?client=" + cAppData_Version + "&database=" + CAppData::m_csDatabaseRevision, NULL, 0, INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, (unsigned long)(&request_context));
+
+        }
+	}
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
@@ -420,7 +571,7 @@ CHCCDlg::DockWndToBar(CWnd &a_cWnd)
 	{
 		if ((CAppData::m_cTechSelectionWnd.m_cWindowState.m_bLoaded) && (CAppData::m_cItemCreationWnd.m_cWindowState.m_bLoaded))
 		{
-			CAppData::SetTechWindow((&a_cWnd == &CAppData::m_cTechSelectionWnd) || 
+			CAppData::SetTechWindow((&a_cWnd == &CAppData::m_cTechSelectionWnd) ||
 											(&a_cWnd == &CAppData::m_cItemCreationWnd));
 
 			if ((CAppData::m_cItemCreationWnd.m_cWindowState.m_bVisible) &&
@@ -433,7 +584,7 @@ CHCCDlg::DockWndToBar(CWnd &a_cWnd)
 
 		if ((CAppData::m_cReportWnd.m_cWindowState.m_bLoaded) && (CAppData::m_cOrderWnd.m_cWindowState.m_bLoaded))
 		{
-			CAppData::SetReportWindow((&a_cWnd == &CAppData::m_cReportWnd)|| 
+			CAppData::SetReportWindow((&a_cWnd == &CAppData::m_cReportWnd)||
 											  (&a_cWnd == &CAppData::m_cOrderWnd));
 
 			if ((CAppData::m_cOrderWnd.m_cWindowState.m_bVisible) &&
@@ -446,12 +597,12 @@ CHCCDlg::DockWndToBar(CWnd &a_cWnd)
 	}
 }
 
-void CHCCDlg::OnMove(int x, int y) 
+void CHCCDlg::OnMove(int x, int y)
 {
 	CDialog::OnMove(x, y);
-	
+
 	bool l_bMoved = false;
-	
+
 	CRect l_cBarRect;
 	CRect l_cSnapRect;
 
@@ -487,7 +638,7 @@ void CHCCDlg::OnMove(int x, int y)
 	}
 }
 
-void CHCCDlg::OnSize(UINT nType, int cx, int cy) 
+void CHCCDlg::OnSize(UINT nType, int cx, int cy)
 {
 		CDialog::OnSize(nType, cx, cy);
 
@@ -529,7 +680,7 @@ void CHCCDlg::OnSysCommand(UINT nID, LPARAM lParam)
 //  to draw the icon.  For MFC applications using the document/view model,
 //  this is automatically done for you by the framework.
 
-void CHCCDlg::OnPaint() 
+void CHCCDlg::OnPaint()
 {
 	if (IsIconic())
 	{
@@ -565,47 +716,47 @@ void CHCCDlg::OnPaint()
 // Handle Menu Items here
 //////////////////////////////////////////////////////////
 
-void CHCCDlg::OnViewItems() 
+void CHCCDlg::OnViewItems()
 {
 	OnFormbutton() ;
 }
 
-void CHCCDlg::OnViewTechniques() 
+void CHCCDlg::OnViewTechniques()
 {
 	OnTechbutton() ;
 }
 
-void CHCCDlg::OnViewComponents() 
+void CHCCDlg::OnViewComponents()
 {
 	OnCompbutton();
 }
 
-void CHCCDlg::OnViewReports() 
+void CHCCDlg::OnViewReports()
 {
 	OnReportbutton();
 }
 
-void CHCCDlg::OnSettingsOrderwindowSnapshotwindow() 
+void CHCCDlg::OnSettingsOrderwindowSnapshotwindow()
 {
 	CAppData::SetOrderWindowState ();
 }
 
-void CHCCDlg::OnSettingsOrderwindowRestoredefaults() 
+void CHCCDlg::OnSettingsOrderwindowRestoredefaults()
 {
 	CAppData::GetOrderWindowState ();
 }
 
-void CHCCDlg::OnSettingsAllwindowsSnapshotwindows() 
+void CHCCDlg::OnSettingsAllwindowsSnapshotwindows()
 {
 	CAppData::SaveWindowStates ();
 }
 
-void CHCCDlg::OnSettingsAllwindowsRestorealldefaults() 
+void CHCCDlg::OnSettingsAllwindowsRestorealldefaults()
 {
 	CAppData::LoadWindowStates ();
 }
 
-void CHCCDlg::OnSettingsOptions() 
+void CHCCDlg::OnSettingsOptions()
 {
 	COptionsDialog l_cOptionsDialog;
 	l_cOptionsDialog.DoModal ();
@@ -613,7 +764,7 @@ void CHCCDlg::OnSettingsOptions()
 
 //////////////////////////////////////////////////////////
 
-void CHCCDlg::OnOrderbutton() 
+void CHCCDlg::OnOrderbutton()
 {
 	CAppData::SetOrderWindow(!CAppData::m_cOrderWnd.m_cWindowState.m_bVisible);
 
@@ -628,7 +779,7 @@ void CHCCDlg::OnOrderbutton()
 
 }
 
-void CHCCDlg::OnFormbutton() 
+void CHCCDlg::OnFormbutton()
 {
 	CAppData::SetItemWindow(!CAppData::m_cItemCreationWnd.m_cWindowState.m_bVisible);
 
@@ -643,7 +794,7 @@ void CHCCDlg::OnFormbutton()
 
 }
 
-void CHCCDlg::OnTechbutton() 
+void CHCCDlg::OnTechbutton()
 {
 	CAppData::SetTechWindow(!CAppData::m_cTechSelectionWnd.m_cWindowState.m_bVisible);
 
@@ -654,7 +805,7 @@ void CHCCDlg::OnTechbutton()
 }
 
 
-void CHCCDlg::OnCraftersearch() 
+void CHCCDlg::OnCraftersearch()
 {
 	//CAppData::SetToolbarState (m_cCrafterSearch, true, IDB_TOOLBARSEARCH0, IDB_TOOLBARSEARCH1);
 	//AfxMessageBox ("This feature is currently still in progress, and will be made available in a future release", MB_ICONEXCLAMATION );
@@ -664,7 +815,7 @@ void CHCCDlg::OnCraftersearch()
 	l_cCrafterSearchDialog.DoModal ();*/
 }
 
-void CHCCDlg::OnWizardbutton() 
+void CHCCDlg::OnWizardbutton()
 {
 	//CAppData::SetToolbarState (m_cWizardButton, true, IDB_TOOLBARWIZARD0, IDB_TOOLBARWIZARD1);
 	//AfxMessageBox ("This feature is currently still in progress, and will be made available in a future release", MB_ICONEXCLAMATION );
@@ -690,7 +841,7 @@ void CHCCDlg::OnWizardbutton()
 
 }
 
-void CHCCDlg::OnCompbutton() 
+void CHCCDlg::OnCompbutton()
 {
 	CAppData::SetComponentWindow (!CAppData::m_cComponentWnd.m_cWindowState.m_bVisible);
 
@@ -700,7 +851,7 @@ void CHCCDlg::OnCompbutton()
 	}
 }
 
-void CHCCDlg::OnReportbutton() 
+void CHCCDlg::OnReportbutton()
 {
 	CAppData::SetReportWindow (!CAppData::m_cReportWnd.m_cWindowState.m_bVisible);
 
@@ -710,7 +861,7 @@ void CHCCDlg::OnReportbutton()
 	}
 }
 
-void CHCCDlg::OnProfilebutton() 
+void CHCCDlg::OnProfilebutton()
 {
 	CAppData::SetProfileWindow (!CAppData::m_cProfileWnd.m_cWindowState.m_bVisible);
 
@@ -720,7 +871,7 @@ void CHCCDlg::OnProfilebutton()
 	}
 }
 
-void CHCCDlg::OnUpdatebutton() 
+void CHCCDlg::OnUpdatebutton()
 {
 	if (CAppData::m_bUpdateWindowOpen == false)
 	{
@@ -735,17 +886,17 @@ void CHCCDlg::OnUpdatebutton()
 
 //////////////////////////////////////////////////////////
 
-void CHCCDlg::OnClose() 
+void CHCCDlg::OnClose()
 {
 	CAppData::Shutdown ();
 	CDialog::OnCancel();
 }
 
-int CHCCDlg::OnCreate(LPCREATESTRUCT lpCreateStruct) 
+int CHCCDlg::OnCreate(LPCREATESTRUCT lpCreateStruct)
 {
 	if (CDialog::OnCreate(lpCreateStruct) == -1)
 		return -1;
-	
+
 	return 0;
 }
 
@@ -754,20 +905,20 @@ BOOL CHCCDlg::PreCreateWindow(CREATESTRUCT& cs)
 	return (CDialog::PreCreateWindow (cs));
 }
 
-BOOL CHCCDlg::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult) 
+BOOL CHCCDlg::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
 {
 	return CDialog::OnNotify(wParam, lParam, pResult);
 }
 
-void CHCCDlg::OnOK() 
+void CHCCDlg::OnOK()
 {
 }
 
-void CHCCDlg::OnCancel() 
+void CHCCDlg::OnCancel()
 {
 }
 
-void CHCCDlg::OnSettingsReloaddata() 
+void CHCCDlg::OnSettingsReloaddata()
 {
 	CString l_csMsg;
 
@@ -790,112 +941,112 @@ void CHCCDlg::OnSettingsReloaddata()
 	}
 }
 
-void CHCCDlg::OnHelpIndex() 
+void CHCCDlg::OnHelpIndex()
 {
-	CAppData::LaunchWebLink ((CString) "officialsite");	
+	CAppData::LaunchWebLink ((CString) "officialsite");
 }
 
-void CHCCDlg::OnSettingsFormulawindowSnapshotwindow() 
+void CHCCDlg::OnSettingsFormulawindowSnapshotwindow()
 {
 	CAppData::SetFormulaWindowState ();
 }
 
-void CHCCDlg::OnSettingsFormulawindowRestoredefaults() 
+void CHCCDlg::OnSettingsFormulawindowRestoredefaults()
 {
 	CAppData::GetFormulaWindowState ();
 }
 
-void CHCCDlg::OnSettingsTechniquewindowSnapshotwindow() 
+void CHCCDlg::OnSettingsTechniquewindowSnapshotwindow()
 {
 	CAppData::SetTechWindowState ();
 }
 
-void CHCCDlg::OnSettingsTechniquewindowRestoredefaults() 
+void CHCCDlg::OnSettingsTechniquewindowRestoredefaults()
 {
 	CAppData::GetTechWindowState ();
 }
 
-void CHCCDlg::OnSettingsCompwindowSnapshotwindow() 
+void CHCCDlg::OnSettingsCompwindowSnapshotwindow()
 {
 	CAppData::SetCompWindowState ();
 }
 
-void CHCCDlg::OnSettingsCompwindowRestoredefaults() 
+void CHCCDlg::OnSettingsCompwindowRestoredefaults()
 {
 	CAppData::GetCompWindowState ();
 }
 
-void CHCCDlg::OnSettingsReportwindowSnapshotwindow() 
+void CHCCDlg::OnSettingsReportwindowSnapshotwindow()
 {
 	CAppData::SetReportWindowState ();
 }
 
-void CHCCDlg::OnSettingsReportwindowRestoredefaults() 
+void CHCCDlg::OnSettingsReportwindowRestoredefaults()
 {
 	CAppData::GetReportWindowState ();
 }
 
-void CHCCDlg::OnSettingsProfilewindowSnapshotwindow() 
+void CHCCDlg::OnSettingsProfilewindowSnapshotwindow()
 {
 	CAppData::SetProfileWindowState ();
 }
 
-void CHCCDlg::OnSettingsProfilewindowRestoredefaults() 
+void CHCCDlg::OnSettingsProfilewindowRestoredefaults()
 {
 	CAppData::GetProfileWindowState ();
 }
 
-void CHCCDlg::OnShowWindow(BOOL bShow, UINT nStatus) 
+void CHCCDlg::OnShowWindow(BOOL bShow, UINT nStatus)
 {
 	CDialog::OnShowWindow(bShow, nStatus);
 
 	CAppData::GetMainWindowState ();
-	
+
 }
 
-void CHCCDlg::OnSettingsViewOrderwindow() 
+void CHCCDlg::OnSettingsViewOrderwindow()
 {
 	CAppData::SetOrderWindow(true);
 	CAppData::m_cOrderWnd.SetFocus ();
 }
 
-void CHCCDlg::OnViewFormulawindow() 
+void CHCCDlg::OnViewFormulawindow()
 {
 	CAppData::SetItemWindow(true);
 	CAppData::m_cItemCreationWnd.SetFocus ();
 }
 
-void CHCCDlg::OnViewTechniquewindow() 
+void CHCCDlg::OnViewTechniquewindow()
 {
 	CAppData::SetTechWindow(true);
 	CAppData::m_cTechSelectionWnd.SetFocus ();
 }
 
-void CHCCDlg::OnViewComponentwindow() 
+void CHCCDlg::OnViewComponentwindow()
 {
 	CAppData::SetComponentWindow(true);
 	CAppData::m_cComponentWnd.SetFocus ();
 }
 
-void CHCCDlg::OnViewReportwindow() 
+void CHCCDlg::OnViewReportwindow()
 {
 	CAppData::SetReportWindow(true);
 	CAppData::m_cReportWnd.SetFocus ();
 	CAppData::m_cReportWnd.GenerateDirectReport ();
 }
 
-void CHCCDlg::OnViewProfilewindow() 
+void CHCCDlg::OnViewProfilewindow()
 {
 	CAppData::SetProfileWindow(true);
 	CAppData::m_cProfileWnd.SetFocus ();
 }
 
-void CHCCDlg::OnSettingsWindowToolbarwindowSnapshotwindow() 
+void CHCCDlg::OnSettingsWindowToolbarwindowSnapshotwindow()
 {
 	CAppData::SetMainWindowState ();
 }
 
-void CHCCDlg::OnSettingsToolbarwindowRestoredefaults() 
+void CHCCDlg::OnSettingsToolbarwindowRestoredefaults()
 {
 	CAppData::GetMainWindowState ();
 }
@@ -904,7 +1055,7 @@ void CHCCDlg::OnSettingsToolbarwindowRestoredefaults()
 
 
 
-void CHCCDlg::OnAutodock() 
+void CHCCDlg::OnAutodock()
 {
 	if (m_cAutoDock.GetCheck () == 0)
 	{
@@ -961,7 +1112,7 @@ void CHCCDlg::OnAutodock()
 	}
 }
 
-void CHCCDlg::OnWindowAlwaysontop() 
+void CHCCDlg::OnWindowAlwaysontop()
 {
 	m_cWindowState.m_bOnTop = !m_cWindowState.m_bOnTop;
 
@@ -983,7 +1134,7 @@ void CHCCDlg::OnWindowAlwaysontop()
 
 }
 
-void CHCCDlg::OnFileNew() 
+void CHCCDlg::OnFileNew()
 {
 	if (CAppData::m_clOrderList.GetCount () > 0)
 	{
@@ -1031,7 +1182,7 @@ void CHCCDlg::OnFileNew()
 	}
 }
 
-void CHCCDlg::OnFileOpen() 
+void CHCCDlg::OnFileOpen()
 {
 	CFileDialog LoadDlg (true, ".xml", NULL, NULL, "XML Files (*.xml)|*.xml||", NULL);
 
@@ -1043,7 +1194,7 @@ void CHCCDlg::OnFileOpen()
 		if (CAppData::LoadOrder (LoadDlg.GetPathName ()) == false)
 		{
 			AfxMessageBox ("Sorry, HCC doesn't support this version of the order file", MB_ICONSTOP);
-		}	
+		}
 
 		{
 			if (CAppData::m_cOrderWnd.m_cWindowState.m_bLoaded)
@@ -1066,7 +1217,7 @@ void CHCCDlg::OnFileOpen()
 	}
 }
 
-void CHCCDlg::OnFileSave() 
+void CHCCDlg::OnFileSave()
 {
 	if ((CAppData::m_csCurrentOrderFilename.IsEmpty ()) ||
 		 (CAppData::m_csCurrentOrderFilename == "Untitled.xml"))
@@ -1083,7 +1234,7 @@ void CHCCDlg::OnFileSave()
 			{
 				CAppData::m_cOrderWnd.DisplayOrderTitle ();
 			}
-		}	
+		}
 	}
 	else
 	{
@@ -1096,7 +1247,7 @@ void CHCCDlg::OnFileSave()
 	}
 }
 
-void CHCCDlg::OnFileSaveas() 
+void CHCCDlg::OnFileSaveas()
 {
 	CFileDialog SaveDlg (false, ".xml", NULL, OFN_OVERWRITEPROMPT, "XML Files (*.xml)|*.xml||", NULL);
 
@@ -1110,45 +1261,45 @@ void CHCCDlg::OnFileSaveas()
 		{
 			CAppData::m_cOrderWnd.DisplayOrderTitle ();
 		}
-	}		
+	}
 }
 
-void CHCCDlg::OnFileExit() 
+void CHCCDlg::OnFileExit()
 {
 	OnClose ();
-	
+
 }
 
-void CHCCDlg::OnFilePrint() 
+void CHCCDlg::OnFilePrint()
 {
 	CAppData::SetReportWindow(true);
 	CAppData::m_cReportWnd.SetFocus ();
 	CAppData::m_cReportWnd.GenerateDirectReport ();
 }
 
-void CHCCDlg::OnLButtonUp(UINT nFlags, CPoint point) 
+void CHCCDlg::OnLButtonUp(UINT nFlags, CPoint point)
 {
 	CDialog::OnLButtonUp(nFlags, point);
 }
 
-void CHCCDlg::OnKillFocus(CWnd* pNewWnd) 
+void CHCCDlg::OnKillFocus(CWnd* pNewWnd)
 {
 	CDialog::OnKillFocus(pNewWnd);
-	
-	
+
+
 }
 
-void CHCCDlg::OnCaptureChanged(CWnd *pWnd) 
+void CHCCDlg::OnCaptureChanged(CWnd *pWnd)
 {
 	//l_bRestored = false;
-	
+
 	CDialog::OnCaptureChanged(pWnd);
 }
 
-void CHCCDlg::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags) 
+void CHCCDlg::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags)
 {
 	// TODO: Add your message handler code here and/or call default
-	
+
 	CDialog::OnChar(nChar, nRepCnt, nFlags);
 }
 
@@ -1159,14 +1310,14 @@ void CHCCDlg::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 	this->GetWindowRect (l_cRect);
 	int dx;
 	int dy;
-	
+
 	if (lpwndpos->flags & SWP_NOMOVE)
 	{
 	}
 	else
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, NULL, CAppData::m_iStickyStrength);
-		
+
 		if (!m_cpDockWnd)
 		{
 			if (!CAppData::m_bDragWithToolBar)
@@ -1261,34 +1412,34 @@ void CHCCDlg::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 	CDialog::OnWindowPosChanging(lpwndpos);
 }
 
-void CHCCDlg::OnHelpOnelinemanual() 
+void CHCCDlg::OnHelpOnelinemanual()
 {
-	CAppData::LaunchWebLink ((CString) "onlinemanual");	
+	CAppData::LaunchWebLink ((CString) "onlinemanual");
 }
 
-void CHCCDlg::OnHelpReportabug() 
+void CHCCDlg::OnHelpReportabug()
 {
-	CAppData::LaunchWebLink ((CString) "reportbug");	
+	CAppData::LaunchWebLink ((CString) "reportbug");
 }
 
-BOOL CHCCDlg::OnHelpInfo(HELPINFO* pHelpInfo) 
+BOOL CHCCDlg::OnHelpInfo(HELPINFO* pHelpInfo)
 {
 	return (TRUE);
 }
 
-void CHCCDlg::OnOptionsViewLiveupdate() 
+void CHCCDlg::OnOptionsViewLiveupdate()
 {
 	OnUpdatebutton() ;
 }
 
-void CHCCDlg::OnOptionsSettingsRefreshtheme() 
+void CHCCDlg::OnOptionsSettingsRefreshtheme()
 {
 	CScheme::LoadHCCScheme (CAppData::m_csAppBasePath + cPath_App_Theme + "\\" + CAppData::m_csCurrentTheme);
 	CAppData::ApplyCurrentTheme ();
-	
+
 }
 
-void CHCCDlg::OnOptionsOrientationHorizontal() 
+void CHCCDlg::OnOptionsOrientationHorizontal()
 {
 	CAppData::m_bVerticalToolBar = false;
 	ArrangeToolBar();
@@ -1346,7 +1497,7 @@ CHCCDlg::ArrangeToolBar()
 	CAppData::UpdateDisplayedVersion();
 }
 
-void CHCCDlg::OnOptionsOrientationVertical() 
+void CHCCDlg::OnOptionsOrientationVertical()
 {
 	CAppData::m_bVerticalToolBar = true;
 	ArrangeToolBar();
@@ -1364,14 +1515,14 @@ CHCCDlg::UpdateToolBarMenu()
 	}
 }
 
-void CHCCDlg::OnHelpAbout() 
+void CHCCDlg::OnHelpAbout()
 {
 	CAboutDlg l_cAboutDlg;
 
 	l_cAboutDlg.DoModal ();
 }
 
-BOOL CAboutDlg::OnInitDialog() 
+BOOL CAboutDlg::OnInitDialog()
 {
 	CFormulaSet *l_cpFormulaSet;
 	CFormula    *l_cpFormula;
@@ -1383,11 +1534,11 @@ BOOL CAboutDlg::OnInitDialog()
 	int l_iCount;
 	CString l_csCount;
 	CDialog::OnInitDialog();
-	
+
 	m_cTitle.SetWindowText ("HCC v" + cAppData_Version + " (Database Revision: " + CAppData::m_csDatabaseRevision + ")");
-	m_cCountList.InsertColumn (0, "Section", LVCFMT_LEFT, 180, -1);
-	m_cCountList.InsertColumn (1, "Count", LVCFMT_CENTER, 55 -1);
-	
+	m_cCountList.InsertColumn (0, "Section", LVCFMT_LEFT, 160, -1);
+	m_cCountList.InsertColumn (1, "Count", LVCFMT_CENTER, 55, -1);
+
 	l_iCount = 0;
 	l_SetPos = CAppData::m_clFormulaSetList.GetHeadPosition ();
 	while (l_SetPos)

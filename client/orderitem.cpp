@@ -32,6 +32,7 @@ COrderItem::~COrderItem()
 COrderItem::operator =( const COrderItem& pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 

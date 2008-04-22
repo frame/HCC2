@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <formulas>
-	<!-- entries in this file are all manual overrides -->
+	<!--
+		Notice: All entries in this file are OVERRIDES ment for last minute changes, hotfixes and changes across multiple formulae
+		
+		On the long run this file should get incorporated into the main files!
+	-->
 	<item>
 		<item-name>Banner</item-name>
 		<tier>
@@ -48,6 +52,66 @@
 		</tier>
 	</item>
 	<item>
+		<item-name>Cut Gem</item-name>
+			<tier>
+				<tier-name>Ruby</tier-name>
+				<tier-lvl name="VI Ruby">6</tier-lvl>
+				<tier-desc>Processed from uncut ruby, this gemstone is used in trade skills.</tier-desc>
+				<tier-allowedtechniques>0</tier-allowedtechniques>
+				<tier-attributes>
+	      </tier-attributes>
+				<tier-keywords>
+					<tier-keyword>tier_6</tier-keyword>
+				</tier-keywords>
+				<resources>
+					<resource>
+						<resource-name>Uncut Ruby</resource-name>
+						<resource-skill>Gemworking</resource-skill>
+						<resource-min amount="5">1200</resource-min>
+						<resource-opt amount="2">1600</resource-opt>
+					</resource>
+				</resources>
+			</tier>
+			<tier>
+				<tier-name>Sapphire</tier-name>
+				<tier-lvl name="VI Sapphire">6</tier-lvl>
+				<tier-desc>Processed from uncut sapphire, this gemstone is used in trade skills.</tier-desc>
+				<tier-allowedtechniques>0</tier-allowedtechniques>
+				<tier-attributes>
+	      </tier-attributes>
+				<tier-keywords>
+					<tier-keyword>tier_6</tier-keyword>
+				</tier-keywords>
+				<resources>
+					<resource>
+						<resource-name>Uncut Sapphire</resource-name>
+						<resource-skill>Gemworking</resource-skill>
+						<resource-min amount="5">1200</resource-min>
+						<resource-opt amount="2">1600</resource-opt>
+					</resource>
+				</resources>
+			</tier>
+			<tier>
+				<tier-name>Diamond</tier-name>
+				<tier-lvl name="VI Diamond">6</tier-lvl>
+				<tier-desc>Processed from uncut diamond, this gemstone is used in trade skills.</tier-desc>
+				<tier-allowedtechniques>0</tier-allowedtechniques>
+				<tier-attributes>
+	      </tier-attributes>
+				<tier-keywords>
+					<tier-keyword>tier_6</tier-keyword>
+				</tier-keywords>
+				<resources>
+					<resource>
+						<resource-name>Uncut Diamond</resource-name>
+						<resource-skill>Gemworking</resource-skill>
+						<resource-min amount="5">1200</resource-min>
+						<resource-opt amount="2">1600</resource-opt>
+					</resource>
+				</resources>
+			</tier>
+	</item>
+	<item>
 		<item-name>Gift of Alacrity</item-name>
 		<item-attributes>
 			<item-attribute type="effectDuration">02:00:00</item-attribute>
@@ -75,7 +139,7 @@
 		<tier>
 			<tier-name>Lair Mural - Standard</tier-name>
 			<tier-lvl name="Standard">1</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 			</tier-attributes>
 			<resources>
@@ -132,7 +196,7 @@
 		<tier>
 			<tier-name>Lair Mural - Standard</tier-name>
 			<tier-lvl name="Standard">1</tier-lvl>
-			<tier-desc></tier-desc>
+			<tier-desc/>
 			<tier-attributes>
 			</tier-attributes>
 			<resources>
@@ -179,6 +243,34 @@
 					<resource-opt amount="2">201</resource-opt>
 				</resource>
 			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Scale of Dance</item-name>
+		<tier>
+			<tier-name>Scale of Dance</tier-name>
+			<tier-allowedtechniques>-1</tier-allowedtechniques>
+		</tier>
+	</item>
+	<item>
+		<item-name>Scale of Melody</item-name>
+		<tier>
+			<tier-name>Scale of Melody</tier-name>
+			<tier-allowedtechniques>-1</tier-allowedtechniques>
+		</tier>
+	</item>
+	<item>
+		<item-name>Scale of Revelry</item-name>
+		<tier>
+			<tier-name>Scale of Revelry</tier-name>
+			<tier-allowedtechniques>-1</tier-allowedtechniques>
+		</tier>
+	</item>
+	<item>
+		<item-name>Scale of the Feast</item-name>
+		<tier>
+			<tier-name>Scale of the Feast</tier-name>
+			<tier-allowedtechniques>-1</tier-allowedtechniques>
 		</tier>
 	</item>
 </formulas>

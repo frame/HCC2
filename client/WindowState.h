@@ -9,7 +9,7 @@
 #pragma once
 #endif // _MSC_VER > 1000
 
-class CWindowState  
+class CWindowState
 {
 public:
 	bool SnapToWnd(WINDOWPOS* lpwndpos, CRect *a_cpOrigRect, CWnd *a_cpWnd, int a_iRange);
@@ -28,7 +28,7 @@ public:
 	int m_iWidth;
 	int m_iHeight;
 	bool m_bOnTop;
-	
+
 	bool m_bVisible;
 	bool m_bLoaded;
 

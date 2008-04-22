@@ -28,6 +28,7 @@ CSkill::~CSkill()
 CSkill::operator =( const CSkill* pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 

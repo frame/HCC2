@@ -119,16 +119,16 @@ END_EVENTSINK_MAP()
 /////////////////////////////////////////////////////////////////////////////
 // CItemCreation message handlers
 
-BOOL CItemCreation::OnInitDialog() 
+BOOL CItemCreation::OnInitDialog()
 {
 	CDialog::OnInitDialog();
-	
-   //remove some options from the system menu 
-   CMenu* pSysMenu = GetSystemMenu(FALSE); 
-   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND); 
+
+   //remove some options from the system menu
+   CMenu* pSysMenu = GetSystemMenu(FALSE);
+   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND);
 
 	m_bResize = false;
 	m_iResourceListDelta = 0;
@@ -164,19 +164,19 @@ BOOL CItemCreation::OnInitDialog()
 	              // EXCEPTION: OCX Property Pages should return FALSE
 }
 
-void CItemCreation::OnSize(UINT nType, int cx, int cy) 
+void CItemCreation::OnSize(UINT nType, int cx, int cy)
 {
 	RedrawOff ();
 
 	CDialog::OnSize(nType, cx, cy);
-	
+
 	ResizeGrids ();
 
 	RedrawOn ();
 
 }
 
-void CItemCreation::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI) 
+void CItemCreation::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 {
 	CDialog::OnGetMinMaxInfo (lpMMI);
 
@@ -253,7 +253,7 @@ CItemCreation::ResizeGrids()
 
 CItemCreation::StartUp()
 {
-	
+
 	this->Create (IDD_ITEMDIALOG, CWnd::GetDesktopWindow ());
 	m_cWindowState.m_bLoaded = true;
 
@@ -334,8 +334,9 @@ CItemCreation::Initialise()
 	m_cResourceGrid.SetForeColorSel (CScheme::GetColour ("SELECTCOLOUR_FG"));
 	m_cResourceGrid.SetBackColorSel (CScheme::GetColour ("SELECTCOLOUR_BG"));
 	m_cTierGrid.SetRows (1);
-	m_cTierGrid.SetFormatString ("^Tiers");
-	m_cTierGrid.SetColWidth (0, 1700);
+	m_cTierGrid.SetFormatString ("^Tiers / Variants");
+	//m_cTierGrid.SetColWidth (0, 1700);
+	m_cTierGrid.SetColWidth (0, 2400);
 	m_cTierGrid.SetBackColor (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
 	m_cTierGrid.SetBackColorBkg (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
 	m_cTierGrid.SetGridColorFixed (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
@@ -363,13 +364,13 @@ CItemCreation::Initialise()
 	UpdateResourceGridMenu();
 }
 
-void CItemCreation::OnClose() 
-{	
+void CItemCreation::OnClose()
+{
 	CAppData::SetItemWindow (false);
 	CDialog::OnClose();
 }
 
-void CItemCreation::OnCancel() 
+void CItemCreation::OnCancel()
 {
 	EndEditCell (false);
 }
@@ -455,14 +456,14 @@ CItemCreation::DrawFormulaList()
 	m_cFormulaTree.DeleteAllItems ();
 	l_csFilterName = CAppData::m_cFormFilter;
 	l_csFilterName.MakeLower ();
-	
+
 	l_FormulaSetPos = CAppData::m_clFormulaSetList.GetHeadPosition ();
 	while (l_FormulaSetPos)
 	{
 		l_cpFormulaSet = CAppData::m_clFormulaSetList.GetNext (l_FormulaSetPos);
 
 		if ((l_cpFormulaSet->m_csCategory == CAppData::m_csLastFormulaCategory) ||
-			(CAppData::m_csLastFormulaCategory == cNo_Filter) || 
+			(CAppData::m_csLastFormulaCategory == cNo_Filter) ||
 			(CAppData::m_csLastFormulaCategory == cCustom_Filter))
 		{
 			l_hTypeItem = m_cFormulaTree.FindTreeItem (l_cpFormulaSet->m_csName, 0);
@@ -551,7 +552,7 @@ CItemCreation::DrawFormulaList()
 					}
 				}
 			}
-		
+
 			l_csCategoryText.Format ("%s (%d/%d)", l_cpFormulaSet->m_csName, l_iCatShow, l_iCatTotal);
 			m_cFormulaTree.SetItemText (l_hTypeItem, l_csCategoryText);
 
@@ -641,7 +642,7 @@ CItemCreation::SelectCategory(CString a_csCategory)
 	}
 }
 
-void CItemCreation::OnSelchangedFormulatree(NMHDR* pNMHDR, LRESULT* pResult) 
+void CItemCreation::OnSelchangedFormulatree(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	NM_TREEVIEW* pNMTreeView = (NM_TREEVIEW*)pNMHDR;
 
@@ -849,6 +850,13 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, CAppData::m_csEffectList_Bonuses,
 												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 
+				// New Timer
+				l_bHeader = false;
+				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_Timer,
+												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
+				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_Timer,
+												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
+
 				DisplayTechBonuses ();
 
 				// Construction Formulas
@@ -882,7 +890,7 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 				l_bHeader = false;
 				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, CAppData::m_csEffectList_Requirements,
 												 "Requirements", m_cItemInfoGrid, GRID_REQUIREMENT, &m_cSizingBox, "- ", l_bHeader);
-				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, CAppData::m_csEffectList_Requirements, 
+				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, CAppData::m_csEffectList_Requirements,
 												 "Requirements", m_cItemInfoGrid, GRID_REQUIREMENT, &m_cSizingBox, "- ", l_bHeader);
 
 				// Bulk
@@ -929,11 +937,11 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 				l_bHeader = false;
 				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_TargetEffect,
 												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
-				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_TargetEffect, 
+				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_TargetEffect,
 												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 
 				DisplayTechEffects ();
-				
+
 				AdjustTechUsage ();
 
 				if (l_bHeader)
@@ -978,7 +986,7 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 			RedrawOn ();
 			ResizeGrids ();
 		}
-		
+
 		m_bDisplayFormula = false;
 	}
 }
@@ -1046,7 +1054,7 @@ void CItemCreation::ModifyLine (CString a_csLineName, CString a_csAttributeType,
 				l_iValue1 += (l_iValue4 / 2);
 				l_iValue2 += (l_iValue4);
 
-				
+
 				l_csLineValue.Format ("%d-%d", l_iValue1, l_iValue2);
 			}
 			else if (a_csAttributeType == cXMLAttribute_HealModifier)
@@ -1056,7 +1064,7 @@ void CItemCreation::ModifyLine (CString a_csLineName, CString a_csAttributeType,
 				l_iValue1 += (l_iValue3);
 				l_iValue2 += (l_iValue4);
 
-				
+
 				l_csLineValue.Format ("%d-%d", l_iValue1, l_iValue2);
 			}
 
@@ -1345,7 +1353,7 @@ CItemCreation::EnableScreen()
 	m_cTierGrid.SetEnabled (true);
 	m_cShowLevels.EnableWindow (true);
 	m_cAddItemButton.EnableWindow (true);
-	
+
 	if (CAppData::m_bEditMode)
 	{
 		m_cAddItemButton.SetWindowText ("Increase Qty");
@@ -1372,12 +1380,12 @@ CItemCreation::AddSummaryLine(CString a_csName, int a_iStyle)
 	m_cItemInfoGrid.AddRow (a_csName, a_iStyle, &m_cSizingBox);
 }
 
-void CItemCreation::OnRowColChangeTiergrid() 
+void CItemCreation::OnRowColChangeTiergrid()
 {
 
 }
 
-void CItemCreation::OnClickTiergrid() 
+void CItemCreation::OnClickTiergrid()
 {
 	int l_irow = m_cTierGrid.GetRowSel ();
 	CString l_csTierName = "";
@@ -1434,10 +1442,23 @@ void CItemCreation::OnClickTiergrid()
 
 					if (CAppData::m_bEditMode)
 					{
-						CAppData::UpdateOrderItem (CAppData::m_cCurrentOrderItem);
-						CAppData::m_cOrderWnd.DisplayOrder ();
-						CAppData::m_cOrderWnd.DisplayOrderItem (CAppData::m_cCurrentOrderItem.m_iId);
-						CAppData::ChangeOrderState (true);
+						if (GetKeyState(VK_SHIFT)<0)
+						{
+							CAppData::UpdateOrderItem (CAppData::m_cCurrentOrderItem);
+							CAppData::m_cOrderWnd.DisplayOrder ();
+							CAppData::m_cOrderWnd.DisplayOrderItem (CAppData::m_cCurrentOrderItem.m_iId);
+							CAppData::ChangeOrderState (true);
+						}
+						else
+						{
+							//CAppData::m_cOrderWnd.DisplayOrder ();
+							//CAppData::m_cOrderWnd.DisplayOrderItem (0);
+
+							//CAppData::m_cItemCreationWnd.DisplayItems();
+							CAppData::m_cItemCreationWnd.ResetItemEdit();
+						}
+
+
 					}
 				}
 			}
@@ -1464,8 +1485,9 @@ CItemCreation::DisplayFormulaTiers()
 	int l_iCurrentTierRow = 1;
 
 	m_cTierGrid.SetRows (1);
-	m_cTierGrid.SetFormatString ("^Tiers");
-	m_cTierGrid.SetColWidth (0, 1600);
+	m_cTierGrid.SetFormatString ("^Tiers / Variants");
+	//m_cTierGrid.SetColWidth (0, 1600);
+	m_cTierGrid.SetColWidth (0, 2400);
 
 	if (CAppData::m_cpCurrentFormula)
 	{
@@ -1511,7 +1533,7 @@ CItemCreation::DisplayFormulaTiers()
 }
 
 
-void CItemCreation::OnAdditem() 
+void CItemCreation::OnAdditem()
 {
 	if (CAppData::m_bEditMode)
 	{
@@ -1526,6 +1548,11 @@ void CItemCreation::OnAdditem()
 		CAppData::m_clOrderList.AddTail (CAppData::m_cCurrentOrderItem);
 		CAppData::m_iCurrentOrderId = CAppData::m_cCurrentOrderItem.m_iId;
 		CAppData::m_bEditMode = true;
+
+		CAppData::m_cCurrentOrderItem.m_iQty = 1;
+		//CAppData::m_cOrderWnd.m_iQty = 1;
+		CAppData::m_cOrderWnd.m_cItemQty.SetWindowText ("1");
+
 		m_cAddItemButton.EnableWindow (true);
 		m_cAddItemButton.SetWindowText ("Increase Qty");
 		CAppData::m_cOrderWnd.DisplayOrder();
@@ -1536,7 +1563,7 @@ void CItemCreation::OnAdditem()
 	CAppData::ChangeOrderState (true);
 }
 
-void CItemCreation::OnItemexpandingFormulatree(NMHDR* pNMHDR, LRESULT* pResult) 
+void CItemCreation::OnItemexpandingFormulatree(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	NM_TREEVIEW* pNMTreeView = (NM_TREEVIEW*)pNMHDR;
 
@@ -1550,12 +1577,12 @@ void CItemCreation::OnItemexpandingFormulatree(NMHDR* pNMHDR, LRESULT* pResult)
 	//}
 }
 
-BOOL CItemCreation::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult) 
+BOOL CItemCreation::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
 {
 	LPNMHDR pNmhdr = (LPNMHDR)lParam;
 	static HBRUSH l_hFillBrush1 = CreateSolidBrush (0x00000000);
 	static HBRUSH l_hFillBrush2 = CreateSolidBrush (0x00FFFFFF);
-	
+
 	switch (pNmhdr->code)
 	{
 		case NM_CUSTOMDRAW:
@@ -1565,8 +1592,8 @@ BOOL CItemCreation::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
 			{
 				case CDDS_PREPAINT:
 				{
-					// Need to process this case and set pResult to CDRF_NOTIFYITEMDRAW, 
-					// otherwise parent will never receive CDDS_ITEMPREPAINT notification. (GGH) 
+					// Need to process this case and set pResult to CDRF_NOTIFYITEMDRAW,
+					// otherwise parent will never receive CDDS_ITEMPREPAINT notification. (GGH)
 					*pResult = CDRF_NOTIFYITEMDRAW;
 					return true;
 				}
@@ -1641,7 +1668,7 @@ BOOL CItemCreation::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
 					*pResult = CDRF_SKIPDEFAULT;
 					return false;
 				}
-					
+
 
 			}
 		}
@@ -1741,7 +1768,7 @@ CItemCreation::AddTechResources()
 	}
 }
 
-void CItemCreation::OnRemovetech() 
+void CItemCreation::OnRemovetech()
 {
 	POSITION l_Pos;
 	int l_iOffset = m_cTechGrid.GetRowSel ();
@@ -1807,12 +1834,12 @@ CItemCreation::SelectFormula(COrderItem l_cOrderItem)
 
 }
 
-void CItemCreation::OnOptionsSnapshotwindow() 
+void CItemCreation::OnOptionsSnapshotwindow()
 {
 	CAppData::SetFormulaWindowState ();
 }
 
-void CItemCreation::OnOptionsRestorewindow() 
+void CItemCreation::OnOptionsRestorewindow()
 {
 	CAppData::GetFormulaWindowState ();
 }
@@ -1853,9 +1880,9 @@ CItemCreation::ResetCurrentFormula()
 	}
 }
 
-void CItemCreation::OnShowlevels() 
+void CItemCreation::OnShowlevels()
 {
-	CAppData::SetSkillLevelWindow (true);	
+	CAppData::SetSkillLevelWindow (true);
 
 	CAppData::m_cSkillLevelWnd.DisplaySkillLevels ();
 }
@@ -1865,7 +1892,7 @@ CItemCreation::ResizeResourceGrid()
 	if (m_cWindowState.m_bLoaded)
 	{
 		int l_iResize;
-		
+
 		if (!CAppData::m_bAutoShrink)
 		{
 			l_iResize = CAppData::ConvertGridWidthToScreen ((CAppData::m_iItemResourceSize - 4) * m_cResourceGrid.GetRowHeight (0));
@@ -2000,7 +2027,7 @@ CItemCreation::AddToResources(CItemResource *a_cpResource, int a_iStyle, int a_i
 			l_iProfileSkill = CAppData::m_cpCurrentProfile->FindCraftSkill (a_cpResource->m_csSkill);
 			l_iProfileQty = CAppData::CalculateEfficiency (a_cpResource, CAppData::m_cpCurrentProfile, a_iSkillAdjust);
 			l_iProfileEffiency = CAppData::CalculateEfficiencyPercentage (a_cpResource, CAppData::m_cpCurrentProfile, a_iSkillAdjust);
- 
+
 			if (l_iProfileEffiency > -1)
 			{
 				l_csStr.Format ("%s\t%d%%\t%d\t%s\t%d\t%d\t%d", a_cpResource->m_csName, l_iProfileEffiency, l_iProfileQty * a_iBaseQty, a_cpResource->m_csSkill, a_cpResource->m_iMinLvl + a_iSkillAdjust, a_cpResource->m_iOptLvl + a_iSkillAdjust, l_iProfileSkill);
@@ -2027,11 +2054,11 @@ CItemCreation::AddToResources(CItemResource *a_cpResource, int a_iStyle, int a_i
 
 			if ((l_iProfileQty % l_cpResourceFormula->m_iBatchQty) == 0)
 			{
-				l_iProfileQty = (l_iProfileQty / l_cpResourceFormula->m_iBatchQty); 
+				l_iProfileQty = (l_iProfileQty / l_cpResourceFormula->m_iBatchQty);
 			}
 			else
 			{
-				l_iProfileQty = (l_iProfileQty / l_cpResourceFormula->m_iBatchQty) + 1; 
+				l_iProfileQty = (l_iProfileQty / l_cpResourceFormula->m_iBatchQty) + 1;
 			}
 
 			l_iBaseQty = l_iProfileQty * a_iBaseQty;
@@ -2076,11 +2103,11 @@ CItemCreation::AddBaseResources(CItemResource *a_cpResource, int a_iStyle, int a
 
 		if ((l_iProfileQty % l_cpResourceFormula->m_iBatchQty) == 0)
 		{
-			l_iProfileQty = (l_iProfileQty / l_cpResourceFormula->m_iBatchQty); 
+			l_iProfileQty = (l_iProfileQty / l_cpResourceFormula->m_iBatchQty);
 		}
 		else
 		{
-			l_iProfileQty = (l_iProfileQty / l_cpResourceFormula->m_iBatchQty) + 1; 
+			l_iProfileQty = (l_iProfileQty / l_cpResourceFormula->m_iBatchQty) + 1;
 		}
 
 		l_iBaseQty = l_iProfileQty * a_iBaseQty;
@@ -2151,18 +2178,18 @@ CItemCreation::RedrawOff()
 	RedrawCount--;
 }
 
-void CItemCreation::OnPaint() 
+void CItemCreation::OnPaint()
 {
 	if (RedrawCount<0) return;
 
 	CPaintDC dc(this); // device context for painting
-	
+
 	// TODO: Add your message handler code here
-	
+
 	// Do not call CDialog::OnPaint() for painting messages
 }
 
-void CItemCreation::OnOK() 
+void CItemCreation::OnOK()
 {
 	EndEditCell (true);
 }
@@ -2190,7 +2217,7 @@ CItemCreation::DisplayProfiles()
 		}
 	}
 
-	m_cProfileSelecter.SetCurSel (l_iOffset); 
+	m_cProfileSelecter.SetCurSel (l_iOffset);
 	//CAppData::FindProfile (CAppData::m_csCurrentProfile, CAppData::m_csCurrentProfileType, &CAppData::m_cpCurrentProfile);
 }
 
@@ -2215,10 +2242,10 @@ CItemCreation::DisplayItems()
 		}
 	}
 
-	m_cItemSelecter.SetCurSel (l_iOffset); 
+	m_cItemSelecter.SetCurSel (l_iOffset);
 }
 
-void CItemCreation::OnSelchangeProfileselecter() 
+void CItemCreation::OnSelchangeProfileselecter()
 {
 	CString l_csCurProfile;
 	CString l_csProfileName;
@@ -2244,18 +2271,18 @@ void CItemCreation::OnSelchangeProfileselecter()
 	}
 }
 
-void CItemCreation::OnOptionsResourcebreakdownShowformularesource() 
+void CItemCreation::OnOptionsResourcebreakdownShowformularesource()
 {
-	CAppData::m_iShowResourceMode = 0;	
+	CAppData::m_iShowResourceMode = 0;
 	DrawFormulaList();
 	DisplayFormula (false);
 
 	UpdateResourceBreakdownMenu();
 }
 
-void CItemCreation::OnOptionsShowsubcomponents() 
+void CItemCreation::OnOptionsShowsubcomponents()
 {
-	CAppData::m_iShowResourceMode = 1;	
+	CAppData::m_iShowResourceMode = 1;
 	DrawFormulaList();
 	DisplayFormula (false);
 	AddTemporaryFormulas ();
@@ -2263,34 +2290,34 @@ void CItemCreation::OnOptionsShowsubcomponents()
 	UpdateResourceBreakdownMenu();
 }
 
-void CItemCreation::OnOptionsShowbaseresource() 
+void CItemCreation::OnOptionsShowbaseresource()
 {
-	CAppData::m_iShowResourceMode = 2;	
+	CAppData::m_iShowResourceMode = 2;
 	DrawFormulaList();
 	DisplayFormula (false);
 
 	UpdateResourceBreakdownMenu();
 }
 
-void CItemCreation::OnOptionsAutoexpandOff() 
+void CItemCreation::OnOptionsAutoexpandOff()
 {
-	CAppData::m_iExpandFormulaMode = 0;	
+	CAppData::m_iExpandFormulaMode = 0;
 	UpdateAutoExpandMenu();
 }
 
-void CItemCreation::OnOptionsAutoexpandCurrentcategory() 
+void CItemCreation::OnOptionsAutoexpandCurrentcategory()
 {
-	CAppData::m_iExpandFormulaMode = 1;	
+	CAppData::m_iExpandFormulaMode = 1;
 	UpdateAutoExpandMenu();
 }
 
-void CItemCreation::OnOptionsAutoexpandAllcategories() 
+void CItemCreation::OnOptionsAutoexpandAllcategories()
 {
-	CAppData::m_iExpandFormulaMode = 2;	
+	CAppData::m_iExpandFormulaMode = 2;
 	UpdateAutoExpandMenu();
 }
 
-void CItemCreation::OnCollapse() 
+void CItemCreation::OnCollapse()
 {
 	HTREEITEM l_TreeItem;
 
@@ -2356,7 +2383,7 @@ CString CItemCreation::GetCategory()
 	}
 }
 
-void CItemCreation::OnClickFilterlist(NMHDR* pNMHDR, LRESULT* pResult) 
+void CItemCreation::OnClickFilterlist(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	CAppData::m_csLastFormulaCategory = GetCategory ();
 
@@ -2371,19 +2398,19 @@ void CItemCreation::OnClickFilterlist(NMHDR* pNMHDR, LRESULT* pResult)
 	*pResult = 0;
 }
 
-void CItemCreation::OnKeydownFilterlist(NMHDR* pNMHDR, LRESULT* pResult) 
+void CItemCreation::OnKeydownFilterlist(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	LV_KEYDOWN* pLVKeyDow = (LV_KEYDOWN*)pNMHDR;
-	
+
 	*pResult = 1;
 }
 
-void CItemCreation::OnHelpHelp() 
+void CItemCreation::OnHelpHelp()
 {
-	CAppData::LaunchWebLink ((CString) "formulawindow");	
+	CAppData::LaunchWebLink ((CString) "formulawindow");
 }
 
-void CItemCreation::OnExpand() 
+void CItemCreation::OnExpand()
 {
 	HTREEITEM l_TreeItem;
 
@@ -2402,13 +2429,13 @@ CItemCreation::SelectCurrentFormula(HTREEITEM l_TreeItem)
 	CString l_csFormula;
 	int l_iLevel = 0;
 	bool l_bFormulaMatch;
-	
-	if (m_bFormulaTreeExpand == false) 
+
+	if (m_bFormulaTreeExpand == false)
 	{
-		CAppData::m_bEditMode = false;	
+		CAppData::m_bEditMode = false;
 		l_iLevel = m_cFormulaTree.GetItemLevel (l_TreeItem);
 		m_cItemSelecter.SetCurSel (0);
- 
+
 		if (l_iLevel == 1)
 		{
 			CAppData::m_cpCurrentFormula = NULL;
@@ -2465,7 +2492,7 @@ CItemCreation::SelectCurrentFormula(HTREEITEM l_TreeItem)
 				}
 
 			}
-			else 
+			else
 			{
 				if (l_iLevel >= 3)
 				{
@@ -2488,12 +2515,12 @@ CItemCreation::SelectCurrentFormula(HTREEITEM l_TreeItem)
 
 }
 
-void CItemCreation::OnDblClickResourcegrid() 
+void CItemCreation::OnDblClickResourcegrid()
 {
 	StartEditCell();
 }
 
-void CItemCreation::OnScrollResourcegrid() 
+void CItemCreation::OnScrollResourcegrid()
 {
 	EndEditCell (false);
 }
@@ -2555,13 +2582,13 @@ CItemCreation::EndEditCell(bool a_bSuccess)
 	}
 }
 
-void CItemCreation::OnKillfocusSkilledit() 
+void CItemCreation::OnKillfocusSkilledit()
 {
 	EndEditCell(false);
 }
 
 
-void CItemCreation::OnMove(int x, int y) 
+void CItemCreation::OnMove(int x, int y)
 {
 	CDialog::OnMove(x, y);
 }
@@ -2570,10 +2597,10 @@ void CItemCreation::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 {
 	CRect l_cRect;
 	this->GetWindowRect (l_cRect);
-	
+
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, NULL, CAppData::m_iStickyStrength);
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, CAppData::m_cpHCCDlg, CAppData::m_iStickyStrength);
-	
+
 	if (CAppData::m_cOrderWnd.m_cWindowState.m_bVisible)
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cOrderWnd, CAppData::m_iStickyStrength);
@@ -2598,11 +2625,11 @@ void CItemCreation::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cProfileWnd, CAppData::m_iStickyStrength);
 	}
-	
+
 	CDialog::OnWindowPosChanging(lpwndpos);
 }
 
-void CItemCreation::OnSelchangeItemselecter() 
+void CItemCreation::OnSelchangeItemselecter()
 {
 	COrderItem l_cOrderItem;
 	int l_iOffset;
@@ -2645,7 +2672,7 @@ void CItemCreation::OnSelchangeItemselecter()
 	}
 }
 
-void CItemCreation::OnWindowAlwaysontop() 
+void CItemCreation::OnWindowAlwaysontop()
 {
 	m_cWindowState.m_bOnTop = !m_cWindowState.m_bOnTop;
 
@@ -2667,14 +2694,14 @@ void CItemCreation::OnWindowAlwaysontop()
 
 }
 
-BOOL CItemCreation::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt) 
+BOOL CItemCreation::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 {
 	int l_iTop = m_cItemInfoGrid.GetTopRow ();
 
 	if ((zDelta > 0) && (l_iTop > 0))
 	{
 		l_iTop--;
-	} 
+	}
 	else if (zDelta < 0)
 	{
 		l_iTop++;
@@ -2688,37 +2715,37 @@ BOOL CItemCreation::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 	return CDialog::OnMouseWheel(nFlags, zDelta, pt);
 }
 
-void CItemCreation::OnOptionsResourcegridLimitto4rows() 
+void CItemCreation::OnOptionsResourcegridLimitto4rows()
 {
 	CAppData::m_iItemResourceSize	= 4;
 	UpdateResourceGridMenu();
 }
 
-void CItemCreation::OnOptionsResourcegridLimitto8rows() 
+void CItemCreation::OnOptionsResourcegridLimitto8rows()
 {
 	CAppData::m_iItemResourceSize	= 8;
 	UpdateResourceGridMenu();
 }
 
-void CItemCreation::OnOptionsResourcegridLimitto12rows() 
+void CItemCreation::OnOptionsResourcegridLimitto12rows()
 {
 	CAppData::m_iItemResourceSize	= 12;
 	UpdateResourceGridMenu();
 }
 
-void CItemCreation::OnOptionsResourcegridUnlimited() 
+void CItemCreation::OnOptionsResourcegridUnlimited()
 {
 	CAppData::m_iItemResourceSize	= 16;
 	UpdateResourceGridMenu();
 }
 
-void CItemCreation::OnOptionsResourcegridAutoshrink() 
+void CItemCreation::OnOptionsResourcegridAutoshrink()
 {
 	CAppData::m_bAutoShrink	= !CAppData::m_bAutoShrink;
 	UpdateResourceGridMenu();
 }
 
-void CItemCreation::OnSearchByname() 
+void CItemCreation::OnSearchByname()
 {
 	CInputDialog l_cInputDialog (this);
 
@@ -2736,10 +2763,10 @@ void CItemCreation::OnSearchByname()
 		CAppData::m_cItemCreationWnd.DrawFormulaList ();
 		CAppData::SetItemWindow(true);
 	}
-	
+
 }
 
-void CItemCreation::OnSearchByclass() 
+void CItemCreation::OnSearchByclass()
 {
 	CInputListDialog l_cInputDialog (this);
 
@@ -2821,10 +2848,10 @@ void CItemCreation::OnSearchByclass()
 		CAppData::m_cItemCreationWnd.DrawFormulaList ();
 		CAppData::SetItemWindow(true);
 	}
-	
+
 }
 
-BOOL CItemCreation::OnHelpInfo(HELPINFO* pHelpInfo) 
+BOOL CItemCreation::OnHelpInfo(HELPINFO* pHelpInfo)
 {
 	return (TRUE);
 }
@@ -2836,11 +2863,10 @@ CItemCreation::ResetItemEdit()
 	m_cAddItemButton.EnableWindow (true);
 	m_cAddItemButton.SetWindowText ("Add Item");
 	m_cItemSelecter.SetCurSel (0);
-
 }
 
-void CItemCreation::OnClickFormulatree(NMHDR* pNMHDR, LRESULT* pResult) 
+void CItemCreation::OnClickFormulatree(NMHDR* pNMHDR, LRESULT* pResult)
 {
-	
+
 	*pResult = 0;
 }

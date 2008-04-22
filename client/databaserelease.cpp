@@ -27,6 +27,7 @@ CDatabaseRelease::~CDatabaseRelease()
 CDatabaseRelease::operator =( const CDatabaseRelease& pSrc )
 {
    CopyObject (pSrc);
+   return true;
 }
 
 

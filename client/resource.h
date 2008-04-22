@@ -270,6 +270,7 @@
 #define IDC_DATABASEHEADER              1147
 #define IDC_ONLINEHEADER                1148
 #define IDC_COUNTLIST                   1149
+#define IDC_AUTOUPDATECHECK             1150
 #define ID_FILE_SAVEAS                  32774
 #define ID_FILE_EXIT                    32775
 #define ID_EDIT_DELETE                  32777
@@ -375,7 +376,7 @@
 #define ID_OPTIONS_RESOURCEGRID_AUTOSHRINK 32911
 
 // Next default values for new objects
-// 
+//
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        232
