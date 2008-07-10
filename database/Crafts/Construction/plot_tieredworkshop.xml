@@ -3231,7 +3231,7 @@
 		</tier>
 	</item>
 	<item>
-		<item-name>Pottery Shop</item-name>
+		<item-name>Pottery Workshop</item-name>
 		<item-icon>Internal_shop_pottery.png</item-icon>
 		<tier>
 			<tier-name>Beginner Pottery Workshop</tier-name>
@@ -3329,6 +3329,145 @@
 			<tier-desc/>
 			<tier-attributes>
 				<tier-attribute type="structuremachine">Expert Pottery Wheel and Kiln</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Marble Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="2">1000</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Marble Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>5</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="2">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cauldron Workshop</item-name>
+		<item-icon>Internal_shop_pottery.png</item-icon>
+		<tier>
+			<tier-name>Beginner Cauldron Workshop</tier-name>
+			<tier-lvl name="Beginner">1</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structuremachine">Beginner Cauldron</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Bronze Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>5</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="2">201</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="2">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Journeyman Cauldron Workshop</tier-name>
+			<tier-lvl name="Journeyman">3</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structuremachine">Journeyman Cauldron</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Elm Construction Braces</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Construction Timber</resource-name>
+					<resource-skill>Carpentry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Construction Jointing</resource-name>
+					<resource-skill>Fitting</resource-skill>
+					<resource-units>5</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Block</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Construction Keystones</resource-name>
+					<resource-skill>Masonry</resource-skill>
+					<resource-units>10</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Expert Cauldron Workshop</tier-name>
+			<tier-lvl name="Expert">5</tier-lvl>
+			<tier-desc/>
+			<tier-attributes>
+				<tier-attribute type="structuremachine">Expert Cauldron</tier-attribute>
 			</tier-attributes>
 			<resources>
 				<resource>

@@ -2888,4 +2888,353 @@
 			</resources>
 		</tier>
 	</item>
+	<item>
+		<item-name>Primal Health</item-name>
+		<item-icon>icon_formula_s_05_09_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="reqClass">DRAG</item-attribute>
+			<item-attribute type="castDelay">20</item-attribute>
+			<item-attribute type="range">20</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>primal</item-keyword>
+			<item-keyword>skill_use_magic_primal</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>heal</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Primal Health I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="healAmount">25-29</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (12)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (120)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">120</resource-min>
+					<resource-opt amount="5">220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Health II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="healAmount">65-69</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (32)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (320)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">320</resource-min>
+					<resource-opt amount="5">445</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">320</resource-min>
+					<resource-opt amount="9">445</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Health III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="healAmount">105-109</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (52)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (520)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">520</resource-min>
+					<resource-opt amount="5">670</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">520</resource-min>
+					<resource-opt amount="9">670</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Health IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="healAmount">145-149</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (72)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (720)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">720</resource-min>
+					<resource-opt amount="5">895</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">720</resource-min>
+					<resource-opt amount="9">895</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Primal Health V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="healAmount">185-189</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (92)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (920)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="5">920</resource-min>
+					<resource-opt amount="5">1120</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="18">920</resource-min>
+					<resource-opt amount="9">1120</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Velocity</item-name>
+		<item-icon>icon_formula_s_04_16_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="reqClass">DRAG</item-attribute>
+			<item-attribute type="castDelay">27</item-attribute>
+			<item-attribute type="effectduration">2:00:00</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>primal</item-keyword>
+			<item-keyword>skill_use_magic_primal</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>gift_slot</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Velocity I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">9</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (1)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+2 Fly Speed</tier-attribute>
+				<tier-attribute type="effect">Gift of Velocity I</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="3">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Velocity II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (200)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+4 Fly Speed</tier-attribute>
+				<tier-attribute type="effect">Gift of Velocity II</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">200</resource-min>
+					<resource-opt amount="5">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Velocity III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (400)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+6 Fly Speed</tier-attribute>
+				<tier-attribute type="effect">Gift of Velocity III</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="3">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">400</resource-min>
+					<resource-opt amount="5">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Velocity IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (600)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+8 Fly Speed</tier-attribute>
+				<tier-attribute type="effect">Gift of Velocity IV</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="3">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">600</resource-min>
+					<resource-opt amount="5">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Velocity V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (800)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+10 Fly Speed</tier-attribute>
+				<tier-attribute type="effect">Gift of Velocity V</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="3">1000</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="10">800</resource-min>
+					<resource-opt amount="5">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

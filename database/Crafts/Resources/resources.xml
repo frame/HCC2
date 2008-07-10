@@ -1467,6 +1467,63 @@
 				</resource>
 			</resources>
 		</tier>
+		<tier>
+			<tier-name>Ruby</tier-name>
+			<tier-lvl name="VI Ruby">6</tier-lvl>
+			<tier-desc>Processed from uncut ruby, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+	    </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Ruby</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">1200</resource-min>
+					<resource-opt amount="2">1600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sapphire</tier-name>
+			<tier-lvl name="VI Sapphire">6</tier-lvl>
+			<tier-desc>Processed from uncut sapphire, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+	    </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Sapphire</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">1200</resource-min>
+					<resource-opt amount="2">1600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Diamond</tier-name>
+			<tier-lvl name="VI Diamond">6</tier-lvl>
+			<tier-desc>Processed from uncut diamond, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+	    </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Uncut Diamond</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="5">1200</resource-min>
+					<resource-opt amount="2">1600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
 	</item>
 	<item>
 		<item-name>Fabric Spool</item-name>
@@ -1568,6 +1625,22 @@
 					<resource-skill>Spinning</resource-skill>
 					<resource-min amount="5">800</resource-min>
 					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steelsilk Spool</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>Threaded steelsilk wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Unspun Steelsilk</resource-name>
+					<resource-skill>Spinning</resource-skill>
+					<resource-min amount="5">1200</resource-min>
+					<resource-opt amount="2">1600</resource-opt>
 				</resource>
 			</resources>
 		</tier>
@@ -2657,6 +2730,528 @@
 					<resource-skill>Spinning</resource-skill>
 					<resource-min amount="5">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Engraving</item-name>
+		<item-icon>icon_formula_r_01_15_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Mithril Engraving</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Precious metal processed and then re-processed into thin strips and used for the primary engraving on the top surface of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">960</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Platinum Engraving</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Precious metal processed and then re-processed into thin strips and used for the primary engraving on the top surface of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Platinum Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">760</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gold Engraving</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Precious metal processed and then re-processed into thin strips and used for the primary engraving on the top surface of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Gold Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">560</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silver Engraving</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Precious metal processed and then re-processed into thin strips and used for the primary engraving on the top surface of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">360</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Bronze Engraving</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Precious metal processed and then re-processed into thin strips and used for the primary engraving on the top surface of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">160</resource-min>
+					<resource-opt amount="2">360</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Energized Azulyte</item-name>
+		<item-icon>icon_formula_r_06_10_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resource_azulyte</item-keyword>
+			<item-keyword>resourcetype_processed</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dim Energized Azulyte</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Raw dark azulyte crystals energized through the power of essence, these crystals continually break down and reform themselves as the magic pulses within them.  This process emits powerful magics that allow the disk to defy gravity and fly despite heavy weights.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Dark Azulyte Crystal</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="12">160</resource-min>
+					<resource-opt amount="4">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">160</resource-min>
+					<resource-opt amount="2">360</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Bright Energized Azulyte</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Raw dark azulyte crystals energized through the power of essence, these crystals continually break down and reform themselves as the magic pulses within them.  This process emits powerful magics that allow the disk to defy gravity and fly despite heavy weights.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Dark Azulyte Crystal</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="12">760</resource-min>
+					<resource-opt amount="4">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">760</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shining Energized Azulyte</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Raw dark azulyte crystals energized through the power of essence, these crystals continually break down and reform themselves as the magic pulses within them.  This process emits powerful magics that allow the disk to defy gravity and fly despite heavy weights.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Dark Azulyte Crystal</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="12">960</resource-min>
+					<resource-opt amount="4">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">960</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Pale Energized Azulyte</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Raw dark azulyte crystals energized through the power of essence, these crystals continually break down and reform themselves as the magic pulses within them.  This process emits powerful magics that allow the disk to defy gravity and fly despite heavy weights.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Dark Azulyte Crystal</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="12">360</resource-min>
+					<resource-opt amount="4">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">360</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Glowing Energized Azulyte</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Raw dark azulyte crystals energized through the power of essence, these crystals continually break down and reform themselves as the magic pulses within them.  This process emits powerful magics that allow the disk to defy gravity and fly despite heavy weights.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Dark Azulyte Crystal</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="12">560</resource-min>
+					<resource-opt amount="4">810</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">560</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Laminate</item-name>
+		<item-icon>icon_formula_r_01_16_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze-Sandstone Laminate</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>An amalgam of metal and stone, hammered together through sheer force, the laminate is a thin layer meant as the primary frame of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">160</resource-min>
+					<resource-opt amount="2">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="12">160</resource-min>
+					<resource-opt amount="4">360</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron-Slate Laminate</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>An amalgam of metal and stone, hammered together through sheer force, the laminate is a thin layer meant as the primary frame of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="12">360</resource-min>
+					<resource-opt amount="4">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">360</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel-Granite Laminate</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>An amalgam of metal and stone, hammered together through sheer force, the laminate is a thin layer meant as the primary frame of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="12">560</resource-min>
+					<resource-opt amount="4">810</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">560</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril-Marble Laminate</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>An amalgam of metal and stone, hammered together through sheer force, the laminate is a thin layer meant as the primary frame of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="12">960</resource-min>
+					<resource-opt amount="4">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">960</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt-Obsidian Laminate</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>An amalgam of metal and stone, hammered together through sheer force, the laminate is a thin layer meant as the primary frame of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Slab</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="12">760</resource-min>
+					<resource-opt amount="4">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Smelting</resource-skill>
+					<resource-min amount="5">760</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Imbued Brick</item-name>
+		<item-icon>icon_formula_r_02_16_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>resource_stone</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Imbued Marble Brick</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Stone imbued with the power of essence, these bricks are used as the foundation and base of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shining Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="12">960</resource-min>
+					<resource-opt amount="4">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Marble Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">960</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Obsidian Brick</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Stone imbued with the power of essence, these bricks are used as the foundation and base of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bright Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="12">760</resource-min>
+					<resource-opt amount="4">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Obsidian Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">760</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Granite Brick</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Stone imbued with the power of essence, these bricks are used as the foundation and base of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Glowing Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="12">560</resource-min>
+					<resource-opt amount="4">810</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Granite Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">560</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Slate Brick</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Stone imbued with the power of essence, these bricks are used as the foundation and base of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="12">360</resource-min>
+					<resource-opt amount="4">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">360</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Imbued Sandstone Brick</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Stone imbued with the power of essence, these bricks are used as the foundation and base of the flying disk.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dim Essence</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="12">160</resource-min>
+					<resource-opt amount="4">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sandstone Brick</resource-name>
+					<resource-skill>Stoneworking</resource-skill>
+					<resource-min amount="5">160</resource-min>
+					<resource-opt amount="2">360</resource-opt>
 				</resource>
 			</resources>
 		</tier>
