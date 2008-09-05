@@ -1727,4 +1727,182 @@
 			</resources>
 		</tier>
 	</item>
+	<item>
+		<item-name>Spirit Ward</item-name>
+		<item-icon>icon_formula_r_03_09_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="effectduration">15:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>buff</item-keyword>
+			<item-keyword>skill_use_magic_spirit</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Spirit Ward  I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Temporarily raises a target's ward statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+20 Spirit Ward</tier-attribute>
+				<tier-attribute type="effect">Spirit Ward I</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">80</resource-min>
+					<resource-opt amount="4">180</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Ward II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Temporarily raises a target's ward statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (280)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+70 Spirit Ward</tier-attribute>
+				<tier-attribute type="effect">Spirit Ward II</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">280</resource-min>
+					<resource-opt amount="4">405</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">280</resource-min>
+					<resource-opt amount="7">405</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Ward III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Temporarily raises a target's ward statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">120</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (480)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+120 Spirit Ward</tier-attribute>
+				<tier-attribute type="effect">Spirit Ward III</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">480</resource-min>
+					<resource-opt amount="4">630</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">480</resource-min>
+					<resource-opt amount="7">630</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Ward IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Temporarily raises a target's ward statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (680)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+170 Spirit Ward</tier-attribute>
+				<tier-attribute type="effect">Spirit Ward IV</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">680</resource-min>
+					<resource-opt amount="4">855</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">680</resource-min>
+					<resource-opt amount="7">855</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Ward V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Temporarily raises a target's ward statistic against spirit magic.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Spirit (880)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+220 Spirit Ward</tier-attribute>
+				<tier-attribute type="effect">Spirit Ward V</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">880</resource-min>
+					<resource-opt amount="4">1080</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">880</resource-min>
+					<resource-opt amount="7">1080</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

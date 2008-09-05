@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="2.1">
+	<formulaset-name>Potions</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Epic / Rare</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Anti-Lycanthropy Salve</item-name>
+		<item-icon>icon_formula_p_scp_resist_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="hoardValue">22</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="effect">Anti-Lycanthropy Salve</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>skill_use_alchemy</item-keyword>
+			<item-keyword>potion</item-keyword>
+			<item-keyword>tier_4</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Anti-Lycanthropy Salve</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A salve invented by a researcher named Balit to protect the user from the effects of the Lycanthropy disease.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectDescription">An experimental salve that enhances your combat abilities against werewolves.</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silver Powder</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="12">600</resource-min>
+					<resource-opt amount="6">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Kinetic Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Lycanthropy Ward Salve</item-name>
+		<item-icon>icon_formula_p_scp_ward_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="hoardValue">22</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="effect">Lycanthropy Ward</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>skill_use_alchemy</item-keyword>
+			<item-keyword>potion</item-keyword>
+			<item-keyword>tier_4</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Lycanthropy Ward Salve</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>A salve invented by Balit and used to ward off the effects of the deadly Lycanthropy disease.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectDescription">A curious effect that protects you from the effects of the Lycanthropy disease.</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Werewolf Heart</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="3">650</resource-min>
+					<resource-opt amount="1">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Werewolf Hide</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="3">650</resource-min>
+					<resource-opt amount="1">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Cognitive Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="5">650</resource-min>
+					<resource-opt amount="2">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-min amount="2">650</resource-min>
+					<resource-opt amount="2">800</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>
