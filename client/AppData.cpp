@@ -98,8 +98,6 @@ bool CAppData::m_bDragWithToolBar = false;
 bool CAppData::m_bVerticalToolBar = true;
 bool CAppData::m_bAutoShrink = true;
 bool CAppData::m_bHighPriority = false;
-bool CAppData::m_bAutoUpdate = false;
-bool CAppData::m_bAutoUpdateQuery = true;
 
 CString CAppData::m_csCurrentTheme = "hcctheme_default.xml";
 CString CAppData::m_csAppBasePath = "";
@@ -720,8 +718,6 @@ CAppData::ReadDefaults()
 	l_cRegAccess.LoadKey (l_csBasePath, "DragWithToolbar", m_bDragWithToolBar);
 	l_cRegAccess.LoadKey (l_csBasePath, "VerticalToolbar", m_bVerticalToolBar);
 	l_cRegAccess.LoadKey (l_csBasePath, "AutoShrink", m_bAutoShrink);
-	l_cRegAccess.LoadKey (l_csBasePath, "AutoUpdate", m_bAutoUpdate);
-	l_cRegAccess.LoadKey (l_csBasePath, "AutoUpdateQuery", m_bAutoUpdateQuery);
 	l_cRegAccess.LoadKey (l_csBasePath, "HighPriority", m_bHighPriority);
 
 	if (m_csOrderDir.IsEmpty ())
@@ -788,8 +784,6 @@ CAppData::SaveDefaults()
 	l_cRegAccess.SaveKey (l_csBasePath, "DragWithToolbar", m_bDragWithToolBar);
 	l_cRegAccess.SaveKey (l_csBasePath, "VerticalToolbar", m_bVerticalToolBar);
 	l_cRegAccess.SaveKey (l_csBasePath, "AutoShrink", m_bAutoShrink);
-	l_cRegAccess.SaveKey (l_csBasePath, "AutoUpdate", m_bAutoUpdate);
-	l_cRegAccess.SaveKey (l_csBasePath, "AutoUpdateQuery", m_bAutoUpdateQuery);
 	l_cRegAccess.SaveKey (l_csBasePath, "HighPriority", m_bHighPriority);
 }
 

@@ -60,8 +60,6 @@ public:
 	AddTitleLine(CString a_csName, int a_iStyle);
 	AddSummaryLine(CString a_csName, int a_iStyle = 1);
 
-	afx_msg void OnSearchByname();
-
 	EnableScreen ();
 	DisableScreen ();
 	DisplayFormula (bool a_bUpdateTechList);
@@ -194,7 +192,7 @@ protected:
 	afx_msg void OnOptionsResourcegridLimitto8rows();
 	afx_msg void OnOptionsResourcegridLimitto12rows();
 	afx_msg void OnOptionsResourcegridUnlimited();
-
+	afx_msg void OnSearchByname();
 	afx_msg void OnSearchByclass();
 	afx_msg BOOL OnHelpInfo(HELPINFO* pHelpInfo);
 	afx_msg void OnOptionsResourcegridAutoshrink();

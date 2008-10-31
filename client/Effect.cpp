@@ -246,12 +246,6 @@ descriptionResurrect
 		m_csDescription = "Dispel Quality: " + m_csDescription;
 	}
 
-	else if (m_csType == "dpreduction")
-	{
-		m_csType = cXMLAttribute_Timer;
-		m_csDescription = m_csDescription;
-	}
-
 	else if ((m_csType == "chance") ||
 		      (m_csType == "statmultiplier") ||
 		      (m_csType == "statbonusvariable") ||
@@ -270,7 +264,8 @@ descriptionResurrect
 		      (m_csType == "frequency") ||
 		      (m_csType == "delaymod") ||
 		      (m_csType == "recyclemod") ||
-		      (m_csType == "descriptionresurrect"))
+		      (m_csType == "descriptionresurrect") ||
+				(m_csType == "dpreduction"))
 	{
 		m_csType = cXMLAttribute_Effect;
 	}
@@ -390,9 +385,7 @@ descriptionResurrect
 
 	else
 	{
-		//FIXME frame
-		//m_csDescription = "? " + m_csType + ":" + m_csDescription + " ?";
-		m_csDescription = m_csDescription;
+		m_csDescription = "? " + m_csType + ":" + m_csDescription + " ?";
 		m_csType = cXMLAttribute_Effect;
 	}
 }

@@ -606,6 +606,60 @@
 				</resource>
 			</resources>
 		</tier>
+		<tier>
+			<tier-name>Blighted Ruby</tier-name>
+			<tier-lvl name="VI Ruby">6</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Ruby</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">1200</resource-min>
+					<resource-opt amount="4">1525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Sapphire</tier-name>
+			<tier-lvl name="VI Sapphire">6</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Sapphire</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">1200</resource-min>
+					<resource-opt amount="4">1525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Diamond</tier-name>
+			<tier-lvl name="VI Diamond">6</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Uncut Diamond</resource-name>
+					<resource-skill>Gemworking</resource-skill>
+					<resource-min amount="8">1200</resource-min>
+					<resource-opt amount="4">1525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
 	</item>
 	<item>
 		<item-name>Blighted Essence Orb</item-name>
@@ -707,6 +761,25 @@
 					<resource-skill>Essence Shaping</resource-skill>
 					<resource-min amount="8">900</resource-min>
 					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Radiant Essence Orb</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>Filled with a radiant essence, this orb looks like it would be useful for magical purposes.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Radiant Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="8">1200</resource-min>
+					<resource-opt amount="4">1600</resource-opt>
 				</resource>
 			</resources>
 		</tier>
@@ -1170,6 +1243,25 @@
 					<resource-skill>Lumbering</resource-skill>
 					<resource-min amount="8">900</resource-min>
 					<resource-opt amount="4">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Thornwood Board</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+				<tier-keyword>resource_wood</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Thornwood Log</resource-name>
+					<resource-skill>Lumbering</resource-skill>
+					<resource-min amount="8">1200</resource-min>
+					<resource-opt amount="4">1600</resource-opt>
 				</resource>
 			</resources>
 		</tier>
@@ -2042,6 +2134,25 @@
 					<resource-skill>Essence Shaping</resource-skill>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="2">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tainted Radiant Essence Orb</tier-name>
+			<tier-lvl>6</tier-lvl>
+			<tier-desc>An orb made from the tainted, radiant essence collected from a dead wisp.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+      </tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Radiant Essence</resource-name>
+					<resource-skill>Essence Shaping</resource-skill>
+					<resource-min amount="5">1050</resource-min>
+					<resource-opt amount="2">1375</resource-opt>
 				</resource>
 			</resources>
 		</tier>

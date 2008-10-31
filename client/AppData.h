@@ -254,8 +254,6 @@ public:
 	static bool m_bVerticalToolBar;
 	static bool m_bAutoShrink;
 	static bool m_bHighPriority;
-	static bool m_bAutoUpdate;
-	static bool m_bAutoUpdateQuery;
 
 	static bool m_bProfilesChanged;
 

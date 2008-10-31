@@ -202,7 +202,7 @@ bool CUpdateDialog::StartConnection()
 {
 	if (InternetAttemptConnect (0) == ERROR_SUCCESS )
 	{
-		m_cInternetHandle = InternetOpen ("HCC/" + cAppData_Version, INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY, NULL, NULL, 0);
+		m_cInternetHandle = InternetOpen ("HCC2", INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY, NULL, NULL, 0);
 		if (m_cInternetHandle != NULL)
 		{
 			return (TRUE);
@@ -664,8 +664,8 @@ CUpdateDialog::UpdateReleaseInfo()
 	m_cArchiveList.DeleteAllItems ();
 	m_cArchiveList.DeleteColumn (0);
 	m_cArchiveList.DeleteColumn (0);
-	m_cArchiveList.InsertColumn (0, "Change", LVCFMT_LEFT, 370, -1);
-	m_cArchiveList.InsertColumn (1, "Author", LVCFMT_CENTER, 90 -1);
+	m_cArchiveList.InsertColumn (0, "Change", LVCFMT_LEFT, 382, -1);
+	m_cArchiveList.InsertColumn (1, "Author", LVCFMT_CENTER, 100 -1);
 
 	l_Pos = m_cLatestDatabaseRelease.m_clNoteList.GetHeadPosition ();
 	while (l_Pos)

@@ -20,7 +20,7 @@
 		<tier>
 			<tier-name>Caramel</tier-name>
 			<tier-lvl levelName="Caramel">1</tier-lvl>
-			<tier-description/>
+			<tier-desc/>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
 			</tier-attributes>
@@ -44,7 +44,7 @@
 		<tier>
 			<tier-name>Chocolate</tier-name>
 			<tier-lvl levelName="Chocolate">1</tier-lvl>
-			<tier-description/>
+			<tier-desc/>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes> 
 			</tier-attributes>
@@ -87,7 +87,7 @@
 		<tier>
 			<tier-name>Beaten Eggs</tier-name>
 			<tier-lvl levelName="Beaten Eggs">1</tier-lvl>
-			<tier-description/>
+			<tier-desc/>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="bulk">4</tier-attribute>
@@ -108,7 +108,7 @@
 		<tier>
 			<tier-name>Butter</tier-name>
 			<tier-lvl levelName="Butter">1</tier-lvl>
-			<tier-description/>
+			<tier-desc/>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="bulk">4</tier-attribute>
@@ -159,7 +159,7 @@
 		<tier>
 			<tier-name>Cheese</tier-name>
 			<tier-lvl levelName="Cheese">1</tier-lvl>
-			<tier-description/>
+			<tier-desc/>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="bulk">4</tier-attribute>
@@ -198,7 +198,7 @@
 		<tier>
 			<tier-name>Hard Cooked Eggs</tier-name>
 			<tier-lvl levelName="Hard Cooked Eggs">1</tier-lvl>
-			<tier-description/>
+			<tier-desc/>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="bulk">4</tier-attribute>
@@ -249,7 +249,7 @@
 		<tier>
 			<tier-name>Mayonnaise</tier-name>
 			<tier-lvl levelName="Mayonnaise">1</tier-lvl>
-			<tier-description/>
+			<tier-desc/>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="bulk">4</tier-attribute>
@@ -847,13 +847,101 @@
 			<item-keyword>resource_organic</item-keyword>
 		</item-keywords>
 		<tier>
-			<tier-name>Ground Cumin</tier-name>
-			<tier-lvl levelName="Ground Cumin">1</tier-lvl>
-			<tier-description/>
+			<tier-name>Chopped Chives</tier-name>
+			<tier-lvl levelName="Chopped Chives">1</tier-lvl>
+			<tier-desc/>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-				<tier-attribute type="bulk">4</tier-attribute>
-				<tier-attribute type="hoardValue">0</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Chives</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cocoa Nibs</tier-name>
+			<tier-lvl levelName="Cocoa Nibs">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cocoa Bean</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Garlic Powder</tier-name>
+			<tier-lvl levelName="Garlic Powder">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Garlic</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ground Barley</tier-name>
+			<tier-lvl levelName="Ground Barley">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Barley</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ground Cinnamon</tier-name>
+			<tier-lvl levelName="Ground Cinnamon">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cinnamon Bark</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ground Cumin</tier-name>
+			<tier-lvl levelName="Ground Cumin">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
 			</tier-attributes>
 			<tier-keywords>
 			</tier-keywords>
@@ -869,11 +957,9 @@
 		<tier>
 			<tier-name>Ground Pepper</tier-name>
 			<tier-lvl levelName="Ground Pepper">1</tier-lvl>
-			<tier-description>Ground from pepper berries, this spice is used to enchance cooking.</tier-description>
+			<tier-desc>Ground from pepper berries, this spice is used to enchance cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-				<tier-attribute type="bulk">4</tier-attribute>
-				<tier-attribute type="hoardValue">0</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 			</tier-keywords>
@@ -889,17 +975,69 @@
 		<tier>
 			<tier-name>Ground Salt</tier-name>
 			<tier-lvl levelName="Ground Salt">1</tier-lvl>
-			<tier-description>Ground from rock salt, this spice is used to enchance cooking.</tier-description>
+			<tier-desc>Ground from rock salt, this spice is used to enchance cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-				<tier-attribute type="bulk">4</tier-attribute>
-				<tier-attribute type="hoardValue">0</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Onion Powder</tier-name>
+			<tier-lvl levelName="Onion Powder">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Onion</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rubbed Cilantro</tier-name>
+			<tier-lvl levelName="Rubbed Cilantro">1</tier-lvl>
+			<tier-desc/>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cilantro</resource-name>
+					<resource-skill>Preparing</resource-skill>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sugar</tier-name>
+			<tier-lvl levelName="Sugar">1</tier-lvl>
+			<tier-desc>Processed from sugar cane, this resource is used in cooking as a sweetener.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unrefined Sugar Cane</resource-name>
 					<resource-skill>Preparing</resource-skill>
 					<resource-min amount="5">1</resource-min>
 					<resource-opt amount="2">100</resource-opt>

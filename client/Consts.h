@@ -22,7 +22,6 @@ const CString cXMLAttribute_TargetDescription		= "targetdescription";
 const CString cXMLAttribute_TargetDuration			= "targetduration";
 const CString cXMLAttribute_TargetEffect				= "targeteffect";
 const CString cXMLAttribute_TargetFrequency			= "targetfrequency";
-const CString cXMLAttribute_Timer					= "timer";
 
 const CString cXMLAttribute_RangeModifier			= "rangemodifier";
 const CString cXMLAttribute_DelayModifier			= "delaymodifier";

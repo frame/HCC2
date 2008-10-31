@@ -21,7 +21,6 @@ public:
 	//{{AFX_DATA(COptionsDialog)
 	enum { IDD = IDD_OPTIONS };
 	CButton	m_cPriorityCheck;
-	CButton	m_cAutoUpdateCheck;
 	CComboBox	m_cThemeCombo;
 	CButton	m_cToolbarCheck;
 	CComboBox	m_cDockingCombo;

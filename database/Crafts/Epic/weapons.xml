@@ -25,6 +25,8 @@
 			<item-attribute type="effectstatBonus">-100 Focus</item-attribute>
 			<item-attribute type="effectduration">0:30</item-attribute>
 			<item-attribute type="effect">Curse of Reklar</item-attribute>
+			<item-attribute type="effectchance">5%</item-attribute>
+			<item-attribute type="damagemodifier">Incoming Against Undead: Does 110% of normal damage</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>tier_6</item-keyword>
@@ -101,6 +103,8 @@
 			<item-attribute type="effectduration">0:45</item-attribute>
 			<item-attribute type="effectfrequency">0:05</item-attribute>
 			<item-attribute type="effect">Syphon</item-attribute>
+			<item-attribute type="effectchance">5%</item-attribute>
+			<item-attribute type="effectdescription">90% of damage done given to the attacker</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>weapon_twohandsword</item-keyword>
@@ -176,6 +180,8 @@
 			<item-attribute type="effectfrequency">0:06</item-attribute>
 			<item-attribute type="effecttakeDamage">31-34 (Ethereal)</item-attribute>
 			<item-attribute type="effect">Ethereal Leech V</item-attribute>
+			<item-attribute type="effectchance">5%</item-attribute>
+			<item-attribute type="effectdescription">100% of damage done given to the attacker</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>dragon_bodyslot_claw</item-keyword>
@@ -245,6 +251,8 @@
 			<item-attribute type="effectduration">0:42</item-attribute>
 			<item-attribute type="effectfrequency">0:06</item-attribute>
 			<item-attribute type="effect">Ethereal Paroxysm V</item-attribute>
+			<item-attribute type="effectchance">5%</item-attribute>
+			<item-attribute type="effectdescription">100% of damage done given to the attacker</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>skill_use_bow</item-keyword>
@@ -314,12 +322,13 @@
 			<item-attribute type="skill">Two Hand Crush</item-attribute>
 			<item-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</item-attribute>
 			<item-attribute type="reqAdvSchool">BLDM, CONJ, SORC, WIZ, DRU, SHMN, BTLM, SPRT, MAGE</item-attribute>
-			<item-attribute type="effecttakeDamage">200-250</item-attribute>
+			<item-attribute type="effecttakeDamage">200-250 (Fire)</item-attribute>
 			<item-attribute type="effectstatBonusVariable">+500 to +1000 Power</item-attribute>
 			<item-attribute type="effectduration">0:20</item-attribute>
 			<item-attribute type="effectfrequency">0:03</item-attribute>
 			<item-attribute type="effectdelayMod">Modifies delay by -10%</item-attribute>
 			<item-attribute type="effect">Lust for Blood</item-attribute>
+			<item-attribute type="effectchance">5%</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>tier_6</item-keyword>
@@ -388,6 +397,7 @@
 			<item-attribute type="reqAdvSkill">One Hand Slash (1000)</item-attribute>
 			<item-attribute type="reqCurrentAdvLevel">Current Adventure Level (100)</item-attribute>
 			<item-attribute type="reqAdvSchool">GRDN, ELAR, CRSB, KNOC, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="damagemodifier">Attacks only Against Undead: Does 104% of normal damage</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>tier_6</item-keyword>

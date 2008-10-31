@@ -336,7 +336,7 @@ CItemCreation::Initialise()
 	m_cTierGrid.SetRows (1);
 	m_cTierGrid.SetFormatString ("^Tiers / Variants");
 	//m_cTierGrid.SetColWidth (0, 1700);
-	m_cTierGrid.SetColWidth (0, 2400);
+	m_cTierGrid.SetColWidth (0, 2100);
 	m_cTierGrid.SetBackColor (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
 	m_cTierGrid.SetBackColorBkg (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
 	m_cTierGrid.SetGridColorFixed (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
@@ -848,13 +848,6 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, CAppData::m_csEffectList_Bonuses,
 												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, CAppData::m_csEffectList_Bonuses,
-												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
-
-				// New Timer
-				l_bHeader = false;
-				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_Timer,
-												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
-				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_Timer,
 												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 
 				DisplayTechBonuses ();
@@ -1442,23 +1435,10 @@ void CItemCreation::OnClickTiergrid()
 
 					if (CAppData::m_bEditMode)
 					{
-						if (GetKeyState(VK_SHIFT)<0)
-						{
-							CAppData::UpdateOrderItem (CAppData::m_cCurrentOrderItem);
-							CAppData::m_cOrderWnd.DisplayOrder ();
-							CAppData::m_cOrderWnd.DisplayOrderItem (CAppData::m_cCurrentOrderItem.m_iId);
-							CAppData::ChangeOrderState (true);
-						}
-						else
-						{
-							//CAppData::m_cOrderWnd.DisplayOrder ();
-							//CAppData::m_cOrderWnd.DisplayOrderItem (0);
-
-							//CAppData::m_cItemCreationWnd.DisplayItems();
-							CAppData::m_cItemCreationWnd.ResetItemEdit();
-						}
-
-
+						CAppData::UpdateOrderItem (CAppData::m_cCurrentOrderItem);
+						CAppData::m_cOrderWnd.DisplayOrder ();
+						CAppData::m_cOrderWnd.DisplayOrderItem (CAppData::m_cCurrentOrderItem.m_iId);
+						CAppData::ChangeOrderState (true);
 					}
 				}
 			}
@@ -1487,7 +1467,7 @@ CItemCreation::DisplayFormulaTiers()
 	m_cTierGrid.SetRows (1);
 	m_cTierGrid.SetFormatString ("^Tiers / Variants");
 	//m_cTierGrid.SetColWidth (0, 1600);
-	m_cTierGrid.SetColWidth (0, 2400);
+	m_cTierGrid.SetColWidth (0, 2100);
 
 	if (CAppData::m_cpCurrentFormula)
 	{
@@ -1548,11 +1528,6 @@ void CItemCreation::OnAdditem()
 		CAppData::m_clOrderList.AddTail (CAppData::m_cCurrentOrderItem);
 		CAppData::m_iCurrentOrderId = CAppData::m_cCurrentOrderItem.m_iId;
 		CAppData::m_bEditMode = true;
-
-		CAppData::m_cCurrentOrderItem.m_iQty = 1;
-		//CAppData::m_cOrderWnd.m_iQty = 1;
-		CAppData::m_cOrderWnd.m_cItemQty.SetWindowText ("1");
-
 		m_cAddItemButton.EnableWindow (true);
 		m_cAddItemButton.SetWindowText ("Increase Qty");
 		CAppData::m_cOrderWnd.DisplayOrder();
@@ -2863,6 +2838,7 @@ CItemCreation::ResetItemEdit()
 	m_cAddItemButton.EnableWindow (true);
 	m_cAddItemButton.SetWindowText ("Add Item");
 	m_cItemSelecter.SetCurSel (0);
+
 }
 
 void CItemCreation::OnClickFormulatree(NMHDR* pNMHDR, LRESULT* pResult)

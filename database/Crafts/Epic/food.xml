@@ -352,8 +352,8 @@
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="effectDescription">Fresh cookies!	Almost as good as mum's.</tier-attribute>
-				<tier-attribute type="effectStatBonusVariable">+10 to +15 Power</tier-attribute>
-				<tier-attribute type="effectStatBonusVariable">+10 to +15 Focus</tier-attribute>
+				<tier-attribute type="effectStatBonusVariable">+50 to +75 Power</tier-attribute>
+				<tier-attribute type="effectStatBonusVariable">+50 to +75 Focus</tier-attribute>
 				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
 			</tier-attributes>
 			<resources>
@@ -374,12 +374,6 @@
 					<resource-skill>Cooking</resource-skill>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="1">1150</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Geostone Cooking Sheet</resource-name>
-					<resource-skill>Cooking</resource-skill>
-					<resource-min amount="5">850</resource-min>
-					<resource-opt amount="2">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Sugar</resource-name>
@@ -733,7 +727,7 @@
 		<tier>
 			<tier-name>Draconic Celebration Cake</tier-name>
 			<tier-lvl>3</tier-lvl>
-			<tier-description>This cake is made of layers of beef and mutton topped with rich chocolate buttercream frosting, and is only edible by Dragons, Saris, or Sslik. Serves eight.</tier-description>
+			<tier-desc>This cake is made of layers of beef and mutton topped with rich chocolate buttercream frosting, and is only edible by Dragons, Saris, or Sslik. Serves eight.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
 			</tier-attributes>

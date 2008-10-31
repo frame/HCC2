@@ -14,7 +14,6 @@
 // CHCCDlg dialog
 
 #include "WindowState.h"
-#include "wininet.h"
 
 class CHCCDlg : public CDialog
 {
@@ -25,7 +24,6 @@ public:
 	DockWndToBar (CWnd &a_cWnd);
 	StickButtonBelow (CWnd &a_cTopWnd, CWnd &a_cWnd);
 	CHCCDlg(CWnd* pParent = NULL);	// standard constructor
-
 
 	CWindowState m_cWindowState;
 	ATOM m_nHotKeyID_Orders;
@@ -92,7 +90,6 @@ protected:
 	afx_msg void OnCraftersearch();
 	virtual void OnOK();
 	virtual void OnCancel();
-	CString ReadConfigFile();
 	afx_msg void OnSettingsOrderwindowSnapshotwindow();
 	afx_msg void OnSettingsOrderwindowRestoredefaults();
 	afx_msg void OnSettingsAllwindowsSnapshotwindows();
@@ -130,7 +127,6 @@ protected:
 	afx_msg void OnSettingsViewOrderwindow();
 	afx_msg void OnMove(int x, int y);
 	afx_msg void OnActivate(UINT nState, CWnd* pWndOther, BOOL bMinimized);
-	afx_msg void OnSearchByname();
 	afx_msg void OnAutodock();
 	afx_msg void OnWindowAlwaysontop();
 	afx_msg void OnFileNew();

@@ -13,8 +13,8 @@
 
 
 
-!define HCC_Version "2.28" ; ${HCC_Version}
-!define HCC_Revision "2008-04-22" ; ${HCC_Revision}
+!define HCC_Version "2.29" ; ${HCC_Version}
+!define HCC_Revision "2008-10-31" ; ${HCC_Revision}
 !define HCC_Name "HCC2" ; ${HCC_Name}
 !define HCC_Title "Horizons Crafting Calculator" ; ${HCC_Title}
 !define HCC_Installer_Version "1.20" ; ${HCC_Installer_Version}
