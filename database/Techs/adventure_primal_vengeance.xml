@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+	<techniqueset-name>Primal Vengeance</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Primal Vengeance</tech-name>
+		<tech-icon>icon_technique_02_00_11.png</tech-icon>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>dragonscale</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>dragon_bodyslot_chest</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>techclass_1</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_primal_vengeance_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords>
+		<tier>
+			<tier-name>Primal Vengeance</tier-name>
+			<tier-origin>Adventure: Primal Vengeance</tier-origin>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>For Dragon chest scales only, this technique gives the wearer's attacks a chance to greatly weaken the enemy.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+      </tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="description">20% base strenght (5% chance)</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="2">Dim Essence Orb</component>
+				<component amount="1">Splinter of Energy-Bone</component>
+			</components>
+		</tier>
+	</tech>
+</techniqueset>

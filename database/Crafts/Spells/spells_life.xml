@@ -2485,4 +2485,91 @@
 			</resources>
 		</tier>
 	</item>
+	<item>
+		<item-name>xGenerate Health</item-name>
+		<item-icon>icon_formula_s_05_10_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="reqAdvSchool">GRDN, BLDM, SPRD, STMD, CLRC, DRU, SHMN, SPRT, HLR</item-attribute>
+			<item-attribute type="effectduration">0:30</item-attribute>
+			<item-attribute type="effectfrequency">0:05</item-attribute>
+			<item-attribute type="effectreqAdvSchool">DRAG, DCRA, ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, CONJ, SORC, CLRC, WIZ, WVR, DLSH, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, SCT, HLR, MAGE, WAR</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_3</item-keyword>
+			<item-keyword>techclass_2</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>heal_over_time</item-keyword>
+			<item-keyword>mystic</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_life</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>xGenerate Health III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Regenerates the target's health over time.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (470)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (47)</tier-attribute>
+				<tier-attribute type="effecthealAmount">30-30</tier-attribute>
+				<tier-attribute type="effect">xGenerate Health III</tier-attribute>
+				<tier-attribute type="effectreqCurrentSchoolLevel">Current School Level (45)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="8">470</resource-min>
+					<resource-opt amount="4">620</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="8">470</resource-min>
+					<resource-opt amount="4">620</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>xGenerate Health IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Regenerates the target's health over time.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (670)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (67)</tier-attribute>
+				<tier-attribute type="effecthealAmount">42-42</tier-attribute>
+				<tier-attribute type="effect">xGenerate Health IV</tier-attribute>
+				<tier-attribute type="effectreqCurrentSchoolLevel">Current School Level (65)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="8">670</resource-min>
+					<resource-opt amount="4">845</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="8">670</resource-min>
+					<resource-opt amount="4">845</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

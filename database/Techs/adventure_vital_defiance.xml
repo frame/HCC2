@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="2.1">
+	<techniqueset-name>Vital Defiance</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Vital Defiance</tech-name>
+		<tech-icon>icon_technique_06_14_11.png</tech-icon>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>dragonscale</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>dragon_bodyslot_chest</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>techclass_1</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_vital_defiance_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords>
+		<tier>
+			<tier-name>Vital Defiance</tier-name>
+			<tier-origin>Adventure: Vital Defiance</tier-origin>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>For Dragon chest scales only, this technique has a slight chance of causing an undead enemy to inflict no damage when attacking for a short period of time.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+      </tier-keywords>
+			<tier-attributes>
+				<tier-attribute type="description">25% chance for attacks to do 0 damage for 30 seconds (10% chance)</tier-attribute>
+			</tier-attributes>
+			<components>
+				<component amount="2">Dim Essence Orb</component>
+				<component amount="4">Flame Beetle Carapace</component>
+			</components>
+		</tier>
+	</tech>
+</techniqueset>

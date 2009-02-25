@@ -500,4 +500,40 @@
 			</resources>
 		</tier>
 	</item>
+	<item>
+		<item-name>Banner</item-name>
+		<item-category>Construction</item-category>
+		<item-formulaset>Banner</item-formulaset>
+		<item-icon>Internal_plot_banner.tif</item-icon>
+		<tier>
+			<tier-name>Banner</tier-name>
+			<tier-lvl name="Standard">1</tier-lvl>
+			<tier-desc>Black and White Trimmed, Blue and Black With Crown, Blue and Yellow Diagonal, Blue with Stars, Gold and Blue, Gold and Red, Gold and White, Purple with Crest, Red and Green with Knot</tier-desc>
+			<tier-attributes>
+			</tier-attributes>
+			<resources>
+				<resource>
+					<resource-name>Slate Brick</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>8</resource-units>
+					<resource-min amount="1">0</resource-min>
+					<resource-opt amount="1">0</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Banner Staff</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>2</resource-units>
+					<resource-min amount="1">0</resource-min>
+					<resource-opt amount="1">0</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Kenaf Banner Flag</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">0</resource-min>
+					<resource-opt amount="1">0</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>

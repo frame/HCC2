@@ -393,6 +393,7 @@
 			<item-keyword>ranged</item-keyword>
 			<item-keyword>damage</item-keyword>
 			<item-keyword>aoe</item-keyword>
+			<item-keyword>flashdamage</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Blast I</tier-name>
@@ -934,6 +935,7 @@
 			<item-keyword>debuff</item-keyword>
 			<item-keyword>ranged</item-keyword>
 			<item-keyword>aoe</item-keyword>
+			<item-keyword>flashdamage</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Grazing Winds I</tier-name>
@@ -1468,6 +1470,7 @@
 			<item-keyword>repeatable</item-keyword>
 			<item-keyword>ranged</item-keyword>
 			<item-keyword>damage</item-keyword>
+			<item-keyword>flashdamage</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Improved Prime Bolt I</tier-name>
@@ -1640,6 +1643,7 @@
 			<item-keyword>repeatable</item-keyword>
 			<item-keyword>ranged</item-keyword>
 			<item-keyword>damage</item-keyword>
+			<item-keyword>flashdamage</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Prime Bolt I</tier-name>
@@ -2370,6 +2374,7 @@
 			<item-keyword>ranged</item-keyword>
 			<item-keyword>damage</item-keyword>
 			<item-keyword>aoe</item-keyword>
+			<item-keyword>flashdamage</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Tempest I</tier-name>
@@ -2742,6 +2747,7 @@
 			<item-keyword>debuff</item-keyword>
 			<item-keyword>ranged</item-keyword>
 			<item-keyword>aoe</item-keyword>
+			<item-keyword>flashdamage</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Unrelenting Winds I</tier-name>
@@ -3233,6 +3239,189 @@
 					<resource-skill>Spellcraft</resource-skill>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Promote Intellect</item-name>
+		<item-icon>icon_formula_s_11_07_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="reqAdvSchool">DRAG</item-attribute>
+			<item-attribute type="effectduration">30:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>primal</item-keyword>
+			<item-keyword>skill_use_magic_primal</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>buff</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Promote Intellect III</tier-name>
+			<tier-lvl>3</tier-lvl>
+			<tier-desc>Promotes the focus and power values with a primal enchantment.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (49)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (490)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+66 Power</tier-attribute>
+				<tier-attribute type="effectstatBonus">+66 Focus</tier-attribute>
+				<tier-attribute type="effect">Promote Intellect III</tier-attribute>
+				<tier-attribute type="effectreqCurrentSchoolLevel">Current School Level (40)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">490</resource-min>
+					<resource-opt amount="4">640</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">490</resource-min>
+					<resource-opt amount="7">640</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Promote Intellect IV</tier-name>
+			<tier-lvl>4</tier-lvl>
+			<tier-desc>Promotes the focus and power values with a primal enchantment.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (69)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (690)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+90 Power</tier-attribute>
+				<tier-attribute type="effectstatBonus">+90 Focus</tier-attribute>
+				<tier-attribute type="effect">Promote Intellect IV</tier-attribute>
+				<tier-attribute type="effectreqCurrentSchoolLevel">Current School Level (60)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">690</resource-min>
+					<resource-opt amount="4">865</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">690</resource-min>
+					<resource-opt amount="7">865</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Promote Intellect I</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Promotes the focus and power values with a primal enchantment.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">9</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (9)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (90)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+18 Power</tier-attribute>
+				<tier-attribute type="effectstatBonus">+18 Focus</tier-attribute>
+				<tier-attribute type="effect">Promote Intellect I</tier-attribute>
+				<tier-attribute type="effectreqCurrentSchoolLevel">Current School Level (1)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">90</resource-min>
+					<resource-opt amount="4">190</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Promote Intellect II</tier-name>
+			<tier-lvl>2</tier-lvl>
+			<tier-desc>Promotes the focus and power values with a primal enchantment.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">54</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (29)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (290)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+42 Power</tier-attribute>
+				<tier-attribute type="effectstatBonus">+42 Focus</tier-attribute>
+				<tier-attribute type="effect">Promote Intellect II</tier-attribute>
+				<tier-attribute type="effectreqCurrentSchoolLevel">Current School Level (20)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">290</resource-min>
+					<resource-opt amount="4">415</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">290</resource-min>
+					<resource-opt amount="7">415</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Promote Intellect V</tier-name>
+			<tier-lvl>5</tier-lvl>
+			<tier-desc>Promotes the focus and power values with a primal enchantment.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (89)</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Primal (890)</tier-attribute>
+				<tier-attribute type="effectstatBonus">+114 Power</tier-attribute>
+				<tier-attribute type="effectstatBonus">+114 Focus</tier-attribute>
+				<tier-attribute type="effect">Promote Intellect V</tier-attribute>
+				<tier-attribute type="effectreqCurrentSchoolLevel">Current School Level (80)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="4">890</resource-min>
+					<resource-opt amount="4">1090</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-min amount="14">890</resource-min>
+					<resource-opt amount="7">1090</resource-opt>
 				</resource>
 			</resources>
 		</tier>

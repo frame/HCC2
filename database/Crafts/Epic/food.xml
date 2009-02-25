@@ -761,4 +761,96 @@
 			</resources>
 		</tier>
 	</item>
+	<item>
+		<item-name>Mrs. Clause's Gingerbread Gnome</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Mrs. Clause's Gingerbread Gnome</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>These special bits of gingerbread are shaped like small gnomes.  Her special recipe should make even the most finicky of dragons smile for a moment.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Gingerbread Gnome</tier-attribute>
+				<tier-attribute type="effectduration">30:00</tier-attribute>
+				<tier-attribute type="effectstatBonus">+10 Strength</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Ginger</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Wheat Dough</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Mrs. Clause's Special Hot Cocoa</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="hoardValue">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Mrs. Clause's Special Hot Cocoa</tier-name>
+			<tier-lvl>1</tier-lvl>
+			<tier-desc>Mrs. Clause promises that her special hot cocoa will keep you warm from the inside out in the coldest of climates.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Mrs. Clause's Hot Chocolate Warmth</tier-attribute>
+				<tier-attribute type="effectduration">10:00</tier-attribute>
+				<tier-attribute type="effectstatBonus">+15 Dexterity</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cocoa Nibs</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="3">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 </formulaset>
