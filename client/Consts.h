@@ -1,6 +1,7 @@
-const CString cAppData_Version				= "2.28";
+const CString cAppData_Version				= "2.30";
 const CString cAppData_CacheHeader			= "HCC2 V1.21 - Do not edit!";
 const CString cAppData_DateFormat			= "%Y-%m-%d";
+const CString cAppData_RegBase				= "Software\\HCC2";
 const CString cAppData_RegPath				= "Software\\HCC2\\Config";
 const CString cAppData_RegWndPath			= "Software\\HCC2\\Config\\Windows";
 
@@ -16,12 +17,14 @@ const CString cXMLAttribute_ReqClass					= "reqclass";
 const CString cXMLAttribute_Requirement				= "req";
 
 const CString cXMLAttribute_Effect						= "effect";
+const CString cXMLAttribute_EffectChance			= "effectchance";
 const CString cXMLAttribute_Bonus						= "bonus";
 const CString cXMLAttribute_TargetName					= "targetname";
 const CString cXMLAttribute_TargetDescription		= "targetdescription";
 const CString cXMLAttribute_TargetDuration			= "targetduration";
 const CString cXMLAttribute_TargetEffect				= "targeteffect";
 const CString cXMLAttribute_TargetFrequency			= "targetfrequency";
+const CString cXMLAttribute_Timer					= "timer";
 
 const CString cXMLAttribute_RangeModifier			= "rangemodifier";
 const CString cXMLAttribute_DelayModifier			= "delaymodifier";
@@ -34,9 +37,10 @@ const CString cXMLAttribute_Range				= "range";
 const CString cXMLAttribute_Delay				= "delay";
 const CString cXMLAttribute_Type					= "type";
 const CString cXMLAttribute_Damage				= "damage";
+const CString cXMLAttribute_DamageModifier				= "damagemodifier";
 const CString cXMLAttribute_Skill				= "skill";
 const CString cXMLAttribute_Recycle				= "recycle";
-const CString cXMLAttribute_ExtraDamage		= "extradamage";
+const CString cXMLAttribute_ExtraDamage		    = "extradamage";
 const CString cXMLAttribute_HealAmount			= "healamount";
 const CString cXMLAttribute_Duration			= "duration";
 const CString cXMLAttribute_Frequency			= "frequency";
@@ -85,12 +89,13 @@ const CString cPath_App_Orders				= "\\Orders";
 const CString cPath_App_Theme					= "\\Themes";
 const CString cPath_App_Temp					= "\\Temp";
 const CString cPath_App_TempArchive			= "\\Temp\\Archive";
+const CString cPath_App_Plugin				= "\\Plugins";
 
 const CString cFile_App_Categories			= "\\Config\\Categories.xml";
 const CString cFile_App_Help					= "\\Config\\help.xml";
 const CString cFile_App_ConfigCache			= "\\config.dat";
 const CString cFile_App_IconCache			= "\\formicons.dat";
-const CString cFile_App_ReportHTML			= "\\order.htm";
+const CString cFile_App_ReportHTML			= "\\order.html";
 const CString cFile_App_History				= "\\History.xml";
 const CString cFile_App_ConfigMask			= "\\Config*.xml";
 const CString cFile_App_Config				= "\\Config.xml";

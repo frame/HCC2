@@ -31,6 +31,7 @@ void COptionsDialog::DoDataExchange(CDataExchange* pDX)
 	CDialog::DoDataExchange(pDX);
 	//{{AFX_DATA_MAP(COptionsDialog)
 	DDX_Control(pDX, IDC_PRIORITYCHECK, m_cPriorityCheck);
+	DDX_Control(pDX, IDC_AUTOUPDATECHECK, m_cAutoUpdateCheck);
 	DDX_Control(pDX, IDC_THEMECOMBO, m_cThemeCombo);
 	DDX_Control(pDX, IDC_TOOLBARDRAGCHECK, m_cToolbarCheck);
 	DDX_Control(pDX, IDC_DOCKINGCOMBO, m_cDockingCombo);
@@ -55,10 +56,10 @@ END_MESSAGE_MAP()
 /////////////////////////////////////////////////////////////////////////////
 // COptionsDialog message handlers
 
-BOOL COptionsDialog::OnInitDialog() 
+BOOL COptionsDialog::OnInitDialog()
 {
 	CDialog::OnInitDialog();
-	
+
 	Initialise();
 
 	return TRUE;  // return TRUE unless you set the focus to a control
@@ -103,6 +104,15 @@ COptionsDialog::Initialise()
 	else
 	{
 		m_cToolbarCheck.SetCheck (0);
+	}
+
+	if (CAppData::m_bAutoUpdate)
+	{
+		m_cAutoUpdateCheck.SetCheck (1);
+	}
+	else
+	{
+		m_cAutoUpdateCheck.SetCheck (0);
 	}
 
 	if (CAppData::m_bHighPriority)
@@ -165,7 +175,7 @@ COptionsDialog::Initialise()
 				m_cThemeCombo.AddString (l_cFileFind.GetFileName());
 			}
 		}
-		
+
 	}
 
 	l_cFileFind.Close ();
@@ -173,7 +183,7 @@ COptionsDialog::Initialise()
 	m_cThemeCombo.SelectString (-1, CAppData::m_csCurrentTheme);
 }
 
-void COptionsDialog::OnOK() 
+void COptionsDialog::OnOK()
 {
 	bool l_bRecache = false;
 	CString l_csSize;
@@ -182,11 +192,11 @@ void COptionsDialog::OnOK()
 	bool l_bCacheCheck;
 	CString l_csPath;
 	CString l_csTheme;
-	
+
 	CAppData::m_bGlobalHotkeys = m_cHotKeyCheck.GetCheck () > 0;
 	CAppData::m_bDragWithToolBar = m_cToolbarCheck.GetCheck () > 0;
 	CAppData::m_bHighPriority = m_cPriorityCheck.GetCheck () > 0;
-
+	CAppData::m_bAutoUpdate = m_cAutoUpdateCheck.GetCheck () > 0;
 
 	if (CAppData::m_bHighPriority)
 	{
@@ -285,11 +295,11 @@ void COptionsDialog::OnOK()
 		CScheme::LoadHCCScheme (CAppData::m_csAppBasePath + cPath_App_Theme + "\\" + l_csTheme);
 		CAppData::ApplyCurrentTheme ();
 	}
-		
+
 	CDialog::OnOK();
 }
 
-void COptionsDialog::OnBrowsebutton() 
+void COptionsDialog::OnBrowsebutton()
 {
 	BROWSEINFO lpbi;
 	char DisplayName [MAX_PATH];
@@ -316,12 +326,12 @@ void COptionsDialog::OnBrowsebutton()
 
 }
 
-void COptionsDialog::OnHelpIndex() 
+void COptionsDialog::OnHelpIndex()
 {
-	CAppData::LaunchWebLink ((CString) "optionwindow");		
+	CAppData::LaunchWebLink ((CString) "optionwindow");
 }
 
-BOOL COptionsDialog::OnHelpInfo(HELPINFO* pHelpInfo) 
+BOOL COptionsDialog::OnHelpInfo(HELPINFO* pHelpInfo)
 {
 	return (TRUE);
 }

@@ -97,6 +97,7 @@ BEGIN_MESSAGE_MAP(CItemCreation, CDialog)
 	ON_COMMAND(ID_OPTIONS_RESOURCEGRID_LIMITTO12ROWS, OnOptionsResourcegridLimitto12rows)
 	ON_COMMAND(ID_OPTIONS_RESOURCEGRID_UNLIMITED, OnOptionsResourcegridUnlimited)
 	ON_COMMAND(ID_SEARCH_BYNAME, OnSearchByname)
+	ON_COMMAND(ID_SEARCH_BYFORMNAME, OnSearchByFormname)
 	ON_COMMAND(ID_SEARCH_BYCLASS, OnSearchByclass)
 	ON_WM_HELPINFO()
 	ON_COMMAND(ID_OPTIONS_RESOURCEGRID_AUTOSHRINK, OnOptionsResourcegridAutoshrink)
@@ -336,7 +337,7 @@ CItemCreation::Initialise()
 	m_cTierGrid.SetRows (1);
 	m_cTierGrid.SetFormatString ("^Tiers / Variants");
 	//m_cTierGrid.SetColWidth (0, 1700);
-	m_cTierGrid.SetColWidth (0, 2100);
+	m_cTierGrid.SetColWidth (0, 2400);
 	m_cTierGrid.SetBackColor (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
 	m_cTierGrid.SetBackColorBkg (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
 	m_cTierGrid.SetGridColorFixed (CScheme::GetColour ("GRID_LISTBACKCOLOUR"));
@@ -450,6 +451,7 @@ CItemCreation::DrawFormulaList()
 	int l_iCatTotal;
 	CString l_csFormulaName;
 	CString l_csFilterName;
+	CString l_csFormulaTierName;
 
 	m_bFormulaTreeExpand = true;
 	this->LockWindowUpdate ();
@@ -503,6 +505,33 @@ CItemCreation::DrawFormulaList()
 						l_csFormulaName = l_cpFormula->m_csName;
 						l_csFormulaName.MakeLower ();
 						l_bShowFormula = l_csFormulaName.Find (l_csFilterName) >= 0;
+
+						if (!CAppData::m_bFormSearchMode && l_bShowFormula == false)
+						{
+                            l_Pos = l_cpFormula->m_clFormulaTierList.GetHeadPosition ();
+                            while (l_Pos)
+                            {
+                                l_cpFormulaTier = l_cpFormula->m_clFormulaTierList.GetNext (l_Pos);
+                                l_csFormulaTierName = l_cpFormulaTier->m_csName;
+                                l_csFormulaTierName.MakeLower ();
+
+                                if (l_csFormulaTierName.Find (l_csFilterName) != -1)
+                                {
+                                    if (!l_bShowFormula)
+                                    {
+                                        CAppData::m_csPreferedFormulaTierName = l_cpFormulaTier->m_csTierName;
+                                        CAppData::m_csPreferedFormulaTier = l_cpFormulaTier->m_iTierLevel;
+
+                                        //AfxMessageBox (l_cpFormulaTier->m_csTierName, MB_ICONEXCLAMATION );
+                                    }
+
+                                    l_bShowFormula = true;
+                                    break;
+                                }
+                            }
+						}
+
+
 					}
 
 					if (!CAppData::m_cFormClassFilter.IsEmpty ())
@@ -680,6 +709,7 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 
 			if (CAppData::m_cpCurrentFormula->FindFormulaTier (CAppData::m_csCurrentFormulaTierName, &l_cpFormulaTier))
 			{
+
 				m_cItemInfoGrid.SetRows (0);
 				m_cResourceGrid.SetRows (1);
 
@@ -812,8 +842,16 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_ExtraDamage,
 												 "Extra Damage", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_ExtraDamage,
-												 "Extra Damage", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 
+												 "Extra Damage", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
+                /*
+                // Race Requirements
+                l_bHeader = false;
+				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_ReqRace,
+												 "Requirements", m_cItemInfoGrid, GRID_REQUIREMENT, &m_cSizingBox, "", l_bHeader);
+				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_ReqRace,
+												 "Requirements", m_cItemInfoGrid, GRID_REQUIREMENT, &m_cSizingBox, "", l_bHeader);
+                */
 				// Duration
 				l_bHeader = false;
 				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_Duration,
@@ -848,6 +886,13 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, CAppData::m_csEffectList_Bonuses,
 												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, CAppData::m_csEffectList_Bonuses,
+												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
+
+				// New Timer
+				l_bHeader = false;
+				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_Timer,
+												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
+				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_Timer,
 												 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 
 				DisplayTechBonuses ();
@@ -900,8 +945,17 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_HoardValue,
 												 "Hoard Value", m_cItemInfoGrid, GRID_REQUIREMENT, &m_cSizingBox, "", l_bHeader);
 
+                //AfxMessageBox (cXMLAttribute_DamageModifier, MB_ICONEXCLAMATION );
+
+                AddSummaryLine ("|", GRID_EFFECT);
+                l_bHeader = false;
+				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_DamageModifier,
+												 "", m_cItemInfoGrid, GRID_EFFECTDESCRIPTION, &m_cSizingBox, "", l_bHeader);
+				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_DamageModifier,
+												 "", m_cItemInfoGrid, GRID_EFFECTDESCRIPTION, &m_cSizingBox, "", l_bHeader);
+
 				// Effect
-				AddSummaryLine ("|", GRID_EFFECT);
+                AddSummaryLine ("|", GRID_EFFECT);
 				l_bHeader = false;
 				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_TargetName,
 												 "Effect", m_cItemInfoGrid, GRID_EFFECTTITLE, &m_cSizingBox, "", l_bHeader);
@@ -916,6 +970,12 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 
 				AddSummaryLine ("|", GRID_EFFECT);
 				l_bHeader = false;
+
+				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_EffectChance,
+												 "Chance", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
+				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_EffectChance,
+												 "Chance", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
+                l_bHeader = false;
 				CAppData::AddEffectType (CAppData::m_cpCurrentFormula->m_clEffectsList, cXMLAttribute_TargetDuration,
 												 "Duration", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 				CAppData::AddEffectType (l_cpFormulaTier->m_clEffectsList, cXMLAttribute_TargetDuration,
@@ -971,13 +1031,15 @@ CItemCreation::DisplayFormula(bool a_bUpdateTechList)
 				if (a_bUpdateTechList)
 				{
 					CAppData::m_cTechSelectionWnd.DrawTechList ();
-				}
+ 				}
 
 			}
 
 			this->UnlockWindowUpdate ();
 			RedrawOn ();
 			ResizeGrids ();
+
+
 		}
 
 		m_bDisplayFormula = false;
@@ -1077,6 +1139,7 @@ void CItemCreation::DisplayTechBonuses ()
 	CTechTier	*l_cpTechTier = NULL;
 	bool l_bHeader;
 	CString l_csValue;
+	int l_iOffset;
 
 	m_cTechGrid.SetRows (1);
 
@@ -1094,9 +1157,11 @@ void CItemCreation::DisplayTechBonuses ()
 			CAppData::AddEffectType (l_cpTechTier->m_clEffectList, cXMLAttribute_ExtraDamage,
 											 "Extra Damage", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
 			l_bHeader = false;
+			CAppData::AddEffectType (l_cpTechTier->m_clEffectList, cXMLAttribute_ReqRace,
+											 "Requirements", m_cItemInfoGrid, GRID_REQUIREMENT, &m_cSizingBox, "- ", l_bHeader);
+			l_bHeader = false;
 			CAppData::AddEffectType (l_cpTechTier->m_clEffectList, cXMLAttribute_Effect,
 											 "", m_cItemInfoGrid, GRID_EFFECT, &m_cSizingBox, "", l_bHeader);
-
 
 			l_EffectPos = l_cpTechTier->m_clEffectList.GetHeadPosition ();
 			while (l_EffectPos)
@@ -1118,8 +1183,8 @@ void CItemCreation::DisplayTechBonuses ()
 				{
 					ModifyLine ("Heals", cXMLAttribute_HealModifier, l_cpEffect->m_csDescription);
 				}
-			}
 
+			}
 		}
 
 	}
@@ -1190,6 +1255,8 @@ void CItemCreation::AdjustTechUsage ()
 	bool l_bSearch = false;
 	bool l_bChanged = false;
 
+
+
 	l_Pos = CAppData::m_cCurrentOrderItem.m_clTechList.GetHeadPosition ();
 	while (l_Pos)
 	{
@@ -1198,6 +1265,22 @@ void CItemCreation::AdjustTechUsage ()
 
 		if (CAppData::FindTechTier (l_cItemTech.m_csCategory, l_cItemTech.m_csTechName, l_cItemTech.m_csTierName, &l_cpTechTier))
 		{
+		    /*
+		    l_iOffset = 1;
+		    do
+            {
+                if (m_cItemInfoGrid.GetTextMatrix (l_iOffset, 0) == "Usable By")
+                {
+                    if (l_cItemTech.m_csTechName == "Invisible")
+                    {
+                        l_csLine = m_cItemInfoGrid.GetTextMatrix (l_iOffset, 1);
+                        AfxMessageBox ("l_csLine", MB_ICONEXCLAMATION );
+                        m_cItemInfoGrid.SetTextMatrix (l_iOffset, 1, "Saris, Sslik, Satyr and Dryad");
+                    }
+                }
+                l_iOffset++;
+            } while (l_iOffset < m_cItemInfoGrid.GetRows ());
+            */
 			if (l_cpTechTier->m_iUsageAdjust > 0)
 			{
 
@@ -1206,7 +1289,7 @@ void CItemCreation::AdjustTechUsage ()
 
 				do
 				{
-					if ((l_bSearch) || (m_cItemInfoGrid.GetTextMatrix (l_iOffset, 0) == "Requirements"))
+				    if ((l_bSearch) || (m_cItemInfoGrid.GetTextMatrix (l_iOffset, 0) == "Requirements"))
 					{
 						l_bSearch= true;
 						l_csLine = m_cItemInfoGrid.GetTextMatrix (l_iOffset, 1);
@@ -1382,6 +1465,7 @@ void CItemCreation::OnClickTiergrid()
 {
 	int l_irow = m_cTierGrid.GetRowSel ();
 	CString l_csTierName = "";
+	int m_iTierLevel = 1;
 	CFormulaTier *l_cpFormulaTier;
 	CTechTier *l_cpTechTier;
 	POSITION l_Pos;
@@ -1423,6 +1507,9 @@ void CItemCreation::OnClickTiergrid()
 					CAppData::m_cCurrentOrderItem.m_csTierName = l_csTierName;
 					CAppData::m_csCurrentTechTierName = CAppData::m_csCurrentFormulaTierName;
 					CAppData::m_csPreferedFormulaTierName = l_csTierName;
+					CAppData::m_csPreferedFormulaTier = m_iTierLevel;
+
+					//AfxMessageBox (l_csTierName, MB_ICONEXCLAMATION );
 					DisplayFormulaTiers ();
 					DisplayFormula (true);
 
@@ -1435,10 +1522,21 @@ void CItemCreation::OnClickTiergrid()
 
 					if (CAppData::m_bEditMode)
 					{
-						CAppData::UpdateOrderItem (CAppData::m_cCurrentOrderItem);
-						CAppData::m_cOrderWnd.DisplayOrder ();
-						CAppData::m_cOrderWnd.DisplayOrderItem (CAppData::m_cCurrentOrderItem.m_iId);
-						CAppData::ChangeOrderState (true);
+						if (GetKeyState(VK_SHIFT)<0)
+						{
+							CAppData::UpdateOrderItem (CAppData::m_cCurrentOrderItem);
+							CAppData::m_cOrderWnd.DisplayOrder ();
+							CAppData::m_cOrderWnd.DisplayOrderItem (CAppData::m_cCurrentOrderItem.m_iId);
+							CAppData::ChangeOrderState (true);
+						}
+						else
+						{
+							//CAppData::m_cOrderWnd.DisplayOrder ();
+							//CAppData::m_cOrderWnd.DisplayOrderItem (0);
+
+							//CAppData::m_cItemCreationWnd.DisplayItems();
+							CAppData::m_cItemCreationWnd.ResetItemEdit();
+						}
 					}
 				}
 			}
@@ -1463,11 +1561,23 @@ CItemCreation::DisplayFormulaTiers()
 	POSITION l_Pos;
 	bool l_bCurrentTierFound = false;
 	int l_iCurrentTierRow = 1;
+	CString l_csFormulaTierName;
+
+    CString l_csFormulaTierName_error = "";
+	CString l_csFormulaTierName_first_match = "";
+	int l_csFormulaTierName_first_match_cnt = 1;
+	int l_csFormulaTierName_cur_pos = 1;
+
+	CString l_csFilterName;
+    CString l_csFilterNameMode;
+
+	l_csFilterName = CAppData::m_cFormFilter;
+	l_csFilterName.MakeLower ();
 
 	m_cTierGrid.SetRows (1);
 	m_cTierGrid.SetFormatString ("^Tiers / Variants");
 	//m_cTierGrid.SetColWidth (0, 1600);
-	m_cTierGrid.SetColWidth (0, 2100);
+	m_cTierGrid.SetColWidth (0, 2400);
 
 	if (CAppData::m_cpCurrentFormula)
 	{
@@ -1475,17 +1585,68 @@ CItemCreation::DisplayFormulaTiers()
 
 		while (l_Pos)
 		{
+		    l_csFormulaTierName_cur_pos++;
 			l_cpFormulaTier = CAppData::m_cpCurrentFormula->m_clFormulaTierList.GetNext (l_Pos);
-			m_cTierGrid.AddRow (l_cpFormulaTier->m_csTierName, GRID_TIERAVAIL, 1);
+            l_csFormulaTierName = l_cpFormulaTier->m_csName;
+            l_csFormulaTierName.MakeLower ();
+
+            if (CAppData::m_bFormSearchMode || CAppData::m_csLastFormulaCategory != cCustom_Filter || l_csFilterName.IsEmpty() || l_csFormulaTierName.Find (l_csFilterName) != -1)
+            {
+                //AfxMessageBox (CAppData::m_csPreferedFormulaTierName, MB_ICONEXCLAMATION );
+                //if (CAppData::m_csPreferedFormulaTierName == l_cpFormulaTier->m_csTierName)
+                //{
+                 //   l_csFormulaTierName_first_match_cnt = l_csFormulaTierName_cur_pos;
+                 //   l_csFormulaTierName_first_match = l_cpFormulaTier->m_csTierName;
+               // }
+                //else
+                if (l_csFormulaTierName_first_match == "")
+                {
+                    //AfxMessageBox (CAppData::m_csPreferedFormulaTierName + " x " + l_csFormulaTierName_first_match, MB_ICONEXCLAMATION );
+                    //CAppData::m_csPreferedFormulaTierName = l_cpFormulaTier->m_csTierName;
+                    l_csFormulaTierName_first_match_cnt = l_csFormulaTierName_cur_pos;
+                    l_csFormulaTierName_first_match = l_cpFormulaTier->m_csTierName;
+
+                    //l_csFormulaTierName_error.Format ("%d", l_csFormulaTierName_cur_pos);
+                    //AfxMessageBox (l_csFormulaTierName_error, MB_ICONEXCLAMATION );
+                    //AfxMessageBox (l_csFilterName, MB_ICONEXCLAMATION );
+
+                }
+                //AfxMessageBox (l_cpFormulaTier->m_csTierName, MB_ICONEXCLAMATION );
+
+                m_cTierGrid.AddRow (l_cpFormulaTier->m_csTierName, GRID_TIERAVAIL, 1);
+            }
+            else
+            {
+                m_cTierGrid.AddRow (l_cpFormulaTier->m_csTierName, GRID_TIERNOTAVAIL, 1);
+            }
 
 			if (!CAppData::m_bEditMode)
 			{
-				if (l_cpFormulaTier->m_csTierName == CAppData::m_csPreferedFormulaTierName)
+                //AfxMessageBox (CAppData::m_csPreferedFormulaTierName + " x " + l_cpFormulaTier->m_csTierName, MB_ICONEXCLAMATION );
+			    if (l_cpFormulaTier->m_csTierName == CAppData::m_csPreferedFormulaTierName)
 				{
 					CAppData::m_csCurrentFormulaTierName = CAppData::m_csPreferedFormulaTierName;
 					l_bCurrentTierFound = true;
 					l_iCurrentTierRow = m_cTierGrid.GetRows () - 1;
+					//AfxMessageBox ("Norm: " + CAppData::m_csPreferedFormulaTierName, MB_ICONEXCLAMATION );
 				}
+				else if (!CAppData::m_bFormSearchMode && !CAppData::m_cpFormFilterTech && CAppData::m_csLastFormulaCategory == cCustom_Filter && l_csFormulaTierName_first_match_cnt > 1 && l_cpFormulaTier->m_iTierLevel == CAppData::m_csPreferedFormulaTier && !l_bCurrentTierFound)
+				{
+                    //AfxMessageBox (l_cpFormulaTier->m_iTierLevel, MB_ICONEXCLAMATION );
+
+/*
+Problem ist dass dieser Code ausgefuehrt wird, auch wenn ein perfect match dabei ist.
+*/
+
+					CAppData::m_csCurrentFormulaTierName = l_csFormulaTierName_first_match;
+					//CAppData::m_csPreferedFormulaTierName = l_csFormulaTierName_first_match;
+					l_bCurrentTierFound = true;
+					l_iCurrentTierRow = l_csFormulaTierName_first_match_cnt -1;
+
+
+					//AfxMessageBox ("AB", MB_ICONEXCLAMATION );
+				}
+
 			}
 			else
 			{
@@ -1494,7 +1655,9 @@ CItemCreation::DisplayFormulaTiers()
 					l_bCurrentTierFound = true;
 					l_iCurrentTierRow = m_cTierGrid.GetRows () - 1;
 				}
+
 			}
+
 		}
 
 		if (!l_bCurrentTierFound)
@@ -1528,6 +1691,11 @@ void CItemCreation::OnAdditem()
 		CAppData::m_clOrderList.AddTail (CAppData::m_cCurrentOrderItem);
 		CAppData::m_iCurrentOrderId = CAppData::m_cCurrentOrderItem.m_iId;
 		CAppData::m_bEditMode = true;
+
+		CAppData::m_cCurrentOrderItem.m_iQty = 1;
+		//CAppData::m_cOrderWnd.m_iQty = 1;
+		CAppData::m_cOrderWnd.m_cItemQty.SetWindowText ("1");
+
 		m_cAddItemButton.EnableWindow (true);
 		m_cAddItemButton.SetWindowText ("Increase Qty");
 		CAppData::m_cOrderWnd.DisplayOrder();
@@ -2724,7 +2892,7 @@ void CItemCreation::OnSearchByname()
 {
 	CInputDialog l_cInputDialog (this);
 
-	l_cInputDialog.m_csInputMsg = "Formula Name";
+	l_cInputDialog.m_csInputMsg = "Search for";
 	l_cInputDialog.m_csTitleMsg = "Filter By Name";
 	if (l_cInputDialog.DoModal () == IDOK)
 	{
@@ -2734,6 +2902,29 @@ void CItemCreation::OnSearchByname()
 		CAppData::m_csLastFormulaCategory = cCustom_Filter;
 		CAppData::m_cpCurrentFormula = NULL;
 		CAppData::m_bEditMode = false;
+		CAppData::m_bFormSearchMode = false;
+		CAppData::m_cItemCreationWnd.SelectCategory (cCustom_Filter);
+		CAppData::m_cItemCreationWnd.DrawFormulaList ();
+		CAppData::SetItemWindow(true);
+	}
+
+}
+
+void CItemCreation::OnSearchByFormname()
+{
+	CInputDialog l_cInputDialog (this);
+
+	l_cInputDialog.m_csInputMsg = "Search for";
+	l_cInputDialog.m_csTitleMsg = "Filter By Formula Name";
+	if (l_cInputDialog.DoModal () == IDOK)
+	{
+		CAppData::m_cFormFilter = l_cInputDialog.m_csInput;
+		CAppData::m_cFormClassFilter = "";
+		CAppData::m_cpFormFilterTech = NULL;
+		CAppData::m_csLastFormulaCategory = cCustom_Filter;
+		CAppData::m_cpCurrentFormula = NULL;
+		CAppData::m_bEditMode = false;
+		CAppData::m_bFormSearchMode = true;
 		CAppData::m_cItemCreationWnd.SelectCategory (cCustom_Filter);
 		CAppData::m_cItemCreationWnd.DrawFormulaList ();
 		CAppData::SetItemWindow(true);
@@ -2838,7 +3029,6 @@ CItemCreation::ResetItemEdit()
 	m_cAddItemButton.EnableWindow (true);
 	m_cAddItemButton.SetWindowText ("Add Item");
 	m_cItemSelecter.SetCurSel (0);
-
 }
 
 void CItemCreation::OnClickFormulatree(NMHDR* pNMHDR, LRESULT* pResult)

@@ -12,6 +12,7 @@
 #include "RecacheDialog.h"
 #include "UpdateDialog.h"
 #include "Scheme.h"
+#include "direct.h"
 
 #ifdef _DEBUG
 #undef THIS_FILE
@@ -49,6 +50,7 @@ CTypedPtrList<CPtrList, CSubCategory*>	CAppData::m_clSubCategoryList;
 CFormula *CAppData::m_cpCurrentFormula = NULL;
 CString   CAppData::m_csCurrentFormulaTierName = "";
 CString   CAppData::m_csPreferedFormulaTierName = "";
+int CAppData::m_csPreferedFormulaTier = 1;
 CTypedPtrList<CPtrList, CFormulaSet*> CAppData::m_cResourceFormulaSetList;
 
 CTech		*CAppData::m_cpCurrentTech = NULL;
@@ -78,6 +80,7 @@ CString CAppData::m_cFormClassFilter = cNone_Filter;
 CString CAppData::m_cFormClassFilterType = "";
 CTech *CAppData::m_cpFormFilterTech = NULL;
 bool CAppData::m_bEditMode = false;
+bool CAppData::m_bFormSearchMode = false;
 bool CAppData::m_bShowUsableTechs = true;
 bool CAppData::m_bEnableCache = true;
 bool CAppData::m_bEnableIcons = true;
@@ -98,6 +101,8 @@ bool CAppData::m_bDragWithToolBar = false;
 bool CAppData::m_bVerticalToolBar = true;
 bool CAppData::m_bAutoShrink = true;
 bool CAppData::m_bHighPriority = false;
+bool CAppData::m_bAutoUpdate = false;
+bool CAppData::m_bAutoUpdateQuery = true;
 
 CString CAppData::m_csCurrentTheme = "hcctheme_default.xml";
 CString CAppData::m_csAppBasePath = "";
@@ -678,6 +683,58 @@ CAppData::ReadDefaults()
 	m_csOrderDir = m_csAppBasePath + cPath_App_Orders;
 	m_csProfileDir = m_csAppBasePath + cPath_App_LocalProfiles;
 	m_csTmpDir = m_csAppBasePath + cPath_App_Temp;
+
+    CString l_ErrMsg = "Error - Unable to create the folder \"%s\\\".\n\nPlease reinstall HCC using the installer or make sure the folder has write permissions.";
+    CString l_ErrMsgOut = "";
+
+
+    if (_chdir(m_csAppBasePath + cPath_App_Temp))
+    {
+        CreateDirectory(m_csAppBasePath + cPath_App_Temp,NULL);
+        l_ErrMsgOut.Format(l_ErrMsg, cPath_App_Temp.Mid(1));
+        if (_chdir(m_csAppBasePath + cPath_App_Temp)) AfxMessageBox (l_ErrMsgOut, MB_ICONEXCLAMATION );
+    }
+    if (_chdir(m_csAppBasePath + cPath_App_Orders))
+    {
+        CreateDirectory(m_csAppBasePath + cPath_App_Orders,NULL);
+        l_ErrMsgOut.Format(l_ErrMsg, cPath_App_Orders.Mid(1));
+        if (_chdir(m_csAppBasePath + cPath_App_Orders)) AfxMessageBox (l_ErrMsgOut, MB_ICONEXCLAMATION );
+    }
+    if (_chdir(m_csAppBasePath + cPath_App_Theme))
+    {
+        CreateDirectory(m_csAppBasePath + cPath_App_Theme,NULL);
+        l_ErrMsgOut.Format(l_ErrMsg, cPath_App_Theme.Mid(1));
+        if (_chdir(m_csAppBasePath + cPath_App_Theme)) AfxMessageBox (l_ErrMsgOut, MB_ICONEXCLAMATION );
+    }
+    if (_chdir(m_csAppBasePath + cPath_App_LocalProfiles))
+    {
+        CreateDirectory(m_csAppBasePath + cPath_App_LocalProfiles,NULL);
+        l_ErrMsgOut.Format(l_ErrMsg, cPath_App_LocalProfiles.Mid(1));
+        if (_chdir(m_csAppBasePath + cPath_App_LocalProfiles)) AfxMessageBox (l_ErrMsgOut, MB_ICONEXCLAMATION );
+    }
+    if (_chdir(m_csAppBasePath + cPath_App_Cache))
+    {
+        CreateDirectory(m_csAppBasePath + cPath_App_Cache,NULL);
+        l_ErrMsgOut.Format(l_ErrMsg, cPath_App_Cache.Mid(1));
+        if (_chdir(m_csAppBasePath + cPath_App_Cache)) AfxMessageBox (l_ErrMsgOut, MB_ICONEXCLAMATION );
+    }
+    if (_chdir(m_csAppBasePath + cPath_App_Config))
+    {
+        CreateDirectory(m_csAppBasePath + cPath_App_Config,NULL);
+        l_ErrMsgOut.Format(l_ErrMsg, cPath_App_Config.Mid(1));
+        if (_chdir(m_csAppBasePath + cPath_App_Config)) AfxMessageBox (l_ErrMsgOut, MB_ICONEXCLAMATION );
+    }
+    if (_chdir(m_csAppBasePath + cPath_App_Plugin))
+    {
+        CreateDirectory(m_csAppBasePath + cPath_App_Plugin,NULL);
+        l_ErrMsgOut.Format(l_ErrMsg, cPath_App_Plugin.Mid(1));
+        if (_chdir(m_csAppBasePath + cPath_App_Plugin)) AfxMessageBox (l_ErrMsgOut, MB_ICONEXCLAMATION );
+    }
+
+    _chdir(m_csAppBasePath);
+
+    //CreateDirectory(cPath_App_Config,NULL);
+
 	m_csLastFormulaCategory = "";
 	m_csLastTechCategory = "";
 	m_csCurrentTheme = cFile_App_DefaultTheme;
@@ -718,6 +775,8 @@ CAppData::ReadDefaults()
 	l_cRegAccess.LoadKey (l_csBasePath, "DragWithToolbar", m_bDragWithToolBar);
 	l_cRegAccess.LoadKey (l_csBasePath, "VerticalToolbar", m_bVerticalToolBar);
 	l_cRegAccess.LoadKey (l_csBasePath, "AutoShrink", m_bAutoShrink);
+	l_cRegAccess.LoadKey (l_csBasePath, "AutoUpdate", m_bAutoUpdate);
+	l_cRegAccess.LoadKey (l_csBasePath, "AutoUpdateQuery", m_bAutoUpdateQuery);
 	l_cRegAccess.LoadKey (l_csBasePath, "HighPriority", m_bHighPriority);
 
 	if (m_csOrderDir.IsEmpty ())
@@ -784,6 +843,8 @@ CAppData::SaveDefaults()
 	l_cRegAccess.SaveKey (l_csBasePath, "DragWithToolbar", m_bDragWithToolBar);
 	l_cRegAccess.SaveKey (l_csBasePath, "VerticalToolbar", m_bVerticalToolBar);
 	l_cRegAccess.SaveKey (l_csBasePath, "AutoShrink", m_bAutoShrink);
+	l_cRegAccess.SaveKey (l_csBasePath, "AutoUpdate", m_bAutoUpdate);
+	l_cRegAccess.SaveKey (l_csBasePath, "AutoUpdateQuery", m_bAutoUpdateQuery);
 	l_cRegAccess.SaveKey (l_csBasePath, "HighPriority", m_bHighPriority);
 }
 
@@ -1297,7 +1358,12 @@ bool CAppData::SaveOrder(CString &a_csFilename)
 	if (l_cParser.WriteFile (a_csFilename))
 	{
 		l_cParser.WriteOpenTag ("order");
-		l_cParser.WriteTag ("order-format", "1.0");
+		l_cParser.WriteTag ("order-format", "1.1");
+		l_cParser.WriteOpenTag ("generator");
+        l_cParser.WriteTag ("application", "HCC");
+		l_cParser.WriteTag ("version", cAppData_Version);
+		l_cParser.WriteTag ("database", CAppData::m_csDatabaseRevision);
+		l_cParser.WriteCloseTag ("generator");
 
 		l_cParser.WriteOpenTag ("groups");
 		l_cPos = m_cOrderGroups.GetHeadPosition ();
@@ -1358,6 +1424,182 @@ bool CAppData::SaveOrder(CString &a_csFilename)
 	return (l_bResult);
 }
 
+bool CAppData::ExportOrder(CString &a_csFilename)
+{
+	POSITION l_cPos;
+	COrderItem l_cOrderItem;
+	CItemTech l_cItemTech;
+	POSITION l_TechPos;
+	XMLParser l_cParser;
+	CString l_csTier;
+	CString l_csCompName;
+	CString l_csCount;
+	CString l_csStr;
+	bool l_bResult = false;
+
+	OptimiseStoredComponents ();
+
+	if (l_cParser.WriteFile (a_csFilename))
+	{
+		l_cParser.WriteOpenTag ("order");
+		l_cParser.WriteTag ("order-format", "1.1");
+		l_cParser.WriteOpenTag ("generator");
+        l_cParser.WriteTag ("application", "HCC");
+		l_cParser.WriteTag ("version", cAppData_Version);
+		l_cParser.WriteTag ("database", CAppData::m_csDatabaseRevision);
+		l_cParser.WriteCloseTag ("generator");
+
+		l_cParser.WriteOpenTag ("groups");
+		l_cPos = m_cOrderGroups.GetHeadPosition ();
+		while (l_cPos)
+		{
+			l_cParser.WriteTag ("group", m_cOrderGroups.GetNext (l_cPos));
+		}
+		l_cParser.WriteCloseTag ("groups");
+
+		l_cPos = m_clOrderList.GetHeadPosition ();
+		while (l_cPos)
+		{
+		    l_bResult = true;
+			l_cOrderItem = m_clOrderList.GetNext (l_cPos);
+
+			l_cParser.WriteOpenTag ("item");
+			l_cParser.WriteTag ("item-name", l_cOrderItem.m_csItemName);
+			l_cParser.WriteTag ("item-group", l_cOrderItem.m_csOrderGroup);
+			l_cParser.WriteTag ("item-formula", l_cOrderItem.m_csFormulaName);
+			//l_cParser.WriteTag ("item-category", l_cOrderItem.m_csCategory);
+			l_cParser.WriteTag ("item-tierlvlname", l_cOrderItem.m_csTierName);
+			l_cParser.WriteTag ("item-qty", l_cOrderItem.m_iQty);
+
+			l_cParser.WriteOpenTag ("techs");
+
+			l_TechPos = l_cOrderItem.m_clTechList.GetHeadPosition ();
+			while (l_TechPos)
+			{
+				l_cItemTech = l_cOrderItem.m_clTechList.GetNext (l_TechPos);
+
+				l_csTier.Format ("tier=\"%s\"", l_cItemTech.m_csTierName);
+				l_cParser.WriteAttributeTag ("tech", l_csTier, l_cItemTech.m_csTechName);
+			}
+
+			l_cParser.WriteCloseTag ("techs");
+
+			l_cParser.WriteCloseTag ("item");
+		}
+
+		l_cParser.WriteOpenTag ("components");
+		l_cPos = m_cmComponentMap.GetStartPosition ();
+		while (l_cPos)
+		{
+		    l_bResult = true;
+			m_cmComponentMap.GetNextAssoc (l_cPos, l_csCompName, l_csCount);
+			l_csStr.Format ("qty=\"%s\"", l_csCount);
+			l_cParser.WriteAttributeTag ("component", l_csStr, l_csCompName);
+		}
+		l_cParser.WriteCloseTag ("components");
+
+		l_cParser.WriteCloseTag ("order");
+
+		l_cParser.CloseFile ();
+	}
+
+	return (l_bResult);
+}
+
+bool CAppData::ExportProfile(CString &a_csFilename)
+{
+	POSITION l_cPos;
+	CBonus *l_cpBonus;
+	CSkill *l_cpSkill;
+	XMLParser l_cParser;
+	CString l_csStr;
+	bool l_bResult = false;
+
+    if (CAppData::m_csCurrentProfileType != "Local")
+    {
+        return true;
+    }
+
+	if (l_cParser.WriteFile (a_csFilename))
+	{
+
+        l_cParser.WriteOpenTag ("profile");
+        l_cParser.WriteTag ("profile-format", "1.1");
+        l_cParser.WriteTag ("profile-name", CAppData::m_cpCurrentProfile->m_csProfileName);
+        l_cParser.WriteTag ("profile-server", CAppData::m_cpCurrentProfile->m_csProfileServer);
+        l_cParser.WriteTag ("profile-email", CAppData::m_cpCurrentProfile->m_csProfileEmail);
+        l_cParser.WriteOpenTag ("generator");
+        l_cParser.WriteTag ("application", "HCC");
+		l_cParser.WriteTag ("version", cAppData_Version);
+		l_cParser.WriteTag ("database", CAppData::m_csDatabaseRevision);
+		l_cParser.WriteCloseTag ("generator");
+
+        l_cParser.WriteOpenTag ("statistics");
+        l_cPos = CAppData::m_cpCurrentProfile->m_clStatisticList.GetHeadPosition ();
+        while (l_cPos)
+        {
+            l_cpBonus = CAppData::m_cpCurrentProfile->m_clStatisticList.GetNext (l_cPos);
+            l_csStr.Format ("value=\"%d\"", l_cpBonus->m_iValue);
+            l_cParser.WriteAttributeTag ("statistic", l_csStr, l_cpBonus->m_csBonusName);
+        }
+        l_cParser.WriteCloseTag ("statistics");
+
+        l_cParser.WriteOpenTag ("adventurelevels");
+        l_cPos = CAppData::m_cpCurrentProfile->m_clAdventureSchoolList.GetHeadPosition ();
+        while (l_cPos)
+        {
+            l_cParser.WriteOpenTag ("adventure");
+            l_cpSkill = CAppData::m_cpCurrentProfile->m_clAdventureSchoolList.GetNext (l_cPos);
+            l_cParser.WriteTag ("adventure-name", l_cpSkill->m_csSkillName);
+            l_cParser.WriteTag ("adventure-level", l_cpSkill->m_iSkillValue);
+            l_cParser.WriteCloseTag ("adventure");
+        }
+        l_cParser.WriteCloseTag ("adventurelevels");
+
+        l_cParser.WriteOpenTag ("adventureskills");
+        l_cPos = CAppData::m_cpCurrentProfile->m_clAdventureSkillsList.GetHeadPosition ();
+        while (l_cPos)
+        {
+            l_cpBonus = CAppData::m_cpCurrentProfile->m_clAdventureSkillsList.GetNext (l_cPos);
+            l_csStr.Format ("level=\"%d\"", l_cpBonus->m_iValue);
+            l_cParser.WriteAttributeTag ("adventureskill", l_csStr, l_cpBonus->m_csBonusName);
+        }
+        l_cParser.WriteCloseTag ("adventureskills");
+
+        l_cParser.WriteOpenTag ("craftlevels");
+        l_cPos = CAppData::m_cpCurrentProfile->m_clCraftSchoolList.GetHeadPosition ();
+        while (l_cPos)
+        {
+            l_cParser.WriteOpenTag ("craft");
+            l_cpSkill = CAppData::m_cpCurrentProfile->m_clCraftSchoolList.GetNext (l_cPos);
+            l_cParser.WriteTag ("craft-name", l_cpSkill->m_csSkillName);
+            l_cParser.WriteTag ("craft-level", l_cpSkill->m_iSkillValue);
+            l_cParser.WriteTag ("craft-worktiermin", l_cpSkill->m_iWorkTierMin);
+            l_cParser.WriteTag ("craft-worktiermax", l_cpSkill->m_iWorkTierMax);
+            l_cParser.WriteCloseTag ("craft");
+        }
+        l_cParser.WriteCloseTag ("craftlevels");
+
+        l_cParser.WriteOpenTag ("craftskills");
+        l_cPos = CAppData::m_cpCurrentProfile->m_clCraftSkillsList.GetHeadPosition ();
+        while (l_cPos)
+        {
+            l_cpBonus = CAppData::m_cpCurrentProfile->m_clCraftSkillsList.GetNext (l_cPos);
+            l_csStr.Format ("level=\"%d\"", l_cpBonus->m_iValue);
+            l_cParser.WriteAttributeTag ("craftskill", l_csStr, l_cpBonus->m_csBonusName);
+        }
+        l_cParser.WriteCloseTag ("craftskills");
+
+        l_cParser.WriteCloseTag ("profile");
+
+        l_cParser.CloseFile ();
+
+        l_bResult = true;
+	}
+
+	return (l_bResult);
+}
+
 bool CAppData::LoadOrder(CString &a_csFilename)
 {
 	bool l_bResult = false;
@@ -1390,7 +1632,7 @@ bool CAppData::LoadOrder(CString &a_csFilename)
 		{
 		}
 
-		if (l_csVersion != "1.0")
+		if (l_csVersion != "1.0" && l_csVersion != "1.1")
 		{
 			return (false);
 		}
@@ -2197,6 +2439,7 @@ CAppData::DeleteOrderItem(int l_iItemId)
 		if (l_cOrderItem.m_iId == l_iItemId)
 		{
 			m_clOrderList.RemoveAt (l_PrevPos);
+			CAppData::m_cItemCreationWnd.ResetItemEdit();
 		}
 	}
 }

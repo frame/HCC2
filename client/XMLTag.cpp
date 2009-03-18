@@ -71,7 +71,7 @@ bool XMLTag::GetNextTag(XMLParser &a_cParser, XMLTag &a_cParentTag)
 			l_iLine++;
 		}
 	}
-	
+
 	return (l_bFound);
 }
 
@@ -91,6 +91,7 @@ bool XMLTag::GetTagValue(XMLParser &a_cParser, CString &a_csTagName, CString &a_
 		if (a_csTagName == l_csTagName)
 		{
 			a_csTagValue = a_cParser.GetTagValue (l_iLine);
+			a_csTagValue.Replace("&amp;", "&");
 			return (true);
 		}
 		else if (("/" + m_csCurrentTag) == l_csTagName)
@@ -102,7 +103,7 @@ bool XMLTag::GetTagValue(XMLParser &a_cParser, CString &a_csTagName, CString &a_
 			l_iLine++;
 		}
 	}
-	
+
 	return (false);
 }
 
@@ -143,8 +144,10 @@ bool XMLTag::GetTagDoubleValue(XMLParser &a_cParser, CString &a_csTagName, CStri
 		if (a_csTagName == l_csTagName)
 		{
 			a_csTagValue = a_cParser.GetTagValue (l_csLine);
+			a_csTagValue.Replace("&amp;", "&");
 			a_csClassValue = a_cParser.GetTagClass (l_csLine);
-		
+			a_csClassValue.Replace("&amp;", "&");
+
 			return (true);
 		}
 		else if (("/" + m_csCurrentTag) == l_csTagName)
@@ -156,7 +159,7 @@ bool XMLTag::GetTagDoubleValue(XMLParser &a_cParser, CString &a_csTagName, CStri
 			l_iLine++;
 		}
 	}
-	
+
 	return (false);
 }
 
@@ -213,7 +216,7 @@ bool XMLTag::GetRepeatingTagValue(XMLParser &a_cParser, CString &a_csTagName, CS
 			l_iLine++;
 		}
 	}
-	
+
 	m_iRepeatingOffset = 0;
 	return (false);
 }
@@ -257,6 +260,7 @@ bool XMLTag::GetRepeatingDoubleTagValue(XMLParser &a_cParser, CString &a_csTagNa
 		if (a_csTagName == l_csTagName)
 		{
 			a_csTagValue = a_cParser.GetTagValue (l_csLine);
+			a_csTagValue.Replace("&amp;", "&");
 			a_csClassValue = a_cParser.GetTagClass (l_csLine);
 			m_iRepeatingOffset++;
 			return (true);
@@ -271,7 +275,7 @@ bool XMLTag::GetRepeatingDoubleTagValue(XMLParser &a_cParser, CString &a_csTagNa
 			l_iLine++;
 		}
 	}
-	
+
 	m_iRepeatingOffset = 0;
 	return (false);
 }

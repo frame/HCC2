@@ -7,6 +7,9 @@
 #include "OrderItem.h"
 #include "AppData.h"
 #include "Scheme.h"
+#include "Regexp.h"
+#include "IO.h"
+#include "XWinVer.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -92,22 +95,211 @@ CReportDialog::StartUp()
 }
 
 
-void CReportDialog::OnGeneratebutton() 
+void CReportDialog::OnGeneratebutton()
 {
+    CString m_csCmd;
+    CString ExportToTXTresult;
+    FILE *l_cFilePtr;
+    CString cFile_ReportParameter;
+    CString cFile_ReportTarget;
+    CString cFile_ReportTargetPath;
+    CString cFile_ReportProfileName;
+    CString cFile_ReportProfileShard;
+    CString cFile_ReportProfileEmail;
+    CString cErrorMessage;
+    int cFile_ReportTypeTemp = -1;
+    int cFile_ReportBreakDownTemp = -1;
+    int cFile_ReportSortByTemp = -1;
+    int cFile_ReportBonusTypeTemp = -1;
+    int l_iSelected;
+    int do_export = true;
+
+
+/*
+    srand(time(NULL));
+    int rnd = rand()%300000;
+    cFile_ReportFilename.Format("\\%d", rnd);
+    AfxMessageBox (cFile_ReportFilename, MB_ICONEXCLAMATION );
+*/
 	if (m_cReportFormat.GetCurSel() == 0)
 	{
 		GenerateDirectReport ();
 	}
 	else if (m_cReportFormat.GetCurSel() == 1)
 	{
-		GenerateDirectReport ();
-		ExportToHTML (CAppData::m_csTmpDir + cFile_App_ReportHTML);
+		GenerateDirectReport();
+		if(ExportToHTML (CAppData::m_csTmpDir + cFile_App_ReportHTML))
+		{
+            m_csCmd.Format ("%s", CAppData::m_csTmpDir + cFile_App_ReportHTML);
+            ShellExecute (this->m_hWnd, "open", m_csCmd, NULL, NULL, SW_SHOWNORMAL);
+		}
 	}
-	else
+	else if (m_cReportFormat.GetCurSel() == 2)
 	{
 		GenerateDirectReport ();
-		ExportToClipboard ();
+		m_csCmd = PrepareExportToTEXT ();
+		if (!m_csCmd.IsEmpty())
+        {
+            CAppData::CopyToClipboard (m_csCmd);
+        }
 	}
+	else if (m_cReportFormat.GetCurSel() == 3)
+	{
+	    l_iSelected = ReportSelection();
+
+	    if (l_iSelected != CAppData::m_clOrderList.GetCount() && l_iSelected != 0)
+	    {
+	        do_export = false;
+	        //cErrorMessage.Format("Currently you only have %d of %d items marked for reporting:\nWhen exporting to a 3rd party plugin the whole order has to be selected.\n\nDo you want HCC to select all items for you and continue?", l_iSelected, CAppData::m_clOrderList.GetCount());
+
+	        cErrorMessage.Format ("To be able to export your order to a third party application, the entire order needs to be selected.\n\nShould HCC automatically select all items and continue?");
+	        int nResult = MessageBox (cErrorMessage, "All items must be selected", MB_ICONQUESTION|MB_YESNO);
+	        if (nResult == IDYES)
+            {
+                do_export = true;
+                ResetSelection();
+            }
+	    }
+
+	    if (do_export)
+	    {
+            m_cReportFormat.GetLBText(m_cReportFormat.GetCurSel(), cFile_ReportTargetPath);
+            cFile_ReportTargetPath = CAppData::m_csAppBasePath + "\\Plugins\\" + cFile_ReportTargetPath.Mid(10);
+            cFile_ReportTarget = cFile_ReportTargetPath + "\\export.bat";
+
+            if (CAppData::m_iReportType == 3)
+            {
+                cFile_ReportParameter = "\"" + CAppData::m_csTmpDir + "\" \"bonus\"";
+            }
+            else
+            {
+                cFile_ReportParameter = "\"" + CAppData::m_csTmpDir + "\" \"order\"";
+            }
+
+            cFile_ReportParameter += " \"" + cAppData_Version + "\"";
+            cFile_ReportParameter += " \"" + CAppData::m_csDatabaseRevision + "\"";
+
+            if (CAppData::m_csCurrentProfileType == "Local")
+            {
+                cFile_ReportProfileName = CAppData::m_cpCurrentProfile->m_csProfileName;
+                cFile_ReportProfileName.Replace("\"", "_");
+                cFile_ReportProfileName.Replace("%", "_");
+                cFile_ReportProfileName.Replace("^", "_");
+                cFile_ReportProfileName.Replace("&", "_");
+                cFile_ReportProfileName.Replace("=", "_");
+                cFile_ReportParameter += " \"" + cFile_ReportProfileName + "\"";
+
+                cFile_ReportProfileShard = CAppData::m_cpCurrentProfile->m_csProfileServer;
+                cFile_ReportProfileShard.Replace("\"", "_");
+                cFile_ReportProfileShard.Replace("%", "_");
+                cFile_ReportProfileShard.Replace("^", "_");
+                cFile_ReportProfileShard.Replace("&", "_");
+                cFile_ReportProfileShard.Replace("=", "_");
+                cFile_ReportParameter += " \"" + cFile_ReportProfileShard + "\"";
+
+                cFile_ReportProfileEmail = CAppData::m_cpCurrentProfile->m_csProfileEmail;
+                cFile_ReportProfileEmail.Replace("\"", "");
+                cFile_ReportProfileEmail.Replace("%", "");
+                cFile_ReportProfileEmail.Replace("^", "");
+                cFile_ReportProfileEmail.Replace("&", "");
+                cFile_ReportProfileEmail.Replace("=", "");
+                if (!cFile_ReportProfileEmail.IsEmpty() && cFile_ReportProfileEmail != "N/A")
+                {
+                    cFile_ReportParameter += " \"" + cFile_ReportProfileEmail + "\"";
+                }
+                else
+                {
+                    //cFile_ReportParameter += " \"\"";
+                }
+            }
+            else
+            {
+                //cFile_ReportParameter += " \"\" \"\"";
+            }
+
+            if (CAppData::m_iReportType == 1 || CAppData::m_iReportType == 2)
+            {
+                cFile_ReportTypeTemp = m_cReportType.GetCurSel();
+                m_cReportType.SetCurSel(0);
+                CAppData::m_iReportType = 0;
+            }
+
+            if (CAppData::m_iShowReportResourceMode != 1)
+            {
+                cFile_ReportBreakDownTemp = CAppData::m_iShowReportResourceMode;
+                CAppData::m_iShowReportResourceMode = 1;
+            }
+
+            if (CAppData::m_iShowReportResourceMode != 1)
+            {
+                cFile_ReportBreakDownTemp = CAppData::m_iShowReportResourceMode;
+                CAppData::m_iShowReportResourceMode = 1;
+            }
+
+            if (CAppData::m_iShowReportMode != 0)
+            {
+                cFile_ReportSortByTemp = CAppData::m_iShowReportMode;
+                CAppData::m_iShowReportMode = 0;
+            }
+
+            if (CAppData::m_iShowReportBonusMode != 0)
+            {
+                cFile_ReportBonusTypeTemp = CAppData::m_iShowReportBonusMode;
+                CAppData::m_iShowReportBonusMode = 0;
+            }
+
+            GenerateDirectReport ();
+
+            // cleanup exports
+            DeleteFile (CAppData::m_csTmpDir + "\\report.html");
+            DeleteFile (CAppData::m_csTmpDir + "\\report.xml");
+            DeleteFile (CAppData::m_csTmpDir + "\\report.txt");
+            DeleteFile (CAppData::m_csTmpDir + "\\order.xml");
+            DeleteFile (CAppData::m_csTmpDir + "\\profile.xml");
+
+            if (ExportToHTML (CAppData::m_csTmpDir + "\\report.html") && ExportToXML (CAppData::m_csTmpDir + "\\report.xml") && ExportToTEXT (CAppData::m_csTmpDir + "\\report.txt") && CAppData::ExportOrder(CAppData::m_csTmpDir + "\\order.xml") && CAppData::ExportProfile(CAppData::m_csTmpDir + "\\profile.xml"))
+            {
+                //AfxMessageBox (cFile_ReportParameter, MB_ICONEXCLAMATION );
+                ShellExecute(this->m_hWnd, "open", cFile_ReportTarget, cFile_ReportParameter, cFile_ReportTargetPath, SW_MINIMIZE);
+            }
+            else
+            {
+                // remove broken/partial exports
+                DeleteFile (CAppData::m_csTmpDir + "\\report.html");
+                DeleteFile (CAppData::m_csTmpDir + "\\report.xml");
+                DeleteFile (CAppData::m_csTmpDir + "\\report.txt");
+                DeleteFile (CAppData::m_csTmpDir + "\\order.xml");
+                DeleteFile (CAppData::m_csTmpDir + "\\profile.xml");
+            }
+
+            if (cFile_ReportBonusTypeTemp != CAppData::m_iShowReportBonusMode || cFile_ReportSortByTemp != CAppData::m_iShowReportMode || cFile_ReportBreakDownTemp != CAppData::m_iShowReportResourceMode || cFile_ReportTypeTemp != CAppData::m_iReportType)
+            {
+
+                if (cFile_ReportBonusTypeTemp != -1 && cFile_ReportBonusTypeTemp != CAppData::m_iShowReportBonusMode)
+                {
+                    CAppData::m_iShowReportBonusMode = cFile_ReportBonusTypeTemp;
+                }
+
+                if (cFile_ReportSortByTemp != -1 && cFile_ReportSortByTemp != CAppData::m_iShowReportMode)
+                {
+                    CAppData::m_iShowReportMode = cFile_ReportSortByTemp;
+                }
+
+                if (cFile_ReportBreakDownTemp != -1 && cFile_ReportBreakDownTemp != CAppData::m_iShowReportResourceMode)
+                {
+                    CAppData::m_iShowReportResourceMode = cFile_ReportBreakDownTemp;
+                }
+
+                if (cFile_ReportTypeTemp != -1 && cFile_ReportTypeTemp != CAppData::m_iReportType)
+                {
+                    m_cReportType.SetCurSel(cFile_ReportTypeTemp);
+                    CAppData::m_iReportType = cFile_ReportTypeTemp;
+                }
+                GenerateDirectReport ();
+            }
+	    }
+	}
+
 }
 
 CReportDialog::GenerateOrderList()
@@ -625,22 +817,88 @@ CReportDialog::GenerateBonusFromList(int a_iQty, CTypedPtrList<CPtrList, CEffect
 	CEffect *l_cpEffect;
 	CItemResource *l_cpListItemResource;
 	POSITION l_ListPos;
-	CString l_csBonusName;
+	CString l_csBonusName, l_iBonusValue_tmp;
 	int l_iBonusAmount;
 	POSITION l_EffectPos;
 	bool l_bFound;
-	int l_iOffset;
+	int l_iOffset, l_iOffset_tmp;
 
 	l_EffectPos = a_clEffectsList.GetHeadPosition ();
 	while (l_EffectPos)
 	{
 		l_cpEffect = a_clEffectsList.GetNext (l_EffectPos);
 
-		if (l_cpEffect->m_csType == cXMLAttribute_Bonus) 
+		if (l_cpEffect->m_csType == cXMLAttribute_Bonus)
 		{
 			l_iOffset = l_cpEffect->m_csDescription.Find (' ');
 			l_iBonusAmount = atoi (l_cpEffect->m_csDescription.Left (l_iOffset));
 			l_csBonusName = l_cpEffect->m_csDescription.Mid (l_iOffset + 1);
+			l_bFound = false;
+
+			l_ListPos = a_clResourceList.GetHeadPosition ();
+			while (l_ListPos)
+			{
+				l_cpListItemResource = a_clResourceList.GetNext (l_ListPos);
+				if (l_cpListItemResource->m_csName == l_csBonusName)
+				{
+					l_cpListItemResource->m_iMinAmt += (l_iBonusAmount * a_iQty);
+					l_ListPos = NULL;
+					l_bFound = true;
+				}
+			}
+
+			if (!l_bFound)
+			{
+				l_cpListItemResource = new CItemResource;
+				l_cpListItemResource->m_csName = l_csBonusName;
+				l_cpListItemResource->m_csSkill = "Direct";
+				l_cpListItemResource->m_iMinAmt = (l_iBonusAmount * a_iQty);
+				l_cpListItemResource->m_iMinLvl = 0;
+				l_cpListItemResource->m_iOptLvl = 0;
+				a_clResourceList.AddTail (l_cpListItemResource);
+			}
+		}
+		else if (l_cpEffect->m_csType == cXMLAttribute_Timer)
+		{
+			//RESUMEWORKHERE
+
+			l_iOffset = l_cpEffect->m_csDescription.ReverseFind(' ');
+			CString ;
+			l_iBonusValue_tmp = l_cpEffect->m_csDescription.Mid (l_iOffset);
+
+			//int i_minutes;
+
+			Regexp re("(.*)[\t ]*([0-9]*):([0-9]*):([0-9]*)");
+			if ( re.Match( l_iBonusValue_tmp ) )
+			{
+				l_iBonusAmount = (atoi(re[1]) * 60) + atoi(re[3]);
+
+//				AfxMessageBox (re[3] + " Minutes", MB_ICONINFORMATION); // min
+//				AfxMessageBox (re[1] + " Hours", MB_ICONINFORMATION);
+			}
+			else
+			{
+
+				Regexp re2("(.*)[\t ]*([0-9]*):([0-9]*)");
+				if ( re2.Match( l_iBonusValue_tmp ) )
+				{
+					l_iBonusAmount = (atoi(re2[1]));
+//					AfxMessageBox (re2[1] + "Minutes", MB_ICONINFORMATION);
+				}
+			}
+
+			if (l_cpEffect->m_csDescription.Find("Death Points"))
+			{
+				//AfxMessageBox ("YESDP", MB_ICONINFORMATION);
+				l_csBonusName = "Death Point time reduction";
+			}
+			else
+			{
+				//AfxMessageBox ("NODP", MB_ICONINFORMATION);
+				l_csBonusName = l_cpEffect->m_csDescription.Left (l_iOffset);
+			}
+
+
 			l_bFound = false;
 
 			l_ListPos = a_clResourceList.GetHeadPosition ();
@@ -820,10 +1078,40 @@ CReportDialog::GenerateBonusList()
 	SortResources (l_clResourceList, CAppData::m_iShowReportMode);
 
 	l_ListPos = l_clResourceList.GetHeadPosition ();
+
+	int tmp_hours, tmp_minutes;
+	CString tmp_time, c_hours, c_minutes;
+	CString final_time;
+
 	while (l_ListPos)
 	{
 		l_cpListItemResource = l_clResourceList.GetNext (l_ListPos);
-		l_csStr.Format ("%s|%s|%d", l_cpListItemResource->m_csName, l_cpListItemResource->m_csSkill, l_cpListItemResource->m_iMinAmt);
+
+
+
+		if (l_cpListItemResource->m_csName.Find("Death Point") != -1)
+		{
+			tmp_hours = (l_cpListItemResource->m_iMinAmt / 60);
+			tmp_minutes = (l_cpListItemResource->m_iMinAmt % 60);
+
+			c_hours.Format("%d", tmp_hours);
+			if (tmp_hours < 10)
+			{
+				c_hours.Format("0%d", tmp_hours);
+			}
+			c_minutes.Format("%d", tmp_minutes);
+			if (tmp_minutes < 10)
+			{
+				c_minutes.Format("0%d", tmp_minutes);
+			}
+			l_csStr.Format ("%s|%s|%s", l_cpListItemResource->m_csName, l_cpListItemResource->m_csSkill, c_hours + ":" + c_minutes + ":00");
+		}
+		else
+		{
+			l_csStr.Format ("%s|%s|%d", l_cpListItemResource->m_csName, l_cpListItemResource->m_csSkill, l_cpListItemResource->m_iMinAmt);
+		}
+
+
 		m_cReportGrid.AddRow (l_csStr, l_iRowHighlight);
 
 		if (l_iRowHighlight == GRID_REPORT1)
@@ -874,11 +1162,11 @@ CReportDialog::AddToResources(CItemResource *a_cpResource, int a_iStyle, int a_i
 
 			if ((a_iBaseQty % l_cpResourceFormula->m_iBatchQty) == 0)
 			{
-				l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty); 
+				l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty);
 			}
 			else
 			{
-				l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty) + 1; 
+				l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty) + 1;
 			}
 
 			l_iBaseQty *= l_iProfileQty;
@@ -931,16 +1219,16 @@ CReportDialog::GenerateDirectReport()
 	this->UnlockWindowUpdate ();
 }
 
-BOOL CReportDialog::OnInitDialog() 
+BOOL CReportDialog::OnInitDialog()
 {
 	CDialog::OnInitDialog();
-	
-   //remove some options from the system menu 
-   CMenu* pSysMenu = GetSystemMenu(FALSE); 
-   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND); 
+
+   //remove some options from the system menu
+   CMenu* pSysMenu = GetSystemMenu(FALSE);
+   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND);
 
 	m_cReportGrid.SetRows (0);
 	m_cReportGrid.SetFormatString ("Item Name|^Batches|^Tech");
@@ -956,9 +1244,31 @@ BOOL CReportDialog::OnInitDialog()
 
 	m_cOS_ReportGrid.InitState		(m_cReportGrid,	 *this, NULL,	NULL,	1.0f, 1.0f);
 	m_cOS_GenerateButton.InitState	(m_cGenerateButton,	*this,  &m_cOS_ReportGrid,	NULL,	0.0f, 0.0f);
-	
+
 	m_cReportType.SetCurSel (CAppData::m_iReportType);
 	m_cReportFormat.SetCurSel (0);
+
+    if (WinVersion.GetMajorVersion() >= 5)
+	{
+	    // Windows 2k or newer only!
+        WIN32_FIND_DATA findData;
+        HANDLE handle = FindFirstFile(CAppData::m_csAppBasePath + "\\Plugins\\*.*", &findData);
+        CString m_cScanDir;
+
+        if (handle != INVALID_HANDLE_VALUE)
+        {
+            do
+            {
+                m_cScanDir = findData.cFileName;
+                if (m_cScanDir != "." && m_cScanDir != ".." && _access(CAppData::m_csAppBasePath + "\\Plugins\\" + m_cScanDir + "\\export.bat", 0) != -1)
+                {
+                    m_cReportFormat.AddString("Export to " + m_cScanDir);
+                }
+            }
+            while (FindNextFile(handle, &findData));
+        }
+	}
+
 	UpdateOrderMenu();
 	GenerateDirectReport ();
 
@@ -1008,18 +1318,18 @@ void CReportDialog::Resize()
 }
 
 
-void CReportDialog::OnSize(UINT nType, int cx, int cy) 
+void CReportDialog::OnSize(UINT nType, int cx, int cy)
 {
 	CDialog::OnSize(nType, cx, cy);
-	
+
 	if (m_cWindowState.m_bLoaded)
 	{
 		Resize ();
 	}
-	
+
 }
 
-void CReportDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI) 
+void CReportDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 {
 	CDialog::OnGetMinMaxInfo (lpMMI);
 
@@ -1031,27 +1341,27 @@ void CReportDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 }
 
 
-void CReportDialog::OnClose() 
+void CReportDialog::OnClose()
 {
-	CAppData::SetReportWindow (false);	
+	CAppData::SetReportWindow (false);
 	CDialog::OnClose();
 }
 
-void CReportDialog::OnOK() 
+void CReportDialog::OnOK()
 {
 }
 
-void CReportDialog::OnOptionsSnapshotwindow() 
+void CReportDialog::OnOptionsSnapshotwindow()
 {
 	CAppData::SetReportWindowState ();
 }
 
-void CReportDialog::OnOptionsRestorewindow() 
+void CReportDialog::OnOptionsRestorewindow()
 {
 	CAppData::GetReportWindowState ();
 }
 
-void CReportDialog::OnOptionsOrderbyResourcetype() 
+void CReportDialog::OnOptionsOrderbyResourcetype()
 {
 	CAppData::m_iShowReportMode = 0;
 	UpdateOrderMenu();
@@ -1059,7 +1369,7 @@ void CReportDialog::OnOptionsOrderbyResourcetype()
 	GenerateDirectReport ();
 }
 
-void CReportDialog::OnOptionsOrderbyQuantity() 
+void CReportDialog::OnOptionsOrderbyQuantity()
 {
 	CAppData::m_iShowReportMode = 1;
 	UpdateOrderMenu();
@@ -1083,7 +1393,7 @@ CReportDialog::UpdateOrderMenu()
 	}
 }
 
-CReportDialog::ExportToClipboard()
+CString CReportDialog::PrepareExportToTEXT()
 {
 	int i = 1;
 	bool m_bPreviousLineBlank = false;
@@ -1109,12 +1419,12 @@ CReportDialog::ExportToClipboard()
 		{
 			sscanf (l_csQty, "%d/%d", &l_iCurQty, &l_iTotalQty);
 
-			
-			if (l_iCurQty != l_iTotalQty) 
+
+			if (l_iCurQty != l_iTotalQty)
 			{
 				l_bQuantitiesFull = false;
 			}
-			
+
 			if (l_iCurQty != 0)
 			{
 				l_bQuantitiesEmpty = false;
@@ -1237,14 +1547,17 @@ CReportDialog::ExportToClipboard()
 
 	if (m_cReportType.GetCurSel() == REPORT_BONUS)
 	{
-
+        i=1;
 		while (i<m_cReportGrid.GetRows ())
 		{
 			l_csItem = m_cReportGrid.GetTextMatrix (i, 0);
 			l_csType = m_cReportGrid.GetTextMatrix (i, 1);
 			l_csQty = m_cReportGrid.GetTextMatrix (i, 2);
 
-			l_csOutput += l_csItem + " (" + l_csType + ") = " + l_csQty + "\r\n";
+            if (l_csItem != "None")
+            {
+                l_csOutput += l_csItem + " (" + l_csType + ") = " + l_csQty + "\r\n";
+            }
 
 			i++;
 
@@ -1258,10 +1571,246 @@ CReportDialog::ExportToClipboard()
 		l_csOutput.Delete (l_csOutput.GetLength () -4, 4);
 	}
 
-	CAppData::CopyToClipboard (l_csOutput);	
+    return l_csOutput;
 }
 
-CReportDialog::ExportToHTML(CString a_csFilename)
+bool CReportDialog::ExportToXML(CString a_csFilename)
+{
+    int i;
+	FILE *l_cFilePtr;
+	CString m_csItemName = "";
+	CString m_csQty;
+	CString m_csBaseCost;
+	CString m_csFinalCost;
+	CString m_csTechList;
+	CString m_csTech;
+	CString m_csEff;
+	CString m_csCmd;
+	bool m_bEven = false;
+	bool m_bPreviousLineBlank = false;
+	bool m_bNextLineBlank = false;
+	bool m_bEndSection = false;
+	bool m_bSomethingHappened = false;
+	bool m_bExportWorthy = false;
+
+	XMLParser l_cParser;
+	CString l_csItem;
+	CString l_csTech;
+	CString l_csBatches;
+	int l_iCurQty;
+	int l_iTotalQty;
+
+    char buffer [20];
+
+	if (l_cParser.WriteFile (a_csFilename))
+	{
+		l_cParser.WriteOpenTag ("report");
+		l_cParser.WriteTag ("report-format", "1.1");
+        l_cParser.WriteOpenTag ("generator");
+        l_cParser.WriteTag ("application", "HCC");
+		l_cParser.WriteTag ("version", cAppData_Version);
+		l_cParser.WriteTag ("database", CAppData::m_csDatabaseRevision);
+		l_cParser.WriteCloseTag ("generator");
+        i=1;
+
+		if ((m_cReportType.GetCurSel() == REPORT_ORDERCOMPS) ||
+		 	 (m_cReportType.GetCurSel() == REPORT_ORDER))
+		{
+			while ((i<m_cReportGrid.GetRows ()) && (!m_bEndSection))
+			{
+				l_csItem = m_cReportGrid.GetTextMatrix (i, 0);
+				l_csBatches = m_cReportGrid.GetTextMatrix (i, 1);
+				l_csTech = m_cReportGrid.GetTextMatrix (i, 2);
+
+				if (l_csItem != "None" && l_csItem != "Component Name")
+			    {
+                    if (!l_csItem.IsEmpty ())
+                    {
+                        m_bSomethingHappened = true;
+                        m_bExportWorthy = true;
+                        if (m_bPreviousLineBlank)
+                        {
+                            l_cParser.WriteCloseTag ("techs");
+                            l_cParser.WriteCloseTag ("item");
+                        }
+                        l_cParser.WriteOpenTag ("item");
+                        l_cParser.WriteTag ("item-name", l_csItem);
+                        l_cParser.WriteTag ("item-qty", l_csBatches);
+
+                        l_cParser.WriteOpenTag ("techs");
+                        if (l_csTech != "(none)")
+                        {
+                            l_cParser.WriteTag ("tech", l_csTech);
+                        }
+                    }
+
+                    if (l_csItem.IsEmpty() && !l_csTech.IsEmpty())
+                    {
+                        l_cParser.WriteTag ("tech", l_csTech);
+                    }
+
+                    if (m_cReportGrid.GetTextMatrix (i, 2) == "")
+                    {
+                        if (m_bPreviousLineBlank)
+                        {
+                            m_bEndSection = true;
+
+                        }
+                        else
+                        {
+                            m_bPreviousLineBlank = true;
+                        }
+                    }
+                    else
+                    {
+                        m_bPreviousLineBlank = false;
+
+                    }
+			    }
+                i++;
+			}
+			i++;
+			if (m_bSomethingHappened)
+			{
+                l_cParser.WriteCloseTag ("techs");
+                l_cParser.WriteCloseTag ("item");
+			}
+		}
+
+
+        m_bPreviousLineBlank = true;
+        m_bNextLineBlank = false;
+
+		if ((m_cReportType.GetCurSel() == REPORT_ORDERCOMPS) ||
+		 	 (m_cReportType.GetCurSel() == REPORT_COMPS))
+		{
+			while (i<m_cReportGrid.GetRows ())
+			{
+			    l_csItem = m_cReportGrid.GetTextMatrix (i, 0);
+                l_csBatches = m_cReportGrid.GetTextMatrix (i, 2);
+
+			    if (l_csItem != "None")
+			    {
+                    m_bNextLineBlank = true;
+                    l_iCurQty = l_iCurQty = 0;
+                    if (l_csBatches.Find ('/') > 0)
+                    {
+                        l_csBatches.Replace ("(", "");
+                        l_csBatches.Replace (")", "");
+                        sscanf (l_csBatches, "%d/%d", &l_iCurQty, &l_iTotalQty);
+                    }
+
+                    if (l_csItem.Find ('-->') > 0)
+                    {
+                        l_csItem.Replace ("---->", "");
+                        l_cParser.WriteOpenTag ("subcomponent");
+                        l_cParser.WriteTag ("item-name", l_csItem);
+                        l_cParser.WriteTag ("item-qty", l_iTotalQty);
+                        l_cParser.WriteTag ("item-qty-have", l_iCurQty);
+                        l_cParser.WriteTag ("item-qty-need", l_iTotalQty - l_iCurQty);
+                        l_cParser.WriteCloseTag ("subcomponent");
+                    }
+                    else
+                    {
+                        if (!m_bPreviousLineBlank)
+                        {
+                            l_cParser.WriteCloseTag ("component");
+                        }
+                        l_cParser.WriteOpenTag ("component");
+                        l_cParser.WriteTag ("item-name", l_csItem);
+                        l_cParser.WriteTag ("item-qty", l_iTotalQty);
+                        l_cParser.WriteTag ("item-qty-have", l_iCurQty);
+                        l_cParser.WriteTag ("item-qty-need", l_iTotalQty - l_iCurQty);
+
+                        m_bPreviousLineBlank = false;
+                    }
+			    }
+                i++;
+			}
+            if (m_bNextLineBlank)
+            {
+                l_cParser.WriteCloseTag ("component");
+            }
+
+		}
+
+		if (m_cReportType.GetCurSel() == REPORT_BONUS)
+		{
+			while (i<m_cReportGrid.GetRows ())
+			{
+			    l_csItem = m_cReportGrid.GetTextMatrix (i, 0);
+				l_csBatches = m_cReportGrid.GetTextMatrix (i, 2);
+
+                if (l_csItem != "None")
+			    {
+                    l_cParser.WriteOpenTag ("bonus");
+                    l_cParser.WriteTag ("item-name", l_csItem);
+                    l_cParser.WriteTag ("amount", l_csBatches);
+                    l_cParser.WriteCloseTag ("bonus");
+                    m_bExportWorthy = true;
+			    }
+				i++;
+			}
+		}
+
+        l_cParser.WriteCloseTag ("report");
+        l_cParser.CloseFile ();
+
+
+        // load, replace, save
+        m_csCmd = "";
+        l_cFilePtr = fopen (a_csFilename, "r");
+		if (l_cFilePtr)
+		{
+            while( fgets (buffer , 20 , l_cFilePtr) )
+            {
+                m_csCmd = m_csCmd + buffer;
+            }
+			fclose (l_cFilePtr);
+		}
+        m_csCmd.Replace ("\t\t<techs>\n\t\t</techs>\n", "");
+
+        DeleteFile (a_csFilename);
+        l_cFilePtr = fopen (a_csFilename, "w");
+        if (l_cFilePtr)
+        {
+            fprintf (l_cFilePtr, m_csCmd);
+            fclose(l_cFilePtr);
+        }
+    }
+    return m_bExportWorthy;
+}
+
+
+
+bool CReportDialog::ExportToTEXT(CString a_csFilename)
+{
+	FILE *l_cFilePtr;
+	bool m_bExportWorthy = false;
+	CString m_csCmd;
+
+	m_csCmd = PrepareExportToTEXT();
+    //AfxMessageBox (m_csCmd, MB_ICONEXCLAMATION );
+    if (!m_csCmd.IsEmpty())
+    {
+        l_cFilePtr = fopen (a_csFilename, "w");
+        if (l_cFilePtr)
+        {
+            //AfxMessageBox (m_csCmd, MB_ICONEXCLAMATION );
+            fprintf (l_cFilePtr, m_csCmd);
+            fclose(l_cFilePtr);
+            if (m_csCmd.GetLength() > 5)
+            {
+                m_bExportWorthy = true;
+            }
+        }
+    }
+
+    return m_bExportWorthy;
+}
+
+
+bool CReportDialog::ExportToHTML(CString a_csFilename)
 {
 	int i;
 	FILE *l_cFilePtr;
@@ -1276,21 +1825,40 @@ CReportDialog::ExportToHTML(CString a_csFilename)
 	bool m_bEven = false;
 	bool m_bPreviousLineBlank = false;
 	bool m_bEndSection = false;
+	bool m_bSomethingHappened = false;
+	bool m_bExportWorthy = false;
 
 	l_cFilePtr = fopen (a_csFilename, "w");
 
 	if (l_cFilePtr)
 	{
-		ExportHTMLHeader (l_cFilePtr, "Craft Order HTML Export");
+		ExportHTMLHeader (l_cFilePtr);
 		i=1;
 
 		if ((m_cReportType.GetCurSel() == REPORT_ORDERCOMPS) ||
 		 	 (m_cReportType.GetCurSel() == REPORT_ORDER))
 		{
-			ExportHTMLOrderHeader(l_cFilePtr);
+
+		  // m_csItemName.Format("%d", m_cReportGrid.GetRows());
+		  // AfxMessageBox (m_csItemName, MB_ICONEXCLAMATION );
+
 			while ((i<m_cReportGrid.GetRows ()) && (!m_bEndSection))
 			{
-				ExportHTMLItemLine (l_cFilePtr, m_cReportGrid.GetTextMatrix (i, 0), m_cReportGrid.GetTextMatrix (i, 1), m_cReportGrid.GetTextMatrix (i, 2),  m_bEven);
+			    //AfxMessageBox (m_cReportGrid.GetTextMatrix (i, 0), MB_ICONEXCLAMATION );
+			    if (m_cReportGrid.GetTextMatrix (i, 0) != "None")
+			    {
+			       if (i != 2 || m_cReportGrid.GetTextMatrix (1, 0) != "None")
+			       {
+                        if (!m_bSomethingHappened)
+                        {
+                            ExportHTMLOrderHeader(l_cFilePtr);
+                        }
+                        m_bSomethingHappened = true;
+                        m_bExportWorthy = true;
+                        ExportHTMLItemLine (l_cFilePtr, m_cReportGrid.GetTextMatrix (i, 0), m_cReportGrid.GetTextMatrix (i, 1), m_cReportGrid.GetTextMatrix (i, 2),  m_bEven);
+
+                    }
+			    }
 
 				if (m_cReportGrid.GetTextMatrix (i, 2) == "")
 				{
@@ -1312,172 +1880,247 @@ CReportDialog::ExportToHTML(CString a_csFilename)
 
 			}
 
-			ExportHTMLLineFooter (l_cFilePtr);
+            if (m_bSomethingHappened)
+            {
+                ExportHTMLLineFooter (l_cFilePtr);
+            }
 
 			i++;
 		}
 
+		m_bSomethingHappened = false;
+
 		if ((m_cReportType.GetCurSel() == REPORT_ORDERCOMPS) ||
 		 	 (m_cReportType.GetCurSel() == REPORT_COMPS))
 		{
-			ExportHTMLResourceHeader (l_cFilePtr);
 
 			while (i<m_cReportGrid.GetRows ())
 			{
-				ExportHTMLResourceLine (l_cFilePtr, m_cReportGrid.GetTextMatrix (i, 0), m_cReportGrid.GetTextMatrix (i, 1), m_cReportGrid.GetTextMatrix (i, 2), m_bEven);
+			    if (m_cReportGrid.GetTextMatrix (i, 0) != "None")
+			    {
+			        if (!m_bSomethingHappened)
+                    {
+                        ExportHTMLResourceHeader (l_cFilePtr);
+                    }
+			        m_bSomethingHappened = true;
+			        m_bExportWorthy = true;
+                    ExportHTMLResourceLine (l_cFilePtr, m_cReportGrid.GetTextMatrix (i, 0), m_cReportGrid.GetTextMatrix (i, 1), m_cReportGrid.GetTextMatrix (i, 2), m_bEven);
+			    }
 
 				i++;
 
 			}
 
-			ExportHTMLResourceFooter (l_cFilePtr);
+            if (m_bSomethingHappened)
+            {
+                ExportHTMLResourceFooter (l_cFilePtr);
+            }
+
 		}
+
+        m_bSomethingHappened = false;
 
 		if (m_cReportType.GetCurSel() == REPORT_BONUS)
 		{
-			ExportHTMLBonusHeader (l_cFilePtr);
+
 
 			while (i<m_cReportGrid.GetRows ())
 			{
-				ExportHTMLResourceLine (l_cFilePtr, m_cReportGrid.GetTextMatrix (i, 0), m_cReportGrid.GetTextMatrix (i, 1), m_cReportGrid.GetTextMatrix (i, 2), m_bEven);
+                if (m_cReportGrid.GetTextMatrix (i, 0) != "None")
+                {
+                    if (!m_bSomethingHappened)
+                    {
+                        ExportHTMLBonusHeader (l_cFilePtr);
+                    }
+                    m_bSomethingHappened = true;
+                    m_bExportWorthy = true;
+                    ExportHTMLResourceLine (l_cFilePtr, m_cReportGrid.GetTextMatrix (i, 0), m_cReportGrid.GetTextMatrix (i, 1), m_cReportGrid.GetTextMatrix (i, 2), m_bEven);
+                }
 
 				i++;
 
 			}
 
-			ExportHTMLBonusFooter (l_cFilePtr);
+            if (m_bSomethingHappened)
+            {
+                ExportHTMLBonusFooter (l_cFilePtr);
+            }
+
 		}
 
+        ExportHTMLFooter (l_cFilePtr);
 		fclose (l_cFilePtr);
+
 	}
-	
-	m_csCmd.Format ("%s", a_csFilename);
-	ShellExecute (this->m_hWnd, "open", m_csCmd, NULL, NULL, SW_SHOWNORMAL );
+	return m_bExportWorthy;
 }
+
 
 CReportDialog::ExportHTMLItemLine(FILE *a_cFilePtr, CString &a_csItemName, CString &a_csQty, CString &a_csTech, bool &a_bEven)
 {
 	if (a_bEven)
 	{
-		fprintf (a_cFilePtr, "<tr class=\"even\">\n");
+		fprintf (a_cFilePtr, "\t<tr class=\"even\">\n");
 	}
 	else
 	{
-		fprintf (a_cFilePtr, "<tr class=\"odd\">\n");
+		fprintf (a_cFilePtr, "\t<tr class=\"odd\">\n");
 	}
 
 	a_bEven = !a_bEven;
 
-	fprintf (a_cFilePtr, "<td class=\"left\">%s</td>\n",a_csItemName);
-	fprintf (a_cFilePtr, "<td class=\"center\">%s</td>\n",a_csQty);
-	fprintf (a_cFilePtr, "<td class=\"center\">%s</td>\n",a_csTech);
-	fprintf (a_cFilePtr, "</tr>\n");
+    if (a_csItemName.IsEmpty() && a_csQty.IsEmpty() && a_csTech.IsEmpty())
+    {
+        fprintf (a_cFilePtr, "\t\t<td class=\"blank\" colspan=\"3\">&nbsp;</td>\n");
+    }
+    else
+    {
+
+        if (a_csItemName.IsEmpty())
+        {
+            a_csItemName = "&nbsp;";
+        }
+        if (a_csQty.IsEmpty())
+        {
+            a_csQty = "&nbsp;";
+        }
+        if (a_csTech.IsEmpty())
+        {
+            a_csTech = "&nbsp;";
+        }
+
+        fprintf (a_cFilePtr, "\t\t<td class=\"left\">%s</td>\n", a_csItemName);
+        fprintf (a_cFilePtr, "\t\t<td>%s</td>\n", a_csQty);
+        fprintf (a_cFilePtr, "\t\t<td>%s</td>\n", a_csTech);
+    }
+    fprintf (a_cFilePtr, "\t</tr>\n");
 }
 
-CReportDialog::ExportHTMLHeader(FILE *a_cFilePtr, CString a_csTitle)
+CReportDialog::ExportHTMLHeader(FILE *a_cFilePtr)
 {
-	fprintf (a_cFilePtr, "<head> <title>%s</title></head>\n", a_csTitle);
-	fprintf (a_cFilePtr, "<body>\n");
-	fprintf (a_cFilePtr, "<style type=\"text/css\">\n");
-	fprintf (a_cFilePtr, "body { background-color: #FFFFFF; font-family: Geneva,Helvetica,Arial,sans-serif; color: #000000; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px }\n");
-	fprintf (a_cFilePtr, "td { font-size: 9pt; font-family: Geneva,Helvetica,Arial,sans-serif; vertical-align: text-top; border-style:solid; border-width:0.05em; border-spacing:0; border-color: #404040, #808080;}\n");
-	fprintf (a_cFilePtr, ".headerClass { width: 100%; padding:0; border-style:solid; border-width:0.05em; border-spacing:0; }\n");
-	fprintf (a_cFilePtr, ".tableClass { width: 500; margin-left: 5%%; padding:0; border-style:solid; border-width:0.05em; border-spacing:0; }\n");
-	fprintf (a_cFilePtr, ".subtableClass { width: 450; margin-left: 5%%; padding:0; border-style:solid; border-width:0.05em; border-spacing:0; }\n");
-	fprintf (a_cFilePtr, ".formStyle { margin:0px;}\n");
-	fprintf (a_cFilePtr, ".odd { background-color: #FFFFFF; padding:0; border-style:dashed; border-width:0.05em; border-spacing:0; }\n");
-	fprintf (a_cFilePtr, ".even { background-color: #ECE9D8; padding:0; border-style:dashed; border-width:0.05em; border-spacing:0;}\n");
-	fprintf (a_cFilePtr, ".tableHeader { font-size: 10pt; color: #efefef; background-color: #525252; padding:0; border-style:solid; border-width:0.05em; border-spacing:0;}\n");
-	fprintf (a_cFilePtr, ".left { text-align:left; }\n");
-	fprintf (a_cFilePtr, ".right { text-align:right; }\n");
-	fprintf (a_cFilePtr, ".center { text-align:center; }\n");
-	fprintf (a_cFilePtr, "</style>\n");
+    fprintf (a_cFilePtr, "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n");
+    fprintf (a_cFilePtr, "<html>\n");
+	fprintf (a_cFilePtr, "<head>\n");
+	fprintf (a_cFilePtr, "\t<title>HCC HTML Export</title>\n");
 
+	fprintf (a_cFilePtr, "\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\" />\n");
+	fprintf (a_cFilePtr, "\t<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />\n");
+	fprintf (a_cFilePtr, "\t<meta name=\"generator\" content=\"HCC - Horizons Crafting Calculator v%s (%s)\" />\n", cAppData_Version, CAppData::m_csDatabaseRevision);
+
+	fprintf (a_cFilePtr, "\t<style type=\"text/css\">\n");
+	fprintf (a_cFilePtr, "\t\ttable { border-right: 1px solid #C0C0C0; border-top: 1px solid #C0C0C0; }\n");
+	fprintf (a_cFilePtr, "\t\tth { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.75em; padding: 3px; white-space: nowrap; font-weight: normal; background-color: #4F4F4F; color: #FFFFFF; text-align:center; border-left: 1px solid #C0C0C0; border-bottom: 1px solid #C0C0C0; }\n");
+	fprintf (a_cFilePtr, "\t\ttd { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.75em; padding: 3px; white-space: nowrap; text-align:center; border-left: 1px solid #C0C0C0; border-bottom: 1px solid #C0C0C0; }\n");
+	fprintf (a_cFilePtr, "\t\th1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 1.1em; }\n");
+	fprintf (a_cFilePtr, "\t\t.odd { background-color: #FFFFFF; }\n");
+	fprintf (a_cFilePtr, "\t\t.even { background-color: #E9ECD8; }\n");
+	fprintf (a_cFilePtr, "\t\t.left { text-align:left; border-right: none; }\n");
+	fprintf (a_cFilePtr, "\t\t.subcomponent td { padding-left: 1em; color: #A0A0A0; }\n");
+	fprintf (a_cFilePtr, "\t</style>\n");
+	fprintf (a_cFilePtr, "</head>\n");
+	fprintf (a_cFilePtr, "<body>\n");
+}
+
+CReportDialog::ExportHTMLFooter(FILE *a_cFilePtr)
+{
+	fprintf (a_cFilePtr, "</body>\n");
+	fprintf (a_cFilePtr, "</html>\n");
 }
 
 CReportDialog::ExportHTMLOrderHeader(FILE *a_cFilePtr)
 {
-	fprintf (a_cFilePtr, "<H3>Items To Craft</H3>\n");
-	fprintf (a_cFilePtr, "<table class=\"tableClass\">\n");
-	fprintf (a_cFilePtr, "<thead>\n");
-	fprintf (a_cFilePtr, "<tr>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Craft Item</th>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Batches<span align=right><span></th>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Techniques<span align=right><span></th>\n");
-	fprintf (a_cFilePtr, "<tbody>\n");
+	fprintf (a_cFilePtr, "<h1>Items</h1>\n");
+	fprintf (a_cFilePtr, "<table id=\"hcc_items\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n");
+	fprintf (a_cFilePtr, "\t<tr>\n");
+	fprintf (a_cFilePtr, "\t\t<th class=\"left\">Craft Item</th>\n");
+	fprintf (a_cFilePtr, "\t\t<th>Batches</th>\n");
+	fprintf (a_cFilePtr, "\t\t<th>Techniques</th>\n");
+	fprintf (a_cFilePtr, "\t</tr>\n");
 
 }
 
 CReportDialog::ExportHTMLLineFooter(FILE *a_cFilePtr)
 {
-	fprintf (a_cFilePtr, "</tbody></table width=\"100%%\">\n");
 	fprintf (a_cFilePtr, "</table>\n");
 }
 
 CReportDialog::ExportHTMLResourceHeader(FILE *a_cFilePtr)
 {
-	fprintf (a_cFilePtr, "<H3>Components Required</H3>\n");
-	fprintf (a_cFilePtr, "<table class=\"subtableClass\">\n");
-	fprintf (a_cFilePtr, "<thead>\n");
-	fprintf (a_cFilePtr, "<tr>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Component Name</th>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Acquired<span align=right><span></th>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Quantity<span align=right><span></th>\n");
-	fprintf (a_cFilePtr, "<tbody>\n");
+	fprintf (a_cFilePtr, "<h1>Components</h1>\n");
+	fprintf (a_cFilePtr, "<table id=\"hcc_components\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n");
+	fprintf (a_cFilePtr, "\t<tr>\n");
+	fprintf (a_cFilePtr, "\t\t<th class=\"left\">Component Name</th>\n");
+	fprintf (a_cFilePtr, "\t\t<th>Acquired</th>\n");
+	fprintf (a_cFilePtr, "\t\t<th>Quantity</th>\n");
+	fprintf (a_cFilePtr, "\t</tr>\n");
 }
 
 CReportDialog::ExportHTMLResourceFooter(FILE *a_cFilePtr)
 {
-	fprintf (a_cFilePtr, "</tbody></table width=\"100%%\">\n");
 	fprintf (a_cFilePtr, "</table>\n");
-	fprintf (a_cFilePtr, "</body>\n");
 }
 
 CReportDialog::ExportHTMLBonusHeader(FILE *a_cFilePtr)
 {
-	fprintf (a_cFilePtr, "<H3>Bonuses</H3>\n");
-	fprintf (a_cFilePtr, "<table class=\"subtableClass\">\n");
-	fprintf (a_cFilePtr, "<thead>\n");
-	fprintf (a_cFilePtr, "<tr>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Bonus</th>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Type<span align=right><span></th>\n");
-	fprintf (a_cFilePtr, "<th class=\"tableHeader\">Amount<span align=right><span></th>\n");
-	fprintf (a_cFilePtr, "<tbody>\n");
+	fprintf (a_cFilePtr, "<h1>Bonuses</h1>\n");
+	fprintf (a_cFilePtr, "<table id=\"hcc_bonuses\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n");
+	fprintf (a_cFilePtr, "\t<tr>\n");
+	fprintf (a_cFilePtr, "\t\t<th class=\"left\">Bonus</th>\n");
+	fprintf (a_cFilePtr, "\t\t<th>Type</th>\n");
+	fprintf (a_cFilePtr, "\t\t<th>Amount</th>\n");
+	fprintf (a_cFilePtr, "\t</tr>\n");
 }
 
 CReportDialog::ExportHTMLBonusFooter(FILE *a_cFilePtr)
 {
-	fprintf (a_cFilePtr, "</tbody></table width=\"100%%\">\n");
 	fprintf (a_cFilePtr, "</table>\n");
-	fprintf (a_cFilePtr, "</body>\n");
 }
 
 CReportDialog::ExportHTMLResourceLine(FILE *a_cFilePtr, CString &m_csResourceName, CString &a_csQty, CString &a_csEff, bool &a_bEven)
 {
-	if (a_bEven)
-	{
-		fprintf (a_cFilePtr, "<tr class=\"even\">\n");
-	}
-	else
-	{
-		fprintf (a_cFilePtr, "<tr class=\"odd\">\n");
-	}
+
+    if (m_csResourceName.Find ('-->') > 0)
+    {
+        m_csResourceName.Replace ("---->", "");
+        if (a_bEven)
+        {
+            fprintf (a_cFilePtr, "\t<tr class=\"even subcomponent\">\n");
+        }
+        else
+        {
+            fprintf (a_cFilePtr, "\t<tr class=\"odd subcomponent\">\n");
+        }
+    }
+    else
+    {
+        if (a_bEven)
+        {
+            fprintf (a_cFilePtr, "\t<tr class=\"even\">\n");
+        }
+        else
+        {
+            fprintf (a_cFilePtr, "\t<tr class=\"odd\">\n");
+        }
+    }
 
 	a_bEven = !a_bEven;
 
-	fprintf (a_cFilePtr, "<td class=\"left\">%s</td>\n",m_csResourceName);
+	m_csResourceName.Replace(">", "&gt;");
+	m_csResourceName.Replace("<", "&lt;");
+
+	fprintf (a_cFilePtr, "\t\t<td class=\"left\">%s</td>\n",m_csResourceName);
 
 	if (a_csQty.IsEmpty ())
 	{
-		fprintf (a_cFilePtr, "<td class=\"center\">&nbsp;</td>\n");
+		fprintf (a_cFilePtr, "\t\t<td>&nbsp;</td>\n");
 	}
 	else
 	{
-		fprintf (a_cFilePtr, "<td class=\"center\">%s</td>\n",a_csQty);
+		fprintf (a_cFilePtr, "\t\t<td>%s</td>\n",a_csQty);
 	}
 
-	fprintf (a_cFilePtr, "<td class=\"center\">%s</td>\n",a_csEff);
-	fprintf (a_cFilePtr, "</tr>\n");
+	fprintf (a_cFilePtr, "\t\t<td>%s</td>\n",a_csEff);
+	fprintf (a_cFilePtr, "\t</tr>\n");
 }
 
 
@@ -1499,6 +2142,7 @@ int CReportDialog::ReportSelection()
 				if ((l_bSelectGroup) || (CAppData::m_cOrderWnd.m_cItemTree.GetCheck (l_ChildTreeItem)) )
 				{
 					l_iSelected++;
+					//FIXME frame
 				}
 
 				l_ChildTreeItem = CAppData::m_cOrderWnd.m_cItemTree.GetNextSiblingItem (l_ChildTreeItem);
@@ -1511,12 +2155,65 @@ int CReportDialog::ReportSelection()
 	return (l_iSelected);
 }
 
-void CReportDialog::OnHelpIndex() 
+CReportDialog::ResetSelection()
 {
-	CAppData::LaunchWebLink ((CString) "reportwindow");	
+    HTREEITEM l_ParentTreeItem = CAppData::m_cOrderWnd.m_cItemTree.GetRootItem ();
+	HTREEITEM l_ChildTreeItem;
+	int l_iSelected = 0;
+	bool l_bSelectGroup = false;
+
+	if (CAppData::m_cOrderWnd.m_cWindowState.m_bLoaded)
+	{
+		while (l_ParentTreeItem)
+		{
+			CAppData::m_cOrderWnd.m_cItemTree.SetCheck (l_ParentTreeItem, true);
+			l_ChildTreeItem = CAppData::m_cOrderWnd.m_cItemTree.GetChildItem (l_ParentTreeItem);
+			while (l_ChildTreeItem)
+			{
+				CAppData::m_cOrderWnd.m_cItemTree.SetCheck(l_ChildTreeItem, true);
+				l_ChildTreeItem = CAppData::m_cOrderWnd.m_cItemTree.GetNextSiblingItem (l_ChildTreeItem);
+			}
+			l_ParentTreeItem = CAppData::m_cOrderWnd.m_cItemTree.GetNextSiblingItem (l_ParentTreeItem);
+		}
+	}
+
+    //COrderDialog::OnSelectionSelectall();
+    /*
+	HTREEITEM l_ParentTreeItem = CAppData::m_cOrderWnd.m_cItemTree.GetRootItem ();
+	HTREEITEM m_cItemTree = CAppData::m_cOrderWnd.m_cItemTree;
+	HTREEITEM l_ChildTreeItem;
+	HTREEITEM l_cGroupTreeItem;
+    HTREEITEM l_cItemTreeItem;
+
+	if (CAppData::m_cOrderWnd.m_cWindowState.m_bLoaded)
+	{
+        //l_cGroupTreeItem = m_cItemTree.GetRootItem ();
+
+        l_cGroupTreeItem = CAppData::m_cOrderWnd.m_cItemTree.GetRootItem ();
+        while (l_cGroupTreeItem)
+        {
+            m_cItemTree.SetCheck (l_cGroupTreeItem, true);
+
+            l_cItemTreeItem = m_cItemTree.GetChildItem (l_cGroupTreeItem);
+            while (l_cItemTreeItem)
+            {
+                m_cItemTree.SetCheck (l_cItemTreeItem, true);
+                l_cItemTreeItem = m_cItemTree.GetNextSiblingItem (l_cItemTreeItem);
+            }
+
+            l_cGroupTreeItem = m_cItemTree.GetNextSiblingItem (l_cGroupTreeItem);
+        }
+	}
+;
+*/
 }
 
-void CReportDialog::OnOptionsResourcebreakdownShowformularesource() 
+void CReportDialog::OnHelpIndex()
+{
+	CAppData::LaunchWebLink ((CString) "reportwindow");
+}
+
+void CReportDialog::OnOptionsResourcebreakdownShowformularesource()
 {
 	CAppData::m_iShowReportResourceMode = 0;
 	UpdateOrderMenu();
@@ -1524,7 +2221,7 @@ void CReportDialog::OnOptionsResourcebreakdownShowformularesource()
 	GenerateDirectReport ();
 }
 
-void CReportDialog::OnOptionsShowsubcomponents() 
+void CReportDialog::OnOptionsShowsubcomponents()
 {
 	CAppData::m_iShowReportResourceMode = 1;
 	UpdateOrderMenu();
@@ -1532,7 +2229,7 @@ void CReportDialog::OnOptionsShowsubcomponents()
 	GenerateDirectReport ();
 }
 
-void CReportDialog::OnOptionsShowbaseresource() 
+void CReportDialog::OnOptionsShowbaseresource()
 {
 	CAppData::m_iShowReportResourceMode = 2;
 	UpdateOrderMenu();
@@ -1585,7 +2282,7 @@ CReportDialog::SortResources(CTypedPtrList<CPtrList,  CItemResource*> &l_clResou
 
 				// Copy Item B to Item A
 				*l_cpItemA = *l_cpItemB;
-				
+
 				// Copy buffer to Item B
 				*l_cpItemB = l_cItem;
 			}
@@ -1646,11 +2343,11 @@ CReportDialog::AddToBaseResources (CItemResource *a_cpItemResource, int a_iBaseQ
 				l_iProfileQty = CAppData::CalculateEfficiency (l_cpItemResource, CAppData::m_cpCurrentProfile, a_iSkillAdjust);
 				if ((a_iBaseQty % l_cpResourceFormula->m_iBatchQty) == 0)
 				{
-					l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty); 
+					l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty);
 				}
 				else
 				{
-					l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty) + 1; 
+					l_iBaseQty = (a_iBaseQty / l_cpResourceFormula->m_iBatchQty) + 1;
 				}
 
 				l_iBaseQty *= l_iProfileQty;
@@ -1696,11 +2393,11 @@ BEGIN_EVENTSINK_MAP(CReportDialog, CDialog)
 	//}}AFX_EVENTSINK_MAP
 END_EVENTSINK_MAP()
 
-void CReportDialog::OnEnterCellReportgrid() 
+void CReportDialog::OnEnterCellReportgrid()
 {
 }
 
-void CReportDialog::OnLeaveCellReportgrid() 
+void CReportDialog::OnLeaveCellReportgrid()
 {
 	EndEditCell();
 }
@@ -1747,24 +2444,38 @@ CReportDialog::EndEditCell()
 	}
 }
 
-void CReportDialog::OnMouseMoveReportgrid(short Button, short Shift, long x, long y) 
+void CReportDialog::OnMouseMoveReportgrid(short Button, short Shift, long x, long y)
 {
 }
 
-void CReportDialog::OnScrollReportgrid() 
+void CReportDialog::OnScrollReportgrid()
 {
 	EndEditCell();
-	
+
 }
 
-void CReportDialog::OnDeltaposQtyspin(NMHDR* pNMHDR, LRESULT* pResult) 
+void CReportDialog::OnDeltaposQtyspin(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	NM_UPDOWN* pNMUpDown = (NM_UPDOWN*)pNMHDR;
 	CString l_csComponentName;
 	int l_iMin;
 	int l_iMax;
 	bool l_bSubComp;
-	
+
+	//RESUME
+	if (GetKeyState(VK_CONTROL)<0 && GetKeyState(VK_SHIFT)<0)
+	{
+		pNMUpDown->iDelta = pNMUpDown->iDelta * 1000;
+	}
+	else if (GetKeyState(VK_CONTROL)<0)
+	{
+		pNMUpDown->iDelta = pNMUpDown->iDelta * 100;
+	}
+	else if (GetKeyState(VK_SHIFT)<0)
+	{
+		pNMUpDown->iDelta = pNMUpDown->iDelta * 10;
+	}
+
 	if ((m_iReportGridEditRow > 0) && (m_iReportGridEditCol == 2))
 	{
 		if (IsComponent (m_iReportGridEditRow, l_csComponentName, l_iMin, l_iMax, l_bSubComp))
@@ -1790,7 +2501,7 @@ void CReportDialog::OnDeltaposQtyspin(NMHDR* pNMHDR, LRESULT* pResult)
 	*pResult = 0;
 }
 
-void CReportDialog::OnClickReportgrid() 
+void CReportDialog::OnClickReportgrid()
 {
 	StartEditCell ();
 }
@@ -1871,7 +2582,7 @@ bool CReportDialog::IsComponent(int a_iRow, CString &a_csName, int &a_Min, int &
 	return (false);
 }
 
-void CReportDialog::OnMove(int x, int y) 
+void CReportDialog::OnMove(int x, int y)
 {
 	CDialog::OnMove(x, y);
 }
@@ -1880,10 +2591,10 @@ void CReportDialog::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 {
 	CRect l_cRect;
 	this->GetWindowRect (l_cRect);
-	
+
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, NULL, CAppData::m_iStickyStrength);
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, CAppData::m_cpHCCDlg, CAppData::m_iStickyStrength);
-	
+
 	if (CAppData::m_cItemCreationWnd.m_cWindowState.m_bVisible)
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cItemCreationWnd, CAppData::m_iStickyStrength);
@@ -1908,11 +2619,11 @@ void CReportDialog::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cProfileWnd, CAppData::m_iStickyStrength);
 	}
-	
+
 	CDialog::OnWindowPosChanging(lpwndpos);
 }
 
-void CReportDialog::OnWindowAlwaysontop() 
+void CReportDialog::OnWindowAlwaysontop()
 {
 	m_cWindowState.m_bOnTop = !m_cWindowState.m_bOnTop;
 
@@ -1934,14 +2645,14 @@ void CReportDialog::OnWindowAlwaysontop()
 
 }
 
-BOOL CReportDialog::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt) 
+BOOL CReportDialog::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 {
 	int l_iTop = m_cReportGrid.GetTopRow ();
 
 	if ((zDelta > 0) && (l_iTop > 0))
 	{
 		l_iTop--;
-	} 
+	}
 	else if (zDelta < 0)
 	{
 		l_iTop++;
@@ -1950,7 +2661,7 @@ BOOL CReportDialog::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 	if ((zDelta > 0) && (l_iTop > 0))
 	{
 		l_iTop--;
-	} 
+	}
 	else if (zDelta < 0)
 	{
 		l_iTop++;
@@ -1960,21 +2671,21 @@ BOOL CReportDialog::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 	{
 		m_cReportGrid.SetTopRow (l_iTop);
 	}
-	
+
 	return CDialog::OnMouseWheel(nFlags, zDelta, pt);
 }
 
-BOOL CReportDialog::OnHelpInfo(HELPINFO* pHelpInfo) 
+BOOL CReportDialog::OnHelpInfo(HELPINFO* pHelpInfo)
 {
 	return (TRUE);
 }
 
-void CReportDialog::OnSelchangeReporttype() 
+void CReportDialog::OnSelchangeReporttype()
 {
 	CAppData::m_iReportType = m_cReportType.GetCurSel ();
 }
 
-void CReportDialog::OnOptionsBonusesDirectonly() 
+void CReportDialog::OnOptionsBonusesDirectonly()
 {
 	CAppData::m_iShowReportBonusMode = 0;
 	UpdateOrderMenu();
@@ -1982,7 +2693,7 @@ void CReportDialog::OnOptionsBonusesDirectonly()
 	GenerateDirectReport ();
 }
 
-void CReportDialog::OnOptionsBonusesAll() 
+void CReportDialog::OnOptionsBonusesAll()
 {
 	CAppData::m_iShowReportBonusMode = 1;
 	UpdateOrderMenu();

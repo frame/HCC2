@@ -191,6 +191,11 @@ descriptionResurrect
 		m_csType = cXMLAttribute_Damage;
 	}
 
+	else if (m_csType == "damagemodifier")
+	{
+		m_csType = cXMLAttribute_DamageModifier;
+	}
+
 	else if (m_csType == "healamount")
 	{
 		m_csType = cXMLAttribute_HealAmount;
@@ -246,6 +251,12 @@ descriptionResurrect
 		m_csDescription = "Dispel Quality: " + m_csDescription;
 	}
 
+	else if (m_csType == "dpreduction")
+	{
+		m_csType = cXMLAttribute_Timer;
+		m_csDescription = m_csDescription;
+	}
+
 	else if ((m_csType == "chance") ||
 		      (m_csType == "statmultiplier") ||
 		      (m_csType == "statbonusvariable") ||
@@ -264,8 +275,7 @@ descriptionResurrect
 		      (m_csType == "frequency") ||
 		      (m_csType == "delaymod") ||
 		      (m_csType == "recyclemod") ||
-		      (m_csType == "descriptionresurrect") ||
-				(m_csType == "dpreduction"))
+		      (m_csType == "descriptionresurrect"))
 	{
 		m_csType = cXMLAttribute_Effect;
 	}
@@ -307,7 +317,6 @@ descriptionResurrect
 				(m_csType == "effectdelay") ||
 				(m_csType == "effectrecycle") ||
 				(m_csType == "effecteffect") ||
-				(m_csType == "effectchance") ||
 				(m_csType == "effectinfo") ||
 				(m_csType == "effectarea") ||
 				(m_csType == "effectdamage") ||
@@ -338,6 +347,7 @@ descriptionResurrect
 	{
 		m_csType = cXMLAttribute_TargetName;
 		m_csDescription = "Effect: " + m_csDescription;
+
 	}
 
 	else if (m_csType == "effecthealamount")
@@ -349,6 +359,12 @@ descriptionResurrect
 	else if (m_csType == "effectdescription")
 	{
 		m_csType = cXMLAttribute_TargetDescription;
+	}
+
+ else if (m_csType == "effectchance")
+	{
+	    m_csType = cXMLAttribute_EffectChance;
+		m_csDescription = m_csDescription;
 	}
 
 	else if (m_csType == "effectduration")
@@ -378,6 +394,10 @@ descriptionResurrect
 		m_csType = cXMLAttribute_ExtraDamage;
 	}
 
+    else if ((m_csType == "reqRace"))
+	{
+		m_csType = cXMLAttribute_ReqRace;
+	}
 	else if (m_csType == "techeffect")
 	{
 		m_csType = cXMLAttribute_Effect;
@@ -385,7 +405,9 @@ descriptionResurrect
 
 	else
 	{
-		m_csDescription = "? " + m_csType + ":" + m_csDescription + " ?";
+		//FIXME frame
+		//m_csDescription = "? " + m_csType + ":" + m_csDescription + " ?";
+		m_csDescription = m_csDescription;
 		m_csType = cXMLAttribute_Effect;
 	}
 }

@@ -6,6 +6,7 @@
 #include "HCCDlg.h"
 #include "AppData.h"
 #include "RegistryAccess.h"
+#include "IO.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -65,7 +66,7 @@ BOOL CHCCApp::InitInstance()
 
 	if (!l_cRegAccess.DetectFlexGrid ())
 	{
-		AfxMessageBox ("HCC requires the registration of MSFlexGrid in order to run.\nThis should have been performed during the install.\nPlease exit HCC and reinstall again");
+		AfxMessageBox ("HCC requires the registration of MSFlexGrid in order to run.\nThis should have been performed during the install.\nPlease exit HCC and reinstall.");
 	}
 
 	{
@@ -89,7 +90,14 @@ BOOL CHCCApp::InitInstance()
 		int l_iSize = 512;
 		CString l_csAppPath;
 		CString l_csGamePath;
-	
+		CString l_csBasePath = cAppData_RegBase;
+		CString l_tmp;
+
+        CString l_csParameterOne;
+        CString l_csParameterTwo;
+
+        int LocPos = -1;
+
 		GdiplusStartupInput gdiplusStartupInput;
 		ULONG_PTR gdiplusToken;
 		GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
@@ -98,12 +106,43 @@ BOOL CHCCApp::InitInstance()
 		CAppData::m_cpHCCDlg = &dlg;
 		l_cRegAccess.LoadKey ("SOFTWARE\\ArtifactEntertainment\\Horizons", "", l_csGamePath);
 		l_csAppPath = l_cPath;
+
+        l_csParameterOne.Format("%s", __argv[0]);
+        LocPos = l_csParameterOne.ReverseFind('\\');
+        l_csParameterOne = l_csParameterOne.Mid(0, LocPos);
+        l_csParameterOne.Format("%s", l_csParameterOne);
+        //AfxMessageBox (l_csParameterOne, MB_ICONEXCLAMATION );
+
+        if (_access(l_csParameterOne + "\\Config.xml", 0) == -1)
+        {
+            l_cRegAccess.LoadKey ("SOFTWARE\\HCC2", "Install_Dir", l_csParameterOne);
+            if (_access(l_csParameterOne + "\\Config.xml", 0) == -1)
+            {
+                AfxMessageBox ("HCC was unable to start. Please reinstall using the installer.", MB_ICONEXCLAMATION );
+                ExitProcess(0);
+            }
+        }
+
+        //AfxMessageBox (l_csParameterOne, MB_ICONEXCLAMATION );
+        l_csAppPath = l_csParameterOne;
+
+
 		CAppData::m_csAppBasePath = l_csAppPath;
 		CAppData::m_csGameBasePath = l_csGamePath;
 
 		CAppData::ReadDefaults ();
 		CAppData::UnpackAvailableUpdates ();
 		CAppData::LoadData ();
+
+
+
+        l_csParameterTwo.Format("%s", __argv[1]);
+        if (_access(l_csParameterTwo, 0) != -1)
+        {
+            // Load File
+            CAppData::LoadOrder(l_csParameterTwo);
+        }
+
 
 		int nResponse = dlg.DoModal();
 		if (nResponse == IDOK)
@@ -136,3 +175,4 @@ CHCCApp::SetPriority(int Priority)
 {
 	SetThreadPriority (Priority);
 }
+

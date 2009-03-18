@@ -52,7 +52,7 @@ BEGIN
                     BS_VCENTER | BS_NOTIFY | BS_FLAT | NOT WS_VISIBLE |
                     WS_DISABLED | NOT WS_TABSTOP,WS_EX_STATICEDGE
     PUSHBUTTON      "Order",IDC_ORDERBUTTON,6,34,67,18,BS_CENTER |
-                    BS_VCENTER | BS_NOTIFY | BS_FLAT | NOT WS_TABSTOP,
+                    BS_VCENTER | BS_NOTIFY | BS_FLAT | WS_TABSTOP,
                     WS_EX_STATICEDGE
     PUSHBUTTON      "Reports",IDC_REPORTBUTTON,6,51,67,18,BS_CENTER |
                     BS_VCENTER | BS_NOTIFY | BS_FLAT | NOT WS_TABSTOP,
@@ -76,7 +76,7 @@ BEGIN
                     BS_VCENTER | BS_NOTIFY | BS_FLAT | NOT WS_TABSTOP,
                     WS_EX_STATICEDGE
     CONTROL         "Autodock",IDC_AUTODOCK,"Button",BS_AUTOCHECKBOX,16,200,
-                    48,8
+                    48,8| NOT WS_TABSTOP
     GROUPBOX        "HCC v2.16",IDC_TITLEFRAME,2,0,75,196,BS_CENTER
     CTEXT           "DB: 2005-10-30",IDC_DATABASETITLE,4,10,68,8,
                     SS_CENTERIMAGE | WS_DISABLED
@@ -96,8 +96,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 2,27,0,0
- PRODUCTVERSION 2,27,0,0
+ FILEVERSION 2,30,0,0
+ PRODUCTVERSION 2,30,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -112,18 +112,15 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "Comments", "\0"
+            VALUE "ProductName", "Horizons Crafting Calculator\0"
+            VALUE "FileDescription", "Horizons Crafting Calculator\0"
             VALUE "CompanyName", "HCC Development Team\0"
-            VALUE "FileDescription", "Horizons Crafting Calculator 2\0"
-            VALUE "FileVersion", "v2.28\0"
+            VALUE "LegalTrademarks", "HCC Application and datafile formats: HCC Development Team. Actual data and derived icons: Virtrium LLC\0"
+            VALUE "LegalCopyright", "HCC Development Team\0"
+            VALUE "FileVersion", "2.30.0.0\0"
+
             VALUE "InternalName", "HCC2\0"
-            VALUE "LegalCopyright", "Copyright (C) HCC Development Team\0"
-            VALUE "LegalTrademarks", "\0"
             VALUE "OriginalFilename", "HCC.EXE\0"
-            VALUE "PrivateBuild", "\0"
-            VALUE "ProductName", "Horizons Crafting Calculator 2\0"
-            VALUE "ProductVersion", "v2.28\0"
-            VALUE "SpecialBuild", "\0"
         END
     END
     BLOCK "VarFileInfo"
@@ -201,16 +198,16 @@ BEGIN
                     TVS_FULLROWSELECT | WS_BORDER | WS_TABSTOP,4,72,144,248,
                     WS_EX_CLIENTEDGE
     PUSHBUTTON      "Add Item",IDC_ADDITEM,264,392,60,12
-    PUSHBUTTON      "Remove Technique",IDC_REMOVETECH,252,308,72,12
+    PUSHBUTTON      "Remove Technique",IDC_REMOVETECH,266,308,58,12
     EDITTEXT        IDC_SIZINGBOX,208,4,112,12,ES_MULTILINE | ES_READONLY |
                     NOT WS_VISIBLE
     EDITTEXT        IDC_SIZINGTITLEBOX,152,4,156,12,ES_CENTER | ES_MULTILINE |
                     ES_READONLY | NOT WS_VISIBLE
     PUSHBUTTON      "Display Effiency Levels",IDC_SHOWLEVELS,4,392,84,12
-    COMBOBOX        IDC_PROFILESELECTER,252,321,72,180,CBS_DROPDOWNLIST |
+    COMBOBOX        IDC_PROFILESELECTER,266,321,58,180,CBS_DROPDOWNLIST |
                     CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,
                     WS_EX_CLIENTEDGE
-    LTEXT           "Profile",IDC_PROFILETEXT,228,323,19,8
+    LTEXT           "Profile",IDC_PROFILETEXT,242,323,19,8
     PUSHBUTTON      "<",IDC_COLLAPSE,4,59,12,12,BS_CENTER | BS_VCENTER
     CTEXT           "Available Categories",IDC_CATEGORIESTEXT,4,3,320,12,
                     SS_CENTERIMAGE,WS_EX_CLIENTEDGE
@@ -230,13 +227,15 @@ BEGIN
                     "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,152,
                     60,172,184
     CONTROL         "",IDC_TIERGRID,"{6262D3A0-531B-11CF-91F6-C2863C385E30}",
-                    WS_TABSTOP,152,248,96,72
+                    WS_TABSTOP,152,248,110,72
     CONTROL         "",IDC_TECHGRID,"{6262D3A0-531B-11CF-91F6-C2863C385E30}",
-                    WS_TABSTOP,252,248,72,62
+                    WS_TABSTOP,266,248,58,62
     CONTROL         "",IDC_RESOURCEGRID,
                     "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,4,
                     336,320,52
 END
+
+//was 96 -> 110 means: 14
 
 IDD_TECHDIALOG DIALOGEX 0, 0, 280, 260
 STYLE WS_MINIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU |
@@ -281,20 +280,21 @@ BEGIN
                     202,136,42
 END
 
-IDD_OPTIONS DIALOGEX 0, 0, 356, 191
+// was 191
+IDD_OPTIONS DIALOGEX 0, 0, 356, 203
 STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_TOOLWINDOW
 CAPTION "Configuration"
 MENU IDR_OPTIONMENU
 FONT 8, "Tahoma"
 BEGIN
-    DEFPUSHBUTTON   "OK",IDOK,244,176,50,12
-    PUSHBUTTON      "Cancel",IDCANCEL,300,176,50,12
+    DEFPUSHBUTTON   "OK",IDOK,244,188,50,12
+    PUSHBUTTON      "Cancel",IDCANCEL,300,188,50,12
     GROUPBOX        "Configuration",IDC_STATIC,4,3,348,45,BS_CENTER
     LTEXT           "Horizons Installation Path",IDC_STATIC,12,34,81,8
     EDITTEXT        IDC_GAMEDIR,101,32,200,12,ES_AUTOHSCROLL
     PUSHBUTTON      "Browse...",IDC_BROWSEBUTTON,305,32,44,12
-    GROUPBOX        "Interface Options",IDC_STATIC,4,52,172,120,BS_CENTER
+    GROUPBOX        "Interface Options",IDC_STATIC,4,52,172,132,BS_CENTER
     GROUPBOX        "Performance Options",IDC_STATIC,180,52,172,76,BS_CENTER
     CONTROL         "Display Game Icons?",IDC_ICONCHECK,"Button",
                     BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,12,104,84,8
@@ -317,7 +317,9 @@ BEGIN
     LTEXT           "(Requires Restart)",IDC_STATIC,276,144,64,8
     CONTROL         "Drag With Toolbar?",IDC_TOOLBARDRAGCHECK,"Button",
                     BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,188,156,84,8
-    GROUPBOX        "Other Options",IDC_STATIC,180,132,172,40,BS_CENTER
+    CONTROL         "Check for Updates?",IDC_AUTOUPDATECHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,188,168,84,8
+	GROUPBOX        "Other Options",IDC_STATIC,180,132,172,52,BS_CENTER
     COMBOBOX        IDC_THEMECOMBO,40,148,128,48,CBS_DROPDOWNLIST |
                     WS_VSCROLL | WS_TABSTOP
     LTEXT           "Theme",IDC_STATIC,13,151,22,8
@@ -405,7 +407,7 @@ CAPTION "Reports"
 MENU IDR_REPORTMENU
 FONT 8, "Tahoma"
 BEGIN
-    COMBOBOX        IDC_REPORTFORMAT,112,4,48,112,CBS_DROPDOWNLIST |
+    COMBOBOX        IDC_REPORTFORMAT,112,4,128,112,CBS_DROPDOWNLIST |
                     WS_VSCROLL | WS_TABSTOP
     PUSHBUTTON      "Generate",IDC_GENERATEBUTTON,224,4,40,12
     CONTROL         "",IDC_REPORTGRID,"{6262D3A0-531B-11CF-91F6-C2863C385E30}",
@@ -1585,19 +1587,19 @@ BEGIN
         MENUITEM SEPARATOR
         POPUP "View"
         BEGIN
-            MENUITEM "Orders\tCtrl-Shift-F1",       ID_SETTINGS_VIEW_ORDERWINDOW
+            MENUITEM "Orders\tF1, Ctrl+Shift+F1",       ID_SETTINGS_VIEW_ORDERWINDOW
 
-            MENUITEM "Reports\tCtrl-Shift-F2",      ID_VIEW_REPORTWINDOW
+            MENUITEM "Reports\tF2, Ctrl+Shift+F2",      ID_VIEW_REPORTWINDOW
             MENUITEM SEPARATOR
-            MENUITEM "Formulae Database\tCtrl-Shift-F3",
+            MENUITEM "Formulae Database\tF3, Ctrl+Shift+F3",
                                                     ID_VIEW_FORMULAWINDOW
-            MENUITEM "Technique Database\tCtrl-Shift-F4",
+            MENUITEM "Technique Database\tF4, Ctrl+Shift+F4",
                                                     ID_VIEW_TECHNIQUEWINDOW
-            MENUITEM "Component Database\tCtrl-Shift-F5",
+            MENUITEM "Component Database\tF5, Ctrl+Shift+F5",
                                                     ID_VIEW_COMPONENTWINDOW
-            MENUITEM "Profile Manager\tCtrl-Shift-F6", ID_VIEW_PROFILEWINDOW
+            MENUITEM "Profile Manager\tF6, Ctrl+Shift+F6", ID_VIEW_PROFILEWINDOW
             MENUITEM SEPARATOR
-            MENUITEM "Live Update\tCtrl-Shift-F7",  ID_OPTIONS_VIEW_LIVEUPDATE
+            MENUITEM "Live Update\tF7, Ctrl+Shift+F7",  ID_OPTIONS_VIEW_LIVEUPDATE
 
         END
         POPUP "Window"
@@ -1663,6 +1665,13 @@ BEGIN
             END
         END
         MENUITEM SEPARATOR
+        POPUP "Search"
+        BEGIN
+            MENUITEM "By Name...Ctrl+F",            ID_SEARCH_BYNAME
+            MENUITEM "By Formula Name...Ctrl+Shift+F",            ID_SEARCH_BYFORMNAME
+            MENUITEM "By Class...",                 ID_SEARCH_BYCLASS
+        END
+        MENUITEM SEPARATOR
         POPUP "Orientation"
         BEGIN
             MENUITEM "Vertical",                    ID_OPTIONS_ORIENTATION_VERTICAL
@@ -1672,10 +1681,10 @@ BEGIN
         END
         POPUP "Settings"
         BEGIN
-            MENUITEM "Configuration...",            ID_SETTINGS_OPTIONS
-            MENUITEM "Recache Database\tCtrl-R",            ID_SETTINGS_RELOADDATA
+            MENUITEM "Configuration...\tCtrl+Shift+C",            ID_SETTINGS_OPTIONS
+            MENUITEM "Recache Database\tCtrl+R",            ID_SETTINGS_RELOADDATA
             MENUITEM SEPARATOR
-            MENUITEM "Refresh Theme\tCtrl-Shift-R",               ID_OPTIONS_SETTINGS_REFRESHTHEME
+            MENUITEM "Refresh Theme\tCtrl+Shift+R",               ID_OPTIONS_SETTINGS_REFRESHTHEME
 
         END
     END
@@ -1683,6 +1692,7 @@ BEGIN
     BEGIN
         MENUITEM "Official HCC Website",        ID_HELP_INDEX
         MENUITEM "Online Manual",               ID_HELP_ONELINEMANUAL
+        MENUITEM "Help with Plugins",           ID_HELP_PLUGINS
         MENUITEM SEPARATOR
         MENUITEM "Report a Bug",                ID_HELP_REPORTABUG
         MENUITEM SEPARATOR
@@ -1729,7 +1739,8 @@ BEGIN
         MENUITEM SEPARATOR
         POPUP "Search"
         BEGIN
-            MENUITEM "By Name...",                  ID_SEARCH_BYNAME
+            MENUITEM "By Name...Ctrl+F",            ID_SEARCH_BYNAME
+            MENUITEM "By Formula Name...Ctrl+Shift+F",            ID_SEARCH_BYFORMNAME
             MENUITEM "By Class...",                 ID_SEARCH_BYCLASS
         END
     END
@@ -1928,13 +1939,16 @@ IDR_MANIFEST            24      DISCARDABLE     "res\\manifest.xml"
 IDR_TOOLBARACCEL ACCELERATORS DISCARDABLE
 BEGIN
     "A",            ID_FILE_SAVEAS,         VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_SETTINGS_OPTIONS, VIRTKEY, CONTROL, SHIFT, NOINVERT
     "F",            ID_SEARCH_BYNAME,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_SEARCH_BYFORMNAME,       VIRTKEY, CONTROL, SHIFT, NOINVERT
     "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
     "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
     "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
     "R",            ID_SETTINGS_RELOADDATA, VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_OPTIONS_SETTINGS_REFRESHTHEME, VIRTKEY, CONTROL, SHIFT, NOINVERT
     "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
-    "T",            ID_OPTIONS_SETTINGS_REFRESHTHEME, VIRTKEY, CONTROL, SHIFT, NOINVERT
+	"X",            ID_FILE_EXIT,           VIRTKEY, CONTROL, NOINVERT
 
     VK_F1,          IDC_ORDERBUTTON,        VIRTKEY, NOINVERT
     VK_F12,         ID_VIEW_REPORTWINDOW,   VIRTKEY, NOINVERT
@@ -1944,7 +1958,7 @@ BEGIN
     VK_F5,          IDC_COMPBUTTON,         VIRTKEY, NOINVERT
     VK_F6,          IDC_PROFILEBUTTON,      VIRTKEY, NOINVERT
     VK_F7,          IDC_UPDATEBUTTON,       VIRTKEY, NOINVERT
-    "X",            ID_FILE_EXIT,           VIRTKEY, CONTROL, NOINVERT
+
 END
 
 #endif    // English (U.K.) resources

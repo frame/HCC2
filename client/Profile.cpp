@@ -352,7 +352,7 @@ bool CProfile::SaveProfile(CString &a_csFilename)
 	if (l_cParser.WriteFile (a_csFilename))
 	{
 		l_cParser.WriteOpenTag ("profile");
-		l_cParser.WriteTag ("profile-format", "1.0");
+		l_cParser.WriteTag ("profile-format", "1.1");
 		l_cParser.WriteTag ("profile-name", m_csProfileName);
 		l_cParser.WriteTag ("profile-server", m_csProfileServer);
 		l_cParser.WriteTag ("profile-email", m_csProfileEmail);

@@ -146,6 +146,8 @@ public:
 	static bool LoadFormulaFile(CString &a_csFilename);
 
 	static bool SaveOrder (CString &a_csFilename);
+	static bool ExportOrder (CString &a_csFilename);
+	static bool ExportProfile (CString &a_csFilename);
 	static SaveDefaults();
 	static SaveWindowStates();
 
@@ -215,6 +217,7 @@ public:
 	static CFormula *m_cpCurrentFormula;
 	static CString   m_csCurrentFormulaTierName;
 	static CString   m_csPreferedFormulaTierName;
+	static int       m_csPreferedFormulaTier;
 
 	static CTech	*m_cpCurrentTech;
 	static CString  m_csCurrentTechTierName;
@@ -234,6 +237,7 @@ public:
 	static CTech *m_cpFormFilterTech;
 
 	static bool m_bEditMode;
+	static bool m_bFormSearchMode;
 	static bool m_bShowUsableTechs;
 	static bool m_bEnableIcons;
 	static bool m_bEnableCache;
@@ -254,6 +258,8 @@ public:
 	static bool m_bVerticalToolBar;
 	static bool m_bAutoShrink;
 	static bool m_bHighPriority;
+	static bool m_bAutoUpdate;
+	static bool m_bAutoUpdateQuery;
 
 	static bool m_bProfilesChanged;
 

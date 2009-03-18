@@ -31,6 +31,7 @@ public:
 	AddToBaseResources (CItemResource *a_cpItemResource, int a_iBaseQty, CTypedPtrList<CPtrList,  CItemResource*> &l_clBaseResourceList, int a_iSkillAdjust = 0);
 	AddToResources(CItemResource *a_cpResource, int a_iStyle, int a_iBaseQty, int a_iIndent = 1, int a_iSkillAdjust = 0);
 	int ReportSelection ();
+	ResetSelection ();
 	UpdateOrderMenu();
 	GenerateDirectReport ();
 	GenerateOrderList();
@@ -39,10 +40,13 @@ public:
 	CReportDialog(CWnd* pParent = NULL);   // standard constructor
 	void Resize();
 
-	ExportToClipboard();
-   ExportToHTML(CString a_csFilename);
-   ExportHTMLItemLine(FILE *a_cFilePtr, CString &a_csItemName, CString &a_csQty, CString &a_csTech, bool &a_bEven);
-	ExportHTMLHeader(FILE *a_cFilePtr, CString a_csTitle);
+	CString PrepareExportToTEXT();
+	bool ExportToXML(CString a_csFilename);
+	bool ExportToTEXT(CString a_csFilename);
+    bool ExportToHTML(CString a_csFilename);
+    ExportHTMLItemLine(FILE *a_cFilePtr, CString &a_csItemName, CString &a_csQty, CString &a_csTech, bool &a_bEven);
+	ExportHTMLHeader(FILE *a_cFilePtr);
+	ExportHTMLFooter(FILE *a_cFilePtr);
 	ExportHTMLOrderHeader(FILE *a_cFilePtr);
 	ExportHTMLLineFooter(FILE *a_cFilePtr);
 	ExportHTMLResourceHeader(FILE *a_cFilePtr);

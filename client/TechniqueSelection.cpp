@@ -88,16 +88,16 @@ END_EVENTSINK_MAP()
 /////////////////////////////////////////////////////////////////////////////
 // CTechniqueSelection message handlers
 
-BOOL CTechniqueSelection::OnInitDialog() 
+BOOL CTechniqueSelection::OnInitDialog()
 {
 	CDialog::OnInitDialog();
-	
-   //remove some options from the system menu 
-   CMenu* pSysMenu = GetSystemMenu(FALSE); 
-   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND); 
-   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND); 
+
+   //remove some options from the system menu
+   CMenu* pSysMenu = GetSystemMenu(FALSE);
+   pSysMenu->RemoveMenu(SC_RESTORE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MINIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_MAXIMIZE,MF_BYCOMMAND);
+   pSysMenu->RemoveMenu(SC_TASKLIST ,MF_BYCOMMAND);
 
 	m_cOS_CategoriesText.InitState	(m_cCategoriesText,		*this, NULL,						NULL,						1.0f, 0.0f, NULL);
 	m_cOS_TechFilter.InitState			(m_cFilterList,			*this, NULL,						NULL,						1.0f, 0.0f, NULL);
@@ -114,7 +114,7 @@ BOOL CTechniqueSelection::OnInitDialog()
 	m_cOS_SizingBox.InitState			(m_cSizingBox,				*this, &m_cOS_TechGrid,			NULL,						0.8f, 0.0f);
 	m_cOS_SizingTitleBox.InitState	(m_cSizingTitleBox,		*this, &m_cOS_TechGrid,			NULL,						0.8f, 0.0f);
 	Initialise ();
-	
+
 	CMenu *l_pMenu;
 	l_pMenu = GetMenu ();
 	if (l_pMenu)
@@ -126,7 +126,7 @@ BOOL CTechniqueSelection::OnInitDialog()
 	              // EXCEPTION: OCX Property Pages should return FALSE
 }
 
-void CTechniqueSelection::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI) 
+void CTechniqueSelection::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 {
 	CDialog::OnGetMinMaxInfo (lpMMI);
 
@@ -259,26 +259,26 @@ CTechniqueSelection::SelectCategory(CString a_csCategory)
 	}
 }
 
-void CTechniqueSelection::OnClose() 
+void CTechniqueSelection::OnClose()
 {
 	CAppData::SetTechWindow(false);
-	
+
 	CDialog::OnClose();
 }
 
-void CTechniqueSelection::OnOK() 
+void CTechniqueSelection::OnOK()
 {
 }
 
-void CTechniqueSelection::OnSize(UINT nType, int cx, int cy) 
+void CTechniqueSelection::OnSize(UINT nType, int cx, int cy)
 {
 	CDialog::OnSize(nType, cx, cy);
-	
+
 	if (m_cWindowState.m_bLoaded)
 	{
 		ResizeGrids ();
 	}
-	
+
 }
 
 CTechniqueSelection::ResizeGrids()
@@ -345,7 +345,7 @@ CTechniqueSelection::DrawTechList()
 	bool l_bPickedSelected = false;
 	int l_iDisplayedTechCount = 0;
 	bool l_bShowUsable = false;
-	
+
 	if (m_cShowUsable)
 	{
 		l_bShowUsable = (m_cShowUsable.GetCheck () > 0) && (m_cShowUsable.IsWindowEnabled ());
@@ -422,7 +422,7 @@ CTechniqueSelection::DrawTechList()
 
 					if (l_cpFormulaTier)
 					{
-						if ((l_cpFormulaTier->m_iAllowedTechniques > 0) && 
+						if ((l_cpFormulaTier->m_iAllowedTechniques > 0) &&
 							 ((l_iTechSlotCount < l_cpFormulaTier->m_iAllowedTechniques) || (l_cpTechSet->m_csCategory == "Armor Dye")))
 						{
 							if (l_cpTech->CheckFormula (CAppData::m_cpCurrentFormula, l_cpFormulaTier))
@@ -451,7 +451,7 @@ CTechniqueSelection::DrawTechList()
 							}
 						}
 					}
-					
+
 					if (!l_bTechAdded)
 					{
 						if (!l_bShowUsable)
@@ -828,16 +828,16 @@ CTechniqueSelection::EnableScreen()
 			m_cAddTechButton.EnableWindow (false);
 		}
 	}
-		
+
 	if (!m_cTechTierGrid.IsRowEnabled (m_cTechTierGrid.GetRowSel ()))
 	{
 		m_cAddTechButton.EnableWindow (false);
 	}
-		
+
 }
 
 
-void CTechniqueSelection::OnClickTechtiergrid() 
+void CTechniqueSelection::OnClickTechtiergrid()
 {
 
 	int l_irow =  m_cTechTierGrid.GetRowSel ();
@@ -855,11 +855,11 @@ void CTechniqueSelection::OnClickTechtiergrid()
 
 }
 
-void CTechniqueSelection::OnSelchangeTechfilter() 
+void CTechniqueSelection::OnSelchangeTechfilter()
 {
 }
 
-void CTechniqueSelection::OnShowusable() 
+void CTechniqueSelection::OnShowusable()
 {
 	CAppData::m_bShowUsableTechs = !CAppData::m_bShowUsableTechs;
 	DrawTechList ();
@@ -889,7 +889,7 @@ CTechniqueSelection::DisplayTechTiers(CTech *a_cpTech)
 			l_iMaxTier = l_cpFormulaTier->m_iTierLevel;
 		}
 	}
-		 
+
 	l_Pos =  a_cpTech->m_clTechTierList.GetHeadPosition ();
 
 	while (l_Pos)
@@ -943,7 +943,7 @@ CTechniqueSelection::DisplayTechTiers(CTech *a_cpTech)
 	this->UnlockWindowUpdate ();
 }
 
-BOOL CTechniqueSelection::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult) 
+BOOL CTechniqueSelection::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
 {
 	LPNMHDR pNmhdr = (LPNMHDR)lParam;
 
@@ -955,8 +955,8 @@ BOOL CTechniqueSelection::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResul
 			switch (pCustomDraw->nmcd.dwDrawStage)
 			{
 				case CDDS_PREPAINT:
-					// Need to process this case and set pResult to CDRF_NOTIFYITEMDRAW, 
-					// otherwise parent will never receive CDDS_ITEMPREPAINT notification. (GGH) 
+					// Need to process this case and set pResult to CDRF_NOTIFYITEMDRAW,
+					// otherwise parent will never receive CDDS_ITEMPREPAINT notification. (GGH)
 					*pResult = CDRF_NOTIFYITEMDRAW;
 					return true;
 
@@ -1044,18 +1044,18 @@ BOOL CTechniqueSelection::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResul
 							break;
 						}
 					}
-					
+
 					return false;
 
 			}
 		}
 		break;
 	}
-	
+
 	return CDialog::OnNotify(wParam, lParam, pResult);
 }
 
-void CTechniqueSelection::OnSelchangedTechtree(NMHDR* pNMHDR, LRESULT* pResult) 
+void CTechniqueSelection::OnSelchangedTechtree(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	NM_TREEVIEW* pNMTreeView = (NM_TREEVIEW*)pNMHDR;
 
@@ -1083,7 +1083,7 @@ void CTechniqueSelection::OnSelchangedTechtree(NMHDR* pNMHDR, LRESULT* pResult)
 			}
 			m_csPreferedCategory = l_csCategory;
 			m_csPreferedTech = l_csTechName;
-			
+
 			if (CAppData::FindTech (l_csCategory, l_csTechName, &CAppData::m_cpCurrentTech))
 			{
 				CAppData::m_csCurrentTechTierName = CAppData::m_csPreferedTechTierName;
@@ -1142,7 +1142,7 @@ HTREEITEM CTechniqueSelection::SelectTech(CString &a_csTechName)
 			{
 				return (l_cTreeItem);
 			}
-			
+
 			l_cTreeItem = m_cTechTree.GetNextSiblingItem (l_cTreeItem);
 		}
 
@@ -1152,7 +1152,7 @@ HTREEITEM CTechniqueSelection::SelectTech(CString &a_csTechName)
 	return (NULL);
 }
 
-void CTechniqueSelection::OnAddtech() 
+void CTechniqueSelection::OnAddtech()
 {
 	CItemTech l_cItemTech;
 
@@ -1172,11 +1172,11 @@ void CTechniqueSelection::OnAddtech()
 			CAppData::UpdateOrderItem (CAppData::m_cCurrentOrderItem);
 			CAppData::m_cOrderWnd.DisplayOrderItem (CAppData::m_cCurrentOrderItem.m_iId);
 		}
-	
+
 	}
 }
 
-void CTechniqueSelection::OnFilterforms() 
+void CTechniqueSelection::OnFilterforms()
 {
 	if (CAppData::m_cpCurrentTech)
 	{
@@ -1195,10 +1195,10 @@ void CTechniqueSelection::OnFilterforms()
 	}
 }
 
-void CTechniqueSelection::OnItemexpandingTechtree(NMHDR* pNMHDR, LRESULT* pResult) 
+void CTechniqueSelection::OnItemexpandingTechtree(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	NM_TREEVIEW* pNMTreeView = (NM_TREEVIEW*)pNMHDR;
-	
+
 	//if (m_bTechTreeExpand)
 	{
 		*pResult = 0;
@@ -1209,35 +1209,35 @@ void CTechniqueSelection::OnItemexpandingTechtree(NMHDR* pNMHDR, LRESULT* pResul
 	//}
 }
 
-void CTechniqueSelection::OnOptionsSnapshotwindow() 
+void CTechniqueSelection::OnOptionsSnapshotwindow()
 {
 	CAppData::SetTechWindowState ();
 }
 
-void CTechniqueSelection::OnOptionsRestorewindow() 
+void CTechniqueSelection::OnOptionsRestorewindow()
 {
 	CAppData::GetTechWindowState ();
 }
 
-void CTechniqueSelection::OnOptionsAutoexpandOff() 
+void CTechniqueSelection::OnOptionsAutoexpandOff()
 {
-	CAppData::m_iExpandTechMode = 0;	
+	CAppData::m_iExpandTechMode = 0;
 	UpdateAutoExpandMenu();
 }
 
-void CTechniqueSelection::OnOptionsAutoexpandCurrentcategory() 
+void CTechniqueSelection::OnOptionsAutoexpandCurrentcategory()
 {
-	CAppData::m_iExpandTechMode = 1;	
+	CAppData::m_iExpandTechMode = 1;
 	UpdateAutoExpandMenu();
 }
 
-void CTechniqueSelection::OnOptionsAutoexpandAllcategories() 
+void CTechniqueSelection::OnOptionsAutoexpandAllcategories()
 {
-	CAppData::m_iExpandTechMode = 2;	
+	CAppData::m_iExpandTechMode = 2;
 	UpdateAutoExpandMenu();
 }
 
-void CTechniqueSelection::OnCollapse() 
+void CTechniqueSelection::OnCollapse()
 {
 	HTREEITEM l_TreeItem;
 
@@ -1261,24 +1261,24 @@ CTechniqueSelection::UpdateAutoExpandMenu()
 	}
 }
 
-void CTechniqueSelection::OnHelpIndex() 
+void CTechniqueSelection::OnHelpIndex()
 {
-	CAppData::LaunchWebLink ((CString) "techniquewindow");	
+	CAppData::LaunchWebLink ((CString) "techniquewindow");
 }
 
-void CTechniqueSelection::OnClickFilterlist(NMHDR* pNMHDR, LRESULT* pResult) 
+void CTechniqueSelection::OnClickFilterlist(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	CAppData::m_csLastTechCategory = GetCategory ();
 	DrawTechList ();
 
-	
+
 	*pResult = 0;
 }
 
-void CTechniqueSelection::OnKeydownFilterlist(NMHDR* pNMHDR, LRESULT* pResult) 
+void CTechniqueSelection::OnKeydownFilterlist(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	LV_KEYDOWN* pLVKeyDow = (LV_KEYDOWN*)pNMHDR;
-	
+
 	*pResult = 1;
 }
 
@@ -1318,7 +1318,7 @@ CTechniqueSelection::ResizeResourceGrid()
 
 
 
-void CTechniqueSelection::OnExpand() 
+void CTechniqueSelection::OnExpand()
 {
 	HTREEITEM l_TreeItem;
 
@@ -1330,7 +1330,7 @@ void CTechniqueSelection::OnExpand()
 	}
 }
 
-void CTechniqueSelection::OnMove(int x, int y) 
+void CTechniqueSelection::OnMove(int x, int y)
 {
 	CDialog::OnMove(x, y);
 }
@@ -1339,10 +1339,10 @@ void CTechniqueSelection::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 {
 	CRect l_cRect;
 	this->GetWindowRect (l_cRect);
-	
+
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, NULL, CAppData::m_iStickyStrength);
 	m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, CAppData::m_cpHCCDlg, CAppData::m_iStickyStrength);
-	
+
 	if (CAppData::m_cItemCreationWnd.m_cWindowState.m_bVisible)
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cItemCreationWnd, CAppData::m_iStickyStrength);
@@ -1367,11 +1367,11 @@ void CTechniqueSelection::OnWindowPosChanging( WINDOWPOS* lpwndpos )
 	{
 		m_cWindowState.SnapToWnd (lpwndpos, &l_cRect, &CAppData::m_cProfileWnd, CAppData::m_iStickyStrength);
 	}
-	
+
 	CDialog::OnWindowPosChanging(lpwndpos);
 }
 
-void CTechniqueSelection::OnWindowAlwaysontop() 
+void CTechniqueSelection::OnWindowAlwaysontop()
 {
 	m_cWindowState.m_bOnTop = !m_cWindowState.m_bOnTop;
 
@@ -1393,14 +1393,14 @@ void CTechniqueSelection::OnWindowAlwaysontop()
 
 }
 
-BOOL CTechniqueSelection::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt) 
+BOOL CTechniqueSelection::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 {
 	int l_iTop = m_cTechInfoGrid.GetTopRow ();
 
 	if ((zDelta > 0) && (l_iTop > 0))
 	{
 		l_iTop--;
-	} 
+	}
 	else if (zDelta < 0)
 	{
 		l_iTop++;
@@ -1410,11 +1410,11 @@ BOOL CTechniqueSelection::OnMouseWheel(UINT nFlags, short zDelta, CPoint pt)
 	{
 		m_cTechInfoGrid.SetTopRow (l_iTop);
 	}
-	
+
 	return CDialog::OnMouseWheel(nFlags, zDelta, pt);
 }
 
-BOOL CTechniqueSelection::OnHelpInfo(HELPINFO* pHelpInfo) 
+BOOL CTechniqueSelection::OnHelpInfo(HELPINFO* pHelpInfo)
 {
 	return (TRUE);
 }

@@ -14,6 +14,7 @@
 #include "WizardDialog.h"
 #include "Scheme.h"
 #include "XWinVer.h"
+#include "Regexp.h"
 
 using namespace Gdiplus;
 
@@ -167,10 +168,12 @@ BEGIN_MESSAGE_MAP(CHCCDlg, CDialog)
 	ON_COMMAND(ID_FILE_EXIT, OnFileExit)
 	ON_COMMAND(ID_FILE_PRINT, OnFilePrint)
 	ON_WM_LBUTTONUP()
+	ON_WM_LBUTTONDOWN()
 	ON_WM_KILLFOCUS()
 	ON_WM_CAPTURECHANGED()
 	ON_WM_CHAR()
 	ON_COMMAND(ID_HELP_ONELINEMANUAL, OnHelpOnelinemanual)
+	ON_COMMAND(ID_HELP_PLUGINS, OnHelpPlugins)
 	ON_COMMAND(ID_HELP_REPORTABUG, OnHelpReportabug)
 	ON_WM_HELPINFO()
 	ON_COMMAND(ID_OPTIONS_VIEW_LIVEUPDATE, OnOptionsViewLiveupdate)
@@ -179,6 +182,9 @@ BEGIN_MESSAGE_MAP(CHCCDlg, CDialog)
 	ON_COMMAND(ID_OPTIONS_ORIENTATION_VERTICAL, OnOptionsOrientationVertical)
 	ON_COMMAND(ID_HELP_ABOUT, OnHelpAbout)
 	ON_WM_ACTIVATE()
+	ON_COMMAND(ID_SEARCH_BYNAME, OnSearchByname)
+	ON_COMMAND(ID_SEARCH_BYFORMNAME, OnSearchByFormname)
+	ON_COMMAND(ID_SEARCH_BYCLASS, OnSearchByclass)
 	//}}AFX_MSG_MAP
 END_MESSAGE_MAP()
 
@@ -240,6 +246,104 @@ void CHCCDlg::OnActivate(UINT nState, CWnd* pWndOther, BOOL bMinimized)
 			break;
 	}
 }
+
+
+HINTERNET    hInternetSession = NULL;
+HINTERNET    hURL = NULL;
+
+typedef struct
+{
+    HWND        hWindow;     // window handle
+
+    HINTERNET   hResource;   // HINTERNET handle created by InternetOpenUrl
+
+} REQUEST_CONTEXT;
+
+REQUEST_CONTEXT    request_context;
+
+void __stdcall InternetCallbackFunction(HINTERNET hInternet, DWORD dwContext, DWORD dwInternetStatus, LPVOID lpvStatusInformation, DWORD dwStatusInformationLength)
+{
+    REQUEST_CONTEXT* cpContext;
+    INTERNET_ASYNC_RESULT* res;
+
+    cpContext = (REQUEST_CONTEXT*)dwContext;
+
+    // what has this callback function been told has happened?
+
+    switch (dwInternetStatus)
+    {
+        case INTERNET_STATUS_HANDLE_CREATED:
+            // get the handle now that it has been created so it can be freed up later
+
+            res = (INTERNET_ASYNC_RESULT*)lpvStatusInformation;
+            hURL = (HINTERNET)(res->dwResult);
+
+            break;
+
+        case INTERNET_STATUS_REQUEST_COMPLETE:
+
+			char buffer[10*1024];
+			DWORD dwBytesRead = 0;
+			BOOL bRead = InternetReadFile(hURL,buffer,sizeof(buffer),&dwBytesRead);
+
+			//AfxMessageBox (UpdateResult.Remove("\n") + "-", MB_ICONINFORMATION);
+			//AfxMessageBox (CAppData::m_csDatabaseRevision + "-", MB_ICONINFORMATION);
+
+			Regexp re_updatecheck("<update_check>([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])</update_check>");
+			if ( re_updatecheck.Match( buffer ) )
+			{
+				//AfxMessageBox (re_updatecheck[1], MB_ICONINFORMATION); // min
+				if (re_updatecheck[1] != CAppData::m_csDatabaseRevision)
+				{
+					AfxMessageBox ("A new update for HCC is available! Bwaaa-ak!!\n\nPlease click on \"Live Update\" to start the download.", MB_ICONINFORMATION);
+				}
+			}
+
+            InternetCloseHandle(hURL);
+            InternetSetStatusCallback(hInternetSession, NULL);
+            InternetCloseHandle(hInternetSession);
+
+            hURL = NULL;
+            hInternetSession = NULL;
+
+            break;
+    }
+}
+
+CString CHCCDlg::ReadConfigFile()
+{
+	bool l_bResult = false;
+	XMLParser l_cParser;
+	XMLTag l_cRootTag ("#ROOT#");
+	XMLTag l_cConfigTag ("config");
+
+	CString updateURL = "http://hcc.reclamation.dk/update_check/";
+	l_cParser.OpenFile (CAppData::m_csAppBasePath + cFile_App_Config);
+
+	if (l_cConfigTag.GetNextTag (l_cParser, l_cRootTag))
+	{
+		l_cConfigTag.GetTagValue (l_cParser, (CString) "update_check", updateURL );
+	}
+
+	return updateURL;
+}
+
+
+void CHCCDlg::OnSearchByname()
+{
+	CAppData::m_cItemCreationWnd.OnSearchByname();
+}
+
+void CHCCDlg::OnSearchByFormname()
+{
+	CAppData::m_cItemCreationWnd.OnSearchByFormname();
+}
+
+void CHCCDlg::OnSearchByclass()
+{
+	CAppData::m_cItemCreationWnd.OnSearchByclass();
+}
+
 
 BOOL CHCCDlg::OnInitDialog()
 {
@@ -362,8 +466,11 @@ BOOL CHCCDlg::OnInitDialog()
 		CAppData::SetMenuItem(l_pMenu, ID_WINDOW_ALWAYSONTOP, m_cWindowState.m_bOnTop);
 	}
 
-	if (WinVersion.IsVista())
+
+
+	if (WinVersion.GetMajorVersion() >= 6)
 	{
+	    //AfxMessageBox (WinVersion.GetWinVersionString(), MB_ICONINFORMATION);
 		l_pMenu->ModifyMenu(2,MF_BYPOSITION|MF_STRING, 2, "?");
 		//this->ModifyStyle(WS_MINIMIZEBOX, WS_POPUP);
 	}
@@ -379,6 +486,41 @@ BOOL CHCCDlg::OnInitDialog()
 
 	UpdateToolBarMenu();
 
+	ShowWindow(SW_SHOW);
+
+	if (CAppData::m_bAutoUpdateQuery)
+	{
+		int nResult = AfxMessageBox ("Would you like HCC to check automatically if there is a more recent version available?\n\nYou can change this setting in the configuration screen.", MB_ICONQUESTION|MB_YESNOCANCEL);
+
+		if (nResult == IDYES)
+		{
+			CAppData::m_bAutoUpdate = true;
+			CAppData::m_bAutoUpdateQuery = false;
+		}
+		else if (nResult == IDNO)
+		{
+			CAppData::m_bAutoUpdate = false;
+			CAppData::m_bAutoUpdateQuery = false;
+		}
+		else
+		{
+			CAppData::m_bAutoUpdate = false;
+			CAppData::m_bAutoUpdateQuery = true;
+		}
+	}
+
+
+	if (CAppData::m_bAutoUpdate)
+	{
+		;
+		hInternetSession = InternetOpen("HCC/" + cAppData_Version, INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, INTERNET_FLAG_ASYNC);
+		if (hInternetSession != NULL)
+        {
+            InternetSetStatusCallback(hInternetSession, (INTERNET_STATUS_CALLBACK)InternetCallbackFunction);
+            hURL = InternetOpenUrl(hInternetSession, CHCCDlg::ReadConfigFile() + "?client=" + cAppData_Version + "&database=" + CAppData::m_csDatabaseRevision, NULL, 0, INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, (unsigned long)(&request_context));
+
+        }
+	}
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
@@ -1292,6 +1434,11 @@ void CHCCDlg::OnHelpOnelinemanual()
 	CAppData::LaunchWebLink ((CString) "onlinemanual");
 }
 
+void CHCCDlg::OnHelpPlugins()
+{
+	CAppData::LaunchWebLink ((CString) "plugins");
+}
+
 void CHCCDlg::OnHelpReportabug()
 {
 	CAppData::LaunchWebLink ((CString) "reportbug");
@@ -1397,6 +1544,14 @@ void CHCCDlg::OnHelpAbout()
 	l_cAboutDlg.DoModal ();
 }
 
+
+void CHCCDlg::OnLButtonDown(UINT nFlags, CPoint point)
+{
+    //AfxMessageBox ("meep.", MB_ICONINFORMATION);
+    //DefWindowProc(m_hWnd, SC_SYSCOMMAND, SC_MOVE+1,MAKELPARAM(point.x,point.y));
+    SendMessage(WM_SYSCOMMAND, SC_MOVE|0x0002);
+}
+
 BOOL CAboutDlg::OnInitDialog()
 {
 	CFormulaSet *l_cpFormulaSet;
@@ -1458,3 +1613,6 @@ BOOL CAboutDlg::OnInitDialog()
 	return TRUE;  // return TRUE unless you set the focus to a control
 	              // EXCEPTION: OCX Property Pages should return FALSE
 }
+
+
+

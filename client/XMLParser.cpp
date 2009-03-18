@@ -127,7 +127,7 @@ CString XMLParser::GetTagClass(CString &a_csLine)
 			{
 				return (a_csLine.Mid (l_iClassStart + 1, (l_iClassEnd - l_iClassStart) - 1));
 			}
-		}				
+		}
 	}
 
 	return ("");
@@ -185,6 +185,7 @@ XMLParser::WriteTag(CString a_csTag, CString a_csTagValue)
 	}
 	else
 	{
+	    a_csTagValue.Replace("&", "&amp;");
 		fprintf (m_cFilePtr, "<%s>%s</%s>\n", a_csTag, a_csTagValue, a_csTag);
 	}
 }
@@ -206,6 +207,7 @@ XMLParser::WriteAttributeTag(CString a_csTag, CString a_csAttribute, CString a_c
 		fprintf (m_cFilePtr, "\t");
 	}
 
+    a_csTagValue.Replace("&", "&amp;");
 	fprintf (m_cFilePtr, "<%s %s>%s</%s>\n", a_csTag, a_csAttribute, a_csTagValue, a_csTag);
 }
 
