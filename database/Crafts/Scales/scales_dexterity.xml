@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Scales - Dexterity</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Scales</formulaset-category>
@@ -30,14 +30,18 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Mithril Dexterity Back Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">920</resource-min>
 					<resource-opt amount="12">1120</resource-opt>
 				</resource>
@@ -61,7 +65,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Dexterity Chest Scale</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">60</tier-attribute>
@@ -76,6 +81,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">20</resource-min>
 					<resource-opt amount="12">120</resource-opt>
 				</resource>
@@ -83,7 +89,8 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Dexterity Chest Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
@@ -99,6 +106,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">220</resource-min>
 					<resource-opt amount="12">345</resource-opt>
 				</resource>
@@ -106,7 +114,8 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Dexterity Chest Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
@@ -123,6 +132,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">420</resource-min>
 					<resource-opt amount="12">570</resource-opt>
 				</resource>
@@ -130,7 +140,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Dexterity Chest Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
@@ -148,6 +159,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">620</resource-min>
 					<resource-opt amount="12">795</resource-opt>
 				</resource>
@@ -155,7 +167,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Dexterity Chest Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">864</tier-attribute>
@@ -174,6 +187,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">820</resource-min>
 					<resource-opt amount="12">1020</resource-opt>
 				</resource>
@@ -199,7 +213,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Steel Dexterity Foreleg Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
@@ -214,6 +229,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">420</resource-min>
 					<resource-opt amount="12">570</resource-opt>
 				</resource>
@@ -221,7 +237,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Dexterity Foreleg Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
@@ -237,6 +254,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">620</resource-min>
 					<resource-opt amount="12">795</resource-opt>
 				</resource>
@@ -244,7 +262,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Dexterity Foreleg Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">864</tier-attribute>
@@ -261,6 +280,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">820</resource-min>
 					<resource-opt amount="12">1020</resource-opt>
 				</resource>
@@ -285,7 +305,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Iron Dexterity Head Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
@@ -300,6 +321,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">220</resource-min>
 					<resource-opt amount="12">345</resource-opt>
 				</resource>
@@ -307,7 +329,8 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Dexterity Head Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
@@ -323,6 +346,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">420</resource-min>
 					<resource-opt amount="12">570</resource-opt>
 				</resource>
@@ -330,7 +354,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Dexterity Head Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
@@ -347,6 +372,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">620</resource-min>
 					<resource-opt amount="12">795</resource-opt>
 				</resource>
@@ -354,7 +380,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Dexterity Head Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">864</tier-attribute>
@@ -372,6 +399,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">820</resource-min>
 					<resource-opt amount="12">1020</resource-opt>
 				</resource>
@@ -397,7 +425,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Steel Dexterity Hindleg Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
@@ -412,6 +441,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">520</resource-min>
 					<resource-opt amount="12">670</resource-opt>
 				</resource>
@@ -419,7 +449,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Dexterity Hindleg Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
@@ -435,6 +466,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">720</resource-min>
 					<resource-opt amount="12">895</resource-opt>
 				</resource>
@@ -442,7 +474,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Dexterity Hindleg Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">864</tier-attribute>
@@ -459,6 +492,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">920</resource-min>
 					<resource-opt amount="12">1120</resource-opt>
 				</resource>
@@ -491,14 +525,18 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Mithril Dexterity Tail Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">920</resource-min>
 					<resource-opt amount="12">1120</resource-opt>
 				</resource>
@@ -522,7 +560,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Dexterity Wing Scale</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">60</tier-attribute>
@@ -537,6 +576,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">120</resource-min>
 					<resource-opt amount="12">220</resource-opt>
 				</resource>
@@ -544,7 +584,8 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Dexterity Wing Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
@@ -560,6 +601,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">320</resource-min>
 					<resource-opt amount="12">445</resource-opt>
 				</resource>
@@ -567,7 +609,8 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Dexterity Wing Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
@@ -584,6 +627,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">520</resource-min>
 					<resource-opt amount="12">670</resource-opt>
 				</resource>
@@ -591,7 +635,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Dexterity Wing Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
@@ -609,6 +654,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">720</resource-min>
 					<resource-opt amount="12">895</resource-opt>
 				</resource>
@@ -616,7 +662,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Dexterity Wing Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">864</tier-attribute>
@@ -635,6 +682,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">920</resource-min>
 					<resource-opt amount="12">1120</resource-opt>
 				</resource>

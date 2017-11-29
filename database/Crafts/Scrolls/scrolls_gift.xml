@@ -1,0 +1,1911 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Scrolls - Gift</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Scrolls</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Gift of Alacrity - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Reduces the amount of delay on actions performed.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Alacrity I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (12)</tier-attribute>
+				<tier-attribute type="effect">Gift of Alacrity I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Modifies delay by -5%</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">340</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Alacrity I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">120</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">340</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Alacrity II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (32)</tier-attribute>
+				<tier-attribute type="effect">Gift of Alacrity II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Modifies delay by -10%</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Alacrity II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">320</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Alacrity III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (52)</tier-attribute>
+				<tier-attribute type="effect">Gift of Alacrity III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Modifies delay by -15%</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Alacrity III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">520</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Alacrity IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (72)</tier-attribute>
+				<tier-attribute type="effect">Gift of Alacrity IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Modifies delay by -20%</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Alacrity IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">720</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Alacrity V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (92)</tier-attribute>
+				<tier-attribute type="effect">Gift of Alacrity V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Modifies delay by -25%</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Alacrity V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">920</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Armor - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Increases the Armor statistic.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Armor I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
+				<tier-attribute type="effect">Gift of Armor I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+2 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Armor I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">80</resource-min>
+					<resource-opt amount="1">280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Armor II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
+				<tier-attribute type="effect">Gift of Armor II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+11 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Armor II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">280</resource-min>
+					<resource-opt amount="1">505</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Armor III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
+				<tier-attribute type="effect">Gift of Armor III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+21 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Armor III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">480</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Armor IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
+				<tier-attribute type="effect">Gift of Armor IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+31 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Armor IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">680</resource-min>
+					<resource-opt amount="1">955</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Armor V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
+				<tier-attribute type="effect">Gift of Armor V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+41 Armor</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Armor V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">880</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Dexterity - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Increases the Dexterity statistic.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Dexterity I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effect">Gift of Dexterity I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Dexterity</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Dexterity I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Dexterity II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="effect">Gift of Dexterity II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+26 Dexterity</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Dexterity II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Dexterity III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="effect">Gift of Dexterity III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+44 Dexterity</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Dexterity III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Dexterity IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="effect">Gift of Dexterity IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+62 Dexterity</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Dexterity IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Dexterity V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="effect">Gift of Dexterity V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+80 Dexterity</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Dexterity V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Focus - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Increases the Focus statistic.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Focus I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effect">Gift of Focus I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Focus</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Focus I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Focus II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="effect">Gift of Focus II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+26 Focus</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Focus II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Focus III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="effect">Gift of Focus III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+44 Focus</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Focus III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Focus IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="effect">Gift of Focus IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+62 Focus</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Focus IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Focus V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="effect">Gift of Focus V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+80 Focus</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Focus V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Health - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Increases the Health statistic.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Health I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (4)</tier-attribute>
+				<tier-attribute type="effect">Gift of Health I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Health I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">40</resource-min>
+					<resource-opt amount="1">240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Health II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (24)</tier-attribute>
+				<tier-attribute type="effect">Gift of Health II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+59 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Health II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">240</resource-min>
+					<resource-opt amount="1">465</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Health III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (44)</tier-attribute>
+				<tier-attribute type="effect">Gift of Health III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+110 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Health III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">440</resource-min>
+					<resource-opt amount="1">690</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Health IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (64)</tier-attribute>
+				<tier-attribute type="effect">Gift of Health IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+161 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Health IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">640</resource-min>
+					<resource-opt amount="1">915</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Health V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (84)</tier-attribute>
+				<tier-attribute type="effect">Gift of Health V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+212 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Health V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">840</resource-min>
+					<resource-opt amount="1">1140</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Power - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Increases the Power statistic.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Power I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effect">Gift of Power I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Power</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Power I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Power II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="effect">Gift of Power II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+26 Power</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Power II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Power III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="effect">Gift of Power III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+44 Power</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Power III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Power IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="effect">Gift of Power IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+62 Power</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Power IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Power V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="effect">Gift of Power V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+80 Power</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Power V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Speed - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Increases the Speed statistic.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Speed I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
+				<tier-attribute type="effect">Gift of Speed I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+2 Speed</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Speed I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">80</resource-min>
+					<resource-opt amount="1">280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Speed II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
+				<tier-attribute type="effect">Gift of Speed II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+4 Speed</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Speed II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">280</resource-min>
+					<resource-opt amount="1">505</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Speed III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
+				<tier-attribute type="effect">Gift of Speed III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+6 Speed</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Speed III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">480</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Speed IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
+				<tier-attribute type="effect">Gift of Speed IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Speed</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Speed IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">680</resource-min>
+					<resource-opt amount="1">955</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Speed V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
+				<tier-attribute type="effect">Gift of Speed V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+10 Speed</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Speed V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">880</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Strength - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Increases the Strength statistic.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Strength I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effect">Gift of Strength I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Strength</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Strength I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Strength II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="effect">Gift of Strength II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+26 Strength</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Strength II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Strength III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="effect">Gift of Strength III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+44 Strength</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Strength III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Strength IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="effect">Gift of Strength IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+62 Strength</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Strength IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Strength V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="effect">Gift of Strength V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+80 Strength</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Strength V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gift of Toughness - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_02_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">2:00:00</item-attribute>
+			<item-attribute type="effectDescription">Increases the Armor and Health statistic.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Gift of Toughness I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (4)</tier-attribute>
+				<tier-attribute type="effect">Gift of Toughness I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+1 Armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+4 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Toughness I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">40</resource-min>
+					<resource-opt amount="1">240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Toughness II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (24)</tier-attribute>
+				<tier-attribute type="effect">Gift of Toughness II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+30 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Toughness II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">280</resource-min>
+					<resource-opt amount="1">505</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Toughness III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (44)</tier-attribute>
+				<tier-attribute type="effect">Gift of Toughness III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+16 Armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+55 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Toughness III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">440</resource-min>
+					<resource-opt amount="1">690</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Toughness IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (64)</tier-attribute>
+				<tier-attribute type="effect">Gift of Toughness IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+23 Armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+81 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Toughness IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">640</resource-min>
+					<resource-opt amount="1">915</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gift of Toughness V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (84)</tier-attribute>
+				<tier-attribute type="effect">Gift of Toughness V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+31 Armor</tier-attribute>
+				<tier-attribute type="effectStatBonus">+106 Health</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Gift of Toughness V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">840</resource-min>
+					<resource-opt amount="1">1140</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

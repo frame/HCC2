@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Epic - Spells</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Epic</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Dark Cyclone</item-name>
+		<item-icon>icon_formula_s_06_17_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="hoardValue">432</item-attribute>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</item-attribute>
+			<item-attribute type="reqAdvSkill">Nature (750)</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">10:00</item-attribute>
+			<item-attribute type="castDelay">60</item-attribute>
+			<item-attribute type="damage">320-340</item-attribute>
+			<item-attribute type="damageType">nature</item-attribute>
+			<item-attribute type="skill">Nature</item-attribute>
+			<item-attribute type="area">10</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>mystic</item-keyword>
+			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>skill_use_magic_nature</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>aoe</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dark Cyclone</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A Dark Cyclone appears and ravages all enemies within its grasp.</tier-desc>
+			<tier-allowedtechniques>-1</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tempest Phylactery</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">750</resource-min>
+					<resource-opt amount="1">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Storm Essence</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">750</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">750</resource-min>
+					<resource-opt amount="6">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">750</resource-min>
+					<resource-opt amount="11">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Spells - Nature</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Spells</formulaset-category>
@@ -13,7 +13,10 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
 			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="effectDescription">Increases armor and flame resistance</item-attribute>
+			<item-attribute type="effectDuration">30:00</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -25,7 +28,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Earthen Crust I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A layer of earth covers the target, reducing damage from physical and flame attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -33,10 +36,8 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (80)</tier-attribute>
 				<tier-attribute type="effect">Earthen Crust I</tier-attribute>
-				<tier-attribute type="effectDescription">Increases armor and flame resistance</tier-attribute>
 				<tier-attribute type="effectStatBonus">+8 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+10 Flame Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">30:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -45,6 +46,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">80</resource-min>
 					<resource-opt amount="4">180</resource-opt>
 				</resource>
@@ -52,7 +54,7 @@
 		</tier>
 		<tier>
 			<tier-name>Earthen Crust II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A layer of earth covers the target, reducing damage from physical and flame attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -60,10 +62,8 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (280)</tier-attribute>
 				<tier-attribute type="effect">Earthen Crust II</tier-attribute>
-				<tier-attribute type="effectDescription">Increases armor and flame resistance</tier-attribute>
 				<tier-attribute type="effectStatBonus">+20 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+20 Flame Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">30:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -73,12 +73,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">280</resource-min>
 					<resource-opt amount="4">405</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">280</resource-min>
 					<resource-opt amount="7">405</resource-opt>
 				</resource>
@@ -86,7 +88,7 @@
 		</tier>
 		<tier>
 			<tier-name>Earthen Crust III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A layer of earth covers the target, reducing damage from physical and flame attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -94,10 +96,8 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (480)</tier-attribute>
 				<tier-attribute type="effect">Earthen Crust III</tier-attribute>
-				<tier-attribute type="effectDescription">Increases armor and flame resistance</tier-attribute>
 				<tier-attribute type="effectStatBonus">+35 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+30 Flame Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">30:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -108,12 +108,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">480</resource-min>
 					<resource-opt amount="4">630</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">480</resource-min>
 					<resource-opt amount="7">630</resource-opt>
 				</resource>
@@ -121,7 +123,7 @@
 		</tier>
 		<tier>
 			<tier-name>Earthen Crust IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A layer of earth covers the target, reducing damage from physical and flame attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -129,10 +131,8 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (680)</tier-attribute>
 				<tier-attribute type="effect">Earthen Crust IV</tier-attribute>
-				<tier-attribute type="effectDescription">Increases armor and flame resistance</tier-attribute>
 				<tier-attribute type="effectStatBonus">+55 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+40 Flame Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">30:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -144,12 +144,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">680</resource-min>
 					<resource-opt amount="4">855</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">680</resource-min>
 					<resource-opt amount="7">855</resource-opt>
 				</resource>
@@ -157,7 +159,7 @@
 		</tier>
 		<tier>
 			<tier-name>Earthen Crust V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A layer of earth covers the target, reducing damage from physical and flame attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -165,10 +167,8 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (880)</tier-attribute>
 				<tier-attribute type="effect">Earthen Crust V</tier-attribute>
-				<tier-attribute type="effectDescription">Increases armor and flame resistance</tier-attribute>
 				<tier-attribute type="effectStatBonus">+80 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+50 Flame Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">30:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -181,12 +181,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">880</resource-min>
 					<resource-opt amount="4">1080</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">880</resource-min>
 					<resource-opt amount="7">1080</resource-opt>
 				</resource>
@@ -202,8 +204,11 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">27.5</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">27</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
+			<item-attribute type="effectDescription">Slows target speed, while causing damage</item-attribute>
+			<item-attribute type="effectStatBonus">65% base Speed</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -217,7 +222,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Ensnaring Roots I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Thorned roots entangle a single target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -226,6 +231,8 @@
 				<tier-attribute type="reqAdvSkill">Nature (50)</tier-attribute>
 				<tier-attribute type="damage">9-11</tier-attribute>
 				<tier-attribute type="damageType">nature</tier-attribute>
+				<tier-attribute type="effect">Ensnaring Roots I</tier-attribute>
+				<tier-attribute type="effectDuration">0:20</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -234,6 +241,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="4">150</resource-opt>
 				</resource>
@@ -241,7 +249,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ensnaring Roots II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Thorned roots entangle a single target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -249,7 +257,9 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (250)</tier-attribute>
 				<tier-attribute type="damage">29-35</tier-attribute>
-				<tier-attribute type="damageType">crush</tier-attribute>
+				<tier-attribute type="damageType">nature</tier-attribute>
+				<tier-attribute type="effect">Ensnaring Roots II</tier-attribute>
+				<tier-attribute type="effectDuration">0:30</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -259,12 +269,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="4">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">250</resource-min>
 					<resource-opt amount="7">375</resource-opt>
 				</resource>
@@ -272,7 +284,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ensnaring Roots III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Thorned roots entangle a single target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -281,6 +293,8 @@
 				<tier-attribute type="reqAdvSkill">Nature (450)</tier-attribute>
 				<tier-attribute type="damage">49-59</tier-attribute>
 				<tier-attribute type="damageType">nature</tier-attribute>
+				<tier-attribute type="effect">Ensnaring Roots III</tier-attribute>
+				<tier-attribute type="effectDuration">0:40</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -291,12 +305,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">450</resource-min>
 					<resource-opt amount="7">600</resource-opt>
 				</resource>
@@ -304,7 +320,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ensnaring Roots IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Thorned roots entangle a single target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -313,6 +329,8 @@
 				<tier-attribute type="reqAdvSkill">Nature (650)</tier-attribute>
 				<tier-attribute type="damage">69-83</tier-attribute>
 				<tier-attribute type="damageType">nature</tier-attribute>
+				<tier-attribute type="effect">Ensnaring Roots IV</tier-attribute>
+				<tier-attribute type="effectDuration">0:50</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -324,12 +342,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="4">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">650</resource-min>
 					<resource-opt amount="7">825</resource-opt>
 				</resource>
@@ -337,7 +357,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ensnaring Roots V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Thorned roots entangle a single target.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -346,6 +366,8 @@
 				<tier-attribute type="reqAdvSkill">Nature (850)</tier-attribute>
 				<tier-attribute type="damage">89-107</tier-attribute>
 				<tier-attribute type="damageType">nature</tier-attribute>
+				<tier-attribute type="effect">Ensnaring Roots V</tier-attribute>
+				<tier-attribute type="effectDuration">1:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -358,12 +380,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="4">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">850</resource-min>
 					<resource-opt amount="7">1050</resource-opt>
 				</resource>
@@ -394,7 +418,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Improved Lightning Bolt I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This is a more powerful lightning attack.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -410,6 +434,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -417,7 +442,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Lightning Bolt II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This is a more powerful lightning attack.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -434,12 +459,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -447,7 +474,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Lightning Bolt III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This is a more powerful lightning attack.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -465,12 +492,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -478,7 +507,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Lightning Bolt IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This is a more powerful lightning attack.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -497,12 +526,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -510,7 +541,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Lightning Bolt V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This is a more powerful lightning attack.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -530,12 +561,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>
@@ -566,7 +599,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Lightning Bolt I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Calls down a bolt of lightning.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -582,6 +615,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">100</resource-opt>
 				</resource>
@@ -589,7 +623,7 @@
 		</tier>
 		<tier>
 			<tier-name>Lightning Bolt II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Calls down a bolt of lightning.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -606,12 +640,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">325</resource-opt>
 				</resource>
@@ -619,7 +655,7 @@
 		</tier>
 		<tier>
 			<tier-name>Lightning Bolt III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Calls down a bolt of lightning.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -637,12 +673,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">550</resource-opt>
 				</resource>
@@ -650,7 +688,7 @@
 		</tier>
 		<tier>
 			<tier-name>Lightning Bolt IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Calls down a bolt of lightning.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -669,12 +707,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">775</resource-opt>
 				</resource>
@@ -682,7 +722,7 @@
 		</tier>
 		<tier>
 			<tier-name>Lightning Bolt V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Calls down a bolt of lightning.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -702,12 +742,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
@@ -723,7 +765,8 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">37.5</item-attribute>
+			<item-attribute type="recycle">15</item-attribute>
+			<item-attribute type="castDelay">37</item-attribute>
 			<item-attribute type="damageType">nature</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
 			<item-attribute type="area">8</item-attribute>
@@ -740,7 +783,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Lightning Storm I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A salvo of lightning blasts the area around a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -756,6 +799,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">150</resource-min>
 					<resource-opt amount="6">250</resource-opt>
 				</resource>
@@ -763,7 +807,7 @@
 		</tier>
 		<tier>
 			<tier-name>Lightning Storm II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A salvo of lightning blasts the area around a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -780,12 +824,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">350</resource-min>
 					<resource-opt amount="6">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">350</resource-min>
 					<resource-opt amount="11">475</resource-opt>
 				</resource>
@@ -793,7 +839,7 @@
 		</tier>
 		<tier>
 			<tier-name>Lightning Storm III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A salvo of lightning blasts the area around a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -811,12 +857,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">550</resource-min>
 					<resource-opt amount="6">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">550</resource-min>
 					<resource-opt amount="11">700</resource-opt>
 				</resource>
@@ -824,7 +872,7 @@
 		</tier>
 		<tier>
 			<tier-name>Lightning Storm IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A salvo of lightning blasts the area around a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -843,12 +891,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">750</resource-min>
 					<resource-opt amount="6">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">750</resource-min>
 					<resource-opt amount="11">925</resource-opt>
 				</resource>
@@ -856,7 +906,7 @@
 		</tier>
 		<tier>
 			<tier-name>Lightning Storm V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A salvo of lightning blasts the area around a target.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -876,12 +926,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">950</resource-min>
 					<resource-opt amount="6">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">950</resource-min>
 					<resource-opt amount="11">1150</resource-opt>
 				</resource>
@@ -897,7 +949,10 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
 			<item-attribute type="castDelay">30</item-attribute>
+			<item-attribute type="effectDescription">Increases nature resistance.</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -909,7 +964,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Nature Resistance I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Temporarily raises a target's resistance statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -919,7 +974,6 @@
 				<tier-attribute type="effect">Nature Resistance I</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+8 Nature Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -928,6 +982,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="4">150</resource-opt>
 				</resource>
@@ -935,7 +990,7 @@
 		</tier>
 		<tier>
 			<tier-name>Nature Resistance II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Temporarily raises a target's resistance statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -945,7 +1000,6 @@
 				<tier-attribute type="effect">Nature Resistance II</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+38 Nature Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -955,12 +1009,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="4">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">250</resource-min>
 					<resource-opt amount="7">375</resource-opt>
 				</resource>
@@ -968,7 +1024,7 @@
 		</tier>
 		<tier>
 			<tier-name>Nature Resistance III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Temporarily raises a target's resistance statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -978,7 +1034,6 @@
 				<tier-attribute type="effect">Nature Resistance III</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+68 Nature Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -989,12 +1044,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">450</resource-min>
 					<resource-opt amount="7">600</resource-opt>
 				</resource>
@@ -1002,7 +1059,7 @@
 		</tier>
 		<tier>
 			<tier-name>Nature Resistance IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Temporarily raises a target's resistance statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1012,7 +1069,6 @@
 				<tier-attribute type="effect">Nature Resistance IV</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+98 Nature Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1024,12 +1080,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="4">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">650</resource-min>
 					<resource-opt amount="7">825</resource-opt>
 				</resource>
@@ -1037,7 +1095,7 @@
 		</tier>
 		<tier>
 			<tier-name>Nature Resistance V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Temporarily raises a target's resistance statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1047,7 +1105,6 @@
 				<tier-attribute type="effect">Nature Resistance V</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+128 Nature Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1060,12 +1117,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="4">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">850</resource-min>
 					<resource-opt amount="7">1050</resource-opt>
 				</resource>
@@ -1081,7 +1140,10 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
 			<item-attribute type="castDelay">30</item-attribute>
+			<item-attribute type="effectDescription">Increases nature ward.</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1093,7 +1155,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Nature Ward  I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Temporarily raises a target's ward statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1103,7 +1165,6 @@
 				<tier-attribute type="effect">Nature Ward I</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+20 Nature Ward</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -1112,6 +1173,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">80</resource-min>
 					<resource-opt amount="4">180</resource-opt>
 				</resource>
@@ -1119,7 +1181,7 @@
 		</tier>
 		<tier>
 			<tier-name>Nature Ward II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Temporarily raises a target's ward statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1129,7 +1191,6 @@
 				<tier-attribute type="effect">Nature Ward II</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+70 Nature Ward</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1139,12 +1200,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">280</resource-min>
 					<resource-opt amount="4">405</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">280</resource-min>
 					<resource-opt amount="7">405</resource-opt>
 				</resource>
@@ -1152,7 +1215,7 @@
 		</tier>
 		<tier>
 			<tier-name>Nature Ward III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Temporarily raises a target's ward statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1162,7 +1225,6 @@
 				<tier-attribute type="effect">Nature Ward III</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+120 Nature Ward</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1173,12 +1235,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">480</resource-min>
 					<resource-opt amount="4">630</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">480</resource-min>
 					<resource-opt amount="7">630</resource-opt>
 				</resource>
@@ -1186,7 +1250,7 @@
 		</tier>
 		<tier>
 			<tier-name>Nature Ward IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Temporarily raises a target's ward statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1196,7 +1260,6 @@
 				<tier-attribute type="effect">Nature Ward IV</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+170 Nature Ward</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1208,12 +1271,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">680</resource-min>
 					<resource-opt amount="4">855</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">680</resource-min>
 					<resource-opt amount="7">855</resource-opt>
 				</resource>
@@ -1221,7 +1286,7 @@
 		</tier>
 		<tier>
 			<tier-name>Nature Ward V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Temporarily raises a target's ward statistic against nature magic.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1231,7 +1296,6 @@
 				<tier-attribute type="effect">Nature Ward V</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+220 Nature Ward</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1244,12 +1308,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">880</resource-min>
 					<resource-opt amount="4">1080</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">880</resource-min>
 					<resource-opt amount="7">1080</resource-opt>
 				</resource>
@@ -1265,10 +1331,16 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="recycle">20</item-attribute>
+			<item-attribute type="castDelay">20</item-attribute>
 			<item-attribute type="damageType">nature</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
 			<item-attribute type="area">10</item-attribute>
+			<item-attribute type="effectDescription">Prevents movement from targets in an area</item-attribute>
+			<item-attribute type="effectStatBonus">Limits Speed to 0</item-attribute>
+			<item-attribute type="effectStatBonus">Limits Fly Speed to 0</item-attribute>
+			<item-attribute type="effectStatBonus">Limits Fly Height to 0</item-attribute>
+			<item-attribute type="effectStatBonus">Removed after 1 hits taken</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1282,14 +1354,15 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Patch of Bramble I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Roots run rampant in an area around the target, slowing the movement speed of all enemies trapped within.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">15</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (100)</tier-attribute>
-				<tier-attribute type="castDelay">20</tier-attribute>
+				<tier-attribute type="effect">Patch of Bramble I</tier-attribute>
+				<tier-attribute type="effectDuration">0:15</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -1298,6 +1371,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -1305,14 +1379,15 @@
 		</tier>
 		<tier>
 			<tier-name>Patch of Bramble II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Roots run rampant in an area around the target, slowing the movement speed of all enemies trapped within.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">90</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (300)</tier-attribute>
-				<tier-attribute type="castDelay">20</tier-attribute>
+				<tier-attribute type="effect">Patch of Bramble II</tier-attribute>
+				<tier-attribute type="effectDuration">0:18</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1322,12 +1397,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -1335,14 +1412,15 @@
 		</tier>
 		<tier>
 			<tier-name>Patch of Bramble III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Roots run rampant in an area around the target, slowing the movement speed of all enemies trapped within.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (500)</tier-attribute>
-				<tier-attribute type="castDelay">20</tier-attribute>
+				<tier-attribute type="effect">Patch of Bramble III</tier-attribute>
+				<tier-attribute type="effectDuration">0:21</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1353,12 +1431,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -1366,14 +1446,15 @@
 		</tier>
 		<tier>
 			<tier-name>Patch of Bramble IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Roots run rampant in an area around the target, slowing the movement speed of all enemies trapped within.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (700)</tier-attribute>
-				<tier-attribute type="castDelay">30</tier-attribute>
+				<tier-attribute type="effect">Patch of Bramble IV</tier-attribute>
+				<tier-attribute type="effectDuration">0:24</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1385,12 +1466,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -1398,14 +1481,15 @@
 		</tier>
 		<tier>
 			<tier-name>Patch of Bramble V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Roots run rampant in an area around the target, slowing the movement speed of all enemies trapped within.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (900)</tier-attribute>
-				<tier-attribute type="castDelay">30</tier-attribute>
+				<tier-attribute type="effect">Patch of Bramble V</tier-attribute>
+				<tier-attribute type="effectDuration">0:27</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1418,12 +1502,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>
@@ -1440,6 +1526,10 @@
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
 			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="recycle">10</item-attribute>
+			<item-attribute type="effectDescription">Heals over time</item-attribute>
+			<item-attribute type="effectDuration">10:00</item-attribute>
+			<item-attribute type="effectFrequency">0:20</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1453,16 +1543,15 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Regrowth I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Accelerates the body's natural healing processes.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">15</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (100)</tier-attribute>
+				<tier-attribute type="healAmount">5-10</tier-attribute>
 				<tier-attribute type="effect">Regrowth I</tier-attribute>
-				<tier-attribute type="effectDescription">Heals over time</tier-attribute>
-				<tier-attribute type="effectHealAmount">5-10</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -1471,6 +1560,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -1478,16 +1568,15 @@
 		</tier>
 		<tier>
 			<tier-name>Regrowth II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Accelerates the body's natural healing processes.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">90</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (300)</tier-attribute>
+				<tier-attribute type="healAmount">14-28</tier-attribute>
 				<tier-attribute type="effect">Regrowth II</tier-attribute>
-				<tier-attribute type="effectDescription">Heals over time</tier-attribute>
-				<tier-attribute type="effectHealAmount">14-28</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1497,12 +1586,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -1510,16 +1601,15 @@
 		</tier>
 		<tier>
 			<tier-name>Regrowth III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Accelerates the body's natural healing processes.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (500)</tier-attribute>
+				<tier-attribute type="healAmount">24-48</tier-attribute>
 				<tier-attribute type="effect">Regrowth III</tier-attribute>
-				<tier-attribute type="effectDescription">Heals over time</tier-attribute>
-				<tier-attribute type="effectHealAmount">24-48</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1530,12 +1620,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -1543,16 +1635,15 @@
 		</tier>
 		<tier>
 			<tier-name>Regrowth IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Accelerates the body's natural healing processes.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (700)</tier-attribute>
+				<tier-attribute type="healAmount">34-68</tier-attribute>
 				<tier-attribute type="effect">Regrowth IV</tier-attribute>
-				<tier-attribute type="effectDescription">Heals over time</tier-attribute>
-				<tier-attribute type="effectHealAmount">34-68</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1564,12 +1655,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -1577,16 +1670,15 @@
 		</tier>
 		<tier>
 			<tier-name>Regrowth V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Accelerates the body's natural healing processes.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (900)</tier-attribute>
+				<tier-attribute type="healAmount">44-88</tier-attribute>
 				<tier-attribute type="effect">Regrowth V</tier-attribute>
-				<tier-attribute type="effectDescription">Heals over time</tier-attribute>
-				<tier-attribute type="effectHealAmount">44-88</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1599,12 +1691,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>
@@ -1620,8 +1714,14 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
 			<item-attribute type="castDelay">20</item-attribute>
-			<item-attribute type="damage">0-0</item-attribute>
+			<item-attribute type="effectDescription">Prevents movement from target</item-attribute>
+			<item-attribute type="effectStatBonus">Limits Speed to 0</item-attribute>
+			<item-attribute type="effectStatBonus">Limits Fly Speed to 0</item-attribute>
+			<item-attribute type="effectStatBonus">Limits Fly Height to 0</item-attribute>
+			<item-attribute type="effectStatBonus">Removed after 1 damage taken</item-attribute>
+			<item-attribute type="effectStatBonus">Removed after 1 hits taken</item-attribute>
 			<item-attribute type="damageType">nature</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
 		</item-attributes>
@@ -1635,13 +1735,15 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Root I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Overgrown roots bind a target to the earth, hindering all movement.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">9</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (1)</tier-attribute>
+				<tier-attribute type="effect">Root I</tier-attribute>
+				<tier-attribute type="effectDuration">0:23</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -1650,6 +1752,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">100</resource-opt>
 				</resource>
@@ -1657,13 +1760,15 @@
 		</tier>
 		<tier>
 			<tier-name>Root II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Overgrown roots bind a target to the earth, hindering all movement.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">54</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (200)</tier-attribute>
+				<tier-attribute type="effect">Root II</tier-attribute>
+				<tier-attribute type="effectDuration">0:28</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1673,12 +1778,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">325</resource-opt>
 				</resource>
@@ -1686,13 +1793,15 @@
 		</tier>
 		<tier>
 			<tier-name>Root III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Overgrown roots bind a target to the earth, hindering all movement.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (400)</tier-attribute>
+				<tier-attribute type="effect">Root III</tier-attribute>
+				<tier-attribute type="effectDuration">0:33</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1703,12 +1812,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">550</resource-opt>
 				</resource>
@@ -1716,13 +1827,15 @@
 		</tier>
 		<tier>
 			<tier-name>Root IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Overgrown roots bind a target to the earth, hindering all movement.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (600)</tier-attribute>
+				<tier-attribute type="effect">Root IV</tier-attribute>
+				<tier-attribute type="effectDuration">0:38</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1734,12 +1847,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">775</resource-opt>
 				</resource>
@@ -1747,13 +1862,15 @@
 		</tier>
 		<tier>
 			<tier-name>Root V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Overgrown roots bind a target to the earth, hindering all movement.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Nature (800)</tier-attribute>
+				<tier-attribute type="effect">Root V</tier-attribute>
+				<tier-attribute type="effectDuration">0:43</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1766,12 +1883,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
@@ -1787,9 +1906,15 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">32.5</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">32</item-attribute>
 			<item-attribute type="damageType">nature</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
+			<item-attribute type="effectDescription">Causes damage and stuns a target</item-attribute>
+			<item-attribute type="effectStatBonus">Prevents any actions</item-attribute>
+			<item-attribute type="effectDuration">0:10</item-attribute>
+			<item-attribute type="effectstatBonus">Limits Speed to 0</item-attribute>
+			<item-attribute type="effect">Shocked</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1804,7 +1929,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Shocking Blast I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Shocks a target, causing damage and stunning them for a brief period.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1820,6 +1945,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">70</resource-min>
 					<resource-opt amount="4">170</resource-opt>
 				</resource>
@@ -1827,7 +1953,7 @@
 		</tier>
 		<tier>
 			<tier-name>Shocking Blast II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Shocks a target, causing damage and stunning them for a brief period.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1844,12 +1970,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">270</resource-min>
 					<resource-opt amount="4">395</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">270</resource-min>
 					<resource-opt amount="7">395</resource-opt>
 				</resource>
@@ -1857,7 +1985,7 @@
 		</tier>
 		<tier>
 			<tier-name>Shocking Blast III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Shocks a target, causing damage and stunning them for a brief period.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1875,12 +2003,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">470</resource-min>
 					<resource-opt amount="4">620</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">470</resource-min>
 					<resource-opt amount="7">570</resource-opt>
 				</resource>
@@ -1888,7 +2018,7 @@
 		</tier>
 		<tier>
 			<tier-name>Shocking Blast IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Shocks a target, causing damage and stunning them for a brief period.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1907,12 +2037,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">670</resource-min>
 					<resource-opt amount="4">845</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">670</resource-min>
 					<resource-opt amount="7">770</resource-opt>
 				</resource>
@@ -1920,7 +2052,7 @@
 		</tier>
 		<tier>
 			<tier-name>Shocking Blast V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Shocks a target, causing damage and stunning them for a brief period.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1940,12 +2072,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">870</resource-min>
 					<resource-opt amount="4">1070</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">870</resource-min>
 					<resource-opt amount="7">1070</resource-opt>
 				</resource>
@@ -1961,6 +2095,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">15</item-attribute>
+			<item-attribute type="recycle">1:00</item-attribute>
 			<item-attribute type="castDelay">40</item-attribute>
 			<item-attribute type="damageType">nature</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
@@ -1976,7 +2111,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Stone Fist I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Large stone boulders pummel down upon a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1992,6 +2127,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">60</resource-min>
 					<resource-opt amount="4">160</resource-opt>
 				</resource>
@@ -1999,7 +2135,7 @@
 		</tier>
 		<tier>
 			<tier-name>Stone Fist II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Large stone boulders pummel down upon a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2016,12 +2152,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">260</resource-min>
 					<resource-opt amount="4">385</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">260</resource-min>
 					<resource-opt amount="7">385</resource-opt>
 				</resource>
@@ -2029,7 +2167,7 @@
 		</tier>
 		<tier>
 			<tier-name>Stone Fist III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Large stone boulders pummel down upon a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2047,12 +2185,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">460</resource-min>
 					<resource-opt amount="4">610</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">460</resource-min>
 					<resource-opt amount="7">610</resource-opt>
 				</resource>
@@ -2060,7 +2200,7 @@
 		</tier>
 		<tier>
 			<tier-name>Stone Fist IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Large stone boulders pummel down upon a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2079,12 +2219,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">660</resource-min>
 					<resource-opt amount="4">835</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">660</resource-min>
 					<resource-opt amount="7">835</resource-opt>
 				</resource>
@@ -2092,7 +2234,7 @@
 		</tier>
 		<tier>
 			<tier-name>Stone Fist V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Large stone boulders pummel down upon a target.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2112,12 +2254,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">860</resource-min>
 					<resource-opt amount="4">1060</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">860</resource-min>
 					<resource-opt amount="7">1060</resource-opt>
 				</resource>
@@ -2133,10 +2277,16 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">37.5</item-attribute>
+			<item-attribute type="recycle">25</item-attribute>
+			<item-attribute type="castDelay">37</item-attribute>
 			<item-attribute type="damageType">nature</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
 			<item-attribute type="area">6</item-attribute>
+			<item-attribute type="effectDescription">Causes damage and stuns targets in an area</item-attribute>
+			<item-attribute type="effectDuration">0:03</item-attribute>
+			<item-attribute type="effectStatBonus">Prevents any actions</item-attribute>
+			<item-attribute type="effectStatBonus">Limits Speed to 0</item-attribute>
+			<item-attribute type="effect">Stun</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -2150,7 +2300,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Thunder I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This sends a turbulent shockwave across the ground surrounding a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2166,6 +2316,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="4">150</resource-opt>
 				</resource>
@@ -2173,7 +2324,7 @@
 		</tier>
 		<tier>
 			<tier-name>Thunder II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This sends a turbulent shockwave across the ground surrounding a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2190,12 +2341,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="4">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">250</resource-min>
 					<resource-opt amount="7">375</resource-opt>
 				</resource>
@@ -2203,7 +2356,7 @@
 		</tier>
 		<tier>
 			<tier-name>Thunder III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This sends a turbulent shockwave across the ground surrounding a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2221,12 +2374,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">450</resource-min>
 					<resource-opt amount="7">600</resource-opt>
 				</resource>
@@ -2234,7 +2389,7 @@
 		</tier>
 		<tier>
 			<tier-name>Thunder IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This sends a turbulent shockwave across the ground surrounding a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2253,12 +2408,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="4">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">650</resource-min>
 					<resource-opt amount="7">825</resource-opt>
 				</resource>
@@ -2266,7 +2423,7 @@
 		</tier>
 		<tier>
 			<tier-name>Thunder V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This sends a turbulent shockwave across the ground surrounding a target.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2286,12 +2443,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="4">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">850</resource-min>
 					<resource-opt amount="7">1050</resource-opt>
 				</resource>
@@ -2310,6 +2469,7 @@
 			<item-attribute type="castDelay">35</item-attribute>
 			<item-attribute type="damageType">nature</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
+			<item-attribute type="effectDescription">This is obsolete, only older players may still have...</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_3</item-keyword>
@@ -2326,7 +2486,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Thunder Cloud III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A small cloud surrounds the target and strikes with a hard jolt of thunder.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2342,12 +2502,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">550</resource-min>
 					<resource-opt amount="6">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">550</resource-min>
 					<resource-opt amount="11">700</resource-opt>
 				</resource>
@@ -2355,7 +2517,7 @@
 		</tier>
 		<tier>
 			<tier-name>Thunder Cloud IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A small cloud surrounds the target and strikes with a hard jolt of thunder.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2372,12 +2534,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">750</resource-min>
 					<resource-opt amount="6">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">750</resource-min>
 					<resource-opt amount="11">925</resource-opt>
 				</resource>
@@ -2385,7 +2549,7 @@
 		</tier>
 		<tier>
 			<tier-name>Thunder Cloud V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A small cloud surrounds the target and strikes with a hard jolt of thunder.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2403,12 +2567,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">950</resource-min>
 					<resource-opt amount="6">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">950</resource-min>
 					<resource-opt amount="11">1150</resource-opt>
 				</resource>
@@ -2416,63 +2582,152 @@
 		</tier>
 	</item>
 	<item>
-		<item-name>Dark Cyclone</item-name>
-		<item-icon>icon_formula_s_06_17_11.png</item-icon>
+		<item-name>Lightning Blast</item-name>
+		<item-icon>icon_formula_s_01_06_11.png</item-icon>
 		<item-batchqty>1</item-batchqty>
 		<item-attributes>
-			<item-attribute type="equipSlot">Spellbook</item-attribute>
 			<item-attribute type="bulk">1</item-attribute>
-			<item-attribute type="hoardValue">432</item-attribute>
-			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
-			<item-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</item-attribute>
-			<item-attribute type="reqAdvSkill">Nature (750)</item-attribute>
-			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">60</item-attribute>
-			<item-attribute type="damage">320-340</item-attribute>
-			<item-attribute type="damageType">nature</item-attribute>
+			<item-attribute type="castDelay">55</item-attribute>
+			<item-attribute type="damageType">Nature</item-attribute>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="range">15</item-attribute>
+			<item-attribute type="recycle">1:00</item-attribute>
+			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
 			<item-attribute type="skill">Nature</item-attribute>
-			<item-attribute type="area">10</item-attribute>
 		</item-attributes>
 		<item-keywords>
-			<item-keyword>mystic</item-keyword>
-			<item-keyword>nonrepeatable</item-keyword>
-			<item-keyword>skill_use_magic_nature</item-keyword>
 			<item-keyword>spell</item-keyword>
-			<item-keyword>ranged</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>skill_use_magic_nature</item-keyword>
 			<item-keyword>damage</item-keyword>
-			<item-keyword>aoe</item-keyword>
+			<item-keyword>ranged</item-keyword>
 		</item-keywords>
 		<tier>
-			<tier-name>Dark Cyclone</tier-name>
-			<tier-lvl>4</tier-lvl>
-			<tier-desc>A Dark Cyclone appears and ravages all enemies within its grasp.</tier-desc>
-			<tier-allowedtechniques>-1</tier-allowedtechniques>
+			<tier-name>Lightning Blast I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A massive blast of lightning.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+				<tier-attribute type="damage">47-56</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Tempest Phylactery</resource-name>
+					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
-					<resource-min amount="1">750</resource-min>
-					<resource-opt amount="1">750</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">180</resource-min>
+					<resource-opt amount="6">280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lightning Blast II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A massive blast of lightning.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">90-107</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">380</resource-min>
+					<resource-opt amount="6">505</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Storm Essence</resource-name>
+					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
-					<resource-min amount="3">750</resource-min>
-					<resource-opt amount="3">750</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">380</resource-min>
+					<resource-opt amount="11">505</resource-opt>
 				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lightning Blast III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A massive blast of lightning.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">133-157</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">580</resource-min>
+					<resource-opt amount="6">730</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">580</resource-min>
+					<resource-opt amount="11">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lightning Blast IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A massive blast of lightning.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">175-208</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
-					<resource-min amount="6">750</resource-min>
-					<resource-opt amount="6">925</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">780</resource-min>
+					<resource-opt amount="6">955</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
-					<resource-min amount="22">750</resource-min>
-					<resource-opt amount="11">925</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">780</resource-min>
+					<resource-opt amount="11">955</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lightning Blast V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A massive blast of lightning.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">218-259</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">980</resource-min>
+					<resource-opt amount="6">1180</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">980</resource-min>
+					<resource-opt amount="11">1180</resource-opt>
 				</resource>
 			</resources>
 		</tier>

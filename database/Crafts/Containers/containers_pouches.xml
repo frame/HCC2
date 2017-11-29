@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Containers - Pouches</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Containers</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Fabric Backpack Pouch</item-name>
+		<item-icon>icon_formula_c_pouch_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Backpack Pouch</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">20</tier-attribute>
+				<tier-attribute type="hoardValue">14</tier-attribute>
+				<tier-attribute type="structurebulk">400</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">1</resource-min>
+					<resource-opt amount="7">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Backpack Pouch</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">17</tier-attribute>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="structurebulk">800</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">200</resource-min>
+					<resource-opt amount="7">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Backpack Pouch</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">14</tier-attribute>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="structurebulk">1200</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">400</resource-min>
+					<resource-opt amount="7">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silk Backpack Pouch</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">11</tier-attribute>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="structurebulk">1600</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">600</resource-min>
+					<resource-opt amount="7">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk Backpack Pouch</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">8</tier-attribute>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="structurebulk">2000</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">800</resource-min>
+					<resource-opt amount="7">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Colored Fabric Backpack Pouch</item-name>
+		<item-icon>icon_formula_c_pouch_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>backpack</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>(Color) Flaxen Backpack Pouch</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">20</tier-attribute>
+				<tier-attribute type="hoardValue">20</tier-attribute>
+				<tier-attribute type="structurebulk">400</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">50</resource-min>
+					<resource-opt amount="8">250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Flaxen Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">50</resource-min>
+					<resource-opt amount="1">250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">50</resource-min>
+					<resource-opt amount="1">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Kenaf Backpack Pouch</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">17</tier-attribute>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="structurebulk">800</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">250</resource-min>
+					<resource-opt amount="8">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Kenaf Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">250</resource-min>
+					<resource-opt amount="1">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">50</resource-min>
+					<resource-opt amount="1">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Cotton Backpack Pouch</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">14</tier-attribute>
+				<tier-attribute type="hoardValue">70</tier-attribute>
+				<tier-attribute type="structurebulk">1200</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">450</resource-min>
+					<resource-opt amount="8">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Cotton Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">450</resource-min>
+					<resource-opt amount="1">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">50</resource-min>
+					<resource-opt amount="1">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Silk Backpack Pouch</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">11</tier-attribute>
+				<tier-attribute type="hoardValue">135</tier-attribute>
+				<tier-attribute type="structurebulk">1600</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">650</resource-min>
+					<resource-opt amount="8">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Silk Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">650</resource-min>
+					<resource-opt amount="1">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">50</resource-min>
+					<resource-opt amount="1">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Ironsilk Backpack Pouch</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="bulk">8</tier-attribute>
+				<tier-attribute type="hoardValue">275</tier-attribute>
+				<tier-attribute type="structurebulk">2000</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">850</resource-min>
+					<resource-opt amount="8">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Ironsilk Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">850</resource-min>
+					<resource-opt amount="1">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">50</resource-min>
+					<resource-opt amount="1">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Steelsilk Backpack Pouch</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">2400</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steelsilk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">1050</resource-min>
+					<resource-opt amount="8">1375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Steelsilk Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">1050</resource-min>
+					<resource-opt amount="1">1375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">50</resource-min>
+					<resource-opt amount="1">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Deluxe Colored Fabric Backpack Pouch</item-name>
+		<item-icon>icon_formula_c_pouch_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>backpack</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>(Color) Deluxe Flaxen Backpack Pouch</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">20</tier-attribute>
+				<tier-attribute type="structurebulk">600</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flax Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">150</resource-min>
+					<resource-opt amount="8">350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Deluxe Flaxen Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">150</resource-min>
+					<resource-opt amount="1">350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">150</resource-min>
+					<resource-opt amount="1">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Deluxe Kenaf Backpack Pouch</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="structurebulk">1000</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">350</resource-min>
+					<resource-opt amount="8">575</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Deluxe Kenaf Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">350</resource-min>
+					<resource-opt amount="1">575</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">150</resource-min>
+					<resource-opt amount="1">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Deluxe Cotton Backpack Pouch</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">70</tier-attribute>
+				<tier-attribute type="structurebulk">1400</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">550</resource-min>
+					<resource-opt amount="8">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Deluxe Cotton Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">550</resource-min>
+					<resource-opt amount="1">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">150</resource-min>
+					<resource-opt amount="1">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Deluxe Silk Backpack Pouch</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">135</tier-attribute>
+				<tier-attribute type="structurebulk">1800</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">750</resource-min>
+					<resource-opt amount="8">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Silk Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">750</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">150</resource-min>
+					<resource-opt amount="1">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Deluxe Ironsilk Backpack Pouch</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">275</tier-attribute>
+				<tier-attribute type="structurebulk">2200</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">950</resource-min>
+					<resource-opt amount="8">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Ironsilk Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">950</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">150</resource-min>
+					<resource-opt amount="1">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>(Color) Deluxe Steelsilk Backpack Pouch</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>Available Colors: Black, Blue, Brown, Dark Blue, Gold, Green, Light Red, Purple, Red.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="structurebulk">2600</tier-attribute>
+				<tier-attribute type="structurestacks">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_6</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steelsilk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="14">1095</resource-min>
+					<resource-opt amount="8">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Normal Steelsilk Pouch Pattern</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">1095</resource-min>
+					<resource-opt amount="1">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>(Color) Dye</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">150</resource-min>
+					<resource-opt amount="1">575</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

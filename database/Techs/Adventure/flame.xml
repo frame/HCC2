@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Flame</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Flame</tech-name>
+		<tech-icon>icon_technique_04_00_11.png</tech-icon>
+		<tech-subdesc>Enhances the Flame skill of the player by a set amount per tier. Increased Flame skill reduces the damage variance when using attacks of this type, as well as improving the chance to hit.</tech-subdesc>
+		<tech-attributes>
+			<tech-attribute type="percentagestatbonus">10% Strength</tech-attribute>
+			<tech-attribute type="percentagestatbonus">50% Power</tech-attribute>
+			<tech-attribute type="percentagestatbonus">20% Focus</tech-attribute>
+			<tech-attribute type="percentagestatbonus">20% Dexterity</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Dryad</tech-attribute>
+			<tech-attribute type="lowresist">Arbotus (+)</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Ghost Mage</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Mummy Mage</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Skeleton Conjurer</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Zombie Conjurer</tech-attribute>
+			<tech-attribute type="lowresist">Dwarf Mummy Crossbowman</tech-attribute>
+			<tech-attribute type="lowresist">Elf Mummy Spearman</tech-attribute>
+			<tech-attribute type="lowresist">Fiend Mummy Spiritist</tech-attribute>
+			<tech-attribute type="lowresist">Glacial Kwellen (+)</tech-attribute>
+			<tech-attribute type="lowresist">Gnome Mummy Battlemage</tech-attribute>
+			<tech-attribute type="lowresist">Half-Giant Mummy Reaver</tech-attribute>
+			<tech-attribute type="lowresist">Human Mummy Marauder</tech-attribute>
+			<tech-attribute type="lowresist">Ice Blight</tech-attribute>
+			<tech-attribute type="lowresist">Ice Golem (+)</tech-attribute>
+			<tech-attribute type="lowresist">Ice Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Ice Pygmy</tech-attribute>
+			<tech-attribute type="lowresist">Ice Wolf (+)</tech-attribute>
+			<tech-attribute type="lowresist">Ruxus (+)</tech-attribute>
+			<tech-attribute type="lowresist">Saris Mummy Diviner</tech-attribute>
+			<tech-attribute type="lowresist">Saris Skeleton Mage</tech-attribute>
+			<tech-attribute type="lowresist">Saris Zombie Marauder</tech-attribute>
+			<tech-attribute type="lowresist">Satyr Mummy Oracle</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Skeleton Mage</tech-attribute>
+			<tech-attribute type="lowresist">Wood Golem</tech-attribute>
+			<tech-attribute type="highresist">Ash Blight</tech-attribute>
+			<tech-attribute type="highresist">Discord (++)</tech-attribute>
+			<tech-attribute type="highresist">Famine (++)</tech-attribute>
+			<tech-attribute type="highresist">Fire Ogre</tech-attribute>
+			<tech-attribute type="highresist">Fire Pygmy</tech-attribute>
+			<tech-attribute type="highresist">Flame</tech-attribute>
+			<tech-attribute type="highresist">Flame Blight</tech-attribute>
+			<tech-attribute type="highresist">Flame Wolf (+)</tech-attribute>
+			<tech-attribute type="highresist">Inhibition (++)</tech-attribute>
+			<tech-attribute type="highresist">Lava Blight</tech-attribute>
+			<tech-attribute type="highresist">Lava Golem (+)</tech-attribute>
+			<tech-attribute type="highresist">Lava Oastic (+)</tech-attribute>
+			<tech-attribute type="highresist">Magma Kwellen (+)</tech-attribute>
+			<tech-attribute type="highresist">Palsy (++)</tech-attribute>
+			<tech-attribute type="highresist">Vexator</tech-attribute>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>tool</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>weapon</tech-keyword>
+				<tech-keyword>armor</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_arms</tech-keyword>
+				<tech-keyword>bodyslot_shoulder</tech-keyword>
+				<tech-keyword>bodyslot_legs</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+				<tech-keyword>bodyslot_rightpalm</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+				<tech-keyword>bodyslot_finger</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_flamemagic_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Flame I</tier-name>
+			<tier-origin>Adventure: Flame I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +5 to the Flame magic skill.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Flame Wisp Vitality</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Flame II</tier-name>
+			<tier-origin>Adventure: Flame II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +10 to the Flame magic skill.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Ish'kuk Warrior Jawbone</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Flame III</tier-name>
+			<tier-origin>Adventure: Flame III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +15 to the Flame magic skill.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Citrine Golem Chip</component>
+				<component amount = "1">Palesnout Sow Tail</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Flame IV</tier-name>
+			<tier-origin>Adventure: Flame IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +20 to the Flame magic skill.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "1">Shadow Spider Hatchling Leg</component>
+				<component amount = "2">Scavenger Scorpion Tail Stinger</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Flame V</tier-name>
+			<tier-origin>Adventure: Flame V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +25 to the Flame magic skill.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Kheprit Beetle Mandible</component>
+				<component amount = "2">Veteran Scorpion Venom</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

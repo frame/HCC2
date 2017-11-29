@@ -1,9 +1,124 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Potions</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Potions</formulaset-category>
 	</formulaset-categories>
+	<item>
+		<item-name>Anti-Lycanthropy Salve</item-name>
+		<item-icon>icon_formula_p_scp_resist_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="hoardValue">22</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="effect">Anti-Lycanthropy Salve</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>skill_use_alchemy</item-keyword>
+			<item-keyword>potion</item-keyword>
+			<item-keyword>tier_4</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Anti-Lycanthropy Salve</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A salve invented by a researcher named Balit to protect the user from the effects of the Lycanthropy disease.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectDescription">An experimental salve that enhances your combat abilities against werewolves.</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silver Powder</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">600</resource-min>
+					<resource-opt amount="6">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Kinetic Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Lycanthropy Ward Salve</item-name>
+		<item-icon>icon_formula_p_scp_ward_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="hoardValue">22</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="effect">Lycanthropy Ward</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>skill_use_alchemy</item-keyword>
+			<item-keyword>potion</item-keyword>
+			<item-keyword>tier_4</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Lycanthropy Ward Salve</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A salve invented by Balit and used to ward off the effects of the deadly Lycanthropy disease.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectDescription">A curious effect that protects you from the effects of the Lycanthropy disease.</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Werewolf Heart</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">650</resource-min>
+					<resource-opt amount="1">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Werewolf Hide</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">650</resource-min>
+					<resource-opt amount="1">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Cognitive Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">650</resource-min>
+					<resource-opt amount="2">800</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">650</resource-min>
+					<resource-opt amount="2">800</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
 	<item>
 		<item-name>Blight Protection Potion</item-name>
 		<item-icon>icon_formula_p_protect_blight_11.png</item-icon>
@@ -21,7 +136,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Blight Protection I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Blight Resistance and Blight Ward defense by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -39,18 +154,21 @@
 				<resource>
 					<resource-name>Blighted Dim Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">90</resource-min>
 					<resource-opt amount="4">190</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">90</resource-min>
 					<resource-opt amount="2">190</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">890</resource-min>
 					<resource-opt amount="2">1190</resource-opt>
 				</resource>
@@ -58,7 +176,7 @@
 		</tier>
 		<tier>
 			<tier-name>Blight Protection II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Blight Resistance and Blight Ward defense by +30 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -77,18 +195,21 @@
 				<resource>
 					<resource-name>Blighted Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">290</resource-min>
 					<resource-opt amount="4">415</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">290</resource-min>
 					<resource-opt amount="2">415</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">890</resource-min>
 					<resource-opt amount="2">1190</resource-opt>
 				</resource>
@@ -96,7 +217,7 @@
 		</tier>
 		<tier>
 			<tier-name>Blight Protection III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Blight Resistance and Blight Ward defense by +45 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -115,18 +236,21 @@
 				<resource>
 					<resource-name>Blighted Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">490</resource-min>
 					<resource-opt amount="4">640</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">490</resource-min>
 					<resource-opt amount="2">640</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">890</resource-min>
 					<resource-opt amount="2">1190</resource-opt>
 				</resource>
@@ -134,7 +258,7 @@
 		</tier>
 		<tier>
 			<tier-name>Blight Protection IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Blight Resistance and Blight Ward defense by +60 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -153,18 +277,21 @@
 				<resource>
 					<resource-name>Blighted Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">690</resource-min>
 					<resource-opt amount="4">865</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">690</resource-min>
 					<resource-opt amount="2">865</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">890</resource-min>
 					<resource-opt amount="2">1190</resource-opt>
 				</resource>
@@ -172,7 +299,7 @@
 		</tier>
 		<tier>
 			<tier-name>Blight Protection V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Blight Resistance and Blight Ward defense by +60 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -191,18 +318,21 @@
 				<resource>
 					<resource-name>Blighted Shining Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">890</resource-min>
 					<resource-opt amount="4">1090</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">890</resource-min>
 					<resource-opt amount="2">1090</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">890</resource-min>
 					<resource-opt amount="2">1190</resource-opt>
 				</resource>
@@ -226,7 +356,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bolster Armor I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Armor defense by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -243,18 +373,21 @@
 				<resource>
 					<resource-name>Dim Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">150</resource-min>
 					<resource-opt amount="2">250</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ground Turquoise</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">150</resource-min>
 					<resource-opt amount="6">250</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -262,7 +395,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Armor II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Armor defense by +30 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -280,18 +413,21 @@
 				<resource>
 					<resource-name>Pale Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">350</resource-min>
 					<resource-opt amount="2">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ground Lapis Lazuli</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">350</resource-min>
 					<resource-opt amount="6">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -299,7 +435,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Armor III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Armor defense by +45 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -317,18 +453,21 @@
 				<resource>
 					<resource-name>Ground Aquamarine</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">550</resource-min>
 					<resource-opt amount="6">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="2">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -336,7 +475,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Armor IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Armor defense by +60 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -354,18 +493,21 @@
 				<resource>
 					<resource-name>Ground Jade</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">750</resource-min>
 					<resource-opt amount="6">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">750</resource-min>
 					<resource-opt amount="2">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -373,7 +515,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Armor V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Armor defense by +75 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -391,18 +533,21 @@
 				<resource>
 					<resource-name>Ground Emerald</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">950</resource-min>
 					<resource-opt amount="6">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">950</resource-min>
 					<resource-opt amount="2">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -426,7 +571,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bolster Dexterity I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Dexterity attribute by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -443,26 +588,29 @@
 				<resource>
 					<resource-name>Ground Malachite</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
-					<resource-opt amount="1">100</resource-opt>
+					<resource-opt amount="2">100</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Bolster Dexterity II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Dexterity attribute by +30 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -480,26 +628,29 @@
 				<resource>
 					<resource-name>Ground Amethyst</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
+					<resource-opt amount="2">325</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Bolster Dexterity III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Dexterity attribute by +45 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -517,18 +668,21 @@
 				<resource>
 					<resource-name>Ground Jasper</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="2">550</resource-opt>
 				</resource>
@@ -536,7 +690,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Dexterity IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Dexterity attribute by +60 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -554,18 +708,21 @@
 				<resource>
 					<resource-name>Ground Opal</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">600</resource-min>
 					<resource-opt amount="2">775</resource-opt>
 				</resource>
@@ -573,7 +730,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Dexterity V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Dexterity attribute by +75 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -591,18 +748,21 @@
 				<resource>
 					<resource-name>Ground Fire Opal</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">800</resource-min>
 					<resource-opt amount="2">1000</resource-opt>
 				</resource>
@@ -626,7 +786,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bolster Focus I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Focus attribute by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -643,18 +803,21 @@
 				<resource>
 					<resource-name>Dim Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">50</resource-min>
 					<resource-opt amount="2">150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ground Garnet</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">50</resource-min>
 					<resource-opt amount="6">150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -662,7 +825,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Focus II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Focus attribute by +30 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -680,18 +843,21 @@
 				<resource>
 					<resource-name>Pale Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">250</resource-min>
 					<resource-opt amount="2">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ground Rose Quartz</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">250</resource-min>
 					<resource-opt amount="6">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -699,7 +865,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Focus III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Focus attribute by +45 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -717,18 +883,21 @@
 				<resource>
 					<resource-name>Ground Citrine</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">450</resource-min>
 					<resource-opt amount="6">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">450</resource-min>
 					<resource-opt amount="2">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -736,7 +905,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Focus IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Focus attribute by +60 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -754,18 +923,21 @@
 				<resource>
 					<resource-name>Ground Topaz</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">650</resource-min>
 					<resource-opt amount="6">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">650</resource-min>
 					<resource-opt amount="2">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -773,7 +945,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Focus V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Focus attribute by +75 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -791,18 +963,21 @@
 				<resource>
 					<resource-name>Ground Peridot</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">850</resource-min>
 					<resource-opt amount="6">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="2">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -826,7 +1001,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bolster Health I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Health attribute by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -843,18 +1018,21 @@
 				<resource>
 					<resource-name>Dim Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">150</resource-min>
 					<resource-opt amount="2">250</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ground Turquoise</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">150</resource-min>
 					<resource-opt amount="6">250</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -862,7 +1040,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Health II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Health attribute by +30 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -880,18 +1058,21 @@
 				<resource>
 					<resource-name>Pale Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">350</resource-min>
 					<resource-opt amount="2">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ground Lapis Lazuli</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">350</resource-min>
 					<resource-opt amount="6">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -899,7 +1080,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Health III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Health attribute by +45 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -917,18 +1098,21 @@
 				<resource>
 					<resource-name>Ground Aquamarine</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">550</resource-min>
 					<resource-opt amount="6">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="2">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -936,7 +1120,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Health IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Health attribute by +60 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -954,18 +1138,21 @@
 				<resource>
 					<resource-name>Ground Jade</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">750</resource-min>
 					<resource-opt amount="6">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">750</resource-min>
 					<resource-opt amount="2">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -973,7 +1160,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Health V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Health attribute by +75 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -991,18 +1178,21 @@
 				<resource>
 					<resource-name>Ground Emerald</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">950</resource-min>
 					<resource-opt amount="6">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">950</resource-min>
 					<resource-opt amount="2">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -1026,7 +1216,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bolster Power I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Power attribute by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1043,18 +1233,21 @@
 				<resource>
 					<resource-name>Dim Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">50</resource-min>
 					<resource-opt amount="2">150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ground Garnet</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">50</resource-min>
 					<resource-opt amount="6">150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -1062,7 +1255,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Power II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Power attribute by +30 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1080,18 +1273,21 @@
 				<resource>
 					<resource-name>Pale Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">250</resource-min>
 					<resource-opt amount="2">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ground Rose Quartz</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">250</resource-min>
 					<resource-opt amount="6">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -1099,7 +1295,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Power III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Power attribute by +45 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1117,18 +1313,21 @@
 				<resource>
 					<resource-name>Ground Citrine</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">450</resource-min>
 					<resource-opt amount="6">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">450</resource-min>
 					<resource-opt amount="2">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -1136,7 +1335,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Power IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Power attribute by +60 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1154,18 +1353,21 @@
 				<resource>
 					<resource-name>Ground Topaz</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">650</resource-min>
 					<resource-opt amount="6">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">650</resource-min>
 					<resource-opt amount="2">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -1173,7 +1375,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Power V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Power attribute by +75 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1191,18 +1393,21 @@
 				<resource>
 					<resource-name>Ground Peridot</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">850</resource-min>
 					<resource-opt amount="6">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="2">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
@@ -1226,7 +1431,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bolster Strength I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Strength attribute by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1243,18 +1448,21 @@
 				<resource>
 					<resource-name>Ground Malachite</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">1</resource-min>
 					<resource-opt amount="2">100</resource-opt>
 				</resource>
@@ -1262,7 +1470,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Strength II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Strength attribute by +30 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1280,18 +1488,21 @@
 				<resource>
 					<resource-name>Ground Amethyst</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">200</resource-min>
 					<resource-opt amount="2">325</resource-opt>
 				</resource>
@@ -1299,7 +1510,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Strength III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Strength attribute by +45 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1317,18 +1528,21 @@
 				<resource>
 					<resource-name>Ground Jasper</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="2">550</resource-opt>
 				</resource>
@@ -1336,7 +1550,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Strength IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Strength attribute by +60 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1354,18 +1568,21 @@
 				<resource>
 					<resource-name>Ground Opal</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">600</resource-min>
 					<resource-opt amount="2">775</resource-opt>
 				</resource>
@@ -1373,7 +1590,7 @@
 		</tier>
 		<tier>
 			<tier-name>Bolster Strength V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Strength attribute by +75 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1391,18 +1608,21 @@
 				<resource>
 					<resource-name>Ground Fire Opal</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">800</resource-min>
 					<resource-opt amount="2">1000</resource-opt>
 				</resource>
@@ -1426,7 +1646,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Essence Reaping I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Essence Harvesting skill by 25-50 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1443,18 +1663,21 @@
 				<resource>
 					<resource-name>Dim Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">180</resource-min>
 					<resource-opt amount="2">280</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Sandstone Essence Siphon</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">180</resource-min>
 					<resource-opt amount="1">280</resource-opt>
 				</resource>
@@ -1462,7 +1685,7 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Reaping II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Essence Harvesting skill by 50-100 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1480,18 +1703,21 @@
 				<resource>
 					<resource-name>Pale Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">380</resource-min>
 					<resource-opt amount="2">505</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Slate Essence Siphon</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">380</resource-min>
 					<resource-opt amount="1">505</resource-opt>
 				</resource>
@@ -1499,7 +1725,7 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Reaping III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Essence Harvesting skill by 75-150 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1517,18 +1743,21 @@
 				<resource>
 					<resource-name>Glowing Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">580</resource-min>
 					<resource-opt amount="2">730</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Granite Essence Siphon</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">580</resource-min>
 					<resource-opt amount="1">730</resource-opt>
 				</resource>
@@ -1536,7 +1765,7 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Reaping IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Essence Harvesting skill by 100-200 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1554,18 +1783,21 @@
 				<resource>
 					<resource-name>Bright Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">780</resource-min>
 					<resource-opt amount="2">955</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Obsidian Essence Siphon</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">780</resource-min>
 					<resource-opt amount="1">955</resource-opt>
 				</resource>
@@ -1573,7 +1805,7 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Reaping V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Essence Harvesting skill by 125-250 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1591,18 +1823,21 @@
 				<resource>
 					<resource-name>Shining Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">980</resource-min>
 					<resource-opt amount="2">1180</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Marble Essence Siphon</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">980</resource-min>
 					<resource-opt amount="1">1180</resource-opt>
 				</resource>
@@ -1626,7 +1861,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Ginesh's Thickened Skin I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash resistances by +5 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1645,18 +1880,21 @@
 				<resource>
 					<resource-name>Dim Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">100</resource-min>
 					<resource-opt amount="4">200</resource-opt>
 				</resource>
@@ -1664,7 +1902,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ginesh's Thickened Skin II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash resistances by +10 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1684,18 +1922,21 @@
 				<resource>
 					<resource-name>Pale Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="2">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">300</resource-min>
 					<resource-opt amount="4">425</resource-opt>
 				</resource>
@@ -1703,7 +1944,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ginesh's Thickened Skin III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash resistances by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1723,18 +1964,21 @@
 				<resource>
 					<resource-name>Glowing Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="2">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">500</resource-min>
 					<resource-opt amount="4">650</resource-opt>
 				</resource>
@@ -1742,7 +1986,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ginesh's Thickened Skin IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash resistances by +20 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1762,18 +2006,21 @@
 				<resource>
 					<resource-name>Bright Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">700</resource-min>
 					<resource-opt amount="4">875</resource-opt>
 				</resource>
@@ -1781,7 +2028,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ginesh's Thickened Skin V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash resistances by +25 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1801,18 +2048,21 @@
 				<resource>
 					<resource-name>Shining Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="2">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">900</resource-min>
 					<resource-opt amount="4">1100</resource-opt>
 				</resource>
@@ -1837,7 +2087,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Latro's Evasive Aura I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash Ward defense by +5 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1856,18 +2106,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">100</resource-min>
 					<resource-opt amount="4">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
@@ -1875,7 +2128,7 @@
 		</tier>
 		<tier>
 			<tier-name>Latro's Evasive Aura II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash Ward defense by +10 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1895,18 +2148,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Silver Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">300</resource-min>
 					<resource-opt amount="4">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="2">425</resource-opt>
 				</resource>
@@ -1914,7 +2170,7 @@
 		</tier>
 		<tier>
 			<tier-name>Latro's Evasive Aura III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash Ward defense by +15 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1934,18 +2190,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Gold Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">500</resource-min>
 					<resource-opt amount="4">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="2">650</resource-opt>
 				</resource>
@@ -1953,7 +2212,7 @@
 		</tier>
 		<tier>
 			<tier-name>Latro's Evasive Aura IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash Ward defense by +20 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -1966,22 +2225,27 @@
 				<tier-attribute type="effectStatBonus">+20 Crush Ward</tier-attribute>
 				<tier-attribute type="effectDuration">30:00</tier-attribute>
 			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Platinum Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">700</resource-min>
 					<resource-opt amount="4">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
@@ -1989,7 +2253,7 @@
 		</tier>
 		<tier>
 			<tier-name>Latro's Evasive Aura V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Crush, Pierce, and Slash Ward defense by +25 for 30 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2009,18 +2273,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Powder</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">900</resource-min>
 					<resource-opt amount="4">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="2">1100</resource-opt>
 				</resource>
@@ -2044,7 +2311,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Metal Reaping I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Mining skill by 25-50 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2061,18 +2328,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">30</resource-min>
 					<resource-opt amount="2">130</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">30</resource-min>
 					<resource-opt amount="1">130</resource-opt>
 				</resource>
@@ -2080,7 +2350,7 @@
 		</tier>
 		<tier>
 			<tier-name>Metal Reaping II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Mining skill by 50-100 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2098,18 +2368,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">230</resource-min>
 					<resource-opt amount="2">355</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">230</resource-min>
 					<resource-opt amount="1">355</resource-opt>
 				</resource>
@@ -2117,7 +2390,7 @@
 		</tier>
 		<tier>
 			<tier-name>Metal Reaping III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Mining skill by 75-150 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2135,18 +2408,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">430</resource-min>
 					<resource-opt amount="2">580</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">430</resource-min>
 					<resource-opt amount="1">580</resource-opt>
 				</resource>
@@ -2154,7 +2430,7 @@
 		</tier>
 		<tier>
 			<tier-name>Metal Reaping IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Mining skill by 100-200 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2172,18 +2448,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">630</resource-min>
 					<resource-opt amount="2">805</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">630</resource-min>
 					<resource-opt amount="1">805</resource-opt>
 				</resource>
@@ -2191,7 +2470,7 @@
 		</tier>
 		<tier>
 			<tier-name>Metal Reaping V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Mining skill by 125-250 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2209,18 +2488,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">830</resource-min>
 					<resource-opt amount="2">1030</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">630</resource-min>
 					<resource-opt amount="1">705</resource-opt>
 				</resource>
@@ -2244,7 +2526,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Organic Reaping I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Foraging skill by 25-50 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2261,18 +2543,21 @@
 				<resource>
 					<resource-name>Dim Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">140</resource-min>
 					<resource-opt amount="2">240</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Harvest Knife</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">140</resource-min>
 					<resource-opt amount="1">240</resource-opt>
 				</resource>
@@ -2280,7 +2565,7 @@
 		</tier>
 		<tier>
 			<tier-name>Organic Reaping II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Foraging skill by 50-100 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2298,18 +2583,21 @@
 				<resource>
 					<resource-name>Pale Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">340</resource-min>
 					<resource-opt amount="2">465</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Harvest Knife</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">340</resource-min>
 					<resource-opt amount="1">465</resource-opt>
 				</resource>
@@ -2317,7 +2605,7 @@
 		</tier>
 		<tier>
 			<tier-name>Organic Reaping III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Foraging skill by 75-150 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2335,18 +2623,21 @@
 				<resource>
 					<resource-name>Glowing Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">540</resource-min>
 					<resource-opt amount="2">690</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Harvest Knife</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">540</resource-min>
 					<resource-opt amount="1">690</resource-opt>
 				</resource>
@@ -2354,7 +2645,7 @@
 		</tier>
 		<tier>
 			<tier-name>Organic Reaping IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Foraging skill by 100-200 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2372,18 +2663,21 @@
 				<resource>
 					<resource-name>Bright Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">740</resource-min>
 					<resource-opt amount="2">915</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Harvest Knife</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">740</resource-min>
 					<resource-opt amount="1">915</resource-opt>
 				</resource>
@@ -2391,7 +2685,7 @@
 		</tier>
 		<tier>
 			<tier-name>Organic Reaping V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Foraging skill by 125-250 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2409,18 +2703,21 @@
 				<resource>
 					<resource-name>Shining Cognitive Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">940</resource-min>
 					<resource-opt amount="2">1140</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Harvest Knife</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">940</resource-min>
 					<resource-opt amount="1">1140</resource-opt>
 				</resource>
@@ -2444,7 +2741,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Quint's Quickstep I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when comsumed, increases the Speed attribute by +2 for 20 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2461,18 +2758,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">590</resource-min>
 					<resource-opt amount="2">890</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">190</resource-min>
 					<resource-opt amount="2">290</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Sap</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">190</resource-min>
 					<resource-opt amount="8">290</resource-opt>
 				</resource>
@@ -2480,7 +2780,7 @@
 		</tier>
 		<tier>
 			<tier-name>Quint's Quickstep II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases the Speed attribute by +4 for 20 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2498,18 +2798,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">590</resource-min>
 					<resource-opt amount="2">890</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">390</resource-min>
 					<resource-opt amount="2">515</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Sap</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">390</resource-min>
 					<resource-opt amount="8">515</resource-opt>
 				</resource>
@@ -2517,7 +2820,7 @@
 		</tier>
 		<tier>
 			<tier-name>Quint's Quickstep III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when comsumed, increases the Speed attribute by +6 for 20 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2535,18 +2838,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">590</resource-min>
 					<resource-opt amount="2">890</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">590</resource-min>
 					<resource-opt amount="2">740</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Sap</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">590</resource-min>
 					<resource-opt amount="8">740</resource-opt>
 				</resource>
@@ -2554,7 +2860,7 @@
 		</tier>
 		<tier>
 			<tier-name>Quint's Quickstep IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when comsumed, increases the Speed attribute by +8 for 20 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2572,18 +2878,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">590</resource-min>
 					<resource-opt amount="2">890</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">790</resource-min>
 					<resource-opt amount="2">965</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Sap</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">790</resource-min>
 					<resource-opt amount="8">965</resource-opt>
 				</resource>
@@ -2591,7 +2900,7 @@
 		</tier>
 		<tier>
 			<tier-name>Quint's Quickstep V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when comsumed, increases the Speed attribute by +10 for 20 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2609,18 +2918,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">590</resource-min>
 					<resource-opt amount="2">890</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">990</resource-min>
 					<resource-opt amount="2">1190</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Sap</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">990</resource-min>
 					<resource-opt amount="8">1190</resource-opt>
 				</resource>
@@ -2644,7 +2956,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Stone Reaping I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Quarrying skill by 25-50 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2661,18 +2973,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">110</resource-min>
 					<resource-opt amount="2">210</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">110</resource-min>
 					<resource-opt amount="1">210</resource-opt>
 				</resource>
@@ -2680,7 +2995,7 @@
 		</tier>
 		<tier>
 			<tier-name>Stone Reaping II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Quarrying skill by 50-100 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2698,18 +3013,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">310</resource-min>
 					<resource-opt amount="2">435</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">310</resource-min>
 					<resource-opt amount="1">435</resource-opt>
 				</resource>
@@ -2717,7 +3035,7 @@
 		</tier>
 		<tier>
 			<tier-name>Stone Reaping III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Quarrying skill by 75-150 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2735,18 +3053,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">510</resource-min>
 					<resource-opt amount="2">660</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">510</resource-min>
 					<resource-opt amount="1">660</resource-opt>
 				</resource>
@@ -2754,7 +3075,7 @@
 		</tier>
 		<tier>
 			<tier-name>Stone Reaping IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Quarrying skill by 100-200 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2772,18 +3093,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">710</resource-min>
 					<resource-opt amount="2">885</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">710</resource-min>
 					<resource-opt amount="1">885</resource-opt>
 				</resource>
@@ -2791,7 +3115,7 @@
 		</tier>
 		<tier>
 			<tier-name>Stone Reaping V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Quarrying skill by 100-200 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2809,18 +3133,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">910</resource-min>
 					<resource-opt amount="2">1110</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Mining Pick</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">910</resource-min>
 					<resource-opt amount="1">1110</resource-opt>
 				</resource>
@@ -2844,7 +3171,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Vestia's Soothing Remedy I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, heals for 3-6 every 10 seconds for 10 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2860,18 +3187,21 @@
 				<resource>
 					<resource-name>Dim Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">120</resource-min>
 					<resource-opt amount="2">220</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Bark</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">120</resource-min>
 					<resource-opt amount="8">220</resource-opt>
 				</resource>
@@ -2879,7 +3209,7 @@
 		</tier>
 		<tier>
 			<tier-name>Vestia's Soothing Remedy II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, heals for 5-10 every 10 seconds for 10 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2896,18 +3226,21 @@
 				<resource>
 					<resource-name>Pale Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">320</resource-min>
 					<resource-opt amount="2">445</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Bark</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">320</resource-min>
 					<resource-opt amount="8">445</resource-opt>
 				</resource>
@@ -2915,7 +3248,7 @@
 		</tier>
 		<tier>
 			<tier-name>Vestia's Soothing Remedy III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, heals for 8-15 every 10 seconds for 10 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2932,18 +3265,21 @@
 				<resource>
 					<resource-name>Glowing Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">520</resource-min>
 					<resource-opt amount="2">670</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Bark</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">520</resource-min>
 					<resource-opt amount="8">670</resource-opt>
 				</resource>
@@ -2951,7 +3287,7 @@
 		</tier>
 		<tier>
 			<tier-name>Vestia's Soothing Remedy IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, heals for 10-20 every 10 seconds for 10 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -2968,18 +3304,21 @@
 				<resource>
 					<resource-name>Bright Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">720</resource-min>
 					<resource-opt amount="2">895</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Bark</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">720</resource-min>
 					<resource-opt amount="8">895</resource-opt>
 				</resource>
@@ -2987,7 +3326,7 @@
 		</tier>
 		<tier>
 			<tier-name>Vestia's Soothing Remedy V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, heals for 15-25 every 10 seconds for 10 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -3004,18 +3343,21 @@
 				<resource>
 					<resource-name>Shining Tensile Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">920</resource-min>
 					<resource-opt amount="2">1120</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">150</resource-min>
 					<resource-opt amount="2">450</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Bark</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">920</resource-min>
 					<resource-opt amount="8">1120</resource-opt>
 				</resource>
@@ -3039,7 +3381,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Wood Reaping I Potion</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Logging skill by 25-50 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -3056,18 +3398,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">70</resource-min>
 					<resource-opt amount="2">170</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Tree Axe</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">70</resource-min>
 					<resource-opt amount="1">170</resource-opt>
 				</resource>
@@ -3075,7 +3420,7 @@
 		</tier>
 		<tier>
 			<tier-name>Wood Reaping II Potion</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Logging skill by 50-100 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -3093,18 +3438,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">270</resource-min>
 					<resource-opt amount="2">395</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Tree Axe</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">270</resource-min>
 					<resource-opt amount="1">395</resource-opt>
 				</resource>
@@ -3112,7 +3460,7 @@
 		</tier>
 		<tier>
 			<tier-name>Wood Reaping III Potion</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Logging skill by 75-150 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -3130,18 +3478,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">470</resource-min>
 					<resource-opt amount="2">620</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Tree Axe</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">470</resource-min>
 					<resource-opt amount="1">620</resource-opt>
 				</resource>
@@ -3149,7 +3500,7 @@
 		</tier>
 		<tier>
 			<tier-name>Wood Reaping IV Potion</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Logging skill by 100-200 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -3167,18 +3518,21 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">670</resource-min>
 					<resource-opt amount="2">845</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Tree Axe</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">670</resource-min>
 					<resource-opt amount="1">845</resource-opt>
 				</resource>
@@ -3186,7 +3540,7 @@
 		</tier>
 		<tier>
 			<tier-name>Wood Reaping V Potion</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This potion, when consumed, increases your Logging skill by 125-250 points for 15 minutes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
@@ -3204,20 +3558,263 @@
 				<resource>
 					<resource-name>Glass Vial</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="2">150</resource-min>
-					<resource-opt amount="2">450</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1</resource-min>
+					<resource-opt amount="2">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Kinetic Suspension</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">870</resource-min>
 					<resource-opt amount="2">1070</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Tree Axe</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">870</resource-min>
 					<resource-opt amount="1">1070</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ahala's Sweet Brew</item-name>
+		<item-icon>icon_formula_r_04_15_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="recycle">1:00</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Ahala's Sweet Brew</tier-name>
+			<tier-lvl name="Tier V">5</tier-lvl>
+			<tier-desc>A sweet-smelling brew that appears to be glowing faintly and is bubbling contentedly. Ahala's Sweet Brew certainly appears to live up to its name.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectDescription">Heals over time</tier-attribute>
+				<tier-attribute type="effect">Ahala's Sweet Brew</tier-attribute>
+				<tier-attribute type="effectDuration">0:45</tier-attribute>
+				<tier-attribute type="effectFrequency">0:05</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level (85)</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="healAmount">144-172</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Crimson Crystal Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Frozen Essence</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">800</resource-min>
+					<resource-opt amount="5">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Tensile Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">800</resource-min>
+					<resource-opt amount="3">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Sap</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">800</resource-min>
+					<resource-opt amount="5">1025</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Antidote</item-name>
+		<item-icon>icon_formula_p_antidote_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="delay">10</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">1:00</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Minor Antidote</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This potion, when consumed, cures any benign poisons and provides immunity for a time.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Benign Poison Immunity</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dim Tensile Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">150</resource-min>
+					<resource-opt amount="2">250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">150</resource-min>
+					<resource-opt amount="2">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lesser Antidote</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This potion, when consumed, cures any weak poisons and provides immunity for a time.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+				<tier-attribute type="effect">Weak Poison Immunity</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (21)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Tensile Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">350</resource-min>
+					<resource-opt amount="2">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">150</resource-min>
+					<resource-opt amount="2">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Antidote</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This potion, when consumed, cures any moderate poisons and provides immunity for a time.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Moderate Poison Immunity</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (41)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Glowing Tensile Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">550</resource-min>
+					<resource-opt amount="2">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">150</resource-min>
+					<resource-opt amount="2">150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Strong Venom</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">550</resource-min>
+					<resource-opt amount="5">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Major Antidote</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This potion, when consumed, cures any strong poisons and provides immunity for a time.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Strong Poison Immunity</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+				<tier-attribute type="effectReq">vCurrent Adventure Level (61)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bright Tensile Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">750</resource-min>
+					<resource-opt amount="2">925</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">150</resource-min>
+					<resource-opt amount="2">150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Strong Venom</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">750</resource-min>
+					<resource-opt amount="5">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Greater Antidote</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This potion, when consumed, cures any deadly poisons and provides immunity for a time.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Deadly Poison Immunity</tier-attribute>
+				<tier-attribute type="effectInfo">Cannot be dispelled</tier-attribute>
+				<tier-attribute type="effectReq">Current Adventure Level (81)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shining Tensile Suspension</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">950</resource-min>
+					<resource-opt amount="2">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">150</resource-min>
+					<resource-opt amount="2">150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Deadly Venom</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">950</resource-min>
+					<resource-opt amount="5">1150</resource-opt>
 				</resource>
 			</resources>
 		</tier>

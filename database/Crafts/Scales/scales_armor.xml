@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Scales - Armor</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Scales</formulaset-category>
@@ -30,20 +30,25 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Mithril-Marble Armor Back Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">960</resource-min>
 					<resource-opt amount="6">1160</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">960</resource-min>
 					<resource-opt amount="6">1160</resource-opt>
 				</resource>
@@ -67,7 +72,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze-Sandstone Armor Chest Scale</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">48</tier-attribute>
@@ -82,12 +88,14 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">60</resource-min>
 					<resource-opt amount="6">160</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">60</resource-min>
 					<resource-opt amount="6">160</resource-opt>
 				</resource>
@@ -95,7 +103,8 @@
 		</tier>
 		<tier>
 			<tier-name>Iron-Slate Armor Chest Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">90</tier-attribute>
@@ -111,12 +120,14 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">260</resource-min>
 					<resource-opt amount="6">385</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">260</resource-min>
 					<resource-opt amount="6">385</resource-opt>
 				</resource>
@@ -124,7 +135,8 @@
 		</tier>
 		<tier>
 			<tier-name>Steel-Granite Armor Chest Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
@@ -141,12 +153,14 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">460</resource-min>
 					<resource-opt amount="6">610</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">460</resource-min>
 					<resource-opt amount="6">610</resource-opt>
 				</resource>
@@ -154,7 +168,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt-Obsidian Armor Chest Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
@@ -172,12 +187,14 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">660</resource-min>
 					<resource-opt amount="6">835</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">660</resource-min>
 					<resource-opt amount="6">835</resource-opt>
 				</resource>
@@ -185,7 +202,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril-Marble Armor Chest Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
@@ -204,12 +222,14 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">860</resource-min>
 					<resource-opt amount="6">1060</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">860</resource-min>
 					<resource-opt amount="6">1060</resource-opt>
 				</resource>
@@ -235,7 +255,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Steel-Granite Armor Foreleg Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
@@ -250,12 +271,14 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">460</resource-min>
 					<resource-opt amount="6">610</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">460</resource-min>
 					<resource-opt amount="6">610</resource-opt>
 				</resource>
@@ -263,7 +286,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt-Obsidian Armor Foreleg Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
@@ -279,12 +303,14 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">660</resource-min>
 					<resource-opt amount="6">835</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">660</resource-min>
 					<resource-opt amount="6">835</resource-opt>
 				</resource>
@@ -292,7 +318,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril-Marble Armor Foreleg Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
@@ -309,12 +336,14 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">860</resource-min>
 					<resource-opt amount="6">1060</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">860</resource-min>
 					<resource-opt amount="6">1060</resource-opt>
 				</resource>
@@ -339,7 +368,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Iron-Slate Armor Head Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">90</tier-attribute>
@@ -354,12 +384,14 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">260</resource-min>
 					<resource-opt amount="6">385</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">260</resource-min>
 					<resource-opt amount="6">385</resource-opt>
 				</resource>
@@ -367,7 +399,8 @@
 		</tier>
 		<tier>
 			<tier-name>Steel-Granite Armor Head Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
@@ -383,12 +416,14 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">460</resource-min>
 					<resource-opt amount="6">610</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">460</resource-min>
 					<resource-opt amount="6">610</resource-opt>
 				</resource>
@@ -396,7 +431,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt-Obsidian Armor Head Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
@@ -413,12 +449,14 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">660</resource-min>
 					<resource-opt amount="6">835</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">660</resource-min>
 					<resource-opt amount="6">835</resource-opt>
 				</resource>
@@ -426,7 +464,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril-Marble Armor Head Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
@@ -444,12 +483,14 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">860</resource-min>
 					<resource-opt amount="6">1060</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">860</resource-min>
 					<resource-opt amount="6">1060</resource-opt>
 				</resource>
@@ -475,7 +516,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Steel-Granite Armor Hindleg Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
@@ -490,12 +532,14 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">560</resource-min>
 					<resource-opt amount="6">710</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">560</resource-min>
 					<resource-opt amount="6">710</resource-opt>
 				</resource>
@@ -503,7 +547,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt-Obsidian Armor Hindleg Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
@@ -519,12 +564,14 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">760</resource-min>
 					<resource-opt amount="6">935</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">760</resource-min>
 					<resource-opt amount="6">935</resource-opt>
 				</resource>
@@ -532,7 +579,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril-Marble Armor Hindleg Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
@@ -549,12 +597,14 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">960</resource-min>
 					<resource-opt amount="6">1160</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">960</resource-min>
 					<resource-opt amount="6">1160</resource-opt>
 				</resource>
@@ -587,20 +637,25 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Mithril-Marble Armor Tail Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">960</resource-min>
 					<resource-opt amount="6">1160</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">960</resource-min>
 					<resource-opt amount="6">1160</resource-opt>
 				</resource>
@@ -624,7 +679,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze-Sandstone Armor Wing Scale</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">48</tier-attribute>
@@ -639,12 +695,14 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">160</resource-min>
 					<resource-opt amount="6">260</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">160</resource-min>
 					<resource-opt amount="6">260</resource-opt>
 				</resource>
@@ -652,7 +710,8 @@
 		</tier>
 		<tier>
 			<tier-name>Iron-Slate Armor Wing Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">90</tier-attribute>
@@ -668,12 +727,14 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">360</resource-min>
 					<resource-opt amount="6">485</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">360</resource-min>
 					<resource-opt amount="6">485</resource-opt>
 				</resource>
@@ -681,7 +742,8 @@
 		</tier>
 		<tier>
 			<tier-name>Steel-Granite Armor Wing Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
@@ -698,12 +760,14 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">560</resource-min>
 					<resource-opt amount="6">710</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">560</resource-min>
 					<resource-opt amount="6">710</resource-opt>
 				</resource>
@@ -711,7 +775,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt-Obsidian Armor Wing Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
@@ -729,12 +794,14 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">760</resource-min>
 					<resource-opt amount="6">935</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">760</resource-min>
 					<resource-opt amount="6">935</resource-opt>
 				</resource>
@@ -742,7 +809,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril-Marble Armor Wing Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
@@ -761,12 +829,14 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">960</resource-min>
 					<resource-opt amount="6">1160</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">960</resource-min>
 					<resource-opt amount="6">1160</resource-opt>
 				</resource>

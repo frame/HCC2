@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Augmentation</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Augmentation</tech-name>
+		<tech-icon>icon_technique_04_01_11.png</tech-icon>
+		<tech-subdesc>Enhances the Augmentation skill of the player by a set amount per tier. Users of this technique may also wish to consider placing dyes on their invisible armor.</tech-subdesc>
+		<tech-attributes>
+			<tech-attribute type="percentagestatbonus">20% Power</tech-attribute>
+			<tech-attribute type="percentagestatbonus">50% Focus</tech-attribute>
+			<tech-attribute type="percentagestatbonus">30% Dexterity</tech-attribute>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>tool</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>weapon</tech-keyword>
+				<tech-keyword>armor</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>bodyslot_finger</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+				<tech-keyword>bodyslot_rightpalm</tech-keyword>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_arms</tech-keyword>
+				<tech-keyword>bodyslot_shoulder</tech-keyword>
+				<tech-keyword>bodyslot_legs</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_augmentation_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Augmentation I</tier-name>
+			<tier-origin>Adventure: Augmentation I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create objects with an additional +5 to the Augmentation magic skill.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Brownsnout Forager Snout</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Augmentation II</tier-name>
+			<tier-origin>Adventure: Augmentation II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create objects with an additional +10 to the Augmentation magic skill.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Iron Golem Fragment</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Augmentation III</tier-name>
+			<tier-origin>Adventure: Augmentation III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create objects with an additional +15 to the Augmentation magic skill.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Greater Nix Beetle Antennae</component>
+				<component amount = "1">Guardian Golem Chip</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Augmentation IV</tier-name>
+			<tier-origin>Adventure: Augmentation IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create objects with an additional +20 to the Augmentation magic skill.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "2">Lava Golem Pumice</component>
+				<component amount = "1">Sand Scarab Harvester Leg</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Augmentation V</tier-name>
+			<tier-origin>Adventure: Augmentation V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create objects with an additional +25 to the Augmentation magic skill.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Bhal'kuk Gatherer's Finger</component>
+				<component amount = "2">Blood Skulk Bloodmage's Finger</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

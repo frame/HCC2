@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Dragon Lairshaper's Boon</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Craft - Boons</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Dragon Lairshaper's Boon</tech-name>
+		<tech-icon>icon_technique_03_43_11.png</tech-icon>
+		<tech-subdesc>Improves the Dragon Lairshaper's skillset by a small amount per tier. Although not as beneficial as the individual techniques, it provides a cheap way to attain such bonuses without the difficulty of obtaining the components.</tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>container</tech-keyword>
+				<tech-keyword>dragonscale</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+				<tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+				<tech-keyword>dragon_bodyslot_wing</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_wrist</tech-keyword>
+				<tech-keyword>bodyslot_ear</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_neck</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+				<tech-keyword>dragon_bodyslot_chest</tech-keyword>
+				<tech-keyword>dragon_bodyslot_back</tech-keyword>
+				<tech-keyword>dragon_bodyslot_head</tech-keyword>
+				<tech-keyword>dragon_bodyslot_tail</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_lairshaping_up</tech-effectkeyword>
+				<tech-effectkeyword>statmod_stoneworking_up</tech-effectkeyword>
+				<tech-effectkeyword>statmod_smelting_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords>
+		<tier>
+			<tier-name>Dragon Lairshaper's Boon</tier-name>
+			<tier-origin>Craft: Dragon Lairshaper's Boon</tier-origin>
+			<tier-lvl name="Boon (I)">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +2 in the Lairshaping, Stoneworking, and Smelting craft skills.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "30">Sandstone Brick</component>
+				<component amount = "7">Bronze Bar</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Dragon Lairshaper's Bounty</tier-name>
+			<tier-origin>Craft: Dragon Lairshaper's Bounty</tier-origin>
+			<tier-lvl name="Bounty (II)">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +4 in the Lairshaping, Stoneworking, and Smelting craft skills.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "30">Slate Brick</component>
+				<component amount = "7">Iron Bar</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Dragon Lairshaper's Blessing</tier-name>
+			<tier-origin>Craft: Dragon Lairshaper's Blessing</tier-origin>
+			<tier-lvl name="Blessing (III)">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +6 in the Lairshaping, Stoneworking, and Smelting craft skills.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "30">Granite Brick</component>
+				<component amount = "7">Steel Bar</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Dragon Lairshaper's Benefit</tier-name>
+			<tier-origin>Craft: Dragon Lairshaper's Benefit</tier-origin>
+			<tier-lvl name="Benefit (IV)">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +8 in the Lairshaping, Stoneworking, and Smelting craft skills.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "30">Obsidian Brick</component>
+				<component amount = "7">Cobalt Bar</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Dragon Lairshaper's Benevolence</tier-name>
+			<tier-origin>Craft: Dragon Lairshaper's Benevolence</tier-origin>
+			<tier-lvl name="Benevolence (V)">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +10 in the Lairshaping, Stoneworking, and Smelting craft skills.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "30">Marble Brick</component>
+				<component amount = "7">Mithril Bar</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

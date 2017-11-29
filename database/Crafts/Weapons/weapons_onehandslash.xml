@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Weapons - One Hand Slash</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Weapons</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Broad Sword</item-name>
+		<item-icon>icon_formula_w_1hs_05_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, KNOC, RVR, RNGR, BTLM, PLDN, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_broadsword</item-keyword>
+			<item-keyword>weaponstyle_sword</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Broad Sword</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A broad bladed sword made of bronze, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">3-4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="16">1</resource-min>
+					<resource-opt amount="8">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Broad Sword</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A broad bladed sword made of iron, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">72</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (200)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">12-21</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="16">200</resource-min>
+					<resource-opt amount="8">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Broad Sword</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A broad bladed sword made of steel, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">144</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (400)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="delay">32</tier-attribute>
+				<tier-attribute type="damage">20-38</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="16">400</resource-min>
+					<resource-opt amount="8">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Broad Sword</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A broad bladed sword made of cobalt, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">288</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (600)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="delay">31</tier-attribute>
+				<tier-attribute type="damage">28-53</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="16">600</resource-min>
+					<resource-opt amount="8">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Broad Sword</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A broad-bladed sword made of mithril, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">576</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (800)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="delay">30</tier-attribute>
+				<tier-attribute type="damage">34-68</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="16">800</resource-min>
+					<resource-opt amount="8">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Broad Sword</item-name>
+		<item-icon>icon_formula_w_1hs_05_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, KNOC, RVR, RNGR, BTLM, PLDN, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_broadsword</item-keyword>
+			<item-keyword>weaponstyle_sword</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+			<item-keyword>resource_metal</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Bronze Broad Sword</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>An exceptional broad bladed sword made of bronze, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">55</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (100)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">7-13</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">100</resource-min>
+					<resource-opt amount="11">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Iron Broad Sword</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>An exceptional broad bladed sword made of iron, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">99</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (300)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">16-30</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">300</resource-min>
+					<resource-opt amount="11">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Steel Broad Sword</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>An exceptional broad bladed sword made of steel, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">198</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (500)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="delay">31</tier-attribute>
+				<tier-attribute type="damage">23-45</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">500</resource-min>
+					<resource-opt amount="11">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Cobalt Broad Sword</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>An exceptional broad bladed sword made of cobalt, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">396</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (700)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="delay">30</tier-attribute>
+				<tier-attribute type="damage">30-60</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">700</resource-min>
+					<resource-opt amount="11">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Mithril Broad Sword</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>An exceptional broad bladed sword made of mithril, designed for slashing and hacking an opponent in combat.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">792</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (900)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="delay">29</tier-attribute>
+				<tier-attribute type="damage">36-74</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="22">900</resource-min>
+					<resource-opt amount="11">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Gladius</item-name>
+		<item-icon>icon_formula_w_1hs_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, KNOC, RVR, RNGR, SORC, PLDN, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_gladius</item-keyword>
+			<item-keyword>weaponstyle_sword</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Bronze Gladius</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (150)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="delay">32</tier-attribute>
+				<tier-attribute type="damage">9-17</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">150</resource-min>
+					<resource-opt amount="12">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Iron Gladius</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (350)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="delay">31</tier-attribute>
+				<tier-attribute type="damage">17-33</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">350</resource-min>
+					<resource-opt amount="12">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Steel Gladius</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (550)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="delay">30</tier-attribute>
+				<tier-attribute type="damage">24-48</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">550</resource-min>
+					<resource-opt amount="12">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Cobalt Gladius</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (750)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="delay">29</tier-attribute>
+				<tier-attribute type="damage">31-62</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">750</resource-min>
+					<resource-opt amount="12">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Mithril Gladius</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (950)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="delay">28</tier-attribute>
+				<tier-attribute type="damage">36-76</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">950</resource-min>
+					<resource-opt amount="12">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Hand Axe</item-name>
+		<item-icon>icon_formula_w_1hs_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, BRSK, RVR, RNGR, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_handaxe</item-keyword>
+			<item-keyword>weaponstyle_axe</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Bronze Hand Axe</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A crescent shaped blade, exceptionally forged from bronze, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (150)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="delay">38</tier-attribute>
+				<tier-attribute type="damage">11-19</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">150</resource-min>
+					<resource-opt amount="12">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Iron Hand Axe</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A crescent shaped blade, exceptionally forged from iron, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (350)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">22-37</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">350</resource-min>
+					<resource-opt amount="12">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Steel Hand Axe</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A crescent shaped blade, exceptionally forged from steel, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (550)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">31-55</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">550</resource-min>
+					<resource-opt amount="12">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Cobalt Hand Axe</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A crescent shaped blade, exceptionally forged from cobalt, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (750)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">40-72</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">750</resource-min>
+					<resource-opt amount="12">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Mithril Hand Axe</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A crescent shaped blade, exceptionally forged from mithril, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (950)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">48-88</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">950</resource-min>
+					<resource-opt amount="12">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Hatchet</item-name>
+		<item-icon>icon_formula_w_1hs_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, BRSK, RVR, RNGR, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_hatchet</item-keyword>
+			<item-keyword>weaponstyle_axe</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Bronze Hatchet</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>An exceptional small, short-handled axe, with a blade forged from bronze, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">50</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (100)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">8-14</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">100</resource-min>
+					<resource-opt amount="10">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Iron Hatchet</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>An exceptional small, short-handled axe, with a blade forged from iron, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (300)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">18-31</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Steel Hatchet</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>An exceptional small, short-handled axe, with a blade forged from steel, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (500)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">27-48</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">500</resource-min>
+					<resource-opt amount="10">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Cobalt Hatchet</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>An exceptional small, short-handled axe, with a blade forged from cobalt, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (700)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">35-64</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">700</resource-min>
+					<resource-opt amount="10">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Mithril Hatchet</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>An exceptional small, short-handled axe, with a blade forged from mithril, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (900)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="delay">32</tier-attribute>
+				<tier-attribute type="damage">42-80</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">900</resource-min>
+					<resource-opt amount="10">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Long Sword</item-name>
+		<item-icon>icon_formula_w_1hs_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, KNOC, RVR, RNGR, BTLM, PLDN, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_longsword</item-keyword>
+			<item-keyword>weaponstyle_sword</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Bronze Long Sword</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade of exceptional quality, forged of bronze, designed for far-reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">65</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (150)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">10-18</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="26">150</resource-min>
+					<resource-opt amount="13">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Iron Long Sword</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade of exceptional quality, forged of iron, designed for far-reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">117</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (350)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">19-35</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="26">350</resource-min>
+					<resource-opt amount="13">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Steel Long Sword</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade of exceptional quality, forged of steel, designed for far-reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">234</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (550)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">28-51</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="26">550</resource-min>
+					<resource-opt amount="13">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Cobalt Long Sword</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade of exceptional quality, forged of cobalt, designed for far-reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">468</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (750)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="delay">32</tier-attribute>
+				<tier-attribute type="damage">35-67</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="26">750</resource-min>
+					<resource-opt amount="13">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Mithril Long Sword</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade of exceptional quality, forged of mithril, designed for far-reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">936</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (950)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="delay">31</tier-attribute>
+				<tier-attribute type="damage">42-82</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="26">950</resource-min>
+					<resource-opt amount="13">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Short Sword</item-name>
+		<item-icon>icon_formula_w_1hs_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, KNOC, RVR, RNGR, BTLM, PLDN, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_shortsword</item-keyword>
+			<item-keyword>weaponstyle_sword</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Bronze Short Sword</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A short maneuverable weapon with an exceptional bronze blade, designed for slashing an opponent in close combat.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">50</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (100)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="delay">30</tier-attribute>
+				<tier-attribute type="damage">6-12</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">100</resource-min>
+					<resource-opt amount="10">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Iron Short Sword</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A short maneuverable weapon with an exceptional iron blade, designed for slashing an opponent in close combat.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (300)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="delay">29</tier-attribute>
+				<tier-attribute type="damage">14-27</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Steel Short Sword</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A short maneuverable weapon with an exceptional steel blade, designed for slashing an opponent in close combat.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (500)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="delay">28</tier-attribute>
+				<tier-attribute type="damage">20-42</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">500</resource-min>
+					<resource-opt amount="10">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Cobalt Short Sword</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A short maneuverable weapon with an exceptional cobalt blade, designed for slashing an opponent in close combat.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (700)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="delay">27</tier-attribute>
+				<tier-attribute type="damage">26-55</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">700</resource-min>
+					<resource-opt amount="10">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Mithril Short Sword</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A short maneuverable weapon with an exceptional mithril blade, designed for slashing an opponent in close combat.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (900)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="delay">26</tier-attribute>
+				<tier-attribute type="damage">31-68</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">900</resource-min>
+					<resource-opt amount="10">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Gladius</item-name>
+		<item-icon>icon_formula_w_1hs_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, KNOC, RVR, RNGR, SORC, PLDN, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_gladius</item-keyword>
+			<item-keyword>weaponstyle_sword</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Gladius</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (50)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">5-7</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">50</resource-min>
+					<resource-opt amount="9">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Gladius</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (250)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="delay">32</tier-attribute>
+				<tier-attribute type="damage">13-25</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">250</resource-min>
+					<resource-opt amount="9">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Gladius</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (450)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="delay">31</tier-attribute>
+				<tier-attribute type="damage">21-41</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">450</resource-min>
+					<resource-opt amount="9">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Gladius</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A light weight sword with a short leaf shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (650)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="delay">30</tier-attribute>
+				<tier-attribute type="damage">28-56</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">650</resource-min>
+					<resource-opt amount="9">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Gladius</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A lightweight sword with a short leaf-shaped blade designed primarily for quick thrusting attacks.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">648</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (850)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="delay">27</tier-attribute>
+				<tier-attribute type="damage">34-70</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">850</resource-min>
+					<resource-opt amount="9">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Hand Axe</item-name>
+		<item-icon>icon_formula_w_1hs_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, BRSK, RVR, RNGR, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_handaxe</item-keyword>
+			<item-keyword>weaponstyle_axe</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Hand Axe</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A crescent shaped blade forged from bronze, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (50)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="delay">39</tier-attribute>
+				<tier-attribute type="damage">6-10</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">50</resource-min>
+					<resource-opt amount="9">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Hand Axe</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A crescent shaped blade forged from iron, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (250)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="delay">38</tier-attribute>
+				<tier-attribute type="damage">17-29</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">250</resource-min>
+					<resource-opt amount="9">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Hand Axe</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A crescent shaped blade forged from steel, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (450)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">27-47</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">450</resource-min>
+					<resource-opt amount="9">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Hand Axe</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A crescent shaped blade forged from cobalt, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (650)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">37-65</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">650</resource-min>
+					<resource-opt amount="9">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Hand Axe</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A crescent-shaped blade forged from mithril, designed for strong chopping blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">648</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (850)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">45-81</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">850</resource-min>
+					<resource-opt amount="9">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Hatchet</item-name>
+		<item-icon>icon_formula_w_1hs_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, BRSK, RVR, RNGR, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_hatchet</item-keyword>
+			<item-keyword>weaponstyle_axe</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Hatchet</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A small, short-handled axe, with a blade forged from bronze, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">3-5</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">1</resource-min>
+					<resource-opt amount="7">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Hatchet</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A small, short-handled axe, with a blade forged from iron, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (200)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">13-23</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">200</resource-min>
+					<resource-opt amount="7">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Hatchet</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A small, short-handled axe, with a blade forged from steel, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (400)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">23-40</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">400</resource-min>
+					<resource-opt amount="7">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Hatchet</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A small, short-handled axe, with a blade forged from cobalt, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (600)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">31-57</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">600</resource-min>
+					<resource-opt amount="7">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Hatchet</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A small, short-handled axe with a blade forged from mithril, designed for fierce chopping blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">504</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (800)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">39-73</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">800</resource-min>
+					<resource-opt amount="7">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Long Sword</item-name>
+		<item-icon>icon_formula_w_1hs_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, KNOC, RVR, RNGR, BTLM, PLDN, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_longsword</item-keyword>
+			<item-keyword>weaponstyle_sword</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Long Sword</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade forged of bronze, designed for far reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">50</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (50)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">5-9</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">50</resource-min>
+					<resource-opt amount="10">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Long Sword</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade forged of iron, designed for far reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (250)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">15-27</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">250</resource-min>
+					<resource-opt amount="10">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Long Sword</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade forged of steel, designed for far reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (450)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">24-44</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">450</resource-min>
+					<resource-opt amount="10">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Long Sword</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade forged of cobalt, designed for far reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (650)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">32-60</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">650</resource-min>
+					<resource-opt amount="10">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Long Sword</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>An elongated sword with a double-edged blade forged of mithril, designed for far reaching, powerful swings.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (850)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="delay">32</tier-attribute>
+				<tier-attribute type="damage">40-75</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">850</resource-min>
+					<resource-opt amount="10">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Short Sword</item-name>
+		<item-icon>icon_formula_w_1hs_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">16</item-attribute>
+			<item-attribute type="reqClass">ELAR, CRSB, KNOC, RVR, RNGR, BTLM, PLDN, SCT, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">slash</item-attribute>
+			<item-attribute type="skill">One Hand Slash</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_shortsword</item-keyword>
+			<item-keyword>weaponstyle_sword</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandslash</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Short Sword</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A short maneuverable weapon with a bronze blade, designed for slashing in close combat.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="delay">31</tier-attribute>
+				<tier-attribute type="damage">2-4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">1</resource-min>
+					<resource-opt amount="7">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Short Sword</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A short maneuverable weapon with a iron blade, designed for slashing an opponent in close combat.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (200)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="delay">30</tier-attribute>
+				<tier-attribute type="damage">10-20</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">200</resource-min>
+					<resource-opt amount="7">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Short Sword</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A short maneuverable weapon with a steel blade, designed for slashing an opponent in close combat.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (400)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="delay">29</tier-attribute>
+				<tier-attribute type="damage">17-35</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">400</resource-min>
+					<resource-opt amount="7">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Short Sword</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A short maneuverable weapon with a cobalt blade, designed for slashing in close combat.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (600)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="delay">28</tier-attribute>
+				<tier-attribute type="damage">24-49</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">600</resource-min>
+					<resource-opt amount="7">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Short Sword</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A short, maneuverable weapon with a mithril blade, designed for slashing an opponent in close combat.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">504</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Slash (800)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="delay">27</tier-attribute>
+				<tier-attribute type="damage">29-63</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">800</resource-min>
+					<resource-opt amount="7">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

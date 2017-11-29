@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Tools - Metal</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Tools</formulaset-category>
@@ -24,7 +24,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Carpentry Hammer</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A tool with an attached head of bronze, used to construct the wooden framework and siding of a building.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -39,6 +39,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">150</resource-min>
 					<resource-opt amount="12">250</resource-opt>
 				</resource>
@@ -46,7 +47,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Carpentry Hammer</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A tool with an attached head of iron, used to construct the wooden framework and siding of a building.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -62,6 +63,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">350</resource-min>
 					<resource-opt amount="12">475</resource-opt>
 				</resource>
@@ -69,7 +71,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Carpentry Hammer</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A tool with an attached head of steel, used to construct the wooden framework and siding of a building.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -86,6 +88,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">550</resource-min>
 					<resource-opt amount="12">700</resource-opt>
 				</resource>
@@ -93,7 +96,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Carpentry Hammer</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A tool with an attached head of cobalt, used to construct the wooden framework and siding of a building.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -111,6 +114,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">750</resource-min>
 					<resource-opt amount="12">925</resource-opt>
 				</resource>
@@ -118,7 +122,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Carpentry Hammer</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A tool with an attached head of mithril, used to construct the wooden framework and siding of a building.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -136,6 +140,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">950</resource-min>
 					<resource-opt amount="12">1150</resource-opt>
 				</resource>
@@ -163,12 +168,13 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Fabric Scissors</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A cutting implement consisting of two bronze blades joined by a swivel pin, used to prepare fabric spools.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="statCap">Limits Papermaking to 250</tier-attribute>
 				<tier-attribute type="hoardValue">30</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Clothworking (1) or Spinning (1)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Clothworking (1) or Spinning (1) or Papermaking (1)</tier-attribute>
 				<tier-attribute type="statCap">Limits Clothworking to 250</tier-attribute>
 				<tier-attribute type="statCap">Limits Spinning to 250</tier-attribute>
 			</tier-attributes>
@@ -179,6 +185,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -186,12 +193,13 @@
 		</tier>
 		<tier>
 			<tier-name>Silver Fabric Scissors</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A cutting implement consisting of two silver blades joined by a swivel pin, used to prepare fabric spools.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="statCap">Limits Papermaking to 450</tier-attribute>
 				<tier-attribute type="hoardValue">54</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Clothworking (200) or Spinning (200)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Clothworking (200) or Spinning (200) or Papermaking (200)</tier-attribute>
 				<tier-attribute type="statCap">Limits Clothworking to 450</tier-attribute>
 				<tier-attribute type="statCap">Limits Spinning to 450</tier-attribute>
 			</tier-attributes>
@@ -203,6 +211,7 @@
 				<resource>
 					<resource-name>Silver Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -210,12 +219,13 @@
 		</tier>
 		<tier>
 			<tier-name>Gold Fabric Scissors</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A cutting implement consisting of two gold blades joined by a swivel pin, used to prepare fabric spools.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="statCap">Limits Papermaking to 650</tier-attribute>
 				<tier-attribute type="hoardValue">108</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Clothworking (400) or Spinning (400)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Clothworking (400) or Spinning (400) or Papermaking (400)</tier-attribute>
 				<tier-attribute type="statCap">Limits Clothworking to 650</tier-attribute>
 				<tier-attribute type="statCap">Limits Spinning to 650</tier-attribute>
 			</tier-attributes>
@@ -228,6 +238,7 @@
 				<resource>
 					<resource-name>Gold Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -235,12 +246,13 @@
 		</tier>
 		<tier>
 			<tier-name>Platinum Fabric Scissors</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cutting implement consisting of two platinum blades joined by a swivel pin, used to prepare fabric spools.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="statCap">Limits Papermaking to 850</tier-attribute>
 				<tier-attribute type="hoardValue">216</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Clothworking (600) or Spinning (600)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Clothworking (600) or Spinning (600) or Papermaking (600)</tier-attribute>
 				<tier-attribute type="statCap">Limits Clothworking to 850</tier-attribute>
 				<tier-attribute type="statCap">Limits Spinning to 850</tier-attribute>
 			</tier-attributes>
@@ -254,6 +266,7 @@
 				<resource>
 					<resource-name>Platinum Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -261,12 +274,12 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Fabric Scissors</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A cutting implement consisting of two mithril blades joined by a swivel pin, used to prepare fabric spools.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Clothworking (800) or Spinning (800)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Clothworking (800) or Spinning (800) or Papermaking (800)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -279,6 +292,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -305,7 +319,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Fitting Mallet</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A hand tool with an attached head of bronze, used in the fabrication and installation of metal sheeting for structures and buildings.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -320,6 +334,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">150</resource-min>
 					<resource-opt amount="12">250</resource-opt>
 				</resource>
@@ -327,7 +342,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Fitting Mallet</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A hand tool with an attached head of iron, used in the fabrication and installation of metal sheeting for structures and buildings.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -343,6 +358,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">350</resource-min>
 					<resource-opt amount="12">475</resource-opt>
 				</resource>
@@ -350,7 +366,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Fitting Mallet</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A hand tool with an attached head of steel, used in the fabrication and installation of metal sheeting for structures and buildings.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -367,6 +383,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">550</resource-min>
 					<resource-opt amount="12">700</resource-opt>
 				</resource>
@@ -374,7 +391,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Fitting Mallet</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A hand tool with an attached head of cobalt, used in the fabrication and installation of metal sheeting for structures and buildings.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -392,6 +409,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">750</resource-min>
 					<resource-opt amount="12">925</resource-opt>
 				</resource>
@@ -399,7 +417,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Fitting Mallet</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A hand tool with an attached head of mithril, used in the fabrication and installation of metal sheeting for structures and buildings.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -417,6 +435,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">950</resource-min>
 					<resource-opt amount="12">1150</resource-opt>
 				</resource>
@@ -443,7 +462,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Gem Cutter</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A sharp bronze tool, used in the art of shaping jewels.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -458,6 +477,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">50</resource-min>
 					<resource-opt amount="8">150</resource-opt>
 				</resource>
@@ -465,7 +485,7 @@
 		</tier>
 		<tier>
 			<tier-name>Silver Gem Cutter</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A sharp silver tool, used in the art of shaping jewels.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -481,6 +501,7 @@
 				<resource>
 					<resource-name>Silver Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">250</resource-min>
 					<resource-opt amount="8">375</resource-opt>
 				</resource>
@@ -488,7 +509,7 @@
 		</tier>
 		<tier>
 			<tier-name>Gold Gem Cutter</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A sharp gold tool, used in the art of shaping jewels.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -505,6 +526,7 @@
 				<resource>
 					<resource-name>Gold Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">450</resource-min>
 					<resource-opt amount="8">600</resource-opt>
 				</resource>
@@ -512,7 +534,7 @@
 		</tier>
 		<tier>
 			<tier-name>Platinum Gem Cutter</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A sharp platinum tool, used in the art of shaping jewels.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -530,6 +552,7 @@
 				<resource>
 					<resource-name>Platinum Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">650</resource-min>
 					<resource-opt amount="8">825</resource-opt>
 				</resource>
@@ -537,7 +560,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Gem Cutter</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A sharp mithril tool, used in the art of shaping jewels.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -555,6 +578,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">850</resource-min>
 					<resource-opt amount="8">1050</resource-opt>
 				</resource>
@@ -581,7 +605,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Harvest Knife</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A curved bronze blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -596,6 +620,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -603,7 +628,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Harvest Knife</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A curved iron blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -619,6 +644,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -626,7 +652,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Harvest Knife</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A curved steel blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -643,6 +669,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -650,7 +677,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Harvest Knife</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A curved cobalt blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -668,6 +695,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -675,7 +703,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Harvest Knife</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A curved mithril blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -693,6 +721,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -719,7 +748,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Istarian Army Knife</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A curved mithril blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">30</tier-attribute>
@@ -733,6 +763,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -740,7 +771,8 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Istarian Army Knife</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A curved mithril blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">54</tier-attribute>
@@ -755,6 +787,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -762,7 +795,8 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Istarian Army Knife</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A curved mithril blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
@@ -778,6 +812,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -785,7 +820,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Istarian Army Knife</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A curved mithril blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
@@ -802,6 +838,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -809,7 +846,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Istarian Army Knife</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A curved mithril blade attached to a handle, used in gathering various organic resources.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
@@ -827,6 +865,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -853,7 +892,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Jewelry Pliers</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A pair of pivoted bronze jaws, used for bending metal and placing gem facets in the trade of making jewelry.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -868,6 +907,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">50</resource-min>
 					<resource-opt amount="8">150</resource-opt>
 				</resource>
@@ -875,7 +915,7 @@
 		</tier>
 		<tier>
 			<tier-name>Silver Jewelry Pliers</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A pair of pivoted silver jaws, used for bending metal and placing gem facets in the trade of making jewelry.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -891,6 +931,7 @@
 				<resource>
 					<resource-name>Silver Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">250</resource-min>
 					<resource-opt amount="8">375</resource-opt>
 				</resource>
@@ -898,7 +939,7 @@
 		</tier>
 		<tier>
 			<tier-name>Gold Jewelry Pliers</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A pair of pivoted gold jaws, used for bending metal and placing gem facets in the trade of making jewelry.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -915,6 +956,7 @@
 				<resource>
 					<resource-name>Gold Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">450</resource-min>
 					<resource-opt amount="8">600</resource-opt>
 				</resource>
@@ -922,7 +964,7 @@
 		</tier>
 		<tier>
 			<tier-name>Platinum Jewelry Pliers</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A pair of pivoted platinum jaws, used for bending metal and placing gem facets in the trade of making jewelry.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -940,6 +982,7 @@
 				<resource>
 					<resource-name>Platinum Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">650</resource-min>
 					<resource-opt amount="8">825</resource-opt>
 				</resource>
@@ -947,7 +990,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Jewelry Pliers</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A pair of pivoted mithril jaws, used for bending metal and placing gem facets in the trade of making jewelry.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -965,6 +1008,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">850</resource-min>
 					<resource-opt amount="8">1050</resource-opt>
 				</resource>
@@ -991,7 +1035,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Masonry Trowel</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A flat-bladed bronze tool used in making and shaping stone blocks for use in structures and buildings.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1006,6 +1050,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">150</resource-min>
 					<resource-opt amount="12">250</resource-opt>
 				</resource>
@@ -1013,7 +1058,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Masonry Trowel</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A flat-bladed iron tool used in making and shaping stone blocks for use in structures and buildings.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1029,6 +1074,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">350</resource-min>
 					<resource-opt amount="12">475</resource-opt>
 				</resource>
@@ -1036,7 +1082,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Masonry Trowel</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A flat-bladed steel tool used in making and shaping stone blocks for use in structures and buildings.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1053,6 +1099,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">550</resource-min>
 					<resource-opt amount="12">700</resource-opt>
 				</resource>
@@ -1060,7 +1107,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Masonry Trowel</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A flat-bladed cobalt tool used in making and shaping stone blocks for use in structures and buildings.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1078,6 +1125,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">750</resource-min>
 					<resource-opt amount="12">925</resource-opt>
 				</resource>
@@ -1085,7 +1133,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Masonry Trowel</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A flat-bladed mithril tool used in making and shaping stone blocks for use in structures and buildings.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1103,6 +1151,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">950</resource-min>
 					<resource-opt amount="12">1150</resource-opt>
 				</resource>
@@ -1130,7 +1179,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Mining Pick</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A bronze curved bar sharpened at both ends and fitted to a long handle, used to gather metal and stone resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1146,6 +1195,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -1153,7 +1203,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Mining Pick</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An iron curved bar sharpened at both ends and fitted to a long handle, used to gather metal and stone resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1170,6 +1220,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -1177,7 +1228,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Mining Pick</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A steel curved bar sharpened at both ends and fitted to a long handle, used to gather metal and stone resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1195,6 +1246,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -1202,7 +1254,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Mining Pick</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cobalt curved bar sharpened at both ends and fitted to a long handle, used to gather metal and stone resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1221,6 +1273,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -1228,7 +1281,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Mining Pick</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A mithril curved bar sharpened at both ends and fitted to a long handle, used to gather metal and stone resources.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1246,6 +1299,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -1272,7 +1326,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Rune Stylus</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A sharp, pointed bronze instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1287,6 +1341,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -1294,7 +1349,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Rune Stylus</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A sharp, pointed iron instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1310,6 +1365,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -1317,7 +1373,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Rune Stylus</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A sharp, pointed steel instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1334,6 +1390,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -1341,7 +1398,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Rune Stylus</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A sharp, pointed cobalt instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1359,6 +1416,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -1366,7 +1424,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Rune Stylus</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A sharp, pointed mithril instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1384,6 +1442,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -1410,7 +1469,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Salvage Awl</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A sharp, pointed mithril instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">40</tier-attribute>
@@ -1425,6 +1485,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">50</resource-min>
 					<resource-opt amount="8">150</resource-opt>
 				</resource>
@@ -1432,7 +1493,8 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Salvage Awl</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A sharp, pointed mithril instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">72</tier-attribute>
@@ -1448,6 +1510,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">250</resource-min>
 					<resource-opt amount="8">375</resource-opt>
 				</resource>
@@ -1455,7 +1518,8 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Salvage Awl</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A sharp, pointed mithril instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">144</tier-attribute>
@@ -1472,6 +1536,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">450</resource-min>
 					<resource-opt amount="8">600</resource-opt>
 				</resource>
@@ -1479,7 +1544,8 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Salvage Awl</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A sharp, pointed mithril instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">288</tier-attribute>
@@ -1497,6 +1563,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">650</resource-min>
 					<resource-opt amount="8">825</resource-opt>
 				</resource>
@@ -1504,7 +1571,8 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Salvage Awl</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A sharp, pointed mithril instrument used for writing, marking, or engraving onto runes.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">576</tier-attribute>
@@ -1522,6 +1590,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">850</resource-min>
 					<resource-opt amount="8">1050</resource-opt>
 				</resource>
@@ -1548,7 +1617,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Sap Spigot</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A bronze faucet made to attach to a tree trunk which draws the tree's sap from it.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1563,6 +1632,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">100</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -1570,7 +1640,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Sap Spigot</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An iron faucet made to attach to a tree trunk which draws the tree's sap from it.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1586,6 +1656,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
 					<resource-opt amount="10">425</resource-opt>
 				</resource>
@@ -1593,7 +1664,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Sap Spigot</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A steel faucet made to attach to a tree trunk which draws the tree's sap from it.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1610,6 +1681,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
 					<resource-opt amount="10">650</resource-opt>
 				</resource>
@@ -1617,7 +1689,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Sap Spigot</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cobalt faucet made to attach to a tree trunk which draws the tree's sap from it.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1635,6 +1707,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
 					<resource-opt amount="10">875</resource-opt>
 				</resource>
@@ -1642,7 +1715,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Sap Spigot</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A mithril faucet made to attach to a tree trunk which draws the tree's sap from it.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1660,6 +1733,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
 					<resource-opt amount="10">1100</resource-opt>
 				</resource>
@@ -1688,7 +1762,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Sewing Needle</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A small sharp piece of bronze, with an eye at one end, through which a length of thread is passed and held, allowing the user to sew.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1705,6 +1779,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -1712,7 +1787,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Sewing Needle</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A small sharp piece of iron, with an eye at one end, through which a length of thread is passed and held, allowing the user to sew.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1730,6 +1805,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -1737,7 +1813,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Sewing Needle</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A small sharp piece of steel, with an eye at one end, through which a length of thread is passed and held, allowing the user to sew.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1756,6 +1832,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -1763,7 +1840,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Sewing Needle</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A small sharp piece of cobalt, with an eye at one end, through which a length of thread is passed and held, allowing the user to sew.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1783,6 +1860,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -1790,7 +1868,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Sewing Needle</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A small sharp piece of mithril, with an eye at one end, through which a length of thread is passed and held, allowing the user to sew.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1808,6 +1886,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -1834,7 +1913,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Smelting Tongs</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A pair of bronze grasping arms that are joined at one end by a pivot, used to smelt ore into processed metal.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1849,6 +1928,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -1856,7 +1936,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Smelting Tongs</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A pair of iron grasping arms that are joined at one end by a pivot, used to smelt ore into processed metal.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1872,6 +1952,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -1879,7 +1960,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Smelting Tongs</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A pair of steel grasping arms that are joined at one end by a pivot, used to smelt ore into processed metal.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1896,6 +1977,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -1903,7 +1985,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Smelting Tongs</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A pair of cobalt grasping arms that are joined at one end by a pivot, used to smelt ore into processed metal.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1921,6 +2003,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -1928,7 +2011,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Smelting Tongs</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A pair of mithril grasping arms that are joined at one end by a pivot, used to smelt ore into processed metal.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1946,6 +2029,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -1974,7 +2058,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Smithing Hammer</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A tool with an attached head of bronze, used to pound and shape metal into objects such as armor and weapons.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1991,6 +2075,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -1998,7 +2083,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Smithing Hammer</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A tool with an attached head of iron, used to pound and shape metal into objects such as armor and weapons.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2016,6 +2101,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -2023,7 +2109,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Smithing Hammer</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A tool with an attached head of steel, used to pound and shape metal into objects such as armor and weapons.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2042,6 +2128,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -2049,7 +2136,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Smithing Hammer</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A tool with an attached head of cobalt, used to pound and shape metal into objects such as armor and weapons.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2069,6 +2156,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -2076,7 +2164,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Smithing Hammer</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A tool with an attached head of mithril, used to pound and shape metal into objects such as armor and weapons.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2094,6 +2182,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -2122,7 +2211,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Stone Chisel</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A sharp beveled bronze edge, used to cut and shape stone.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2139,6 +2228,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -2146,7 +2236,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Stone Chisel</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A sharp beveled iron edge, used to cut and shape stone.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2164,6 +2254,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -2171,7 +2262,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Stone Chisel</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A sharp beveled steel edge, used to cut and shape stone.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2190,6 +2281,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -2197,7 +2289,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Stone Chisel</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A sharp beveled cobalt edge, used to cut and shape stone.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2217,6 +2309,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -2224,7 +2317,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Stone Chisel</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A sharp beveled mithril edge, used to cut and shape stone.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2242,6 +2335,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -2269,7 +2363,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Tanning Blade</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A bronze blade, used to strip and tan hides.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2285,6 +2379,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -2292,7 +2387,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Tanning Blade</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An iron blade, used to strip and tan hides.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2309,6 +2404,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -2316,7 +2412,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Tanning Blade</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A steel blade, used to strip and tan hides.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2334,6 +2430,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -2341,7 +2438,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Tanning Blade</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cobalt blade, used to strip and tan hides.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2360,6 +2457,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -2367,7 +2465,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Tanning Blade</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A mithril blade, used to strip and tan hides.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2385,6 +2483,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -2411,7 +2510,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Tinkering Spanner</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>An odd-shaped device with a bronze jaw, used as a lever and a constructor in the art of tinkering.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2426,6 +2525,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">100</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -2433,7 +2533,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Tinkering Spanner</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An odd-shaped device with an iron jaw, used as a lever and a constructor in the art of tinkering.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2449,6 +2549,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
 					<resource-opt amount="10">425</resource-opt>
 				</resource>
@@ -2456,7 +2557,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Tinkering Spanner</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>An odd-shaped device with a steel jaw, used as a lever and a constructor in the art of tinkering.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2473,6 +2574,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
 					<resource-opt amount="10">650</resource-opt>
 				</resource>
@@ -2480,7 +2582,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Tinkering Spanner</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>An odd-shaped device with a cobalt jaw, used as a lever and a constructor in the art of tinkering.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2498,6 +2600,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
 					<resource-opt amount="10">875</resource-opt>
 				</resource>
@@ -2505,10 +2608,11 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Tinkering Spanner</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>An odd-shaped device with a mithril jaw, used as a lever and a constructor in the art of tinkering.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="statCap">Limits Tinkering to 1050</tier-attribute>
 				<tier-attribute type="hoardValue">720</tier-attribute>
 				<tier-attribute type="reqCraftSkill">Tinkering (800)</tier-attribute>
 			</tier-attributes>
@@ -2523,8 +2627,29 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
 					<resource-opt amount="10">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Adamantium Tinkering Spanner</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>An odd-shaped device with a adamantium jaw, used as a lever and a constructor in the art of tinkering.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="reqCraftSkill">Tinkering (1000)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Adamantium Bar</resource-name>
+					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">1100</resource-min>
+					<resource-opt amount="10">1325</resource-opt>
 				</resource>
 			</resources>
 		</tier>
@@ -2549,7 +2674,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Tree Axe</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A bronze bladed axe, used to chop down trees for logs.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2564,6 +2689,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -2571,7 +2697,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Tree Axe</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An iron bladed axe, used to chop down trees for logs.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2587,6 +2713,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -2594,7 +2721,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Tree Axe</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A steel bladed axe, used to chop down trees for logs.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2611,6 +2738,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -2618,7 +2746,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Tree Axe</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cobalt bladed axe, used to chop down trees for logs.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2636,6 +2764,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -2643,7 +2772,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Tree Axe</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A mithril bladed axe, used to chop down trees for logs.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2661,6 +2790,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -2687,7 +2817,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Weaving Awl</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A pointed bronze tool for marking surfaces or for punching small holes into materials such as wood, or leather.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2702,6 +2832,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">150</resource-min>
 					<resource-opt amount="12">250</resource-opt>
 				</resource>
@@ -2709,7 +2840,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Weaving Awl</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A pointed iron tool for marking surfaces or for punching small holes into materials such as wood, or leather.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2725,6 +2856,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">350</resource-min>
 					<resource-opt amount="12">475</resource-opt>
 				</resource>
@@ -2732,7 +2864,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Weaving Awl</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A pointed steel tool for marking surfaces or for punching small holes into materials such as wood, or leather.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2749,6 +2881,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">550</resource-min>
 					<resource-opt amount="12">700</resource-opt>
 				</resource>
@@ -2756,7 +2889,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Weaving Awl</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A pointed cobalt tool for marking surfaces or for punching small holes into materials such as wood, or leather.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2774,6 +2907,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">750</resource-min>
 					<resource-opt amount="12">925</resource-opt>
 				</resource>
@@ -2781,7 +2915,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Weaving Awl</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A pointed mithril tool for marking surfaces or for punching small holes into materials such as wood, or leather.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2799,6 +2933,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">950</resource-min>
 					<resource-opt amount="12">1150</resource-opt>
 				</resource>
@@ -2825,7 +2960,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Wood Saw</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A thin bronze blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2840,6 +2975,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -2847,7 +2983,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Wood Saw</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A thin iron blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2863,6 +2999,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -2870,7 +3007,7 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Wood Saw</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A thin steel blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2887,6 +3024,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -2894,7 +3032,7 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Wood Saw</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A thin cobalt blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2912,6 +3050,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -2919,7 +3058,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Wood Saw</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A thin mithril blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2937,6 +3076,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -2964,8 +3104,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Cooking Knife</tier-name>
-			<tier-lvl>1</tier-lvl>
-			<tier-desc/>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A thin mithril blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="statCap">Limits Preparing to 250</tier-attribute>
@@ -2980,15 +3120,16 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">100</resource-min>
 					<resource-opt amount="10">200</resource-opt>
-					<resource-min amount="20">100</resource-min>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Adamantium Cooking Knife</tier-name>
-			<tier-lvl>6</tier-lvl>
-			<tier-desc/>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>A thin mithril blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="reqCraftSkill">Preparing (1000) or Cooking (1000)</tier-attribute>
@@ -3006,15 +3147,16 @@
 				<resource>
 					<resource-name>Adamantium Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
-					<resource-opt amount="10">1325</resource-opt>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">1100</resource-min>
+					<resource-opt amount="10">1325</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Mithril Cooking Knife</tier-name>
-			<tier-lvl>5</tier-lvl>
-			<tier-desc/>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A thin mithril blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="statCap">Limits Preparing to 1050</tier-attribute>
@@ -3033,15 +3175,16 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
-					<resource-opt amount="10">1100</resource-opt>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
+					<resource-opt amount="10">1100</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Cobalt Cooking Knife</tier-name>
-			<tier-lvl>4</tier-lvl>
-			<tier-desc/>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A thin mithril blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="statCap">Limits Preparing to 850</tier-attribute>
@@ -3059,15 +3202,16 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
-					<resource-opt amount="10">875</resource-opt>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
+					<resource-opt amount="10">875</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Steel Cooking Knife</tier-name>
-			<tier-lvl>3</tier-lvl>
-			<tier-desc/>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A thin mithril blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="statCap">Limits Preparing to 650</tier-attribute>
@@ -3084,15 +3228,16 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
-					<resource-opt amount="10">650</resource-opt>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
+					<resource-opt amount="10">650</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Iron Cooking Knife</tier-name>
-			<tier-lvl>2</tier-lvl>
-			<tier-desc/>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A thin mithril blade, with a sharp, toothed edge, used in cutting wood.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="statCap">Limits Preparing to 450</tier-attribute>
@@ -3108,8 +3253,9 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Metalworking</resource-skill>
-					<resource-opt amount="10">425</resource-opt>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">425</resource-opt>
 				</resource>
 			</resources>
 		</tier>

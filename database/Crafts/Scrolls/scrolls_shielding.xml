@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Scrolls - Shielding</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Scrolls</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Shield of Blight</item-name>
+		<item-icon>icon_formula_sc_01_07_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="damageType">blight</item-attribute>
+			<item-attribute type="effectDuration">5:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Shield of Blight I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (14)</tier-attribute>
+				<tier-attribute type="effect">Shield of Blight I</tier-attribute>
+				<tier-attribute type="damage">18-27</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 18-27 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blood Bolt I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">140</resource-min>
+					<resource-opt amount="1">340</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Ward I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">140</resource-min>
+					<resource-opt amount="1">340</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Blight II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (34)</tier-attribute>
+				<tier-attribute type="effect">Shield of Blight II</tier-attribute>
+				<tier-attribute type="damage">39-46</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 39-46 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blood Bolt II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">340</resource-min>
+					<resource-opt amount="1">565</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Ward II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">340</resource-min>
+					<resource-opt amount="1">565</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Blight III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (54)</tier-attribute>
+				<tier-attribute type="effect">Shield of Blight III</tier-attribute>
+				<tier-attribute type="damage">81-88</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 81-88 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blood Bolt III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">540</resource-min>
+					<resource-opt amount="1">790</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Ward III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">540</resource-min>
+					<resource-opt amount="1">790</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Blight IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (74)</tier-attribute>
+				<tier-attribute type="effect">Shield of Blight IV</tier-attribute>
+				<tier-attribute type="damage">165-172</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 165-172 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blood Bolt IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">740</resource-min>
+					<resource-opt amount="1">1015</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Ward IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">740</resource-min>
+					<resource-opt amount="1">1015</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Blight V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (94)</tier-attribute>
+				<tier-attribute type="effect">Shield of Blight V</tier-attribute>
+				<tier-attribute type="damage">333-340</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 333-340 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blood Bolt V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">940</resource-min>
+					<resource-opt amount="1">1240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Ward V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">940</resource-min>
+					<resource-opt amount="1">1240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Shield of Energy</item-name>
+		<item-icon>icon_formula_sc_01_07_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="damageType">energy</item-attribute>
+			<item-attribute type="effectDuration">5:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Shield of Energy</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="effect">Shield of Energy I</tier-attribute>
+				<tier-attribute type="damage">15-22</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 15-22 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Bolt I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Ward I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Energy II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="effect">Shield of Energy II</tier-attribute>
+				<tier-attribute type="damage">36-43</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 36-43 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Bolt II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">300</resource-min>
+					<resource-opt amount="1">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Ward II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">300</resource-min>
+					<resource-opt amount="1">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Energy III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="effect">Shield of Energy III</tier-attribute>
+				<tier-attribute type="damage">78-85</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 78-85 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Bolt III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Ward III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Energy IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="effect">Shield of Energy IV</tier-attribute>
+				<tier-attribute type="damage">162-169</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 162-169 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Bolt IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Ward IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Energy V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="effect">Shield of Energy V</tier-attribute>
+				<tier-attribute type="damage">330-337</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 330-337 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Bolt V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">900</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Ward V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">900</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Shield of Flame</item-name>
+		<item-icon>icon_formula_sc_01_07_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="damageType">flame</item-attribute>
+			<item-attribute type="effectDuration">5:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Shield of Flame</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="effect">Shield of Flame I</tier-attribute>
+				<tier-attribute type="damage">15-22</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 15-22 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Bolt I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Ward I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Flame II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="effect">Shield of Flame II</tier-attribute>
+				<tier-attribute type="damage">36-43</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 36-43 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Bolt II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">300</resource-min>
+					<resource-opt amount="1">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Ward II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">300</resource-min>
+					<resource-opt amount="1">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Flame III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="effect">Shield of Flame III</tier-attribute>
+				<tier-attribute type="damage">78-85</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 78-85 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Bolt III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Ward III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Flame IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="effect">Shield of Flame IV</tier-attribute>
+				<tier-attribute type="damage">162-169</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 162-169 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Bolt IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Ward IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Flame V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="effect">Shield of Flame V</tier-attribute>
+				<tier-attribute type="damage">330-337</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 330-337 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Bolt V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">900</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Ward V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">900</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Shield of Ice</item-name>
+		<item-icon>icon_formula_sc_01_07_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="damageType">ice</item-attribute>
+			<item-attribute type="effectDuration">5:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Shield of Ice</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="effect">Shield of Ice I</tier-attribute>
+				<tier-attribute type="damage">15-22</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 15-22 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Bolt I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Ward I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">300</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Ice II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="effect">Shield of Ice II</tier-attribute>
+				<tier-attribute type="damage">36-43</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 36-43 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Bolt II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">300</resource-min>
+					<resource-opt amount="1">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Ward II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">300</resource-min>
+					<resource-opt amount="1">525</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Ice III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="effect">Shield of Ice III</tier-attribute>
+				<tier-attribute type="damage">78-85</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 78-85 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Bolt III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Ward III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">750</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Ice IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="effect">Shield of Ice IV</tier-attribute>
+				<tier-attribute type="damage">162-169</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 162-169 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Bolt IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Ward IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Ice V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="effect">Shield of Ice V</tier-attribute>
+				<tier-attribute type="damage">330-337</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 330-337 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Bolt V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">900</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Ward V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">900</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Shield of Nature</item-name>
+		<item-icon>icon_formula_sc_01_07_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="damageType">nature</item-attribute>
+			<item-attribute type="effectDuration">5:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Shield of Nature</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (14)</tier-attribute>
+				<tier-attribute type="effect">Shield of Nature I</tier-attribute>
+				<tier-attribute type="damage">18-27</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 18-27 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lightning Bolt I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">140</resource-min>
+					<resource-opt amount="1">340</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Ward I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">140</resource-min>
+					<resource-opt amount="1">340</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Nature II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (34)</tier-attribute>
+				<tier-attribute type="effect">Shield of Nature II</tier-attribute>
+				<tier-attribute type="damage">39-46</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 39-46 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lightning Bolt II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">340</resource-min>
+					<resource-opt amount="1">565</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Ward II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">340</resource-min>
+					<resource-opt amount="1">565</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Nature III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (54)</tier-attribute>
+				<tier-attribute type="effect">Shield of Nature III</tier-attribute>
+				<tier-attribute type="damage">81-88</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 81-88 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lightning Bolt III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">540</resource-min>
+					<resource-opt amount="1">790</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Ward III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">540</resource-min>
+					<resource-opt amount="1">790</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Nature IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (74)</tier-attribute>
+				<tier-attribute type="effect">Shield of Nature IV</tier-attribute>
+				<tier-attribute type="damage">165-172</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 165-172 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lightning Bolt IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">740</resource-min>
+					<resource-opt amount="1">1015</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Ward IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">740</resource-min>
+					<resource-opt amount="1">1015</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Nature V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (94)</tier-attribute>
+				<tier-attribute type="effect">Shield of Nature V</tier-attribute>
+				<tier-attribute type="damage">333-340</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 333-340 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lightning Bolt V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">940</resource-min>
+					<resource-opt amount="1">1240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Ward V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">940</resource-min>
+					<resource-opt amount="1">1240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Shield of Primal</item-name>
+		<item-icon>icon_formula_sc_01_07_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="damageType">Primal</item-attribute>
+			<item-attribute type="effectDuration">5:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Shield of Primal I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (18)</tier-attribute>
+				<tier-attribute type="effect">Shield of Primal I</tier-attribute>
+				<tier-attribute type="damage">21-33</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 21-33 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Prime Bolt I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">180</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Countercheck Primal I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">180</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Primal II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (38)</tier-attribute>
+				<tier-attribute type="effect">Shield of Primal II</tier-attribute>
+				<tier-attribute type="damage">42-49</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 42-49 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Prime Bolt II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">380</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Countercheck Primal II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">380</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Primal III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (58)</tier-attribute>
+				<tier-attribute type="effect">Shield of Primal III</tier-attribute>
+				<tier-attribute type="damage">84-91</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 84-91 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Prime Bolt III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">580</resource-min>
+					<resource-opt amount="1">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Countercheck Primal III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">580</resource-min>
+					<resource-opt amount="1">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Primal IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (78)</tier-attribute>
+				<tier-attribute type="effect">Shield of Primal IV</tier-attribute>
+				<tier-attribute type="damage">168-175</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 168-175 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Prime Bolt IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">780</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Countercheck Primal IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">780</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Primal V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (98)</tier-attribute>
+				<tier-attribute type="effect">Shield of Primal V</tier-attribute>
+				<tier-attribute type="damage">336-343</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 336-343 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Prime Bolt V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">980</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Countercheck Primal V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">980</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Shield of Spirit</item-name>
+		<item-icon>icon_formula_sc_01_07_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="damageType">spirit</item-attribute>
+			<item-attribute type="effectDuration">5:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Shield of Spirit I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (18)</tier-attribute>
+				<tier-attribute type="effect">Shield of Spirit I</tier-attribute>
+				<tier-attribute type="damage">21-33</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 21-33 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">100</resource-min>
+					<resource-opt amount="2">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Bolt I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">180</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Ward I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">180</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="1">380</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Spirit II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (38)</tier-attribute>
+				<tier-attribute type="effect">Shield of Spirit II</tier-attribute>
+				<tier-attribute type="damage">42-49</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 42-49 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">300</resource-min>
+					<resource-opt amount="2">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Bolt II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">380</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Ward II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">380</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="1">605</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Spirit III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (58)</tier-attribute>
+				<tier-attribute type="effect">Shield of Spirit III</tier-attribute>
+				<tier-attribute type="damage">84-91</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 84-91 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Bolt III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">580</resource-min>
+					<resource-opt amount="1">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Ward III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">580</resource-min>
+					<resource-opt amount="1">830</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Spirit IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (78)</tier-attribute>
+				<tier-attribute type="effect">Shield of Spirit IV</tier-attribute>
+				<tier-attribute type="damage">168-175</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 168-175 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Bolt IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">780</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Ward IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">780</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="1">1055</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shield of Spirit V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (98)</tier-attribute>
+				<tier-attribute type="effect">Shield of Spirit V</tier-attribute>
+				<tier-attribute type="damage">336-343</tier-attribute>
+				<tier-attribute type="effectStatBonus">Deals 336-343 damage to enemies that hit you</tier-attribute>
+				<tier-attribute type="effectStatBonus">Removed after 25 hits taken</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Bolt V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">980</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Ward V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">980</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="1">1280</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

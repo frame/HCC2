@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Scrolls - Incorporeal</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Scrolls</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Geleon's Master Scroll</item-name>
+		<item-icon>icon_formula_sc_01_07_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="effectDescription">Immune to incoming Slash, Crush and Pierce damage</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectduration">1:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">1:30</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Geleon's Master Scroll Replica</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power and is a "home-brew" scroll made from Geleon's formula.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Incorporeal</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current School Level Minimum (12)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Gold Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dark Essence</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ghostly Miasma</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

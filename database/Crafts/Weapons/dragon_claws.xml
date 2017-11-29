@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
-	<formulaset-name>Dragon Claws</formulaset-name>
+<formulaset format="3.0">
+	<formulaset-name>Dragon - Claws</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Weapons</formulaset-category>
 	</formulaset-categories>
@@ -21,11 +21,11 @@
 			<item-keyword>primal</item-keyword>
 			<item-keyword>techclass_1</item-keyword>
 			<item-keyword>dragonscale</item-keyword>
-			<tech-keyword>dragon_tool</tech-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Garnet Tipped Dragon Claw</tier-name>
 			<tier-lvl name="I Garnet">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">96</tier-attribute>
@@ -41,12 +41,14 @@
 				<resource>
 					<resource-name>Garnet</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">1</resource-min>
 					<resource-opt amount="12">200</resource-opt>
 				</resource>
@@ -55,6 +57,7 @@
 		<tier>
 			<tier-name>Malachite Tipped Dragon Claw</tier-name>
 			<tier-lvl name="I Malachite">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">96</tier-attribute>
@@ -70,12 +73,14 @@
 				<resource>
 					<resource-name>Malachite</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">1</resource-min>
 					<resource-opt amount="12">200</resource-opt>
 				</resource>
@@ -84,6 +89,7 @@
 		<tier>
 			<tier-name>Spiked Turquoise Tipped Dragon Claw</tier-name>
 			<tier-lvl name="I Spiked Turquoise">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">120</tier-attribute>
@@ -99,12 +105,14 @@
 				<resource>
 					<resource-name>Turquoise</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">1</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">1</resource-min>
 					<resource-opt amount="12">200</resource-opt>
 				</resource>
@@ -113,6 +121,7 @@
 		<tier>
 			<tier-name>Turquoise Tipped Dragon Claw</tier-name>
 			<tier-lvl name="I Turquoise">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">96</tier-attribute>
@@ -128,12 +137,14 @@
 				<resource>
 					<resource-name>Turquoise</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">1</resource-min>
 					<resource-opt amount="12">200</resource-opt>
 				</resource>
@@ -142,6 +153,7 @@
 		<tier>
 			<tier-name>Aquamarine Tipped Dragon Claw</tier-name>
 			<tier-lvl name="III Aquamarine">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
@@ -159,12 +171,14 @@
 				<resource>
 					<resource-name>Aquamarine</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">400</resource-min>
 					<resource-opt amount="12">600</resource-opt>
 				</resource>
@@ -173,6 +187,7 @@
 		<tier>
 			<tier-name>Citrine Tipped Dragon Claw</tier-name>
 			<tier-lvl name="III Citrine">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
@@ -190,12 +205,14 @@
 				<resource>
 					<resource-name>Citrine</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">400</resource-min>
 					<resource-opt amount="12">600</resource-opt>
 				</resource>
@@ -204,6 +221,7 @@
 		<tier>
 			<tier-name>Jasper Tipped Dragon Claw</tier-name>
 			<tier-lvl name="III Jasper">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
@@ -221,12 +239,14 @@
 				<resource>
 					<resource-name>Jasper</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">400</resource-min>
 					<resource-opt amount="12">600</resource-opt>
 				</resource>
@@ -235,6 +255,7 @@
 		<tier>
 			<tier-name>Emerald Tipped Dragon Claw</tier-name>
 			<tier-lvl name="V Emerald">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">1440</tier-attribute>
@@ -254,12 +275,14 @@
 				<resource>
 					<resource-name>Emerald</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">800</resource-min>
 					<resource-opt amount="12">1000</resource-opt>
 				</resource>
@@ -268,6 +291,7 @@
 		<tier>
 			<tier-name>Fire Opal Tipped Dragon Claw</tier-name>
 			<tier-lvl name="V Fire Opal">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">1440</tier-attribute>
@@ -287,12 +311,14 @@
 				<resource>
 					<resource-name>Fire Opal</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">800</resource-min>
 					<resource-opt amount="12">1000</resource-opt>
 				</resource>
@@ -301,6 +327,7 @@
 		<tier>
 			<tier-name>Peridot Tipped Dragon Claw</tier-name>
 			<tier-lvl name="V Peridot">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">1440</tier-attribute>
@@ -320,12 +347,14 @@
 				<resource>
 					<resource-name>Peridot</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">800</resource-min>
 					<resource-opt amount="12">1000</resource-opt>
 				</resource>
@@ -334,6 +363,7 @@
 		<tier>
 			<tier-name>Spiked Emerald Tipped Dragon Claw</tier-name>
 			<tier-lvl name="V Spiked Emerald">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">1824</tier-attribute>
@@ -353,12 +383,14 @@
 				<resource>
 					<resource-name>Emerald</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">800</resource-min>
 					<resource-opt amount="10">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">800</resource-min>
 					<resource-opt amount="12">1000</resource-opt>
 				</resource>
@@ -383,11 +415,11 @@
 			<item-keyword>techclass_2</item-keyword>
 			<item-keyword>techclass_1</item-keyword>
 			<item-keyword>dragonscale</item-keyword>
-			<tech-keyword>dragon_tool</tech-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Amethyst Tipped Dragon Claw</tier-name>
 			<tier-lvl name="II Amethyst">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
@@ -403,12 +435,14 @@
 				<resource>
 					<resource-name>Amethyst</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">200</resource-min>
 					<resource-opt amount="12">400</resource-opt>
 				</resource>
@@ -417,6 +451,7 @@
 		<tier>
 			<tier-name>Lapis Lazuli Tipped Dragon Claw</tier-name>
 			<tier-lvl name="II Lapis Lazuli">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
@@ -432,12 +467,14 @@
 				<resource>
 					<resource-name>Lapis Lazuli</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">200</resource-min>
 					<resource-opt amount="12">400</resource-opt>
 				</resource>
@@ -446,6 +483,7 @@
 		<tier>
 			<tier-name>Rose Quartz Tipped Dragon Claw</tier-name>
 			<tier-lvl name="II Rose Quartz">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
@@ -461,12 +499,14 @@
 				<resource>
 					<resource-name>Rose Quartz</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">200</resource-min>
 					<resource-opt amount="12">400</resource-opt>
 				</resource>
@@ -475,6 +515,7 @@
 		<tier>
 			<tier-name>Jade Tipped Dragon Claw</tier-name>
 			<tier-lvl name="IV Jade">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
@@ -492,12 +533,14 @@
 				<resource>
 					<resource-name>Jade</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">600</resource-min>
 					<resource-opt amount="12">800</resource-opt>
 				</resource>
@@ -506,6 +549,7 @@
 		<tier>
 			<tier-name>Opal Tipped Dragon Claw</tier-name>
 			<tier-lvl name="IV Opal">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
@@ -523,12 +567,14 @@
 				<resource>
 					<resource-name>Opal</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">600</resource-min>
 					<resource-opt amount="12">800</resource-opt>
 				</resource>
@@ -537,6 +583,7 @@
 		<tier>
 			<tier-name>Topaz Tipped Dragon Claw</tier-name>
 			<tier-lvl name="IV Topaz">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
@@ -554,12 +601,14 @@
 				<resource>
 					<resource-name>Topaz</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">600</resource-min>
 					<resource-opt amount="12">800</resource-opt>
 				</resource>

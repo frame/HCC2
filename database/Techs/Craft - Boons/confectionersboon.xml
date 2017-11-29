@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Confectioner's Boon</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Craft - Boons</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Confectioner's Boon</tech-name>
+		<tech-icon>icon_technique_03_37_11.png</tech-icon>
+		<tech-subdesc>Improves the Confectioner's skillset by a small amount per tier. Although not as beneficial as the individual techniques, it provides a cheap way to attain such bonuses without the difficulty of obtaining the components.</tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>container</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>armor</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_wrist</tech-keyword>
+				<tech-keyword>bodyslot_ear</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_neck</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_brewing_up</tech-effectkeyword>
+				<tech-effectkeyword>statmod_foraging_up</tech-effectkeyword>
+				<tech-effectkeyword>statmod_cooking_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Confectioner's Boon</tier-name>
+			<tier-origin>Craft: Confectioner's Boon</tier-origin>
+			<tier-lvl name="Boon (I)">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +2 in the Cooking, Brewing, and Foraging craft skills.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "125">Ground Salt</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Confectioner's Bounty</tier-name>
+			<tier-origin>Craft: Confectioner's Bounty</tier-origin>
+			<tier-lvl name="Bounty (II)">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +4 in the Cooking, Brewing, and Foraging craft skills.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "250">Ground Pepper</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Confectioner's Blessing</tier-name>
+			<tier-origin>Craft: Confectioner's Blessing</tier-origin>
+			<tier-lvl name="Blessing (III)">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +6 in the Cooking, Brewing, and Foraging craft skills.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "125">Malt</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Confectioner's Benefit</tier-name>
+			<tier-origin></tier-origin>
+			<tier-lvl name="Benefit (IV)">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +8 in the Cooking, Brewing, and Foraging craft skills.</tier-desc>
+			<tier-skilladjust></tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "125">Trout Fillet</component>
+				<component amount = "4">Bright Essence Orb</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Confectioner's Benevolence</tier-name>
+			<tier-origin></tier-origin>
+			<tier-lvl name="Benevolence (V)">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with +10 in the Cooking, Brewing, and Foraging craft skills.</tier-desc>
+			<tier-skilladjust></tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "125">Mackerel Fillet</component>
+				<component amount = "4">Shining Essence Orb</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Combust</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Spell</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Combust</tech-name>
+		<tech-icon>icon_technique_02_00_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>primal</tech-keyword>
+				<tech-keyword>spell</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>damage</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>skill_use_magic_flame</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>tech_kicker_damage</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Combust I</tier-name>
+			<tier-origin>Spell: Combust I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Gives flame spells a 5% chance to do an extra 5-7 unstoppable flame damage.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Lesser Water Elemental Droplet</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Combust II</tier-name>
+			<tier-origin>Spell: Combust II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Gives flame spells a 5% chance to do an extra 10-14 unstoppable flame damage.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Silver Golem Fragment</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Combust III</tier-name>
+			<tier-origin>Spell: Combust III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Gives flame spells a 5% chance to do an extra 15-21 unstoppable flame damage.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Enraged Oak Treant Mettle</component>
+				<component amount = "1">Green Necrofly Wing</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Combust IV</tier-name>
+			<tier-origin>Spell: Combust IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Gives flame spells a 5% chance to do an extra 20-28 unstoppable flame damage.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "2">Thel'kuk Battler Jawbone</component>
+				<component amount = "1">Flame Wolf Fang</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Combust V</tier-name>
+			<tier-origin>Spell: Combust V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Gives flame spells a 5% chance to do an extra 28-40 unstoppable flame damage.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Fire Opal Golem Chip</component>
+				<component amount = "2">Pyrios Beetle Mandible</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

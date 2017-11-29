@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Spells - Energy</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Spells</formulaset-category>
@@ -13,7 +13,11 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
 			<item-attribute type="castDelay">30</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
+			<item-attribute type="effectDescription">Weapons perform energy damage.</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to energy</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -25,7 +29,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Energy Attack I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Infuses the target's weapon with arcane energy, causing it to deliver additional energy damage with each blow.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -34,7 +38,7 @@
 				<tier-attribute type="reqAdvSkill">Energy (70)</tier-attribute>
 				<tier-attribute type="effect">Energy Attack I</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="effectConvertDamage">Converts damage to energy</tier-attribute>
+				<tier-attribute type="effectStatBonus">+1 damage (delay adjusted)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -43,6 +47,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">70</resource-min>
 					<resource-opt amount="4">170</resource-opt>
 				</resource>
@@ -50,7 +55,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Attack II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Infuses the target's weapon with arcane energy, causing it to deliver additional energy damage with each blow.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -59,7 +64,7 @@
 				<tier-attribute type="reqAdvSkill">Energy (270)</tier-attribute>
 				<tier-attribute type="effect">Energy Attack II</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
-				<tier-attribute type="effectConvertDamage">Converts damage to energy</tier-attribute>
+				<tier-attribute type="effectStatBonus">+2 damage (delay adjusted)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -69,12 +74,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">270</resource-min>
 					<resource-opt amount="4">395</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">270</resource-min>
 					<resource-opt amount="7">395</resource-opt>
 				</resource>
@@ -82,7 +89,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Attack III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Infuses the target's weapon with arcane energy, causing it to deliver additional energy damage with each blow.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -91,7 +98,7 @@
 				<tier-attribute type="reqAdvSkill">Energy (470)</tier-attribute>
 				<tier-attribute type="effect">Energy Attack III</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
-				<tier-attribute type="effectConvertDamage">Converts damage to energy</tier-attribute>
+				<tier-attribute type="effectStatBonus">+3 damage (delay adjusted)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -102,12 +109,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">470</resource-min>
 					<resource-opt amount="4">620</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">470</resource-min>
 					<resource-opt amount="7">620</resource-opt>
 				</resource>
@@ -115,7 +124,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Attack IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Infuses the target's weapon with arcane energy, causing it to deliver additional energy damage with each blow.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -124,7 +133,7 @@
 				<tier-attribute type="reqAdvSkill">Energy (670)</tier-attribute>
 				<tier-attribute type="effect">Energy Attack IV</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
-				<tier-attribute type="effectConvertDamage">Converts damage to energy</tier-attribute>
+				<tier-attribute type="effectStatBonus">+4 damage (delay adjusted)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -136,12 +145,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">670</resource-min>
 					<resource-opt amount="4">845</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">670</resource-min>
 					<resource-opt amount="7">845</resource-opt>
 				</resource>
@@ -149,7 +160,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Attack V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Infuses the target's weapon with arcane energy, causing it to deliver additional energy damage with each blow.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -158,7 +169,7 @@
 				<tier-attribute type="reqAdvSkill">Energy (870)</tier-attribute>
 				<tier-attribute type="effect">Energy Attack V</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
-				<tier-attribute type="effectConvertDamage">Converts damage to energy</tier-attribute>
+				<tier-attribute type="effectStatBonus">+5 damage (delay adjusted)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -171,12 +182,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">870</resource-min>
 					<resource-opt amount="4">1070</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">870</resource-min>
 					<resource-opt amount="7">1070</resource-opt>
 				</resource>
@@ -207,7 +220,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Energy Bolt I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A concentrated bolt of damaging energy.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -223,6 +236,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">100</resource-opt>
 				</resource>
@@ -230,7 +244,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Bolt II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A concentrated bolt of damaging energy.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -247,12 +261,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">325</resource-opt>
 				</resource>
@@ -260,7 +276,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Bolt III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A concentrated bolt of damaging energy.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -278,12 +294,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">550</resource-opt>
 				</resource>
@@ -291,7 +309,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Bolt IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A concentrated bolt of damaging energy.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -310,12 +328,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">775</resource-opt>
 				</resource>
@@ -323,7 +343,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Bolt V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A concentrated bolt of damaging energy.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -343,12 +363,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
@@ -364,6 +386,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
 			<item-attribute type="range">35</item-attribute>
+			<item-attribute type="recycle">15</item-attribute>
 			<item-attribute type="castDelay">45</item-attribute>
 			<item-attribute type="damageType">energy</item-attribute>
 			<item-attribute type="skill">Energy</item-attribute>
@@ -381,7 +404,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Energy Bomb I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Launches an exploding ball of damaging energy at a distant area.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -397,6 +420,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">120</resource-min>
 					<resource-opt amount="5">220</resource-opt>
 				</resource>
@@ -404,7 +428,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Bomb II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Launches an exploding ball of damaging energy at a distant area.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -421,12 +445,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">320</resource-min>
 					<resource-opt amount="5">445</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">320</resource-min>
 					<resource-opt amount="9">445</resource-opt>
 				</resource>
@@ -434,7 +460,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Bomb III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Launches an exploding ball of damaging energy at a distant area.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -452,12 +478,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">520</resource-min>
 					<resource-opt amount="5">670</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">520</resource-min>
 					<resource-opt amount="9">670</resource-opt>
 				</resource>
@@ -465,7 +493,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Bomb IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Launches an exploding ball of damaging energy at a distant area.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -484,12 +512,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">720</resource-min>
 					<resource-opt amount="5">895</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">720</resource-min>
 					<resource-opt amount="9">895</resource-opt>
 				</resource>
@@ -497,7 +527,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Bomb V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Launches an exploding ball of damaging energy at a distant area.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -517,12 +547,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">920</resource-min>
 					<resource-opt amount="5">1120</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">920</resource-min>
 					<resource-opt amount="9">1120</resource-opt>
 				</resource>
@@ -538,7 +570,10 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
 			<item-attribute type="castDelay">30</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
+			<item-attribute type="effectDescription">Increases energy resistance.</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -550,7 +585,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Energy Resistance I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Creates an inverse resonance field around the target to reduce the intensity of incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -560,7 +595,6 @@
 				<tier-attribute type="effect">Energy Resistance I</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+8 Energy Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -569,6 +603,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="4">150</resource-opt>
 				</resource>
@@ -576,7 +611,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Resistance II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Creates an inverse resonance field around the target to reduce the intensity of incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -586,7 +621,6 @@
 				<tier-attribute type="effect">Energy Resistance II</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+38 Energy Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -596,12 +630,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="4">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">250</resource-min>
 					<resource-opt amount="7">375</resource-opt>
 				</resource>
@@ -609,7 +645,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Resistance III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Creates an inverse resonance field around the target to reduce the intensity of incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -619,7 +655,6 @@
 				<tier-attribute type="effect">Energy Resistance III</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+68 Energy Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -630,12 +665,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">450</resource-min>
 					<resource-opt amount="7">600</resource-opt>
 				</resource>
@@ -643,7 +680,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Resistance IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Creates an inverse resonance field around the target to reduce the intensity of incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -653,7 +690,6 @@
 				<tier-attribute type="effect">Energy Resistance IV</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+98 Energy Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -665,12 +701,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="4">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">650</resource-min>
 					<resource-opt amount="7">825</resource-opt>
 				</resource>
@@ -678,7 +716,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Resistance V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Creates an inverse resonance field around the target to reduce the intensity of incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -688,7 +726,6 @@
 				<tier-attribute type="effect">Energy Resistance V</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+128 Energy Resistance</tier-attribute>
-				<tier-attribute type="effectDuration">15:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -701,12 +738,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="4">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">850</resource-min>
 					<resource-opt amount="7">1050</resource-opt>
 				</resource>
@@ -722,6 +761,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">15</item-attribute>
 			<item-attribute type="castDelay">45</item-attribute>
 			<item-attribute type="damageType">energy</item-attribute>
 			<item-attribute type="skill">Energy</item-attribute>
@@ -737,7 +777,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Energy Strike I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Calls down a powerful, focused beam of damaging energy.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -753,6 +793,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="4">150</resource-opt>
 				</resource>
@@ -760,7 +801,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Strike II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Calls down a powerful, focused beam of damaging energy.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -777,12 +818,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="4">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">250</resource-min>
 					<resource-opt amount="7">375</resource-opt>
 				</resource>
@@ -790,7 +833,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Strike III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Calls down a powerful, focused beam of damaging energy.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -808,12 +851,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">450</resource-min>
 					<resource-opt amount="7">600</resource-opt>
 				</resource>
@@ -821,7 +866,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Strike IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Calls down a powerful, focused beam of damaging energy.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -840,12 +885,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="4">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">650</resource-min>
 					<resource-opt amount="7">825</resource-opt>
 				</resource>
@@ -853,7 +900,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Strike V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Calls down a powerful, focused beam of damaging energy.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -873,12 +920,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="4">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">850</resource-min>
 					<resource-opt amount="7">1050</resource-opt>
 				</resource>
@@ -895,6 +944,8 @@
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
 			<item-attribute type="castDelay">30</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
+			<item-attribute type="effectDescription">Increases energy ward.</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -906,7 +957,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Energy Ward  I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>The target is surrounded by an energy field that has a chance of completely deflecting incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -925,6 +976,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">80</resource-min>
 					<resource-opt amount="4">180</resource-opt>
 				</resource>
@@ -932,7 +984,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Ward II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>The target is surrounded by an energy field that has a chance of completely deflecting incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -952,12 +1004,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">280</resource-min>
 					<resource-opt amount="4">405</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">280</resource-min>
 					<resource-opt amount="7">405</resource-opt>
 				</resource>
@@ -965,7 +1019,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Ward III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>The target is surrounded by an energy field that has a chance of completely deflecting incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -986,12 +1040,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">480</resource-min>
 					<resource-opt amount="4">630</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">480</resource-min>
 					<resource-opt amount="7">630</resource-opt>
 				</resource>
@@ -999,7 +1055,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Ward IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>The target is surrounded by an energy field that has a chance of completely deflecting incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1021,12 +1077,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">680</resource-min>
 					<resource-opt amount="4">855</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">680</resource-min>
 					<resource-opt amount="7">855</resource-opt>
 				</resource>
@@ -1034,7 +1092,7 @@
 		</tier>
 		<tier>
 			<tier-name>Energy Ward V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>The target is surrounded by an energy field that has a chance of completely deflecting incoming energy attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1057,12 +1115,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">880</resource-min>
 					<resource-opt amount="4">1080</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">880</resource-min>
 					<resource-opt amount="7">1080</resource-opt>
 				</resource>
@@ -1093,7 +1153,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Improved Energy Bolt I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This casts a concentrated bolt of energy at a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1109,6 +1169,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -1116,7 +1177,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Energy Bolt II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This casts a concentrated bolt of energy at a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1133,12 +1194,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -1146,7 +1209,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Energy Bolt III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This casts a concentrated bolt of energy at a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1164,12 +1227,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -1177,7 +1242,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Energy Bolt IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This casts a concentrated bolt of energy at a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1196,12 +1261,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -1209,7 +1276,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Energy Bolt V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This casts a concentrated bolt of energy at a target.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1229,12 +1296,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>

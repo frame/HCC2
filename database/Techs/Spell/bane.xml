@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Bane</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Spell</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Bane</tech-name>
+		<tech-icon>icon_technique_02_00_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>primal</tech-keyword>
+				<tech-keyword>spell</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>skill_use_magic_blight</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>ranged</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>tech_kicker_augment</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Bane I</tier-name>
+			<tier-origin>Spell: Bane I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Gives the spell a 25% chance to reduce the target's strength and dexterity by 15% for 30 seconds.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Forest Crawler Breeder Abdomen</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Bane II</tier-name>
+			<tier-origin>Spell: Bane II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Gives the spell a 35% chance to reduce the target's strength and dexterity by 15% for 30 seconds.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Tomb Crawler Venom</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Bane III</tier-name>
+			<tier-origin>Spell: Bane III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Gives the spell a 45% chance to reduce the target's strength and dexterity by 15% for 30 seconds.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Mountain Wolf Fang</component>
+				<component amount = "1">Nix Beetle Thorax</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Bane IV</tier-name>
+			<tier-origin>Spell: Bane IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Gives the spell a 55% chance to reduce the target's strength and dexterity by 15% for 30 seconds.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "2">Topaz Golem Chip</component>
+				<component amount = "1">Arbotus Twig</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Bane V</tier-name>
+			<tier-origin>Spell: Bane V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Gives the spell a 65% chance to reduce the target's strength and dexterity by 15% for 30 seconds.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Bhal'kuk Gatherer's Ear</component>
+				<component amount = "2">Yew Treant Knot</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

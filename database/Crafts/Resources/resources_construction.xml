@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Resources - Construction</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Resources</formulaset-category>
@@ -12,12 +12,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Rough Leather Construction Canvas</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -25,12 +28,14 @@
 				<resource>
 					<resource-name>Cedar Leather Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">100</resource-min>
 					<resource-opt amount="10">300</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">100</resource-min>
 					<resource-opt amount="20">300</resource-opt>
 				</resource>
@@ -38,10 +43,11 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Leather Construction Canvas</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -49,12 +55,14 @@
 				<resource>
 					<resource-name>Elm Leather Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
 					<resource-opt amount="10">525</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">300</resource-min>
 					<resource-opt amount="20">525</resource-opt>
 				</resource>
@@ -62,10 +70,11 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Leather Construction Canvas</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -73,12 +82,14 @@
 				<resource>
 					<resource-name>Maple Leather Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
 					<resource-opt amount="10">975</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">700</resource-min>
 					<resource-opt amount="20">975</resource-opt>
 				</resource>
@@ -86,10 +97,11 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Leather Construction Canvas</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -97,12 +109,14 @@
 				<resource>
 					<resource-name>Oak Leather Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
 					<resource-opt amount="10">750</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">500</resource-min>
 					<resource-opt amount="20">750</resource-opt>
 				</resource>
@@ -110,10 +124,11 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Leather Construction Canvas</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -121,12 +136,14 @@
 				<resource>
 					<resource-name>Yew Leather Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
 					<resource-opt amount="10">1175</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">500</resource-min>
 					<resource-opt amount="20">750</resource-opt>
 				</resource>
@@ -141,12 +158,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Essence Construction Source</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -154,6 +174,7 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">100</resource-min>
 					<resource-opt amount="20">300</resource-opt>
 				</resource>
@@ -161,10 +182,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Essence Construction Source</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -172,6 +194,7 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">300</resource-min>
 					<resource-opt amount="20">525</resource-opt>
 				</resource>
@@ -179,10 +202,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Essence Construction Source</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -190,6 +214,7 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">500</resource-min>
 					<resource-opt amount="20">750</resource-opt>
 				</resource>
@@ -197,10 +222,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Essence Construction Source</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -208,6 +234,7 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">700</resource-min>
 					<resource-opt amount="20">975</resource-opt>
 				</resource>
@@ -215,10 +242,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Essence Construction Source</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -226,17 +254,19 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">900</resource-min>
-					<resource-opt amount="20">1175</resource-opt>
+					<resource-opt amount="20">1200</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Radiant Essence Construction Source</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -244,6 +274,7 @@
 				<resource>
 					<resource-name>Radiant Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">1100</resource-min>
 					<resource-opt amount="20">1425</resource-opt>
 				</resource>
@@ -258,13 +289,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Essence Construction Sphere</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A large sphere of processed dim essence, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -272,6 +305,7 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1</resource-min>
 					<resource-opt amount="15">200</resource-opt>
 				</resource>
@@ -279,11 +313,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Essence Construction Sphere</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A large sphere of processed pale essence, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -291,6 +325,7 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">200</resource-min>
 					<resource-opt amount="15">425</resource-opt>
 				</resource>
@@ -298,11 +333,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Essence Construction Sphere</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A large sphere of processed glowing essence, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -310,6 +345,7 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -317,11 +353,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Essence Construction Sphere</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A large sphere of processed bright essence, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -329,6 +365,7 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">600</resource-min>
 					<resource-opt amount="15">875</resource-opt>
 				</resource>
@@ -336,11 +373,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Essence Construction Sphere</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A large sphere of processed shining essence, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -348,6 +385,7 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">800</resource-min>
 					<resource-opt amount="15">1075</resource-opt>
 				</resource>
@@ -355,11 +393,11 @@
 		</tier>
 		<tier>
 			<tier-name>Radiant Essence Construction Sphere</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
 			<tier-desc>A large sphere of processed radiant essence, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -367,6 +405,7 @@
 				<resource>
 					<resource-name>Radiant Essence Orb</resource-name>
 					<resource-skill>Essence Structuring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1000</resource-min>
 					<resource-opt amount="15">1325</resource-opt>
 				</resource>
@@ -381,13 +420,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Flax Construction Bolt</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A bolt of cloth made from spun flax, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -395,6 +436,7 @@
 				<resource>
 					<resource-name>Flax Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1</resource-min>
 					<resource-opt amount="15">200</resource-opt>
 				</resource>
@@ -402,11 +444,11 @@
 		</tier>
 		<tier>
 			<tier-name>Kenaf Construction Bolt</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A bolt of cloth made from spun kenaf, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -414,6 +456,7 @@
 				<resource>
 					<resource-name>Kenaf Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">200</resource-min>
 					<resource-opt amount="15">425</resource-opt>
 				</resource>
@@ -421,11 +464,11 @@
 		</tier>
 		<tier>
 			<tier-name>Cotton Construction Bolt</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A bolt of cloth made from spun cotton, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -433,6 +476,7 @@
 				<resource>
 					<resource-name>Cotton Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -440,11 +484,11 @@
 		</tier>
 		<tier>
 			<tier-name>Silk Construction Bolt</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A bolt of cloth made from spun silk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -452,6 +496,7 @@
 				<resource>
 					<resource-name>Silk Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">600</resource-min>
 					<resource-opt amount="15">875</resource-opt>
 				</resource>
@@ -459,11 +504,11 @@
 		</tier>
 		<tier>
 			<tier-name>Ironsilk Construction Bolt</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A bolt of cloth made from spun ironsilk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -471,6 +516,7 @@
 				<resource>
 					<resource-name>Ironsilk Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">800</resource-min>
 					<resource-opt amount="15">1075</resource-opt>
 				</resource>
@@ -478,11 +524,11 @@
 		</tier>
 		<tier>
 			<tier-name>Steelsilk Construction Bolt</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
 			<tier-desc>A bolt of cloth made from spun steelsilk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -490,6 +536,7 @@
 				<resource>
 					<resource-name>Steelsilk Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1000</resource-min>
 					<resource-opt amount="15">1325</resource-opt>
 				</resource>
@@ -504,12 +551,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Flax Construction Tapestries</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A bolt of cloth made from spun steelsilk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -517,6 +567,7 @@
 				<resource>
 					<resource-name>Flax Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">100</resource-min>
 					<resource-opt amount="20">300</resource-opt>
 				</resource>
@@ -524,10 +575,11 @@
 		</tier>
 		<tier>
 			<tier-name>Kenaf Construction Tapestries</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A bolt of cloth made from spun steelsilk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -535,6 +587,7 @@
 				<resource>
 					<resource-name>Kenaf Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">300</resource-min>
 					<resource-opt amount="20">525</resource-opt>
 				</resource>
@@ -542,10 +595,11 @@
 		</tier>
 		<tier>
 			<tier-name>Cotton Construction Tapestries</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A bolt of cloth made from spun steelsilk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -553,6 +607,7 @@
 				<resource>
 					<resource-name>Cotton Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">500</resource-min>
 					<resource-opt amount="20">750</resource-opt>
 				</resource>
@@ -560,10 +615,11 @@
 		</tier>
 		<tier>
 			<tier-name>Silk Construction Tapestries</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A bolt of cloth made from spun steelsilk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -571,6 +627,7 @@
 				<resource>
 					<resource-name>Silk Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">700</resource-min>
 					<resource-opt amount="20">975</resource-opt>
 				</resource>
@@ -578,10 +635,11 @@
 		</tier>
 		<tier>
 			<tier-name>Ironsilk Construction Tapestries</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A bolt of cloth made from spun steelsilk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -589,6 +647,7 @@
 				<resource>
 					<resource-name>Ironsilk Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">900</resource-min>
 					<resource-opt amount="20">1200</resource-opt>
 				</resource>
@@ -596,10 +655,11 @@
 		</tier>
 		<tier>
 			<tier-name>Steelsilk Construction Tapestries</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>A bolt of cloth made from spun steelsilk, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -607,6 +667,7 @@
 				<resource>
 					<resource-name>Steelsilk Spool</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">1100</resource-min>
 					<resource-opt amount="20">1425</resource-opt>
 				</resource>
@@ -621,13 +682,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Construction Tarp</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -635,12 +698,14 @@
 				<resource>
 					<resource-name>Cedar Hide Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">1</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">600</resource-min>
 					<resource-opt amount="15">875</resource-opt>
 				</resource>
@@ -648,10 +713,11 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Construction Tarp</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -659,12 +725,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -672,10 +740,11 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Construction Tarp</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -683,12 +752,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -696,10 +767,11 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Construction Tarp</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -707,12 +779,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">600</resource-min>
 					<resource-opt amount="15">875</resource-opt>
 				</resource>
@@ -720,10 +794,11 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Construction Tarp</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -731,12 +806,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -744,10 +821,11 @@
 		</tier>
 		<tier>
 			<tier-name>Radiant Hide Construction Tarp</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -755,12 +833,14 @@
 				<resource>
 					<resource-name>Thornwood Hide Tannin</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">1000</resource-min>
 					<resource-opt amount="5">1325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -775,12 +855,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Bronze Construction Jointing</tier-name>
-			<tier-lvl name="I Bronze">1</tier-lvl>
+			<tier-lvl name="Tier I">1</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -788,6 +871,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">100</resource-min>
 					<resource-opt amount="20">300</resource-opt>
 				</resource>
@@ -795,10 +879,11 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Construction Jointing</tier-name>
-			<tier-lvl name="II Iron">2</tier-lvl>
+			<tier-lvl name="Tier II">2</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -806,53 +891,19 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">300</resource-min>
 					<resource-opt amount="20">525</resource-opt>
-				</resource>
-			</resources>
-		</tier>
-		<tier>
-			<tier-name>Silver Construction Jointing</tier-name>
-			<tier-lvl name="II Silver">2</tier-lvl>
-			<tier-allowedtechniques>0</tier-allowedtechniques>
-			<tier-attributes>
-      </tier-attributes>
-			<tier-keywords>
-				<tier-keyword>tier_2</tier-keyword>
-			</tier-keywords>
-			<resources>
-				<resource>
-					<resource-name>Silver Bar</resource-name>
-					<resource-skill>Fitting</resource-skill>
-					<resource-min amount="40">300</resource-min>
-					<resource-opt amount="20">525</resource-opt>
-				</resource>
-			</resources>
-		</tier>
-		<tier>
-			<tier-name>Gold Construction Jointing</tier-name>
-			<tier-lvl name="III Gold">3</tier-lvl>
-			<tier-allowedtechniques>0</tier-allowedtechniques>
-			<tier-attributes>
-      </tier-attributes>
-			<tier-keywords>
-				<tier-keyword>tier_3</tier-keyword>
-			</tier-keywords>
-			<resources>
-				<resource>
-					<resource-name>Gold Bar</resource-name>
-					<resource-skill>Fitting</resource-skill>
-					<resource-min amount="40">500</resource-min>
-					<resource-opt amount="20">750</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Steel Construction Jointing</tier-name>
-			<tier-lvl name="III Steel">3</tier-lvl>
+			<tier-lvl name="Tier III">3</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -860,6 +911,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">500</resource-min>
 					<resource-opt amount="20">750</resource-opt>
 				</resource>
@@ -867,10 +919,11 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Construction Jointing</tier-name>
-			<tier-lvl name="IV Cobalt">4</tier-lvl>
+			<tier-lvl name="Tier IV">4</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -878,24 +931,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
-					<resource-min amount="40">700</resource-min>
-					<resource-opt amount="20">975</resource-opt>
-				</resource>
-			</resources>
-		</tier>
-		<tier>
-			<tier-name>Platinum Construction Jointing</tier-name>
-			<tier-lvl name="IV Platinum">4</tier-lvl>
-			<tier-allowedtechniques>0</tier-allowedtechniques>
-			<tier-attributes>
-      </tier-attributes>
-			<tier-keywords>
-				<tier-keyword>tier_4</tier-keyword>
-			</tier-keywords>
-			<resources>
-				<resource>
-					<resource-name>Platinum Bar</resource-name>
-					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">700</resource-min>
 					<resource-opt amount="20">975</resource-opt>
 				</resource>
@@ -903,10 +939,11 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Construction Jointing</tier-name>
-			<tier-lvl name="V Mithril">5</tier-lvl>
+			<tier-lvl name="Tier V">5</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -914,17 +951,19 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">900</resource-min>
-					<resource-opt amount="20">1175</resource-opt>
+					<resource-opt amount="20">1200</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Adamantium Construction Jointing</tier-name>
-			<tier-lvl name="VI Adamantium">6</tier-lvl>
+			<tier-lvl name="Tier VI">6</tier-lvl>
+			<tier-desc>This tarp is made from quality hide.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -932,6 +971,7 @@
 				<resource>
 					<resource-name>Adamantium Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">1100</resource-min>
 					<resource-opt amount="20">1425</resource-opt>
 				</resource>
@@ -946,13 +986,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Bronze Construction Sheeting</tier-name>
-			<tier-lvl name="I Bronze">1</tier-lvl>
+			<tier-lvl name="Tier I">1</tier-lvl>
 			<tier-desc>A large sheet pounded from bronze bars, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -960,6 +1002,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1</resource-min>
 					<resource-opt amount="15">200</resource-opt>
 				</resource>
@@ -967,11 +1010,11 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Construction Sheeting</tier-name>
-			<tier-lvl name="II Iron">2</tier-lvl>
+			<tier-lvl name="Tier II">2</tier-lvl>
 			<tier-desc>A large sheet pounded from iron bars, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -979,56 +1022,19 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">200</resource-min>
 					<resource-opt amount="15">425</resource-opt>
-				</resource>
-			</resources>
-		</tier>
-		<tier>
-			<tier-name>Silver Construction Sheeting</tier-name>
-			<tier-lvl name="II Silver">2</tier-lvl>
-			<tier-desc>A large sheet pounded from silver bars, used in structure construction.</tier-desc>
-			<tier-allowedtechniques>0</tier-allowedtechniques>
-			<tier-attributes>
-      </tier-attributes>
-			<tier-keywords>
-				<tier-keyword>tier_2</tier-keyword>
-			</tier-keywords>
-			<resources>
-				<resource>
-					<resource-name>Silver Bar</resource-name>
-					<resource-skill>Fitting</resource-skill>
-					<resource-min amount="30">200</resource-min>
-					<resource-opt amount="15">425</resource-opt>
-				</resource>
-			</resources>
-		</tier>
-		<tier>
-			<tier-name>Gold Construction Sheeting</tier-name>
-			<tier-lvl name="III Gold">3</tier-lvl>
-			<tier-desc>A large sheet pounded from gold bars, used in structure construction.</tier-desc>
-			<tier-allowedtechniques>0</tier-allowedtechniques>
-			<tier-attributes>
-      </tier-attributes>
-			<tier-keywords>
-				<tier-keyword>tier_3</tier-keyword>
-			</tier-keywords>
-			<resources>
-				<resource>
-					<resource-name>Gold Bar</resource-name>
-					<resource-skill>Fitting</resource-skill>
-					<resource-min amount="30">400</resource-min>
-					<resource-opt amount="15">650</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Steel Construction Sheeting</tier-name>
-			<tier-lvl name="III Steel">3</tier-lvl>
+			<tier-lvl name="Tier III">3</tier-lvl>
 			<tier-desc>A large sheet pounded from steel bars, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -1036,6 +1042,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -1043,11 +1050,11 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Construction Sheeting</tier-name>
-			<tier-lvl name="IV Cobalt">4</tier-lvl>
+			<tier-lvl name="Tier IV">4</tier-lvl>
 			<tier-desc>A large sheet pounded from cobalt bars, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -1055,25 +1062,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
-					<resource-min amount="30">600</resource-min>
-					<resource-opt amount="15">875</resource-opt>
-				</resource>
-			</resources>
-		</tier>
-		<tier>
-			<tier-name>Platinum Construction Sheeting</tier-name>
-			<tier-lvl name="IV Platinum">4</tier-lvl>
-			<tier-desc>A large sheet pounded from platinum bars, used in structure construction.</tier-desc>
-			<tier-allowedtechniques>0</tier-allowedtechniques>
-			<tier-attributes>
-      </tier-attributes>
-			<tier-keywords>
-				<tier-keyword>tier_4</tier-keyword>
-			</tier-keywords>
-			<resources>
-				<resource>
-					<resource-name>Platinum Bar</resource-name>
-					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">600</resource-min>
 					<resource-opt amount="15">875</resource-opt>
 				</resource>
@@ -1081,11 +1070,11 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Construction Sheeting</tier-name>
-			<tier-lvl name="V Mithril">5</tier-lvl>
+			<tier-lvl name="Tier V">5</tier-lvl>
 			<tier-desc>A large sheet pounded from mithril bars, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -1093,6 +1082,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">800</resource-min>
 					<resource-opt amount="15">1075</resource-opt>
 				</resource>
@@ -1100,11 +1090,11 @@
 		</tier>
 		<tier>
 			<tier-name>Adamantium Construction Sheeting</tier-name>
-			<tier-lvl name="VI Adamantium">6</tier-lvl>
+			<tier-lvl name="Tier VI">6</tier-lvl>
 			<tier-desc>A large sheet pounded from adamantium bars, used in structure construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -1112,6 +1102,7 @@
 				<resource>
 					<resource-name>Adamantium Bar</resource-name>
 					<resource-skill>Fitting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1000</resource-min>
 					<resource-opt amount="15">1325</resource-opt>
 				</resource>
@@ -1126,13 +1117,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Construction Block</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Made from sandstone bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -1140,6 +1133,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1</resource-min>
 					<resource-opt amount="15">200</resource-opt>
 				</resource>
@@ -1147,11 +1141,11 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Construction Block</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Made from slate bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -1159,6 +1153,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">200</resource-min>
 					<resource-opt amount="15">425</resource-opt>
 				</resource>
@@ -1166,11 +1161,11 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Construction Block</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Made from granite bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -1178,6 +1173,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -1185,11 +1181,11 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Construction Block</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Made from obsidian bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -1197,6 +1193,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">600</resource-min>
 					<resource-opt amount="15">875</resource-opt>
 				</resource>
@@ -1204,11 +1201,11 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Construction Block</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Made from marble bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -1216,6 +1213,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">800</resource-min>
 					<resource-opt amount="15">1075</resource-opt>
 				</resource>
@@ -1223,11 +1221,11 @@
 		</tier>
 		<tier>
 			<tier-name>Travertine Construction Block</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
 			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -1235,6 +1233,7 @@
 				<resource>
 					<resource-name>Travertine Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1000</resource-min>
 					<resource-opt amount="15">1325</resource-opt>
 				</resource>
@@ -1249,12 +1248,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Construction Keystones</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -1262,6 +1264,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">100</resource-min>
 					<resource-opt amount="20">300</resource-opt>
 				</resource>
@@ -1269,10 +1272,11 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Construction Keystones</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -1280,6 +1284,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">300</resource-min>
 					<resource-opt amount="20">525</resource-opt>
 				</resource>
@@ -1287,10 +1292,11 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Construction Keystones</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -1298,6 +1304,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">500</resource-min>
 					<resource-opt amount="20">750</resource-opt>
 				</resource>
@@ -1305,10 +1312,11 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Construction Keystones</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -1316,6 +1324,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">700</resource-min>
 					<resource-opt amount="20">975</resource-opt>
 				</resource>
@@ -1323,10 +1332,11 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Construction Keystones</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -1334,17 +1344,19 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">900</resource-min>
-					<resource-opt amount="20">1175</resource-opt>
+					<resource-opt amount="20">1200</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Travertine Construction Keystones</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
 			</tier-keywords>
@@ -1352,6 +1364,7 @@
 				<resource>
 					<resource-name>Travertine Brick</resource-name>
 					<resource-skill>Masonry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">1100</resource-min>
 					<resource-opt amount="20">1425</resource-opt>
 				</resource>
@@ -1366,12 +1379,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Cedar Construction Braces</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -1379,6 +1395,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">100</resource-min>
 					<resource-opt amount="20">300</resource-opt>
 				</resource>
@@ -1386,19 +1403,19 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Construction Braces</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
-				<tier-keyword>resourcetype_processed</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">300</resource-min>
 					<resource-opt amount="20">525</resource-opt>
 				</resource>
@@ -1406,10 +1423,11 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Construction Braces</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -1417,6 +1435,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">500</resource-min>
 					<resource-opt amount="20">750</resource-opt>
 				</resource>
@@ -1424,10 +1443,11 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Construction Braces</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -1435,6 +1455,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">700</resource-min>
 					<resource-opt amount="20">975</resource-opt>
 				</resource>
@@ -1442,37 +1463,39 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Construction Braces</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">900</resource-min>
-					<resource-opt amount="20">1175</resource-opt>
+					<resource-opt amount="20">1200</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Thornwood Construction Braces</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>Made from travertine bricks, this block is used in construction.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Thornwood Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="40">1100</resource-min>
 					<resource-opt amount="20">1425</resource-opt>
 				</resource>
@@ -1487,13 +1510,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">120</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Cedar Construction Timber</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A large piece of cedar timber, used in construction projects.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -1501,6 +1526,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1</resource-min>
 					<resource-opt amount="15">200</resource-opt>
 				</resource>
@@ -1508,20 +1534,19 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Construction Timber</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A large piece of elm timber, used in construction projects.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
-				<tier-keyword>resourcetype_processed</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">200</resource-min>
 					<resource-opt amount="15">425</resource-opt>
 				</resource>
@@ -1529,11 +1554,11 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Construction Timber</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A large piece of oak timber, used in construction projects.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -1541,6 +1566,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">400</resource-min>
 					<resource-opt amount="15">650</resource-opt>
 				</resource>
@@ -1548,11 +1574,11 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Construction Timber</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A large piece of maple timber, used in construction projects.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -1560,6 +1586,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">600</resource-min>
 					<resource-opt amount="15">875</resource-opt>
 				</resource>
@@ -1567,19 +1594,19 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Construction Timber</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A large piece of yew timber, used in construction projects.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">800</resource-min>
 					<resource-opt amount="15">1075</resource-opt>
 				</resource>
@@ -1587,19 +1614,19 @@
 		</tier>
 		<tier>
 			<tier-name>Thornwood Construction Timber</tier-name>
-			<tier-lvl>6</tier-lvl>
+			<tier-lvl name="">6</tier-lvl>
 			<tier-desc>A large piece of thornwood timber, used in construction projects.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_6</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Thornwood Board</resource-name>
 					<resource-skill>Carpentry</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="30">1000</resource-min>
 					<resource-opt amount="15">1325</resource-opt>
 				</resource>

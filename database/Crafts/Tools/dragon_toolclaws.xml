@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Dragon - Tool Claws</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Tools</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Dragon Tool Claw</item-name>
+		<item-icon>icon_formula_w_dng_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">10</item-attribute>
+			<item-attribute type="equipSlot">Dragon Claw</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>dragon_tool_claw</item-keyword>
+			<item-keyword>dragonscale</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Tool Claw</tier-name>
+			<tier-lvl name="Bronze Tool Claw">1</tier-lvl>
+			<tier-desc>A bronze gauntlet worn over a dragon’s claws, which can be imbued with a variety of crafting techniques.  It is important to note that a crafting claw does not replace dragon crafting abilities in any way.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">30</tier-attribute>
+				<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Mining (1) or Quarrying (1)</tier-attribute>
+				<tier-attribute type="statCap">Limits Dragon Scalescraft to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Lairshaping to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Spellcrafting to 250</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>formula_skill_beginner</tier-keyword>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill></resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">1</resource-min>
+					<resource-opt amount="12">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Tool Claw</tier-name>
+			<tier-lvl name="Iron Tool Claw">2</tier-lvl>
+			<tier-desc>An iron gauntlet worn over a dragon’s claws, which can be imbued with a variety of crafting techniques.  It is important to note that a crafting claw does not replace dragon crafting abilities in any way.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Mining (140) or Quarrying (140)</tier-attribute>
+				<tier-attribute type="statCap">Limits Dragon Scalescraft to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Lairshaping to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Spellcrafting to 450</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>formula_skill_beginner</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill></resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">200</resource-min>
+					<resource-opt amount="12">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Tool Claw</tier-name>
+			<tier-lvl name="Steel Tool Claw">3</tier-lvl>
+			<tier-desc>A steel gauntlet worn over a dragon’s claws, which can be imbued with a variety of crafting techniques.  It is important to note that a crafting claw does not replace dragon crafting abilities in any way.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">120</tier-attribute>
+				<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Mining (280) or Quarrying (280)</tier-attribute>
+				<tier-attribute type="statCap">Limits Dragon Scalescraft to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Lairshaping to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Spellcrafting to 650</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>formula_skill_journeyman</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill></resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">400</resource-min>
+					<resource-opt amount="12">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Tool Claw</tier-name>
+			<tier-lvl name="Cobalt Tool Claw">4</tier-lvl>
+			<tier-desc>A cobalt gauntlet worn over a dragon’s claws, which can be imbued with a variety of crafting techniques.  It is important to note that a crafting claw does not replace dragon crafting abilities in any way.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">240</tier-attribute>
+				<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Mining (420) or Quarrying (420)</tier-attribute>
+				<tier-attribute type="statCap">Limits Dragon Scalescraft to 850</tier-attribute>
+				<tier-attribute type="statCap">Limits Lairshaping to 850</tier-attribute>
+				<tier-attribute type="statCap">Limits Spellcrafting to 850</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>formula_skill_journeyman</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill></resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">600</resource-min>
+					<resource-opt amount="12">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Tool Claw</tier-name>
+			<tier-lvl name="Mithril Tool Claw">5</tier-lvl>
+			<tier-desc>A mithril gauntlet worn over a dragon’s claws, which can be imbued with a variety of crafting techniques.  It is important to note that a crafting claw does not replace dragon crafting abilities in any way.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">480</tier-attribute>
+				<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Mining (560) or Quarrying (560)</tier-attribute>
+				<tier-attribute type="statCap">Limits Dragon Scalescraft to 1050</tier-attribute>
+				<tier-attribute type="statCap">Limits Lairshaping to 1050</tier-attribute>
+				<tier-attribute type="statCap">Limits Spellcrafting to 1050</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>formula_skill_expert</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill></resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">800</resource-min>
+					<resource-opt amount="12">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Adamantium Tool Claw</tier-name>
+			<tier-lvl name="Adamantium Tool Claw">6</tier-lvl>
+			<tier-desc>An adamantium gauntlet worn over a dragon’s claws, which can be imbued with a variety of crafting techniques.  It is important to note that a crafting claw does not replace dragon crafting abilities in any way.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">960</tier-attribute>
+				<tier-attribute type="reqCurrentCraftLevel">Current Craft Level (1)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Mining (700) or Quarrying (700)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Adamantium Bar</resource-name>
+					<resource-skill></resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">1000</resource-min>
+					<resource-opt amount="12">1225</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

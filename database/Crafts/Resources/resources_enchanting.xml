@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Resources - Enchanting</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Resources</formulaset-category>
 	</formulaset-categories>
 	<item>
-		<item-name>Purified Orbs</item-name>
+		<item-name>Essence Orb Enchantment</item-name>
 		<item-icon>icon_formula_r_04_05_11.png</item-icon>
 		<item-batchqty>1</item-batchqty>
 		<item-attributes>
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">8</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Purified Dim Essence Orb</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="I Purified Dim Orb">1</tier-lvl>
 			<tier-desc>Filled with a dim essence, this orb looks like it would be useful for magical purposes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -26,6 +28,7 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">100</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
@@ -33,11 +36,11 @@
 		</tier>
 		<tier>
 			<tier-name>Purified Pale Essence Orb</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="II Purified Pale Orb">2</tier-lvl>
 			<tier-desc>Filled with a pale essence, this orb looks like it would be useful for magical purposes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -45,6 +48,7 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">300</resource-min>
 					<resource-opt amount="1">425</resource-opt>
 				</resource>
@@ -52,11 +56,11 @@
 		</tier>
 		<tier>
 			<tier-name>Purified Glowing Essence Orb</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="III Purified Glowing Orb">3</tier-lvl>
 			<tier-desc>Filled with a glowing essence, this orb looks like it would be useful for magical purposes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -64,6 +68,7 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">500</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
@@ -71,11 +76,11 @@
 		</tier>
 		<tier>
 			<tier-name>Purified Bright Essence Orb</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="IV Purified Bright Orb">4</tier-lvl>
 			<tier-desc>Filled with a bright essence, this orb looks like it would be useful for magical purposes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -83,6 +88,7 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">700</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
@@ -90,11 +96,11 @@
 		</tier>
 		<tier>
 			<tier-name>Purified Shining Essence Orb</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="V Purified Shining Orb">5</tier-lvl>
 			<tier-desc>Filled with a shining essence, this orb looks like it would be useful for magical purposes.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -102,8 +108,1115 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">900</resource-min>
 					<resource-opt amount="1">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dim Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="I Dim Orb">1</tier-lvl>
+			<tier-desc>A processed orb of dim essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">6</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Dim Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Pale Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="II Pale Orb">2</tier-lvl>
+			<tier-desc>A processed orb of pale essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Pale Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="1">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Glowing Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="III Glowing Orb">3</tier-lvl>
+			<tier-desc>A processed orb of glowing essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Glowing Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Bright Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="IV Bright Orb">4</tier-lvl>
+			<tier-desc>A processed orb of bright essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Bright Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shining Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="V Shining Orb">5</tier-lvl>
+			<tier-desc>A processed orb of shining essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Shining Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="1">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Purified Radiant Essence Orb</tier-name>
+			<tier-lvl name="VI Purified Radiant Orb">6</tier-lvl>
+			<tier-desc>A processed orb of radiant essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1100</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Radiant Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="VI Radiant Orb">6</tier-lvl>
+			<tier-desc>A processed orb of radiant essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Tainted Radiant Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="1">1225</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Board and Bark Enchanting</item-name>
+		<item-icon>icon_formula_r_05_02b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Bark (Enchanting)</tier-name>
+			<tier-lvl name="I Cedar Bark">1</tier-lvl>
+			<tier-desc>This rough bark was collected from a cedar tree.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Cedar Bark</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">100</resource-min>
+					<resource-opt amount="5">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Bark (Enchanting)</tier-name>
+			<tier-lvl name="II Elm Bark">2</tier-lvl>
+			<tier-desc>This rough bark was collected from a elm tree.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Elm Bark</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">300</resource-min>
+					<resource-opt amount="5">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Bark (Enchanting)</tier-name>
+			<tier-lvl name="III Oak Bark">3</tier-lvl>
+			<tier-desc>This rough bark was collected from a oak tree.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Oak Bark</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">500</resource-min>
+					<resource-opt amount="5">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Bark (Enchanting)</tier-name>
+			<tier-lvl name="IV Maple Bark">4</tier-lvl>
+			<tier-desc>This rough bark was collected from a maple tree.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Maple Bark</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">700</resource-min>
+					<resource-opt amount="5">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew (Enchanting)</tier-name>
+			<tier-lvl name="V Yew Bark">5</tier-lvl>
+			<tier-desc>This rough bark was collected from a yew tree.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Yew Bark</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">900</resource-min>
+					<resource-opt amount="5">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cedar Board (Enchanting)</tier-name>
+			<tier-lvl name="I Cedar Board">1</tier-lvl>
+			<tier-desc>A processed form of cedar used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Cedar Board</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="3">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Board (Enchanting)</tier-name>
+			<tier-lvl name="II Elm Board">2</tier-lvl>
+			<tier-desc>A processed form of elm used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Elm Board</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Board (Enchanting)</tier-name>
+			<tier-lvl name="III Oak Board">3</tier-lvl>
+			<tier-desc>A processed form of oak used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Oak Board</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Board (Enchanting)</tier-name>
+			<tier-lvl name="IV Maple Board">4</tier-lvl>
+			<tier-desc>A processed form of maple used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Maple Board</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Board (Enchanting)</tier-name>
+			<tier-lvl name="V Yew Board">5</tier-lvl>
+			<tier-desc>A processed form of yew used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Yew Board</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Cut Gem Enchanting</item-name>
+		<item-icon>icon_formula_r_06_03b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Garnet (Enchanting)</tier-name>
+			<tier-lvl name="I Garnet">1</tier-lvl>
+			<tier-desc>Processed from uncut garnet, this gemstone is used in tradeskills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Garnet</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="3">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Malachite (Enchanting)</tier-name>
+			<tier-lvl name="I Malachite">1</tier-lvl>
+			<tier-desc>Processed from uncut malachite, this gemstone is used in tradeskills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Malachite</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="3">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Turquoise (Enchanting)</tier-name>
+			<tier-lvl name="I Turquoise">1</tier-lvl>
+			<tier-desc>Processed from uncut turquoise, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Turquoise</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="3">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amethyst (Enchanting)</tier-name>
+			<tier-lvl name="II Amethyst">2</tier-lvl>
+			<tier-desc>Processed from uncut amethyst, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Amethyst</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lapis Lazuli (Enchanting)</tier-name>
+			<tier-lvl name="II Lapis Lazuli">2</tier-lvl>
+			<tier-desc>Processed from uncut lapis lazuli, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Lapis Lazuli</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Rose Quartz (Enchanting)</tier-name>
+			<tier-lvl name="II Rose Quartz">2</tier-lvl>
+			<tier-desc>Processed from uncut rose quartz, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Rose Quartz</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Aquamarine (Enchanting)</tier-name>
+			<tier-lvl name="III Aquamarine">3</tier-lvl>
+			<tier-desc>Processed from uncut aquamarine, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Aquamarine</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Citrine (Enchanting)</tier-name>
+			<tier-lvl name="III Citrine">3</tier-lvl>
+			<tier-desc>Processed from uncut citrine, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Citrine</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Jasper (Enchanting)</tier-name>
+			<tier-lvl name="III Jasper">3</tier-lvl>
+			<tier-desc>Processed from uncut jasper, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Jasper</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Jade (Enchanting)</tier-name>
+			<tier-lvl name="IV Jade">4</tier-lvl>
+			<tier-desc>Processed from uncut jade, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Jade</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Opal (Enchanting)</tier-name>
+			<tier-lvl name="IV Opal">4</tier-lvl>
+			<tier-desc>Processed from uncut opal, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Opal</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Topaz (Enchanting)</tier-name>
+			<tier-lvl name="IV Topaz">4</tier-lvl>
+			<tier-desc>Processed from uncut topaz, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Topaz</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fire Opal (Enchanting)</tier-name>
+			<tier-lvl name="V Fire Opal">5</tier-lvl>
+			<tier-desc>Processed from uncut fire opal, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Fire Opal</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Peridot (Enchanting)</tier-name>
+			<tier-lvl name="V Peridot">5</tier-lvl>
+			<tier-desc>Processed from uncut peridot, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Peridot</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Emerald (Enchanting)</tier-name>
+			<tier-lvl name="V Emerald">5</tier-lvl>
+			<tier-desc>Processed from uncut emerald, this gemstone is used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Emerald</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Fabric Spool Enchanting</item-name>
+		<item-icon>icon_formula_r_09_03b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Flax Spool (Enchanting)</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Threaded flax wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Flax Spool</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="3">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Spool (Enchanting)</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Threaded kenaf wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Kenaf Spool</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton (Enchanting)</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Threaded cotton wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Cotton Spool</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silk (Enchanting)</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Threaded silk wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Silk Spool</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ironsilk (Enchanting)</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Threaded ironsilk wound on a spool, used in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Ironsilk Spool</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Metal Bar Enchanting</item-name>
+		<item-icon>icon_formula_r_01_02b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Bar (Enchanting)</tier-name>
+			<tier-lvl name="I Bronze">1</tier-lvl>
+			<tier-desc>A processed form of copper and tin ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Bronze Bar</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="3">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Bar (Enchanting)</tier-name>
+			<tier-lvl name="II Iron">2</tier-lvl>
+			<tier-desc>A processed form of iron ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Iron Bar</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silver Bar (Enchanting)</tier-name>
+			<tier-lvl name="II Silver">2</tier-lvl>
+			<tier-desc>A processed form of silver ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Silver Bar</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Gold Bar (Enchanting)</tier-name>
+			<tier-lvl name="III Gold">3</tier-lvl>
+			<tier-desc>A processed form of gold ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Gold Bar</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Bar (Enchanting)</tier-name>
+			<tier-lvl name="III Steel">3</tier-lvl>
+			<tier-desc>A processed form of dark iron ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Steel Bar</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Bar (Enchanting)</tier-name>
+			<tier-lvl name="IV Cobalt">4</tier-lvl>
+			<tier-desc>A processed form of cobalt ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Cobalt Bar</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Platinum (Enchanting)</tier-name>
+			<tier-lvl name="IV Platinum">4</tier-lvl>
+			<tier-desc>A processed form of platinum ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Platinum Bar</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Bar (Enchanting)</tier-name>
+			<tier-lvl name="V Mithril">5</tier-lvl>
+			<tier-desc>A processed form of mithril ore, smelted for use in trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Mithril Bar</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Stone Brick Enchanting</item-name>
+		<item-icon>icon_formula_r_02_02b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Sandstone Brick (Enchanting)</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A processed form of sandstone, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Sandstone Brick</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="3">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Slate Brick (Enchanting)</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A processed form of slate, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Slate Brick</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Granite Brick (Enchanting)</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A processed form of granite, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Granite Brick</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">750</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Obsidian Brick (Enchanting)</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A processed form of obsidian, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Obsidian Brick</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Marble Brick (Enchanting)</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A processed form of marble, used in various trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Marble Brick</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Blighted Essence Orb Enchanting</item-name>
+		<item-icon>icon_formula_r_04_02b_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">8</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Blighted Dim Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A processed orb of dim essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Dim Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Pale Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A processed orb of pale essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Pale Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">300</resource-min>
+					<resource-opt amount="3">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Glowing Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A processed orb of glowing essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Glowing Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">725</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Bright Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A processed orb of bright essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Bright Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">700</resource-min>
+					<resource-opt amount="3">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blighted Shining Essence Orb (Enchanting)</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A processed orb of shining essence, used as a magical reagent in item construction.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blighted Shining Essence Orb</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
 				</resource>
 			</resources>
 		</tier>

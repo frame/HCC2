@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Spells - Life</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Spells</formulaset-category>
@@ -13,7 +13,9 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">27.5</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
+			<item-attribute type="castDelay">27</item-attribute>
+			<item-attribute type="effectDescription">Enhances the character's health statistic.</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -26,7 +28,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Enhance Health I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Mystically enhances the target's health.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -45,6 +47,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="4">150</resource-opt>
 				</resource>
@@ -52,7 +55,7 @@
 		</tier>
 		<tier>
 			<tier-name>Enhance Health II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Mystically enhances the target's health.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -72,12 +75,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="4">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">250</resource-min>
 					<resource-opt amount="7">375</resource-opt>
 				</resource>
@@ -85,7 +90,7 @@
 		</tier>
 		<tier>
 			<tier-name>Enhance Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Mystically enhances the target's health.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -106,12 +111,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">450</resource-min>
 					<resource-opt amount="7">600</resource-opt>
 				</resource>
@@ -119,7 +126,7 @@
 		</tier>
 		<tier>
 			<tier-name>Enhance Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Mystically enhances the target's health.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -141,12 +148,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="4">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">650</resource-min>
 					<resource-opt amount="7">825</resource-opt>
 				</resource>
@@ -154,7 +163,7 @@
 		</tier>
 		<tier>
 			<tier-name>Enhance Health V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Mystically enhances the target's health.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -177,12 +186,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="4">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">850</resource-min>
 					<resource-opt amount="7">1050</resource-opt>
 				</resource>
@@ -198,18 +209,19 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">27.5</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
+			<item-attribute type="castDelay">27</item-attribute>
+			<item-attribute type="effectDescription">Increases the health statistic.</item-attribute>
 		</item-attributes>
 		<item-keywords>
-			<item-keyword>gift_slot</item-keyword>
-			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>buff</item-keyword>
 			<item-keyword>skill_use_magic_life</item-keyword>
 			<item-keyword>spell</item-keyword>
-			<item-keyword>ranged</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Gift of Health I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A long-term blessing of increased health.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -219,7 +231,7 @@
 				<tier-attribute type="effect">Gift of Health I</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+8 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_1</tier-keyword>
@@ -229,6 +241,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">100</resource-opt>
 				</resource>
@@ -236,7 +249,7 @@
 		</tier>
 		<tier>
 			<tier-name>Gift of Health II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A long-term blessing of increased health.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -246,7 +259,7 @@
 				<tier-attribute type="effect">Gift of Health II</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+59 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -257,12 +270,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">325</resource-opt>
 				</resource>
@@ -270,7 +285,7 @@
 		</tier>
 		<tier>
 			<tier-name>Gift of Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A long-term blessing of increased health.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -280,7 +295,7 @@
 				<tier-attribute type="effect">Gift of Health III</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+110 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -292,12 +307,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">550</resource-opt>
 				</resource>
@@ -305,7 +322,7 @@
 		</tier>
 		<tier>
 			<tier-name>Gift of Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A long-term blessing of increased health.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -315,7 +332,7 @@
 				<tier-attribute type="effect">Gift of Health IV</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+161 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -328,12 +345,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">775</resource-opt>
 				</resource>
@@ -341,7 +360,7 @@
 		</tier>
 		<tier>
 			<tier-name>Gift of Health V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A long-term blessing of increased health.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -351,7 +370,7 @@
 				<tier-attribute type="effect">Gift of Health V</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+212 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
@@ -360,12 +379,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
@@ -380,31 +401,33 @@
 			<item-attribute type="equipSlot">Spellbook</item-attribute>
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
-			<item-attribute type="castDelay">27.5</item-attribute>
+			<item-attribute type="castDelay">27</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="effectDescription">Increases the armor and health statistic.</item-attribute>
 		</item-attributes>
 		<item-keywords>
-			<item-keyword>techclass_1</item-keyword>
-			<item-keyword>gift_slot</item-keyword>
-			<item-keyword>nonrepeatable</item-keyword>
+			<item-keyword>buff</item-keyword>
 			<item-keyword>skill_use_magic_life</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
 			<item-keyword>spell</item-keyword>
 			<item-keyword>ranged</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Gift of Toughness I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A long-term blessing of health and physical protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">9</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (1)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="range">20</tier-attribute>
 				<tier-attribute type="effect">Gift of Toughness I</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+1 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+4 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -413,6 +436,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">100</resource-opt>
 				</resource>
@@ -420,19 +444,18 @@
 		</tier>
 		<tier>
 			<tier-name>Gift of Toughness II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A long-term blessing of health and physical protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">54</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (200)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
-				<tier-attribute type="range">20</tier-attribute>
 				<tier-attribute type="effect">Gift of Toughness II</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+8 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+30 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -442,12 +465,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">325</resource-opt>
 				</resource>
@@ -455,19 +480,18 @@
 		</tier>
 		<tier>
 			<tier-name>Gift of Toughness III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A long-term blessing of health and physical protection.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (400)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
-				<tier-attribute type="range">30</tier-attribute>
 				<tier-attribute type="effect">Gift of Toughness III</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+16 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+55 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -478,12 +502,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">550</resource-opt>
 				</resource>
@@ -491,19 +517,18 @@
 		</tier>
 		<tier>
 			<tier-name>Gift of Toughness IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A long-term blessing of health and physical protection.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (600)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
-				<tier-attribute type="range">30</tier-attribute>
 				<tier-attribute type="effect">Gift of Toughness IV</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+23 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+81 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -515,12 +540,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">775</resource-opt>
 				</resource>
@@ -528,19 +555,18 @@
 		</tier>
 		<tier>
 			<tier-name>Gift of Toughness V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A long-term blessing of health and physical protection.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (800)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
-				<tier-attribute type="range">30</tier-attribute>
 				<tier-attribute type="effect">Gift of Toughness V</tier-attribute>
 				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+31 Armor</tier-attribute>
 				<tier-attribute type="effectStatBonus">+106 Health</tier-attribute>
-				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+				<tier-attribute type="effectDuration">2:00:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -553,12 +579,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
@@ -575,6 +603,7 @@
 			<item-attribute type="reqClass">BLDM, CLRC, DRU, SHMN, SPRT, HLR</item-attribute>
 			<item-attribute type="range">Self Only</item-attribute>
 			<item-attribute type="castDelay">20</item-attribute>
+			<item-attribute type="recycle">1:00</item-attribute>
 			<item-attribute type="area">15</item-attribute>
 			<item-attribute type="skill">Life</item-attribute>
 		</item-attributes>
@@ -591,7 +620,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Group Health I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Heals all nearby group members.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -607,6 +636,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="4">150</resource-opt>
 				</resource>
@@ -614,7 +644,7 @@
 		</tier>
 		<tier>
 			<tier-name>Group Health II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Heals all nearby group members.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -631,12 +661,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="4">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">250</resource-min>
 					<resource-opt amount="7">375</resource-opt>
 				</resource>
@@ -644,7 +676,7 @@
 		</tier>
 		<tier>
 			<tier-name>Group Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Heals all nearby group members.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -662,12 +694,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">450</resource-min>
 					<resource-opt amount="7">600</resource-opt>
 				</resource>
@@ -675,7 +709,7 @@
 		</tier>
 		<tier>
 			<tier-name>Group Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Heals all nearby group members.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -694,12 +728,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="4">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">650</resource-min>
 					<resource-opt amount="7">825</resource-opt>
 				</resource>
@@ -707,7 +743,7 @@
 		</tier>
 		<tier>
 			<tier-name>Group Health V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Heals all nearby group members.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -727,12 +763,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="4">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">850</resource-min>
 					<resource-opt amount="7">1050</resource-opt>
 				</resource>
@@ -748,6 +786,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">BLDM, CLRC, DRU, SHMN, SPRT, HLR</item-attribute>
 			<item-attribute type="range">20</item-attribute>
+			<item-attribute type="recycle">20</item-attribute>
 			<item-attribute type="castDelay">20</item-attribute>
 			<item-attribute type="skill">Life</item-attribute>
 		</item-attributes>
@@ -763,7 +802,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Health I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Heals a character.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -779,6 +818,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">120</resource-min>
 					<resource-opt amount="5">220</resource-opt>
 				</resource>
@@ -786,7 +826,7 @@
 		</tier>
 		<tier>
 			<tier-name>Health II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Heals a character.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -803,12 +843,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">320</resource-min>
 					<resource-opt amount="5">445</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">320</resource-min>
 					<resource-opt amount="9">445</resource-opt>
 				</resource>
@@ -816,7 +858,7 @@
 		</tier>
 		<tier>
 			<tier-name>Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Heals a character.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -834,12 +876,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">520</resource-min>
 					<resource-opt amount="5">670</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">520</resource-min>
 					<resource-opt amount="9">670</resource-opt>
 				</resource>
@@ -847,7 +891,7 @@
 		</tier>
 		<tier>
 			<tier-name>Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Heals a character.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -866,12 +910,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">720</resource-min>
 					<resource-opt amount="5">895</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">720</resource-min>
 					<resource-opt amount="9">895</resource-opt>
 				</resource>
@@ -879,7 +925,7 @@
 		</tier>
 		<tier>
 			<tier-name>Health V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Heals a character.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -899,12 +945,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">920</resource-min>
 					<resource-opt amount="5">1120</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">920</resource-min>
 					<resource-opt amount="9">1120</resource-opt>
 				</resource>
@@ -920,6 +968,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">20</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
 			<item-attribute type="castDelay">20</item-attribute>
 			<item-attribute type="skill">Life</item-attribute>
 		</item-attributes>
@@ -934,7 +983,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Improved Revitalize I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This is a more powerful version of the original revitalize.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -950,6 +999,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -957,7 +1007,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Revitalize II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This is a more powerful version of the original revitalize.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -974,12 +1024,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -987,7 +1039,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Revitalize III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This is a more powerful version of the original revitalize.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1005,12 +1057,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -1018,7 +1072,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Revitalize IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This is a more powerful version of the original revitalize.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1037,12 +1091,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -1050,7 +1106,7 @@
 		</tier>
 		<tier>
 			<tier-name>Improved Revitalize V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This is a more powerful version of the original revitalize.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1070,12 +1126,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>
@@ -1091,6 +1149,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">BLDM, CLRC, DRU, SHMN, SPRT, HLR</item-attribute>
 			<item-attribute type="range">20</item-attribute>
+			<item-attribute type="recycle">20</item-attribute>
 			<item-attribute type="castDelay">20</item-attribute>
 			<item-attribute type="skill">Life</item-attribute>
 		</item-attributes>
@@ -1106,7 +1165,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Major Health I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Heals the target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1122,6 +1181,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">170</resource-min>
 					<resource-opt amount="6">270</resource-opt>
 				</resource>
@@ -1129,7 +1189,7 @@
 		</tier>
 		<tier>
 			<tier-name>Major Health II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Heals the target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1146,12 +1206,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">370</resource-min>
 					<resource-opt amount="6">495</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">370</resource-min>
 					<resource-opt amount="11">495</resource-opt>
 				</resource>
@@ -1159,7 +1221,7 @@
 		</tier>
 		<tier>
 			<tier-name>Major Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Heals the target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1177,12 +1239,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">570</resource-min>
 					<resource-opt amount="6">720</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">570</resource-min>
 					<resource-opt amount="11">720</resource-opt>
 				</resource>
@@ -1190,7 +1254,7 @@
 		</tier>
 		<tier>
 			<tier-name>Major Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Heals the target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1209,12 +1273,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">770</resource-min>
 					<resource-opt amount="6">945</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">770</resource-min>
 					<resource-opt amount="11">945</resource-opt>
 				</resource>
@@ -1222,7 +1288,7 @@
 		</tier>
 		<tier>
 			<tier-name>Major Health V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Heals the target.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1242,12 +1308,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">970</resource-min>
 					<resource-opt amount="6">1170</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">970</resource-min>
 					<resource-opt amount="11">1170</resource-opt>
 				</resource>
@@ -1263,6 +1331,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">BLDM, CLRC, DRU, SHMN, SPRT, HLR</item-attribute>
 			<item-attribute type="range">20</item-attribute>
+			<item-attribute type="recycle">20</item-attribute>
 			<item-attribute type="castDelay">20</item-attribute>
 			<item-attribute type="skill">Life</item-attribute>
 		</item-attributes>
@@ -1278,7 +1347,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Minor Health I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This simplest of healing spells heals a minimal amount for a single target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1294,6 +1363,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">20</resource-min>
 					<resource-opt amount="3">120</resource-opt>
 				</resource>
@@ -1301,7 +1371,7 @@
 		</tier>
 		<tier>
 			<tier-name>Minor Health II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This simplest of healing spells heals a minimal amount for a single target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1318,12 +1388,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">220</resource-min>
 					<resource-opt amount="3">345</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">220</resource-min>
 					<resource-opt amount="5">345</resource-opt>
 				</resource>
@@ -1331,7 +1403,7 @@
 		</tier>
 		<tier>
 			<tier-name>Minor Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This simplest of healing spells heals a minimal amount for a single target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1349,12 +1421,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">420</resource-min>
 					<resource-opt amount="3">570</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">420</resource-min>
 					<resource-opt amount="5">570</resource-opt>
 				</resource>
@@ -1362,7 +1436,7 @@
 		</tier>
 		<tier>
 			<tier-name>Minor Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This simplest of healing spells heals a minimal amount for a single target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1381,12 +1455,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">620</resource-min>
 					<resource-opt amount="3">795</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">620</resource-min>
 					<resource-opt amount="5">795</resource-opt>
 				</resource>
@@ -1394,7 +1470,7 @@
 		</tier>
 		<tier>
 			<tier-name>Minor Health V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This simplest of healing spells heals a minimal amount for a single target.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1414,12 +1490,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">820</resource-min>
 					<resource-opt amount="3">1020</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">820</resource-min>
 					<resource-opt amount="5">1020</resource-opt>
 				</resource>
@@ -1435,6 +1513,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">0:30</item-attribute>
 			<item-attribute type="castDelay">44</item-attribute>
 			<item-attribute type="damageType">life</item-attribute>
 			<item-attribute type="skill">Life</item-attribute>
@@ -1450,7 +1529,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Mystic Blaze I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1466,6 +1545,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">30</resource-min>
 					<resource-opt amount="3">130</resource-opt>
 				</resource>
@@ -1473,7 +1553,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mystic Blaze II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1490,12 +1570,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">230</resource-min>
 					<resource-opt amount="3">355</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">230</resource-min>
 					<resource-opt amount="5">355</resource-opt>
 				</resource>
@@ -1503,7 +1585,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mystic Blaze III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1521,12 +1603,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">430</resource-min>
 					<resource-opt amount="3">580</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">430</resource-min>
 					<resource-opt amount="5">580</resource-opt>
 				</resource>
@@ -1534,7 +1618,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mystic Blaze IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1553,12 +1637,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">630</resource-min>
 					<resource-opt amount="3">805</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">630</resource-min>
 					<resource-opt amount="5">805</resource-opt>
 				</resource>
@@ -1566,7 +1652,7 @@
 		</tier>
 		<tier>
 			<tier-name>Mystic Blaze V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1586,12 +1672,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">830</resource-min>
 					<resource-opt amount="3">1030</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">830</resource-min>
 					<resource-opt amount="5">1030</resource-opt>
 				</resource>
@@ -1606,6 +1694,8 @@
 			<item-attribute type="equipSlot">Spellbook</item-attribute>
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="castDelay">30</item-attribute>
+			<item-attribute type="recycle">1:00</item-attribute>
 			<item-attribute type="range">30</item-attribute>
 			<item-attribute type="description">Attempts to remove hostile effects</item-attribute>
 			<item-attribute type="maxRemovals">5</item-attribute>
@@ -1621,14 +1711,13 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Purify I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Attempts to remove impurities and harmful enchantments from the target's body.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">15</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (100)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
-				<tier-attribute type="castDelay">30</tier-attribute>
 				<tier-attribute type="dispelQuality">100</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1638,6 +1727,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -1645,14 +1735,13 @@
 		</tier>
 		<tier>
 			<tier-name>Purify II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Attempts to remove impurities and harmful enchantments from the target's body.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">90</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (300)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
-				<tier-attribute type="castDelay">30</tier-attribute>
 				<tier-attribute type="dispelQuality">300</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1663,12 +1752,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -1676,14 +1767,13 @@
 		</tier>
 		<tier>
 			<tier-name>Purify III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Attempts to remove impurities and harmful enchantments from the target's body.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (500)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
-				<tier-attribute type="castDelay">30</tier-attribute>
 				<tier-attribute type="dispelQuality">500</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1695,12 +1785,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -1708,14 +1800,13 @@
 		</tier>
 		<tier>
 			<tier-name>Purify IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Attempts to remove impurities and harmful enchantments from the target's body.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (700)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
-				<tier-attribute type="castDelay">50</tier-attribute>
 				<tier-attribute type="dispelQuality">700</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1728,12 +1819,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -1741,14 +1834,13 @@
 		</tier>
 		<tier>
 			<tier-name>Purify V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Attempts to remove impurities and harmful enchantments from the target's body.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Life (900)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
-				<tier-attribute type="castDelay">30</tier-attribute>
 				<tier-attribute type="dispelQuality">900</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1762,12 +1854,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>
@@ -1783,7 +1877,9 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">27.5</item-attribute>
+			<item-attribute type="recycle">5</item-attribute>
+			<item-attribute type="castDelay">27</item-attribute>
+			<item-attribute type="effectDescription">Raises the character's health attribute.</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1796,7 +1892,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Raise Health I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Raises the target's maximum health.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1815,6 +1911,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">20</resource-min>
 					<resource-opt amount="3">120</resource-opt>
 				</resource>
@@ -1822,7 +1919,7 @@
 		</tier>
 		<tier>
 			<tier-name>Raise Health II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Raises the target's maximum health.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1842,12 +1939,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">220</resource-min>
 					<resource-opt amount="3">345</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">220</resource-min>
 					<resource-opt amount="5">345</resource-opt>
 				</resource>
@@ -1855,7 +1954,7 @@
 		</tier>
 		<tier>
 			<tier-name>Raise Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Raises the target's maximum health.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1876,12 +1975,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">420</resource-min>
 					<resource-opt amount="3">570</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">420</resource-min>
 					<resource-opt amount="5">570</resource-opt>
 				</resource>
@@ -1889,7 +1990,7 @@
 		</tier>
 		<tier>
 			<tier-name>Raise Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Raises the target's maximum health.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1911,12 +2012,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">620</resource-min>
 					<resource-opt amount="3">795</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">620</resource-min>
 					<resource-opt amount="5">795</resource-opt>
 				</resource>
@@ -1924,7 +2027,7 @@
 		</tier>
 		<tier>
 			<tier-name>Raise Health V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Raises the target's maximum health.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1947,12 +2050,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">820</resource-min>
 					<resource-opt amount="3">1020</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">820</resource-min>
 					<resource-opt amount="5">1020</resource-opt>
 				</resource>
@@ -1968,6 +2073,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">1:00</item-attribute>
 			<item-attribute type="castDelay">40</item-attribute>
 		</item-attributes>
 		<item-keywords>
@@ -1981,7 +2087,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Resurrection I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Raises a fallen ally to fight again.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1997,6 +2103,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -2004,7 +2111,7 @@
 		</tier>
 		<tier>
 			<tier-name>Resurrection II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Raises a fallen ally to fight again.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2021,12 +2128,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -2034,7 +2143,7 @@
 		</tier>
 		<tier>
 			<tier-name>Resurrection III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Raises a fallen ally to fight again.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2052,12 +2161,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -2065,7 +2176,7 @@
 		</tier>
 		<tier>
 			<tier-name>Resurrection IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Raises a fallen ally to fight again.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2084,12 +2195,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -2097,7 +2210,7 @@
 		</tier>
 		<tier>
 			<tier-name>Resurrection V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Raises a fallen ally to fight again.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2117,12 +2230,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>
@@ -2138,6 +2253,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CONJ, SORC, CLRC, WIZ, DRU, SHMN, BTLM, MONK, SPRT, PLDN, SCT, HLR, MAGE, WAR</item-attribute>
 			<item-attribute type="range">20</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
 			<item-attribute type="castDelay">20</item-attribute>
 			<item-attribute type="skill">Life</item-attribute>
 		</item-attributes>
@@ -2152,7 +2268,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Revitalize I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This heals a friendly target</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2168,6 +2284,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">100</resource-opt>
 				</resource>
@@ -2175,7 +2292,7 @@
 		</tier>
 		<tier>
 			<tier-name>Revitalize II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>This heals a friendly target</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2192,12 +2309,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">325</resource-opt>
 				</resource>
@@ -2205,7 +2324,7 @@
 		</tier>
 		<tier>
 			<tier-name>Revitalize III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>This heals a friendly target</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2223,12 +2342,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">550</resource-opt>
 				</resource>
@@ -2236,7 +2357,7 @@
 		</tier>
 		<tier>
 			<tier-name>Revitalize IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>This heals a friendly target</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2255,12 +2376,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">775</resource-opt>
 				</resource>
@@ -2268,7 +2391,7 @@
 		</tier>
 		<tier>
 			<tier-name>Revitalize V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>This heals a friendly target</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2288,12 +2411,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
@@ -2309,7 +2434,10 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
 			<item-attribute type="range">30</item-attribute>
-			<item-attribute type="castDelay">27.5</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="castDelay">27</item-attribute>
+			<item-attribute type="effectDescription">Surges the character's health statistic.</item-attribute>
+			<item-attribute type="effectDuration">3:00</tier-attribute</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -2322,7 +2450,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Surge of Health I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Surges the character's health statistic.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2332,7 +2460,6 @@
 				<tier-attribute type="effect">Surge of Health I</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (1)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+35 Health</tier-attribute>
-				<tier-attribute type="effectDuration">03:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -2341,6 +2468,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -2348,7 +2476,7 @@
 		</tier>
 		<tier>
 			<tier-name>Surge of Health II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Surges the character's health statistic.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2358,7 +2486,6 @@
 				<tier-attribute type="effect">Surge of Health II</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (20)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+95 Health</tier-attribute>
-				<tier-attribute type="effectDuration">03:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -2368,12 +2495,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -2381,7 +2510,7 @@
 		</tier>
 		<tier>
 			<tier-name>Surge of Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Surges the character's health statistic.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2391,7 +2520,6 @@
 				<tier-attribute type="effect">Surge of Health III</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (40)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+155 Health</tier-attribute>
-				<tier-attribute type="effectDuration">03:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -2402,12 +2530,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -2415,7 +2545,7 @@
 		</tier>
 		<tier>
 			<tier-name>Surge of Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Surges the character's health statistic.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -2425,7 +2555,6 @@
 				<tier-attribute type="effect">Surge of Health IV</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (60)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+215 Health</tier-attribute>
-				<tier-attribute type="effectDuration">03:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -2437,12 +2566,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -2450,7 +2581,7 @@
 		</tier>
 		<tier>
 			<tier-name>Surge of Health V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Surges the character's health statistic.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -2460,7 +2591,6 @@
 				<tier-attribute type="effect">Surge of Health V</tier-attribute>
 				<tier-attribute type="effectReq">Current Adventure Level (80)</tier-attribute>
 				<tier-attribute type="effectStatBonus">+275 Health</tier-attribute>
-				<tier-attribute type="effectDuration">03:00</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -2473,12 +2603,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>
@@ -2493,9 +2625,13 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="equipSlot">Spellbook</item-attribute>
 			<item-attribute type="reqAdvSchool">GRDN, BLDM, SPRD, STMD, CLRC, DRU, SHMN, SPRT, HLR</item-attribute>
+			<item-attribute type="effectDescription">Regenerates the target's health over time.</item-attribute>
 			<item-attribute type="effectduration">0:30</item-attribute>
 			<item-attribute type="effectfrequency">0:05</item-attribute>
 			<item-attribute type="effectreqAdvSchool">DRAG, DCRA, ENC, GRDN, CHSW, ELAR, CRSB, BLDM, SPRD, KNOC, ICED, STMD, GTH, MIN, BRSK, FLMD, SPRM, CONJ, SORC, CLRC, WIZ, WVR, DLSH, DRU, MSN, FLT, FIT, WPN, TNK, TLR, SPL, JWL, CNF, CRP, ALC, ARM, SCH, OUT, BLK, SHMN, BTLM, MONK, SPRT, SCT, HLR, MAGE, WAR</item-attribute>
+			<item-attribute type="recycle">1:00</item-attribute>
+			<item-attribute type="castDelay">30</item-attribute>
+			<item-attribute type="range">25</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_3</item-keyword>
@@ -2510,8 +2646,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>xGenerate Health III</tier-name>
-			<tier-lvl>3</tier-lvl>
-			<tier-desc>Regenerates the target's health over time.</tier-desc>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>** Obsolete form - Only some older players will have! **</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">144</tier-attribute>
@@ -2528,12 +2664,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">470</resource-min>
 					<resource-opt amount="4">620</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">470</resource-min>
 					<resource-opt amount="4">620</resource-opt>
 				</resource>
@@ -2541,8 +2679,8 @@
 		</tier>
 		<tier>
 			<tier-name>xGenerate Health IV</tier-name>
-			<tier-lvl>4</tier-lvl>
-			<tier-desc>Regenerates the target's health over time.</tier-desc>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>** Obsolete form - Only some older players will have! **</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">288</tier-attribute>
@@ -2560,14 +2698,468 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">670</resource-min>
 					<resource-opt amount="4">845</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">670</resource-min>
 					<resource-opt amount="4">845</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cure Poison</item-name>
+		<item-icon>icon_formula_s_05_17_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="effectstatBonus">Cannot be dispelled</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="effectduration">2:00</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>heal</item-keyword>
+			<item-keyword>skill_use_magic_life</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Minor Cure Poison</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Benign Poison Immunity</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (140)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current Adventure Level (14)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">100</resource-min>
+					<resource-opt amount="3">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lesser Cure Poison</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Weak Poison Immunity</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (21)</tier-attribute>
+				<tier-attribute type="hoardValue">30</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (340)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current Adventure Level (34)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">300</resource-min>
+					<resource-opt amount="3">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cure Poison</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Moderate Poison Immunity</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (41)</tier-attribute>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (540)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current Adventure Level (54)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">500</resource-min>
+					<resource-opt amount="3">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">500</resource-min>
+					<resource-opt amount="5">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Redbacked Spider Worker Thorax</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">500</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Major Cure Poison</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Strong Poison Immunity</tier-attribute>
+				<tier-attribute type="hoardValue">120</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (740)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current Adventure Level (74)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="3">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">700</resource-min>
+					<resource-opt amount="5">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shadow Spider Breeder Venom</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Greater Cure Poison</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Deadly Poison Immunity</tier-attribute>
+				<tier-attribute type="hoardValue">240</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (940)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current Adventure Level (94)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="3">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">900</resource-min>
+					<resource-opt amount="5">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Veteran Scorpion Tail Stinger</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">900</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Purple Weaver Venom</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Group Cure Poison</item-name>
+		<item-icon>icon_formula_s_05_18_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="area">15</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">50</item-attribute>
+			<item-attribute type="recycle">5:00</item-attribute>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="effectduration">2:00</item-attribute>
+			<item-attribute type="effectstatBonus">Cannot be dispelled</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>ranged</item-keyword>
+			<item-keyword>heal</item-keyword>
+			<item-keyword>skill_use_magic_life</item-keyword>
+			<item-keyword>spell</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Group Lesser Cure Poison</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectReq">Current School Level (21)</tier-attribute>
+				<tier-attribute type="effect">Weak Poison Immunity</tier-attribute>
+				<tier-attribute type="hoardValue">30</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (380)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current Adventure Level (38)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">325</resource-min>
+					<resource-opt amount="3">450</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">325</resource-min>
+					<resource-opt amount="5">450</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Group Major Cure Poison</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Strong Poison Immunity</tier-attribute>
+				<tier-attribute type="hoardValue">120</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (780)</tier-attribute>
+				<tier-attribute type="reqCurrentSchoolLevel">Current Adventure Level (78)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">725</resource-min>
+					<resource-opt amount="3">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">725</resource-min>
+					<resource-opt amount="5">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shadow Spider Breeder Venom</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">725</resource-min>
+					<resource-opt amount="2">900</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Improved Mystic Blaze</item-name>
+		<item-icon>icon_formula_s_05_11_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">44</item-attribute>
+			<item-attribute type="damageType">Life</item-attribute>
+			<item-attribute type="equipSlot">Spellbook</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">0:30</item-attribute>
+			<item-attribute type="reqClass">GRDN, BLDM, SPRD, STMD, RVR, RNGR, CLRC, DRU, SHMN, SPRT, PLDN, HLR</item-attribute>
+			<item-attribute type="skill">Life</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>skill_use_magic_life</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>spell</item-keyword>
+			<item-keyword>damage</item-keyword>
+			<item-keyword>ranged</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Improved Mystic Blaze I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">18-21</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (130)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (13)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sandstone Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">130</resource-min>
+					<resource-opt amount="3">230</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Mystic Blaze II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">70-78</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (330)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (33)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Slate Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">330</resource-min>
+					<resource-opt amount="3">455</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">330</resource-min>
+					<resource-opt amount="5">455</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Mystic Blaze III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">123-136</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (530)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (53)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Granite Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">530</resource-min>
+					<resource-opt amount="3">680</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">530</resource-min>
+					<resource-opt amount="5">680</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Mystic Blaze IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">175-195</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (730)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (73)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Obsidian Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">730</resource-min>
+					<resource-opt amount="3">905</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">730</resource-min>
+					<resource-opt amount="5">905</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Improved Mystic Blaze V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Strikes a single enemy with the blazing fury of life.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="damage">226-253</tier-attribute>
+				<tier-attribute type="reqAdvSkill">Life (930)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (93)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marble Spell Shard</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">930</resource-min>
+					<resource-opt amount="3">1130</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">930</resource-min>
+					<resource-opt amount="5">1130</resource-opt>
 				</resource>
 			</resources>
 		</tier>

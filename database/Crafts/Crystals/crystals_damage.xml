@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Crystals - Damage</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Crystals</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Damage Crystal of Blight</item-name>
+		<item-icon>crystalshaper_crystal_3.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to blight</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Damage Crystal of Blight</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Damage Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Primal Damage does 110% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 110% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Minor Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">75</resource-min>
+					<resource-opt amount="1">275</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Damage Crystal of Blight</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Damage Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Primal Damage does 115% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 115% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">275</resource-min>
+					<resource-opt amount="1">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Damage Crystal of Blight</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Damage Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Primal Damage does 120% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 120% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">475</resource-min>
+					<resource-opt amount="1">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Damage Crystal of Blight</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Damage Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Primal Damage does 125% normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 125% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">675</resource-min>
+					<resource-opt amount="1">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Damage Crystal of Blight</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Damage Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Primal Damage does 130% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 130% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">875</resource-min>
+					<resource-opt amount="1">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Damage Crystal of Blight</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Damage Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Primal Damage does 135% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 135% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="1">1075</resource-min>
+					<resource-opt amount="1">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Damage Crystal of Energy</item-name>
+		<item-icon>crystalshaper_crystal_3.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to energy</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Damage Crystal of Energy</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Damage Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Spirit Damage does 110% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 110% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">75</resource-min>
+					<resource-opt amount="1">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Damage Crystal of Energy</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Damage Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Spirit Damage does 115% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 115% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lesser Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">275</resource-min>
+					<resource-opt amount="1">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Damage Crystal of Energy</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Damage Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Spirit Damage does 120% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 120% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Damage Crystal of Energy</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Damage Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Spirit Damage does 125% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 125% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">675</resource-min>
+					<resource-opt amount="1">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Damage Crystal of Energy</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Damage Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Spirit Damage does 130% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 130% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">875</resource-min>
+					<resource-opt amount="1">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Damage Crystal of Energy</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Damage Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Spirit Damage does 135% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 135% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1075</resource-min>
+					<resource-opt amount="1">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Damage Crystal of Flame</item-name>
+		<item-icon>crystalshaper_crystal_3.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to flame</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Damage Crystal of Flame</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Damage Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Ice Damage does 110% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 110% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">75</resource-min>
+					<resource-opt amount="1">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Damage Crystal of Flame</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Damage Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Ice Damage does 115% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 115% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">275</resource-min>
+					<resource-opt amount="1">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Damage Crystal of Flame</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Damage Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Ice Damage does 120% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 120% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">475</resource-min>
+					<resource-opt amount="1">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Damage Crystal of Flame</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Damage Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Ice Damage does 125% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 125% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">675</resource-min>
+					<resource-opt amount="1">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Damage Crystal of Flame</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Damage Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Ice Damage does 130% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 130% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">875</resource-min>
+					<resource-opt amount="1">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Damage Crystal of Flame</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Damage Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Ice Damage does 135% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 135% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1075</resource-min>
+					<resource-opt amount="1">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Damage Crystal of Ice</item-name>
+		<item-icon>crystalshaper_crystal_3.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to ice</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Damage Crystal of Ice</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Damage Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Flame Damage does 110% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 110% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">75</resource-min>
+					<resource-opt amount="1">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Damage Crystal of Ice</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Damage Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Flame Damage does 115% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 115% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">275</resource-min>
+					<resource-opt amount="1">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Damage Crystal of Ice</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Damage Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Flame Damage does 120% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 120% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">475</resource-min>
+					<resource-opt amount="1">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Damage Crystal of Ice</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Damage Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Flame Damage does 125% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 125% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">675</resource-min>
+					<resource-opt amount="1">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Damage Crystal of Ice</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Damage Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Flame Damage does 130% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 130% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">875</resource-min>
+					<resource-opt amount="1">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Damage Crystal of Ice</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Damage Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Flame Damage does 135% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 135% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1075</resource-min>
+					<resource-opt amount="1">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Damage Crystal of Nature</item-name>
+		<item-icon>crystalshaper_crystal_3.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to nature</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Damage Crystal of Nature</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Damage Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 110% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 110% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">75</resource-min>
+					<resource-opt amount="1">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Damage Crystal of Nature</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Damage Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 115% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 115% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">275</resource-min>
+					<resource-opt amount="1">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Damage Crystal of Nature</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Damage Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 120% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 120% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">475</resource-min>
+					<resource-opt amount="1">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Damage Crystal of Nature</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Damage Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 125% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 125% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">675</resource-min>
+					<resource-opt amount="1">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Damage Crystal of Nature</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Damage Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 130% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 130% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">875</resource-min>
+					<resource-opt amount="1">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Damage Crystal of Nature</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Damage Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 135% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 135% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1075</resource-min>
+					<resource-opt amount="1">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Damage Crystal of Primal</item-name>
+		<item-icon>crystalshaper_crystal_3.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to primal</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Damage Crystal of Primal</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Damage Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 110% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 110% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">75</resource-min>
+					<resource-opt amount="1">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Damage Crystal of Primal</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Damage Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 115% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 115% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">75</resource-min>
+					<resource-opt amount="1">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Damage Crystal of Primal</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Damage Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 120% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 120% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">475</resource-min>
+					<resource-opt amount="1">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">475</resource-min>
+					<resource-opt amount="2">725</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Damage Crystal of Primal</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Damage Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 125% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 125% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">675</resource-min>
+					<resource-opt amount="1">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Damage Crystal of Primal</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Damage Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 130% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 130% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">875</resource-min>
+					<resource-opt amount="1">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Damage Crystal of Primal</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Damage Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Blight Damage does 135% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 135% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Damage Crystal of Spirit</item-name>
+		<item-icon>crystalshaper_crystal_3.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to spirit</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Damage Crystal of Spirit</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Damage Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Energy Damage does 110% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 110% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">75</resource-min>
+					<resource-opt amount="1">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">75</resource-min>
+					<resource-opt amount="2">275</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Damage Crystal of Spirit</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Damage Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Energy Damage does 115% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 115% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">275</resource-min>
+					<resource-opt amount="1">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">275</resource-min>
+					<resource-opt amount="2">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Damage Crystal of Spirit</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Damage Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Energy Damage does 120% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 120% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">675</resource-min>
+					<resource-opt amount="1">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Damage Crystal of Spirit</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Damage Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Energy Damage does 125% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 125% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">675</resource-min>
+					<resource-opt amount="1">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">675</resource-min>
+					<resource-opt amount="2">950</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Damage Crystal of Spirit</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Damage Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Energy Damage does 130% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 130% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">875</resource-min>
+					<resource-opt amount="1">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">875</resource-min>
+					<resource-opt amount="2">1175</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Damage Crystal of Spirit</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Damage Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">Incoming Energy Damage does 135% of normal damage</tier-attribute>
+				<tier-attribute type="effectStatBonus">Does 135% of normal damage</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1075</resource-min>
+					<resource-opt amount="1">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1075</resource-min>
+					<resource-opt amount="2">1400</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

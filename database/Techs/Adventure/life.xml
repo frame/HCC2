@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Life</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Life</tech-name>
+		<tech-icon>icon_technique_04_00_11.png</tech-icon>
+		<tech-subdesc>Enhances the Life skill of the player by a set amount per tier. Increased Life skill reduces the healing variance when using spells of this type.</tech-subdesc>
+		<tech-attributes>
+			<tech-attribute type="percentagestatbonus">10% Strength</tech-attribute>
+			<tech-attribute type="percentagestatbonus">10% Power</tech-attribute>
+			<tech-attribute type="percentagestatbonus">50% Focus</tech-attribute>
+			<tech-attribute type="percentagestatbonus">30% Dexterity</tech-attribute>
+			<tech-attribute type="lowresist">Abomination (+)</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Dragon</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Dryad</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Dwarf</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Elf</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Fiend</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Gnome</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Half-Giant</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Human</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Saris</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Satyr</tech-attribute>
+			<tech-attribute type="lowresist">Aegis Sslik</tech-attribute>
+			<tech-attribute type="lowresist">Ash Blight</tech-attribute>
+			<tech-attribute type="lowresist">Baeloch Kwellen</tech-attribute>
+			<tech-attribute type="lowresist">Blight Spectre Defender</tech-attribute>
+			<tech-attribute type="lowresist">Blight Spectre Sacraficer</tech-attribute>
+			<tech-attribute type="lowresist">Blight Spectre Substantiator</tech-attribute>
+			<tech-attribute type="lowresist">Blighted Blight</tech-attribute>
+			<tech-attribute type="lowresist">Blighted Kwellen</tech-attribute>
+			<tech-attribute type="lowresist">Desiccated Corpse</tech-attribute>
+			<tech-attribute type="lowresist">Drowned Spirit</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Ghost Mage</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Mummy Mage</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Skeleton Conjurer</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Zombie Conjurer</tech-attribute>
+			<tech-attribute type="lowresist">Dwarf Ghost Crossbowman</tech-attribute>
+			<tech-attribute type="lowresist">Dwarf Mummy Crossbowman</tech-attribute>
+			<tech-attribute type="lowresist">Dwarf Skeleton Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Dwarf Zombie Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Elf Ghost Strider</tech-attribute>
+			<tech-attribute type="lowresist">Elf Mummy Spearman</tech-attribute>
+			<tech-attribute type="lowresist">Elf Skeleton Strider</tech-attribute>
+			<tech-attribute type="lowresist">Elf Zombie Spearman</tech-attribute>
+			<tech-attribute type="lowresist">Energized Kwellen</tech-attribute>
+			<tech-attribute type="lowresist">Fiend Ghost Spiritist</tech-attribute>
+			<tech-attribute type="lowresist">Fiend Mummy Spiritist</tech-attribute>
+			<tech-attribute type="lowresist">Fiend Skeleton Sorcerer</tech-attribute>
+			<tech-attribute type="lowresist">Fiend Zombie Sorcerer</tech-attribute>
+			<tech-attribute type="lowresist">Flame Blight</tech-attribute>
+			<tech-attribute type="lowresist">Gigaroth Kwellen</tech-attribute>
+			<tech-attribute type="lowresist">Glacial Kwellen</tech-attribute>
+			<tech-attribute type="lowresist">Gnome Ghost Battlemage</tech-attribute>
+			<tech-attribute type="lowresist">Gnome Mummy Battlemage</tech-attribute>
+			<tech-attribute type="lowresist">Gnome Skeleton Wizard</tech-attribute>
+			<tech-attribute type="lowresist">Gnome Zombie Wizard</tech-attribute>
+			<tech-attribute type="lowresist">Half-Giant Ghost Reaver</tech-attribute>
+			<tech-attribute type="lowresist">Half-Giant Mummy Reaver</tech-attribute>
+			<tech-attribute type="lowresist">Half-Giant Skeleton Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Half-Giant Zombie Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Human Ghost Marauder</tech-attribute>
+			<tech-attribute type="lowresist">Human Mummy Marauder</tech-attribute>
+			<tech-attribute type="lowresist">Human Skeleton Zealot</tech-attribute>
+			<tech-attribute type="lowresist">Human Zombie Zealot</tech-attribute>
+			<tech-attribute type="lowresist">Ice Blight</tech-attribute>
+			<tech-attribute type="lowresist">Kwellen</tech-attribute>
+			<tech-attribute type="lowresist">Lava Blight</tech-attribute>
+			<tech-attribute type="lowresist">Liche</tech-attribute>
+			<tech-attribute type="lowresist">Maggot</tech-attribute>
+			<tech-attribute type="lowresist">Magma Kwellen</tech-attribute>
+			<tech-attribute type="lowresist">Meat Blight</tech-attribute>
+			<tech-attribute type="lowresist">Necrofly</tech-attribute>
+			<tech-attribute type="lowresist">Saris Ghost Diviner</tech-attribute>
+			<tech-attribute type="lowresist">Saris Mummy Diviner</tech-attribute>
+			<tech-attribute type="lowresist">Saris Mummy Mercenary</tech-attribute>
+			<tech-attribute type="lowresist">Saris Mummy Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Saris Mummy Zealot</tech-attribute>
+			<tech-attribute type="lowresist">Saris Skeleton Diviner</tech-attribute>
+			<tech-attribute type="lowresist">Saris Skeleton Knight of Destruction</tech-attribute>
+			<tech-attribute type="lowresist">Saris Skeleton Mage</tech-attribute>
+			<tech-attribute type="lowresist">Saris Skeleton Strider</tech-attribute>
+			<tech-attribute type="lowresist">Saris Skeleton Templar</tech-attribute>
+			<tech-attribute type="lowresist">Saris Skeleton Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Saris Zombie Knight of Destruction</tech-attribute>
+			<tech-attribute type="lowresist">Saris Zombie Marauder</tech-attribute>
+			<tech-attribute type="lowresist">Saris Zombie Templar</tech-attribute>
+			<tech-attribute type="lowresist">Saris Zombie Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Satyr Ghost Oracle</tech-attribute>
+			<tech-attribute type="lowresist">Satyr Mummy Oracle</tech-attribute>
+			<tech-attribute type="lowresist">Satyr Skeleton Mercenary</tech-attribute>
+			<tech-attribute type="lowresist">Satyr Zombie Mercenary</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Ghost Bloodmage</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Mummy Bloodmage</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Skeleton Bloodmage</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Skeleton Mage</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Skeleton Shaman</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Skeleton Strider</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Skeleton Templar</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Skeleton Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Zombie Shaman</tech-attribute>
+			<tech-attribute type="lowresist">Storm Blight</tech-attribute>
+			<tech-attribute type="lowresist">Undead Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Wraith</tech-attribute>
+			<tech-attribute type="highresist">Discord (++)</tech-attribute>
+			<tech-attribute type="highresist">Famine (++)</tech-attribute>
+			<tech-attribute type="highresist">Forest Oastic</tech-attribute>
+			<tech-attribute type="highresist">Inhibition (++)</tech-attribute>
+			<tech-attribute type="highresist">Lava Oastic</tech-attribute>
+			<tech-attribute type="highresist">Leafy Oastic</tech-attribute>
+			<tech-attribute type="highresist">Palsy (++)</tech-attribute>
+			<tech-attribute type="highresist">Wood Golem</tech-attribute>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>tool</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>weapon</tech-keyword>
+				<tech-keyword>armor</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>bodyslot_finger</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+				<tech-keyword>bodyslot_rightpalm</tech-keyword>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_arms</tech-keyword>
+				<tech-keyword>bodyslot_shoulder</tech-keyword>
+				<tech-keyword>bodyslot_legs</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_lifemagic_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Life I</tier-name>
+			<tier-origin>Adventure: Life I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +5 to the Life magic skill.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Small Brown Wolf Tail</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Life II</tier-name>
+			<tier-origin>Adventure: Life II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +10 to the Life magic skill.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Ish'kuk Gatherer's Ear</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Life III</tier-name>
+			<tier-origin>Adventure: Life III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +15 to the Life magic skill.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Aquamarine Golem Chip</component>
+				<component amount = "1">Palesnout Sow Tail</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Life IV</tier-name>
+			<tier-origin>Adventure: Life IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +20 to the Life magic skill.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "1">Small Fire Beetle Mandible</component>
+				<component amount = "2">Shadow Tarantula Breeder Abdomen</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Life V</tier-name>
+			<tier-origin>Adventure: Life V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +25 to the Life magic skill.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Nah'guk Warrior's Big Toe</component>
+				<component amount = "2">Feral Bloodsnout Snout</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

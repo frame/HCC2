@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Weapons - Crossbow</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Weapons</formulaset-category>
@@ -26,7 +26,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Crossbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted cedar stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -43,6 +43,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">1</resource-min>
 					<resource-opt amount="8">100</resource-opt>
 				</resource>
@@ -50,7 +51,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Crossbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted elm stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -68,6 +69,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">200</resource-min>
 					<resource-opt amount="8">325</resource-opt>
 				</resource>
@@ -75,7 +77,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Crossbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted oak stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -94,6 +96,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">400</resource-min>
 					<resource-opt amount="8">550</resource-opt>
 				</resource>
@@ -101,7 +104,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Crossbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted maple stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -121,6 +124,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">600</resource-min>
 					<resource-opt amount="8">775</resource-opt>
 				</resource>
@@ -128,7 +132,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Crossbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted yew stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -144,12 +148,12 @@
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">800</resource-min>
 					<resource-opt amount="8">1000</resource-opt>
 				</resource>
@@ -179,7 +183,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Crossbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted cedar stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -196,6 +200,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">100</resource-min>
 					<resource-opt amount="11">200</resource-opt>
 				</resource>
@@ -203,7 +208,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Crossbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted elm stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -221,6 +226,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">300</resource-min>
 					<resource-opt amount="11">425</resource-opt>
 				</resource>
@@ -228,7 +234,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Crossbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted oak stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -247,6 +253,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">500</resource-min>
 					<resource-opt amount="11">650</resource-opt>
 				</resource>
@@ -254,7 +261,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Crossbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted maple stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -274,6 +281,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">700</resource-min>
 					<resource-opt amount="11">875</resource-opt>
 				</resource>
@@ -281,7 +289,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Crossbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted yew stock, able to be cocked in advance for instant use, designed for sustained ranged attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -297,12 +305,12 @@
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">900</resource-min>
 					<resource-opt amount="11">1100</resource-opt>
 				</resource>
@@ -330,7 +338,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Heavy Crossbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted cedar stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -349,6 +357,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">150</resource-min>
 					<resource-opt amount="13">250</resource-opt>
 				</resource>
@@ -356,7 +365,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Heavy Crossbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted elm stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -376,6 +385,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">350</resource-min>
 					<resource-opt amount="13">475</resource-opt>
 				</resource>
@@ -383,7 +393,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Heavy Crossbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted oak stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -404,6 +414,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">550</resource-min>
 					<resource-opt amount="13">700</resource-opt>
 				</resource>
@@ -411,7 +422,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Heavy Crossbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted maple stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -433,6 +444,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">750</resource-min>
 					<resource-opt amount="13">925</resource-opt>
 				</resource>
@@ -440,7 +452,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Heavy Crossbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a exceptionally crafted yew stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -458,12 +470,12 @@
 				<tier-keyword>techclass_2</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
 				<tier-keyword>weapon_crossbow</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">950</resource-min>
 					<resource-opt amount="13">1150</resource-opt>
 				</resource>
@@ -492,7 +504,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Heavy Crossbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted cedar stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -509,6 +521,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">50</resource-min>
 					<resource-opt amount="10">150</resource-opt>
 				</resource>
@@ -516,7 +529,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Heavy Crossbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted elm stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -534,6 +547,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">250</resource-min>
 					<resource-opt amount="10">375</resource-opt>
 				</resource>
@@ -541,7 +555,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Heavy Crossbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted oak stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -560,6 +574,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">450</resource-min>
 					<resource-opt amount="10">600</resource-opt>
 				</resource>
@@ -567,7 +582,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Heavy Crossbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A ranged weapon with a small bow fixed crosswise on a crafted maple stock, while slower to reload than the standard crossbow, it delivers a more damaging ranged attack.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -587,6 +602,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">650</resource-min>
 					<resource-opt amount="10">825</resource-opt>
 				</resource>
@@ -594,7 +610,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Heavy Crossbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A heavier, more powerful version of the standard crossbow made of yew.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -610,12 +626,12 @@
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">850</resource-min>
 					<resource-opt amount="10">1050</resource-opt>
 				</resource>

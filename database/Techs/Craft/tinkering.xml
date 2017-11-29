@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Tinkering</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Craft</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Tinkering</tech-name>
+		<tech-icon>icon_technique_03_00_11.png</tech-icon>
+		<tech-subdesc>Improves the Tinkering skill by a set amount per tier. Tinkerers make player-beneficial (sometimes consumable) items from all resources (with an emphasis on metal).</tech-subdesc>
+		<tech-attributes>
+			<tech-attribute type="percentagestatbonus">10% Power</tech-attribute>
+			<tech-attribute type="percentagestatbonus">60% Focus</tech-attribute>
+			<tech-attribute type="percentagestatbonus">30% Dexterity</tech-attribute>
+			<tech-attribute type="schoolbonus">Tinkerer - 10 per Level</tech-attribute>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>tool</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>armor</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_wrist</tech-keyword>
+				<tech-keyword>bodyslot_waist</tech-keyword>
+				<tech-keyword>bodyslot_ear</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_neck</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+				<tech-keyword>bodyslot_rightpalm</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_tinkering_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Tinkering I</tier-name>
+			<tier-origin>Craft: Tinkering I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 to the Tinkering trade skill.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Jungle Crawler Breeder Abdomen</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tinkering II</tier-name>
+			<tier-origin>Craft: Tinkering II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 to the Tinkering trade skill.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Small Ruxus Skin</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tinkering III</tier-name>
+			<tier-origin>Craft: Tinkering III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 to the Tinkering trade skill.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Ice Beetle Carapace</component>
+				<component amount = "1">Nickel Golem Fragment</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tinkering IV</tier-name>
+			<tier-origin>Craft: Tinkering IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 to the Tinkering trade skill.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "2">Obsidian Golem Fragment</component>
+				<component amount = "1">Platinum Golem Fragment</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tinkering V</tier-name>
+			<tier-origin>Craft: Tinkering V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 to the Tinkering trade skill.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Purple Weaver Venom</component>
+				<component amount = "2">Veteran Scorpion Tail Stinger</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tinkering VI</tier-name>
+			<tier-origin></tier-origin>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>NOTE: This technique, “Tool: Inventor’s Assistant”, is a reward from Tinod Gaskettan. This technique gives the user the ability to create certain objects with an addtional +48 to the Tinkering trade skill.</tier-desc>
+			<tier-skilladjust></tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Radiant Essence Orb</component>
+				<component amount = "3">Colossal Scorpion Tail Stinger</component>
+				<component amount = "2">Travertine Golem Fragment</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

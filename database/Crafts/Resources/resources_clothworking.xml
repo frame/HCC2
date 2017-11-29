@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Resources - Clothworking</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Resources</formulaset-category>
@@ -12,13 +12,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">2</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Flax Fishing Line</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A fishing line designed from flax, used in making fishing poles and catching the big one!</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -26,12 +28,14 @@
 				<resource>
 					<resource-name>Cedar Sap</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">50</resource-min>
 					<resource-opt amount="2">250</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Flax Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="1">250</resource-opt>
 				</resource>
@@ -39,11 +43,11 @@
 		</tier>
 		<tier>
 			<tier-name>Kenaf Fishing Line</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A fishing line designed from kenaf, used in making fishing poles and catching the big one!</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -51,12 +55,14 @@
 				<resource>
 					<resource-name>Elm Sap</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">250</resource-min>
 					<resource-opt amount="2">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Kenaf Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="1">475</resource-opt>
 				</resource>
@@ -64,11 +70,11 @@
 		</tier>
 		<tier>
 			<tier-name>Cotton Fishing Line</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A fishing line designed from cotton, used in making fishing poles and catching the big one!</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -76,12 +82,14 @@
 				<resource>
 					<resource-name>Oak Sap</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">450</resource-min>
 					<resource-opt amount="2">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cotton Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="1">700</resource-opt>
 				</resource>
@@ -89,11 +97,11 @@
 		</tier>
 		<tier>
 			<tier-name>Silk Fishing Line</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A fishing line designed from silk, used in making fishing poles and catching the big one!</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -101,12 +109,14 @@
 				<resource>
 					<resource-name>Maple Sap</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">650</resource-min>
 					<resource-opt amount="2">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Silk Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="1">925</resource-opt>
 				</resource>
@@ -114,11 +124,11 @@
 		</tier>
 		<tier>
 			<tier-name>Ironsilk Fishing Line</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A fishing line designed from ironsilk, used in making fishing poles and catching the big one!</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -126,12 +136,14 @@
 				<resource>
 					<resource-name>Yew Sap</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="2">1125</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ironsilk Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="1">1125</resource-opt>
 				</resource>
@@ -152,27 +164,30 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Flaxen Banner Flag</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A flag that can be hung from a pole and flown in battle.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Flax Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
-					<resource-min amount="27">100</resource-min>
-					<resource-opt amount="13">300</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="27">140</resource-min>
+					<resource-opt amount="13">240</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Kenaf Banner Flag</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A flag that can be hung from a pole and flown in battle.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -180,18 +195,19 @@
 				<resource>
 					<resource-name>Kenaf Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
-					<resource-min amount="27">300</resource-min>
-					<resource-opt amount="13">525</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="27">340</resource-min>
+					<resource-opt amount="13">465</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Cotton Banner Flag</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A flag that can be hung from a pole and flown in battle.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -199,18 +215,19 @@
 				<resource>
 					<resource-name>Cotton Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
-					<resource-min amount="27">590</resource-min>
-					<resource-opt amount="13">740</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="27">540</resource-min>
+					<resource-opt amount="13">690</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Silken Banner Flag</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A flag that can be hung from a pole and flown in battle.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -218,8 +235,28 @@
 				<resource>
 					<resource-name>Silk Spool</resource-name>
 					<resource-skill>Clothworking</resource-skill>
-					<resource-min amount="27">790</resource-min>
-					<resource-opt amount="13">965</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="27">740</resource-min>
+					<resource-opt amount="13">915</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Silken Banner Flag</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A flag that can be hung from a pole and flown in battle.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ironsilk Spool</resource-name>
+					<resource-skill>Clothworking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="27">940</resource-min>
+					<resource-opt amount="13">1140</resource-opt>
 				</resource>
 			</resources>
 		</tier>

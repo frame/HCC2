@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Epic - Tech Kit</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Epic</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Dragon: Battle-Forged</item-name>
+		<item-icon>icon_formula_tech_08_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="description">Attacks Only:</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>technique</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dragon: Battle-Forged I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more powerful and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+2 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+10 Tooth and Claw</tier-attribute>
+				<tier-attribute type="hoardValue">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Biting Fly Wing</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Battle-Forged II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more powerful and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+4 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+20 Tooth and Claw</tier-attribute>
+				<tier-attribute type="hoardValue">200</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sal'guk Gatherer Shrunken Head</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Battle-Forged III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more powerful and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+6 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+30 Tooth and Claw</tier-attribute>
+				<tier-attribute type="hoardValue">400</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Redbacked Spider Breeder Leg</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Redbacked Spider Worker Thorax</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Battle-Forged IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more powerful and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+8 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+40 Tooth and Claw</tier-attribute>
+				<tier-attribute type="hoardValue">800</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Enraged Maple Treant Root</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shadow Tarantula Venom</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">700</resource-min>
+					<resource-opt amount="4">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Battle-Forged V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more powerful and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+10 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+50 Tooth and Claw</tier-attribute>
+				<tier-attribute type="hoardValue">1600</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bhal'kuk Gatherer's Finger</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mithril Boulder Golem Fragment</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">900</resource-min>
+					<resource-opt amount="4">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dragon: Deadly</item-name>
+		<item-icon>icon_formula_tech_08_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="description">Ranged Only, Spells Only:</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>technique</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dragon: Deadly I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws that while equipped will cause use of spells to be more accurate and more damaging.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+10 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="statBonus">+3 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="hoardValue">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Malachite Golem Chip</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Deadly II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws that while equipped will cause use of spells to be more accurate and more damaging.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+20 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="statBonus">+6 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="hoardValue">200</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Forest Skulk Hunter Fin</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Deadly III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws that while equipped will cause use of spells to be more accurate and more damaging.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+30 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="statBonus">+9 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="hoardValue">400</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Deh'guk Gatherer Finger</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Palesnout Snout</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Deadly IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws that while equipped will cause use of spells to be more accurate and more damaging.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+40 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="statBonus">+12 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="hoardValue">800</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Thel'kuk Spotter Finger</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shadow Tarantula Breeder Leg Hair</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">700</resource-min>
+					<resource-opt amount="4">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Deadly V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws that while equipped will cause use of spells to be more accurate and more damaging.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+50 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="statBonus">+15 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="hoardValue">1600</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Blood Skulk Spearfisher's Finger</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Veteran Scorpion Venom</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">900</resource-min>
+					<resource-opt amount="4">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dragon: Piercing Winds</item-name>
+		<item-icon>icon_formula_tech_08_05_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="description">Ranged Only, Spells Only, Attacks Only:</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>technique</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dragon: Piercing Winds I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique will allow the user to modify a wing scale that while equipped will cause use of Galewind to be more damaging and to recycle faster.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+5 DPS</tier-attribute>
+				<tier-attribute type="statBonus">Modifies recycle by -5%</tier-attribute>
+				<tier-attribute type="hoardValue">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Venomous Stalker Aggressor Gland</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Piercing Winds II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique will allow the user to modify a wing scale that while equipped will cause use of Galewind to be more damaging and to recycle faster.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+10 DPS</tier-attribute>
+				<tier-attribute type="statBonus">Modifies recycle by -10%</tier-attribute>
+				<tier-attribute type="hoardValue">200</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Forest Skulk Gatherer Finger</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Piercing Winds III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique will allow the user to modify a wing scale that while equipped will cause use of Galewind to be more damaging and to recycle faster.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+15 DPS</tier-attribute>
+				<tier-attribute type="statBonus">Modifies recycle by -15%</tier-attribute>
+				<tier-attribute type="hoardValue">400</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Deh'guk Warrior Big Toe</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Palesnout Snout</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Piercing Winds IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique will allow the user to modify a wing scale that while equipped will cause use of Galewind to be more damaging and to recycle faster.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+20 DPS</tier-attribute>
+				<tier-attribute type="statBonus">Modifies recycle by -20%</tier-attribute>
+				<tier-attribute type="hoardValue">800</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shadow Spider Leg Hair</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shadow Spider Breeder Venom</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">700</resource-min>
+					<resource-opt amount="4">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Piercing Winds V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique will allow the user to modify a wing scale that while equipped will cause use of Galewind to be more damaging and to recycle faster.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+25 DPS</tier-attribute>
+				<tier-attribute type="statBonus">Modifies recycle by -25%</tier-attribute>
+				<tier-attribute type="hoardValue">1600</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Veteran Tarantula Leg Hair</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Wind Elemental Vapor</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">900</resource-min>
+					<resource-opt amount="4">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dragon: Razor Teeth</item-name>
+		<item-icon>icon_formula_tech_08_06_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="description">Attacks Only:</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>technique</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dragon: Razor Teeth I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This Technique will allow the user to modify head scales to be more accurate and do greater damage while equipped and using Bite.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+2 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+10 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Agh'kuk Ogre Jawbone</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Razor Teeth II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This Technique will allow the user to modify head scales to be more accurate and do greater damage while equipped and using Bite.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+4 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+20 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">200</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Enraged Elm Treant Root</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Razor Teeth III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This Technique will allow the user to modify head scales to be more accurate and do greater damage while equipped and using Bite.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+6 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+30 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">400</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Desert Scorpion Venom</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Redbacked Spider Worker Thorax</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Razor Teeth IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This Technique will allow the user to modify head scales to be more accurate and do greater damage while equipped and using Bite.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+8 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+40 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">800</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shadow Spider Leg Hair</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Thel'kuk Battler Club Splinter</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">700</resource-min>
+					<resource-opt amount="4">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Razor Teeth V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This Technique will allow the user to modify head scales to be more accurate and do greater damage while equipped and using Bite.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+10 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+50 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">1600</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Crimson Wolf Fang</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sand Crab Pincer</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">900</resource-min>
+					<resource-opt amount="4">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dragon: Rending</item-name>
+		<item-icon>icon_formula_tech_08_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="effectDescription">15% chance of a 30 second Bleed.</item-attribute>
+			<item-attribute type="effectduration">30</item-attribute>
+			<item-attribute type="effectfrequency">0:06</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>technique</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dragon: Rending I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to have a chance to cause a 30 second bleed while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Bleed I</tier-attribute>
+				<tier-attribute type="effectStatBonus">1-3 slash (Direct)</tier-attribute>
+				<tier-attribute type="hoardValue">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Turquoise Golem Chip</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Rending II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to have a chance to cause a 30 second bleed while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">200</tier-attribute>
+				<tier-attribute type="effect">Bleed II</tier-attribute>
+				<tier-attribute type="effectStatBonus">8-11 slash (Direct)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Dark Crawler Soldier Venom</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Rending III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to have a chance to cause a 30 second bleed while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Bleed III</tier-attribute>
+				<tier-attribute type="effectStatBonus">18-21 slash (Direct)</tier-attribute>
+				<tier-attribute type="hoardValue">400</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Deh'guk Warrior Big Toe</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Redbacked Spider Worker Thorax</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Rending IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to have a chance to cause a 30 second bleed while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Bleed IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">28-31 slash (Direct)</tier-attribute>
+				<tier-attribute type="hoardValue">800</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shadow Tarantula Venom</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Enraged Maple Treant Root</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">700</resource-min>
+					<resource-opt amount="4">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Rending V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to have a chance to cause a 30 second bleed while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Bleed V</tier-attribute>
+				<tier-attribute type="effectStatBonus">38-41 slash (Direct)</tier-attribute>
+				<tier-attribute type="hoardValue">1600</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Golem Fragment</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nah'guk Gatherer's Finger</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">900</resource-min>
+					<resource-opt amount="4">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Dragon: Sharper</item-name>
+		<item-icon>icon_formula_tech_08_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="description">Attacks Only:</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>technique</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Dragon: Sharper I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more accurate and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+2 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+10 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">100</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Massive Cedar Treant Root</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">100</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="4">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Sharper II</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more accurate and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+4 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+20 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">200</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Brownback Outlier Paw</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="4">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Sharper III</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more accurate and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+6 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+30 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">400</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Deh'guk Gatherer Finger</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Redbacked Spider Breeder Leg</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="4">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Sharper IV</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more accurate and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+8 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+40 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">800</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Zal'kuk Warrior Big Toe</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">700</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shadow Tarantula Breeder Leg Hair</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">700</resource-min>
+					<resource-opt amount="4">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Dragon: Sharper V</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique will allow the user to modify claws to be more accurate and do greater damage while equipped.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+10 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="statBonus">+50 attack skill (chance to hit)</tier-attribute>
+				<tier-attribute type="hoardValue">1600</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ravenous Bloodsnout Bristle</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Treant Sapling Limb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">900</resource-min>
+					<resource-opt amount="4">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Hunter's Retribution</item-name>
+		<item-icon>icon_augment_s_02_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="description">Drag onto an item to apply</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>tech_spell</item-keyword>
+			<item-keyword>technique</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Hunter's Retribution I</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique, usable on a weapon or dragon claw, gives the item a chance to do nature damage to a target.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Jungle Crawler Breeder Abdomen</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="4">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">100</resource-min>
+					<resource-opt amount="4">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Undead Slayer</item-name>
+		<item-icon>icon_formula_r_04_02_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Expert Tech Kit: Undead Slayer</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>With this formula, a skilled spellcrafter is able to craft a technique kit which can be applied to weapons and dragon claws.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="statBonus">+65 Strength</tier-attribute>
+				<tier-attribute type="statBonus">+10 DPS (delay adjusted)</tier-attribute>
+				<tier-attribute type="description">Conflicts with: Applied Item, Damage Vs Undead Up</tier-attribute>
+				<tier-attribute type="bulk">1</tier-attribute>
+				<tier-attribute type="description">Special Note: With this formula scribed in your Formula Book when hunting high level undead, you will have a chance of having an Undead Core drop as extra loot.</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Undead Core</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">900</resource-min>
+					<resource-opt amount="2">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">900</resource-min>
+					<resource-opt amount="2">1200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Mental Bane</item-name>
+		<item-icon>icon_formula_j_04_04_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="statBonus">Conflicts with: Damage Kicker</item-attribute>
+			<item-attribute type="effectduration">0:10</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="effectchance">15%</item-attribute>
+			<item-attribute type="effectstatBonus">+250 damage</item-attribute>
+			<item-attribute type="effect">Mental Bane</item-attribute>
+			<item-attribute type="effectConvertDamage">Converts damage to mind</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Epic Spell Technique: Mental Bane</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>Specially prepared by Gaileach the Sorceress, this technique uses the power of Sorcery (and of the mind) to aid in spell attacks. Simply drag it onto your favorite spell (before scribing it!)</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Myloc Essence</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Taravist Powder</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Fine Thread</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Metal Clasp</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Scales - Power</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Scales</formulaset-category>
@@ -30,14 +30,18 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Marble Power Back Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">930</resource-min>
 					<resource-opt amount="12">1130</resource-opt>
 				</resource>
@@ -61,7 +65,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Power Chest Scale</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">36</tier-attribute>
@@ -76,6 +81,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">30</resource-min>
 					<resource-opt amount="12">130</resource-opt>
 				</resource>
@@ -83,7 +89,8 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Power Chest Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">72</tier-attribute>
@@ -99,6 +106,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">230</resource-min>
 					<resource-opt amount="12">355</resource-opt>
 				</resource>
@@ -106,7 +114,8 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Power Chest Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">144</tier-attribute>
@@ -123,6 +132,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">430</resource-min>
 					<resource-opt amount="12">580</resource-opt>
 				</resource>
@@ -130,7 +140,8 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Power Chest Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">288</tier-attribute>
@@ -148,6 +159,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">630</resource-min>
 					<resource-opt amount="12">805</resource-opt>
 				</resource>
@@ -155,7 +167,8 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Power Chest Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">576</tier-attribute>
@@ -174,6 +187,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">830</resource-min>
 					<resource-opt amount="12">1030</resource-opt>
 				</resource>
@@ -199,7 +213,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Granite Power Foreleg Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">144</tier-attribute>
@@ -214,6 +229,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">430</resource-min>
 					<resource-opt amount="12">580</resource-opt>
 				</resource>
@@ -221,7 +237,8 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Power Foreleg Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">288</tier-attribute>
@@ -237,6 +254,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">630</resource-min>
 					<resource-opt amount="12">805</resource-opt>
 				</resource>
@@ -244,7 +262,8 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Power Foreleg Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">576</tier-attribute>
@@ -261,6 +280,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">830</resource-min>
 					<resource-opt amount="12">1030</resource-opt>
 				</resource>
@@ -285,7 +305,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Slate Power Head Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">72</tier-attribute>
@@ -300,6 +321,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">230</resource-min>
 					<resource-opt amount="12">355</resource-opt>
 				</resource>
@@ -307,7 +329,8 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Power Head Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">144</tier-attribute>
@@ -323,6 +346,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">430</resource-min>
 					<resource-opt amount="12">580</resource-opt>
 				</resource>
@@ -330,7 +354,8 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Power Head Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">288</tier-attribute>
@@ -347,6 +372,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">630</resource-min>
 					<resource-opt amount="12">805</resource-opt>
 				</resource>
@@ -354,7 +380,8 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Power Head Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">576</tier-attribute>
@@ -372,6 +399,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">830</resource-min>
 					<resource-opt amount="12">1030</resource-opt>
 				</resource>
@@ -397,7 +425,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Granite Power Hindleg Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">144</tier-attribute>
@@ -412,6 +441,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">530</resource-min>
 					<resource-opt amount="12">680</resource-opt>
 				</resource>
@@ -419,7 +449,8 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Power Hindleg Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">288</tier-attribute>
@@ -435,6 +466,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">730</resource-min>
 					<resource-opt amount="12">905</resource-opt>
 				</resource>
@@ -442,7 +474,8 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Power Hindleg Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">576</tier-attribute>
@@ -459,6 +492,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">930</resource-min>
 					<resource-opt amount="12">1130</resource-opt>
 				</resource>
@@ -491,14 +525,18 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Marble Power Tail Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">930</resource-min>
 					<resource-opt amount="12">1130</resource-opt>
 				</resource>
@@ -522,7 +560,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Power Wing Scale</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">36</tier-attribute>
@@ -537,6 +576,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">130</resource-min>
 					<resource-opt amount="12">230</resource-opt>
 				</resource>
@@ -544,7 +584,8 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Power Wing Scale</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">72</tier-attribute>
@@ -560,6 +601,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">330</resource-min>
 					<resource-opt amount="12">455</resource-opt>
 				</resource>
@@ -567,7 +609,8 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Power Wing Scale</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">144</tier-attribute>
@@ -584,6 +627,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">530</resource-min>
 					<resource-opt amount="12">680</resource-opt>
 				</resource>
@@ -591,7 +635,8 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Power Wing Scale</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">288</tier-attribute>
@@ -609,6 +654,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">730</resource-min>
 					<resource-opt amount="12">905</resource-opt>
 				</resource>
@@ -616,7 +662,8 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Power Wing Scale</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">576</tier-attribute>
@@ -635,6 +682,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">930</resource-min>
 					<resource-opt amount="12">1130</resource-opt>
 				</resource>

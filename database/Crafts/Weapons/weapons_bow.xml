@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Weapons - Bow</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Weapons</formulaset-category>
@@ -26,7 +26,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Composite Longbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A heavy tensioned long bow with horned ends, shaped from multiple layers of cedar, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -37,13 +37,13 @@
 				<tier-attribute type="damage">5-9</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">50</resource-min>
 					<resource-opt amount="10">150</resource-opt>
 				</resource>
@@ -51,7 +51,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Composite Longbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A heavy tensioned long bow with horned ends, shaped from multiple layers of elm, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -63,13 +63,13 @@
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">250</resource-min>
 					<resource-opt amount="10">375</resource-opt>
 				</resource>
@@ -77,7 +77,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Composite Longbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A heavy tensioned long bow with horned ends, shaped from multiple layers of oak, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -96,6 +96,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">450</resource-min>
 					<resource-opt amount="10">600</resource-opt>
 				</resource>
@@ -103,7 +104,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Composite Longbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A heavy tensioned long bow with horned ends, shaped from multiple layers of maple, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -123,6 +124,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">650</resource-min>
 					<resource-opt amount="10">825</resource-opt>
 				</resource>
@@ -130,7 +132,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Composite Longbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A heavy tensioned long bow with horned ends, shaped from multiple layers of yew, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -145,14 +147,13 @@
 				<tier-keyword>techclass_4</tier-keyword>
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">850</resource-min>
 					<resource-opt amount="10">1050</resource-opt>
 				</resource>
@@ -181,7 +182,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Composite Shortbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A heavy tensioned short bow with horned ends, shaped from multiple layers of cedar, designed for rapid destructive mid range attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -198,6 +199,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">50</resource-min>
 					<resource-opt amount="9">150</resource-opt>
 				</resource>
@@ -205,7 +207,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Composite Shortbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A heavy tensioned short bow with horned ends, shaped from multiple layers of elm, designed for rapid destructive mid range attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -223,6 +225,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">250</resource-min>
 					<resource-opt amount="9">375</resource-opt>
 				</resource>
@@ -230,7 +233,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Composite Shortbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A heavy tensioned short bow with horned ends, shaped from multiple layers of oak, designed for rapid destructive mid range attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -249,6 +252,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">450</resource-min>
 					<resource-opt amount="9">600</resource-opt>
 				</resource>
@@ -256,7 +260,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Composite Shortbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A heavy tensioned short bow with horned ends, shaped from multiple layers of maple, designed for rapid destructive mid range attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -276,6 +280,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">650</resource-min>
 					<resource-opt amount="9">825</resource-opt>
 				</resource>
@@ -283,7 +288,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Composite Shortbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A heavy tensioned short bow with horned ends, shaped from multiple layers of yew, designed for rapid destructive mid range attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -299,12 +304,12 @@
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">850</resource-min>
 					<resource-opt amount="9">1050</resource-opt>
 				</resource>
@@ -334,7 +339,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Composite Longbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional long bow with horned ends, shaped from multiple layers of cedar, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -345,13 +350,13 @@
 				<tier-attribute type="damage">10-18</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">150</resource-min>
 					<resource-opt amount="13">250</resource-opt>
 				</resource>
@@ -359,7 +364,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Composite Longbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional long bow with horned ends, shaped from multiple layers of elm, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -377,6 +382,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">350</resource-min>
 					<resource-opt amount="13">475</resource-opt>
 				</resource>
@@ -384,7 +390,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Composite Longbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional long bow with horned ends, shaped from multiple layers of oak, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -403,6 +409,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">550</resource-min>
 					<resource-opt amount="13">700</resource-opt>
 				</resource>
@@ -410,7 +417,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Composite Longbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional long bow with horned ends, shaped from multiple layers of maple, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -430,6 +437,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">750</resource-min>
 					<resource-opt amount="13">925</resource-opt>
 				</resource>
@@ -437,7 +445,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Composite Longbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional long bow with horned ends, shaped from multiple layers of yew, designed for damaging long ranged attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -452,14 +460,13 @@
 				<tier-keyword>techclass_4</tier-keyword>
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">950</resource-min>
 					<resource-opt amount="13">1150</resource-opt>
 				</resource>
@@ -488,7 +495,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Composite Shortbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional short bow with horned ends, shaped from multiple layers of cedar, designed for destructive mid-range attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -506,6 +513,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">150</resource-min>
 					<resource-opt amount="12">250</resource-opt>
 				</resource>
@@ -513,7 +521,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Composite Shortbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional short bow with horned ends, shaped from multiple layers of elm, designed for destructive mid-range attacks.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -532,6 +540,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">350</resource-min>
 					<resource-opt amount="12">475</resource-opt>
 				</resource>
@@ -539,7 +548,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Composite Shortbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional short bow with horned ends, shaped from multiple layers of oak, designed for destructive mid-range attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -559,6 +568,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">550</resource-min>
 					<resource-opt amount="12">700</resource-opt>
 				</resource>
@@ -566,7 +576,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Composite Shortbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional short bow with horned ends, shaped from multiple layers of maple, designed for destructive mid-range attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -587,6 +597,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">750</resource-min>
 					<resource-opt amount="12">925</resource-opt>
 				</resource>
@@ -594,7 +605,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Composite Shortbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A heavy tensioned exceptional short bow with horned ends, shaped from multiple layers of yew, designed for destructive mid-range attacks.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -611,12 +622,12 @@
 				<tier-keyword>techclass_2</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
 				<tier-keyword>weapon_shortbow</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">950</resource-min>
 					<resource-opt amount="12">1150</resource-opt>
 				</resource>
@@ -646,7 +657,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Longbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>An exceptional large bow carved from cedar, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -657,13 +668,13 @@
 				<tier-attribute type="damage">7-13</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">100</resource-min>
 					<resource-opt amount="11">200</resource-opt>
 				</resource>
@@ -671,7 +682,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Longbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An exceptional large bow carved from elm, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -689,6 +700,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">300</resource-min>
 					<resource-opt amount="11">425</resource-opt>
 				</resource>
@@ -696,7 +708,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Longbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>An exceptional large bow carved from oak, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -715,6 +727,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">500</resource-min>
 					<resource-opt amount="11">650</resource-opt>
 				</resource>
@@ -722,7 +735,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Longbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>An exceptional large bow carved from maple, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -742,6 +755,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">700</resource-min>
 					<resource-opt amount="11">875</resource-opt>
 				</resource>
@@ -749,7 +763,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Longbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>An exceptional large bow carved from yew, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -764,14 +778,13 @@
 				<tier-keyword>techclass_4</tier-keyword>
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">900</resource-min>
 					<resource-opt amount="11">1100</resource-opt>
 				</resource>
@@ -801,7 +814,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Shortbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A light fast simple bow made of cedar.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -818,6 +831,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">100</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -825,7 +839,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Shortbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A light fast simple bow made of elm.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -843,6 +857,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
 					<resource-opt amount="10">425</resource-opt>
 				</resource>
@@ -850,7 +865,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Shortbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A light fast simple bow made of  oak.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -869,6 +884,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
 					<resource-opt amount="10">650</resource-opt>
 				</resource>
@@ -876,7 +892,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Shortbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A light fast simple bow made of maple.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -896,6 +912,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
 					<resource-opt amount="10">875</resource-opt>
 				</resource>
@@ -903,7 +920,7 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Shortbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A light fast simple bow made of yew.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -919,12 +936,12 @@
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
 					<resource-opt amount="10">1100</resource-opt>
 				</resource>
@@ -953,7 +970,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Longbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A large bow crafted from cedar, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -964,13 +981,13 @@
 				<tier-attribute type="damage">3-4</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">1</resource-min>
 					<resource-opt amount="8">100</resource-opt>
 				</resource>
@@ -978,7 +995,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Longbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A large bow crafted from elm, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -990,13 +1007,13 @@
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">200</resource-min>
 					<resource-opt amount="8">325</resource-opt>
 				</resource>
@@ -1004,7 +1021,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Longbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A large bow crafted from oak, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1023,6 +1040,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">400</resource-min>
 					<resource-opt amount="8">550</resource-opt>
 				</resource>
@@ -1030,7 +1048,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Longbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A large bow crafted from maple, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1050,6 +1068,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">600</resource-min>
 					<resource-opt amount="8">775</resource-opt>
 				</resource>
@@ -1057,7 +1076,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Longbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A large bow crafted from yew, designed for long ranged attacks trading quickness for damage.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1072,14 +1091,13 @@
 				<tier-keyword>techclass_4</tier-keyword>
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
-				<tier-keyword>longbow</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">800</resource-min>
 					<resource-opt amount="8">1000</resource-opt>
 				</resource>
@@ -1108,7 +1126,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Shortbow</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A light fast simple bow made of cedar.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1125,6 +1143,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">1</resource-min>
 					<resource-opt amount="7">100</resource-opt>
 				</resource>
@@ -1132,7 +1151,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Shortbow</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A light fast simple bow made of elm.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1150,6 +1169,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">200</resource-min>
 					<resource-opt amount="7">325</resource-opt>
 				</resource>
@@ -1157,7 +1177,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Shortbow</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A light fast simple bow made of  oak.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1176,6 +1196,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">400</resource-min>
 					<resource-opt amount="7">550</resource-opt>
 				</resource>
@@ -1183,7 +1204,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Shortbow</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A light fast simple bow made of maple.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -1203,6 +1224,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">600</resource-min>
 					<resource-opt amount="7">775</resource-opt>
 				</resource>
@@ -1210,7 +1232,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Shortbow</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A light fast simple bow made of yew.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -1226,12 +1248,12 @@
 				<tier-keyword>techclass_3</tier-keyword>
 				<tier-keyword>techclass_2</tier-keyword>
 				<tier-keyword>tier_5</tier-keyword>
-				<tier-keyword>resource_wood</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">800</resource-min>
 					<resource-opt amount="7">1000</resource-opt>
 				</resource>

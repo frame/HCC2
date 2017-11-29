@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Armor - Hide</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Armor</formulaset-category>
@@ -22,14 +22,14 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Belt</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">12</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="statBonus">+4 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+3 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -38,6 +38,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -45,14 +46,14 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Belt</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">27</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+10 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -62,12 +63,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">200</resource-min>
 					<resource-opt amount="3">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -75,14 +78,14 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Belt</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">57</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+20 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -93,12 +96,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">400</resource-min>
 					<resource-opt amount="3">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">400</resource-min>
 					<resource-opt amount="8">550</resource-opt>
 				</resource>
@@ -106,14 +111,14 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Belt</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">102</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+32 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -125,12 +130,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">600</resource-min>
 					<resource-opt amount="3">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">600</resource-min>
 					<resource-opt amount="8">775</resource-opt>
 				</resource>
@@ -138,14 +145,14 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Belt</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">192</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -158,12 +165,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -188,7 +197,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Boots</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -204,6 +213,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">40</resource-min>
 					<resource-opt amount="8">140</resource-opt>
 				</resource>
@@ -211,7 +221,7 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Boots</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -228,12 +238,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">240</resource-min>
 					<resource-opt amount="3">365</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">240</resource-min>
 					<resource-opt amount="8">365</resource-opt>
 				</resource>
@@ -241,7 +253,7 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Boots</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -259,12 +271,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">440</resource-min>
 					<resource-opt amount="3">590</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">440</resource-min>
 					<resource-opt amount="8">590</resource-opt>
 				</resource>
@@ -272,7 +286,7 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Boots</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -291,12 +305,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">640</resource-min>
 					<resource-opt amount="3">815</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">640</resource-min>
 					<resource-opt amount="8">815</resource-opt>
 				</resource>
@@ -304,7 +320,7 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Boots</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -324,12 +340,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">840</resource-min>
 					<resource-opt amount="3">1040</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">840</resource-min>
 					<resource-opt amount="8">1040</resource-opt>
 				</resource>
@@ -354,14 +372,14 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Bracer</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">12</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="statBonus">+4 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+3 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -370,6 +388,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">10</resource-min>
 					<resource-opt amount="6">110</resource-opt>
 				</resource>
@@ -377,14 +396,14 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Bracer</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">27</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+10 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -394,12 +413,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">210</resource-min>
 					<resource-opt amount="3">335</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">210</resource-min>
 					<resource-opt amount="6">335</resource-opt>
 				</resource>
@@ -407,14 +428,14 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Bracer</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">39</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+20 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -425,12 +446,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">410</resource-min>
 					<resource-opt amount="3">560</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">410</resource-min>
 					<resource-opt amount="6">560</resource-opt>
 				</resource>
@@ -438,14 +461,14 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Bracer</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">66</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+32 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -457,12 +480,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">610</resource-min>
 					<resource-opt amount="3">785</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">610</resource-min>
 					<resource-opt amount="6">785</resource-opt>
 				</resource>
@@ -470,14 +495,14 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Bracer</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">120</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -490,12 +515,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">810</resource-min>
 					<resource-opt amount="3">1010</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">810</resource-min>
 					<resource-opt amount="6">1010</resource-opt>
 				</resource>
@@ -513,14 +540,13 @@
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
-			<item-keyword>armor_helm</item-keyword>
 			<item-keyword>bodyslot_head</item-keyword>
 			<item-keyword>armortype_hide</item-keyword>
 			<item-keyword>armor</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Cap</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -536,6 +562,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">20</resource-min>
 					<resource-opt amount="7">120</resource-opt>
 				</resource>
@@ -543,14 +570,14 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Cap</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">29</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+11 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -560,12 +587,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">220</resource-min>
 					<resource-opt amount="3">345</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">220</resource-min>
 					<resource-opt amount="7">345</resource-opt>
 				</resource>
@@ -573,14 +602,14 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Cap</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">41</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+23 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -591,12 +620,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">420</resource-min>
 					<resource-opt amount="3">570</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">420</resource-min>
 					<resource-opt amount="7">570</resource-opt>
 				</resource>
@@ -604,14 +635,14 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Cap</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">68</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+38 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -623,12 +654,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">620</resource-min>
 					<resource-opt amount="3">795</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">620</resource-min>
 					<resource-opt amount="7">795</resource-opt>
 				</resource>
@@ -636,14 +669,14 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Cap</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">122</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+56 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -656,12 +689,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">820</resource-min>
 					<resource-opt amount="3">1020</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">820</resource-min>
 					<resource-opt amount="7">1020</resource-opt>
 				</resource>
@@ -686,7 +721,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Gloves</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -702,6 +737,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">50</resource-min>
 					<resource-opt amount="8">150</resource-opt>
 				</resource>
@@ -709,7 +745,7 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Gloves</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -726,12 +762,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">250</resource-min>
 					<resource-opt amount="3">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">250</resource-min>
 					<resource-opt amount="8">375</resource-opt>
 				</resource>
@@ -739,7 +777,7 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Gloves</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -757,12 +795,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">450</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">450</resource-min>
 					<resource-opt amount="8">600</resource-opt>
 				</resource>
@@ -770,7 +810,7 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Gloves</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -789,12 +829,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">650</resource-min>
 					<resource-opt amount="3">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">650</resource-min>
 					<resource-opt amount="8">825</resource-opt>
 				</resource>
@@ -802,7 +844,7 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Gloves</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -822,12 +864,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">850</resource-min>
 					<resource-opt amount="3">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">850</resource-min>
 					<resource-opt amount="8">1050</resource-opt>
 				</resource>
@@ -844,22 +888,21 @@
 			<item-attribute type="reqClass">GRDN, CHSW, ELAR, CRSB, SPRD, KNOC, ICED, STMD, BRSK, FLMD, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, MONK, PLDN, SCT, HLR, WAR</item-attribute>
 		</item-attributes>
 		<item-keywords>
+			<item-keyword>tier_1</item-keyword>
 			<item-keyword>techclass_1</item-keyword>
-			<item-keyword>armor_leggings</item-keyword>
 			<item-keyword>bodyslot_legs</item-keyword>
-			<item-keyword>armortype_hide</item-keyword>
 			<item-keyword>armor</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Leggings</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">22</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="statBonus">+4 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -868,6 +911,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">80</resource-min>
 					<resource-opt amount="11">180</resource-opt>
 				</resource>
@@ -875,14 +919,14 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Leggings</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">37</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+18 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -892,12 +936,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">280</resource-min>
 					<resource-opt amount="3">405</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">280</resource-min>
 					<resource-opt amount="11">405</resource-opt>
 				</resource>
@@ -905,14 +951,14 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Leggings</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">49</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+36 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -923,12 +969,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">480</resource-min>
 					<resource-opt amount="3">630</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">480</resource-min>
 					<resource-opt amount="11">630</resource-opt>
 				</resource>
@@ -936,14 +984,14 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Leggings</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">76</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+59 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -955,12 +1003,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">680</resource-min>
 					<resource-opt amount="3">855</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">680</resource-min>
 					<resource-opt amount="11">855</resource-opt>
 				</resource>
@@ -968,14 +1018,14 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Leggings</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">130</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+88 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -988,12 +1038,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">880</resource-min>
 					<resource-opt amount="3">1080</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">880</resource-min>
 					<resource-opt amount="11">1080</resource-opt>
 				</resource>
@@ -1017,14 +1069,14 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Mask</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">18</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="statBonus">+4 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+5 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -1033,6 +1085,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">60</resource-min>
 					<resource-opt amount="9">160</resource-opt>
 				</resource>
@@ -1040,14 +1093,14 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Mask</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">33</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+15 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1057,12 +1110,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">260</resource-min>
 					<resource-opt amount="3">385</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">260</resource-min>
 					<resource-opt amount="9">385</resource-opt>
 				</resource>
@@ -1070,14 +1125,14 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Mask</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">45</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1088,12 +1143,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">460</resource-min>
 					<resource-opt amount="3">610</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">460</resource-min>
 					<resource-opt amount="9">610</resource-opt>
 				</resource>
@@ -1101,14 +1158,14 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Mask</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">72</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1120,12 +1177,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">660</resource-min>
 					<resource-opt amount="3">835</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">660</resource-min>
 					<resource-opt amount="9">835</resource-opt>
 				</resource>
@@ -1133,14 +1192,14 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Mask</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">126</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+72 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1153,12 +1212,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">860</resource-min>
 					<resource-opt amount="3">1060</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">860</resource-min>
 					<resource-opt amount="9">1060</resource-opt>
 				</resource>
@@ -1183,7 +1244,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Shoulderpad</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1199,6 +1260,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">30</resource-min>
 					<resource-opt amount="7">130</resource-opt>
 				</resource>
@@ -1206,14 +1268,14 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Shoulderpad</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">29</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+11 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1223,12 +1285,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">230</resource-min>
 					<resource-opt amount="3">355</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">230</resource-min>
 					<resource-opt amount="7">355</resource-opt>
 				</resource>
@@ -1236,14 +1300,14 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Shoulderpad</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">41</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+23 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1254,12 +1318,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">430</resource-min>
 					<resource-opt amount="3">580</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">430</resource-min>
 					<resource-opt amount="7">580</resource-opt>
 				</resource>
@@ -1267,14 +1333,14 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Shoulderpad</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">68</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+38 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1286,12 +1352,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">630</resource-min>
 					<resource-opt amount="3">805</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">630</resource-min>
 					<resource-opt amount="7">805</resource-opt>
 				</resource>
@@ -1299,14 +1367,14 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Shoulderpad</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">122</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+56 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1319,12 +1387,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">830</resource-min>
 					<resource-opt amount="3">1030</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">830</resource-min>
 					<resource-opt amount="7">1030</resource-opt>
 				</resource>
@@ -1349,14 +1419,14 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Sleeves</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">18</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="statBonus">+4 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+5 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -1365,6 +1435,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">70</resource-min>
 					<resource-opt amount="9">170</resource-opt>
 				</resource>
@@ -1372,14 +1443,14 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Sleeves</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">33</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+15 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1389,12 +1460,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">270</resource-min>
 					<resource-opt amount="3">395</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">270</resource-min>
 					<resource-opt amount="9">395</resource-opt>
 				</resource>
@@ -1402,14 +1475,14 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Sleeves</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">45</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1420,12 +1493,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">470</resource-min>
 					<resource-opt amount="3">620</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">470</resource-min>
 					<resource-opt amount="9">620</resource-opt>
 				</resource>
@@ -1433,14 +1508,14 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Sleeves</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">72</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1452,12 +1527,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">670</resource-min>
 					<resource-opt amount="3">845</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">670</resource-min>
 					<resource-opt amount="9">845</resource-opt>
 				</resource>
@@ -1465,14 +1542,14 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Sleeves</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">126</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+72 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1485,12 +1562,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">870</resource-min>
 					<resource-opt amount="3">1070</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">870</resource-min>
 					<resource-opt amount="9">1070</resource-opt>
 				</resource>
@@ -1515,14 +1594,14 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Rough Hide Tunic</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">24</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="statBonus">+4 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+6 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -1531,6 +1610,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">90</resource-min>
 					<resource-opt amount="12">190</resource-opt>
 				</resource>
@@ -1538,14 +1618,14 @@
 		</tier>
 		<tier>
 			<tier-name>Tanned Hide Tunic</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">39</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+19 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1555,12 +1635,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">290</resource-min>
 					<resource-opt amount="3">415</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">290</resource-min>
 					<resource-opt amount="12">415</resource-opt>
 				</resource>
@@ -1568,14 +1650,14 @@
 		</tier>
 		<tier>
 			<tier-name>Hardened Hide Tunic</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">51</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+39 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1586,12 +1668,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">490</resource-min>
 					<resource-opt amount="3">640</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">490</resource-min>
 					<resource-opt amount="12">640</resource-opt>
 				</resource>
@@ -1599,14 +1683,14 @@
 		</tier>
 		<tier>
 			<tier-name>Reinforced Hide Tunic</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">78</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+65 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1618,12 +1702,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">690</resource-min>
 					<resource-opt amount="3">865</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">690</resource-min>
 					<resource-opt amount="12">865</resource-opt>
 				</resource>
@@ -1631,14 +1717,14 @@
 		</tier>
 		<tier>
 			<tier-name>Essence Hide Tunic</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">132</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+96 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1651,12 +1737,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">890</resource-min>
 					<resource-opt amount="3">1090</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">890</resource-min>
 					<resource-opt amount="12">1090</resource-opt>
 				</resource>
@@ -1674,14 +1762,14 @@
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
-			<item-keyword>armor_helm</item-keyword>
 			<item-keyword>bodyslot_head</item-keyword>
 			<item-keyword>armortype_hide</item-keyword>
 			<item-keyword>armor</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Invisible Rough Hide Cap</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">14</tier-attribute>
@@ -1696,6 +1784,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">20</resource-min>
 					<resource-opt amount="7">220</resource-opt>
 				</resource>
@@ -1703,13 +1792,14 @@
 		</tier>
 		<tier>
 			<tier-name>Invisible Tanned Hide Cap</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">29</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+11 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1719,12 +1809,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">220</resource-min>
 					<resource-opt amount="3">345</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">220</resource-min>
 					<resource-opt amount="7">445</resource-opt>
 				</resource>
@@ -1732,13 +1824,14 @@
 		</tier>
 		<tier>
 			<tier-name>Invisible Hardened Hide Cap</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">41</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+23 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1749,12 +1842,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">420</resource-min>
 					<resource-opt amount="3">570</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">420</resource-min>
 					<resource-opt amount="7">670</resource-opt>
 				</resource>
@@ -1762,13 +1857,14 @@
 		</tier>
 		<tier>
 			<tier-name>Invisible Reinforced Hide Cap</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">68</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+38 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1780,12 +1876,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">620</resource-min>
 					<resource-opt amount="3">795</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">620</resource-min>
 					<resource-opt amount="7">795</resource-opt>
 				</resource>
@@ -1793,13 +1891,14 @@
 		</tier>
 		<tier>
 			<tier-name>Invisible Essence Hide Cap</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">122</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+56 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1812,12 +1911,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">820</resource-min>
 					<resource-opt amount="3">1020</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="14">820</resource-min>
 					<resource-opt amount="7">1020</resource-opt>
 				</resource>
@@ -1841,14 +1942,14 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Invisible Rough Hide Mask</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Rough leather is sewn together from the typically mismatched pieces of various animal hides. Although very inexpensive to manufacture, it offers only the most minimal protection.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">18</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (1)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
-				<tier-attribute type="statBonus">+4 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+5 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -1857,6 +1958,7 @@
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">60</resource-min>
 					<resource-opt amount="9">160</resource-opt>
 				</resource>
@@ -1864,14 +1966,14 @@
 		</tier>
 		<tier>
 			<tier-name>Invisible Tanned Hide Mask</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tanned leather is constructed from animal hides treated with tannin. Tannin is made from boiled tree bark and water adding durability and longevity to the armor.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">33</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+13 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+15 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1881,12 +1983,14 @@
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">260</resource-min>
 					<resource-opt amount="3">385</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">260</resource-min>
 					<resource-opt amount="9">485</resource-opt>
 				</resource>
@@ -1894,14 +1998,14 @@
 		</tier>
 		<tier>
 			<tier-name>Invisible Hardened Hide Mask</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Hardened leather is thicker and more resilient than standard leathers. High quality tannins increase the rigidity of the pieces giving the armor its name.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">45</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+26 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+29 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1912,12 +2016,14 @@
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">460</resource-min>
 					<resource-opt amount="3">610</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">460</resource-min>
 					<resource-opt amount="9">710</resource-opt>
 				</resource>
@@ -1925,14 +2031,14 @@
 		</tier>
 		<tier>
 			<tier-name>Invisible Reinforced Hide Mask</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Reinforced leather is the pinnacle of non-magical organic armors. Further fortification using additional pieces of leather plating make this armor a solid deterrent to most attacks.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">72</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+43 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1944,12 +2050,14 @@
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">660</resource-min>
 					<resource-opt amount="3">835</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">660</resource-min>
 					<resource-opt amount="9">935</resource-opt>
 				</resource>
@@ -1957,14 +2065,14 @@
 		</tier>
 		<tier>
 			<tier-name>Invisible Essence Hide Mask</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Essence leathers extend organic armor construction to the next level by utilizing magical methods to further toughen the hide without sacrificing mobility.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">126</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Armor Use (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+64 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+72 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1977,12 +2085,14 @@
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">860</resource-min>
 					<resource-opt amount="3">1060</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">860</resource-min>
 					<resource-opt amount="9">1160</resource-opt>
 				</resource>

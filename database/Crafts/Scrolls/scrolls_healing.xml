@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Scrolls - Healing</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Scrolls</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Heal - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">1:30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDescription">Heals over time.</item-attribute>
+			<item-attribute type="effectDuration">0:24</item-attribute>
+			<item-attribute type="effectFrequency">0:06</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Heal I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (8)</tier-attribute>
+				<tier-attribute type="effect">Heal I</tier-attribute>
+				<tier-attribute type="healAmount">9-17</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Health I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">80</resource-min>
+					<resource-opt amount="1">280</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">360</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Heal II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (28)</tier-attribute>
+				<tier-attribute type="effect">Heal II</tier-attribute>
+				<tier-attribute type="healAmount">28-48</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Health II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">280</resource-min>
+					<resource-opt amount="1">505</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Heal III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (48)</tier-attribute>
+				<tier-attribute type="effect">Heal III</tier-attribute>
+				<tier-attribute type="healAmount">47-79</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Health III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">480</resource-min>
+					<resource-opt amount="1">730</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Heal IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (68)</tier-attribute>
+				<tier-attribute type="effect">Heal IV</tier-attribute>
+				<tier-attribute type="healAmount">69-117</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Health IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">680</resource-min>
+					<resource-opt amount="1">955</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Heal V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (88)</tier-attribute>
+				<tier-attribute type="effect">Heal V</tier-attribute>
+				<tier-attribute type="healAmount">88-148</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Health V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">880</resource-min>
+					<resource-opt amount="1">1180</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Greater Heal - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">1:30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDescription">Heals over time.</item-attribute>
+			<item-attribute type="effectDuration">0:24</item-attribute>
+			<item-attribute type="effectFrequency">0:06</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Greater Heal I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (12)</tier-attribute>
+				<tier-attribute type="effect">Greater Heal I</tier-attribute>
+				<tier-attribute type="healAmount">13-23</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Major Health I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">120</resource-min>
+					<resource-opt amount="1">320</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">360</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Greater Heal II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (32)</tier-attribute>
+				<tier-attribute type="effect">Greater Heal II</tier-attribute>
+				<tier-attribute type="healAmount">32-54</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Major Health II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">320</resource-min>
+					<resource-opt amount="1">545</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Greater Heal III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (52)</tier-attribute>
+				<tier-attribute type="effect">Greater Heal III</tier-attribute>
+				<tier-attribute type="healAmount">54-92</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Major Health III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">520</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Greater Heal IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (72)</tier-attribute>
+				<tier-attribute type="effect">Greater Heal IV</tier-attribute>
+				<tier-attribute type="healAmount">77-129</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Major Health IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">720</resource-min>
+					<resource-opt amount="1">995</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Greater Heal V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (92)</tier-attribute>
+				<tier-attribute type="effect">Greater Heal V</tier-attribute>
+				<tier-attribute type="healAmount">92-154</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Major Health V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">920</resource-min>
+					<resource-opt amount="1">1220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Lesser Heal - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">1:30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDescription">Heals over time.</item-attribute>
+			<item-attribute type="effectDuration">0:24</item-attribute>
+			<item-attribute type="effectFrequency">0:06</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Lesser Heal I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (4)</tier-attribute>
+				<tier-attribute type="effect">Lesser Heal I</tier-attribute>
+				<tier-attribute type="healAmount">6-10</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Revitalize I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">40</resource-min>
+					<resource-opt amount="1">240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">360</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lesser Heal II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (24)</tier-attribute>
+				<tier-attribute type="effect">Lesser Heal II</tier-attribute>
+				<tier-attribute type="healAmount">24-42</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Revitalize II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">240</resource-min>
+					<resource-opt amount="1">465</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lesser Heal III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (44)</tier-attribute>
+				<tier-attribute type="effect">Lesser Heal III</tier-attribute>
+				<tier-attribute type="healAmount">43-73</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Revitalize III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">440</resource-min>
+					<resource-opt amount="1">690</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lesser Heal IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (64)</tier-attribute>
+				<tier-attribute type="effect">Lesser Heal IV</tier-attribute>
+				<tier-attribute type="healAmount">62-104</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Revitalize IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">640</resource-min>
+					<resource-opt amount="1">915</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Lesser Heal V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (84)</tier-attribute>
+				<tier-attribute type="effect">Lesser Heal V</tier-attribute>
+				<tier-attribute type="healAmount">84-142</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Revitalize V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">840</resource-min>
+					<resource-opt amount="1">1140</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Minor Heal - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">1:30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDescription">Heals over time.</item-attribute>
+			<item-attribute type="effectDuration">0:24</item-attribute>
+			<item-attribute type="effectFrequency">0:06</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Minor Heal I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="effect">Minor Heal I</tier-attribute>
+				<tier-attribute type="healAmount">2-4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Minor Health I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">360</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Minor Heal II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
+				<tier-attribute type="effect">Minor Heal II</tier-attribute>
+				<tier-attribute type="healAmount">21-35</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Minor Health II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Minor Heal III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
+				<tier-attribute type="effect">Minor Heal III</tier-attribute>
+				<tier-attribute type="healAmount">39-67</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Minor Health III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Minor Heal IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
+				<tier-attribute type="effect">Minor Heal IV</tier-attribute>
+				<tier-attribute type="healAmount">58-98</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Minor Health IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Minor Heal V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
+				<tier-attribute type="effect">Minor Heal V</tier-attribute>
+				<tier-attribute type="healAmount">81-135</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Minor Health V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Superior Heal - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">1:30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDescription">Heals over time.</item-attribute>
+			<item-attribute type="effectDuration">0:24</item-attribute>
+			<item-attribute type="effectFrequency">0:06</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Superior Heal I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (16)</tier-attribute>
+				<tier-attribute type="effect">Superior Heal I</tier-attribute>
+				<tier-attribute type="healAmount">17-29</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Improved Revitalize I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">160</resource-min>
+					<resource-opt amount="1">360</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">1</resource-min>
+					<resource-opt amount="1">360</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Superior Heal II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (36)</tier-attribute>
+				<tier-attribute type="effect">Superior Heal II</tier-attribute>
+				<tier-attribute type="healAmount">36-60</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Improved Revitalize II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">360</resource-min>
+					<resource-opt amount="1">585</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">200</resource-min>
+					<resource-opt amount="1">585</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Superior Heal III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (56)</tier-attribute>
+				<tier-attribute type="effect">Superior Heal III</tier-attribute>
+				<tier-attribute type="healAmount">54-92</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="2">810</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Improved Revitalize III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">520</resource-min>
+					<resource-opt amount="1">770</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">810</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Superior Heal IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (76)</tier-attribute>
+				<tier-attribute type="effect">Superior Heal IV</tier-attribute>
+				<tier-attribute type="healAmount">77-129</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">600</resource-min>
+					<resource-opt amount="2">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Improved Revitalize IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">760</resource-min>
+					<resource-opt amount="1">1035</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">600</resource-min>
+					<resource-opt amount="1">1035</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Superior Heal V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (96)</tier-attribute>
+				<tier-attribute type="effect">Superior Heal V</tier-attribute>
+				<tier-attribute type="healAmount">96-160</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Improved Revitalize V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">960</resource-min>
+					<resource-opt amount="1">1260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="1">1260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

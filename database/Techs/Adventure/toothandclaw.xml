@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Tooth and Claw</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Tooth and Claw</tech-name>
+		<tech-icon>icon_technique_04_00_11.png</tech-icon>
+		<tech-subdesc>Enhances the Tooth and Claw skill of the player by a set amount per tier. Increased Tooth and Claw skill reduces the damage variance when using attacks of this type, as well as improving the chance to hit.</tech-subdesc>
+		<tech-attributes>
+			<tech-attribute type="percentagestatbonus">25% Strength</tech-attribute>
+			<tech-attribute type="percentagestatbonus">75% Dexterity</tech-attribute>
+			<tech-attribute type="lowresist">Arbotus</tech-attribute>
+			<tech-attribute type="lowresist">Dredge Devil</tech-attribute>
+			<tech-attribute type="lowresist">Dryad Zombie Conjurer</tech-attribute>
+			<tech-attribute type="lowresist">Dwarf Zombie Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Elf Zombie Spearman</tech-attribute>
+			<tech-attribute type="lowresist">Fire Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Fire Pygmy</tech-attribute>
+			<tech-attribute type="lowresist">Forest Oastic</tech-attribute>
+			<tech-attribute type="lowresist">Gnome Zombie Wizard</tech-attribute>
+			<tech-attribute type="lowresist">Half-Giant Zombie Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Human Zombie Zealot</tech-attribute>
+			<tech-attribute type="lowresist">Ice Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Ice Pygmy</tech-attribute>
+			<tech-attribute type="lowresist">Lava Oastic</tech-attribute>
+			<tech-attribute type="lowresist">Leafy Oastic</tech-attribute>
+			<tech-attribute type="lowresist">Ruxus</tech-attribute>
+			<tech-attribute type="lowresist">Sand Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Sand Pygmy</tech-attribute>
+			<tech-attribute type="lowresist">Saris Mummy Zealot</tech-attribute>
+			<tech-attribute type="lowresist">Saris Zombie Knight of Destruction</tech-attribute>
+			<tech-attribute type="lowresist">Saris Zombie Warrior</tech-attribute>
+			<tech-attribute type="lowresist">Satyr Zombie Mercenary</tech-attribute>
+			<tech-attribute type="lowresist">Sslik Zombie Shaman</tech-attribute>
+			<tech-attribute type="lowresist">Storm Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Undead Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Vexator</tech-attribute>
+			<tech-attribute type="lowresist">Wood Golem</tech-attribute>
+			<tech-attribute type="highresist">Desert Scarab</tech-attribute>
+			<tech-attribute type="highresist">Discord (++)</tech-attribute>
+			<tech-attribute type="highresist">Dryad Ghost Mage</tech-attribute>
+			<tech-attribute type="highresist">Dwarf Ghost Crossbowman</tech-attribute>
+			<tech-attribute type="highresist">Elf Ghost Strider</tech-attribute>
+			<tech-attribute type="highresist">Famine (++)</tech-attribute>
+			<tech-attribute type="highresist">Fiend Ghost Spiritist</tech-attribute>
+			<tech-attribute type="highresist">Gnome Ghost Battlemage</tech-attribute>
+			<tech-attribute type="highresist">Golem</tech-attribute>
+			<tech-attribute type="highresist">Half-Giant Ghost Reaver</tech-attribute>
+			<tech-attribute type="highresist">Human Ghost Marauder</tech-attribute>
+			<tech-attribute type="highresist">Inhibition (++)</tech-attribute>
+			<tech-attribute type="highresist">Palsy (++)</tech-attribute>
+			<tech-attribute type="highresist">Saris Ghost Diviner</tech-attribute>
+			<tech-attribute type="highresist">Saris Skeleton Diviner</tech-attribute>
+			<tech-attribute type="highresist">Saris Skeleton Templar</tech-attribute>
+			<tech-attribute type="highresist">Saris Zombie Templar</tech-attribute>
+			<tech-attribute type="highresist">Satyr Ghost Oracle</tech-attribute>
+			<tech-attribute type="highresist">Sslik Ghost Bloodmage</tech-attribute>
+			<tech-attribute type="highresist">Sslik Skeleton Bloodmage</tech-attribute>
+			<tech-attribute type="highresist">Sslik Skeleton Templar</tech-attribute>
+			<tech-attribute type="highresist">Wind Golem</tech-attribute>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>dragonscale</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>dragon_weapon_claw</tech-keyword>
+				<tech-keyword>dragon_bodyslot_claw</tech-keyword>
+				<tech-keyword>dragon_bodyslot_tail</tech-keyword>
+				<tech-keyword>dragon_bodyslot_head</tech-keyword>
+				<tech-keyword>dragon_bodyslot_back</tech-keyword>
+				<tech-keyword>dragon_bodyslot_chest</tech-keyword>
+				<tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+				<tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+				<tech-keyword>dragon_bodyslot_wing</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_toothandclaw_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Tooth and Claw I</tier-name>
+			<tier-origin>Adventure: Tooth and Claw I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +5 to the Tooth and Claw adventure skill.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Greymane Seeker Fang</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tooth and Claw II</tier-name>
+			<tier-origin>Adventure: Tooth and Claw II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +10 to the Tooth and Claw adventure skill.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Muck Fly Wing</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tooth and Claw III</tier-name>
+			<tier-origin>Adventure: Tooth and Claw III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +15 to the Tooth and Claw adventure skill.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Massive Oak Treant Root</component>
+				<component amount = "1">Green Necrofly Wing</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tooth and Claw IV</tier-name>
+			<tier-origin>Adventure: Tooth and Claw IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +20 to the Tooth and Claw adventure skill.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "2">Flame Wolf Fang</component>
+				<component amount = "1">Tempest Golem Mettle</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Tooth and Claw V</tier-name>
+			<tier-origin>Adventure: Tooth and Claw V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an additional +25 to the Tooth and Claw adventure skill.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Gloomwolf Fang</component>
+				<component amount = "2">Enraged Yew Treant Root</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

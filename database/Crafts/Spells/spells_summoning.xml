@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Spells - Summoning</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Spells</formulaset-category>
@@ -13,6 +13,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">60</item-attribute>
 			<item-attribute type="castDelay">70</item-attribute>
 			<item-attribute type="damageType">pierce</item-attribute>
 			<item-attribute type="skill">Summoning</item-attribute>
@@ -28,7 +29,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Flame Spear I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Summons a great fiery spear that thrusts into a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -36,6 +37,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (100)</tier-attribute>
 				<tier-attribute type="damage">33-37</tier-attribute>
+				<tier-attribute type="takeDamage">33-37 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -44,6 +46,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -51,7 +54,7 @@
 		</tier>
 		<tier>
 			<tier-name>Flame Spear II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Summons a great fiery spear that thrusts into a target.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -59,6 +62,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (300)</tier-attribute>
 				<tier-attribute type="damage">76-85</tier-attribute>
+				<tier-attribute type="takeDamage">76-85 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -68,12 +72,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -81,7 +87,7 @@
 		</tier>
 		<tier>
 			<tier-name>Flame Spear III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Summons a great fiery spear that thrusts into a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -89,6 +95,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (500)</tier-attribute>
 				<tier-attribute type="damage">118-132</tier-attribute>
+				<tier-attribute type="takeDamage">118-132 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -99,12 +106,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -112,7 +121,7 @@
 		</tier>
 		<tier>
 			<tier-name>Flame Spear IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Summons a great fiery spear that thrusts into a target.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -120,6 +129,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (700)</tier-attribute>
 				<tier-attribute type="damage">159-178</tier-attribute>
+				<tier-attribute type="takeDamage">159-178 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -131,12 +141,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -144,7 +156,7 @@
 		</tier>
 		<tier>
 			<tier-name>Flame Spear V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Summons a great fiery spear that thrusts into a target.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -152,6 +164,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (900)</tier-attribute>
 				<tier-attribute type="damage">200-223</tier-attribute>
+				<tier-attribute type="takeDamage">200-223 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -164,12 +177,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="5">1100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1100</resource-opt>
 				</resource>
@@ -185,6 +200,7 @@
 			<item-attribute type="bulk">1</item-attribute>
 			<item-attribute type="reqClass">CHSW, KNOC, ICED, FLMD, CONJ, SORC, WIZ, BTLM, MAGE</item-attribute>
 			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="recycle">60</item-attribute>
 			<item-attribute type="castDelay">70</item-attribute>
 			<item-attribute type="damageType">crush</item-attribute>
 			<item-attribute type="skill">Summoning</item-attribute>
@@ -200,7 +216,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Ice Hammer I</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Slams the target with a tremendous summoned hammer of solid ice.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -208,6 +224,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (150)</tier-attribute>
 				<tier-attribute type="damage">45-50</tier-attribute>
+				<tier-attribute type="takeDamage">45-50 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
@@ -216,6 +233,7 @@
 				<resource>
 					<resource-name>Sandstone Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">150</resource-min>
 					<resource-opt amount="6">250</resource-opt>
 				</resource>
@@ -223,7 +241,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ice Hammer II</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Slams the target with a tremendous summoned hammer of solid ice.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -231,6 +249,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (350)</tier-attribute>
 				<tier-attribute type="damage">89-99</tier-attribute>
+				<tier-attribute type="takeDamage">89-99 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -240,12 +259,14 @@
 				<resource>
 					<resource-name>Slate Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">350</resource-min>
 					<resource-opt amount="6">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">350</resource-min>
 					<resource-opt amount="11">475</resource-opt>
 				</resource>
@@ -253,7 +274,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ice Hammer III</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Slams the target with a tremendous summoned hammer of solid ice.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -261,6 +282,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (550)</tier-attribute>
 				<tier-attribute type="damage">132-147</tier-attribute>
+				<tier-attribute type="takeDamage">132-147 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -271,12 +293,14 @@
 				<resource>
 					<resource-name>Granite Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">550</resource-min>
 					<resource-opt amount="6">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">550</resource-min>
 					<resource-opt amount="11">700</resource-opt>
 				</resource>
@@ -284,7 +308,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ice Hammer IV</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Slams the target with a tremendous summoned hammer of solid ice.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -292,6 +316,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (750)</tier-attribute>
 				<tier-attribute type="damage">174-194</tier-attribute>
+				<tier-attribute type="takeDamage">174-194 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -303,12 +328,14 @@
 				<resource>
 					<resource-name>Obsidian Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">750</resource-min>
 					<resource-opt amount="6">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">750</resource-min>
 					<resource-opt amount="11">925</resource-opt>
 				</resource>
@@ -316,7 +343,7 @@
 		</tier>
 		<tier>
 			<tier-name>Ice Hammer V</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Slams the target with a tremendous summoned hammer of solid ice.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -324,6 +351,7 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Summoning (950)</tier-attribute>
 				<tier-attribute type="damage">215-240</tier-attribute>
+				<tier-attribute type="takeDamage">215-240 flame (25% chance)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -336,12 +364,14 @@
 				<resource>
 					<resource-name>Marble Spell Shard</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">950</resource-min>
 					<resource-opt amount="6">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Spellcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">950</resource-min>
 					<resource-opt amount="11">1150</resource-opt>
 				</resource>

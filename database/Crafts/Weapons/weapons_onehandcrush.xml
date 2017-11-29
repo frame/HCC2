@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Weapons - One Hand Crush</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Weapons</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Club</item-name>
+		<item-icon>icon_formula_w_1hs_09_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, ELAR, CRSB, RNGR, CLRC, DRU, SHMN, MONK, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">One Hand Crush</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weaponstyle_club</item-keyword>
+			<item-keyword>weapon_club</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandcrush</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Club</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end shaped out of cedar, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">14</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">3-4</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">1</resource-min>
+					<resource-opt amount="7">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Club</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end shaped out of elm, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (200)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">16-19</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">200</resource-min>
+					<resource-opt amount="7">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Club</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end shaped out of oak, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (400)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">28-33</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">400</resource-min>
+					<resource-opt amount="7">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Club</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end shaped out of maple, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (600)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">39-47</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">600</resource-min>
+					<resource-opt amount="7">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Club</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end shaped out of yew, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (800)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="delay">32</tier-attribute>
+				<tier-attribute type="damage">50-59</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">800</resource-min>
+					<resource-opt amount="7">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Cudgel</item-name>
+		<item-icon>icon_formula_w_1hs_10_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, ELAR, CRSB, RNGR, CONJ, CLRC, DRU, SHMN, MONK, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">One Hand Crush</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weaponstyle_club</item-keyword>
+			<item-keyword>weapon_cudgel</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandcrush</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Cedar Cudgel</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A club made of cedar wood.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">18</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (50)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="delay">38</tier-attribute>
+				<tier-attribute type="damage">7-8</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">50</resource-min>
+					<resource-opt amount="9">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Elm Cudgel</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A club made of elm wood.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (250)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">20-24</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">250</resource-min>
+					<resource-opt amount="9">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Oak Cudgel</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A club made of oak</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (450)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">33-39</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">450</resource-min>
+					<resource-opt amount="9">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Maple Cudgel</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A club made of maple.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (650)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">45-53</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">650</resource-min>
+					<resource-opt amount="9">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Yew Cudgel</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A club made of yew.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (850)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">56-66</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">850</resource-min>
+					<resource-opt amount="9">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Club</item-name>
+		<item-icon>icon_formula_w_1hs_09_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, ELAR, CRSB, RNGR, CLRC, DRU, SHMN, MONK, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">One Hand Crush</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weaponstyle_club</item-keyword>
+			<item-keyword>weapon_club</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandcrush</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Cedar Club</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end exceptionally shaped out of cedar, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">20</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (100)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">10-11</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">100</resource-min>
+					<resource-opt amount="10">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Elm Club</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end exceptionally shaped out of elm, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">50</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (300)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">22-26</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Oak Club</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end exceptionally shaped out of oak, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (500)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">33-39</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">500</resource-min>
+					<resource-opt amount="10">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Maple Club</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end exceptionally shaped out of maple, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (700)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="delay">32</tier-attribute>
+				<tier-attribute type="damage">44-52</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">700</resource-min>
+					<resource-opt amount="10">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Yew Club</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A stout heavy stick, with a thick heavy end exceptionally shaped out of yew, designed for inflicting crippling blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (900)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="delay">31</tier-attribute>
+				<tier-attribute type="damage">61-71</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">900</resource-min>
+					<resource-opt amount="10">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Cudgel</item-name>
+		<item-icon>icon_formula_w_1hs_10_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, ELAR, CRSB, RNGR, CONJ, CLRC, DRU, SHMN, MONK, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">One Hand Crush</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weaponstyle_club</item-keyword>
+			<item-keyword>weapon_cudgel</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandcrush</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Cedar Cudgel</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A club made of cedar wood.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">24</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (150)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">14-16</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">150</resource-min>
+					<resource-opt amount="12">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Elm Cudgel</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A club made of elm wood.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (350)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">27-31</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">350</resource-min>
+					<resource-opt amount="12">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Oak Cudgel</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A club made of oak</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (550)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">39-45</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Oak Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">550</resource-min>
+					<resource-opt amount="12">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Maple Cudgel</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A club made of maple.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (750)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">51-58</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Maple Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">750</resource-min>
+					<resource-opt amount="12">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Yew Cudgel</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A club made of yew.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (950)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="delay">33</tier-attribute>
+				<tier-attribute type="damage">61-71</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Yew Board</resource-name>
+					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">950</resource-min>
+					<resource-opt amount="12">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Mace</item-name>
+		<item-icon>icon_formula_w_1hs_07_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, ELAR, CRSB, RNGR, CLRC, SHMN, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">One Hand Crush</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weaponstyle_mace</item-keyword>
+			<item-keyword>weapon_mace</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandcrush</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Bronze Mace</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A sturdy rod with an exceptional solid metal head forged of bronze, designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">50</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (100)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (10)</tier-attribute>
+				<tier-attribute type="delay">38</tier-attribute>
+				<tier-attribute type="damage">10-12</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">100</resource-min>
+					<resource-opt amount="10">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Iron Mace</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A sturdy rod with an exceptional solid metal head forged of iron, designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">90</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (300)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (30)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">24-28</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Steel Mace</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A sturdy rod with an exceptional solid metal head forged of steel, designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">180</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (500)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (50)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">37-42</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">500</resource-min>
+					<resource-opt amount="10">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Cobalt Mace</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A sturdy rod with an exceptional solid metal head forged of cobalt, designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">360</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (700)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (70)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">49-62</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">700</resource-min>
+					<resource-opt amount="10">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Mithril Mace</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A sturdy rod with an exceptional solid metal head forged of mithril, designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">720</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (900)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (90)</tier-attribute>
+				<tier-attribute type="delay">34</tier-attribute>
+				<tier-attribute type="damage">60-69</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">900</resource-min>
+					<resource-opt amount="10">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Fine Warhammer</item-name>
+		<item-icon>icon_formula_w_1hs_08_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, ELAR, CRSB, RNGR, CLRC, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">One Hand Crush</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_warhammer</item-keyword>
+			<item-keyword>weaponstyle_hammer</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandcrush</item-keyword>
+			<item-keyword>weapon</item-keyword>
+			<item-keyword>fine</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Fine Bronze Warhammer</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>An exceptional oversized hammer, with a stout head, forged out of solid bronze, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">60</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (150)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (15)</tier-attribute>
+				<tier-attribute type="delay">40</tier-attribute>
+				<tier-attribute type="damage">15-17</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">150</resource-min>
+					<resource-opt amount="12">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Iron Warhammer</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>An exceptional oversized hammer, with a stout head, forged out of solid iron, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">108</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (350)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (35)</tier-attribute>
+				<tier-attribute type="delay">39</tier-attribute>
+				<tier-attribute type="damage">29-33</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">350</resource-min>
+					<resource-opt amount="12">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Steel Warhammer</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>An exceptional oversized hammer, with a stout head, forged out of solid steel, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">216</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (550)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (55)</tier-attribute>
+				<tier-attribute type="delay">38</tier-attribute>
+				<tier-attribute type="damage">43-48</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">550</resource-min>
+					<resource-opt amount="12">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Cobalt Warhammer</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>An exceptional oversized hammer, with a stout head, forged out of solid cobalt, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">432</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (750)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (75)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">55-63</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">750</resource-min>
+					<resource-opt amount="12">925</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fine Mithril Warhammer</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>An exceptional oversized hammer, with a stout head, forged out of solid mithril, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">864</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (950)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (95)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">67-77</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="24">950</resource-min>
+					<resource-opt amount="12">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Mace</item-name>
+		<item-icon>icon_formula_w_1hs_07_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, ELAR, CRSB, RNGR, CLRC, SHMN, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">One Hand Crush</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weaponstyle_mace</item-keyword>
+			<item-keyword>weapon_mace</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandcrush</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Mace</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A sturdy rod with a solid metal head forged of bronze, designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">35</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (1)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+				<tier-attribute type="delay">39</tier-attribute>
+				<tier-attribute type="damage">3-5</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">1</resource-min>
+					<resource-opt amount="7">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Mace</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A sturdy rod with a solid metal head forged of iron designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">63</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (200)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+				<tier-attribute type="delay">38</tier-attribute>
+				<tier-attribute type="damage">17-21</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">200</resource-min>
+					<resource-opt amount="7">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Mace</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A sturdy rod with a solid metal head forged of steel designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">126</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (400)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">30-36</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">400</resource-min>
+					<resource-opt amount="7">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Mace</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A sturdy rod with a solid metal head forged of cobalt, designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">252</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (600)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+				<tier-attribute type="delay">36</tier-attribute>
+				<tier-attribute type="damage">43-51</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">600</resource-min>
+					<resource-opt amount="7">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Mace</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A sturdy rod with a solid metal head forged of mithril, designed for swift crushing attacks.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">504</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (800)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+				<tier-attribute type="delay">35</tier-attribute>
+				<tier-attribute type="damage">55-64</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="14">800</resource-min>
+					<resource-opt amount="7">1000</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Warhammer</item-name>
+		<item-icon>icon_formula_w_1hs_08_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">Right Palm</item-attribute>
+			<item-attribute type="bulk">32</item-attribute>
+			<item-attribute type="reqClass">GRDN, ELAR, CRSB, RNGR, CLRC, SCT, HLR, WAR</item-attribute>
+			<item-attribute type="range">Melee</item-attribute>
+			<item-attribute type="damageType">crush</item-attribute>
+			<item-attribute type="skill">One Hand Crush</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>techclass_1</item-keyword>
+			<item-keyword>weapon_warhammer</item-keyword>
+			<item-keyword>weaponstyle_hammer</item-keyword>
+			<item-keyword>bodyslot_rightpalm</item-keyword>
+			<item-keyword>skill_use_onehandcrush</item-keyword>
+			<item-keyword>weapon</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Bronze Warhammer</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>An oversized hammer, with a stout head, forged out of solid bronze, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">45</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (50)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (5)</tier-attribute>
+				<tier-attribute type="delay">41</tier-attribute>
+				<tier-attribute type="damage">7-9</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">50</resource-min>
+					<resource-opt amount="9">150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Warhammer</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>An oversized hammer, with a stout head, forged out of solid iron, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">81</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (250)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (25)</tier-attribute>
+				<tier-attribute type="delay">40</tier-attribute>
+				<tier-attribute type="damage">22-26</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">250</resource-min>
+					<resource-opt amount="9">375</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Steel Warhammer</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>An oversized hammer, with a stout head, forged out of solid steel, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">162</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (450)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (45)</tier-attribute>
+				<tier-attribute type="delay">39</tier-attribute>
+				<tier-attribute type="damage">36-42</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">450</resource-min>
+					<resource-opt amount="9">600</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cobalt Warhammer</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>An oversized hammer, with a stout head, forged out of solid cobalt, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>2</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">324</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (650)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (65)</tier-attribute>
+				<tier-attribute type="delay">38</tier-attribute>
+				<tier-attribute type="damage">49-57</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">650</resource-min>
+					<resource-opt amount="9">825</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Mithril Warhammer</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>An oversized hammer with a stout head, forged out of solid mithril, designed for forceful crushing blows.</tier-desc>
+			<tier-allowedtechniques>3</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">648</tier-attribute>
+				<tier-attribute type="reqAdvSkill">One Hand Crush (850)</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (85)</tier-attribute>
+				<tier-attribute type="delay">37</tier-attribute>
+				<tier-attribute type="damage">62-71</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>techclass_5</tier-keyword>
+				<tier-keyword>techclass_4</tier-keyword>
+				<tier-keyword>techclass_3</tier-keyword>
+				<tier-keyword>techclass_2</tier-keyword>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mithril Bar</resource-name>
+					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="18">850</resource-min>
+					<resource-opt amount="9">1050</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

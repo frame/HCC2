@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Blight Range</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Spell</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Blight Range</tech-name>
+		<tech-icon>icon_technique_02_00_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>primal</tech-keyword>
+				<tech-keyword>spell</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>skill_use_magic_blight</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>ranged</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>spell_mod_range</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Blight Range I</tier-name>
+			<tier-origin>Spell: Blight Range I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Modifies the maximum ranged blight spell by +5.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Giant Loricatus Beetle Antennae</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Blight Range II</tier-name>
+			<tier-origin>Spell: Blight Range II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Modifies the maximum ranged blight spell by +10.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Tremendous Loricatus Beetle Carapace</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Blight Range III</tier-name>
+			<tier-origin>Spell: Blight Range III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Modifies the maximum ranged blight spell by +15.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Lesser Nix Beetle Carapace</component>
+				<component amount = "1">Enraged Oak Treant Mettle</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Blight Range IV</tier-name>
+			<tier-origin>Spell: Blight Range IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Modifies the maximum ranged blight spell by +20.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "2">Zal'kuk Warrior Jawbone</component>
+				<component amount = "1">Enraged Maple Treant Mettle</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Blight Range V</tier-name>
+			<tier-origin>Spell: Blight Range V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Modifies the maximum ranged blight spell by +25.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Blood Skulk Bloodmage's Finger</component>
+				<component amount = "2">Than'kuk Warrior's Jawbone</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Resources - Earthencraft</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Resources</formulaset-category>
@@ -7,7 +7,7 @@
 	<item>
 		<item-name>Glass Bottles</item-name>
 		<item-icon>icon_formula_r_02_12_11.png</item-icon>
-		<item-batchqty>2</item-batchqty>
+		<item-batchqty>5</item-batchqty>
 		<item-attributes>
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">1</item-attribute>
@@ -19,14 +19,18 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Glass Bottle</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Glass Nodule</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">1</resource-min>
 					<resource-opt amount="4">200</resource-opt>
 				</resource>
@@ -48,15 +52,18 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Glass Nodule</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Looks like this nodule could be used to make glass vials.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Sand</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">1</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -78,15 +85,18 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Glass Vial</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This vial could be useful in holding potions.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
 			<resources>
 				<resource>
 					<resource-name>Glass Nodule</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">1</resource-min>
 					<resource-opt amount="2">400</resource-opt>
 				</resource>
@@ -101,13 +111,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">4</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Adobe Cooking Bowl</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A cooking bowl, made from adobe clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -115,12 +127,14 @@
 				<resource>
 					<resource-name>Adobe Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -128,11 +142,11 @@
 		</tier>
 		<tier>
 			<tier-name>Earthenware Cooking Bowl</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A cooking bowl, made from earthenware clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -140,12 +154,14 @@
 				<resource>
 					<resource-name>Earthenware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">200</resource-min>
 					<resource-opt amount="2">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -153,11 +169,11 @@
 		</tier>
 		<tier>
 			<tier-name>Terra Cotta Cooking Bowl</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A cooking bowl, made from terra cotta clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -165,12 +181,14 @@
 				<resource>
 					<resource-name>Terra Cotta Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="2">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -178,11 +196,11 @@
 		</tier>
 		<tier>
 			<tier-name>Stoneware Cooking Bowl</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cooking bowl, made from stoneware clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -190,12 +208,14 @@
 				<resource>
 					<resource-name>Stoneware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">600</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -203,11 +223,11 @@
 		</tier>
 		<tier>
 			<tier-name>Geostone Cooking Bowl</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A cooking bowl, made from geostone clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -215,12 +235,14 @@
 				<resource>
 					<resource-name>Geostone Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">800</resource-min>
 					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -235,13 +257,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">4</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Adobe Cooking Jar</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A jar used in cooking, made from adobe clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -249,12 +273,14 @@
 				<resource>
 					<resource-name>Adobe Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">100</resource-min>
 					<resource-opt amount="4">300</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -262,11 +288,11 @@
 		</tier>
 		<tier>
 			<tier-name>Earthenware Cooking Jar</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A jar used in cooking, made from earthenware clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -274,12 +300,14 @@
 				<resource>
 					<resource-name>Earthenware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">300</resource-min>
 					<resource-opt amount="4">525</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -287,11 +315,11 @@
 		</tier>
 		<tier>
 			<tier-name>Terra Cotta Cooking Jar</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A jar used in cooking, made from terra cotta clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -299,12 +327,14 @@
 				<resource>
 					<resource-name>Terra Cotta Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">500</resource-min>
 					<resource-opt amount="4">750</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -312,11 +342,11 @@
 		</tier>
 		<tier>
 			<tier-name>Stoneware Cooking Jar</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A jar used in cooking, made from stoneware clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -324,12 +354,14 @@
 				<resource>
 					<resource-name>Stoneware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">700</resource-min>
 					<resource-opt amount="4">975</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -337,11 +369,11 @@
 		</tier>
 		<tier>
 			<tier-name>Geostone Cooking Jar</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A jar used in cooking, made from geostone clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -349,12 +381,14 @@
 				<resource>
 					<resource-name>Geostone Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">900</resource-min>
 					<resource-opt amount="4">1175</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -369,13 +403,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">4</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Adobe Cooking Pie Pan</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A cooking pie pan, made from adobe clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -383,12 +419,14 @@
 				<resource>
 					<resource-name>Adobe Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">150</resource-min>
 					<resource-opt amount="5">350</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -396,11 +434,11 @@
 		</tier>
 		<tier>
 			<tier-name>Earthenware Cooking Pie Pan</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A cooking pie pan, made from earthenware clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -408,12 +446,14 @@
 				<resource>
 					<resource-name>Earthenware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">350</resource-min>
 					<resource-opt amount="5">575</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -421,11 +461,11 @@
 		</tier>
 		<tier>
 			<tier-name>Terra Cotta Cooking Pie Pan</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A cooking pie pan, made from terra cotta clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -433,12 +473,14 @@
 				<resource>
 					<resource-name>Terra Cotta Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">550</resource-min>
 					<resource-opt amount="5">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -446,11 +488,11 @@
 		</tier>
 		<tier>
 			<tier-name>Stoneware Cooking Pie Pan</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cooking pie pan, made from stoneware clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -458,12 +500,14 @@
 				<resource>
 					<resource-name>Stoneware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">750</resource-min>
 					<resource-opt amount="5">1025</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -471,11 +515,11 @@
 		</tier>
 		<tier>
 			<tier-name>Geostone Cooking Pie Pan</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A cooking pie pan, made from geostone clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -483,12 +527,14 @@
 				<resource>
 					<resource-name>Geostone Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">950</resource-min>
 					<resource-opt amount="5">1225</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -503,13 +549,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">4</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Adobe Cooking Pot</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A round and deep vessel, made from adobe and used in cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -517,12 +565,14 @@
 				<resource>
 					<resource-name>Adobe Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">50</resource-min>
 					<resource-opt amount="3">250</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="3">1125</resource-opt>
 				</resource>
@@ -530,11 +580,11 @@
 		</tier>
 		<tier>
 			<tier-name>Earthenware Cooking Pot</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A round and deep vessel, made from earthenware and used in cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -542,12 +592,14 @@
 				<resource>
 					<resource-name>Earthenware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">250</resource-min>
 					<resource-opt amount="3">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="3">1125</resource-opt>
 				</resource>
@@ -555,11 +607,11 @@
 		</tier>
 		<tier>
 			<tier-name>Terra Cotta Cooking Pot</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A round and deep vessel, made from terra cotta and used in cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -567,12 +619,14 @@
 				<resource>
 					<resource-name>Terra Cotta Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">450</resource-min>
 					<resource-opt amount="3">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="3">1125</resource-opt>
 				</resource>
@@ -580,11 +634,11 @@
 		</tier>
 		<tier>
 			<tier-name>Stoneware Cooking Pot</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A round and deep vessel, made from stoneware and used in cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -592,12 +646,14 @@
 				<resource>
 					<resource-name>Stoneware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">650</resource-min>
 					<resource-opt amount="3">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="3">1125</resource-opt>
 				</resource>
@@ -605,11 +661,11 @@
 		</tier>
 		<tier>
 			<tier-name>Geostone Cooking Pot</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A round and deep vessel, made from geostone and used in cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -617,12 +673,14 @@
 				<resource>
 					<resource-name>Geostone Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">850</resource-min>
 					<resource-opt amount="3">1125</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">850</resource-min>
 					<resource-opt amount="3">1125</resource-opt>
 				</resource>
@@ -637,13 +695,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">4</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Adobe Cooking Roaster</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A cooking mould, made from adobe clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -651,12 +711,14 @@
 				<resource>
 					<resource-name>Adobe Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">150</resource-min>
 					<resource-opt amount="5">350</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -664,11 +726,11 @@
 		</tier>
 		<tier>
 			<tier-name>Earthenware Cooking Roaster</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A cooking mould, made from earthenware clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -676,12 +738,14 @@
 				<resource>
 					<resource-name>Earthenware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">350</resource-min>
 					<resource-opt amount="5">575</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -689,11 +753,11 @@
 		</tier>
 		<tier>
 			<tier-name>Terra Cotta Cooking Roaster</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A cooking mould, made from terra cotta clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -701,12 +765,14 @@
 				<resource>
 					<resource-name>Terra Cotta Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">550</resource-min>
 					<resource-opt amount="5">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -714,11 +780,11 @@
 		</tier>
 		<tier>
 			<tier-name>Stoneware Cooking Roaster</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cooking mould, made from stoneware clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -726,12 +792,14 @@
 				<resource>
 					<resource-name>Stoneware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">750</resource-min>
 					<resource-opt amount="5">1025</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -739,11 +807,11 @@
 		</tier>
 		<tier>
 			<tier-name>Geostone Cooking Roaster</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A cooking mould, made from geostone clay.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -751,12 +819,14 @@
 				<resource>
 					<resource-name>Geostone Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">950</resource-min>
 					<resource-opt amount="5">1225</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">550</resource-min>
 					<resource-opt amount="3">1025</resource-opt>
 				</resource>
@@ -771,13 +841,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">4</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Adobe Cooking Sheet</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A shallow cooking pan that is constructed of adobe clay and used for cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -785,12 +857,14 @@
 				<resource>
 					<resource-name>Adobe Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">100</resource-min>
 					<resource-opt amount="4">300</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -798,11 +872,11 @@
 		</tier>
 		<tier>
 			<tier-name>Earthenware Cooking Sheet</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A shallow cooking pan that is constructed of earthenware clay and used for cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -810,12 +884,14 @@
 				<resource>
 					<resource-name>Earthenware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">300</resource-min>
 					<resource-opt amount="4">525</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -823,11 +899,11 @@
 		</tier>
 		<tier>
 			<tier-name>Terra Cotta Cooking Sheet</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A shallow cooking pan that is constructed of terra cotta clay and used for cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -835,12 +911,14 @@
 				<resource>
 					<resource-name>Terra Cotta Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">500</resource-min>
 					<resource-opt amount="4">750</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -848,11 +926,11 @@
 		</tier>
 		<tier>
 			<tier-name>Stoneware Cooking Sheet</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A shallow cooking pan that is constructed of stoneware clay and used for cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -860,12 +938,14 @@
 				<resource>
 					<resource-name>Stoneware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">700</resource-min>
 					<resource-opt amount="4">975</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -873,11 +953,11 @@
 		</tier>
 		<tier>
 			<tier-name>Geostone Cooking Sheet</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A shallow cooking pan that is constructed of geostone clay and used for cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -885,12 +965,14 @@
 				<resource>
 					<resource-name>Geostone Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">900</resource-min>
 					<resource-opt amount="4">1175</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="3">975</resource-opt>
 				</resource>
@@ -905,13 +987,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">4</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Adobe Cooking Skewer</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A stick made from adobe clay, used to skewer meat and vegetables when cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -919,12 +1003,14 @@
 				<resource>
 					<resource-name>Adobe Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">50</resource-min>
 					<resource-opt amount="3">250</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">450</resource-min>
 					<resource-opt amount="3">925</resource-opt>
 				</resource>
@@ -932,11 +1018,11 @@
 		</tier>
 		<tier>
 			<tier-name>Earthenware Cooking Skewer</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A stick made from earthenware clay, used to skewer meat and vegetables when cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -944,12 +1030,14 @@
 				<resource>
 					<resource-name>Earthenware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">250</resource-min>
 					<resource-opt amount="3">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">450</resource-min>
 					<resource-opt amount="3">925</resource-opt>
 				</resource>
@@ -957,11 +1045,11 @@
 		</tier>
 		<tier>
 			<tier-name>Terra Cotta Cooking Skewer</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A stick made from terra cotta clay, used to skewer meat and vegetables when cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -969,12 +1057,14 @@
 				<resource>
 					<resource-name>Terra Cotta Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">450</resource-min>
 					<resource-opt amount="3">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">450</resource-min>
 					<resource-opt amount="3">925</resource-opt>
 				</resource>
@@ -982,11 +1072,11 @@
 		</tier>
 		<tier>
 			<tier-name>Stoneware Cooking Skewer</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A stick made from stoneware clay, used to skewer meat and vegetables when cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -994,12 +1084,14 @@
 				<resource>
 					<resource-name>Stoneware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">650</resource-min>
 					<resource-opt amount="3">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">450</resource-min>
 					<resource-opt amount="3">925</resource-opt>
 				</resource>
@@ -1007,11 +1099,11 @@
 		</tier>
 		<tier>
 			<tier-name>Geostone Cooking Skewer</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A stick made from geostone clay, used to skewer meat and vegetables when cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -1019,12 +1111,14 @@
 				<resource>
 					<resource-name>Geostone Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">850</resource-min>
 					<resource-opt amount="3">1125</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">450</resource-min>
 					<resource-opt amount="3">925</resource-opt>
 				</resource>
@@ -1036,16 +1130,20 @@
 		<item-icon>icon_formula_r_03_09_11.png</item-icon>
 		<item-batchqty>2</item-batchqty>
 		<item-attributes>
-			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">4</item-attribute>
 		</item-attributes>
+		<item-keywords>
+			<item-keyword>resourcetype_processed</item-keyword>
+			<item-keyword>tier_1</item-keyword>
+			<item-keyword>resource_stone</item-keyword>
+		</item-keywords>
 		<tier>
 			<tier-name>Adobe Cooking Spit</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Long adobe clay rods, used to hold food in place for broiling and cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -1053,12 +1151,14 @@
 				<resource>
 					<resource-name>Adobe Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -1066,11 +1166,11 @@
 		</tier>
 		<tier>
 			<tier-name>Earthenware Cooking Spit</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Long earthenware clay rods, used to hold food in place for broiling and cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -1078,12 +1178,14 @@
 				<resource>
 					<resource-name>Earthenware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">200</resource-min>
 					<resource-opt amount="2">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -1091,11 +1193,11 @@
 		</tier>
 		<tier>
 			<tier-name>Terra Cotta Cooking Spit</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Long terra cotta clay rods, used to hold food in place for broiling and cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -1103,12 +1205,14 @@
 				<resource>
 					<resource-name>Terra Cotta Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="2">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -1116,11 +1220,11 @@
 		</tier>
 		<tier>
 			<tier-name>Stoneware Cooking Spit</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Long stoneware clay rods, used to hold food in place for broiling and cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -1128,12 +1232,14 @@
 				<resource>
 					<resource-name>Stoneware Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">600</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
@@ -1141,11 +1247,11 @@
 		</tier>
 		<tier>
 			<tier-name>Geostone Cooking Spit</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Long geostone clay rods, used to hold food in place for broiling and cooking.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -1153,14 +1259,218 @@
 				<resource>
 					<resource-name>Geostone Clay Chunk</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">800</resource-min>
 					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="3">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Crystal Vial</item-name>
+		<item-icon>icon_formula_r_02_08_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Crystal Vial</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A vial made of azulyte crystal that is useful for holding potions.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">50</resource-min>
+					<resource-opt amount="2">250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">50</resource-min>
+					<resource-opt amount="1">250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Crystal Vial</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A vial made of azulyte crystal that is useful for holding potions.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">250</resource-min>
+					<resource-opt amount="2">475</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">250</resource-min>
+					<resource-opt amount="1">475</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Crystal Vial</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A vial made of azulyte crystal that is useful for holding potions.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">450</resource-min>
+					<resource-opt amount="2">700</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">450</resource-min>
+					<resource-opt amount="1">700</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Crystal Vial</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A vial made of azulyte crystal that is useful for holding potions.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">650</resource-min>
+					<resource-opt amount="2">975</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">650</resource-min>
+					<resource-opt amount="1">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Crystal Vial</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A vial made of azulyte crystal that is useful for holding potions.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Unfocused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">850</resource-min>
+					<resource-opt amount="2">1150</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">850</resource-min>
+					<resource-opt amount="1">1150</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Clay Mug</item-name>
+		<item-icon>icon_formula_r_01_16_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Adobe Mug</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A mug, made from Adobe clay.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Adobe Clay Chunk</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="3">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Earthenware Mug</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A mug, made from Earthenware clay.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Earthenware Clay Chunk</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Earthencraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1</resource-min>
+					<resource-opt amount="3">425</resource-opt>
 				</resource>
 			</resources>
 		</tier>

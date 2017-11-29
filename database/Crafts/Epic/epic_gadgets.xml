@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Epic - Gadgets</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Epic</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Snowball</item-name>
+		<item-icon>icon_formula_default_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">30</item-attribute>
+			<item-attribute type="healAmount">0-0</item-attribute>
+			<item-attribute type="skill">0</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Snowball</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="castDelay">15</tier-attribute>
+				<tier-attribute type="effect">Snowball</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Health</tier-attribute>
+				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Packed Snowball</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="castDelay">20</tier-attribute>
+				<tier-attribute type="effect">Packed Snowball</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+12 Health</tier-attribute>
+				<tier-attribute type="effectDuration">02:00:00</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Battle Standard</item-name>
+		<item-icon>icon_formula_gdt_banner_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">15</item-attribute>
+			<item-attribute type="description">You must add either the Volcano or Tempest banner tech for this item to contain magical properties. Without the techs, this is just a simple banner.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>banner</item-keyword>
+			<item-keyword>gadget</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Flaxen Banner</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">70</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (1)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>banner_tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Flaxen Banner Flag</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">190</resource-min>
+					<resource-opt amount="1">290</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cedar Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">190</resource-min>
+					<resource-opt amount="1">290</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Kenaf Banner</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">188</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (20)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>banner_tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Kenaf Banner Flag</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">390</resource-min>
+					<resource-opt amount="1">515</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Elm Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">390</resource-min>
+					<resource-opt amount="1">515</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cotton Banner</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">376</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (40)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>banner_tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cotton Banner Flag</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">590</resource-min>
+					<resource-opt amount="1">740</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Oak Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">590</resource-min>
+					<resource-opt amount="1">740</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Silken Banner</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>1</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">752</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (60)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>banner_tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silken Banner Flag</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">790</resource-min>
+					<resource-opt amount="1">965</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Maple Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">790</resource-min>
+					<resource-opt amount="1">965</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Iron Silken Banner</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (80)</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Iron Silken Banner Flag</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">990</resource-min>
+					<resource-opt amount="2">1190</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Yew Banner Staff</resource-name>
+					<resource-skill>Enchanting</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">990</resource-min>
+					<resource-opt amount="2">1190</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Festival Fireworks</item-name>
+		<item-icon>icon_formula_gdt_firework_01_11.png</item-icon>
+		<item-batchqty>3</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Festival Fireworks (small)</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">5</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bronze Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="1">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Festival Fireworks (medium)</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">10</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="1">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Festival Fireworks (large)</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">15</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Steel Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Festival Fireworks (astounding)</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">25</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>gadget</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Salt Rock</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">400</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cobalt Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Silver Whistle</item-name>
+		<item-icon>icon_formula_gdt_01_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">6</item-attribute>
+			<item-attribute type="hoardValue">90</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="delay">50</item-attribute>
+			<item-attribute type="rechargeConsumes">1 Elm Reed</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Silver Whistle</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A magical whistle that, when blown, increases the user's accuracy against animals of all kinds.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">250</resource-min>
+					<resource-opt amount="3">375</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Iron Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Silver Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="8">350</resource-min>
+					<resource-opt amount="4">500</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Recharges</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Recharges</formulaset-category>
@@ -12,12 +12,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">40</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Armorcraft Recharge Kit</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -25,12 +28,14 @@
 				<resource>
 					<resource-name>Dim Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">1</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -38,10 +43,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Armorcraft Recharge Kit</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -49,12 +55,14 @@
 				<resource>
 					<resource-name>Pale Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">200</resource-min>
 					<resource-opt amount="10">400</resource-opt>
 				</resource>
@@ -62,10 +70,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Armorcraft Recharge Kit</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -73,12 +82,14 @@
 				<resource>
 					<resource-name>Glowing Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">300</resource-min>
 					<resource-opt amount="3">300</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">400</resource-min>
 					<resource-opt amount="10">600</resource-opt>
 				</resource>
@@ -86,10 +97,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Armorcraft Recharge Kit</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -97,12 +109,14 @@
 				<resource>
 					<resource-name>Bright Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">600</resource-min>
 					<resource-opt amount="10">800</resource-opt>
 				</resource>
@@ -110,10 +124,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Armorcraft Recharge Kit</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -121,12 +136,14 @@
 				<resource>
 					<resource-name>Shining Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">800</resource-min>
 					<resource-opt amount="10">1000</resource-opt>
 				</resource>
@@ -141,12 +158,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">40</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Fletching Recharge Kit</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -154,12 +174,14 @@
 				<resource>
 					<resource-name>Dim Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">1</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -167,10 +189,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Fletching Recharge Kit</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -178,12 +201,14 @@
 				<resource>
 					<resource-name>Pale Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">200</resource-min>
 					<resource-opt amount="10">400</resource-opt>
 				</resource>
@@ -191,10 +216,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Fletching Recharge Kit</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -202,12 +228,14 @@
 				<resource>
 					<resource-name>Glowing Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">400</resource-min>
 					<resource-opt amount="10">600</resource-opt>
 				</resource>
@@ -215,10 +243,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Fletching Recharge Kit</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -226,12 +255,14 @@
 				<resource>
 					<resource-name>Bright Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">600</resource-min>
 					<resource-opt amount="10">800</resource-opt>
 				</resource>
@@ -239,10 +270,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Fletching Recharge Kit</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -250,12 +282,14 @@
 				<resource>
 					<resource-name>Shining Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Fletching</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">800</resource-min>
 					<resource-opt amount="10">1000</resource-opt>
 				</resource>
@@ -270,12 +304,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">40</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Jewelcraft Recharge Kit</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -283,30 +320,35 @@
 				<resource>
 					<resource-name>Dim Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Turquoise</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Malachite</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Garnet</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">1</resource-min>
 					<resource-opt amount="4">200</resource-opt>
 				</resource>
@@ -314,10 +356,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Jewelcraft Recharge Kit</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -325,30 +368,35 @@
 				<resource>
 					<resource-name>Pale Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Rose Quartz</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
 					<resource-opt amount="2">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Lapis Lazuli</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
 					<resource-opt amount="2">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Amethyst</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
 					<resource-opt amount="2">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Silver Bar</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">200</resource-min>
 					<resource-opt amount="4">400</resource-opt>
 				</resource>
@@ -356,10 +404,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Jewelcraft Recharge Kit</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -367,30 +416,35 @@
 				<resource>
 					<resource-name>Glowing Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Gold Bar</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">400</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Jasper</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="2">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Citrine</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="2">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Aquamarine</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="2">600</resource-opt>
 				</resource>
@@ -398,10 +452,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Jewelcraft Recharge Kit</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -409,30 +464,35 @@
 				<resource>
 					<resource-name>Bright Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Platinum Bar</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">600</resource-min>
 					<resource-opt amount="4">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Topaz</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">600</resource-min>
 					<resource-opt amount="2">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Opal</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">600</resource-min>
 					<resource-opt amount="2">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Jade</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">600</resource-min>
 					<resource-opt amount="2">800</resource-opt>
 				</resource>
@@ -440,10 +500,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Jewelcraft Recharge Kit</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -451,30 +512,35 @@
 				<resource>
 					<resource-name>Shining Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Peridot</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">800</resource-min>
 					<resource-opt amount="2">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Fire Opal</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">800</resource-min>
 					<resource-opt amount="2">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Emerald</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">800</resource-min>
 					<resource-opt amount="2">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Jewelcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">800</resource-min>
 					<resource-opt amount="4">1000</resource-opt>
 				</resource>
@@ -495,11 +561,11 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Class 1 Recharge Cell</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Tinkered dim essence used to recharge items.  This item will be expended when items requiring "Class 1" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -507,12 +573,14 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
@@ -520,11 +588,11 @@
 		</tier>
 		<tier>
 			<tier-name>Class 2 Recharge Cell</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Tinkered pale essence used to recharge items.  This item will be expended when items requiring "Class 2" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -532,12 +600,14 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
 					<resource-opt amount="1">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Silver Bar</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
 					<resource-opt amount="1">425</resource-opt>
 				</resource>
@@ -545,11 +615,11 @@
 		</tier>
 		<tier>
 			<tier-name>Class 3 Recharge Cell</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Tinkered glowing essence used to recharge items.  This item will be expended when items requiring "Class 3" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -557,12 +627,14 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Gold Bar</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
@@ -570,11 +642,11 @@
 		</tier>
 		<tier>
 			<tier-name>Class 4 Recharge Cell</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Tinkered bright essence used to recharge items.  This item will be expended when items requiring "Class 4" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -582,12 +654,14 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">600</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Platinum Bar</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">600</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
@@ -595,11 +669,11 @@
 		</tier>
 		<tier>
 			<tier-name>Class 5 Recharge Cell</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -607,14 +681,42 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">800</resource-min>
 					<resource-opt amount="1">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">800</resource-min>
 					<resource-opt amount="1">1075</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Class 6 Recharge Cell</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>Tinkered radiant essence used to recharge items.  This item will be expended when items requiring “Class 6” recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adamantium Bar</resource-name>
+					<resource-skill>Tinkering</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
 				</resource>
 			</resources>
 		</tier>
@@ -627,12 +729,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">40</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Scalecraft Recharge Kit</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -640,18 +745,21 @@
 				<resource>
 					<resource-name>Dim Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">1</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">1</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
@@ -659,10 +767,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Scalecraft Recharge Kit</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -670,18 +779,21 @@
 				<resource>
 					<resource-name>Pale Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">200</resource-min>
 					<resource-opt amount="5">400</resource-opt>
 				</resource>
@@ -689,10 +801,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Scalecraft Recharge Kit</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -700,18 +813,21 @@
 				<resource>
 					<resource-name>Glowing Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">400</resource-min>
 					<resource-opt amount="5">600</resource-opt>
 				</resource>
@@ -719,10 +835,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Scalecraft Recharge Kit</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -730,18 +847,21 @@
 				<resource>
 					<resource-name>Bright Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">600</resource-min>
 					<resource-opt amount="5">800</resource-opt>
 				</resource>
@@ -749,10 +869,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Scalecraft Recharge Kit</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -760,18 +881,21 @@
 				<resource>
 					<resource-name>Shining Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Scalecraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">800</resource-min>
 					<resource-opt amount="5">1000</resource-opt>
 				</resource>
@@ -786,12 +910,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">40</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Tailoring Recharge Kit</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -799,24 +926,28 @@
 				<resource>
 					<resource-name>Dim Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">1</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">400</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Flax Spool</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">1</resource-min>
 					<resource-opt amount="4">200</resource-opt>
 				</resource>
@@ -824,10 +955,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Tailoring Recharge Kit</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -835,24 +967,28 @@
 				<resource>
 					<resource-name>Pale Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">200</resource-min>
 					<resource-opt amount="3">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Kenaf Spool</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">200</resource-min>
 					<resource-opt amount="4">400</resource-opt>
 				</resource>
@@ -860,10 +996,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Tailoring Recharge Kit</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -871,24 +1008,28 @@
 				<resource>
 					<resource-name>Glowing Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">400</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">400</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cotton Spool</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">400</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
@@ -896,10 +1037,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Tailoring Recharge Kit</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -907,24 +1049,28 @@
 				<resource>
 					<resource-name>Bright Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">600</resource-min>
 					<resource-opt amount="3">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Silk Spool</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">600</resource-min>
 					<resource-opt amount="4">800</resource-opt>
 				</resource>
@@ -932,10 +1078,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Tailoring Recharge Kit</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>Tinkered shining essence used to recharge items.  This item will be expended when items requiring "Class 5" recharge cells are used with zero charges, recharging the item in the process.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -943,24 +1090,28 @@
 				<resource>
 					<resource-name>Shining Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Hide Tannin</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Hide Strip</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">800</resource-min>
 					<resource-opt amount="3">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ironsilk Spool</resource-name>
 					<resource-skill>Tailoring</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">800</resource-min>
 					<resource-opt amount="4">1000</resource-opt>
 				</resource>
@@ -975,13 +1126,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">40</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Weaponcraft Recharge Kit</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A device that can transfer Blight from its embedded Blight Cores into a Blighted item, thus extending its life.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -989,12 +1142,14 @@
 				<resource>
 					<resource-name>Dim Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">1</resource-min>
 					<resource-opt amount="3">1</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">1</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -1002,10 +1157,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Weaponcraft Recharge Kit</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A device that can transfer Blight from its embedded Blight Cores into a Blighted item, thus extending its life.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -1013,12 +1169,14 @@
 				<resource>
 					<resource-name>Pale Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">200</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">200</resource-min>
 					<resource-opt amount="10">400</resource-opt>
 				</resource>
@@ -1026,10 +1184,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Weaponcraft Recharge Kit</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A device that can transfer Blight from its embedded Blight Cores into a Blighted item, thus extending its life.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -1037,12 +1196,14 @@
 				<resource>
 					<resource-name>Glowing Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">400</resource-min>
 					<resource-opt amount="3">400</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">400</resource-min>
 					<resource-opt amount="10">600</resource-opt>
 				</resource>
@@ -1050,10 +1211,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Weaponcraft Recharge Kit</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A device that can transfer Blight from its embedded Blight Cores into a Blighted item, thus extending its life.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -1061,12 +1223,14 @@
 				<resource>
 					<resource-name>Bright Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">600</resource-min>
 					<resource-opt amount="3">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">600</resource-min>
 					<resource-opt amount="10">800</resource-opt>
 				</resource>
@@ -1074,10 +1238,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Weaponcraft Recharge Kit</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A device that can transfer Blight from its embedded Blight Cores into a Blighted item, thus extending its life.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -1085,12 +1250,14 @@
 				<resource>
 					<resource-name>Shining Blight Core</resource-name>
 					<resource-skill>Ingenuity</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="3">800</resource-min>
 					<resource-opt amount="3">800</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Weaponcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">800</resource-min>
 					<resource-opt amount="10">1000</resource-opt>
 				</resource>

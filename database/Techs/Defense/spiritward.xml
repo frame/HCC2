@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Spirit Ward</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Defense</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Spirit Ward</tech-name>
+		<tech-icon>icon_technique_06_17_11.png</tech-icon>
+		<tech-subdesc>Enhances the spirit warding of the player by a set amount per tier. Improved spirit warding will help reduce the chance of enemy spirit attacks taking hold on the player.</tech-subdesc>
+		<tech-attributes>
+			<tech-attribute type="spelldefense">Blight Anchor</tech-attribute>
+			<tech-attribute type="spelldefense">Chaotic Knight</tech-attribute>
+			<tech-attribute type="spelldefense">Demented Blight Mage</tech-attribute>
+			<tech-attribute type="spelldefense">Fiend Ghost Spiritist</tech-attribute>
+			<tech-attribute type="spelldefense">Fiend Mummy Spiritist</tech-attribute>
+			<tech-attribute type="spelldefense">Half-Giant Ghost Reaver</tech-attribute>
+			<tech-attribute type="spelldefense">Half-Giant Mummy Reaver</tech-attribute>
+			<tech-attribute type="spelldefense">Rancorous Healer</tech-attribute>
+			<tech-attribute type="spelldefense">Skulk Bloodmage</tech-attribute>
+			<tech-attribute type="spelldefense">Skulk Soothsayer</tech-attribute>
+			<tech-attribute type="spelldefense">Skulk Spear Fisher</tech-attribute>
+			<tech-attribute type="spelldefense">Soultapper of the Crimson Scourge</tech-attribute>
+			<tech-attribute type="spelldefense">Sslik Ghost Bloodmage</tech-attribute>
+			<tech-attribute type="spelldefense">Sslik Mummy Bloodmage</tech-attribute>
+			<tech-attribute type="spelldefense">Sslik Skeleton Bloodmage</tech-attribute>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>container</tech-keyword>
+				<tech-keyword>dragonscale</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>shield</tech-keyword>
+				<tech-keyword>armor</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+				<tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+				<tech-keyword>dragon_bodyslot_wing</tech-keyword>
+				<tech-keyword>bodyslot_finger</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+				<tech-keyword>bodyslot_wrist</tech-keyword>
+				<tech-keyword>bodyslot_legs</tech-keyword>
+				<tech-keyword>bodyslot_ear</tech-keyword>
+				<tech-keyword>bodyslot_face</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+				<tech-keyword>dragon_bodyslot_chest</tech-keyword>
+				<tech-keyword>dragon_bodyslot_back</tech-keyword>
+				<tech-keyword>dragon_bodyslot_head</tech-keyword>
+				<tech-keyword>dragon_bodyslot_tail</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_spiritward_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Spirit Ward I</tier-name>
+			<tier-origin>Defense: Spirit Ward I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 Spirit Ward defense.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Flame Wisp Vitality</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Spirit Ward II</tier-name>
+			<tier-origin>Defense: Spirit Ward II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +7 Spirit Ward defense.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Forest Gruok Bristle</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Spirit Ward III</tier-name>
+			<tier-origin>Defense: Spirit Ward III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +10 Spirit Ward defense.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Jade Snarler Fang</component>
+				<component amount = "1">Oak Treant Knot</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Spirit Ward IV</tier-name>
+			<tier-origin>Defense: Spirit Ward IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +13 Spirit Ward defense.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "2">Fire Beetle Carapace</component>
+				<component amount = "1">Tremendous Arbotus Twig</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Spirit Ward V</tier-name>
+			<tier-origin>Defense: Spirit Ward V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 Spirit Ward defense.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Veteran Tarantula Venom</component>
+				<component amount = "2">Than'kuk Warrior's Big Toe</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

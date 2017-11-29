@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Resources - Weaving</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Resources</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Wooden Reeds</item-name>
+		<item-icon>icon_formula_r_11_03_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Wooden Cedar Reed</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A precisely shaped strip of cedar wood, slightly flexible to allow it to be shaped to form baskets.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cedar Board</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">100</resource-min>
+					<resource-opt amount="10">300</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Wooden Elm Reed</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A precisely shaped strip of elm wood, slightly flexible to allow it to be shaped to form baskets.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Elm Board</resource-name>
+					<resource-skill>Weaving</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="20">300</resource-min>
+					<resource-opt amount="10">525</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Food - Sides - Advanced</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Food</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Tier I Advanced Sides</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">300</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 20</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 1:00:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>food</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Buttermilk Biscuits</tier-name>
+			<tier-lvl name="Buttermilk Biscuits">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Buttermilk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Wheat Dough</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="16">100</resource-min>
+					<resource-opt amount="8">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Meatballs</tier-name>
+			<tier-lvl name="Meatballs">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Ground Beef</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="16">100</resource-min>
+					<resource-opt amount="8">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">100</resource-min>
+					<resource-opt amount="5">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier II Advanced Sides</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">300</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 40</item-attribute>
+			<item-attribute type="dpReductionMinLvl">Less effective if potential rating is under 21</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 1:30:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>food</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Mashed Potatoes</tier-name>
+			<tier-lvl name="Mashed Potatoes">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Potatoes</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">300</resource-min>
+					<resource-opt amount="6">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Shrimp Salad</tier-name>
+			<tier-lvl name="Shrimp Salad">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Prepared Shrimp</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">300</resource-min>
+					<resource-opt amount="6">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lettuce</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Olive Oil</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Tomato Salad</tier-name>
+			<tier-lvl name="Tomato Salad">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Tomatoes</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">300</resource-min>
+					<resource-opt amount="6">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lettuce</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">300</resource-min>
+					<resource-opt amount="5">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Olive Oil</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier III Advanced Sides</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">300</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 60</item-attribute>
+			<item-attribute type="dpReductionMinLvl">Less effective if potential rating is under 41</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 2:00:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>food</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Baked Corn Casserole</tier-name>
+			<tier-lvl name="Baked Corn Casserole">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cream Cheese</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Husked Corn</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">500</resource-min>
+					<resource-opt amount="6">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Macaroni and Cheese</tier-name>
+			<tier-lvl name="Macaroni and Cheese">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cheese</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">500</resource-min>
+					<resource-opt amount="3">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Noodles</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">500</resource-min>
+					<resource-opt amount="6">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier IV Advanced Sides</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">300</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 80</item-attribute>
+			<item-attribute type="dpReductionMinLvl">Less effective if potential rating is under 61</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 2:30:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>food</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Loaded Baked Potato</tier-name>
+			<tier-lvl name="Loaded Baked Potato">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Chopped Chives</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="2">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cheese</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">700</resource-min>
+					<resource-opt amount="2">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Potato</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">700</resource-min>
+					<resource-opt amount="5">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">700</resource-min>
+					<resource-opt amount="2">900</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Potato Salad</tier-name>
+			<tier-lvl name="Potato Salad">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Potatoes</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">700</resource-min>
+					<resource-opt amount="5">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Onion Powder</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="1">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Beaten Eggs</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">700</resource-min>
+					<resource-opt amount="5">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="1">900</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Pepper</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">700</resource-min>
+					<resource-opt amount="1">900</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier V Advanced Sides</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 100</item-attribute>
+			<item-attribute type="dpReductionMinLvl">Less effective if potential rating is under 81</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">300</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 3:00:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>food</item-keyword>
+			<item-keyword>tier_5</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Mutton Stuffing</tier-name>
+			<tier-lvl name="Mutton Stuffing">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Marinated Mutton</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cleaned Blood Caps</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Garlic Powder</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="1">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="1">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Pepper</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="1">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Seafood Salad</tier-name>
+			<tier-lvl name="Seafood Salad">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Mayonnaise</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="1">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shelled Crab</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="8">900</resource-min>
+					<resource-opt amount="4">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shelled Lobster</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>De-inked Squid</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">900</resource-min>
+					<resource-opt amount="3">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="1">1125</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cheese</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="1">1125</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier VI Advanced Sides</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 3:30:00</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 120</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">300</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if potential rating is under 101</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>food</item-keyword>
+			<item-keyword>tier_6</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Feladanian Ratatouille</tier-name>
+			<tier-lvl name="Feladanian Ratatouille">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cleaned Stonespore Caps</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1100</resource-min>
+					<resource-opt amount="3">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Tomatoes</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1100</resource-min>
+					<resource-opt amount="3">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Green Peppers</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1100</resource-min>
+					<resource-opt amount="3">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Garlic Powder</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1100</resource-min>
+					<resource-opt amount="1">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chopped Onion</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1100</resource-min>
+					<resource-opt amount="1">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cheese</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1100</resource-min>
+					<resource-opt amount="1">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Olive Oil</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1100</resource-min>
+					<resource-opt amount="1">1350</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Smoked Gruok Fried Rice</tier-name>
+			<tier-lvl name="Smoked Gruok Fried Rice">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rubbed Cilantro</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1100</resource-min>
+					<resource-opt amount="1">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Smoked Gruok</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1100</resource-min>
+					<resource-opt amount="1">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Green Peppers</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1100</resource-min>
+					<resource-opt amount="2">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Carrots</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1100</resource-min>
+					<resource-opt amount="2">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shucked Peas</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1100</resource-min>
+					<resource-opt amount="2">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Beaten Eggs</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1100</resource-min>
+					<resource-opt amount="1">1350</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milled Rice</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="8">1100</resource-min>
+					<resource-opt amount="4">1350</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

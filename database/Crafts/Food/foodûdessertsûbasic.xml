@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Food – Desserts – Basic</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Food</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Tier I Basic Desserts</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 20</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">200</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 40:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>food</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Sugared Cranberries</tier-name>
+			<tier-lvl name="Sugared Cranberries">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cranberry</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="3">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">1</resource-min>
+					<resource-opt amount="6">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Sugared Strawberries</tier-name>
+			<tier-lvl name="Sugared Strawberries">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Strawberry</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1</resource-min>
+					<resource-opt amount="3">100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="12">1</resource-min>
+					<resource-opt amount="6">100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier II Basic Desserts</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 40</item-attribute>
+			<item-attribute type="dpReductionMinLvl">Less effective if potential rating is under 21</item-attribute>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 1:00:00</item-attribute>
+			<item-attribute type="castDelay">200</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+		</item-attributes>
+		<item-keywords>
+			<item-keyword>food</item-keyword>
+			<item-keyword>skill_use_cooking</item-keyword>
+		</item-keywords>
+		<tier>
+			<tier-name>Applesauce</tier-name>
+			<tier-lvl name="Applesauce">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Apple</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Cinnamon</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blackberry Cobbler</tier-name>
+			<tier-lvl name="Blackberry Cobbler">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mashed Blackberries</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">200</resource-min>
+					<resource-opt amount="3">325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier III Basic Desserts</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">200</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 1:20:00</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 60</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if potential rating is under 41</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Banana Split</tier-name>
+			<tier-lvl name="Banana Split">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Bananas</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">400</resource-min>
+					<resource-opt amount="5">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Vanilla</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">400</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Granny Nuffle's Famous Scones</tier-name>
+			<tier-lvl name="Granny Nuffle's Famous Scones">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Raisins</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">400</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Wheat Dough</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">400</resource-min>
+					<resource-opt amount="5">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Granny Nuffle's Shortbread</tier-name>
+			<tier-lvl name="Granny Nuffle's Shortbread">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="10">400</resource-min>
+					<resource-opt amount="5">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Strawberries</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">400</resource-min>
+					<resource-opt amount="2">400</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">400</resource-min>
+					<resource-opt amount="1">550</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier IV Basic Desserts</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">200</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 1:40:00</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 80</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if potential rating is under 61</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Blueberry Muffin</tier-name>
+			<tier-lvl name="Blueberry Muffin">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Cinnamon</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blueberry</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">600</resource-min>
+					<resource-opt amount="3">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Honey</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Milk</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">600</resource-min>
+					<resource-opt amount="3">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Fruit Medley</tier-name>
+			<tier-lvl name="Fruit Medley">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Sliced Bananas</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">600</resource-min>
+					<resource-opt amount="3">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Apple</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">600</resource-min>
+					<resource-opt amount="3">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Raspberry</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blackberry</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blueberry</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">600</resource-min>
+					<resource-opt amount="1">775</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier V Basic Desserts</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">200</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 2:00:00</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 100</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if potential rating is under 81</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Apple Pie</tier-name>
+			<tier-lvl name="Apple Pie">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Apple</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Cinnamon</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Apricot Fruitcake</tier-name>
+			<tier-lvl name="Apricot Fruitcake">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Apricots</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Raisins</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Egg</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Banana Cream Pie</tier-name>
+			<tier-lvl name="Banana Cream Pie">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Wheat Flour</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Bananas</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Butter</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Vanilla</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Salt</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Quinoa Pudding</tier-name>
+			<tier-lvl name="Quinoa Pudding">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lemon Juice</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Cinnamon</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Quinoa</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Raisins</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">800</resource-min>
+					<resource-opt amount="2">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Vanilla</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="1">1025</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">800</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Tier VI Basic Desserts</item-name>
+		<item-icon>icon_formula_f_03_01_11.png</item-icon>
+		<item-batchqty>1</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">2</item-attribute>
+			<item-attribute type="castDelay">200</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">8:00</item-attribute>
+			<item-attribute type="dpReduction">Advances Death Point fade time by 2:20:00</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if potential rating is under 101</item-attribute>
+			<item-attribute type="dpReductionReqLvl">Less effective if any level is higher than 120</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Berry Tart</tier-name>
+			<tier-lvl name="Berry Tart">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pie Crust</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sliced Strawberries</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mashed Raspberries</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mashed Blueberries</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mashed Blackberries</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lemon Zest</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1000</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Chocolate Mousse</tier-name>
+			<tier-lvl name="Chocolate Mousse">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Cream</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Heavy Cream</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mashed Raspberries</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Lemon Zest</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Chocolate</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Vanilla</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Sugar</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Pumpkin Cheesecake</tier-name>
+			<tier-lvl name="Pumpkin Cheesecake">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Pie Crust</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Heavy Cream</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Cream Cheese</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Mashed Pumpkin</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="6">1000</resource-min>
+					<resource-opt amount="3">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Cinnamon</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nutmeg</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Vanilla</resource-name>
+					<resource-skill>Cooking</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1250</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

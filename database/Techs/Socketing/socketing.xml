@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<techniqueset format="2.1">
+<techniqueset format="3.0">
 	<techniqueset-name>Socketing</techniqueset-name>
 	<techniqueset-categories>
 		<techniqueset-category>Socketing</techniqueset-category>
@@ -7,114 +7,166 @@
 	<tech>
 		<tech-name>Armor Socketing</tech-name>
 		<tech-icon>icon_technique_07_01_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
 		<tech-keywords>
 			<tech-keywordset>
-				<tech-keyword>shield</tech-keyword>
-				<tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
 				<tech-keyword>dragon_bodyslot_chest</tech-keyword>
-				<tech-keyword>armor_helm</tech-keyword>
+				<tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+				<tech-keyword>shield</tech-keyword>
 			</tech-keywordset>
 			<tech-keywordset>
 				<tech-keyword>techclass_1</tech-keyword>
 			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
 		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
 		<tier>
 			<tier-name>Armor Socketing</tier-name>
 			<tier-origin>Armor Socketing</tier-origin>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This technique adds a socket to armor, allowing for a crystal to be added to it.  Sockets may be added to shields and helms, as well as chest dragon scales.</tier-desc>
 			<tier-skilladjust>40</tier-skilladjust>
 			<tier-keywords>
-      </tier-keywords>
+				<tier-keywordset>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
 			<components>
-				<component amount="4">Bronze Bar</component>
-				<component amount="2">Dim Essence Orb</component>
+				<component amount = "4">Bronze Bar</component>
+				<component amount = "2">Dim Essence Orb</component>
 			</components>
 		</tier>
 	</tech>
 	<tech>
 		<tech-name>Jewelry Socketing</tech-name>
 		<tech-icon>icon_technique_07_01_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
 		<tech-keywords>
 			<tech-keywordset>
-				<tech-keyword>jewelry_necklace</tech-keyword>
 				<tech-keyword>dragon_bodyslot_head</tech-keyword>
+				<tech-keyword>jewelry_necklace</tech-keyword>
 			</tech-keywordset>
 			<tech-keywordset>
 				<tech-keyword>techclass_1</tech-keyword>
 			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
 		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
 		<tier>
 			<tier-name>Jewelry Socketing</tier-name>
 			<tier-origin>Jewelry Socketing</tier-origin>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This technique adds a socket to jewelry, allowing for a crystal to be added to it.  Sockets may be added to necklaces only.</tier-desc>
 			<tier-skilladjust>40</tier-skilladjust>
-			<tier-keywords> 
-      </tier-keywords>
+			<tier-keywords>
+				<tier-keywordset>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
 			<components>
-				<component amount="4">Bronze Bar</component>
-				<component amount="2">Garnet</component>
-				<component amount="2">Malachite</component>
-				<component amount="2">Turquoise</component>
-				<component amount="2">Dim Essence Orb</component>
+				<component amount = "4">Bronze Bar</component>
+				<component amount = "2">Garnet</component>
+				<component amount = "2">Malachite</component>
+				<component amount = "2">Turquoise</component>
+				<component amount = "2">Dim Essence Orb</component>
 			</components>
 		</tier>
 	</tech>
 	<tech>
 		<tech-name>Tool Socketing</tech-name>
 		<tech-icon>icon_technique_07_01_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
 		<tech-keywords>
 			<tech-keywordset>
-				<tech-keyword>tool</tech-keyword>
-				<tech-keyword>dragon_tool</tech-keyword>
 				<tech-keyword>dragon_tool_claw</tech-keyword>
+				<tech-keyword>dragon_tool</tech-keyword>
+				<tech-keyword>tool</tech-keyword>
 			</tech-keywordset>
 			<tech-keywordset>
 				<tech-keyword>techclass_1</tech-keyword>
 			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
 		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
 		<tier>
 			<tier-name>Tool Socketing</tier-name>
 			<tier-origin>Tool Socketing</tier-origin>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This technique adds a socket to a tool, allowing for a crystal to be added to it.</tier-desc>
 			<tier-skilladjust>40</tier-skilladjust>
 			<tier-keywords>
-      </tier-keywords>
+				<tier-keywordset>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
 			<components>
-				<component amount="2">Bronze Bar</component>
-				<component amount="2">Cedar Board</component>
-				<component amount="2">Sandstone Brick</component>
-				<component amount="2">Dim Essence Orb</component>
+				<component amount = "2">Bronze Bar</component>
+				<component amount = "2">Cedar Board</component>
+				<component amount = "2">Sandstone Brick</component>
+				<component amount = "2">Dim Essence Orb</component>
 			</components>
 		</tier>
 	</tech>
 	<tech>
 		<tech-name>Weapon Socketing</tech-name>
 		<tech-icon>icon_technique_07_01_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
 		<tech-keywords>
 			<tech-keywordset>
-				<tech-keyword>weapon</tech-keyword>
 				<tech-keyword>dragon_weapon_claw</tech-keyword>
+				<tech-keyword>weapon</tech-keyword>
 			</tech-keywordset>
 			<tech-keywordset>
 				<tech-keyword>techclass_1</tech-keyword>
 			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
 		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
 		<tier>
 			<tier-name>Weapon Socketing</tier-name>
 			<tier-origin>Weapon Socketing</tier-origin>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>This technique adds a socket to a weapon, allowing for a crystal to be added to it.</tier-desc>
 			<tier-skilladjust>40</tier-skilladjust>
 			<tier-keywords>
-      </tier-keywords>
+				<tier-keywordset>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
 			<components>
-				<component amount="3">Bronze Bar</component>
-				<component amount="3">Cedar Board</component>
-				<component amount="2">Dim Essence Orb</component>
+				<component amount = "3">Bronze Bar</component>
+				<component amount = "3">Cedar Board</component>
+				<component amount = "2">Dim Essence Orb</component>
 			</components>
 		</tier>
 	</tech>
-</techniqueset>
+</techiqueset>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Epic - Potions</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Epic</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Niesa's Rub</item-name>
+		<item-icon>icon_formula_default_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="delay">20</item-attribute>
+			<item-attribute type="recycle">0:30</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Niesa's Rub</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A bluish salve that looks cold even without touching it.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectStatBonus">+100 Ice</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Magic Evasion</tier-attribute>
+				<tier-attribute type="effectStatBonus">+100 Power</tier-attribute>
+				<tier-attribute type="effectDuration">1:00:00</tier-attribute>
+				<tier-attribute type="effect">Niesa's Power</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Frozen Carapace Dust</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="8">810</resource-min>
+					<resource-opt amount="3">1110</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Vilitis Pulp</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="8">810</resource-min>
+					<resource-opt amount="3">1110</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Frozen Essence</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">810</resource-min>
+					<resource-opt amount="2">1110</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">810</resource-min>
+					<resource-opt amount="2">1110</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">810</resource-min>
+					<resource-opt amount="5">1110</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Niesa's Draught</item-name>
+		<item-icon>icon_formula_default_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="delay">20</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">0:30</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Niesa's Draught</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A reddish liquid that looks hot even without touching it.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectStatBonus">+100 Speed</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Magic Evasion</tier-attribute>
+				<tier-attribute type="effectDuration">1:00:00</tier-attribute>
+				<tier-attribute type="effect">Niesa's Strength</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Power</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Crimson Ravager Heart</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="8">810</resource-min>
+					<resource-opt amount="3">1110</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ground Blood Fungus</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="8">810</resource-min>
+					<resource-opt amount="3">1110</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Fiery Golem Core</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">810</resource-min>
+					<resource-opt amount="2">1110</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glass Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">810</resource-min>
+					<resource-opt amount="1">1110</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">810</resource-min>
+					<resource-opt amount="1">1110</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>The Queen's Blood</item-name>
+		<item-icon>icon_formula_j_04_01_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="delay">10</item-attribute>
+			<item-attribute type="range">Self only</item-attribute>
+			<item-attribute type="recycle">10:00</item-attribute>
+			<item-attribute type="effect">Blood of the Myloc Queen</item-attribute>
+			<item-attribute type="reqCurrentAdvLevel">Current Adventure Level (100)</item-attribute>
+			<item-attribute type="effectduration">5:00</item-attribute>
+			<item-attribute type="effectstatBonus">+75 Strength</item-attribute>
+			<item-attribute type="effectstatBonus">+75 Power</item-attribute>
+			<item-attribute type="effectstatBonus">+75 Focus</item-attribute>
+			<item-attribute type="effectstatBonus">+75 Dexterity</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Blood of the Myloc Queen</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>The unpurified blood of a myloc queen, when consumed, will give you strength and dexterity of the myloc queen herself for a short time.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Fine Thread</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Metal Clasp</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Taravist Vial</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Myloc Essence</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1200</resource-min>
+					<resource-opt amount="1">1200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

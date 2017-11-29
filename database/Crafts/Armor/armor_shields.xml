@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Armor - Shields</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Armor</formulaset-category>
@@ -13,7 +13,6 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -27,7 +26,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Heavy Round Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -36,26 +35,30 @@
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (11)</tier-attribute>
 				<tier-attribute type="statBonus">+18 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+5 Crush Resistance</tier-attribute>
+				<tier-attribute type="statBonus">+12 Block Bonus</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Garnet Golem Chip</resource-name>
+					<resource-name>Biting Fly Wing</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">100</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">100</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">100</resource-min>
 					<resource-opt amount="8">200</resource-opt>
 				</resource>
@@ -63,15 +66,16 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Heavy Round Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">87</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (310)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (31)</tier-attribute>
-				<tier-attribute type="statBonus">+41 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+49 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+10 Crush Resistance</tier-attribute>
+				<tier-attribute type="statBonus">+12 Block</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -79,26 +83,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Elm Treant Knot</resource-name>
+					<resource-name>Sal'guk Warrior Big Toe</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">300</resource-min>
-					<resource-opt amount="1">425</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Grass Beetle Carapace</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">300</resource-min>
-					<resource-opt amount="1">425</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">300</resource-min>
 					<resource-opt amount="3">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">300</resource-min>
 					<resource-opt amount="8">425</resource-opt>
 				</resource>
@@ -106,15 +107,16 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Heavy Round Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">171</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (510)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (51)</tier-attribute>
-				<tier-attribute type="statBonus">+69 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+15 Crush Resistance</tier-attribute>
+				<tier-attribute type="statBonus">+12 Block</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -123,26 +125,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Green Necrofly Wing</resource-name>
+					<resource-name>Desert Scorpion Venom</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">500</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Granite Golem Fragment</resource-name>
+					<resource-name>Enraged Oak Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">500</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">500</resource-min>
 					<resource-opt amount="3">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">500</resource-min>
 					<resource-opt amount="8">650</resource-opt>
 				</resource>
@@ -150,15 +156,16 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Heavy Round Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">342</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (710)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (71)</tier-attribute>
-				<tier-attribute type="statBonus">+104 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+120 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+20 Crush Resistance</tier-attribute>
+				<tier-attribute type="statBonus">+12 Block</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -168,26 +175,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Hardened Fyakki Chitin</resource-name>
+					<resource-name>Shadow Spider Leg Hair</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">700</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Opal Golem Chip</resource-name>
+					<resource-name>Enraged Maple Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">700</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">700</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">700</resource-min>
 					<resource-opt amount="8">875</resource-opt>
 				</resource>
@@ -195,15 +206,16 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Heavy Round Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">684</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (910)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (91)</tier-attribute>
-				<tier-attribute type="statBonus">+144 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+162 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+25 Crush Resistance</tier-attribute>
+				<tier-attribute type="statBonus">+12 Block</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -214,28 +226,32 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Grey Necrofly Wing</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">900</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Mithril Golem Fragment</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">900</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
-				</resource>
-				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">900</resource-min>
 					<resource-opt amount="3">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">900</resource-min>
 					<resource-opt amount="8">1075</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bhal'kuk Gatherer's Finger</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nah'guk Gatherer's Finger</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 			</resources>
 		</tier>
@@ -263,7 +279,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Bronze Large Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -279,6 +295,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">100</resource-min>
 					<resource-opt amount="13">200</resource-opt>
 				</resource>
@@ -286,14 +303,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Iron Large Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">126</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (310)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (31)</tier-attribute>
-				<tier-attribute type="statBonus">+53 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+62 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -303,6 +320,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="28">300</resource-min>
 					<resource-opt amount="14">425</resource-opt>
 				</resource>
@@ -310,14 +328,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Steel Large Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">234</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (510)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (51)</tier-attribute>
-				<tier-attribute type="statBonus">+87 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+104 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -328,6 +346,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">500</resource-min>
 					<resource-opt amount="13">650</resource-opt>
 				</resource>
@@ -335,14 +354,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Cobalt Large Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">468</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (710)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (71)</tier-attribute>
-				<tier-attribute type="statBonus">+128 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+150 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -354,6 +373,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">700</resource-min>
 					<resource-opt amount="13">875</resource-opt>
 				</resource>
@@ -361,14 +381,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Mithril Large Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">900</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (910)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (91)</tier-attribute>
-				<tier-attribute type="statBonus">+174 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+200 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -381,6 +401,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="26">900</resource-min>
 					<resource-opt amount="13">1075</resource-opt>
 				</resource>
@@ -396,7 +417,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+12 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -410,7 +431,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Bronze Medium Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -426,6 +447,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">100</resource-min>
 					<resource-opt amount="11">200</resource-opt>
 				</resource>
@@ -433,14 +455,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Iron Medium Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">99</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (310)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (31)</tier-attribute>
-				<tier-attribute type="statBonus">+41 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -450,6 +472,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">300</resource-min>
 					<resource-opt amount="11">425</resource-opt>
 				</resource>
@@ -457,14 +480,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Steel Medium Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">198</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (510)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (51)</tier-attribute>
-				<tier-attribute type="statBonus">+69 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -475,6 +498,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">500</resource-min>
 					<resource-opt amount="11">650</resource-opt>
 				</resource>
@@ -482,14 +506,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Cobalt Medium Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">396</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (710)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (71)</tier-attribute>
-				<tier-attribute type="statBonus">+104 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+120 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -501,6 +525,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">700</resource-min>
 					<resource-opt amount="11">875</resource-opt>
 				</resource>
@@ -508,14 +533,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Mithril Medium Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">780</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (910)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (91)</tier-attribute>
-				<tier-attribute type="statBonus">+144 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+162 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -528,6 +553,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="22">900</resource-min>
 					<resource-opt amount="11">1075</resource-opt>
 				</resource>
@@ -543,7 +569,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+12 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -557,7 +583,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Reinforced Round Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -572,20 +598,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Greater Water Elemental Droplet</resource-name>
+					<resource-name>Enraged Cedar Treant Mettle</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">100</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">100</resource-min>
 					<resource-opt amount="3">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">100</resource-min>
 					<resource-opt amount="8">200</resource-opt>
 				</resource>
@@ -593,14 +622,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Reinforced Round Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">87</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (310)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (31)</tier-attribute>
-				<tier-attribute type="statBonus">+41 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+10 Slash Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -609,41 +638,38 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Brighter Tarantula Silk</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">300</resource-min>
-					<resource-opt amount="1">425</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Rose Quartz Golem Chip</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">300</resource-min>
-					<resource-opt amount="1">425</resource-opt>
-				</resource>
-				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">300</resource-min>
 					<resource-opt amount="3">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">300</resource-min>
 					<resource-opt amount="8">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ish'kuk Gatherer's Shrunken Head</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Reinforced Round Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">171</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (510)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (51)</tier-attribute>
-				<tier-attribute type="statBonus">+69 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+15 Slash Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -653,26 +679,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Greater Zombie Thighbone</resource-name>
+					<resource-name>Deh'guk Warrior Big Toe</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="2">500</resource-min>
-					<resource-opt amount="2">650</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">500</resource-min>
+					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Ice Beetle Carapace</resource-name>
+					<resource-name>Enraged Oak Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">500</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">500</resource-min>
 					<resource-opt amount="3">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">500</resource-min>
 					<resource-opt amount="8">650</resource-opt>
 				</resource>
@@ -680,14 +710,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Reinforced Round Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">342</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (710)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (71)</tier-attribute>
-				<tier-attribute type="statBonus">+104 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+120 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+20 Slash Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -698,26 +728,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Mighty Skeleton Skull</resource-name>
+					<resource-name>Shadow Tarantula Breeder Leg Hair</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">700</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Red Necrofly Wing</resource-name>
+					<resource-name>Zal'kuk Warrior Big Toe</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">700</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">700</resource-min>
 					<resource-opt amount="3">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">700</resource-min>
 					<resource-opt amount="8">875</resource-opt>
 				</resource>
@@ -725,14 +759,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Reinforced Round Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">684</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (910)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (91)</tier-attribute>
-				<tier-attribute type="statBonus">+144 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+162 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+25 Slash Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -744,26 +778,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Red Vexator Fringe</resource-name>
+					<resource-name>Nah'guk Warrior's Jawbone</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">900</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Veteran Ghost Vapor</resource-name>
+					<resource-name>Bhal'kuk Warrior's Big Toe</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">900</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="6">900</resource-min>
 					<resource-opt amount="3">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">900</resource-min>
 					<resource-opt amount="8">1075</resource-opt>
 				</resource>
@@ -779,7 +817,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+12 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -793,7 +831,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Round Cross Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -808,20 +846,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Weaker Blight Bindings</resource-name>
+					<resource-name>Sandstone Golem Fragment</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">100</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">100</resource-min>
 					<resource-opt amount="6">200</resource-opt>
 				</resource>
@@ -829,14 +870,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Round Cross Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">79</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (310)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (31)</tier-attribute>
-				<tier-attribute type="statBonus">+41 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+10 Life</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -845,26 +886,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Frost Pygmy Ear</resource-name>
+					<resource-name>Forest Skulk Gatherer Finger</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">300</resource-min>
-					<resource-opt amount="1">425</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Lapis Lazuli Golem Chip</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">300</resource-min>
-					<resource-opt amount="1">425</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">300</resource-min>
 					<resource-opt amount="6">425</resource-opt>
 				</resource>
@@ -872,14 +910,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Round Cross Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">153</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (510)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (51)</tier-attribute>
-				<tier-attribute type="statBonus">+69 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+15 Life</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -889,26 +927,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Greater Zombie Thighbone</resource-name>
+					<resource-name>Deh'guk Gatherer Finger</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">500</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Aquamarine Golem Chip</resource-name>
+					<resource-name>Desert Scorpion Venom</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">500</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">500</resource-min>
 					<resource-opt amount="6">650</resource-opt>
 				</resource>
@@ -916,14 +958,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Round Cross Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">306</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (710)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (71)</tier-attribute>
-				<tier-attribute type="statBonus">+104 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+120 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+20 Life</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -934,26 +976,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Mighty Ghost Vapor</resource-name>
+					<resource-name>Enraged Maple Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">700</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Shadow Spider Fang</resource-name>
+					<resource-name>Shadow Spider Leg Hair</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">700</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">700</resource-min>
 					<resource-opt amount="6">875</resource-opt>
 				</resource>
@@ -961,14 +1007,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Round Cross Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">612</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (910)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (91)</tier-attribute>
-				<tier-attribute type="statBonus">+144 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+162 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+25 Life</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -980,28 +1026,32 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Purple Tarantula Venom</resource-name>
+					<resource-name>Blood Skulk Bloodmage's Hair</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">900</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Veteran Abomination Chest Skull</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">900</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">900</resource-min>
 					<resource-opt amount="5">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">900</resource-min>
 					<resource-opt amount="6">1075</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Than'kuk Warrior's Big Toe</resource-name>
+					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 			</resources>
 		</tier>
@@ -1015,7 +1065,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+12 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1029,8 +1079,8 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Cedar Round Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
-			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.`</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">40</tier-attribute>
@@ -1044,20 +1094,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Forest Crawler Leg Hair</resource-name>
+					<resource-name>Giant Chicken Foot</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">100</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">100</resource-min>
 					<resource-opt amount="5">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">100</resource-min>
 					<resource-opt amount="6">200</resource-opt>
 				</resource>
@@ -1065,14 +1118,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Elm Round Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">79</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (310)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (31)</tier-attribute>
-				<tier-attribute type="statBonus">+41 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+48 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+10 Pierce Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1081,26 +1134,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Grass Beetle Carapace</resource-name>
+					<resource-name>Ish'kuk Warrior Club Splinter</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">300</resource-min>
-					<resource-opt amount="1">425</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Frost Ogre Club Splinter</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">300</resource-min>
-					<resource-opt amount="1">425</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">300</resource-min>
+					<resource-opt amount="2">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">300</resource-min>
 					<resource-opt amount="5">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">300</resource-min>
 					<resource-opt amount="6">425</resource-opt>
 				</resource>
@@ -1108,14 +1158,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Oak Round Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">153</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (510)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (51)</tier-attribute>
-				<tier-attribute type="statBonus">+69 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+82 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+15 Pierce Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1125,26 +1175,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Oak Treant Knot</resource-name>
+					<resource-name>Deh'guk Gatherer Finger</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">500</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Werewolf Bone</resource-name>
+					<resource-name>Palesnout Snout</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">500</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">500</resource-min>
 					<resource-opt amount="5">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">500</resource-min>
 					<resource-opt amount="6">650</resource-opt>
 				</resource>
@@ -1152,14 +1206,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Maple Round Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">306</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (710)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (71)</tier-attribute>
-				<tier-attribute type="statBonus">+104 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+120 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+20 Pierce Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1170,26 +1224,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Mighty Blight Bindings</resource-name>
+					<resource-name>Shadow Tarantula Venom</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">700</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Opal Golem Chip</resource-name>
+					<resource-name>Zal'kuk Scout Shrunken Head</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">700</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">700</resource-min>
 					<resource-opt amount="5">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">700</resource-min>
 					<resource-opt amount="6">875</resource-opt>
 				</resource>
@@ -1197,14 +1255,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Yew Round Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">612</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (910)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (91)</tier-attribute>
-				<tier-attribute type="statBonus">+144 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+162 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+25 Pierce Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1216,26 +1274,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Giant Ice Beetle Mandible</resource-name>
+					<resource-name>Blood Skulk Bloodmage's Hair</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">900</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Purple Spider Venom</resource-name>
+					<resource-name>Veteran Tarantula Leg Hair</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">900</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">900</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="10">900</resource-min>
 					<resource-opt amount="5">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">900</resource-min>
 					<resource-opt amount="6">1075</resource-opt>
 				</resource>
@@ -1264,7 +1326,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Fine Bronze Small Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1280,6 +1342,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">100</resource-min>
 					<resource-opt amount="9">200</resource-opt>
 				</resource>
@@ -1287,14 +1350,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Iron Small Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">81</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (310)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (31)</tier-attribute>
-				<tier-attribute type="statBonus">+28 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+34 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1304,6 +1367,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">300</resource-min>
 					<resource-opt amount="9">425</resource-opt>
 				</resource>
@@ -1311,14 +1375,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Steel Small Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">162</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (510)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (51)</tier-attribute>
-				<tier-attribute type="statBonus">+51 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+60 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1329,6 +1393,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">500</resource-min>
 					<resource-opt amount="9">650</resource-opt>
 				</resource>
@@ -1336,14 +1401,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Cobalt Small Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">324</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (710)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (71)</tier-attribute>
-				<tier-attribute type="statBonus">+80 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+90 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1355,6 +1420,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">700</resource-min>
 					<resource-opt amount="9">875</resource-opt>
 				</resource>
@@ -1362,14 +1428,14 @@
 		</tier>
 		<tier>
 			<tier-name>Fine Mithril Small Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">660</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (910)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (91)</tier-attribute>
-				<tier-attribute type="statBonus">+114 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+124 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1382,6 +1448,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="18">900</resource-min>
 					<resource-opt amount="9">1175</resource-opt>
 				</resource>
@@ -1397,7 +1464,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+7 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1410,7 +1477,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Heavy Round Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but heavily reinforced along the sides with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1425,20 +1492,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Garnet Golem Chip</resource-name>
+					<resource-name>Lesser Water Elemental Droplet</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">1</resource-min>
 					<resource-opt amount="1">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
 					<resource-opt amount="2">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -1446,14 +1516,14 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Heavy Round Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">64</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+28 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+27 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+10 Crush Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1462,26 +1532,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Elm Treant Knot</resource-name>
+					<resource-name>Enraged Elm Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Grass Beetle Carapace</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
 					<resource-opt amount="2">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -1489,14 +1556,14 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Heavy Round Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">126</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+54 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+49 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+15 Crush Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1506,26 +1573,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Green Necrofly Wing</resource-name>
+					<resource-name>Redbacked Spider Breeder Leg</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">400</resource-min>
 					<resource-opt amount="1">550</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Granite Golem Fragment</resource-name>
+					<resource-name>Palesnout Snout</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">400</resource-min>
 					<resource-opt amount="1">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="2">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -1533,14 +1604,14 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Heavy Round Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">252</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+86 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+75 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+20 Crush Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1551,26 +1622,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Hardened Fyakki Chitin</resource-name>
+					<resource-name>Enraged Maple Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">600</resource-min>
 					<resource-opt amount="2">775</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Opal Golem Chip</resource-name>
+					<resource-name>Thel'kuk Battler Club Splinter</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">600</resource-min>
 					<resource-opt amount="1">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">600</resource-min>
 					<resource-opt amount="2">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -1578,14 +1653,14 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Heavy Round Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">504</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+123 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+105 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+25 Crush Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1597,28 +1672,32 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Grey Necrofly Wing</resource-name>
+					<resource-name>Blood Skulk Soothsayer's Ear</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">800</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="2">1000</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Mithril Golem Fragment</resource-name>
+					<resource-name>Purple Weaver Leg Hair</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">800</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="2">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">800</resource-min>
-					<resource-opt amount="2">1075</resource-opt>
+					<resource-opt amount="2">1000</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
-					<resource-opt amount="6">1075</resource-opt>
+					<resource-opt amount="6">1000</resource-opt>
 				</resource>
 			</resources>
 		</tier>
@@ -1632,7 +1711,7 @@
 			<item-attribute type="bulk">128</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+10 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1645,7 +1724,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Large Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1661,6 +1740,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">1</resource-min>
 					<resource-opt amount="10">100</resource-opt>
 				</resource>
@@ -1668,14 +1748,14 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Large Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">90</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+38 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+34 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1685,6 +1765,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">200</resource-min>
 					<resource-opt amount="10">325</resource-opt>
 				</resource>
@@ -1692,14 +1773,14 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Large Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">180</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+69 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+60 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1710,6 +1791,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">400</resource-min>
 					<resource-opt amount="10">550</resource-opt>
 				</resource>
@@ -1717,14 +1799,14 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Large Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">360</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+107 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+90 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1736,6 +1818,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">600</resource-min>
 					<resource-opt amount="10">775</resource-opt>
 				</resource>
@@ -1743,14 +1826,14 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Large Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Heavy shields are often large enough to cover the entire body. Far too heavy for dexterous combat, they are mostly used for protection from projectile weapons during advances.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">720</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+150 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+124 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1763,6 +1846,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">800</resource-min>
 					<resource-opt amount="10">1075</resource-opt>
 				</resource>
@@ -1778,7 +1862,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+7 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1791,7 +1875,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Medium Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1807,6 +1891,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">1</resource-min>
 					<resource-opt amount="8">100</resource-opt>
 				</resource>
@@ -1814,14 +1899,14 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Medium Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">72</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+28 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+27 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_2</tier-keyword>
@@ -1831,6 +1916,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">200</resource-min>
 					<resource-opt amount="8">325</resource-opt>
 				</resource>
@@ -1838,14 +1924,14 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Medium Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">144</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+54 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+49 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -1856,6 +1942,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">400</resource-min>
 					<resource-opt amount="8">550</resource-opt>
 				</resource>
@@ -1863,14 +1950,14 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Medium Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">288</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+86 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+75 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -1882,6 +1969,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">600</resource-min>
 					<resource-opt amount="8">775</resource-opt>
 				</resource>
@@ -1889,14 +1977,14 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Medium Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Medium shields incorporated an arm strap in addition to a handgrip to help distribute the weight. Cumbersome, it excelled most at blocking incoming blows.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">600</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+123 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+105 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -1909,6 +1997,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">800</resource-min>
 					<resource-opt amount="8">1075</resource-opt>
 				</resource>
@@ -1924,7 +2013,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+7 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -1937,7 +2026,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Reinforced Round Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -1952,20 +2041,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Water Elemental Droplet</resource-name>
+					<resource-name>Agh'kuk Pygmy Ear</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">1</resource-min>
 					<resource-opt amount="1">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
 					<resource-opt amount="2">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -1973,14 +2065,14 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Reinforced Round Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">64</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+28 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+27 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+10 Slash Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -1989,26 +2081,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Brighter Tarantula Silk</resource-name>
+					<resource-name>Dark Crawler Soldier Venom</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Rose Quartz Golem Chip</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
 					<resource-opt amount="2">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -2016,14 +2105,14 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Reinforced Round Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">126</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+54 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+49 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+15 Slash Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2033,26 +2122,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Greater Zombie Thighbone</resource-name>
+					<resource-name>Desert Scorpion Venom</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">400</resource-min>
 					<resource-opt amount="1">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Ice Beetle Carapace</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">400</resource-min>
 					<resource-opt amount="1">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="2">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -2060,14 +2153,14 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Reinforced Round Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">252</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+86 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+75 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+20 Slash Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2078,26 +2171,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Mighty Skeleton Skull</resource-name>
+					<resource-name>Zal'kuk Warrior Big Toe</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">600</resource-min>
 					<resource-opt amount="2">775</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Red Necrofly Wing</resource-name>
+					<resource-name>Thel'kuk Spotter Finger</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">600</resource-min>
 					<resource-opt amount="1">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">600</resource-min>
 					<resource-opt amount="2">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -2105,14 +2202,14 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Reinforced Round Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but more heavily reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">504</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+123 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+105 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+25 Slash Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2124,26 +2221,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Red Vexator Fringe</resource-name>
+					<resource-name>Enraged Yew Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">800</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Veteran Ghost Vapor</resource-name>
+					<resource-name>Ravenous Bloodsnout Bristle</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">800</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">800</resource-min>
 					<resource-opt amount="2">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1075</resource-opt>
 				</resource>
@@ -2159,7 +2260,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+7 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -2172,7 +2273,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Round Cross Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2187,20 +2288,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Weaker Blight Bindings</resource-name>
+					<resource-name>Small Loricatus Beetle Thorax</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">1</resource-min>
 					<resource-opt amount="1">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">1</resource-min>
 					<resource-opt amount="4">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">1</resource-min>
 					<resource-opt amount="4">100</resource-opt>
 				</resource>
@@ -2208,14 +2312,14 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Round Cross Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">56</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+28 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+27 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+10 Life</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2224,26 +2328,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Frost Pygmy Ear</resource-name>
+					<resource-name>Forest Skulk Hunter Fin</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Lapis Lazuli Golem Chip</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">200</resource-min>
 					<resource-opt amount="4">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">200</resource-min>
 					<resource-opt amount="4">325</resource-opt>
 				</resource>
@@ -2251,14 +2352,14 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Round Cross Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+54 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+49 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+15 Life</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2268,26 +2369,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Greater Zombie Thighbone</resource-name>
+					<resource-name>Enraged Oak Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">400</resource-min>
 					<resource-opt amount="1">550</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Aquamarine Golem Chip</resource-name>
+					<resource-name>Redbacked Spider Worker Thorax</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">400</resource-min>
 					<resource-opt amount="1">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">400</resource-min>
 					<resource-opt amount="4">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">400</resource-min>
 					<resource-opt amount="4">550</resource-opt>
 				</resource>
@@ -2295,14 +2400,14 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Round Cross Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+86 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+75 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+20 Life</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2313,26 +2418,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Mighty Ghost Vapor</resource-name>
+					<resource-name>Zal'kuk Warrior Big Toe</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">600</resource-min>
 					<resource-opt amount="2">775</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Shadow Spider Fang</resource-name>
+					<resource-name>Shadow Tarantula Breeder Leg Hair</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">600</resource-min>
 					<resource-opt amount="1">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">600</resource-min>
 					<resource-opt amount="4">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">600</resource-min>
 					<resource-opt amount="4">775</resource-opt>
 				</resource>
@@ -2340,14 +2449,14 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Round Cross Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.  A symbol of a cross is embazoned on the front.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+123 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+105 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+25 Life</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2359,26 +2468,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Purple Tarantula Venom</resource-name>
+					<resource-name>Blood Skulk Soothsayer's Ear</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">800</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="2">975</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Veteran Abomination Chest Skull</resource-name>
+					<resource-name>Turgid Purple Weaver Leg</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">800</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="2">975</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">800</resource-min>
 					<resource-opt amount="4">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">800</resource-min>
 					<resource-opt amount="4">1075</resource-opt>
 				</resource>
@@ -2394,7 +2507,7 @@
 			<item-attribute type="bulk">64</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
 			<item-attribute type="shieldOn">Allows shield blocking</item-attribute>
-			<item-attribute type="statBonus">+5 Block Bonus</item-attribute>
+			<item-attribute type="statBonus">+7 Block Bonus</item-attribute>
 		</item-attributes>
 		<item-keywords>
 			<item-keyword>techclass_1</item-keyword>
@@ -2407,7 +2520,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Round Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2422,20 +2535,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Forest Crawler Leg Hair</resource-name>
+					<resource-name>Wild Gruok Bristle</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">1</resource-min>
 					<resource-opt amount="1">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">1</resource-min>
 					<resource-opt amount="4">100</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">1</resource-min>
 					<resource-opt amount="4">100</resource-opt>
 				</resource>
@@ -2443,14 +2559,14 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Round Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">56</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (210)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (21)</tier-attribute>
-				<tier-attribute type="statBonus">+28 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+27 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+10 Pierce Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2459,26 +2575,23 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Grass Beetle Carapace</resource-name>
+					<resource-name>Brownback Outlier Paw</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
-				</resource>
-				<resource>
-					<resource-name>Frost Ogre Club Splinter</resource-name>
-					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">200</resource-min>
-					<resource-opt amount="1">325</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">200</resource-min>
+					<resource-opt amount="2">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">200</resource-min>
 					<resource-opt amount="4">325</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">200</resource-min>
 					<resource-opt amount="4">325</resource-opt>
 				</resource>
@@ -2486,14 +2599,14 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Round Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+54 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+49 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+15 Pierce Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2503,26 +2616,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Oak Treant Knot</resource-name>
+					<resource-name>Enraged Oak Treant Root</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">400</resource-min>
 					<resource-opt amount="1">550</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Werewolf Bone</resource-name>
+					<resource-name>Redbacked Spider Worker Thorax</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">400</resource-min>
 					<resource-opt amount="1">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">400</resource-min>
 					<resource-opt amount="4">550</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">400</resource-min>
 					<resource-opt amount="4">550</resource-opt>
 				</resource>
@@ -2530,14 +2647,14 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Round Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+86 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+75 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+20 Pierce Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2548,26 +2665,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Mighty Blight Bindings</resource-name>
+					<resource-name>Zal'kuk Scout Shrunken Head</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">600</resource-min>
 					<resource-opt amount="2">775</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Opal Golem Chip</resource-name>
+					<resource-name>Shadow Spider Breeder Venom</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="1">600</resource-min>
 					<resource-opt amount="1">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">600</resource-min>
 					<resource-opt amount="4">775</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">600</resource-min>
 					<resource-opt amount="4">775</resource-opt>
 				</resource>
@@ -2575,14 +2696,14 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Round Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Round shields incorporated an arm strap in addition to a handgrip to help distribute the weight.  Made of wood, but reinforced along the side with metal.  They are still cumbersome, but are able to block many incoming blows.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">432</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+123 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+105 Armor</tier-attribute>
 				<tier-attribute type="statBonus">+25 Pierce Resistance</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -2594,26 +2715,30 @@
 			</tier-keywords>
 			<resources>
 				<resource>
-					<resource-name>Giant Ice Beetle Mandible</resource-name>
+					<resource-name>Sand Crab Pincer</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">800</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="2">975</resource-opt>
 				</resource>
 				<resource>
-					<resource-name>Purple Spider Venom</resource-name>
+					<resource-name>Veteran Scorpion Venom</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
-					<resource-min amount="1">800</resource-min>
-					<resource-opt amount="1">1075</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">800</resource-min>
+					<resource-opt amount="2">975</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">800</resource-min>
 					<resource-opt amount="4">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">800</resource-min>
 					<resource-opt amount="4">1075</resource-opt>
 				</resource>
@@ -2625,6 +2750,7 @@
 		<item-icon>icon_formula_a_17_01_11.png</item-icon>
 		<item-batchqty>1</item-batchqty>
 		<item-attributes>
+			<item-attribute type="statBonus">+9 Block</item-attribute>
 			<item-attribute type="equipSlot">Left Palm</item-attribute>
 			<item-attribute type="bulk">32</item-attribute>
 			<item-attribute type="reqClass">GRDN, CRSB, KNOC, SPRM, RVR, RNGR, CLRC, DRU, SHMN, BTLM, PLDN, SCT, HLR, WAR</item-attribute>
@@ -2641,7 +2767,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Bronze Small Shield</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2657,6 +2783,7 @@
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -2664,7 +2791,7 @@
 		</tier>
 		<tier>
 			<tier-name>Iron Small Shield</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -2681,6 +2808,7 @@
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -2688,14 +2816,14 @@
 		</tier>
 		<tier>
 			<tier-name>Steel Small Shield</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">108</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (410)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (41)</tier-attribute>
-				<tier-attribute type="statBonus">+39 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+38 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_3</tier-keyword>
@@ -2706,6 +2834,7 @@
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -2713,14 +2842,14 @@
 		</tier>
 		<tier>
 			<tier-name>Cobalt Small Shield</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">216</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (610)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (61)</tier-attribute>
-				<tier-attribute type="statBonus">+65 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+60 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_4</tier-keyword>
@@ -2732,6 +2861,7 @@
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -2739,14 +2869,14 @@
 		</tier>
 		<tier>
 			<tier-name>Mithril Small Shield</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>Small shields are typically held with a single handgrip and used to deflect away incoming attacks or strike an opponent that comes too near.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">480</tier-attribute>
 				<tier-attribute type="reqAdvSkill">Shield (810)</tier-attribute>
 				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (81)</tier-attribute>
-				<tier-attribute type="statBonus">+96 Armor</tier-attribute>
+				<tier-attribute type="statBonus">+86 Armor</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -2759,6 +2889,7 @@
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Armorcraft</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1075</resource-opt>
 				</resource>

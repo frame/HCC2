@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Ethereal Armor</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Defense</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Ethereal Armor</tech-name>
+		<tech-icon>icon_technique_06_01_11.png</tech-icon>
+		<tech-subdesc>Enhances the Ethereal armor of the player by a set amount per tier. Increased Ethereal armor will help better protect against incoming ethereal (spirit) attacks by reducing the damage.</tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>dragonscale</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>shield</tech-keyword>
+				<tech-keyword>armor</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>dragon_bodyslot_foreleg</tech-keyword>
+				<tech-keyword>dragon_bodyslot_wing</tech-keyword>
+				<tech-keyword>bodyslot_finger</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_wrist</tech-keyword>
+				<tech-keyword>bodyslot_forearm</tech-keyword>
+				<tech-keyword>bodyslot_arms</tech-keyword>
+				<tech-keyword>bodyslot_shoulder</tech-keyword>
+				<tech-keyword>bodyslot_feet</tech-keyword>
+				<tech-keyword>bodyslot_legs</tech-keyword>
+				<tech-keyword>bodyslot_waist</tech-keyword>
+				<tech-keyword>bodyslot_ear</tech-keyword>
+				<tech-keyword>bodyslot_face</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_neck</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+				<tech-keyword>dragon_bodyslot_hindleg</tech-keyword>
+				<tech-keyword>dragon_bodyslot_chest</tech-keyword>
+				<tech-keyword>dragon_bodyslot_back</tech-keyword>
+				<tech-keyword>dragon_bodyslot_head</tech-keyword>
+				<tech-keyword>dragon_bodyslot_tail</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_etherealarmor_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Ethereal Armor I</tier-name>
+			<tier-origin>Defense: Ethereal Armor I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +4 to the Ethereal Armor defense.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Jungle Crawler Breeder Abdomen</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Armor II</tier-name>
+			<tier-origin>Defense: Ethereal Armor II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +8 to the Ethereal Armor defense.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Large Ruxus Skin</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Armor III</tier-name>
+			<tier-origin>Defense: Armor III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +12 to the Ethereal Armor defense.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Redbacked Tarantula Hatchling Leg Hair</component>
+				<component amount = "1">Nickel Golem Fragment</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Armor IV</tier-name>
+			<tier-origin>Defense: Armor IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +16 to the Ethereal Armor defense.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "2">Flame Beetle Thorax</component>
+				<component amount = "1">Enraged Maple Treant Mettle</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Ethereal Armor V</tier-name>
+			<tier-origin>Defense: Armor V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain objects with an addtional +20 to the Ethereal Armor defense.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Mithril Golem Fragment</component>
+				<component amount = "2">Blood Skulk Bloodmage's Finger</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

@@ -1,24 +1,104 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Resources - Alchemy</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Resources</formulaset-category>
 	</formulaset-categories>
 	<item>
-		<item-name>Ground Gem</item-name>
+		<item-name>Alchemical Gem Powder</item-name>
 		<item-icon>icon_formula_r_06_01_11.png</item-icon>
 		<item-batchqty>2</item-batchqty>
 		<item-attributes>
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">1</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Ground Sapphire</tier-name>
+			<tier-lvl name="VI Sapphire">6</tier-lvl>
+			<tier-desc>A fine powder of crushed sapphire, used as a reaction agent in specialized trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Sapphire</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ground Ruby</tier-name>
+			<tier-lvl name="VI Ruby">6</tier-lvl>
+			<tier-desc>A fine powder of crushed ruby, used as a reaction agent in specialized trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Ruby</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ground Diamond</tier-name>
+			<tier-lvl name="VI Diamond">6</tier-lvl>
+			<tier-desc>A fine powder of crushed diamond, used as a reaction agent in specialized trade skills.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Uncut Diamond</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
 		<tier>
 			<tier-name>Ground Garnet</tier-name>
 			<tier-lvl name="I Garnet">1</tier-lvl>
 			<tier-desc>A fine powder of crushed garnet, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -26,12 +106,14 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">1</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Garnet</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
@@ -43,7 +125,7 @@
 			<tier-desc>A fine powder of crushed malachite, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -51,12 +133,14 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">1</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Malachite</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
@@ -68,7 +152,7 @@
 			<tier-desc>A fine powder of crushed turquoise, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -76,12 +160,14 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">1</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Turquoise</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">1</resource-min>
 					<resource-opt amount="2">200</resource-opt>
 				</resource>
@@ -93,7 +179,7 @@
 			<tier-desc>A fine powder of crushed amethyst, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -101,12 +187,14 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">200</resource-min>
 					<resource-opt amount="1">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Amethyst</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">200</resource-min>
 					<resource-opt amount="2">425</resource-opt>
 				</resource>
@@ -118,7 +206,7 @@
 			<tier-desc>A fine powder of crushed lapis lazuli, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -126,12 +214,14 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">200</resource-min>
 					<resource-opt amount="1">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Lapis Lazuli</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">200</resource-min>
 					<resource-opt amount="2">425</resource-opt>
 				</resource>
@@ -143,7 +233,7 @@
 			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -151,12 +241,14 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">200</resource-min>
 					<resource-opt amount="1">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Rose Quartz</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">200</resource-min>
 					<resource-opt amount="2">425</resource-opt>
 				</resource>
@@ -165,9 +257,10 @@
 		<tier>
 			<tier-name>Ground Aquamarine</tier-name>
 			<tier-lvl name="III Aquamarine">3</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -176,12 +269,14 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">400</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Aquamarine</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="2">650</resource-opt>
 				</resource>
@@ -190,9 +285,10 @@
 		<tier>
 			<tier-name>Ground Citrine</tier-name>
 			<tier-lvl name="III Citrine">3</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -201,12 +297,14 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">400</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Citrine</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="2">650</resource-opt>
 				</resource>
@@ -215,9 +313,10 @@
 		<tier>
 			<tier-name>Ground Jasper</tier-name>
 			<tier-lvl name="III Jasper">3</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -226,12 +325,14 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">400</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Jasper</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">400</resource-min>
 					<resource-opt amount="2">650</resource-opt>
 				</resource>
@@ -240,9 +341,10 @@
 		<tier>
 			<tier-name>Ground Jade</tier-name>
 			<tier-lvl name="IV Jade">4</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -251,12 +353,14 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">600</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Jade</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">600</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
@@ -265,9 +369,10 @@
 		<tier>
 			<tier-name>Ground Opal</tier-name>
 			<tier-lvl name="IV Opal">4</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -276,12 +381,14 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">600</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Opal</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">600</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
@@ -290,9 +397,10 @@
 		<tier>
 			<tier-name>Ground Topaz</tier-name>
 			<tier-lvl name="IV Topaz">4</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -301,12 +409,14 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">600</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Topaz</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">600</resource-min>
 					<resource-opt amount="2">875</resource-opt>
 				</resource>
@@ -315,9 +425,10 @@
 		<tier>
 			<tier-name>Ground Emerald</tier-name>
 			<tier-lvl name="V Emerald">5</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -326,12 +437,14 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">800</resource-min>
 					<resource-opt amount="1">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Emerald</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">800</resource-min>
 					<resource-opt amount="2">1075</resource-opt>
 				</resource>
@@ -340,9 +453,10 @@
 		<tier>
 			<tier-name>Ground Fire Opal</tier-name>
 			<tier-lvl name="V Fire Opal">5</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -351,12 +465,14 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">800</resource-min>
 					<resource-opt amount="1">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Fire Opal</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">800</resource-min>
 					<resource-opt amount="2">1075</resource-opt>
 				</resource>
@@ -365,9 +481,10 @@
 		<tier>
 			<tier-name>Ground Peridot</tier-name>
 			<tier-lvl name="V Peridot">5</tier-lvl>
+			<tier-desc>A fine powder of crushed rose quartz, used as a reaction agent in specialized trade skills.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 				<tier-keyword>tier_2</tier-keyword>
@@ -376,12 +493,14 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">800</resource-min>
 					<resource-opt amount="1">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Uncut Peridot</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">800</resource-min>
 					<resource-opt amount="2">1075</resource-opt>
 				</resource>
@@ -389,20 +508,48 @@
 		</tier>
 	</item>
 	<item>
-		<item-name>Metal Powder</item-name>
+		<item-name>Alchemical Metal Powder</item-name>
 		<item-icon>icon_formula_r_01_04_11.png</item-icon>
 		<item-batchqty>2</item-batchqty>
 		<item-attributes>
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">2</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Adamantium Powder</tier-name>
+			<tier-lvl name="VI Adamantium">6</tier-lvl>
+			<tier-desc>This is a fine, granular powder of adamantium metal.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="2">1100</resource-min>
+					<resource-opt amount="1">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Adamantium Bar</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">1100</resource-min>
+					<resource-opt amount="2">1425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
 		<tier>
 			<tier-name>Bronze Powder</tier-name>
 			<tier-lvl name="I Bronze">1</tier-lvl>
 			<tier-desc>This is a fine, granular powder of bronze metal.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -410,12 +557,14 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">100</resource-min>
 					<resource-opt amount="1">300</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bronze Bar</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">100</resource-min>
 					<resource-opt amount="2">300</resource-opt>
 				</resource>
@@ -427,7 +576,7 @@
 			<tier-desc>This is a fine, granular powder of iron metal.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -435,12 +584,14 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">300</resource-min>
 					<resource-opt amount="1">525</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Iron Bar</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="2">525</resource-opt>
 				</resource>
@@ -452,7 +603,7 @@
 			<tier-desc>This is a fine, granular powder of silver metal.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -460,12 +611,14 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">300</resource-min>
 					<resource-opt amount="1">525</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Silver Bar</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">300</resource-min>
 					<resource-opt amount="2">525</resource-opt>
 				</resource>
@@ -477,7 +630,7 @@
 			<tier-desc>This is a fine, granular powder of gold metal.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -485,12 +638,14 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">500</resource-min>
 					<resource-opt amount="1">750</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Gold Bar</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="2">750</resource-opt>
 				</resource>
@@ -502,7 +657,7 @@
 			<tier-desc>This is a fine, granular powder of steel metal.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -510,12 +665,14 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">500</resource-min>
 					<resource-opt amount="1">750</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Steel Bar</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">500</resource-min>
 					<resource-opt amount="2">750</resource-opt>
 				</resource>
@@ -527,7 +684,7 @@
 			<tier-desc>This is a fine, granular powder of cobalt alloy metal.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -535,12 +692,14 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">700</resource-min>
 					<resource-opt amount="1">975</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cobalt Bar</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="2">975</resource-opt>
 				</resource>
@@ -552,7 +711,7 @@
 			<tier-desc>This is a fine, granular powder of platinum metal.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -560,12 +719,14 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">700</resource-min>
 					<resource-opt amount="1">975</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Platinum Bar</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">700</resource-min>
 					<resource-opt amount="2">975</resource-opt>
 				</resource>
@@ -577,7 +738,7 @@
 			<tier-desc>This is a fine, granular powder of mithril metal.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -585,12 +746,14 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="2">900</resource-min>
 					<resource-opt amount="1">1175</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Mithril Bar</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="5">900</resource-min>
 					<resource-opt amount="2">1175</resource-opt>
 				</resource>
@@ -605,13 +768,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">1</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Cognitive Suspension</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>An alchemical suspension made from dim essence, used as a base in potions that affect the mind.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -619,12 +784,14 @@
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">50</resource-min>
 					<resource-opt amount="1">250</resource-opt>
 				</resource>
@@ -632,11 +799,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Cognitive Suspension</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An alchemical suspension made from pale essence, used as a base in potions that affect the mind.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -644,12 +811,14 @@
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">250</resource-min>
 					<resource-opt amount="1">475</resource-opt>
 				</resource>
@@ -657,11 +826,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Cognitive Suspension</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>An alchemical suspension made from glowing essence, used as a base in potions that affect the mind.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -669,12 +838,14 @@
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="1">700</resource-opt>
 				</resource>
@@ -682,11 +853,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Cognitive Suspension</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>An alchemical suspension made from bright essence, used as a base in potions that affect the mind.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -694,12 +865,14 @@
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">650</resource-min>
 					<resource-opt amount="1">925</resource-opt>
 				</resource>
@@ -707,11 +880,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Cognitive Suspension</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>An alchemical suspension made from shining essence, used as a base in potions that affect the mind.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -719,12 +892,14 @@
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">450</resource-min>
 					<resource-opt amount="4">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">850</resource-min>
 					<resource-opt amount="1">1125</resource-opt>
 				</resource>
@@ -739,13 +914,15 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">1</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
 		<tier>
 			<tier-name>Dim Kinetic Suspension</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>An alchemical suspension made from dim essence, used as a base in potions that affect a person's physical energy.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -753,12 +930,14 @@
 				<resource>
 					<resource-name>Tainted Dim Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">1</resource-min>
 					<resource-opt amount="1">200</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="4">875</resource-opt>
 				</resource>
@@ -766,11 +945,11 @@
 		</tier>
 		<tier>
 			<tier-name>Pale Kinetic Suspension</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An alchemical suspension made from pale essence, used as a base in potions that affect a person's physical energy.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -778,12 +957,14 @@
 				<resource>
 					<resource-name>Tainted Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">200</resource-min>
 					<resource-opt amount="1">425</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="4">875</resource-opt>
 				</resource>
@@ -791,11 +972,11 @@
 		</tier>
 		<tier>
 			<tier-name>Glowing Kinetic Suspension</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>An alchemical suspension made from glowing essence, used as a base in potions that affect a person's physical energy.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -803,12 +984,14 @@
 				<resource>
 					<resource-name>Tainted Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="1">650</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="4">875</resource-opt>
 				</resource>
@@ -816,11 +999,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Kinetic Suspension</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>An alchemical suspension made from bright essence, used as a base in potions that affect a person's physical energy.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -828,12 +1011,14 @@
 				<resource>
 					<resource-name>Tainted Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">600</resource-min>
 					<resource-opt amount="1">875</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="4">875</resource-opt>
 				</resource>
@@ -841,11 +1026,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Kinetic Suspension</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>An alchemical suspension made from shining essence, used as a base in potions that affect a person's physical energy.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -853,12 +1038,14 @@
 				<resource>
 					<resource-name>Tainted Shining Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">800</resource-min>
 					<resource-opt amount="1">1075</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">400</resource-min>
 					<resource-opt amount="4">875</resource-opt>
 				</resource>
@@ -873,13 +1060,41 @@
 			<item-attribute type="equipSlot">All</item-attribute>
 			<item-attribute type="bulk">1</item-attribute>
 		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Radiant Tensile Suspension</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc>An alchemical suspension made from radiant essence, used as a base in potions that affect physical resiliency.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Purified Radiant Essence Orb</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1100</resource-min>
+					<resource-opt amount="1">1425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Water</resource-name>
+					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">500</resource-min>
+					<resource-opt amount="4">975</resource-opt>
+				</resource>
+			</resources>
+		</tier>
 		<tier>
 			<tier-name>Dim Tensile Suspension</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>An alchemical suspension made from dim essence, used as a base in potions that affect physical resiliency.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_1</tier-keyword>
 			</tier-keywords>
@@ -887,24 +1102,26 @@
 				<resource>
 					<resource-name>Purified Dim Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">100</resource-min>
 					<resource-opt amount="1">300</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="4">500</resource-min>
-					<resource-opt amount="4">975</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="4">525</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Pale Tensile Suspension</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An alchemical suspension made from pale essence, used as a base in potions that affect physical resiliency.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_2</tier-keyword>
 			</tier-keywords>
@@ -912,24 +1129,26 @@
 				<resource>
 					<resource-name>Purified Pale Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">300</resource-min>
 					<resource-opt amount="1">525</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
-					<resource-min amount="4">500</resource-min>
-					<resource-opt amount="4">975</resource-opt>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">100</resource-min>
+					<resource-opt amount="4">525</resource-opt>
 				</resource>
 			</resources>
 		</tier>
 		<tier>
 			<tier-name>Glowing Tensile Suspension</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>An alchemical suspension made from glowing essence, used as a base in potions that affect physical resiliency.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_3</tier-keyword>
 			</tier-keywords>
@@ -937,12 +1156,14 @@
 				<resource>
 					<resource-name>Purified Glowing Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">500</resource-min>
 					<resource-opt amount="1">750</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">500</resource-min>
 					<resource-opt amount="4">975</resource-opt>
 				</resource>
@@ -950,11 +1171,11 @@
 		</tier>
 		<tier>
 			<tier-name>Bright Tensile Suspension</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>An alchemical suspension made from bright essence, used as a base in potions that affect physical resiliency.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_4</tier-keyword>
 			</tier-keywords>
@@ -962,12 +1183,14 @@
 				<resource>
 					<resource-name>Purified Bright Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">700</resource-min>
 					<resource-opt amount="1">975</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">500</resource-min>
 					<resource-opt amount="4">975</resource-opt>
 				</resource>
@@ -975,11 +1198,11 @@
 		</tier>
 		<tier>
 			<tier-name>Shining Tensile Suspension</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>An alchemical suspension made from shining essence, used as a base in potions that affect physical resiliency.</tier-desc>
 			<tier-allowedtechniques>0</tier-allowedtechniques>
 			<tier-attributes>
-      </tier-attributes>
+			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>tier_5</tier-keyword>
 			</tier-keywords>
@@ -987,12 +1210,14 @@
 				<resource>
 					<resource-name>Purified Shining Essence Orb</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">900</resource-min>
 					<resource-opt amount="1">1175</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Water</resource-name>
 					<resource-skill>Alchemy</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="4">500</resource-min>
 					<resource-opt amount="4">975</resource-opt>
 				</resource>

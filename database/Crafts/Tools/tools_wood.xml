@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Tools - Wood</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Tools</formulaset-category>
@@ -25,7 +25,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Alteration Wand</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A slender rod of cedar used to magically manipulate and transform resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -41,12 +41,14 @@
 				<resource>
 					<resource-name>Dim Essence Orb</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">150</resource-min>
 					<resource-opt amount="4">250</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">150</resource-min>
 					<resource-opt amount="12">250</resource-opt>
 				</resource>
@@ -54,7 +56,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Alteration Wand</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A slender rod of elm used to magically manipulate and transform resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -71,12 +73,14 @@
 				<resource>
 					<resource-name>Pale Essence Orb</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">350</resource-min>
 					<resource-opt amount="4">475</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">350</resource-min>
 					<resource-opt amount="12">475</resource-opt>
 				</resource>
@@ -84,7 +88,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Alteration Wand</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A slender rod of oak used to magically manipulate and transform resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -102,12 +106,14 @@
 				<resource>
 					<resource-name>Glowing Essence Orb</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">550</resource-min>
 					<resource-opt amount="4">700</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">550</resource-min>
 					<resource-opt amount="12">700</resource-opt>
 				</resource>
@@ -115,7 +121,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Alteration Wand</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A slender rod of maple used to magically manipulate and transform resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -134,12 +140,14 @@
 				<resource>
 					<resource-name>Bright Essence Orb</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">750</resource-min>
 					<resource-opt amount="4">925</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">750</resource-min>
 					<resource-opt amount="12">925</resource-opt>
 				</resource>
@@ -147,7 +155,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Alteration Wand</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A slender rod of yew used to magically manipulate and transform resources.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -165,12 +173,14 @@
 				<resource>
 					<resource-name>Shining Essence Orb</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">950</resource-min>
 					<resource-opt amount="4">1150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">950</resource-min>
 					<resource-opt amount="12">1150</resource-opt>
 				</resource>
@@ -197,7 +207,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Baking Spatula</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A cooking utensil with long handle and a flat, cedar blade that is used as a tool in the preparation of food.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -213,6 +223,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">100</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -220,7 +231,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Baking Spatula</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A cooking utensil with long handle and a flat, elm blade that is used as a tool in the preparation of food.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -237,6 +248,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
 					<resource-opt amount="10">425</resource-opt>
 				</resource>
@@ -244,7 +256,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Baking Spatula</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A cooking utensil with long handle and a flat, oak blade that is used as a tool in the preparation of food.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -262,6 +274,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
 					<resource-opt amount="10">650</resource-opt>
 				</resource>
@@ -269,7 +282,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Baking Spatula</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A cooking utensil with long handle and a flat, maple blade that is used as a tool in the preparation of food.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -288,6 +301,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
 					<resource-opt amount="10">875</resource-opt>
 				</resource>
@@ -295,7 +309,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Baking Spatula</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A cooking utensil with long handle and a flat, yew blade that is used as a tool in the preparation of food.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -313,6 +327,7 @@
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
 					<resource-opt amount="10">1100</resource-opt>
 				</resource>
@@ -340,7 +355,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Board Plane</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A cedar plane used to level boards for constructing items.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -356,6 +371,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -363,7 +379,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Board Plane</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>An elm plane used to level boards for constructing items.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -380,6 +396,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -387,7 +404,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Board Plane</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>An oak plane used to level boards for constructing items.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -405,6 +422,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -412,7 +430,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Board Plane</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A maple plane used to level boards for constructing items.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -431,6 +449,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -438,7 +457,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Board Plane</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A yew plane used to level boards for constructing items.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -456,6 +475,7 @@
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -483,7 +503,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Bucket</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A small wooden pail made of cedar boards, used in gathering various resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -500,6 +520,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">50</resource-min>
 					<resource-opt amount="8">150</resource-opt>
 				</resource>
@@ -507,7 +528,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Bucket</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A small wooden pail made of elm boards, used in gathering various resources.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -525,6 +546,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">250</resource-min>
 					<resource-opt amount="8">375</resource-opt>
 				</resource>
@@ -532,7 +554,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Bucket</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A small wooden pail made of oak boards, used in gathering various resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -551,6 +573,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">450</resource-min>
 					<resource-opt amount="8">600</resource-opt>
 				</resource>
@@ -558,7 +581,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Bucket</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A small wooden pail made of maple boards, used in gathering various resources.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -578,6 +601,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">650</resource-min>
 					<resource-opt amount="8">825</resource-opt>
 				</resource>
@@ -585,7 +609,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Bucket</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A small wooden pail made of yew boards, used in gathering various resources.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -603,6 +627,7 @@
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">850</resource-min>
 					<resource-opt amount="8">1050</resource-opt>
 				</resource>
@@ -629,7 +654,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Fishing Pole</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A rod of cedar wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -644,12 +669,14 @@
 				<resource>
 					<resource-name>Flax Fishing Line</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">50</resource-min>
 					<resource-opt amount="4">150</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">50</resource-min>
 					<resource-opt amount="8">150</resource-opt>
 				</resource>
@@ -657,7 +684,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Fishing Pole</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A rod of elm wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -673,12 +700,14 @@
 				<resource>
 					<resource-name>Kenaf Fishing Line</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">250</resource-min>
 					<resource-opt amount="4">375</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">250</resource-min>
 					<resource-opt amount="8">375</resource-opt>
 				</resource>
@@ -686,7 +715,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Fishing Pole</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A rod of oak wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -703,12 +732,14 @@
 				<resource>
 					<resource-name>Cotton Fishing Line</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">450</resource-min>
 					<resource-opt amount="4">600</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">450</resource-min>
 					<resource-opt amount="8">600</resource-opt>
 				</resource>
@@ -716,7 +747,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Fishing Pole</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A rod of maple wood used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -734,12 +765,14 @@
 				<resource>
 					<resource-name>Silk Fishing Line</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">650</resource-min>
 					<resource-opt amount="4">825</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">650</resource-min>
 					<resource-opt amount="8">825</resource-opt>
 				</resource>
@@ -747,7 +780,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Fishing Pole</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A rod of yew used to extend a fishing line in order to catch some fish.  Good times!</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -765,12 +798,14 @@
 				<resource>
 					<resource-name>Ironsilk Fishing Line</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="8">850</resource-min>
 					<resource-opt amount="4">1050</resource-opt>
 				</resource>
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">850</resource-min>
 					<resource-opt amount="8">1050</resource-opt>
 				</resource>
@@ -797,7 +832,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Cedar Mixing Spoon</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A small cedar utensil, used in preparing food.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -813,6 +848,7 @@
 				<resource>
 					<resource-name>Cedar Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">100</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -820,7 +856,7 @@
 		</tier>
 		<tier>
 			<tier-name>Elm Mixing Spoon</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A small elm utensil, used in preparing food.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -837,6 +873,7 @@
 				<resource>
 					<resource-name>Elm Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
 					<resource-opt amount="10">425</resource-opt>
 				</resource>
@@ -844,7 +881,7 @@
 		</tier>
 		<tier>
 			<tier-name>Oak Mixing Spoon</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A small oak utensil, used in preparing food.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -862,6 +899,7 @@
 				<resource>
 					<resource-name>Oak Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
 					<resource-opt amount="10">650</resource-opt>
 				</resource>
@@ -869,7 +907,7 @@
 		</tier>
 		<tier>
 			<tier-name>Maple Mixing Spoon</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A small maple utensil, used in preparing food.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -888,6 +926,7 @@
 				<resource>
 					<resource-name>Maple Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
 					<resource-opt amount="10">875</resource-opt>
 				</resource>
@@ -895,7 +934,7 @@
 		</tier>
 		<tier>
 			<tier-name>Yew Mixing Spoon</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A small yew utensil, used in preparing food.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -913,6 +952,7 @@
 				<resource>
 					<resource-name>Yew Board</resource-name>
 					<resource-skill>Woodworking</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
 					<resource-opt amount="10">1100</resource-opt>
 				</resource>

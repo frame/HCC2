@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<formulaset format="2.1">
+<formulaset format="3.0">
 	<formulaset-name>Tools - Stone</formulaset-name>
 	<formulaset-categories>
 		<formulaset-category>Tools</formulaset-category>
@@ -25,12 +25,13 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Brew Stirrer</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A long-handled sandstone stirring spoon, used in the brewing of liquids.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">30</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Brewing (1) or Tanning (1)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Alechemy (1) or Brewing (1) or Tanning (1)</tier-attribute>
+				<tier-attribute type="statCap">Limits Alchemy to 250</tier-attribute>
 				<tier-attribute type="statCap">Limits Brewing to 250</tier-attribute>
 				<tier-attribute type="statCap">Limits Tanning to 250</tier-attribute>
 			</tier-attributes>
@@ -41,6 +42,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">100</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -48,12 +50,13 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Brew Stirrer</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A long-handled slate stirring spoon, used in the brewing of liquids.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">60</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Brewing (200) or Tanning (200)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Alchemy (200) or Brewing (200) or Tanning (200)</tier-attribute>
+				<tier-attribute type="statCap">Limits Alchemy to 450</tier-attribute>
 				<tier-attribute type="statCap">Limits Brewing to 450</tier-attribute>
 				<tier-attribute type="statCap">Limits Tanning to 450</tier-attribute>
 			</tier-attributes>
@@ -65,6 +68,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
 					<resource-opt amount="10">425</resource-opt>
 				</resource>
@@ -72,12 +76,13 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Brew Stirrer</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A long-handled granite stirring spoon, used in the brewing of liquids.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">120</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Brewing (400) or Tanning (400)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Alchemy (400) or Brewing (400) or Tanning (400)</tier-attribute>
+				<tier-attribute type="statCap">Limits Alchemy to 650</tier-attribute>
 				<tier-attribute type="statCap">Limits Brewing to 650</tier-attribute>
 				<tier-attribute type="statCap">Limits Tanning to 650</tier-attribute>
 			</tier-attributes>
@@ -90,6 +95,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
 					<resource-opt amount="10">650</resource-opt>
 				</resource>
@@ -97,12 +103,13 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Brew Stirrer</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A long-handled obsidian stirring spoon, used in the brewing of liquids.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">240</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Brewing (600) or Tanning (600)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Alchemy (600) or Brewing (600) or Tanning (600)</tier-attribute>
+				<tier-attribute type="statCap">Limits Alchemy to 850</tier-attribute>
 				<tier-attribute type="statCap">Limits Brewing to 850</tier-attribute>
 				<tier-attribute type="statCap">Limits Tanning to 850</tier-attribute>
 			</tier-attributes>
@@ -116,6 +123,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
 					<resource-opt amount="10">875</resource-opt>
 				</resource>
@@ -123,12 +131,12 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Brew Stirrer</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A long-handled marble stirring spoon, used in the brewing of liquids.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
 				<tier-attribute type="hoardValue">480</tier-attribute>
-				<tier-attribute type="reqCraftSkill">Brewing (800) or Tanning (800)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Alchemy (800) or Brewing (800) or Tanning (800)</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
 				<tier-keyword>techclass_5</tier-keyword>
@@ -141,6 +149,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
 					<resource-opt amount="10">1100</resource-opt>
 				</resource>
@@ -158,22 +167,23 @@
 			<item-attribute type="reqRace">Human, Dwarf, Fiend, Saris, Elf, Sslik, Half-Giant, Gnome, Satyr, Dryad</item-attribute>
 		</item-attributes>
 		<item-keywords>
+			<item-keyword>tier_1</item-keyword>
 			<item-keyword>techclass_1</item-keyword>
-			<item-keyword>skill_make_sculpting</item-keyword>
-			<item-keyword>skill_use_quarrying</item-keyword>
-			<item-keyword>skill_use_earthencraft</item-keyword>
 			<item-keyword>bodyslot_rightpalm</item-keyword>
 			<item-keyword>tool</item-keyword>
-			<item-keyword>resource_stone</item-keyword>
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Clay Scoop</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A sandstone spade used in the scooping and shaping of clay.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
-				<tier-attribute type="hoardValue">24</tier-attribute>
+				<tier-attribute type="statCap">Limits Quarrying to 250</tier-attribute>
+				<tier-attribute type="statCap">Limits Foraging to 250</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Quarrying (1)</tier-attribute>
 				<tier-attribute type="reqCraftSkill">Earthencraft (1)</tier-attribute>
+				<tier-attribute type="hoardValue">24</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (1)</tier-attribute>
 				<tier-attribute type="statCap">Limits Earthencraft to 250</tier-attribute>
 			</tier-attributes>
 			<tier-keywords>
@@ -183,6 +193,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">50</resource-min>
 					<resource-opt amount="8">150</resource-opt>
 				</resource>
@@ -190,10 +201,14 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Clay Scoop</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A slate spade used in the scooping and shaping of clay.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="statCap">Limits Foraging to 450</tier-attribute>
+				<tier-attribute type="statCap">Limits Quarrying to 450</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (200)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Quarrying (200)</tier-attribute>
 				<tier-attribute type="hoardValue">48</tier-attribute>
 				<tier-attribute type="reqCraftSkill">Earthencraft (200)</tier-attribute>
 				<tier-attribute type="statCap">Limits Earthencraft to 450</tier-attribute>
@@ -206,6 +221,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">250</resource-min>
 					<resource-opt amount="8">375</resource-opt>
 				</resource>
@@ -213,10 +229,14 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Clay Scoop</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A granite spade used in the scooping and shaping of clay.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="statCap">Limits Quarrying to 650</tier-attribute>
+				<tier-attribute type="statCap">Limits Foraging to 650</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (400)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Quarrying (400)</tier-attribute>
 				<tier-attribute type="hoardValue">96</tier-attribute>
 				<tier-attribute type="reqCraftSkill">Earthencraft (400)</tier-attribute>
 				<tier-attribute type="statCap">Limits Earthencraft to 650</tier-attribute>
@@ -230,6 +250,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">450</resource-min>
 					<resource-opt amount="8">600</resource-opt>
 				</resource>
@@ -237,10 +258,14 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Clay Scoop</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>An obsidian spade used in the scooping and shaping of clay.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="statCap">Limits Quarrying to 850</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Foraging (600)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Quarrying (600)</tier-attribute>
+				<tier-attribute type="statCap">Limits Foraging to 850</tier-attribute>
 				<tier-attribute type="hoardValue">192</tier-attribute>
 				<tier-attribute type="reqCraftSkill">Earthencraft (600)</tier-attribute>
 				<tier-attribute type="statCap">Limits Earthencraft to 850</tier-attribute>
@@ -255,6 +280,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">650</resource-min>
 					<resource-opt amount="8">825</resource-opt>
 				</resource>
@@ -262,10 +288,12 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Clay Scoop</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A marble spade used in the scooping and shaping of clay.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
+				<tier-attribute type="reqCraftSkill">Foraging (800)</tier-attribute>
+				<tier-attribute type="reqCraftSkill">Quarrying (800)</tier-attribute>
 				<tier-attribute type="hoardValue">384</tier-attribute>
 				<tier-attribute type="reqCraftSkill">Earthencraft (800)</tier-attribute>
 			</tier-attributes>
@@ -280,6 +308,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="16">850</resource-min>
 					<resource-opt amount="8">1050</resource-opt>
 				</resource>
@@ -306,7 +335,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Essence Shaper</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A mystical sandstone device, used in the art of forming raw essence into a usable resource.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -321,6 +350,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -328,7 +358,7 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Essence Shaper</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A mystical slate device, used in the art of forming raw essence into a usable resource.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -344,6 +374,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -351,7 +382,7 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Essence Shaper</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A mystical granite device, used in the art of forming raw essence into a usable resource.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -368,6 +399,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -375,7 +407,7 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Essence Shaper</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A mystical obsidian device, used in the art of forming raw essence into a usable resource.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -393,6 +425,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -400,7 +433,7 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Essence Shaper</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A mystical marble device, used in the art of forming raw essence into a usable resource.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -418,6 +451,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -444,7 +478,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Essence Siphon</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A mystical sandstone tube fashioned to draw off resources, used in the art of extracting essence.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -459,6 +493,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">1</resource-min>
 					<resource-opt amount="6">100</resource-opt>
 				</resource>
@@ -466,7 +501,7 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Essence Siphon</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A mystical slate tube fashioned to draw off resources, used in the art of extracting essence.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -482,6 +517,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">200</resource-min>
 					<resource-opt amount="6">325</resource-opt>
 				</resource>
@@ -489,7 +525,7 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Essence Siphon</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A mystical granite tube fashioned to draw off resources, used in the art of extracting essence.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -506,6 +542,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">400</resource-min>
 					<resource-opt amount="6">550</resource-opt>
 				</resource>
@@ -513,7 +550,7 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Essence Siphon</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A mystical obsidian tube fashioned to draw off resources, used in the art of extracting essence.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -531,6 +568,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">600</resource-min>
 					<resource-opt amount="6">775</resource-opt>
 				</resource>
@@ -538,7 +576,7 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Essence Siphon</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A mystical marble tube fashioned to draw off resources, used in the art of extracting essence.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -556,6 +594,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="12">800</resource-min>
 					<resource-opt amount="6">1000</resource-opt>
 				</resource>
@@ -582,7 +621,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Essence Structurer</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A magical device with a long smooth arm with a sandstone tip, designed to allow the user to apply essence into buildings, and structures.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -597,6 +636,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">150</resource-min>
 					<resource-opt amount="12">250</resource-opt>
 				</resource>
@@ -604,7 +644,7 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Essence Structurer</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A magical device with a long smooth arm with a slate tip, designed to allow the user to apply essence into buildings, and structures.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -620,6 +660,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">350</resource-min>
 					<resource-opt amount="12">475</resource-opt>
 				</resource>
@@ -627,7 +668,7 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Essence Structurer</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A magical device with a long smooth arm with a granite tip, designed to allow the user to apply essence into buildings, and structures.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -644,6 +685,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">550</resource-min>
 					<resource-opt amount="12">700</resource-opt>
 				</resource>
@@ -651,7 +693,7 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Essence Structurer</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A magical device with a long smooth arm with a obsidian tip, designed to allow the user to apply essence into buildings, and structures.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -669,6 +711,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">750</resource-min>
 					<resource-opt amount="12">925</resource-opt>
 				</resource>
@@ -676,7 +719,7 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Essence Structurer</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A magical device with a long smooth arm with a marble tip, designed to allow the user to apply essence into buildings, and structures.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -694,6 +737,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="24">950</resource-min>
 					<resource-opt amount="12">1150</resource-opt>
 				</resource>
@@ -720,7 +764,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Glassblowing Rod</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A hollow sandstone tube used to shape molten glass nodules into an object by blowing air into it through the tube.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -735,6 +779,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">150</resource-min>
 					<resource-opt amount="10">250</resource-opt>
 				</resource>
@@ -742,7 +787,7 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Glassblowing Rod</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A hollow slate tube used to shape molten glass nodules into an object by blowing air into it through the tube.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -758,6 +803,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">350</resource-min>
 					<resource-opt amount="10">475</resource-opt>
 				</resource>
@@ -765,7 +811,7 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Glassblowing Rod</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A hollow granite tube used to shape molten glass nodules into an object by blowing air into it through the tube.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -782,6 +828,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">550</resource-min>
 					<resource-opt amount="10">700</resource-opt>
 				</resource>
@@ -789,7 +836,7 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Glassblowing Rod</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A hollow obsidian tube used to shape molten glass nodules into an object by blowing air into it through the tube.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -807,6 +854,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">750</resource-min>
 					<resource-opt amount="10">925</resource-opt>
 				</resource>
@@ -814,7 +862,7 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Glassblowing Rod</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A hollow marble tube used to shape molten glass nodules into an object by blowing air into it through the tube.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -832,6 +880,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">950</resource-min>
 					<resource-opt amount="10">1150</resource-opt>
 				</resource>
@@ -858,7 +907,7 @@
 		</item-keywords>
 		<tier>
 			<tier-name>Sandstone Mortar and Pestle</tier-name>
-			<tier-lvl>1</tier-lvl>
+			<tier-lvl name="">1</tier-lvl>
 			<tier-desc>A small sandstone bowl and a club-shaped grinder, used to prepare resources for the art of alchemy.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -873,6 +922,7 @@
 				<resource>
 					<resource-name>Sandstone Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">100</resource-min>
 					<resource-opt amount="10">200</resource-opt>
 				</resource>
@@ -880,7 +930,7 @@
 		</tier>
 		<tier>
 			<tier-name>Slate Mortar and Pestle</tier-name>
-			<tier-lvl>2</tier-lvl>
+			<tier-lvl name="">2</tier-lvl>
 			<tier-desc>A small slate bowl and a club-shaped grinder, used to prepare resources for the art of alchemy.</tier-desc>
 			<tier-allowedtechniques>1</tier-allowedtechniques>
 			<tier-attributes>
@@ -896,6 +946,7 @@
 				<resource>
 					<resource-name>Slate Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">300</resource-min>
 					<resource-opt amount="10">425</resource-opt>
 				</resource>
@@ -903,7 +954,7 @@
 		</tier>
 		<tier>
 			<tier-name>Granite Mortar and Pestle</tier-name>
-			<tier-lvl>3</tier-lvl>
+			<tier-lvl name="">3</tier-lvl>
 			<tier-desc>A small granite bowl and a club-shaped grinder, used to prepare resources for the art of alchemy.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -920,6 +971,7 @@
 				<resource>
 					<resource-name>Granite Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">500</resource-min>
 					<resource-opt amount="10">650</resource-opt>
 				</resource>
@@ -927,7 +979,7 @@
 		</tier>
 		<tier>
 			<tier-name>Obsidian Mortar and Pestle</tier-name>
-			<tier-lvl>4</tier-lvl>
+			<tier-lvl name="">4</tier-lvl>
 			<tier-desc>A small obsidian bowl and a club-shaped grinder, used to prepare resources for the art of alchemy.</tier-desc>
 			<tier-allowedtechniques>2</tier-allowedtechniques>
 			<tier-attributes>
@@ -945,6 +997,7 @@
 				<resource>
 					<resource-name>Obsidian Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">700</resource-min>
 					<resource-opt amount="10">875</resource-opt>
 				</resource>
@@ -952,7 +1005,7 @@
 		</tier>
 		<tier>
 			<tier-name>Marble Mortar and Pestle</tier-name>
-			<tier-lvl>5</tier-lvl>
+			<tier-lvl name="">5</tier-lvl>
 			<tier-desc>A small marble bowl and a club-shaped grinder, used to prepare resources for the art of alchemy.</tier-desc>
 			<tier-allowedtechniques>3</tier-allowedtechniques>
 			<tier-attributes>
@@ -970,6 +1023,7 @@
 				<resource>
 					<resource-name>Marble Brick</resource-name>
 					<resource-skill>Sculpting</resource-skill>
+					<resource-units>1</resource-units>
 					<resource-min amount="20">900</resource-min>
 					<resource-opt amount="10">1100</resource-opt>
 				</resource>

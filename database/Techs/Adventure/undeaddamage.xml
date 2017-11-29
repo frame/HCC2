@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Undead Damage</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Undead Damage</tech-name>
+		<tech-icon>icon_technique_04_12_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>weapon</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>techclass_1</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_bow_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Undead Damage I</tier-name>
+			<tier-origin>Adventure: Undead Damage I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user the ability to create certain weapons with an additional increase to the weapon's damage against undead opponents.</tier-desc>
+			<tier-skilladjust>25</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Weaker Ghost Ectoplasm</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

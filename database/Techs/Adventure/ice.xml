@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Ice</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Adventure</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Ice</tech-name>
+		<tech-icon>icon_technique_04_00_11.png</tech-icon>
+		<tech-subdesc>Enhances the Ice skill of the player by a set amount per tier. Increased Ice skill reduces the damage variance when using attacks of this type, as well as improving the chance to hit.</tech-subdesc>
+		<tech-attributes>
+			<tech-attribute type="percentagestatbonus">20% Strength</tech-attribute>
+			<tech-attribute type="percentagestatbonus">50% Power</tech-attribute>
+			<tech-attribute type="percentagestatbonus">20% Focus</tech-attribute>
+			<tech-attribute type="percentagestatbonus">10% Dexterity</tech-attribute>
+			<tech-attribute type="lowresist">Ash Blight</tech-attribute>
+			<tech-attribute type="lowresist">Baeloch Kwellen (+)</tech-attribute>
+			<tech-attribute type="lowresist">Brighter Spider (+)</tech-attribute>
+			<tech-attribute type="lowresist">Brighter Tarantula (+)</tech-attribute>
+			<tech-attribute type="lowresist">Fire Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Fire Pygmy</tech-attribute>
+			<tech-attribute type="lowresist">Flame Blight</tech-attribute>
+			<tech-attribute type="lowresist">Flame Wolf</tech-attribute>
+			<tech-attribute type="lowresist">Lava Blight</tech-attribute>
+			<tech-attribute type="lowresist">Lava Golem (+)</tech-attribute>
+			<tech-attribute type="lowresist">Lava Oastic (+)</tech-attribute>
+			<tech-attribute type="lowresist">Maggot</tech-attribute>
+			<tech-attribute type="lowresist">Magma Kwellen (+)</tech-attribute>
+			<tech-attribute type="lowresist">Purple Spider (+)</tech-attribute>
+			<tech-attribute type="lowresist">Purple Tarantula (+)</tech-attribute>
+			<tech-attribute type="lowresist">Redbacked Spider (+)</tech-attribute>
+			<tech-attribute type="lowresist">Redbacked Tarantula (+)</tech-attribute>
+			<tech-attribute type="lowresist">Shadow Spider (+)</tech-attribute>
+			<tech-attribute type="lowresist">Shadow Tarantula (+)</tech-attribute>
+			<tech-attribute type="lowresist">Skulk Bloodmage</tech-attribute>
+			<tech-attribute type="lowresist">Skulk Soothsayer</tech-attribute>
+			<tech-attribute type="lowresist">Skulk Spear Fisher</tech-attribute>
+			<tech-attribute type="lowresist">Storm Ogre</tech-attribute>
+			<tech-attribute type="lowresist">Wind Golem</tech-attribute>
+			<tech-attribute type="highresist">Aegis Dragon</tech-attribute>
+			<tech-attribute type="highresist">Discord (++)</tech-attribute>
+			<tech-attribute type="highresist">Dryad Mummy Mage</tech-attribute>
+			<tech-attribute type="highresist">Dwarf Mummy Crossbowman</tech-attribute>
+			<tech-attribute type="highresist">Elf Mummy Spearman</tech-attribute>
+			<tech-attribute type="highresist">Famine (++)</tech-attribute>
+			<tech-attribute type="highresist">Fiend Mummy Spiritist</tech-attribute>
+			<tech-attribute type="highresist">Glacial Kwellen (+)</tech-attribute>
+			<tech-attribute type="highresist">Gnome Mummy Battlemage</tech-attribute>
+			<tech-attribute type="highresist">Half-Giant Mummy Reaver</tech-attribute>
+			<tech-attribute type="highresist">Human Mummy</tech-attribute>
+			<tech-attribute type="highresist">Human Mummy Marauder</tech-attribute>
+			<tech-attribute type="highresist">Ice Blight</tech-attribute>
+			<tech-attribute type="highresist">Ice Golem (+)</tech-attribute>
+			<tech-attribute type="highresist">Ice Ogre</tech-attribute>
+			<tech-attribute type="highresist">Ice Pygmy</tech-attribute>
+			<tech-attribute type="highresist">Ice Wolf (+)</tech-attribute>
+			<tech-attribute type="highresist">Inhibition (++)</tech-attribute>
+			<tech-attribute type="highresist">Palsy (++)</tech-attribute>
+			<tech-attribute type="highresist">Saris Mummy Diviner</tech-attribute>
+			<tech-attribute type="highresist">Saris Skeleton Mage</tech-attribute>
+			<tech-attribute type="highresist">Saris Zombie Marauder</tech-attribute>
+			<tech-attribute type="highresist">Satyr Mummy Oracle</tech-attribute>
+			<tech-attribute type="highresist">Sslik Skeleton Mage</tech-attribute>
+			<tech-attribute type="highresist">Wood Golem</tech-attribute>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>tool</tech-keyword>
+				<tech-keyword>jewelry</tech-keyword>
+				<tech-keyword>weapon</tech-keyword>
+				<tech-keyword>armor</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>bodyslot_hands</tech-keyword>
+				<tech-keyword>bodyslot_arms</tech-keyword>
+				<tech-keyword>bodyslot_shoulder</tech-keyword>
+				<tech-keyword>bodyslot_legs</tech-keyword>
+				<tech-keyword>bodyslot_head</tech-keyword>
+				<tech-keyword>bodyslot_back</tech-keyword>
+				<tech-keyword>bodyslot_chest</tech-keyword>
+				<tech-keyword>bodyslot_rightpalm</tech-keyword>
+				<tech-keyword>bodyslot_leftpalm</tech-keyword>
+				<tech-keyword>bodyslot_finger</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>statmod_icemagic_up</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Ice I</tier-name>
+			<tier-origin>Adventure: Ice I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>This technique gives the user an additional +5 to the Ice magic skill.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Greymane Tail</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Ice II</tier-name>
+			<tier-origin>Adventure: Ice II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>This technique gives the user an additional +10 to the Ice magic skill.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Frost Beetle Carapace</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Ice III</tier-name>
+			<tier-origin>Adventure: Ice III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>This technique gives the user an additional +15 to the Ice magic skill.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Desert Scorpion Tail Stinger</component>
+				<component amount = "1">Ice Golem Shard</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Ice IV</tier-name>
+			<tier-origin>Adventure: Ice IV</tier-origin>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>This technique gives the user an additional +20 to the Ice magic skill.</tier-desc>
+			<tier-skilladjust>40</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_4</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Bright Essence Orb</component>
+				<component amount = "1">Shadow Tarantula Hatchling Eye</component>
+				<component amount = "2">Winter Werewolf Fang</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Ice V</tier-name>
+			<tier-origin>Adventure: Ice V</tier-origin>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>This technique gives the user an additional +25 to the Ice magic skill.</tier-desc>
+			<tier-skilladjust>50</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_5</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Shining Essence Orb</component>
+				<component amount = "2">Frozen Carapace</component>
+				<component amount = "2">Nah'guk Gatherer's Finger</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

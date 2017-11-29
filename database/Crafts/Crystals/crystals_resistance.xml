@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Crystals - Resistance</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Crystals</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Resistance Crystal of Blight</item-name>
+		<item-icon>crystalshaper_crystal_4.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Resistance Crystal of Blight</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effectStatBonus">+50 Blight Resistance</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effect">Viridian Resistance Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectStatBonus">-25 Primal Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Resistance Crystal of Blight</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Resistance Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+150 Blight Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-75 Primal Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Resistance Crystal of Blight</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Resistance Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+200 Blight Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-100 Primal Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Resistance Crystal of Blight</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Resistance Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+100 Blight Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-50 Primal Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Resistance Crystal of Blight</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Resistance Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+250 Blight Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-125 Primal Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Resistance Crystal of Blight</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Resistance Crystal of Blight</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+300 Blight Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-150 Primal Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Fear</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Resistance Crystal of Energy</item-name>
+		<item-icon>crystalshaper_crystal_4.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Resistance Crystal of Energy</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Resistance Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Energy Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-25 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Resistance Crystal of Energy</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Resistance Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+100 Energy Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-50 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Resistance Crystal of Energy</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Resistance Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+150 Energy Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-75 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Resistance Crystal of Energy</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Resistance Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+200 Energy Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-100 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Resistance Crystal of Energy</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Resistance Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+250 Energy Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-125 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Resistance Crystal of Energy</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Resistance Crystal of Energy</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+300 Energy Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-150 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Vitality</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Resistance Crystal of Flame</item-name>
+		<item-icon>crystalshaper_crystal_4.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Resistance Crystal of Flame</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Resistance Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-25 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Resistance Crystal of Flame</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Resistance Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+100 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-50 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Resistance Crystal of Flame</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Resistance Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+150 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-75 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Resistance Crystal of Flame</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Resistance Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+200 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-100 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Resistance Crystal of Flame</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Resistance Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+250 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-125 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Resistance Crystal of Flame</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Resistance Crystal of Flame</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+300 Flame Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-150 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Rage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Resistance Crystal of Ice</item-name>
+		<item-icon>crystalshaper_crystal_4.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap"></item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Resistance Crystal of Ice</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Resistance Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Ice Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-25 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Resistance Crystal of Ice</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Resistance Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+100 Ice Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-50 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units></resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Resistance Crystal of Ice</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Resistance Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+150 Ice Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-75 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Resistance Crystal of Ice</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Resistance Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+200 Ice Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-100 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Resistance Crystal of Ice</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Resistance Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+250 Ice Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-125 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Resistance Crystal of Ice</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Resistance Crystal of Ice</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+300 Ice Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-150 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Apathy</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Resistance Crystal of Nature</item-name>
+		<item-icon>crystalshaper_crystal_4.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Resistance Crystal of Nature</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Resistance Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Nature Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-25 Life Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Resistance Crystal of Nature</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Resistance Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+100 Nature Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-50 Life Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Resistance Crystal of Nature</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Resistance Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+150 Nature Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-75 Life Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Resistance Crystal of Nature</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Resistance Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+200 Nature Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-100 Life Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Resistance Crystal of Nature</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Resistance Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+250 Nature Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-125 Life Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Resistance Crystal of Nature</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Resistance Crystal of Nature</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+300 Nature Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-150 Life Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Peace</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Resistance Crystal of Primal</item-name>
+		<item-icon>crystalshaper_crystal_4.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Resistance Crystal of Primal</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Resistance Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Primal Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-25 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Resistance Crystal of Primal</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Resistance Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+100 Primal Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-50 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Resistance Crystal of Primal</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Resistance Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+150 Primal Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-75 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Resistance Crystal of Primal</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Resistance Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+200 Primal Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-100 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Resistance Crystal of Primal</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Resistance Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+250 Primal Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-125 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Resistance Crystal of Primal</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Resistance Crystal of Primal</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+300 Primal Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-150 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Bliss</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Resistance Crystal of Spirit</item-name>
+		<item-icon>crystalshaper_crystal_4.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="castDelay">10</item-attribute>
+			<item-attribute type="effectduration">1:00:00</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">Repeating</item-attribute>
+			<item-attribute type="statCap">Cannot be dispelled</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Viridian Resistance Crystal of Spirit</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques></tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Viridian Resistance Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+50 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-25 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Minor Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1</resource-min>
+					<resource-opt amount="1">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Viridian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1</resource-min>
+					<resource-opt amount="2">200</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Cerulean Resistance Crystal of Spirit</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Cerulean Resistance Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+100 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-50 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Lesser Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">200</resource-min>
+					<resource-opt amount="1">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Cerulean Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">200</resource-min>
+					<resource-opt amount="2">425</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Amber Resistance Crystal of Spirit</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Amber Resistance Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+150 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-75 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">400</resource-min>
+					<resource-opt amount="1">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Amber Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">400</resource-min>
+					<resource-opt amount="2">650</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Titian Resistance Crystal of Spirit</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Titian Resistance Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+200 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-100 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Greater Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">600</resource-min>
+					<resource-opt amount="1">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Titian Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">600</resource-min>
+					<resource-opt amount="2">875</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Crimson Resistance Crystal of Spirit</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Crimson Resistance Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+250 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-125 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Major Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">800</resource-min>
+					<resource-opt amount="1">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Crimson Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">800</resource-min>
+					<resource-opt amount="2">1100</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Violet Resistance Crystal of Spirit</tier-name>
+			<tier-lvl name="">6</tier-lvl>
+			<tier-desc></tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="effect">Violet Resistance Crystal of Spirit</tier-attribute>
+				<tier-attribute type="effectReq">Current School Level (100)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+300 Spirit Resistance</tier-attribute>
+				<tier-attribute type="effectStatBonus">-150 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Superior Shard of Courage</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">1000</resource-min>
+					<resource-opt amount="1">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Focused Violet Azulyte Crystal</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Radiant Essence Orb</resource-name>
+					<resource-skill>Crystalshaping</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="4">1000</resource-min>
+					<resource-opt amount="2">1325</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>

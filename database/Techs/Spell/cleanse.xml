@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<techniqueset format="3.0">
+	<techniqueset-name>Cleanse</techniqueset-name>
+	<techniqueset-categories>
+		<techniqueset-category>Spell</techniqueset-category>
+	</techniqueset-categories>
+	<tech>
+		<tech-name>Cleanse</tech-name>
+		<tech-icon>icon_technique_02_02_11.png</tech-icon>
+		<tech-subdesc></tech-subdesc>
+		<tech-attributes>
+		</tech-attributes>
+		<tech-keywords>
+			<tech-keywordset>
+				<tech-keyword>primal</tech-keyword>
+				<tech-keyword>spell</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>heal_over_time</tech-keyword>
+				<tech-keyword>buff</tech-keyword>
+				<tech-keyword>heal</tech-keyword>
+			</tech-keywordset>
+			<tech-keywordset>
+				<tech-keyword>skill_use_magic_nature</tech-keyword>
+				<tech-keyword>skill_use_magic_life</tech-keyword>
+				<tech-keyword>skill_use_magic_primal</tech-keyword>
+			</tech-keywordset>
+		</tech-keywords>
+		<tech-effectkeywords>
+			<tech-effectkeywordset>
+				<tech-effectkeyword>cleanse</tech-effectkeyword>
+			</tech-effectkeywordset>
+		</tech-effectkeywords
+		<tier>
+			<tier-name>Cleanse I</tier-name>
+			<tier-origin>Spell: Cleanse I</tier-origin>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>Life, Nature and Primal spells with this technique applied to them have a 25% chance of dispelling a negative effect on a friend.</tier-desc>
+			<tier-skilladjust>10</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_1</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Dim Essence Orb</component>
+				<component amount = "1">Large Loricatus Beetle Thorax</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Cleanse II</tier-name>
+			<tier-origin>Spell: Cleanse II</tier-origin>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>Life, Nature and Primal spells with this technique applied to them have a 45% chance of dispelling a negative effect on a friend.</tier-desc>
+			<tier-skilladjust>20</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_2</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Pale Essence Orb</component>
+				<component amount = "2">Small Ruxus Skin</component>
+			</components>
+		</tier>
+		<tier>
+			<tier-name>Cleanse III</tier-name>
+			<tier-origin>Spell: Cleanse III</tier-origin>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>Life, Nature and Primal spells with this technique applied to them have a 65% chance of dispelling a negative effect on a friend.</tier-desc>
+			<tier-skilladjust>30</tier-skilladjust>
+			<tier-keywords>
+				<tier-keywordset>
+					<tier-keyword>techclass_3</tier-keyword>
+				</tier-keywordset>
+			</tier-keywords>
+			<tier-attributes>
+			</tier-attributes>
+			<components>
+				<component amount = "4">Glowing Essence Orb</component>
+				<component amount = "1">Ice Beetle Carapace</component>
+				<component amount = "1">Redbacked Tarantula Hatchling Leg Hair</component>
+			</components>
+		</tier>
+	</tech>
+</techiqueset>

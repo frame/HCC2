@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<formulaset format="3.0">
+	<formulaset-name>Scrolls - Resistance</formulaset-name>
+	<formulaset-categories>
+		<formulaset-category>Scrolls</formulaset-category>
+	</formulaset-categories>
+	<item>
+		<item-name>Blight Resistance - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_04_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
+			<item-attribute type="effectDescription">Increases blight resistance.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Blight Resistance I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (4)</tier-attribute>
+				<tier-attribute type="effect">Blight Resistance I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">20</resource-min>
+					<resource-opt amount="2">260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Resistance I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">40</resource-min>
+					<resource-opt amount="1">240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">20</resource-min>
+					<resource-opt amount="1">260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blight Resistance II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (24)</tier-attribute>
+				<tier-attribute type="effect">Blight Resistance II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+38 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">220</resource-min>
+					<resource-opt amount="2">485</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Resistance II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">240</resource-min>
+					<resource-opt amount="1">465</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">220</resource-min>
+					<resource-opt amount="1">485</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blight Resistance III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (44)</tier-attribute>
+				<tier-attribute type="effect">Blight Resistance III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+68 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">420</resource-min>
+					<resource-opt amount="2">710</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Resistance III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">440</resource-min>
+					<resource-opt amount="1">690</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">420</resource-min>
+					<resource-opt amount="1">710</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blight Resistance IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (64)</tier-attribute>
+				<tier-attribute type="effect">Blight Resistance IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+98 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">620</resource-min>
+					<resource-opt amount="2">935</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Resistance IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">640</resource-min>
+					<resource-opt amount="1">915</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">620</resource-min>
+					<resource-opt amount="1">935</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Blight Resistance V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (84)</tier-attribute>
+				<tier-attribute type="effect">Blight Resistance V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+128 Blight Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">820</resource-min>
+					<resource-opt amount="2">1160</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Blight Resistance V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">840</resource-min>
+					<resource-opt amount="1">1140</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">820</resource-min>
+					<resource-opt amount="1">1160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Energy Resistance - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_04_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
+			<item-attribute type="effectDescription">Increases energy resistance.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Energy Resistance I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+				<tier-attribute type="effect">Energy Resistance I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">20</resource-min>
+					<resource-opt amount="2">260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Resistance I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">20</resource-min>
+					<resource-opt amount="1">220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">20</resource-min>
+					<resource-opt amount="1">260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Energy Resistance II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+				<tier-attribute type="effect">Energy Resistance II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+38 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">220</resource-min>
+					<resource-opt amount="2">485</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Resistance II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">220</resource-min>
+					<resource-opt amount="1">445</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">220</resource-min>
+					<resource-opt amount="1">485</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Energy Resistance III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+				<tier-attribute type="effect">Energy Resistance III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+68 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">420</resource-min>
+					<resource-opt amount="2">710</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Resistance III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">420</resource-min>
+					<resource-opt amount="1">670</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">420</resource-min>
+					<resource-opt amount="1">710</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Energy Resistance IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+				<tier-attribute type="effect">Energy Resistance IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+98 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">620</resource-min>
+					<resource-opt amount="2">935</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Resistance IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">620</resource-min>
+					<resource-opt amount="1">895</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">620</resource-min>
+					<resource-opt amount="1">935</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Energy Resistance V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+				<tier-attribute type="effect">Energy Resistance V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+128 Energy Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">820</resource-min>
+					<resource-opt amount="2">1160</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Energy Resistance V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">820</resource-min>
+					<resource-opt amount="1">1120</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">820</resource-min>
+					<resource-opt amount="1">1160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Flame Resistance - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_04_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
+			<item-attribute type="effectDescription">Increases flame resistance.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Flame Resistance I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">20</resource-min>
+					<resource-opt amount="2">260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Resistance I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">20</resource-min>
+					<resource-opt amount="1">220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">20</resource-min>
+					<resource-opt amount="1">260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Resistance II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+38 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">220</resource-min>
+					<resource-opt amount="2">485</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Resistance II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">220</resource-min>
+					<resource-opt amount="1">445</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">220</resource-min>
+					<resource-opt amount="1">485</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Resistance III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+68 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">420</resource-min>
+					<resource-opt amount="2">710</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Resistance III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">420</resource-min>
+					<resource-opt amount="1">670</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">420</resource-min>
+					<resource-opt amount="1">710</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Resistance IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+98 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">620</resource-min>
+					<resource-opt amount="2">935</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Resistance IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">620</resource-min>
+					<resource-opt amount="1">895</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">620</resource-min>
+					<resource-opt amount="1">935</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Flame Resistance V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+				<tier-attribute type="effect">Flame Resistance V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+128 Flame Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">820</resource-min>
+					<resource-opt amount="2">1160</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Flame Resistance V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">820</resource-min>
+					<resource-opt amount="1">1120</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">820</resource-min>
+					<resource-opt amount="1">1160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Ice Resistance - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_04_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
+			<item-attribute type="effectDescription">Increases ice resistance.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Ice Resistance I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (2)</tier-attribute>
+				<tier-attribute type="effect">Ice Resistance I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">20</resource-min>
+					<resource-opt amount="2">260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Resistance I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">20</resource-min>
+					<resource-opt amount="1">220</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">20</resource-min>
+					<resource-opt amount="1">260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ice Resistance II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (22)</tier-attribute>
+				<tier-attribute type="effect">Ice Resistance II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+38 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">220</resource-min>
+					<resource-opt amount="2">485</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Resistance II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">220</resource-min>
+					<resource-opt amount="1">445</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">220</resource-min>
+					<resource-opt amount="1">485</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ice Resistance III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (42)</tier-attribute>
+				<tier-attribute type="effect">Ice Resistance III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+68 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">420</resource-min>
+					<resource-opt amount="2">710</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Resistance III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">420</resource-min>
+					<resource-opt amount="1">670</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">420</resource-min>
+					<resource-opt amount="1">710</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ice Resistance IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (62)</tier-attribute>
+				<tier-attribute type="effect">Ice Resistance IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+98 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">620</resource-min>
+					<resource-opt amount="2">935</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Resistance IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">620</resource-min>
+					<resource-opt amount="1">895</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">620</resource-min>
+					<resource-opt amount="1">935</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Ice Resistance V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (82)</tier-attribute>
+				<tier-attribute type="effect">Ice Resistance V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+128 Ice Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">820</resource-min>
+					<resource-opt amount="2">1160</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Ice Resistance V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">820</resource-min>
+					<resource-opt amount="1">1120</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">820</resource-min>
+					<resource-opt amount="1">1160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Nature Resistance - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_04_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
+			<item-attribute type="effectDescription">Increases nature resistance.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Nature Resistance I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (4)</tier-attribute>
+				<tier-attribute type="effect">Nature Resistance I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Nature Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">20</resource-min>
+					<resource-opt amount="2">260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Resistance I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">40</resource-min>
+					<resource-opt amount="1">240</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">20</resource-min>
+					<resource-opt amount="1">260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Nature Resistance II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (24)</tier-attribute>
+				<tier-attribute type="effect">Nature Resistance II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+38 Nature Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">220</resource-min>
+					<resource-opt amount="2">485</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Resistance II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">240</resource-min>
+					<resource-opt amount="1">465</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">220</resource-min>
+					<resource-opt amount="1">485</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Nature Resistance III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (44)</tier-attribute>
+				<tier-attribute type="effect">Nature Resistance III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+68 Nature Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">420</resource-min>
+					<resource-opt amount="2">710</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Resistance III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">440</resource-min>
+					<resource-opt amount="1">690</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">420</resource-min>
+					<resource-opt amount="1">710</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Nature Resistance IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (64)</tier-attribute>
+				<tier-attribute type="effect">Nature Resistance IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+98 Nature Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">620</resource-min>
+					<resource-opt amount="2">935</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Resistance IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">640</resource-min>
+					<resource-opt amount="1">915</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">620</resource-min>
+					<resource-opt amount="1">935</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Nature Resistance V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (84)</tier-attribute>
+				<tier-attribute type="effect">Nature Resistance V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+128 Nature Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">820</resource-min>
+					<resource-opt amount="2">1160</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Nature Resistance V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">840</resource-min>
+					<resource-opt amount="1">1140</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">820</resource-min>
+					<resource-opt amount="1">1160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+	<item>
+		<item-name>Spirit Resistance - Scroll</item-name>
+		<item-icon>icon_formula_sc_01_04_11.png</item-icon>
+		<item-batchqty>2</item-batchqty>
+		<item-attributes>
+			<item-attribute type="equipSlot">All</item-attribute>
+			<item-attribute type="bulk">1</item-attribute>
+			<item-attribute type="range">Self Only</item-attribute>
+			<item-attribute type="recycle">30</item-attribute>
+			<item-attribute type="castDelay">70</item-attribute>
+			<item-attribute type="effectDuration">15:00</item-attribute>
+			<item-attribute type="effectDescription">Increases spirit resistance.</item-attribute>
+		</item-attributes>
+		<item-keywords>
+		</item-keywords>
+		<tier>
+			<tier-name>Spirit Resistance I - Scroll</tier-name>
+			<tier-lvl name="">1</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">40</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (6)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance I</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (1)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+8 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_1</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Common Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">20</resource-min>
+					<resource-opt amount="2">260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Resistance I</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">60</resource-min>
+					<resource-opt amount="1">260</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Dim Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">20</resource-min>
+					<resource-opt amount="1">260</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Resistance II - Scroll</tier-name>
+			<tier-lvl name="">2</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">80</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (26)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance II</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (20)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+38 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_2</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>White Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">220</resource-min>
+					<resource-opt amount="2">485</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Resistance II</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">260</resource-min>
+					<resource-opt amount="1">485</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Pale Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">220</resource-min>
+					<resource-opt amount="1">485</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Resistance III - Scroll</tier-name>
+			<tier-lvl name="">3</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">160</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (46)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance III</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (40)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+68 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_3</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Azure Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">420</resource-min>
+					<resource-opt amount="2">710</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Resistance III</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">460</resource-min>
+					<resource-opt amount="1">710</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Glowing Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">420</resource-min>
+					<resource-opt amount="1">710</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Resistance IV - Scroll</tier-name>
+			<tier-lvl name="">4</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">320</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (66)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance IV</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (60)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+98 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_4</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Rose Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">620</resource-min>
+					<resource-opt amount="2">935</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Resistance IV</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">660</resource-min>
+					<resource-opt amount="1">935</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Bright Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">620</resource-min>
+					<resource-opt amount="1">935</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+		<tier>
+			<tier-name>Spirit Resistance V - Scroll</tier-name>
+			<tier-lvl name="">5</tier-lvl>
+			<tier-desc>A rolled up piece of parchment, covered with strange lettering and faintly glowing runes. The parchment fairly hums with imbued power.</tier-desc>
+			<tier-allowedtechniques>0</tier-allowedtechniques>
+			<tier-attributes>
+				<tier-attribute type="hoardValue">640</tier-attribute>
+				<tier-attribute type="reqCurrentAdvLevel">Current Adventure Level (86)</tier-attribute>
+				<tier-attribute type="effect">Spirit Resistance V</tier-attribute>
+				<tier-attribute type="effectStatBonus">Current School Level (80)</tier-attribute>
+				<tier-attribute type="effectStatBonus">+128 Spirit Resistance</tier-attribute>
+			</tier-attributes>
+			<tier-keywords>
+				<tier-keyword>tier_5</tier-keyword>
+			</tier-keywords>
+			<resources>
+				<resource>
+					<resource-name>Silver Papyrus Sheet</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="5">820</resource-min>
+					<resource-opt amount="2">1160</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Spirit Resistance V</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="1">860</resource-min>
+					<resource-opt amount="1">1160</resource-opt>
+				</resource>
+				<resource>
+					<resource-name>Shining Essence Orb</resource-name>
+					<resource-skill>Scribing</resource-skill>
+					<resource-units>1</resource-units>
+					<resource-min amount="3">820</resource-min>
+					<resource-opt amount="1">1160</resource-opt>
+				</resource>
+			</resources>
+		</tier>
+	</item>
+</formulaset>
