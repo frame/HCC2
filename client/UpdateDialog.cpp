@@ -243,11 +243,19 @@ bool CUpdateDialog::StartDownload()
 
 	SplitURL ( m_cpCurrentFileItem->m_csFile, l_csServerName, l_csPath);
 
-	m_cInternetConnect = InternetConnect (m_cInternetHandle, l_csServerName, GetServiceType (m_cpCurrentFileItem->m_csFile), NULL, NULL, INTERNET_SERVICE_HTTP, 0, 0);
+	CString url = m_cpCurrentFileItem->m_csFile;
+
+	m_cInternetConnect = InternetConnect (m_cInternetHandle, l_csServerName, GetServiceType (url), NULL, NULL, INTERNET_SERVICE_HTTP, 0, 0);
 	if (m_cInternetConnect)
 	{
-		m_cHTTPHandle = HttpOpenRequest (m_cInternetConnect, "GET", l_csPath, NULL, NULL,  (const char**)"*/*\0",
-													 INTERNET_FLAG_DONT_CACHE   , 0);
+		if (url.Left(8) == "https://")
+		{
+			m_cHTTPHandle = HttpOpenRequest (m_cInternetConnect, "GET", l_csPath, NULL, NULL,  (const char**)"*/*\0", INTERNET_FLAG_SECURE | INTERNET_FLAG_DONT_CACHE, 0);
+		}
+		else
+		{
+			m_cHTTPHandle = HttpOpenRequest (m_cInternetConnect, "GET", l_csPath, NULL, NULL,  (const char**)"*/*\0", INTERNET_FLAG_DONT_CACHE, 0);
+		}
 		if (m_cHTTPHandle)
 		{
 			char l_cBuffer[256];
@@ -460,6 +468,11 @@ bool CUpdateDialog::ReadConfigFile(CString &a_csFilename)
 		{
 			while (l_cServersTag.GetRepeatingDoubleTagValue (l_cParser, (CString) "server", l_cServerName, l_cServerAddress))
 			{
+				if (!CHCCApp::IsWindows8OrGreater())
+				{
+					// Windows <= 7 has issues with HTTPS encryption of modern servers
+					l_cServerAddress.Replace("https://", "http://");
+				}
 				m_clServerMap.SetAt (l_cServerName, l_cServerAddress);
 			}
 

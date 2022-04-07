@@ -317,12 +317,18 @@ CString CHCCDlg::ReadConfigFile()
 	XMLTag l_cRootTag ("#ROOT#");
 	XMLTag l_cConfigTag ("config");
 
-	CString updateURL = "http://hcc.reclamation.dk/update_check/";
+	CString updateURL = "https://hcc.reclamation.dk/update_check/";
 	l_cParser.OpenFile (CAppData::m_csAppBasePath + cFile_App_Config);
 
 	if (l_cConfigTag.GetNextTag (l_cParser, l_cRootTag))
 	{
 		l_cConfigTag.GetTagValue (l_cParser, (CString) "update_check", updateURL );
+	}
+
+	if (!CHCCApp::IsWindows8OrGreater())
+	{
+		// Windows <= 7 has issues with HTTPS encryption of modern servers
+		updateURL.Replace("https://", "http://");
 	}
 
 	return updateURL;
@@ -515,9 +521,16 @@ BOOL CHCCDlg::OnInitDialog()
 		hInternetSession = InternetOpen("HCC/" + cAppData_Version, INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, INTERNET_FLAG_ASYNC);
 		if (hInternetSession != NULL)
         {
-            InternetSetStatusCallback(hInternetSession, (INTERNET_STATUS_CALLBACK)InternetCallbackFunction);
-            hURL = InternetOpenUrl(hInternetSession, CHCCDlg::ReadConfigFile() + "?client=" + cAppData_Version + "&database=" + CAppData::m_csDatabaseRevision, NULL, 0, INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, (unsigned long)(&request_context));
-
+			InternetSetStatusCallback(hInternetSession, (INTERNET_STATUS_CALLBACK)InternetCallbackFunction);
+			CString url = CHCCDlg::ReadConfigFile();
+			if (url.Left(8) == "https://")
+			{
+				hURL = InternetOpenUrl(hInternetSession, url + "?client=" + cAppData_Version + "&database=" + CAppData::m_csDatabaseRevision, NULL, 0, INTERNET_FLAG_SECURE | INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, (unsigned long)(&request_context));
+			}
+			else
+			{
+				hURL = InternetOpenUrl(hInternetSession, url + "?client=" + cAppData_Version + "&database=" + CAppData::m_csDatabaseRevision, NULL, 0, INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, (unsigned long)(&request_context));
+			}
         }
 	}
 	return TRUE;  // return TRUE  unless you set the focus to a control

@@ -3,7 +3,7 @@
  *	Horizons Crafting Calculator 2 - NSIS Script
  *  Copyright 2004-09 HCC Development Team
  *
- *	http://hcc.reclamation.dk/
+ *	https://hcc.reclamation.dk/
  *
  *
  *  Initially created on 2005-10-24 08:18
@@ -517,7 +517,7 @@ Section "v${HCC_Version} Application Files (required)" section_core
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "UninstallString" '"$INSTDIR\uninstall.exe"'
 	WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "NoModify" 1
 	WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "NoRepair" 1
-	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "HelpLink" "http://hcc.reclamation.dk/"
+	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "HelpLink" "https://hcc.reclamation.dk/"
 	
 	AccessControl::GrantOnFile "$INSTDIR\" "(BU)" "FullAccess"
 	AccessControl::GrantOnRegKey HKLM "Software\${HCC_Name}" "(BU)" "FullAccess"

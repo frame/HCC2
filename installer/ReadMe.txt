@@ -1,9 +1,9 @@
-Horizons Crafting Calculator (HCC) is an item/formula, technique and components database for the fantasy MMORPG Horizons a.k.a. Istaria (http://www.istaria.com/) which allows it's players to create orders and manage a crafter profile.
+Horizons Crafting Calculator (HCC) is an item/formula, technique and components database for the fantasy MMORPG Horizons a.k.a. Istaria (https://www.istaria.com/) which allows it's players to create orders and manage a crafter profile.
 
 
 Official Website
 -------------------------------
-http://hcc.reclamation.dk/
+https://hcc.reclamation.dk/
 
 Please consult the website for information that didn't make it into this readme in time.
 
