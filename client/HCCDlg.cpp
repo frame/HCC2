@@ -475,7 +475,6 @@ BOOL CHCCDlg::OnInitDialog()
     if (CHCCApp::IsWindowsVistaOrGreater() && CAppData::m_bVerticalToolBar)
 	{
 		// Windows >= Vista has a larger controlbox
-		l_pMenu->ModifyMenu(2,MF_BYPOSITION|MF_STRING, 2, "?");
 		this->ModifyStyle(WS_MAXIMIZEBOX, 0,0 );
 		this->ModifyStyle(WS_MINIMIZEBOX, 0,0 );
 	}
