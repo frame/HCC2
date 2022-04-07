@@ -294,7 +294,7 @@ void __stdcall InternetCallbackFunction(HINTERNET hInternet, DWORD dwContext, DW
 			if ( re_updatecheck.Match( buffer ) )
 			{
 				//AfxMessageBox (re_updatecheck[1], MB_ICONINFORMATION); // min
-				if (re_updatecheck[1] != CAppData::m_csDatabaseRevision)
+				if (re_updatecheck[1] > CAppData::m_csDatabaseRevision)
 				{
 					AfxMessageBox ("A new update for HCC is available! Bwaaa-ak!!\n\nPlease click on \"Live Update\" to start the download.", MB_ICONINFORMATION);
 				}

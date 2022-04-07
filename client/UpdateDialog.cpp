@@ -695,6 +695,11 @@ CUpdateDialog::UpdateReleaseInfo()
 		m_cUpdateButton.SetWindowText ("Re-download");
 		m_cVersionComment.SetWindowText ("You have this database already");
 	}
+	else if (l_csThisVersion > CAppData::GetDatabaseZipName (m_cLatestDatabaseRelease.m_ctRevision))
+	{
+		m_cUpdateButton.SetWindowText ("Downgrade");
+		m_cVersionComment.SetWindowText ("This database is older than the one you already have installed");
+	}
 	else
 	{
 		m_cUpdateButton.SetWindowText ("Start Download");
