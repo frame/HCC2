@@ -23,6 +23,9 @@ class CHCCApp : public CWinApp
 {
 public:
 	SetPriority (int Priority);
+	static bool IsWindowsVistaOrGreater();
+	static bool IsWindows8OrGreater();
+	static OSVERSIONINFO getWindowsVersion();
 	void SetDialogColors (COLORREF a_iFg, COLORREF  a_iBg);
 	CHCCApp();
 

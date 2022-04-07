@@ -176,3 +176,19 @@ CHCCApp::SetPriority(int Priority)
 	SetThreadPriority (Priority);
 }
 
+OSVERSIONINFO CHCCApp::getWindowsVersion() {
+	OSVERSIONINFO osvi;
+	ZeroMemory(&osvi, sizeof(OSVERSIONINFO));
+	osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
+	GetVersionEx(&osvi);
+	return osvi;
+}
+
+bool CHCCApp::IsWindowsVistaOrGreater() {
+	OSVERSIONINFO osvi = CHCCApp::getWindowsVersion();
+	return osvi.dwMajorVersion >= 6;
+}
+bool CHCCApp::IsWindows8OrGreater() {
+	OSVERSIONINFO osvi = CHCCApp::getWindowsVersion();
+	return (((float)osvi.dwMajorVersion + ((float)osvi.dwMinorVersion / 10)) >= 6.2);
+}

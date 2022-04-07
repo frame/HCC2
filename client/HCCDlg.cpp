@@ -13,7 +13,6 @@
 #include "WizardPage3.h"
 #include "WizardDialog.h"
 #include "Scheme.h"
-#include "XWinVer.h"
 #include "Regexp.h"
 
 using namespace Gdiplus;
@@ -467,11 +466,9 @@ BOOL CHCCDlg::OnInitDialog()
 		CAppData::SetMenuItem(l_pMenu, ID_WINDOW_ALWAYSONTOP, m_cWindowState.m_bOnTop);
 	}
 
-
-
-	if (WinVersion.GetMajorVersion() >= 6)
+    if (CHCCApp::IsWindowsVistaOrGreater() && CAppData::m_bVerticalToolBar)
 	{
-	    //AfxMessageBox (WinVersion.GetWinVersionString(), MB_ICONINFORMATION);
+		// Windows >= Vista has a larger controlbox
 		l_pMenu->ModifyMenu(2,MF_BYPOSITION|MF_STRING, 2, "?");
 		this->ModifyStyle(WS_MAXIMIZEBOX, 0,0 );
 		this->ModifyStyle(WS_MINIMIZEBOX, 0,0 );
