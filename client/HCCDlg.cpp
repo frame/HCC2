@@ -472,17 +472,12 @@ BOOL CHCCDlg::OnInitDialog()
 		CAppData::SetMenuItem(l_pMenu, ID_WINDOW_ALWAYSONTOP, m_cWindowState.m_bOnTop);
 	}
 
-    if (CHCCApp::IsWindowsVistaOrGreater() && CAppData::m_bVerticalToolBar)
+	if (CHCCApp::IsWindowsVistaOrGreater() && CAppData::m_bVerticalToolBar)
 	{
 		// Windows >= Vista has a larger controlbox
-		this->ModifyStyle(WS_MAXIMIZEBOX, 0,0 );
-		this->ModifyStyle(WS_MINIMIZEBOX, 0,0 );
+		this->ModifyStyle(WS_MINIMIZEBOX, 0);
+		
 	}
-
-	//this->ModifyStyle(WS_SYSMENU, WS_CAPTION | WS_POPUP | WS_MINIMIZEBOX);
-	//this->ModifyStyle(WS_MINIMIZEBOX, WS_POPUP);
-	//ShowWindow(SW_MAXIMIZE);
-
 
 	this->GetWindowRect (m_cOrigWnd);
 	this->GetClientRect (m_cOrigClientWnd);
@@ -1481,6 +1476,11 @@ void CHCCDlg::OnOptionsOrientationHorizontal()
 {
 	CAppData::m_bVerticalToolBar = false;
 	ArrangeToolBar();
+	if (CHCCApp::IsWindowsVistaOrGreater())
+	{
+		// Windows >= Vista has a larger controlbox
+		this->ModifyStyle(0, WS_MINIMIZEBOX);
+	}
 	UpdateToolBarMenu();
 }
 
@@ -1538,6 +1538,11 @@ CHCCDlg::ArrangeToolBar()
 void CHCCDlg::OnOptionsOrientationVertical()
 {
 	CAppData::m_bVerticalToolBar = true;
+	if (CHCCApp::IsWindowsVistaOrGreater())
+	{
+		// Windows >= Vista has a larger controlbox
+		this->ModifyStyle(WS_MINIMIZEBOX, 0);
+	}
 	ArrangeToolBar();
 	UpdateToolBarMenu();
 }
