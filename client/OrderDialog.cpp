@@ -928,6 +928,7 @@ COrderDialog::DisplayTotalQty(int a_iQty, int a_iFormQty)
 
 void COrderDialog::OnClose() 
 {
+	m_cWindowState.m_bVisible = false;
 	CAppData::SetOrderWindow (false);
 	CDialog::OnClose();
 }

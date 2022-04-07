@@ -1342,6 +1342,7 @@ void CReportDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 
 void CReportDialog::OnClose()
 {
+	m_cWindowState.m_bVisible = false;
 	CAppData::SetReportWindow (false);
 	CDialog::OnClose();
 }

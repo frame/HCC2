@@ -261,6 +261,7 @@ CTechniqueSelection::SelectCategory(CString a_csCategory)
 
 void CTechniqueSelection::OnClose()
 {
+	m_cWindowState.m_bVisible = false;
 	CAppData::SetTechWindow(false);
 
 	CDialog::OnClose();

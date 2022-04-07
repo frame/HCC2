@@ -367,6 +367,7 @@ CItemCreation::Initialise()
 
 void CItemCreation::OnClose()
 {
+	m_cWindowState.m_bVisible = false;
 	CAppData::SetItemWindow (false);
 	CDialog::OnClose();
 }
