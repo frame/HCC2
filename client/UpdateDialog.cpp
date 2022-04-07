@@ -866,7 +866,7 @@ CUpdateDialog::PrepareDownloadForConfig()
 	{
 		//Report ("Downloading from " + l_csCurrentServer + " site");
 		l_cpFileItem = new CFileItem ();
-		l_cpFileItem->m_csFile = m_csServerAddress + cFile_App_Config;
+		l_cpFileItem->m_csFile = m_csServerAddress + "/" + cFile_App_ConfigBasename;
 		l_cpFileItem->m_csSaveName = CAppData::m_csAppBasePath + cFile_App_ConfigDownload;
 		m_clDownloadList.AddTail (l_cpFileItem);
 		m_iDownloadType = DownloadType_Config;
@@ -889,7 +889,7 @@ CUpdateDialog::PrepareDownloadForReleases()
 		{
 			//Report ("Downloading from " + l_csCurrentServer + " site");
 			l_cpFileItem = new CFileItem ();
-			l_cpFileItem->m_csFile = m_csServerAddress + cFile_App_Releases;
+			l_cpFileItem->m_csFile = m_csServerAddress + "/" + cFile_App_ReleasesBasename;
 			l_cpFileItem->m_csSaveName = CAppData::m_csAppBasePath + cFile_App_ReleasesDownload;
 			m_clDownloadList.AddTail (l_cpFileItem);
 			m_iDownloadType = DownloadType_Release;
@@ -920,7 +920,7 @@ CUpdateDialog::PrepareDownloadForDatabase()
 		{
 			//Report ("Downloading Database Revision '" + m_cLatestDatabaseRelease.m_ctRevision.Format ("%d-%m-%Y") + "' from " + l_csCurrentServer + " site");
 			l_cpFileItem = new CFileItem ();
-			l_cpFileItem->m_csFile = m_csServerAddress + "\\" + l_csVersion;
+			l_cpFileItem->m_csFile = m_csServerAddress + "/" + l_csVersion;
 			l_cpFileItem->m_iSize = 0;
 			l_cpFileItem->m_csSaveName = CAppData::m_csAppBasePath + cPath_App_Temp + "\\" + l_csVersion;
 			l_cpFileItem->m_iResult = FileItem_Waiting;
