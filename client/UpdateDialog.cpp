@@ -1,6 +1,9 @@
 // UpdateDialog.cpp : implementation file
 //
 
+#ifdef _DEBUG
+#define _AFX_ENABLE_INLINES
+#endif
 #include "stdafx.h"
 #include "HCC.h"
 #include "UpdateDialog.h"
