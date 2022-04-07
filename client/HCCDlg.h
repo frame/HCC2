@@ -139,6 +139,7 @@ protected:
 	afx_msg void OnFileOpen();
 	afx_msg void OnFileSave();
 	afx_msg void OnFileSaveas();
+	afx_msg void OnFileMinimize();
 	afx_msg void OnFileExit();
 	afx_msg void OnFilePrint();
 	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);

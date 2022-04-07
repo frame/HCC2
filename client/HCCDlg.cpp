@@ -165,6 +165,7 @@ BEGIN_MESSAGE_MAP(CHCCDlg, CDialog)
 	ON_COMMAND(ID_FILE_OPEN, OnFileOpen)
 	ON_COMMAND(ID_FILE_SAVE, OnFileSave)
 	ON_COMMAND(ID_FILE_SAVEAS, OnFileSaveas)
+	ON_COMMAND(ID_FILE_MINIMIZE, OnFileMinimize)
 	ON_COMMAND(ID_FILE_EXIT, OnFileExit)
 	ON_COMMAND(ID_FILE_PRINT, OnFilePrint)
 	ON_WM_LBUTTONUP()
@@ -472,7 +473,8 @@ BOOL CHCCDlg::OnInitDialog()
 	{
 	    //AfxMessageBox (WinVersion.GetWinVersionString(), MB_ICONINFORMATION);
 		l_pMenu->ModifyMenu(2,MF_BYPOSITION|MF_STRING, 2, "?");
-		//this->ModifyStyle(WS_MINIMIZEBOX, WS_POPUP);
+		this->ModifyStyle(WS_MAXIMIZEBOX, 0,0 );
+		this->ModifyStyle(WS_MINIMIZEBOX, 0,0 );
 	}
 
 	//this->ModifyStyle(WS_SYSMENU, WS_CAPTION | WS_POPUP | WS_MINIMIZEBOX);
@@ -1285,6 +1287,11 @@ void CHCCDlg::OnFileExit()
 {
 	OnClose ();
 
+}
+
+void CHCCDlg::OnFileMinimize()
+{
+	ShowWindow(SW_MINIMIZE);
 }
 
 void CHCCDlg::OnFilePrint()

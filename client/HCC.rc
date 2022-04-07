@@ -1579,6 +1579,7 @@ BEGIN
         MENUITEM SEPARATOR
         MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
         MENUITEM SEPARATOR
+        MENUITEM "&Minimize\tCtrl+M",           ID_FILE_MINIMIZE
         MENUITEM "E&xit\tCtrl+X",               ID_FILE_EXIT
     END
     POPUP "Options"
@@ -1948,6 +1949,7 @@ BEGIN
     "R",            ID_SETTINGS_RELOADDATA, VIRTKEY, CONTROL, NOINVERT
     "R",            ID_OPTIONS_SETTINGS_REFRESHTHEME, VIRTKEY, CONTROL, SHIFT, NOINVERT
     "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_FILE_MINIMIZE,           VIRTKEY, CONTROL, NOINVERT
 	"X",            ID_FILE_EXIT,           VIRTKEY, CONTROL, NOINVERT
 
     VK_F1,          IDC_ORDERBUTTON,        VIRTKEY, NOINVERT
