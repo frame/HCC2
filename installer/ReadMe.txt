@@ -10,8 +10,8 @@ Please consult the website for information that didn't make it into this readme 
 
 System Requirements
 ----------------------------------
-Operating System: Windows 98SE, ME, 2000, XP, Vista or 7.
-8 MB free hard drive space (additional 5 MB for the Live Update).
+Operating System: Windows 98SE, ME, 2000, XP, Vista, 7, 9, 10 or 11.
+25 MB free hard drive space (additional 5 MB for the Live Update).
 
 Additional Libraries: GDI+ (v5.1+ w9x/w2k), Info-ZIP (v5.5+) and MSFlexGrid (v6.1+).
 These are bundled with the Installer.
