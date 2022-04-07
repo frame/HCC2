@@ -171,7 +171,10 @@ void CItemCreation::OnSize(UINT nType, int cx, int cy)
 
 	CDialog::OnSize(nType, cx, cy);
 
-	ResizeGrids ();
+	if (m_cWindowState.m_bLoaded)
+	{
+		ResizeGrids ();
+	}
 
 	RedrawOn ();
 
