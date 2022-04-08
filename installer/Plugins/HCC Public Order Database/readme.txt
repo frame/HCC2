@@ -1,5 +1,4 @@
-HCC Public Order Database plugin
-v1.0 2009-03-16 by Arcat, OoR
+HCC POD - Public Order Database
+v2.0 2022-04-08 by Arcat, OoR
 
 Uploads orders and profiles to https://hcc.reclamation.dk/pod/
-

@@ -538,8 +538,12 @@ Section "Example Orders, Profiles and Plugins" section_examples
   File /r ..\Orders
   ;Rename $INSTDIR\Orders\Examples\bigsort.xml $INSTDIR\Orders\Examples\bigsort.hcc
   File /r ..\Profiles
+  ;remove packaged curl from v2.30
+  Delete "$INSTDIR\Plugins\HCC Public Order Database\curl.exe"
+  Delete "$INSTDIR\Plugins\HCC Public Order Database\curl.txt"
   File /r ..\Plugins
-SectionEnd
+  File "/oname=$INSTDIR\Plugins\HCC Public Order Database\upload.exe" ..\..\build\Release\upload.exe
+  SectionEnd
 
 Section "StartMenu Shortcuts" section_menu
 	CreateDirectory "$SMPROGRAMS\${HCC_Title}"
@@ -596,6 +600,7 @@ Section "Uninstall"
 	
 	Delete $INSTDIR\Plugins\plugins_readme.txt
 	RMDir /r "$INSTDIR\Plugins\HCC Online Orders"
+	RMDir /r "$INSTDIR\Plugins\HCC Public Order Database"
 	StrCpy $0 $INSTDIR\Plugins
 	Call un.DeleteDirIfEmpty
 
