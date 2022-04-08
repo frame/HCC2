@@ -503,7 +503,6 @@ CAppData::GetMainWindowState()
 
 		m_cpHCCDlg->GetWindowRect (l_cRect);
 		m_cpHCCDlg->m_cWindowState.fromString (l_csWindowStr);
-		// FIXME frame
 		m_cpHCCDlg->m_cWindowState.m_iWidth = l_cRect.Width ();
 		m_cpHCCDlg->m_cWindowState.m_iHeight = l_cRect.Height ();
 		m_cpHCCDlg->m_cWindowState.setWnd (*m_cpHCCDlg);
@@ -520,7 +519,6 @@ CAppData::GetOrderWindowState()
 	if (l_cRegAccess.LoadKey (l_csBasePath, "OrderWnd", l_csWindowStr))
 	{
 		m_cOrderWnd.m_cWindowState.fromString (l_csWindowStr);
-		SetOrderWindow (m_cOrderWnd.m_cWindowState.m_bVisible);
 		m_cOrderWnd.m_cWindowState.setWnd (&m_cOrderWnd);
 	}
 }
@@ -534,7 +532,6 @@ CAppData::GetFormulaWindowState()
 	if (l_cRegAccess.LoadKey (l_csBasePath, "ItemCreationWnd", l_csWindowStr))
 	{
 		m_cItemCreationWnd.m_cWindowState.fromString (l_csWindowStr);
-		SetItemWindow (m_cItemCreationWnd.m_cWindowState.m_bVisible);
 		m_cItemCreationWnd.m_cWindowState.setWnd (&m_cItemCreationWnd);
 	}
 
@@ -549,7 +546,6 @@ CAppData::GetTechWindowState ()
 	if (l_cRegAccess.LoadKey (l_csBasePath, "TechSelectionWnd", l_csWindowStr))
 	{
 		m_cTechSelectionWnd.m_cWindowState.fromString (l_csWindowStr);
-		SetTechWindow (m_cTechSelectionWnd.m_cWindowState.m_bVisible);
 		m_cTechSelectionWnd.m_cWindowState.setWnd (&m_cTechSelectionWnd);
 	}
 
@@ -564,7 +560,6 @@ CAppData::GetCompWindowState ()
 	if (l_cRegAccess.LoadKey (l_csBasePath, "ComponentWnd", l_csWindowStr))
 	{
 		m_cComponentWnd.m_cWindowState.fromString (l_csWindowStr);
-		SetComponentWindow (m_cComponentWnd.m_cWindowState.m_bVisible);
 		m_cComponentWnd.m_cWindowState.setWnd (&m_cComponentWnd);
 	}
 
@@ -579,7 +574,6 @@ CAppData::GetReportWindowState ()
 	if (l_cRegAccess.LoadKey (l_csBasePath, "ReportWnd", l_csWindowStr))
 	{
 		m_cReportWnd.m_cWindowState.fromString (l_csWindowStr);
-		SetReportWindow (m_cReportWnd.m_cWindowState.m_bVisible);
 		m_cReportWnd.m_cWindowState.setWnd (&m_cReportWnd);
 	}
 }
@@ -594,7 +588,6 @@ CAppData::GetProfileWindowState ()
 	if (l_cRegAccess.LoadKey (l_csBasePath, "ProfileWnd", l_csWindowStr))
 	{
 		m_cProfileWnd.m_cWindowState.fromString (l_csWindowStr);
-		SetProfileWindow (m_cProfileWnd.m_cWindowState.m_bVisible);
 		m_cProfileWnd.m_cWindowState.setWnd (&m_cProfileWnd);
 	}
 }
