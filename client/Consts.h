@@ -1,4 +1,4 @@
-const CString cAppData_Version				= "2.30";
+const CString cAppData_Version				= "2.31";
 const CString cAppData_CacheHeader			= "HCC2 V1.21 - Do not edit!";
 const CString cAppData_DateFormat			= "%Y-%m-%d";
 const CString cAppData_RegBase				= "Software\\HCC2";
@@ -99,9 +99,11 @@ const CString cFile_App_ReportHTML			= "\\order.html";
 const CString cFile_App_History				= "\\History.xml";
 const CString cFile_App_ConfigMask			= "\\Config*.xml";
 const CString cFile_App_Config				= "\\Config.xml";
+const CString cFile_App_ConfigBasename		= "Config.xml";
 const CString cFile_App_ConfigDownload		= "\\Temp\\Config.xml";
 const CString cFile_App_ConfigBackup		= "\\Config.bak";
 const CString cFile_App_Releases				= "\\Release.xml";
+const CString cFile_App_ReleasesBasename				= "Release.xml";
 const CString cFile_App_ReleasesDownload	= "\\Temp\\Release.xml";
 const CString cFile_App_ReleasesBackup		= "\\Release.bak";
 const CString cFile_App_TechniqueFile		= "\\Config\\techniques.xml";

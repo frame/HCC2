@@ -2,7 +2,7 @@ THIRD PARTY PLUGINS
 -------------------
 
 Important Notice: Never install a plugin from an untrusted source, only obtain them from people you know and trust.
-Please review the Online Manual for safety tips: http://hcc.reclamation.dk/?tag=manual&cat=plugins
+Please review the Online Manual for safety tips: https://hcc.reclamation.dk/?tag=manual&cat=plugins
 
 Plugin support requires Windows 2000, XP, Vista, 7 or newer. Some plugins might depend on a specific Windows version or other software requirements. Please review the plugin readme for detailed information.
 

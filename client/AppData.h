@@ -266,6 +266,7 @@ public:
 	static CString m_csCurrentTheme;
 	static CString m_csAppBasePath;
 	static CString m_csGameBasePath;
+	static CString m_csGameBasePathTemp;
 	static CString m_csCurrentOrderFilename;
 
 	static CString m_csDatabaseRevision;

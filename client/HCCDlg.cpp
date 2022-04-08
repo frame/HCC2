@@ -13,7 +13,6 @@
 #include "WizardPage3.h"
 #include "WizardDialog.h"
 #include "Scheme.h"
-#include "XWinVer.h"
 #include "Regexp.h"
 
 using namespace Gdiplus;
@@ -165,6 +164,7 @@ BEGIN_MESSAGE_MAP(CHCCDlg, CDialog)
 	ON_COMMAND(ID_FILE_OPEN, OnFileOpen)
 	ON_COMMAND(ID_FILE_SAVE, OnFileSave)
 	ON_COMMAND(ID_FILE_SAVEAS, OnFileSaveas)
+	ON_COMMAND(ID_FILE_MINIMIZE, OnFileMinimize)
 	ON_COMMAND(ID_FILE_EXIT, OnFileExit)
 	ON_COMMAND(ID_FILE_PRINT, OnFilePrint)
 	ON_WM_LBUTTONUP()
@@ -293,7 +293,7 @@ void __stdcall InternetCallbackFunction(HINTERNET hInternet, DWORD dwContext, DW
 			if ( re_updatecheck.Match( buffer ) )
 			{
 				//AfxMessageBox (re_updatecheck[1], MB_ICONINFORMATION); // min
-				if (re_updatecheck[1] != CAppData::m_csDatabaseRevision)
+				if (re_updatecheck[1] > CAppData::m_csDatabaseRevision)
 				{
 					AfxMessageBox ("A new update for HCC is available! Bwaaa-ak!!\n\nPlease click on \"Live Update\" to start the download.", MB_ICONINFORMATION);
 				}
@@ -317,12 +317,18 @@ CString CHCCDlg::ReadConfigFile()
 	XMLTag l_cRootTag ("#ROOT#");
 	XMLTag l_cConfigTag ("config");
 
-	CString updateURL = "http://hcc.reclamation.dk/update_check/";
+	CString updateURL = "https://hcc.reclamation.dk/update_check/";
 	l_cParser.OpenFile (CAppData::m_csAppBasePath + cFile_App_Config);
 
 	if (l_cConfigTag.GetNextTag (l_cParser, l_cRootTag))
 	{
 		l_cConfigTag.GetTagValue (l_cParser, (CString) "update_check", updateURL );
+	}
+
+	if (!CHCCApp::IsWindows8OrGreater())
+	{
+		// Windows <= 7 has issues with HTTPS encryption of modern servers
+		updateURL.Replace("https://", "http://");
 	}
 
 	return updateURL;
@@ -466,19 +472,12 @@ BOOL CHCCDlg::OnInitDialog()
 		CAppData::SetMenuItem(l_pMenu, ID_WINDOW_ALWAYSONTOP, m_cWindowState.m_bOnTop);
 	}
 
-
-
-	if (WinVersion.GetMajorVersion() >= 6)
+	if (CHCCApp::IsWindowsVistaOrGreater() && CAppData::m_bVerticalToolBar)
 	{
-	    //AfxMessageBox (WinVersion.GetWinVersionString(), MB_ICONINFORMATION);
-		l_pMenu->ModifyMenu(2,MF_BYPOSITION|MF_STRING, 2, "?");
-		//this->ModifyStyle(WS_MINIMIZEBOX, WS_POPUP);
+		// Windows >= Vista has a larger controlbox
+		this->ModifyStyle(WS_MINIMIZEBOX, 0);
+		
 	}
-
-	//this->ModifyStyle(WS_SYSMENU, WS_CAPTION | WS_POPUP | WS_MINIMIZEBOX);
-	//this->ModifyStyle(WS_MINIMIZEBOX, WS_POPUP);
-	//ShowWindow(SW_MAXIMIZE);
-
 
 	this->GetWindowRect (m_cOrigWnd);
 	this->GetClientRect (m_cOrigClientWnd);
@@ -516,9 +515,16 @@ BOOL CHCCDlg::OnInitDialog()
 		hInternetSession = InternetOpen("HCC/" + cAppData_Version, INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, INTERNET_FLAG_ASYNC);
 		if (hInternetSession != NULL)
         {
-            InternetSetStatusCallback(hInternetSession, (INTERNET_STATUS_CALLBACK)InternetCallbackFunction);
-            hURL = InternetOpenUrl(hInternetSession, CHCCDlg::ReadConfigFile() + "?client=" + cAppData_Version + "&database=" + CAppData::m_csDatabaseRevision, NULL, 0, INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, (unsigned long)(&request_context));
-
+			InternetSetStatusCallback(hInternetSession, (INTERNET_STATUS_CALLBACK)InternetCallbackFunction);
+			CString url = CHCCDlg::ReadConfigFile();
+			if (url.Left(8) == "https://")
+			{
+				hURL = InternetOpenUrl(hInternetSession, url + "?client=" + cAppData_Version + "&database=" + CAppData::m_csDatabaseRevision, NULL, 0, INTERNET_FLAG_SECURE | INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, (unsigned long)(&request_context));
+			}
+			else
+			{
+				hURL = InternetOpenUrl(hInternetSession, url + "?client=" + cAppData_Version + "&database=" + CAppData::m_csDatabaseRevision, NULL, 0, INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, (unsigned long)(&request_context));
+			}
         }
 	}
 	return TRUE;  // return TRUE  unless you set the focus to a control
@@ -1287,6 +1293,11 @@ void CHCCDlg::OnFileExit()
 
 }
 
+void CHCCDlg::OnFileMinimize()
+{
+	ShowWindow(SW_MINIMIZE);
+}
+
 void CHCCDlg::OnFilePrint()
 {
 	CAppData::SetReportWindow(true);
@@ -1465,6 +1476,11 @@ void CHCCDlg::OnOptionsOrientationHorizontal()
 {
 	CAppData::m_bVerticalToolBar = false;
 	ArrangeToolBar();
+	if (CHCCApp::IsWindowsVistaOrGreater())
+	{
+		// Windows >= Vista has a larger controlbox
+		this->ModifyStyle(0, WS_MINIMIZEBOX);
+	}
 	UpdateToolBarMenu();
 }
 
@@ -1522,6 +1538,11 @@ CHCCDlg::ArrangeToolBar()
 void CHCCDlg::OnOptionsOrientationVertical()
 {
 	CAppData::m_bVerticalToolBar = true;
+	if (CHCCApp::IsWindowsVistaOrGreater())
+	{
+		// Windows >= Vista has a larger controlbox
+		this->ModifyStyle(WS_MINIMIZEBOX, 0);
+	}
 	ArrangeToolBar();
 	UpdateToolBarMenu();
 }

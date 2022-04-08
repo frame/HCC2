@@ -1,6 +1,9 @@
 // UpdateDialog.cpp : implementation file
 //
 
+#ifdef _DEBUG
+#define _AFX_ENABLE_INLINES
+#endif
 #include "stdafx.h"
 #include "HCC.h"
 #include "UpdateDialog.h"
@@ -243,11 +246,19 @@ bool CUpdateDialog::StartDownload()
 
 	SplitURL ( m_cpCurrentFileItem->m_csFile, l_csServerName, l_csPath);
 
-	m_cInternetConnect = InternetConnect (m_cInternetHandle, l_csServerName, GetServiceType (m_cpCurrentFileItem->m_csFile), NULL, NULL, INTERNET_SERVICE_HTTP, 0, 0);
+	CString url = m_cpCurrentFileItem->m_csFile;
+
+	m_cInternetConnect = InternetConnect (m_cInternetHandle, l_csServerName, GetServiceType (url), NULL, NULL, INTERNET_SERVICE_HTTP, 0, 0);
 	if (m_cInternetConnect)
 	{
-		m_cHTTPHandle = HttpOpenRequest (m_cInternetConnect, "GET", l_csPath, NULL, NULL,  (const char**)"*/*\0",
-													 INTERNET_FLAG_DONT_CACHE   , 0);
+		if (url.Left(8) == "https://")
+		{
+			m_cHTTPHandle = HttpOpenRequest (m_cInternetConnect, "GET", l_csPath, NULL, NULL,  (const char**)"*/*\0", INTERNET_FLAG_SECURE | INTERNET_FLAG_DONT_CACHE, 0);
+		}
+		else
+		{
+			m_cHTTPHandle = HttpOpenRequest (m_cInternetConnect, "GET", l_csPath, NULL, NULL,  (const char**)"*/*\0", INTERNET_FLAG_DONT_CACHE, 0);
+		}
 		if (m_cHTTPHandle)
 		{
 			char l_cBuffer[256];
@@ -460,6 +471,11 @@ bool CUpdateDialog::ReadConfigFile(CString &a_csFilename)
 		{
 			while (l_cServersTag.GetRepeatingDoubleTagValue (l_cParser, (CString) "server", l_cServerName, l_cServerAddress))
 			{
+				if (!CHCCApp::IsWindows8OrGreater())
+				{
+					// Windows <= 7 has issues with HTTPS encryption of modern servers
+					l_cServerAddress.Replace("https://", "http://");
+				}
 				m_clServerMap.SetAt (l_cServerName, l_cServerAddress);
 			}
 
@@ -695,6 +711,11 @@ CUpdateDialog::UpdateReleaseInfo()
 		m_cUpdateButton.SetWindowText ("Re-download");
 		m_cVersionComment.SetWindowText ("You have this database already");
 	}
+	else if (l_csThisVersion > CAppData::GetDatabaseZipName (m_cLatestDatabaseRelease.m_ctRevision))
+	{
+		m_cUpdateButton.SetWindowText ("Downgrade");
+		m_cVersionComment.SetWindowText ("This database is older than the one you already have installed");
+	}
 	else
 	{
 		m_cUpdateButton.SetWindowText ("Start Download");
@@ -866,7 +887,7 @@ CUpdateDialog::PrepareDownloadForConfig()
 	{
 		//Report ("Downloading from " + l_csCurrentServer + " site");
 		l_cpFileItem = new CFileItem ();
-		l_cpFileItem->m_csFile = m_csServerAddress + cFile_App_Config;
+		l_cpFileItem->m_csFile = m_csServerAddress + "/" + cFile_App_ConfigBasename;
 		l_cpFileItem->m_csSaveName = CAppData::m_csAppBasePath + cFile_App_ConfigDownload;
 		m_clDownloadList.AddTail (l_cpFileItem);
 		m_iDownloadType = DownloadType_Config;
@@ -889,7 +910,7 @@ CUpdateDialog::PrepareDownloadForReleases()
 		{
 			//Report ("Downloading from " + l_csCurrentServer + " site");
 			l_cpFileItem = new CFileItem ();
-			l_cpFileItem->m_csFile = m_csServerAddress + cFile_App_Releases;
+			l_cpFileItem->m_csFile = m_csServerAddress + "/" + cFile_App_ReleasesBasename;
 			l_cpFileItem->m_csSaveName = CAppData::m_csAppBasePath + cFile_App_ReleasesDownload;
 			m_clDownloadList.AddTail (l_cpFileItem);
 			m_iDownloadType = DownloadType_Release;
@@ -920,7 +941,7 @@ CUpdateDialog::PrepareDownloadForDatabase()
 		{
 			//Report ("Downloading Database Revision '" + m_cLatestDatabaseRelease.m_ctRevision.Format ("%d-%m-%Y") + "' from " + l_csCurrentServer + " site");
 			l_cpFileItem = new CFileItem ();
-			l_cpFileItem->m_csFile = m_csServerAddress + "\\" + l_csVersion;
+			l_cpFileItem->m_csFile = m_csServerAddress + "/" + l_csVersion;
 			l_cpFileItem->m_iSize = 0;
 			l_cpFileItem->m_csSaveName = CAppData::m_csAppBasePath + cPath_App_Temp + "\\" + l_csVersion;
 			l_cpFileItem->m_iResult = FileItem_Waiting;

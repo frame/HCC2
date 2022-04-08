@@ -101,6 +101,41 @@ bool CRegistryAccess::LoadKey(CString a__csKeyPath, CString a_csKey, CString &a_
 	return (false);
 }
 
+bool CRegistryAccess::LoadCurrentUserKey(CString a__csKeyPath, CString a_csKey, CString &a_csValue)
+{
+	HKEY Key;
+   int i = 0;
+	char ValueName[512];
+	unsigned char Data[512];
+	unsigned long ValueSize  = 512;
+	unsigned long DataSize = 512;
+	CString l_csStr;
+
+	if (RegOpenKey (HKEY_CURRENT_USER, a__csKeyPath, &Key) == ERROR_SUCCESS)
+	{
+		while (RegEnumValue (Key, i, ValueName, &ValueSize, NULL, NULL, Data, &DataSize) == ERROR_SUCCESS)
+		{
+			if (stricmp (ValueName, a_csKey) == 0)
+			{
+				if (DataSize > 0)
+				{
+					a_csValue.Format ("%s", Data);
+				}
+				else
+				{
+					a_csValue = "";
+				}
+				return (true);
+			}
+
+			ValueSize = 512;
+			DataSize = 512;
+			i++;
+		}
+	}
+	return (false);
+}
+
 bool CRegistryAccess::DetectFlexGrid()
 {
 	HKEY Key;

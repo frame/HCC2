@@ -171,7 +171,10 @@ void CItemCreation::OnSize(UINT nType, int cx, int cy)
 
 	CDialog::OnSize(nType, cx, cy);
 
-	ResizeGrids ();
+	if (m_cWindowState.m_bLoaded)
+	{
+		ResizeGrids ();
+	}
 
 	RedrawOn ();
 
@@ -367,6 +370,7 @@ CItemCreation::Initialise()
 
 void CItemCreation::OnClose()
 {
+	m_cWindowState.m_bVisible = false;
 	CAppData::SetItemWindow (false);
 	CDialog::OnClose();
 }

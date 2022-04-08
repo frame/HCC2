@@ -273,6 +273,7 @@
 #define IDC_AUTOUPDATECHECK             1150
 #define ID_FILE_SAVEAS                  32774
 #define ID_FILE_EXIT                    32775
+#define ID_FILE_MINIMIZE                32776
 #define ID_EDIT_DELETE                  32777
 #define ID_VIEW_ITEMS                   32780
 #define ID_VIEW_REPORTS_BYITEMS         32781

@@ -1,20 +1,17 @@
 
 /*
  *	Horizons Crafting Calculator 2 - NSIS Script
- *  Copyright 2004-09 HCC Development Team
+ *  Copyright 2004-22 HCC Development Team
  *
- *	http://hcc.reclamation.dk/
+ *	https://hcc.reclamation.dk/
  *
- *
- *  Initially created on 2005-10-24 08:18
- *
- *	Tested with NSIS Installer 2.10, 2.11, 2.12, 2.14, 2.15, 2.30, 2.36, 2.40 and 2.44
+ *	Tested with NSIS Installer 2.10, 2.11, 2.12, 2.14, 2.15, 2.30, 2.36, 2.40, 2.44 and 2.51
 */
 
 
 
-!define HCC_Version "2.30" ; ${HCC_Version}
-!define HCC_Revision "2009-03-18" ; ${HCC_Revision}
+!define HCC_Version "2.31" ; ${HCC_Version}
+!define HCC_Revision "2022-04-08" ; ${HCC_Revision}
 !define HCC_Name "HCC2" ; ${HCC_Name}
 !define HCC_Title "Horizons Crafting Calculator" ; ${HCC_Title}
 !define HCC_Installer_Version "1.20" ; ${HCC_Installer_Version}
@@ -37,7 +34,7 @@
 ;SetCompressor /SOLID /FINAL lzma ; compiler settings
 
 Name "${HCC_Title} - v${HCC_Version}" ; installation title
-OutFile "..\..\HCC_v${HCC_Version}.exe" ; installer filename
+OutFile "..\..\build\HCC_v${HCC_Version}.exe" ; installer filename
 InstallDir $PROGRAMFILES\${HCC_Name} ; default installation directory
 InstallDirRegKey HKLM "Software\${HCC_Name}" "Install_Dir" ; default installation regkey
 
@@ -363,7 +360,7 @@ Section "v${HCC_Version} Application Files (required)" section_core
     nochoice_reset_prefs:
  	
      	
-	File ..\HCC.exe
+	File ..\..\build\Release\HCC.exe
 	File ..\gdiplus.dll
 	File ..\unzip32.dll
 	File ..\msvcr71.dll
@@ -517,7 +514,7 @@ Section "v${HCC_Version} Application Files (required)" section_core
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "UninstallString" '"$INSTDIR\uninstall.exe"'
 	WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "NoModify" 1
 	WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "NoRepair" 1
-	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "HelpLink" "http://hcc.reclamation.dk/"
+	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${HCC_Name}" "HelpLink" "https://hcc.reclamation.dk/"
 	
 	AccessControl::GrantOnFile "$INSTDIR\" "(BU)" "FullAccess"
 	AccessControl::GrantOnRegKey HKLM "Software\${HCC_Name}" "(BU)" "FullAccess"
@@ -531,15 +528,19 @@ SectionEnd
 Section "${HCC_Revision} Database Files (recommended)" section_data
 	AddSize 4096
 	;File /r ..\Config ;old Method - obsolete
-	File /oname=Temp\HCC_${HCC_Revision}.zip ..\..\HCC_${HCC_Revision}.zip
+	File /oname=Temp\HCC_${HCC_Revision}.zip ..\..\build\database.zip
 SectionEnd
 
 Section "Example Orders, Profiles and Plugins" section_examples
   File /r ..\Orders
   ;Rename $INSTDIR\Orders\Examples\bigsort.xml $INSTDIR\Orders\Examples\bigsort.hcc
   File /r ..\Profiles
+  ;remove packaged curl from v2.30
+  Delete "$INSTDIR\Plugins\HCC Public Order Database\curl.exe"
+  Delete "$INSTDIR\Plugins\HCC Public Order Database\curl.txt"
   File /r ..\Plugins
-SectionEnd
+  File "/oname=$INSTDIR\Plugins\HCC Public Order Database\upload.exe" ..\..\build\Release\upload.exe
+  SectionEnd
 
 Section "StartMenu Shortcuts" section_menu
 	CreateDirectory "$SMPROGRAMS\${HCC_Title}"
@@ -596,6 +597,7 @@ Section "Uninstall"
 	
 	Delete $INSTDIR\Plugins\plugins_readme.txt
 	RMDir /r "$INSTDIR\Plugins\HCC Online Orders"
+	RMDir /r "$INSTDIR\Plugins\HCC Public Order Database"
 	StrCpy $0 $INSTDIR\Plugins
 	Call un.DeleteDirIfEmpty
 

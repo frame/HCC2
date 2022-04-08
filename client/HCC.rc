@@ -96,8 +96,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 2,30,0,0
- PRODUCTVERSION 2,30,0,0
+ FILEVERSION 2,31,0,0
+ PRODUCTVERSION 2,31,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -117,7 +117,7 @@ BEGIN
             VALUE "CompanyName", "HCC Development Team\0"
             VALUE "LegalTrademarks", "HCC Application and datafile formats: HCC Development Team. Actual data and derived icons: Virtrium LLC\0"
             VALUE "LegalCopyright", "HCC Development Team\0"
-            VALUE "FileVersion", "2.30.0.0\0"
+            VALUE "FileVersion", "2.31.0.0\0"
 
             VALUE "InternalName", "HCC2\0"
             VALUE "OriginalFilename", "HCC.EXE\0"
@@ -1579,6 +1579,7 @@ BEGIN
         MENUITEM SEPARATOR
         MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
         MENUITEM SEPARATOR
+        MENUITEM "&Minimize\tCtrl+M",           ID_FILE_MINIMIZE
         MENUITEM "E&xit\tCtrl+X",               ID_FILE_EXIT
     END
     POPUP "Options"
@@ -1688,7 +1689,7 @@ BEGIN
 
         END
     END
-    POPUP "Help"
+    POPUP "?"
     BEGIN
         MENUITEM "Official HCC Website",        ID_HELP_INDEX
         MENUITEM "Online Manual",               ID_HELP_ONELINEMANUAL
@@ -1948,6 +1949,7 @@ BEGIN
     "R",            ID_SETTINGS_RELOADDATA, VIRTKEY, CONTROL, NOINVERT
     "R",            ID_OPTIONS_SETTINGS_REFRESHTHEME, VIRTKEY, CONTROL, SHIFT, NOINVERT
     "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_FILE_MINIMIZE,           VIRTKEY, CONTROL, NOINVERT
 	"X",            ID_FILE_EXIT,           VIRTKEY, CONTROL, NOINVERT
 
     VK_F1,          IDC_ORDERBUTTON,        VIRTKEY, NOINVERT

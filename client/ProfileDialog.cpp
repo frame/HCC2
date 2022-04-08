@@ -76,6 +76,7 @@ CProfileDialog::Initialise()
 
 void CProfileDialog::OnClose()
 {
+	m_cWindowState.m_bVisible = false;
 	CAppData::SetProfileWindow (false);
 
 	CDialog::OnClose();

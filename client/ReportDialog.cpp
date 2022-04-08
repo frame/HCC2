@@ -9,7 +9,6 @@
 #include "Scheme.h"
 #include "Regexp.h"
 #include "IO.h"
-#include "XWinVer.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -1248,9 +1247,9 @@ BOOL CReportDialog::OnInitDialog()
 	m_cReportType.SetCurSel (CAppData::m_iReportType);
 	m_cReportFormat.SetCurSel (0);
 
-    if (WinVersion.GetMajorVersion() >= 5)
+    if (CHCCApp::IsWindows8OrGreater())
 	{
-	    // Windows 2k or newer only!
+	    // upload.exe is compiled against Windows 7+, but we'll enforce Windows 8 anyways
         WIN32_FIND_DATA findData;
         HANDLE handle = FindFirstFile(CAppData::m_csAppBasePath + "\\Plugins\\*.*", &findData);
         CString m_cScanDir;
@@ -1343,6 +1342,7 @@ void CReportDialog::OnGetMinMaxInfo (MINMAXINFO FAR* lpMMI)
 
 void CReportDialog::OnClose()
 {
+	m_cWindowState.m_bVisible = false;
 	CAppData::SetReportWindow (false);
 	CDialog::OnClose();
 }
