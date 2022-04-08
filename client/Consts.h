@@ -1,4 +1,4 @@
-const CString cAppData_Version				= "2.30";
+const CString cAppData_Version				= "2.31";
 const CString cAppData_CacheHeader			= "HCC2 V1.21 - Do not edit!";
 const CString cAppData_DateFormat			= "%Y-%m-%d";
 const CString cAppData_RegBase				= "Software\\HCC2";

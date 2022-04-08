@@ -1,20 +1,17 @@
 
 /*
  *	Horizons Crafting Calculator 2 - NSIS Script
- *  Copyright 2004-09 HCC Development Team
+ *  Copyright 2004-22 HCC Development Team
  *
  *	https://hcc.reclamation.dk/
  *
- *
- *  Initially created on 2005-10-24 08:18
- *
- *	Tested with NSIS Installer 2.10, 2.11, 2.12, 2.14, 2.15, 2.30, 2.36, 2.40 and 2.44
+ *	Tested with NSIS Installer 2.10, 2.11, 2.12, 2.14, 2.15, 2.30, 2.36, 2.40, 2.44 and 2.51
 */
 
 
 
-!define HCC_Version "2.30" ; ${HCC_Version}
-!define HCC_Revision "2009-03-18" ; ${HCC_Revision}
+!define HCC_Version "2.31" ; ${HCC_Version}
+!define HCC_Revision "2022-04-08" ; ${HCC_Revision}
 !define HCC_Name "HCC2" ; ${HCC_Name}
 !define HCC_Title "Horizons Crafting Calculator" ; ${HCC_Title}
 !define HCC_Installer_Version "1.20" ; ${HCC_Installer_Version}
