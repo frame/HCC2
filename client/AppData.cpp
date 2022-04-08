@@ -107,6 +107,7 @@ bool CAppData::m_bAutoUpdateQuery = true;
 CString CAppData::m_csCurrentTheme = "hcctheme_default.xml";
 CString CAppData::m_csAppBasePath = "";
 CString CAppData::m_csGameBasePath = "";
+CString CAppData::m_csGameBasePathTemp = "";
 CString CAppData::m_csCurrentOrderFilename = "Untitled.xml";
 bool CAppData::m_bProfilesChanged = false;
 CString CAppData::m_csDatabaseRevision = "Initial";
@@ -739,13 +740,17 @@ CAppData::ReadDefaults()
 	m_csLastTechCategory = "";
 	m_csCurrentTheme = cFile_App_DefaultTheme;
 
-	l_cRegAccess.LoadKey (l_csBasePath, "GameBasePath", m_csGameBasePath);
-
-	if (m_csGameBasePath.IsEmpty ())
+	
+	l_cRegAccess.LoadKey (l_csBasePath, "GameBasePath", m_csGameBasePathTemp);
+	if (m_csGameBasePathTemp == "<Please Set Manually>" || m_csGameBasePathTemp.IsEmpty () || m_csGameBasePathTemp == "Y")
 	{
-		m_csGameBasePath = "<Please Set Manually>";
+		if (m_csGameBasePath.IsEmpty ())
+		{
+			m_csGameBasePath = "<Please Set Manually>";
+		}
+	} else {
+		m_csGameBasePath = m_csGameBasePathTemp;
 	}
-
 	l_cRegAccess.LoadKey (l_csBasePath, "CurrentProfile", m_csCurrentProfile);
 	l_cRegAccess.LoadKey (l_csBasePath, "CurrentProfileType", m_csCurrentProfileType);
 	//l_cRegAccess.LoadKey (l_csBasePath, "OrderDir", m_csOrderDir);
@@ -813,6 +818,10 @@ CAppData::SaveDefaults()
 
 	SaveProfiles (true);
 
+	if (m_csGameBasePath == "<Please Set Manually>")
+	{
+		m_csGameBasePath = "";
+	}
 	l_cRegAccess.SaveKey (l_csBasePath, "GameBasePath", m_csGameBasePath);
 	l_cRegAccess.SaveKey (l_csBasePath, "CurrentProfile", m_csCurrentProfile);
 	l_cRegAccess.SaveKey (l_csBasePath, "CurrentProfileType", m_csCurrentProfileType);

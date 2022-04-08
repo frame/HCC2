@@ -104,7 +104,11 @@ BOOL CHCCApp::InitInstance()
 
 		GetCurrentDirectory (l_iSize, l_cPath);
 		CAppData::m_cpHCCDlg = &dlg;
-		l_cRegAccess.LoadKey ("SOFTWARE\\ArtifactEntertainment\\Horizons", "", l_csGamePath);
+		l_cRegAccess.LoadCurrentUserKey ("Software\\Virtrium\\Istaria", "", l_csGamePath);
+		if (l_csGamePath.IsEmpty ())
+		{
+			l_cRegAccess.LoadKey ("SOFTWARE\\ArtifactEntertainment\\Horizons", "", l_csGamePath);
+		}
 		l_csAppPath = l_cPath;
 
         l_csParameterOne.Format("%s", __argv[0]);

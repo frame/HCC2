@@ -16,6 +16,7 @@ public:
 	bool LoadKey(CString a__csKeyPath, CString a_csKey, int &a_iValue);
 	bool LoadKey(CString a__csKeyPath, CString a_csKey, bool &a_bValue);
 	bool LoadKey(CString a__csKeyPath, CString a_csKey, CString &a_csValue);
+	bool LoadCurrentUserKey(CString a__csKeyPath, CString a_csKey, CString &a_csValue);
 	bool SaveKey(CString a_csKeyPath, CString a_csKey, int a_iValue);
 	bool SaveKey(CString a_csKeyPath, CString a_csKey, bool a_bValue);
 	bool SaveKey (CString a_csKeyPath, CString a_csKey, CString a_csValue);
