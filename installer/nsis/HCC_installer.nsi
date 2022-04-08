@@ -37,7 +37,7 @@
 ;SetCompressor /SOLID /FINAL lzma ; compiler settings
 
 Name "${HCC_Title} - v${HCC_Version}" ; installation title
-OutFile "..\..\HCC_v${HCC_Version}.exe" ; installer filename
+OutFile "..\..\build\HCC_v${HCC_Version}.exe" ; installer filename
 InstallDir $PROGRAMFILES\${HCC_Name} ; default installation directory
 InstallDirRegKey HKLM "Software\${HCC_Name}" "Install_Dir" ; default installation regkey
 
@@ -363,7 +363,7 @@ Section "v${HCC_Version} Application Files (required)" section_core
     nochoice_reset_prefs:
  	
      	
-	File ..\HCC.exe
+	File ..\..\build\Release\HCC.exe
 	File ..\gdiplus.dll
 	File ..\unzip32.dll
 	File ..\msvcr71.dll
@@ -531,7 +531,7 @@ SectionEnd
 Section "${HCC_Revision} Database Files (recommended)" section_data
 	AddSize 4096
 	;File /r ..\Config ;old Method - obsolete
-	File /oname=Temp\HCC_${HCC_Revision}.zip ..\..\HCC_${HCC_Revision}.zip
+	File /oname=Temp\HCC_${HCC_Revision}.zip ..\..\build\database.zip
 SectionEnd
 
 Section "Example Orders, Profiles and Plugins" section_examples
